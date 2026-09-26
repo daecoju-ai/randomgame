@@ -120,34 +120,45 @@ const evolutionNames=[
  ['빛의 정령','하이프리스트','세라핌','루미나','아스트라']
 ];
 const classLabels={MELEE:'근접 계열',RANGED:'원거리 계열',MAGIC:'마법 계열'};
-// --- Persistent hero meta-progression (leveled outside battle, applied in battle) ---
-const hasLS=typeof localStorage!=='undefined';
-let heroLevels=(hasLS&&JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'null'))||{};
-let essence=hasLS?(+(localStorage.getItem('ff_essence')||0)||0):0;
-function saveMeta(){if(!hasLS)return;localStorage.setItem('ff_heroLevelsV2',JSON.stringify(heroLevels));localStorage.setItem('ff_essence',String(essence))}
+// Persistent local progression. A single versioned record avoids partial currency/level writes.
+const META_KEY='ff_progress_v3';
+let storageAvailable=true,labFilter='all',selectedLabKey='0:1';
+function sanitizeMeta(value){const levels={};for(let type=0;type<12;type++)for(let tier=1;tier<=5;tier++){if(tier===1&&!summonTypes.includes(type))continue;const key=type+':'+tier,n=Number(value?.levels?.[key]);if(Number.isInteger(n)&&n>=1&&n<=20)levels[key]=n}const n=Number(value?.essence);return{version:3,levels,essence:Number.isFinite(n)&&n>=0?Math.min(10000000,Math.floor(n)):0}}
+function readMeta(){try{if(typeof localStorage==='undefined'){storageAvailable=false;return{levels:{},essence:120}}const raw=localStorage.getItem(META_KEY);if(raw){try{return sanitizeMeta(JSON.parse(raw))}catch{storageAvailable=false;return{levels:{},essence:0}}}let legacy={};try{legacy=JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'{}')}catch{}const value=sanitizeMeta({levels:legacy,essence:localStorage.getItem('ff_essence')||0});value.essence+=120;localStorage.setItem(META_KEY,JSON.stringify(value));return value}catch{storageAvailable=false;return{levels:{},essence:120}}}
+const initialMeta=readMeta();let heroLevels=initialMeta.levels,essence=initialMeta.essence;
+function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(META_KEY,JSON.stringify({version:3,levels:heroLevels,essence}));storageAvailable=true}catch{storageAvailable=false}renderWallet()}
+function renderWallet(){document.querySelector('#essence').textContent=essence;document.querySelector('#lobbyEssence').textContent=essence;document.querySelector('#saveStatus').textContent=storageAvailable?'이 브라우저에 자동 저장 · 기기 간 동기화 없음':'저장 공간 사용 불가 · 종료하면 성장이 사라질 수 있습니다'}
 function lvKey(type,tier){return type+':'+tier}
 function getLv(type,tier){return heroLevels[lvKey(type,tier)]||1}
 function levelCost(lv){return lv*12}
-function metaAtkMult(type,tier){let lv=getLv(type,tier),m=1+.05*(lv-1);if(lv>=10)m*=1.25;return m}
-const KIND_SKILL2={bash:'기절 지속시간 증가',slash:'처형 발동 체력 35%로 상승',arrow:'사거리 +20%',fire:'치명타 확률 15%',volt:'연쇄 대상 +1',ice:'둔화 지속시간 증가'};
+function metaAtkMult(type,tier){const lv=getLv(type,tier);return (1+.05*(lv-1))*(lv>=10?1.25:1)}
+function battleAttack(entry){return unitData(entry).atk*Math.pow(2.6,entry.lv-1)*metaAtkMult(entry.type,entry.lv)}
+function battleRange(entry){const t=unitData(entry);return t.range*(t.kind==='arrow'&&getLv(entry.type,entry.lv)>=5?1.2:1)}
+const KIND_SKILL2={bash:'방패 충격: 기절 0.35초 → 0.5초',slash:'처형: 적 체력 35% 미만에서 피해 ×1.8',arrow:'장거리 조준: 사거리 +20%',fire:'화염 치명타: 15% 확률로 피해 ×1.5',volt:'연쇄 확장: 추가 타격 2명 → 3명',ice:'서리 결계: 감속 0.8초 → 1.2초'};
 function entryKind(entry){return (entry.name&&SPECIALS[entry.name]?.kind)||U[entry.type].kind}
-function heroSkillText(entry){let lv=getLv(entry.type,entry.lv),kind=entryKind(entry);return[{name:U[entry.type].skill,unlocked:true},{name:'Lv.5 · '+KIND_SKILL2[kind],unlocked:lv>=5},{name:'Lv.10 · 공격력 +25%',unlocked:lv>=10}]}
+function heroSkillText(entry){const lv=getLv(entry.type,entry.lv),kind=entryKind(entry);return[{name:'Lv.1 · 기본 공격 / 성장 레벨당 공격력 +5%',unlocked:true},{name:'Lv.5 · '+KIND_SKILL2[kind],unlocked:lv>=5},{name:'Lv.10 · 전투 공격력 추가 +25%',unlocked:lv>=10}]}
 function renderHeroLab(){
- document.querySelector('#essence').textContent=essence;
- const entries=catalogEntries();
- document.querySelector('#labCards').innerHTML=entries.map((entry,i)=>{
-  let lv=getLv(entry.type,entry.lv),cost=levelCost(lv),maxed=lv>=20,battleOn=started&&!ended,canAfford=essence>=cost&&!maxed&&!battleOn;
-  let skills=heroSkillText(entry).map(s=>`<div class="skillHint" style="opacity:${s.unlocked?1:.4}">${s.unlocked?'✦':'🔒'} ${s.name}</div>`).join('');
-  return `<div class="card labCard"><canvas width="240" height="210" data-lab="${i}"></canvas><b>${heroLabel(entry)}</b><span class="tag">T${entry.lv} · ${tierNames[entry.lv]}</span><div class="lv">Lv.${lv}${maxed?' MAX':''}</div>${skills}<button class="levelUp" data-lvtype="${entry.type}" data-lvtier="${entry.lv}" ${canAfford?'':'disabled'}>${battleOn?'전투 중 불가':maxed?'최대 레벨':'강화 · '+cost+' ✦'}</button></div>`;
- }).join('');
- document.querySelectorAll('[data-lab]').forEach(c=>body(c.getContext('2d'),120,111,entries[+c.dataset.lab],1.75,true));
- document.querySelectorAll('[data-lvtype]').forEach(b=>b.onclick=()=>levelUpHero(+b.dataset.lvtype,+b.dataset.lvtier));
+ renderWallet();const entries=catalogEntries(),selected=entries.find(u=>lvKey(u.type,u.lv)===selectedLabKey)||entries[0];
+ const shown=entries.filter(u=>labFilter==='all'||(labFilter==='T1'?u.lv===1:U[u.type].cls===labFilter));
+ document.querySelector('#labCards').innerHTML=shown.map(u=>`<button class="labSelect ${lvKey(u.type,u.lv)===selectedLabKey?'selected':''}" data-hero-select="${u.type}:${u.lv}" aria-label="${heroLabel(u)} T${u.lv} 선택" aria-pressed="${lvKey(u.type,u.lv)===selectedLabKey}"><span>T${u.lv} ${tierNames[u.lv]}</span><canvas width="160" height="150" data-lab-type="${u.type}" data-lab-tier="${u.lv}"></canvas><b>${heroLabel(u)}</b><small>Lv.${getLv(u.type,u.lv)} / 20</small></button>`).join('');
+ document.querySelectorAll('[data-lab-type]').forEach(c=>body(c.getContext('2d'),80,78,{type:+c.dataset.labType,lv:+c.dataset.labTier},1.3,true));
+ document.querySelectorAll('[data-hero-select]').forEach(b=>b.onclick=()=>{selectedLabKey=b.dataset.heroSelect;renderHeroLab();if(innerWidth<801)document.querySelector('#labDetail').scrollIntoView?.({behavior:'smooth',block:'start'})});
+ const lv=getLv(selected.type,selected.lv),cost=levelCost(lv),maxed=lv>=20,battleOn=started&&!ended;
+ let next=(1+.05*lv)*(lv+1>=10?1.25:1)*unitData(selected).atk*Math.pow(2.6,selected.lv-1);
+ document.querySelector('#labDetail').innerHTML=`<span class="eyebrow">HERO GROWTH / ${classLabels[U[selected.type].cls]}</span><canvas id="detailHero" width="280" height="210"></canvas><h3>${heroLabel(selected)}</h3><p>T${selected.lv} ${tierNames[selected.lv]} · ${heroNames[selected.type]}</p><div class="growthLevel">Lv.${lv} <small>/ 20</small></div><div class="levelTrack"><span style="width:${lv/20*100}%"></span></div><div class="growthStats"><span>공격력<strong>${battleAttack(selected).toFixed(1)}${maxed?'':` <small>→ ${next.toFixed(1)}</small>`}</strong></span><span>사거리<strong>${Math.round(battleRange(selected))}</strong></span></div><div class="skillUnlocks">${heroSkillText(selected).map(s=>`<div class="${s.unlocked?'unlocked':'sealed'}">${s.unlocked?'✦':'◇'} ${s.name}<small>${s.unlocked?'개방 완료':'잠김'}</small></div>`).join('')}</div><button id="levelUpSelected" ${maxed||battleOn||essence<cost?'disabled':''}>${battleOn?'전투 종료 후 강화 가능':maxed?'최대 레벨 달성':essence<cost?`정수 ${cost-essence} 부족`:`레벨업 · ${cost} ✦`}</button><small class="labNotice">이 영웅의 T${selected.lv}에만 적용됩니다.<br>새로 소환·조합한 같은 영웅에도 자동 적용됩니다.</small>`;
+ body(document.querySelector('#detailHero').getContext('2d'),140,115,selected,1.9,true);
+ document.querySelector('#levelUpSelected').onclick=()=>levelUpHero(selected.type,selected.lv);
 }
 function levelUpHero(type,tier){
- if(started&&!ended)return toast('전투 중에는 강화할 수 없습니다');
- let lv=getLv(type,tier);if(lv>=20)return;let cost=levelCost(lv);if(essence<cost)return toast('정수가 부족합니다 · 필요 '+cost);
- essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();toast(heroNames[type]+' T'+tier+' Lv.'+(lv+1)+' 달성'+((lv+1===5||lv+1===10)?' · 새 스킬 개방!':''));renderHeroLab();
+ if(started&&!ended)return false;
+ if(!catalogEntries().some(u=>u.type===type&&u.lv===tier))return false;
+ const lv=getLv(type,tier),cost=levelCost(lv);if(lv>=20||essence<cost)return false;
+ essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();
+ toast(`${evolutionNames[type][tier-1]} Lv.${lv+1}${lv+1===5||lv+1===10?' · 새 스킬 개방!':''}`);renderHeroLab();refreshCodex();return true;
 }
+function grantEssence(amount){essence+=Math.max(0,Math.floor(amount));saveMeta()}
+function goLobby(){started=false;paused=false;S.sel=null;S.drag=null;document.querySelector('#startScreen').hidden=false;document.querySelector('#resultScreen').hidden=true;document.querySelector('#leaveBattle').hidden=true;closeModal('#recipeOverlay');closeModal('#drawer');refreshSelection();renderWallet()}
+function openGrowth(){renderHeroLab();openModal('#drawer')}
 function heroLabel(u){return evolutionNames[u.type][u.lv-1]}
 function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5].map(lv=>{
  const r=lv<2?null:lv<4?RECIPES.find(r=>r.tier===lv&&r.cls===base.cls):RECIPES.find(r=>r.tier===lv&&SPECIALS[r.name]?.base===type);
@@ -155,7 +166,7 @@ function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5].map(lv=>{
 })).filter(u=>u.lv>1||summonTypes.includes(u.type))}
 const heroAtlas=typeof Image!=='undefined'?new Image():null;
 let atlasLoaded=false;
-if(heroAtlas){heroAtlas.onload=()=>{atlasLoaded=true;refreshCodex();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};heroAtlas.src='/assets/heroes-v10.webp'}
+if(heroAtlas){heroAtlas.onload=()=>{atlasLoaded=true;refreshCodex();if(document.querySelector('#drawer').style.display==='block')renderHeroLab();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};heroAtlas.src='/assets/heroes-v10.webp'}
 // Measured atlas cell boundaries; original transparent image remains unchanged.
 const atlasX=[0,151,301,461,630,809];
 const atlasY=[0,178,317,471,632,783,939,1098,1255,1417,1588,1762,1942];
@@ -236,7 +247,7 @@ function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  let scale=Math.pow(1.19,S.wave-1);
  let hp=(boss?780:(elite?150:92))*scale*rnd(.92,1.10);let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,slow:0,stun:0,hit:0});S.spawn++}
-function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/(1+u.lv*.1);u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:T.atk*Math.pow(2.6,u.lv-1)*metaAtkMult(u.type,u.lv),kind:T.kind,type:u.type,lv:u.lv,dead:false})}
+function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/(1+u.lv*.1);u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:battleAttack(u),kind:T.kind,type:u.type,lv:u.lv,dead:false})}
 function hit(e,damage,kind,mlv=1){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=mlv>=5?1.2:.8;if(kind==='bash')e.stun=mlv>=5?.5:.35;if(kind==='slash'&&e.hp/e.max<(mlv>=5?.35:.25))damage*=1.8;e.hp-=damage;e.hit=.14;
  let col=kind==='fire'?'#f6a15c':kind==='volt'?'#b9a5ff':kind==='ice'?'#bfeef4':kind==='arrow'?'#b9d58e':'#e7d8b6';
  for(let i=0;i<7;i++)particles.push({x:e.x,y:e.y,vx:rnd(-65,65),vy:rnd(-65,65),t:.4,col});
@@ -315,9 +326,9 @@ function update(dt){S.t+=dt;relicCooldown=Math.max(0,relicCooldown-dt);
  mobs.forEach(m=>{if(m.hp<=0)return;m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
  mobs=mobs.filter(m=>m.hp>0);
  if(mobs.length>=80){finish(false);return}
- if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8}
+ if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8;grantEssence(3);S.runEssence=(S.runEssence||0)+3}
  if(S.wave===30&&S.spawn===S.max&&mobs.length===0){finish(true);return}
- units.forEach(u=>{u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=T.range*(T.kind==='arrow'&&getLv(u.type,u.lv)>=5?1.2:1);let tar=mobs.filter(m=>d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
+ units.forEach(u=>{u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=battleRange(u);let tar=mobs.filter(m=>d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
  shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;let mlv=getLv(s.type,s.lv),dmg=s.dmg;if(s.kind==='fire'&&mlv>=5&&Math.random()<.15)dmg*=1.5;hit(s.target,dmg,s.kind,mlv);if(s.kind==='volt'){let near=mobs.filter(m=>m!==s.target&&d(m,s.target)<75).slice(0,mlv>=5?3:2);near.forEach(m=>hit(m,s.dmg*.5,'volt',mlv))}}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
  shots=shots.filter(s=>!s.dead);particles.forEach(p=>{p.x+=p.vx*dt;p.y+=p.vy*dt;p.vx*=.95;p.vy*=.95;p.t-=dt});particles=particles.filter(p=>p.t>0);floaters.forEach(f=>{f.y-=25*dt;f.t-=dt});floaters=floaters.filter(f=>f.t>0);
  document.querySelector('#coin').textContent=S.coin;document.querySelector('#life').textContent=mobs.length;document.querySelector('#wave').textContent=String(S.wave).padStart(2,'0')+' / 30';
@@ -331,7 +342,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  drawArena();
  // Selected unit: show its real attack radius.
  if(S.sel){
-   let sp=slot(S.sel.slot),sr=U[S.sel.type].range;
+   let sp=slot(S.sel.slot),sr=battleRange(S.sel);
    ctx.save();
    ctx.fillStyle='#e8d59b0c';
    ctx.strokeStyle='#f0d28a88';
@@ -349,11 +360,11 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  particles.forEach(p=>{ctx.globalAlpha=Math.min(1,p.t*3);ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,7);ctx.fill();ctx.globalAlpha=1});
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  ctx.restore()}
-function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won){ended=true;let gained=Math.floor(S.wave*1.5)+(won?30:0);essence+=gained;saveMeta();document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 영웅 정수 +${gained} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
+function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
+function finish(won){if(ended)return;ended=true;let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{resetGame();document.querySelector('#resultScreen').hidden=true};
-document.querySelector('#previewCodex').onclick=()=>{refreshCodex();renderHeroLab();openModal('#drawer')};
+document.querySelector('#previewCodex').onclick=openGrowth;
 document.querySelector('#pause').onclick=()=>{paused=!paused;document.querySelector('#pause').textContent=paused?'▶':'Ⅱ';document.querySelector('#pause').setAttribute('aria-label',paused?'전투 계속':'일시정지');toast(paused?'전투 일시정지':'전투 계속')};
 document.querySelector('#closeRecipe').onclick=()=>closeModal('#recipeOverlay');
 document.querySelector('#recipeOverlay').addEventListener('pointerdown',e=>{if(e.target.id==='recipeOverlay')closeModal('#recipeOverlay')});
@@ -365,7 +376,16 @@ refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*.5)}
-function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} ${tierNames[u.lv]} · 투입 ${unitInvestment(u)} ◈`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${battleAttack(u).toFixed(1)}`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
 function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);removeUnit(u);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (50% 환급)`);return true}
 document.querySelector('#sellUnit').onclick=sellSelected;
 document.querySelector('#deselectUnit').onclick=()=>{S.sel=null;refreshSelection()};
+
+
+document.querySelectorAll('[data-lab-filter]').forEach(b=>b.onclick=()=>{labFilter=b.dataset.labFilter;document.querySelectorAll('[data-lab-filter]').forEach(x=>x.classList.toggle('active',x===b));renderHeroLab()});
+document.querySelector('#homeButton').onclick=()=>{if(started&&!ended){paused=true;document.querySelector('#pause').textContent='▶';document.querySelector('#pause').setAttribute('aria-label','전투 계속');document.querySelector('#leaveBattle').hidden=false}else goLobby()};
+document.querySelector('#confirmLeave').onclick=goLobby;
+document.querySelector('#cancelLeave').onclick=()=>{document.querySelector('#leaveBattle').hidden=true};
+document.querySelector('#resultLobby').onclick=goLobby;
+document.querySelector('#resultGrowth').onclick=()=>{goLobby();openGrowth()};
+renderWallet();

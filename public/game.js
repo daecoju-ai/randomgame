@@ -120,6 +120,34 @@ const evolutionNames=[
  ['빛의 정령','하이프리스트','세라핌','루미나','아스트라']
 ];
 const classLabels={MELEE:'근접 계열',RANGED:'원거리 계열',MAGIC:'마법 계열'};
+// --- Persistent hero meta-progression (leveled outside battle, applied in battle) ---
+const hasLS=typeof localStorage!=='undefined';
+let heroLevels=(hasLS&&JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'null'))||{};
+let essence=hasLS?(+(localStorage.getItem('ff_essence')||0)||0):0;
+function saveMeta(){if(!hasLS)return;localStorage.setItem('ff_heroLevelsV2',JSON.stringify(heroLevels));localStorage.setItem('ff_essence',String(essence))}
+function lvKey(type,tier){return type+':'+tier}
+function getLv(type,tier){return heroLevels[lvKey(type,tier)]||1}
+function levelCost(lv){return lv*12}
+function metaAtkMult(type,tier){let lv=getLv(type,tier),m=1+.05*(lv-1);if(lv>=10)m*=1.25;return m}
+const KIND_SKILL2={bash:'기절 지속시간 증가',slash:'처형 발동 체력 35%로 상승',arrow:'사거리 +20%',fire:'치명타 확률 15%',volt:'연쇄 대상 +1',ice:'둔화 지속시간 증가'};
+function entryKind(entry){return (entry.name&&SPECIALS[entry.name]?.kind)||U[entry.type].kind}
+function heroSkillText(entry){let lv=getLv(entry.type,entry.lv),kind=entryKind(entry);return[{name:U[entry.type].skill,unlocked:true},{name:'Lv.5 · '+KIND_SKILL2[kind],unlocked:lv>=5},{name:'Lv.10 · 공격력 +25%',unlocked:lv>=10}]}
+function renderHeroLab(){
+ document.querySelector('#essence').textContent=essence;
+ const entries=catalogEntries();
+ document.querySelector('#labCards').innerHTML=entries.map((entry,i)=>{
+  let lv=getLv(entry.type,entry.lv),cost=levelCost(lv),maxed=lv>=20,battleOn=started&&!ended,canAfford=essence>=cost&&!maxed&&!battleOn;
+  let skills=heroSkillText(entry).map(s=>`<div class="skillHint" style="opacity:${s.unlocked?1:.4}">${s.unlocked?'✦':'🔒'} ${s.name}</div>`).join('');
+  return `<div class="card labCard"><canvas width="240" height="210" data-lab="${i}"></canvas><b>${heroLabel(entry)}</b><span class="tag">T${entry.lv} · ${tierNames[entry.lv]}</span><div class="lv">Lv.${lv}${maxed?' MAX':''}</div>${skills}<button class="levelUp" data-lvtype="${entry.type}" data-lvtier="${entry.lv}" ${canAfford?'':'disabled'}>${battleOn?'전투 중 불가':maxed?'최대 레벨':'강화 · '+cost+' ✦'}</button></div>`;
+ }).join('');
+ document.querySelectorAll('[data-lab]').forEach(c=>body(c.getContext('2d'),120,111,entries[+c.dataset.lab],1.75,true));
+ document.querySelectorAll('[data-lvtype]').forEach(b=>b.onclick=()=>levelUpHero(+b.dataset.lvtype,+b.dataset.lvtier));
+}
+function levelUpHero(type,tier){
+ if(started&&!ended)return toast('전투 중에는 강화할 수 없습니다');
+ let lv=getLv(type,tier);if(lv>=20)return;let cost=levelCost(lv);if(essence<cost)return toast('정수가 부족합니다 · 필요 '+cost);
+ essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();toast(heroNames[type]+' T'+tier+' Lv.'+(lv+1)+' 달성'+((lv+1===5||lv+1===10)?' · 새 스킬 개방!':''));renderHeroLab();
+}
 function heroLabel(u){return evolutionNames[u.type][u.lv-1]}
 function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5].map(lv=>{
  const r=lv<2?null:lv<4?RECIPES.find(r=>r.tier===lv&&r.cls===base.cls):RECIPES.find(r=>r.tier===lv&&SPECIALS[r.name]?.base===type);
@@ -208,8 +236,8 @@ function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  let scale=Math.pow(1.19,S.wave-1);
  let hp=(boss?780:(elite?150:92))*scale*rnd(.92,1.10);let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,slow:0,stun:0,hit:0});S.spawn++}
-function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/(1+u.lv*.1);u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:T.atk*Math.pow(2.6,u.lv-1),kind:T.kind,type:u.type,dead:false})}
-function hit(e,damage,kind){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=.8;if(kind==='bash')e.stun=.35;if(kind==='slash'&&e.hp/e.max<.25)damage*=1.8;e.hp-=damage;e.hit=.14;
+function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/(1+u.lv*.1);u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:T.atk*Math.pow(2.6,u.lv-1)*metaAtkMult(u.type,u.lv),kind:T.kind,type:u.type,lv:u.lv,dead:false})}
+function hit(e,damage,kind,mlv=1){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=mlv>=5?1.2:.8;if(kind==='bash')e.stun=mlv>=5?.5:.35;if(kind==='slash'&&e.hp/e.max<(mlv>=5?.35:.25))damage*=1.8;e.hp-=damage;e.hit=.14;
  let col=kind==='fire'?'#f6a15c':kind==='volt'?'#b9a5ff':kind==='ice'?'#bfeef4':kind==='arrow'?'#b9d58e':'#e7d8b6';
  for(let i=0;i<7;i++)particles.push({x:e.x,y:e.y,vx:rnd(-65,65),vy:rnd(-65,65),t:.4,col});
  floaters.push({x:e.x,y:e.y-14,t:.55,s:Math.round(damage),col});
@@ -289,8 +317,8 @@ function update(dt){S.t+=dt;relicCooldown=Math.max(0,relicCooldown-dt);
  if(mobs.length>=80){finish(false);return}
  if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8}
  if(S.wave===30&&S.spawn===S.max&&mobs.length===0){finish(true);return}
- units.forEach(u=>{u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let tar=mobs.filter(m=>d(p,m)<T.range).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
- shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;hit(s.target,s.dmg,s.kind);if(s.kind==='volt'){let near=mobs.filter(m=>m!==s.target&&d(m,s.target)<75).slice(0,2);near.forEach(m=>hit(m,s.dmg*.5,'volt'))}}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
+ units.forEach(u=>{u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=T.range*(T.kind==='arrow'&&getLv(u.type,u.lv)>=5?1.2:1);let tar=mobs.filter(m=>d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
+ shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;let mlv=getLv(s.type,s.lv),dmg=s.dmg;if(s.kind==='fire'&&mlv>=5&&Math.random()<.15)dmg*=1.5;hit(s.target,dmg,s.kind,mlv);if(s.kind==='volt'){let near=mobs.filter(m=>m!==s.target&&d(m,s.target)<75).slice(0,mlv>=5?3:2);near.forEach(m=>hit(m,s.dmg*.5,'volt',mlv))}}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
  shots=shots.filter(s=>!s.dead);particles.forEach(p=>{p.x+=p.vx*dt;p.y+=p.vy*dt;p.vx*=.95;p.vy*=.95;p.t-=dt});particles=particles.filter(p=>p.t>0);floaters.forEach(f=>{f.y-=25*dt;f.t-=dt});floaters=floaters.filter(f=>f.t>0);
  document.querySelector('#coin').textContent=S.coin;document.querySelector('#life').textContent=mobs.length;document.querySelector('#wave').textContent=String(S.wave).padStart(2,'0')+' / 30';
  document.querySelector('#stageProgress span').style.width=Math.min(100,(S.t-S.stageStart)/20*100)+'%';
@@ -322,10 +350,10 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  ctx.restore()}
 function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won){ended=true;document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'}`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
+function finish(won){ended=true;let gained=Math.floor(S.wave*1.5)+(won?30:0);essence+=gained;saveMeta();document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 영웅 정수 +${gained} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{resetGame();document.querySelector('#resultScreen').hidden=true};
-document.querySelector('#previewCodex').onclick=()=>{refreshCodex();openModal('#drawer')};
+document.querySelector('#previewCodex').onclick=()=>{refreshCodex();renderHeroLab();openModal('#drawer')};
 document.querySelector('#pause').onclick=()=>{paused=!paused;document.querySelector('#pause').textContent=paused?'▶':'Ⅱ';document.querySelector('#pause').setAttribute('aria-label',paused?'전투 계속':'일시정지');toast(paused?'전투 일시정지':'전투 계속')};
 document.querySelector('#closeRecipe').onclick=()=>closeModal('#recipeOverlay');
 document.querySelector('#recipeOverlay').addEventListener('pointerdown',e=>{if(e.target.id==='recipeOverlay')closeModal('#recipeOverlay')});
@@ -333,7 +361,7 @@ document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{recipeFilte
 addEventListener('keydown',e=>{let id=['#recipeOverlay','#drawer'].find(id=>document.querySelector(id).style.display==='block');if(e.key==='Escape'&&id)closeModal(id);if(e.key==='Tab'&&id){let buttons=[...document.querySelector(id).querySelectorAll('button:not(:disabled)')];let first=buttons[0],last=buttons.at(-1);if(e.shiftKey&&(document.activeElement===first||document.activeElement===document.querySelector(id))){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}});
 C.addEventListener('pointercancel',()=>S.drag=null);
 let last=performance.now();function loop(n){let dt=Math.min(.034,(n-last)/1000);last=n;if(started&&!paused&&!ended&&!document.hidden&&!(W>H&&H<=520))update(dt);draw();requestAnimationFrame(loop)}requestAnimationFrame(loop);
-refreshCodex();
+refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*.5)}

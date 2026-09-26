@@ -4,3 +4,5 @@ node_modules/
 *.keystore
 .env*
 android/
+
+!.env.example

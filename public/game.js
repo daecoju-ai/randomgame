@@ -122,12 +122,13 @@ const evolutionNames=[
 const classLabels={MELEE:'근접 계열',RANGED:'원거리 계열',MAGIC:'마법 계열'};
 // Persistent local progression. A single versioned record avoids partial currency/level writes.
 const META_KEY='ff_progress_v3';
+let metaStorageKey=META_KEY;
 let storageAvailable=true,labFilter='all',selectedLabKey='0:1';
 function sanitizeMeta(value){const levels={};for(let type=0;type<12;type++)for(let tier=1;tier<=5;tier++){if(tier===1&&!summonTypes.includes(type))continue;const key=type+':'+tier,n=Number(value?.levels?.[key]);if(Number.isInteger(n)&&n>=1&&n<=20)levels[key]=n}const n=Number(value?.essence);return{version:3,levels,essence:Number.isFinite(n)&&n>=0?Math.min(10000000,Math.floor(n)):0}}
 function readMeta(){try{if(typeof localStorage==='undefined'){storageAvailable=false;return{levels:{},essence:120}}const raw=localStorage.getItem(META_KEY);if(raw){try{return sanitizeMeta(JSON.parse(raw))}catch{storageAvailable=false;return{levels:{},essence:0}}}let legacy={};try{legacy=JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'{}')}catch{}const value=sanitizeMeta({levels:legacy,essence:localStorage.getItem('ff_essence')||0});value.essence+=120;localStorage.setItem(META_KEY,JSON.stringify(value));return value}catch{storageAvailable=false;return{levels:{},essence:120}}}
 const initialMeta=readMeta();let heroLevels=initialMeta.levels,essence=initialMeta.essence;
-function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(META_KEY,JSON.stringify({version:3,levels:heroLevels,essence}));storageAvailable=true}catch{storageAvailable=false}renderWallet()}
-function renderWallet(){document.querySelector('#essence').textContent=essence;document.querySelector('#lobbyEssence').textContent=essence;document.querySelector('#saveStatus').textContent=storageAvailable?'이 브라우저에 자동 저장 · 기기 간 동기화 없음':'저장 공간 사용 불가 · 종료하면 성장이 사라질 수 있습니다'}
+function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(metaStorageKey,JSON.stringify({version:3,levels:heroLevels,essence}));storageAvailable=true}catch{storageAvailable=false}renderWallet();if(typeof window!=='undefined')window.ForgeAccount?.changed()}
+function renderWallet(){document.querySelector('#essence').textContent=essence;document.querySelector('#lobbyEssence').textContent=essence;document.querySelector('#saveStatus').textContent=(typeof window!=='undefined'&&window.ForgeAccount?.statusText())||(storageAvailable?'이 브라우저에 자동 저장 · 기기 간 동기화 없음':'저장 공간 사용 불가 · 종료하면 성장이 사라질 수 있습니다')}
 function lvKey(type,tier){return type+':'+tier}
 function getLv(type,tier){return heroLevels[lvKey(type,tier)]||1}
 function levelCost(lv){return lv*12}
@@ -150,6 +151,7 @@ function renderHeroLab(){
  document.querySelector('#levelUpSelected').onclick=()=>levelUpHero(selected.type,selected.lv);
 }
 function levelUpHero(type,tier){
+ if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return false}
  if(started&&!ended)return false;
  if(!catalogEntries().some(u=>u.type===type&&u.lv===tier))return false;
  const lv=getLv(type,tier),cost=levelCost(lv);if(lv>=20||essence<cost)return false;
@@ -362,16 +364,16 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  ctx.restore()}
 function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
 function finish(won){if(ended)return;ended=true;let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
-document.querySelector('#startGame').onclick=()=>{started=true;resetGame();document.querySelector('#startScreen').hidden=true};
-document.querySelector('#restartGame').onclick=()=>{resetGame();document.querySelector('#resultScreen').hidden=true};
+document.querySelector('#startGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#startScreen').hidden=true};
+document.querySelector('#restartGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};
 document.querySelector('#previewCodex').onclick=openGrowth;
-document.querySelector('#pause').onclick=()=>{paused=!paused;document.querySelector('#pause').textContent=paused?'▶':'Ⅱ';document.querySelector('#pause').setAttribute('aria-label',paused?'전투 계속':'일시정지');toast(paused?'전투 일시정지':'전투 계속')};
+document.querySelector('#pause').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}paused=!paused;document.querySelector('#pause').textContent=paused?'▶':'Ⅱ';document.querySelector('#pause').setAttribute('aria-label',paused?'전투 계속':'일시정지');toast(paused?'전투 일시정지':'전투 계속')};
 document.querySelector('#closeRecipe').onclick=()=>closeModal('#recipeOverlay');
 document.querySelector('#recipeOverlay').addEventListener('pointerdown',e=>{if(e.target.id==='recipeOverlay')closeModal('#recipeOverlay')});
 document.querySelectorAll('[data-filter]').forEach(b=>b.onclick=()=>{recipeFilter=b.dataset.filter;document.querySelectorAll('[data-filter]').forEach(x=>x.classList.toggle('active',x===b));renderRecipes()});
 addEventListener('keydown',e=>{let id=['#recipeOverlay','#drawer'].find(id=>document.querySelector(id).style.display==='block');if(e.key==='Escape'&&id)closeModal(id);if(e.key==='Tab'&&id){let buttons=[...document.querySelector(id).querySelectorAll('button:not(:disabled)')];let first=buttons[0],last=buttons.at(-1);if(e.shiftKey&&(document.activeElement===first||document.activeElement===document.querySelector(id))){e.preventDefault();last?.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first?.focus()}}});
 C.addEventListener('pointercancel',()=>S.drag=null);
-let last=performance.now();function loop(n){let dt=Math.min(.034,(n-last)/1000);last=n;if(started&&!paused&&!ended&&!document.hidden&&!(W>H&&H<=520))update(dt);draw();requestAnimationFrame(loop)}requestAnimationFrame(loop);
+let last=performance.now();function loop(n){let dt=Math.min(.034,(n-last)/1000);last=n;if((typeof window==='undefined'||!window.ForgeAccount||window.ForgeAccount.allowed())&&started&&!paused&&!ended&&!document.hidden&&!(W>H&&H<=520))update(dt);draw();requestAnimationFrame(loop)}requestAnimationFrame(loop);
 refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
@@ -389,3 +391,13 @@ document.querySelector('#cancelLeave').onclick=()=>{document.querySelector('#lea
 document.querySelector('#resultLobby').onclick=goLobby;
 document.querySelector('#resultGrowth').onclick=()=>{goLobby();openGrowth()};
 renderWallet();
+
+// Account adapter: authentication never writes over the original guest save.
+if(typeof window!=='undefined')window.ForgeGame={
+ snapshot:()=>({version:3,levels:{...heroLevels},essence}),
+ guestSnapshot:()=>readMeta(),
+ inBattle:()=>started&&!ended,
+ pause:()=>{if(started&&!ended){paused=true;document.querySelector('#pause').textContent='▶';document.querySelector('#pause').setAttribute('aria-label','전투 계속')}},
+ apply:(value,owner)=>{const clean=sanitizeMeta(value);metaStorageKey='ff_progress_account_'+owner;heroLevels=clean.levels;essence=clean.essence;renderHeroLab();refreshCodex()},
+ guest:()=>{const value=readMeta();metaStorageKey=META_KEY;heroLevels=value.levels;essence=value.essence;renderHeroLab();refreshCodex()}
+};

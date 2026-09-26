@@ -9,7 +9,7 @@
 <body>
 <canvas id="g"></canvas>
 <div id="ui">
- <header class="top"><div class="brand"><span class="brand-mark">✦</span><div>FORTUNE FORGE<small>운명의 대장간 <em>V11</em></small></div></div><div class="grow"></div><button id="homeButton" aria-label="로비로">⌂</button><button id="pause" aria-label="일시정지">Ⅱ</button><button id="install" aria-label="앱 설치">설치</button></header>
+ <header class="top"><div class="brand"><span class="brand-mark">✦</span><div>FORTUNE FORGE<small>운명의 대장간 <em>V12</em></small></div></div><div class="grow"></div><button id="accountHeaderButton" aria-label="계정">♙</button><button id="homeButton" aria-label="로비로">⌂</button><button id="pause" aria-label="일시정지">Ⅱ</button><button id="install" aria-label="앱 설치">설치</button></header>
  <div class="status"><div><small>WAVE</small><strong id="wave">01 / 30</strong></div><div><small>BATTLE COIN</small><strong class="gold">◈ <b id="coin">80</b></strong></div><div><small>MONSTERS</small><strong><b id="life">0</b><span> / 80</span></strong></div></div>
  <div id="stageProgress"><span></span></div>
  <div id="arenaLabel"><span>THE EMERALD RUINS</span><small>에메랄드 유적 · 생존 전투</small></div>
@@ -24,7 +24,29 @@
  <div id="recipeTop"><span class="eyebrow">THE FORGE / 조합</span><h2>영웅의 서</h2><div id="forgeCount"></div><p>보유 재료는 컬러 · 없는 재료는 흑백<br>빛나는 영웅을 누르면 즉시 조합 · 전투는 계속됩니다</p><button id="closeRecipe">닫기</button></div>
  <nav id="recipeFilters" aria-label="조합 필터"><button data-filter="all" class="active">전체</button><button data-filter="ready">조합 가능</button><button data-filter="MELEE">수호·검사</button><button data-filter="RANGED">궁수·포수</button><button data-filter="MAGIC">마법사</button></nav><div id="recipeBook"></div>
 </div>
-<script src="/game.js" defer></script><script src="/pwa.js" defer></script><div id="startScreen" class="screen"><div class="splash-seal">✦</div><span class="eyebrow">SUMMON · FUSE · SURVIVE</span><h1>FORTUNE<br><span>FORGE</span></h1><p>운명의 대장간</p><div class="splash-rule"></div><p class="intro">작은 영웅에서 시작되는 위대한 전설.<br>소환하고 조합하여 30개의 웨이브를 지켜내세요.</p><div class="lobbyWallet">보유 영웅 정수 <b id="lobbyEssence">0</b> ✦</div><button id="startGame">⚔ 전투 모드 <span>→</span><small>30 웨이브에 도전하고 정수 획득</small></button><button id="previewCodex">✦ 유닛 성장 <span>→</span><small>도감 · 레벨업 · 스킬 개방</small></button><small>V11 · HERO GROWTH</small></div>
+<script src="/game.js" defer></script><script src="/account.js" defer></script><script src="/pwa.js" defer></script><div id="startScreen" class="screen"><div class="splash-seal">✦</div><span class="eyebrow">SUMMON · FUSE · SURVIVE</span><h1>FORTUNE<br><span>FORGE</span></h1><p>운명의 대장간</p><div class="splash-rule"></div><p class="intro">작은 영웅에서 시작되는 위대한 전설.<br>소환하고 조합하여 30개의 웨이브를 지켜내세요.</p><button id="accountBadge" class="accountBadge">로그인 / 회원가입</button><small id="cloudStatus">비회원 · 이 브라우저에만 저장</small><div class="lobbyWallet">보유 영웅 정수 <b id="lobbyEssence">0</b> ✦</div><button id="startGame">⚔ 전투 모드 <span>→</span><small>30 웨이브에 도전하고 정수 획득</small></button><button id="previewCodex">✦ 유닛 성장 <span>→</span><small>도감 · 레벨업 · 스킬 개방</small></button><small>V12 · HERO ACCOUNTS</small></div>
 <div id="resultScreen" class="screen" hidden><span class="eyebrow">BATTLE REPORT</span><h1 id="resultTitle"></h1><p id="resultText"></p><button id="restartGame">다시 도전 →</button><button id="resultGrowth">유닛 성장 →</button><button id="resultLobby">로비로</button></div>
 <div id="installHelp" class="screen" hidden><h2>홈 화면에 설치</h2><p>Android Chrome: 메뉴(⋮) → 앱 설치<br>iPhone Safari: 공유 → 홈 화면에 추가</p><p>설치 메뉴가 없으면 기본 브라우저로 열어 주세요.</p><button id="closeInstall">닫기</button></div>
-<div id="rotateNotice">↻<h2>세로로 돌려 주세요</h2><p>영웅 32칸을 편하게 배치하려면 세로 화면이 필요해요.</p></div><div id="leaveBattle" class="screen" hidden><h2>전투를 끝내고 로비로 갈까요?</h2><p>이미 받은 웨이브 정수는 유지됩니다.<br>이번 배치와 전투 코인은 초기화됩니다.</p><button id="confirmLeave">로비로 이동</button><button id="cancelLeave">전투로 돌아가기 (일시정지)</button></div></body></html>
+<div id="rotateNotice">↻<h2>세로로 돌려 주세요</h2><p>영웅 32칸을 편하게 배치하려면 세로 화면이 필요해요.</p></div><div id="leaveBattle" class="screen" hidden><h2>전투를 끝내고 로비로 갈까요?</h2><p>이미 받은 웨이브 정수는 유지됩니다.<br>이번 배치와 전투 코인은 초기화됩니다.</p><button id="confirmLeave">로비로 이동</button><button id="cancelLeave">전투로 돌아가기 (일시정지)</button></div><dialog id="accountDialog" aria-labelledby="accountTitle">
+<div class="accountHeading"><span class="eyebrow">FORTUNE FORGE / ACCOUNT</span><button id="accountClose" aria-label="계정 창 닫기">×</button></div>
+<h2 id="accountTitle">다시 만난 영웅</h2><p id="accountState">계정 확인 중</p>
+<p id="accountChecking">서버 연결을 확인하고 있습니다…</p>
+<p id="accountSetup" hidden>계정 서비스 연결 준비 중입니다.<br>지금은 비회원으로 플레이할 수 있으며, 기존 성장 기록은 이 브라우저에 유지됩니다.</p>
+<p id="accountBattleNote" hidden>전투를 일시정지했습니다. 계정 변경은 로비에서 가능합니다.</p>
+<div id="accountGuest"><div id="accountTabs"><button data-auth-mode="signin" class="active">로그인</button><button data-auth-mode="signup">회원가입</button></div>
+<form id="accountForm" hidden>
+<label>이메일<input id="accountEmail" type="email" autocomplete="email" maxlength="254" required placeholder="name@example.com"></label>
+<label id="passwordField">비밀번호<input id="accountPassword" type="password" autocomplete="current-password" minlength="10" maxlength="128" required placeholder="10자 이상"></label>
+<label id="confirmField" hidden>비밀번호 확인<input id="accountConfirm" type="password" autocomplete="new-password" minlength="10" maxlength="128"></label>
+<label id="codeField" hidden>이메일 인증번호<input id="accountCode" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6,10}" minlength="6" maxlength="10" placeholder="메일의 인증번호"></label>
+<button id="accountSubmit" type="submit">로그인</button>
+<div class="accountLinks"><button id="accountForgot" type="button">비밀번호 찾기</button><button id="accountVerifyLink" type="button">이메일 인증하기</button><button id="accountResend" type="button" hidden>인증번호 다시 받기</button><button id="accountBack" type="button" hidden>로그인으로 돌아가기</button></div>
+<small>비밀번호는 기기에 저장하지 않습니다. 회원 계정에는 이메일과 게임 성장 기록이 저장됩니다.</small>
+</form></div>
+<div id="accountMember" hidden><p id="accountUser"></p><p>유닛 성장과 정수를 계정에 보관합니다.</p>
+<div id="accountChoice" hidden><h3>어떤 기록으로 시작할까요?</h3><p>이 계정의 첫 저장입니다. 비회원 기록은 별도로 보관됩니다.</p><button id="importGuest">이 기기의 비회원 성장 가져오기</button><button id="newAccountStart">새로 시작 · 정수 120</button></div>
+<button id="cloudRetry">저장 / 연결 다시 시도</button><button id="cloudReload" hidden>서버 기록 불러오기</button>
+<div id="cloudConflictConfirm" hidden><p>아직 저장하지 못한 변경 대신 서버 기록을 사용합니다. 현재 기록은 이 기기에 백업됩니다.</p><button id="cloudConflictAccept">서버 기록 사용</button><button id="cloudConflictCancel">취소</button></div>
+<button id="accountLogout">로그아웃</button><small>저장 중이거나 미저장 기록이 있으면 먼저 저장을 완료해 주세요.</small></div>
+<p id="accountMessage" role="status" aria-live="polite"></p>
+</dialog></body></html>

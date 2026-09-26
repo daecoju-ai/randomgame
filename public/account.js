@@ -20,7 +20,7 @@ function render(){
  $('#codeField').hidden=!['verify','reset'].includes(mode);$('#accountCode').required=!$('#codeField').hidden;
  $('#confirmField').hidden=!['signup','reset'].includes(mode);$('#accountConfirm').required=!$('#confirmField').hidden;
  $('#accountSubmit').textContent={signin:'로그인',signup:'회원가입',verify:'인증 완료',recover:'인증번호 받기',reset:'비밀번호 변경'}[mode];
- $('#accountSubmit').disabled=busy||game.inBattle();$('#accountTabs').hidden=!['signin','signup'].includes(mode);$('#accountForgot').hidden=mode!=='signin';$('#accountVerifyLink').hidden=mode!=='signin';$('#accountBack').hidden=['signin','signup'].includes(mode);$('#accountResend').hidden=mode!=='verify';
+ $('#accountSubmit').disabled=busy||game.inBattle();$('#accountTabs').hidden=!configured||checking||!['signin','signup'].includes(mode);$('#accountForgot').hidden=mode!=='signin';$('#accountVerifyLink').hidden=mode!=='signin';$('#accountBack').hidden=['signin','signup'].includes(mode);$('#accountResend').hidden=mode!=='verify';
  document.querySelectorAll('[data-auth-mode]').forEach(b=>{b.disabled=busy;b.classList.toggle('active',b.dataset.authMode===mode)});
  $('#accountResend').disabled=busy;$('#accountClose').disabled=busy;
  $('#accountBadge').textContent=user?'내 계정':'로그인 / 회원가입';

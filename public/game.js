@@ -43,16 +43,17 @@ const U=[
 function rs(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;C.width=W*D;C.height=H*D;ctx.setTransform(D,0,0,D,0,0)}addEventListener('resize',rs);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.textContent=s;e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
-function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?146:174,bottom=H-150;return{left,right,top,bottom,width,height:bottom-top}}
+function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?146:174,bottom=H-176;return{left,right,top,bottom,width,height:bottom-top}}
 function slot(i){let a=geometry(),gx=Math.min(58,(a.width-108)/3),gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.28,Math.min(.64,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}
+const summonTypes=[0,1,4,6,8,10]; // T1: two heroes per class; T2 onward: four.
 function summonCost(){return Math.min(40,10+Math.floor(S.summons/4)*2)}
 function updateSummonPrice(){document.querySelector('#summon').textContent='소환 · '+summonCost()}
 function summon(){
  if(ended||paused)return;
  let cost=Math.min(40,10+Math.floor(S.summons/4)*2);
- if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();let type=Math.floor(Math.random()*U.length),sl=free[Math.floor(Math.random()*free.length)];units.push({type,slot:sl,lv:1,cd:0,anim:0});toast(U[type].n+' 소환')}
+ if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();let type=summonTypes[Math.floor(Math.random()*summonTypes.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({type,slot:sl,lv:1,cd:0,anim:0,invested:cost});toast(heroNames[type]+' 소환')}
 
 const RECIPES=[
  {tier:2,cls:'MELEE',name:'MELEE T2 RANDOM',need:{cls:'MELEE',tier:1,count:3}},
@@ -82,6 +83,64 @@ const SPECIALS={
  'ORION':{base:4,accent:'#99f3d9',c:'#417c79',kind:'arrow'},
  'ARCANA':{base:9,accent:'#e5beff',c:'#8d60a0',kind:'volt'}
 };
+Object.assign(SPECIALS,{
+ 'WARLORD':{base:2},'FOREST LORD':{base:3},'STEAM RUNNER':{base:5},'SKY GUARD':{base:7},'INFERNO':{base:8},'LUMINA':{base:11},
+ 'DEATHBRINGER':{base:1},'TITAN':{base:2},'EVER TREE':{base:3},'HELLRIFLE':{base:5},'MECHA KING':{base:6},'LUMINOUS FOX':{base:7},'PHOENIX':{base:8},'ICE EMPRESS':{base:10},'ASTRA':{base:11}
+});
+RECIPES.push(
+ {tier:4,cls:'MELEE',name:'WARLORD',parts:['BRAM','NOX','MOSS'],partTier:3},
+ {tier:4,cls:'MELEE',name:'FOREST LORD',parts:['MOSS','MOSS','BASTION'],partTier:3},
+ {tier:4,cls:'RANGED',name:'STEAM RUNNER',parts:['PIPER','PIPER','ROOK'],partTier:3},
+ {tier:4,cls:'RANGED',name:'SKY GUARD',parts:['WISP','WISP','THORN'],partTier:3},
+ {tier:4,cls:'MAGIC',name:'INFERNO',parts:['EMBER','EMBER','LUMEN'],partTier:3},
+ {tier:4,cls:'MAGIC',name:'LUMINA',parts:['LUMEN','LUMEN','FROST'],partTier:3},
+ {tier:5,cls:'MELEE',name:'DEATHBRINGER',special:['DUSK KNIGHT','WARLORD']},
+ {tier:5,cls:'MELEE',name:'TITAN',special:['COLOSSUS','WARLORD']},
+ {tier:5,cls:'MELEE',name:'EVER TREE',special:['FOREST LORD','COLOSSUS']},
+ {tier:5,cls:'RANGED',name:'HELLRIFLE',special:['STEAM RUNNER','HAWKEYE']},
+ {tier:5,cls:'RANGED',name:'MECHA KING',special:['BALLISTA','STEAM RUNNER']},
+ {tier:5,cls:'RANGED',name:'LUMINOUS FOX',special:['SKY GUARD','HAWKEYE']},
+ {tier:5,cls:'MAGIC',name:'PHOENIX',special:['INFERNO','TEMPEST']},
+ {tier:5,cls:'MAGIC',name:'ICE EMPRESS',special:['ZERO','LUMINA']},
+ {tier:5,cls:'MAGIC',name:'ASTRA',special:['LUMINA','INFERNO']}
+);
+const heroNames=['바스티온','녹스','브람','모스','쏜','파이퍼','룩','위스프','엠버','볼트','프로스트','루멘'];
+const evolutionNames=[
+ ['꼬마 방패병','수호기사','아이언가드','로열가디언','세이크리드'],
+ ['그림자단원','섀도우','블레이드','나이트로우즈','데스브링어'],
+ ['꼬마 전사','워보이','브루탈','워로드','타이탄'],
+ ['새싹거인','우드가드','트리센트','포레스트로드','에버트리'],
+ ['숲의 궁수','엘프궁수','호크아이','실버레인저','스타폴'],
+ ['꼬마 사수','머스킷','건슬링어','스팀러너','헬리츠'],
+ ['꼬마 포병','미니캐논','시즈캐논','로켓마스터','메카킹'],
+ ['정령 친구','윈드스피릿','페어리보우','스카이가드','루미너스'],
+ ['불꽃 정령','파이어위저드','플레임로드','인페르노','피닉스'],
+ ['번개 정령','스파크위저드','썬더로드','라이트닝','스톰킹'],
+ ['얼음 정령','아이스위치','블리자드','프로스트로드','제로'],
+ ['빛의 정령','하이프리스트','세라핌','루미나','아스트라']
+];
+const classLabels={MELEE:'근접 계열',RANGED:'원거리 계열',MAGIC:'마법 계열'};
+function heroLabel(u){return evolutionNames[u.type][u.lv-1]}
+function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5].map(lv=>{
+ const r=lv<2?null:lv<4?RECIPES.find(r=>r.tier===lv&&r.cls===base.cls):RECIPES.find(r=>r.tier===lv&&SPECIALS[r.name]?.base===type);
+ return {type,lv,...(lv>=4?{name:r.name}:{}),recipe:r?RECIPES.indexOf(r):-1};
+})).filter(u=>u.lv>1||summonTypes.includes(u.type))}
+const heroAtlas=typeof Image!=='undefined'?new Image():null;
+let atlasLoaded=false;
+if(heroAtlas){heroAtlas.onload=()=>{atlasLoaded=true;refreshCodex();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};heroAtlas.src='/assets/heroes-v10.webp'}
+// Measured atlas cell boundaries; original transparent image remains unchanged.
+const atlasX=[0,151,301,461,630,809];
+const atlasY=[0,178,317,471,632,783,939,1098,1255,1417,1588,1762,1942];
+function drawHeroSprite(g,x,y,u,scale=1,mini=false){
+ if(!atlasLoaded)return false;
+ const col=u.lv-1,row=u.type,sx=atlasX[col],sy=atlasY[row],sw=atlasX[col+1]-sx,sh=atlasY[row+1]-sy;
+ const size=mini?98*scale:90*scale,ratio=Math.min(size/sw,size/sh),dw=sw*ratio,dh=sh*ratio;
+ g.save();const bob=mini?0:Math.sin(S.t*2+(u.slot||0))*.9;g.translate(x,y+bob);
+ if(!mini&&u.lv>=3){g.fillStyle=tierColors[u.lv]+'35';g.beginPath();g.ellipse(0,12*scale,29*scale,8*scale,0,0,7);g.fill()}
+ g.drawImage(heroAtlas,sx,sy,sw,sh,-dw/2,mini?-dh*.56:-dh*.72,dw,dh);
+ if(!mini){g.fillStyle=tierColors[u.lv];g.font='bold 8px system-ui';g.textAlign='center';g.fillText('·'.repeat(u.lv),0,dh*.3+3)}
+ g.restore();return true;
+}
 function unitData(u){return u.name?{...U[u.type],...SPECIALS[u.name],n:u.name}:U[u.type]}
 function specialOwned(name){return units.filter(u=>u.name===name&&u.lv===4).length}
 
@@ -100,23 +159,30 @@ function recipeReady(r){
  if(r.special)return r.special.every(n=>specialOwned(n)>=1);
  return false;
 }
-function miniHTML(name,have,need){return `<div class="mat ${have>=need?'have':'miss'}"><strong>${name}</strong><span>${have} / ${need}</span></div>`}
+function materialHTML(u,have,need){const state=have===0?'miss':need&&have<need?'partial':'have';return `<div class="mat ${state}"><canvas width="96" height="96" data-material-type="${u.type}" data-lv="${u.lv}"></canvas><strong>${heroLabel(u)}</strong><span class="materialCount">${have}${need?`<small> / ${need}</small>`:'<small> 보유</small>'}</span><small>T${u.lv}${state==='partial'?' · 부족':''}</small></div>`}
+function recipeMaterials(r){
+ if(r.need){return U.map((v,type)=>({v,type})).filter(x=>x.v.cls===r.cls&&(r.need.tier>1||summonTypes.includes(x.type))).map(x=>materialHTML({type:x.type,lv:r.need.tier},countOwned(x.v.n,r.need.tier),null)).join('')}
+ if(r.parts){const counts={};r.parts.forEach(n=>counts[n]=(counts[n]||0)+1);return Object.entries(counts).map(([name,count])=>materialHTML({type:U.findIndex(u=>u.n===name),lv:r.partTier},countOwned(name,r.partTier),count)).join('')}
+ return r.special.map(name=>materialHTML({type:SPECIALS[name].base,lv:4},specialOwned(name),1)).join('');
+}
 function renderRecipes(){
- const host=document.querySelector('#recipeBook');
- host.innerHTML=[2,3,4,5].map(tier=>{
- const cards=RECIPES.filter(r=>r.tier===tier&&(recipeFilter==='all'||(recipeFilter==='ready'?recipeReady(r):r.cls===recipeFilter))).map(r=>{
- let ready=recipeReady(r),mats='';
- if(r.need)mats=miniHTML(r.need.cls+' T'+r.need.tier,classOwned(r.cls,r.need.tier),r.need.count);
- else if(r.parts){let need={};r.parts.forEach(n=>need[n]=(need[n]||0)+1);mats=Object.entries(need).map(([n,c])=>miniHTML(n,countOwned(n,r.partTier),c)).join('')}
- else mats=r.special.map(n=>miniHTML(n,specialOwned(n),1)).join('');
- let i=RECIPES.indexOf(r),base=SPECIALS[r.name]?.base??U.findIndex(u=>u.cls===r.cls);
- return `<article class="recipeCard ${ready?'ready':'locked'}" style="--tier:${tierColors[tier]}"><button class="recipeHero" data-craft="${i}" ${ready?'':'disabled'} aria-label="${r.name} ${ready?'조합':'재료 부족'}"><span class="tierbadge">${tierNames[tier]} · T${tier}</span><canvas width="240" height="170" data-recipe-mini="${base}" data-tier="${tier}" data-name="${r.need?'':r.name}"></canvas><b>${r.need?{MELEE:'수호·검사',RANGED:'궁수·포수',MAGIC:'마법사'}[r.cls]+' 무작위 승급':r.name}</b><small>${r.cls} / ${r.need?'RANDOM EVOLUTION':'UNIQUE HERO'}</small></button><div class="mats">${mats}</div><button class="craftNow" ${ready?'':'disabled'} data-craft="${i}">${ready?'✦ 지금 조합':'재료 수집 중'}</button></article>`;
- }).join('');
- return cards?`<section class="recipeSection"><h3><span>T${tier} / ${tierNames[tier]}</span><small>${tier<4?'같은 계열 3개':'지정 영웅 조합'}</small></h3><div class="recipeGrid">${cards}</div></section>`:'';
- }).join('')||'<p class="empty">아직 조합 가능한 영웅이 없습니다.<br>같은 계열의 T1 유닛 3개를 모아 보세요.</p>';
- document.querySelectorAll('[data-recipe-mini]').forEach(c=>body(c.getContext('2d'),120,104,{type:+c.dataset.recipeMini,lv:+c.dataset.tier,name:c.dataset.name||undefined,anim:0},1.65,true));
- document.querySelectorAll('[data-craft]').forEach(b=>b.onclick=()=>craftRecipe(+b.dataset.craft));
- recipeStamp=inventoryStamp();
+ const host=document.querySelector('#recipeBook');const scroll=document.querySelector('#recipeOverlay').scrollTop;
+ const entries=catalogEntries();let available=RECIPES.filter(recipeReady).length;
+ document.querySelector('#forgeCount').textContent=`54 영웅 · T1 6종 → T2부터 12종 · 조합 가능 ${available}`;
+ host.innerHTML=['MELEE','RANGED','MAGIC'].map(cls=>{
+ const list=entries.filter(u=>U[u.type].cls===cls&&(recipeFilter==='all'||recipeFilter===cls||(recipeFilter==='ready'&&u.recipe>=0&&recipeReady(RECIPES[u.recipe]))));
+ if(!list.length)return '';
+ return `<section class="codexClass class-${cls}"><header><span class="classSigil">${{MELEE:'⚔',RANGED:'➶',MAGIC:'✦'}[cls]}</span><div><small>HERO ARCHIVE</small><h3>${classLabels[cls]}</h3></div><span class="classTotal">${list.length} HEROES</span></header><div class="evolutionGrid">${list.map(u=>{
+ const r=RECIPES[u.recipe],ready=!!r&&recipeReady(r),owned=u.name?units.filter(v=>v.name===u.name).length:countOwned(U[u.type].n,u.lv);
+ let summary=!r?'소환으로 획득':r.need?`${classLabels[cls]} T${r.need.tier} 합계 ${classOwned(cls,r.need.tier)} / 3`:'지정 재료 조합 · 확정 획득';
+ let action=!r?'기본 소환 유닛':ready?(r.need?'탭하여 계열 랜덤 조합':'탭하여 즉시 조합'):'재료를 모아 주세요';
+ return `<article class="evolutionCard ${ready?'ready':owned>0?'owned':'locked'} ${r&&!ready?'uncraftable':''}" style="--tier:${tierColors[u.lv]}"><div class="cardMeta"><span>T${u.lv} · ${tierNames[u.lv]}</span><small>보유 ${owned}</small></div><button class="heroSelect" data-craft="${u.recipe}" ${ready?'':'disabled'} aria-label="${heroLabel(u)} ${action}"><canvas width="240" height="210" data-catalog-type="${u.type}" data-lv="${u.lv}"></canvas><span class="heroArchetype">${heroNames[u.type]}</span><b>${heroLabel(u)}</b></button><div class="recipeSummary">${summary}</div>${r?`<div class="mats">${recipeMaterials(r)}</div>`:'<div class="baseNote">소환 버튼으로 무작위 영웅을 획득합니다.</div>'}<div class="craftAction">${ready?'✦ ':''}${action}</div>${r?.need?'<div class="chanceNote">표시 영웅 확정 아님 · 4종 각 25%</div>':''}</article>`;
+ }).join('')}</div></section>`;
+ }).join('')||'<p class="empty">아직 조합 가능한 영웅이 없습니다.<br>같은 계열, 같은 등급 3개를 모아 보세요.</p>';
+ document.querySelectorAll('[data-catalog-type]').forEach(c=>body(c.getContext('2d'),120,111,{type:+c.dataset.catalogType,lv:+c.dataset.lv},1.75,true));
+ document.querySelectorAll('[data-material-type]').forEach(c=>body(c.getContext('2d'),48,51,{type:+c.dataset.materialType,lv:+c.dataset.lv},.85,true));
+ document.querySelectorAll('[data-craft]').forEach(b=>b.onclick=()=>{if(+b.dataset.craft>=0)craftRecipe(+b.dataset.craft)});
+ document.querySelector('#recipeOverlay').scrollTop=scroll;recipeStamp=inventoryStamp();
 }
 function inventoryStamp(){return units.map(u=>`${u.type}:${u.lv}:${u.name||''}`).sort().join('|')}
 function removeUnit(u){units=units.filter(x=>x!==u);if(S.sel===u)S.sel=null}
@@ -127,17 +193,17 @@ function craftRecipe(i){
  else if(r.parts)r.parts.forEach(n=>take.push(units.find(u=>U[u.type].n===n&&u.lv===r.partTier&&!take.includes(u))));
  else r.special.forEach(n=>take.push(units.find(u=>u.name===n&&u.lv===4&&!take.includes(u))));
  if(take.some(u=>!u))return false;
- const keep=take[0];take.slice(1).forEach(removeUnit);
+ const keep=take[0],invested=take.reduce((sum,u)=>sum+unitInvestment(u),0);take.slice(1).forEach(removeUnit);keep.invested=invested;
  if(r.need){const candidates=U.map((u,i)=>({u,i})).filter(v=>v.u.cls===r.cls);keep.type=candidates[Math.floor(Math.random()*candidates.length)].i;delete keep.name}
  else{keep.name=r.name;keep.type=SPECIALS[r.name].base}
  keep.lv=r.tier;keep.anim=1;keep.cd=0;S.sel=keep;
  const pos=slot(keep.slot);for(let j=0;j<28;j++)particles.push({x:pos.x,y:pos.y,vx:rnd(-80,80),vy:rnd(-80,80),t:.9,col:tierColors[r.tier]});
- toast(`${tierNames[r.tier]} · ${unitData(keep).n} 조합 완료`);renderRecipes();refreshCodex();return true;
+ toast(`${tierNames[r.tier]} · ${heroLabel(keep)} 조합 완료`);refreshSelection();renderRecipes();refreshCodex();return true;
 }
 let modalReturn=null;
 function openModal(id){modalReturn=document.activeElement;document.querySelector(id).style.display='block';document.querySelector(id).focus()}
 function closeModal(id){document.querySelector(id).style.display='none';modalReturn?.focus()}
-function openRecipes(){openModal('#recipeOverlay');renderRecipes()}
+function openRecipes(){recipeFilter='all';document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b.dataset.filter==='all'));openModal('#recipeOverlay');renderRecipes();document.querySelector('#recipeOverlay').scrollTop=0}
 function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  let scale=Math.pow(1.19,S.wave-1);
@@ -151,9 +217,10 @@ function hit(e,damage,kind){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=.8;if(k
 }
 function relic(){if(!started||paused||ended)return;if(relicCooldown>0)return toast('별빛 강림 충전 중');relicCooldown=7;toast('✦ 별빛 강림');mobs.forEach(m=>hit(m,75+S.wave*5,'volt'))}
 document.querySelector('#summon').onclick=summon;document.querySelector('#combine').onclick=openRecipes;document.querySelector('#ult').onclick=relic;
-document.querySelector('#codex').onclick=()=>{refreshCodex();openModal('#drawer')};document.querySelector('#close').onclick=()=>closeModal('#drawer');
-function refreshCodex(){const heroes=[...U.map((u,i)=>({type:i,lv:1})),...Object.keys(SPECIALS).map(name=>({type:SPECIALS[name].base,lv:['VALOR','ORION','ARCANA'].includes(name)?5:4,name}))];document.querySelector('#cards').innerHTML=heroes.map((u,i)=>{let t=unitData(u);return `<div class="card" style="--tier:${tierColors[u.lv]}"><span class="tierbadge">${tierNames[u.lv]}</span><canvas width="240" height="170" data-hero="${i}"></canvas><b>${t.n}</b><span class="tag">${t.cls} · ${t.role}</span><div class="skill">${t.skill}</div><div class="skill">공격력 ${Math.round(t.atk*Math.pow(2.6,u.lv-1))} · 사거리 ${t.range}</div></div>`}).join('');document.querySelectorAll('[data-hero]').forEach(c=>body(c.getContext('2d'),120,104,heroes[+c.dataset.hero],1.6,true))}
+document.querySelector('#codex').onclick=openRecipes;document.querySelector('#close').onclick=()=>closeModal('#drawer');
+function refreshCodex(){const heroes=catalogEntries();document.querySelector('#cards').innerHTML=heroes.map((u,i)=>{const t=unitData(u);return `<div class="card" style="--tier:${tierColors[u.lv]}"><span class="tierbadge">${heroNames[u.type]} · T${u.lv} ${tierNames[u.lv]}</span><canvas width="240" height="210" data-hero="${i}"></canvas><b>${heroLabel(u)}</b><span class="tag">${classLabels[t.cls]}</span><div class="skill">공격력 ${Math.round(t.atk*Math.pow(2.6,u.lv-1))} · 사거리 ${t.range}</div></div>`}).join('');document.querySelectorAll('[data-hero]').forEach(c=>body(c.getContext('2d'),120,111,heroes[+c.dataset.hero],1.75,true))}
 function body(g,x,y,u,s=1,mini=false){
+ if(drawHeroSprite(g,x,y,u,s,mini))return;
  const T=unitData(u),lv=u.lv||1,color=tierColors[lv],time=mini?0:S.t,bob=mini?0:Math.sin(time*2+u.slot)*1.1;
  g.save();g.translate(x,y+bob);g.scale(s,s);
  function poly(points,fill,stroke){g.beginPath();points.forEach((p,i)=>i?g.lineTo(...p):g.moveTo(...p));g.closePath();if(fill){g.fillStyle=fill;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=1;g.stroke()}}
@@ -201,7 +268,7 @@ function body(g,x,y,u,s=1,mini=false){
 C.addEventListener('pointerdown',e=>{
  if(!started||paused||ended||document.querySelector('#drawer').style.display==='block'||document.querySelector('#recipeOverlay').style.display==='block')return;
  let p={x:e.clientX,y:e.clientY},near=units.find(u=>d(slot(u.slot),p)<25);
- if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);toast(unitData(near).n+' · '+tierNames[near.lv]+' · 사거리 '+unitData(near).range)}
+ if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection()}
 });
 C.addEventListener('pointerup',e=>{
  if(!S.drag)return;
@@ -254,7 +321,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  particles.forEach(p=>{ctx.globalAlpha=Math.min(1,p.t*3);ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,7);ctx.fill();ctx.globalAlpha=1});
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  ctx.restore()}
-function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지')}
+function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
 function finish(won){ended=true;document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'}`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{resetGame();document.querySelector('#resultScreen').hidden=true};
@@ -267,3 +334,10 @@ addEventListener('keydown',e=>{let id=['#recipeOverlay','#drawer'].find(id=>docu
 C.addEventListener('pointercancel',()=>S.drag=null);
 let last=performance.now();function loop(n){let dt=Math.min(.034,(n-last)/1000);last=n;if(started&&!paused&&!ended&&!document.hidden&&!(W>H&&H<=520))update(dt);draw();requestAnimationFrame(loop)}requestAnimationFrame(loop);
 refreshCodex();
+
+function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
+function sellValue(u){return Math.floor(unitInvestment(u)*.5)}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} ${tierNames[u.lv]} · 투입 ${unitInvestment(u)} ◈`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);removeUnit(u);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (50% 환급)`);return true}
+document.querySelector('#sellUnit').onclick=sellSelected;
+document.querySelector('#deselectUnit').onclick=()=>{S.sel=null;refreshSelection()};

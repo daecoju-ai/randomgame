@@ -1,4 +1,4 @@
-const CACHE='fortune-forge-v11-1';
+const CACHE='fortune-forge-v11-2';
 const SHELL=['/','/index.html','/styles.css','/game.js','/pwa.js','/manifest.webmanifest','/assets/heroes-v10.webp','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL))));
 // Activate a new version after all old game tabs close, preventing mixed game assets mid-battle.

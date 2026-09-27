@@ -25,24 +25,9 @@ let skillEffects=[];
 let battleUpgrades={}; // Run-only: never included in local or account progression.
 let started=false,paused=false,ended=false;
 let recipeFilter="all",recipeStamp="";
-const tierNames=["","일반","고급","희귀","전설","신화","초월"];
+const tierNames=["","기본형","성장형","유년형","청소년형","최종진화"];
 const tierColors=["","#93a5aa","#76c7a3","#92b8f3","#edbe72","#c8a1ff","#8effeb"];
-const U=[
- {n:'BASTION',cls:'MELEE',role:'기절 수호',c:'#68818b',accent:'#d5c29a',atk:7,rate:1.18,range:76,kind:'bash',skill:'Aegis Slam · 범위 기절',desc:'거대한 방패로 길목을 제어하는 근접 수호자.'},
- {n:'NOX',cls:'MELEE',role:'처형 암살',c:'#6b596d',accent:'#df9ab7',atk:9,rate:1.05,range:88,kind:'slash',skill:'Night Cut · 저체력 처형',desc:'빠른 베기로 약해진 적을 마무리한다.'},
- {n:'BRAM',cls:'MELEE',role:'연속 검격',c:'#7d6655',accent:'#e3c69d',atk:6,rate:.72,range:82,kind:'slash',skill:'Twin Cut · 연속 타격',desc:'작은 쌍검을 사용하는 빠른 근접 공격수.'},
- {n:'MOSS',cls:'MELEE',role:'둔화 강타',c:'#55745d',accent:'#bad09b',atk:8,rate:1.28,range:80,kind:'bash',skill:'Root Hammer · 둔화',desc:'묵직한 망치로 적의 흐름을 늦춘다.'},
-
- {n:'THORN',cls:'RANGED',role:'장거리 사격',c:'#5f8c6b',accent:'#c7d69a',atk:5,rate:.62,range:260,kind:'arrow',skill:'Briar Shot · 장거리 관통',desc:'가장 먼 거리에서 안정적으로 공격하는 궁수.'},
- {n:'PIPER',cls:'RANGED',role:'속사',c:'#607c91',accent:'#badcf0',atk:3.5,rate:.36,range:225,kind:'arrow',skill:'Quick Volley · 빠른 연사',desc:'피해는 낮지만 매우 빠르게 사격한다.'},
- {n:'ROOK',cls:'RANGED',role:'중화기',c:'#796a5e',accent:'#e6bd75',atk:7,rate:1.08,range:235,kind:'arrow',skill:'Heavy Bolt · 강한 단발',desc:'느리지만 강한 대형 볼트를 발사한다.'},
- {n:'WISP',cls:'RANGED',role:'표식 사격',c:'#637e80',accent:'#aee1d6',atk:4.5,rate:.7,range:245,kind:'arrow',skill:'Mark Shot · 표식 피해',desc:'먼 적을 추적하며 꾸준히 압박한다.'},
-
- {n:'EMBER',cls:'MAGIC',role:'광역 화염',c:'#e87545',accent:'#ffc477',atk:5.5,rate:.92,range:200,kind:'fire',skill:'Cinder Bloom · 폭발/화상',desc:'작은 불꽃이 주변까지 번지는 화염 마도사.'},
- {n:'VOLT',cls:'MAGIC',role:'연쇄 번개',c:'#725bc7',accent:'#c8b7ff',atk:4.5,rate:.82,range:215,kind:'volt',skill:'Arc Link · 연쇄 감전',desc:'번개가 가까운 적에게 연쇄되는 마도사.'},
- {n:'FROST',cls:'MAGIC',role:'빙결 제어',c:'#6ba9bc',accent:'#c7eff2',atk:4,rate:.98,range:205,kind:'ice',skill:'Crystal Veil · 이동 감속',desc:'적을 느리게 만들어 누적 처치를 돕는다.'},
- {n:'LUMEN',cls:'MAGIC',role:'빛 폭발',c:'#a78b62',accent:'#fff0a6',atk:6,rate:1.16,range:190,kind:'fire',skill:'Halo Burst · 범위 폭발',desc:'느린 대신 넓은 범위를 공격하는 빛 마도사.'}
-];
+const U=Array.from({length:12},(_,type)=>{const e=elementFor(type);return{n:e.id+(type===e.support?'-support':''),cls:e.id,role:e.role,c:e.color,accent:e.accent,atk:e.atk*(type===e.support?.55:1),rate:e.rate,range:230,kind:e.kind,desc:e.role}});
 function rs(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;C.width=W*D;C.height=H*D;ctx.setTransform(D,0,0,D,0,0)}addEventListener('resize',rs);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.textContent=s;e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
@@ -50,7 +35,7 @@ function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+w
 function slot(i){let a=geometry(),gx=Math.min(58,(a.width-108)/3),gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.28,Math.min(.64,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}
-const summonTypes=[0,1,4,6,8,10]; // T1: two heroes per class; T2 onward: four.
+const summonTypes=BASE_TYPES;
 function summonCost(){return Math.min(40,10+Math.floor(S.summons/4)*2)}
 function updateSummonPrice(){document.querySelector('#summon').textContent='소환 · '+summonCost()}
 function summon(){
@@ -59,88 +44,22 @@ function summon(){
  if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();const tier=rollSummonTier(),pool=catalogEntries().filter(u=>u.lv===tier),entry=pool[Math.floor(Math.random()*pool.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({...entry,slot:sl,cd:0,anim:0,invested:cost,mp:0});playSound('summon');toast(`T${tier} ${heroLabel(entry)} 소환`)}
 
 
-const RECIPES=[
- {tier:2,cls:'MELEE',name:'MELEE T2 RANDOM',need:{cls:'MELEE',tier:1,count:3}},
- {tier:2,cls:'RANGED',name:'RANGED T2 RANDOM',need:{cls:'RANGED',tier:1,count:3}},
- {tier:2,cls:'MAGIC',name:'MAGIC T2 RANDOM',need:{cls:'MAGIC',tier:1,count:3}},
- {tier:3,cls:'MELEE',name:'MELEE T3 RANDOM',need:{cls:'MELEE',tier:2,count:3}},
- {tier:3,cls:'RANGED',name:'RANGED T3 RANDOM',need:{cls:'RANGED',tier:2,count:3}},
- {tier:3,cls:'MAGIC',name:'MAGIC T3 RANDOM',need:{cls:'MAGIC',tier:2,count:3}},
- {tier:4,cls:'MELEE',name:'COLOSSUS',parts:['BASTION','BRAM','MOSS'],partTier:3},
- {tier:4,cls:'MELEE',name:'DUSK KNIGHT',parts:['NOX','BRAM','BASTION'],partTier:3},
- {tier:4,cls:'RANGED',name:'HAWKEYE',parts:['THORN','WISP','PIPER'],partTier:3},
- {tier:4,cls:'RANGED',name:'BALLISTA',parts:['ROOK','THORN','PIPER'],partTier:3},
- {tier:4,cls:'MAGIC',name:'TEMPEST',parts:['EMBER','VOLT','LUMEN'],partTier:3},
- {tier:4,cls:'MAGIC',name:'ZERO',parts:['FROST','VOLT','FROST'],partTier:3},
- {tier:5,cls:'MELEE',name:'VALOR',special:['COLOSSUS','DUSK KNIGHT']},
- {tier:5,cls:'RANGED',name:'ORION',special:['HAWKEYE','BALLISTA']},
- {tier:5,cls:'MAGIC',name:'ARCANA',special:['TEMPEST','ZERO']}
-];
-const SPECIALS={
- 'COLOSSUS':{base:0,accent:'#f6c276',c:'#706343',kind:'bash'},
- 'DUSK KNIGHT':{base:1,accent:'#de9bd2',c:'#554867',kind:'slash'},
- 'HAWKEYE':{base:4,accent:'#bce49b',c:'#436d5e',kind:'arrow'},
- 'BALLISTA':{base:6,accent:'#ffd191',c:'#786247',kind:'arrow'},
- 'TEMPEST':{base:9,accent:'#b3a2ff',c:'#5c548f',kind:'volt'},
- 'ZERO':{base:10,accent:'#a9f4fa',c:'#4d8999',kind:'ice'},
- 'VALOR':{base:0,accent:'#ffdf99',c:'#b49352',kind:'bash'},
- 'ORION':{base:4,accent:'#99f3d9',c:'#417c79',kind:'arrow'},
- 'ARCANA':{base:9,accent:'#e5beff',c:'#8d60a0',kind:'volt'}
-};
-Object.assign(SPECIALS,{
- 'WARLORD':{base:2},'FOREST LORD':{base:3},'STEAM RUNNER':{base:5},'SKY GUARD':{base:7},'INFERNO':{base:8},'LUMINA':{base:11},
- 'DEATHBRINGER':{base:1},'TITAN':{base:2},'EVER TREE':{base:3},'HELLRIFLE':{base:5},'MECHA KING':{base:6},'LUMINOUS FOX':{base:7},'PHOENIX':{base:8},'ICE EMPRESS':{base:10},'ASTRA':{base:11}
-});
-RECIPES.push(
- {tier:4,cls:'MELEE',name:'WARLORD',parts:['BRAM','NOX','MOSS'],partTier:3},
- {tier:4,cls:'MELEE',name:'FOREST LORD',parts:['MOSS','MOSS','BASTION'],partTier:3},
- {tier:4,cls:'RANGED',name:'STEAM RUNNER',parts:['PIPER','PIPER','ROOK'],partTier:3},
- {tier:4,cls:'RANGED',name:'SKY GUARD',parts:['WISP','WISP','THORN'],partTier:3},
- {tier:4,cls:'MAGIC',name:'INFERNO',parts:['EMBER','EMBER','LUMEN'],partTier:3},
- {tier:4,cls:'MAGIC',name:'LUMINA',parts:['LUMEN','LUMEN','FROST'],partTier:3},
- {tier:5,cls:'MELEE',name:'DEATHBRINGER',special:['DUSK KNIGHT','WARLORD']},
- {tier:5,cls:'MELEE',name:'TITAN',special:['COLOSSUS','WARLORD']},
- {tier:5,cls:'MELEE',name:'EVER TREE',special:['FOREST LORD','COLOSSUS']},
- {tier:5,cls:'RANGED',name:'HELLRIFLE',special:['STEAM RUNNER','HAWKEYE']},
- {tier:5,cls:'RANGED',name:'MECHA KING',special:['BALLISTA','STEAM RUNNER']},
- {tier:5,cls:'RANGED',name:'LUMINOUS FOX',special:['SKY GUARD','HAWKEYE']},
- {tier:5,cls:'MAGIC',name:'PHOENIX',special:['INFERNO','TEMPEST']},
- {tier:5,cls:'MAGIC',name:'ICE EMPRESS',special:['ZERO','LUMINA']},
- {tier:5,cls:'MAGIC',name:'ASTRA',special:['LUMINA','INFERNO']}
-);
-const heroNames=['바스티온','녹스','브람','모스','쏜','파이퍼','룩','위스프','엠버','볼트','프로스트','루멘'];
-const evolutionNames=[
- ['꼬마 방패병','수호기사','아이언가드','로열가디언','세이크리드'],
- ['그림자단원','섀도우','블레이드','나이트로우즈','데스브링어'],
- ['꼬마 전사','워보이','브루탈','워로드','타이탄'],
- ['새싹거인','우드가드','트리센트','포레스트로드','에버트리'],
- ['숲의 궁수','엘프궁수','호크아이','실버레인저','스타폴'],
- ['꼬마 사수','머스킷','건슬링어','스팀러너','헬리츠'],
- ['꼬마 포병','미니캐논','시즈캐논','로켓마스터','메카킹'],
- ['정령 친구','윈드스피릿','페어리보우','스카이가드','루미너스'],
- ['불꽃 정령','파이어위저드','플레임로드','인페르노','피닉스'],
- ['번개 정령','스파크위저드','썬더로드','라이트닝','스톰킹'],
- ['얼음 정령','아이스위치','블리자드','프로스트로드','제로'],
- ['빛의 정령','하이프리스트','세라핌','루미나','아스트라']
-];
-const transcendentNames=['이터널가디언','이클립스','가이아타이탄','월드트리','셀레스티얼','인피니티거너','제네시스캐논','실피드퀸','솔라피닉스','제우스','글레이시아','아우로라'];
-for(let type=0;type<12;type++){
- evolutionNames[type].push(transcendentNames[type]);
- const name='TRANSCENDENT '+U[type].n;SPECIALS[name]={base:type,accent:'#8effeb'};
- const start=Math.floor(type/4)*4,next=start+(type+1)%4;
- const own=RECIPES.find(r=>r.tier===5&&SPECIALS[r.name]?.base===type).name;
- const partner=RECIPES.find(r=>r.tier===5&&SPECIALS[r.name]?.base===next).name;
- RECIPES.push({tier:6,cls:U[type].cls,name,special:[own,partner],specialTier:5});
+const RECIPES=[],SPECIALS={};
+for(const e of ELEMENTS){
+ for(let tier=2;tier<=4;tier++){const name=`${e.id}-${tier}`;SPECIALS[name]={base:e.base};RECIPES.push({tier,cls:e.id,name,parts:[U[e.base].n,U[e.base].n,U[e.base].n],partTier:tier-1})}
+ for(const type of [e.base,e.support]){const name=`${e.id}-final-${type===e.support?'support':'attack'}`;SPECIALS[name]={base:type};RECIPES.push({tier:5,cls:e.id,name,parts:[U[e.base].n,U[e.base].n,U[e.base].n],partTier:4})}
 }
-const classLabels={MELEE:'근접 계열',RANGED:'원거리 계열',MAGIC:'마법 계열'};
+const heroNames=U.map((u,type)=>elementFor(type).label+(type===elementFor(type).support?' · 지원형':' · 공격형'));
+const evolutionNames=U.map((u,type)=>{const e=elementFor(type),root=e.id==='shadow'?'그림자':e.label;return[`${root}의 정령`,`${root}의 성장정령`,`${root}의 아이`,`${root}의 수호자`,e.final[type===e.support?1:0]]});
+const classLabels=Object.fromEntries(ELEMENTS.map(e=>[e.id,`${e.label} 속성 · ${e.role}`]));
 // Persistent local progression. A single versioned record avoids partial currency/level writes.
 const META_KEY='ff_progress_v3';
 let metaStorageKey=META_KEY;
 let storageAvailable=true,labFilter='all',selectedLabKey='0:1';
-function sanitizeMeta(value){const levels={};for(let type=0;type<12;type++)for(let tier=1;tier<=6;tier++){if(tier===1&&!summonTypes.includes(type))continue;const key=type+':'+tier,n=Number(value?.levels?.[key]);if(Number.isInteger(n)&&n>=1&&n<=30)levels[key]=n}const skills={};for(const [key,rank] of Object.entries(value?.skills||{})){const m=/^(\d+):([1-6]):([0-5])$/.exec(key);if(m&&Number(m[1])<12&&Number(m[3])<Number(m[2])&&Number.isInteger(rank)&&rank>=1&&rank<=10&&(levels[m[1]+':'+m[2]]||1)>=(Number(m[3])+1)*5)skills[key]=rank}const n=Number(value?.essence);return{version:3,levels,skills,essence:Number.isFinite(n)&&n>=0?Math.min(10000000,Math.floor(n)):0}}
-function readMeta(){try{if(typeof localStorage==='undefined'){storageAvailable=false;return{levels:{},essence:120}}const raw=localStorage.getItem(META_KEY);if(raw){try{return sanitizeMeta(JSON.parse(raw))}catch{storageAvailable=false;return{levels:{},essence:0}}}let legacy={};try{legacy=JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'{}')}catch{}const value=sanitizeMeta({levels:legacy,essence:localStorage.getItem('ff_essence')||0});value.essence+=120;localStorage.setItem(META_KEY,JSON.stringify(value));return value}catch{storageAvailable=false;return{levels:{},essence:120}}}
+function sanitizeMeta(value){return cleanProgress(value)}
+function readMeta(){try{if(typeof localStorage==='undefined'){storageAvailable=false;return{levels:{},essence:120}}const raw=localStorage.getItem(META_KEY);if(raw){try{const parsed=JSON.parse(raw);if(parsed.version!==4&&!localStorage.getItem(META_KEY+'_before_v16'))localStorage.setItem(META_KEY+'_before_v16',raw);return sanitizeMeta(parsed)}catch{storageAvailable=false;return{levels:{},essence:0}}}let legacy={};try{legacy=JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'{}')}catch{}const value=sanitizeMeta({levels:legacy,essence:localStorage.getItem('ff_essence')||0});value.essence+=120;localStorage.setItem(META_KEY,JSON.stringify(value));return value}catch{storageAvailable=false;return{levels:{},essence:120}}}
 const initialMeta=readMeta();let heroLevels=initialMeta.levels,heroSkills=initialMeta.skills||{},essence=initialMeta.essence;
-function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(metaStorageKey,JSON.stringify({version:3,levels:heroLevels,skills:heroSkills,essence}));storageAvailable=true}catch{storageAvailable=false}renderWallet();if(typeof window!=='undefined')window.ForgeAccount?.changed()}
+function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(metaStorageKey,JSON.stringify({version:4,levels:heroLevels,skills:heroSkills,essence}));storageAvailable=true}catch{storageAvailable=false}renderWallet();if(typeof window!=='undefined')window.ForgeAccount?.changed()}
 function renderWallet(){document.querySelector('#essence').textContent=essence;document.querySelector('#lobbyEssence').textContent=essence;document.querySelector('#saveStatus').textContent=(typeof window!=='undefined'&&window.ForgeAccount?.statusText())||(storageAvailable?'이 브라우저에 자동 저장 · 기기 간 동기화 없음':'저장 공간 사용 불가 · 종료하면 성장이 사라질 수 있습니다')}
 function lvKey(type,tier){return type+':'+tier}
 function getLv(type,tier){return heroLevels[lvKey(type,tier)]||1}
@@ -158,7 +77,7 @@ function renderHeroLab(){
  document.querySelectorAll('[data-hero-select]').forEach(b=>b.onclick=()=>{selectedLabKey=b.dataset.heroSelect;renderHeroLab();if(innerWidth<801)document.querySelector('#labDetail').scrollIntoView?.({behavior:'smooth',block:'start'})});
  const lv=getLv(selected.type,selected.lv),cost=levelCost(lv),maxed=lv>=30,battleOn=started&&!ended;
  let next=(1+.05*lv)*unitData(selected).atk*Math.pow(2.6,selected.lv-1);
- document.querySelector('#labDetail').innerHTML=`<span class="eyebrow">HERO GROWTH / ${classLabels[U[selected.type].cls]}</span><canvas id="detailHero" width="280" height="210"></canvas><h3>${heroLabel(selected)}</h3><p>T${selected.lv} ${tierNames[selected.lv]} · ${heroNames[selected.type]}</p><div class="growthLevel">Lv.${lv} <small>/ 30</small></div><div class="levelTrack"><span style="width:${lv/30*100}%"></span></div><div class="growthStats"><span>공격력<strong>${battleAttack(selected).toFixed(1)}${maxed?'':` <small>→ ${next.toFixed(1)}</small>`}</strong></span><span>사거리<strong>${Math.round(battleRange(selected))}</strong></span></div><div class="skillUnlocks">${skillRows(selected).map(s=>`<div class="${s.unlocked?'unlocked':'sealed'}"><b>${s.name}</b><small>T${s.slot+1}+ · Lv.${s.unlock} · ${s.active?'자동 시전':'지속 효과'} · ${s.unlocked?`${s.rank}/10`:'잠김'}</small><p>${s.description}${s.active?`<br>MP ${skillStats(s,s.rank||1).mp} · 재사용 ${skillStats(s,s.rank||1).cooldown}초`:''}</p>${s.unlocked?`<button data-skill-up="${s.slot}" ${battleOn||s.rank>=10||essence<skillCost(selected,s.slot)?'disabled':''}>${s.rank>=10?'최대 강화':`강화 ${s.rank} → ${s.rank+1} · ${skillCost(selected,s.slot)} ✦`}</button>`:`<span>${s.available?`유닛 Lv.${s.unlock} 필요`:`T${s.slot+1} 이상 유닛에서 개방`}</span>`}</div>`).join('')}</div><button id="levelUpSelected" ${maxed||battleOn||essence<cost?'disabled':''}>${battleOn?'전투 종료 후 강화 가능':maxed?'최대 레벨 달성':essence<cost?`정수 ${cost-essence} 부족`:`레벨업 · ${cost} ✦`}</button><small class="labNotice">이 영웅의 T${selected.lv}에만 적용됩니다.<br>새로 소환·조합한 같은 영웅에도 자동 적용됩니다.</small>`;
+ document.querySelector('#labDetail').innerHTML=`<span class="eyebrow">HERO GROWTH / ${classLabels[U[selected.type].cls]}</span><canvas id="detailHero" width="280" height="210"></canvas><h3>${heroLabel(selected)}</h3><p>T${selected.lv} ${tierNames[selected.lv]} · ${heroNames[selected.type]}</p><div class="growthLevel">Lv.${lv} <small>/ 30</small></div><div class="levelTrack"><span style="width:${lv/30*100}%"></span></div><div class="growthStats"><span>공격력<strong>${battleAttack(selected).toFixed(1)}${maxed?'':` <small>→ ${next.toFixed(1)}</small>`}</strong></span><span>사거리<strong>${Math.round(battleRange(selected))}</strong></span></div>${selected.lv===5?`<p class="awakening">${isSupport(selected)?"지원형":"공격형"} · Lv.1 / 10 / 20 전용기 해금<br>Lv.30 첫 전용기 위력·효과 ×1.5 ${lv>=30?"✓ 각성 완료":"· 각성 대기"}</p>`:""}<div class="skillUnlocks">${skillRows(selected).map(s=>`<div class="${s.unlocked?'unlocked':'sealed'}"><b>${s.name}</b><small>${s.slot<4?`${s.slot+1}단계 계승`:'최종진화 전용'} · Lv.${s.unlock} · ${s.active?'자동 시전':'지속 효과'} · ${s.unlocked?`${s.rank}/10`:'잠김'}</small><p>${s.description}${s.active?`<br>MP ${skillStats(s,s.rank||1).mp} · 재사용 ${skillStats(s,s.rank||1).cooldown}초`:''}</p>${s.unlocked?`<button data-skill-up="${s.slot}" ${battleOn||s.rank>=10||essence<skillCost(selected,s.slot)?'disabled':''}>${s.rank>=10?'최대 강화':`강화 ${s.rank} → ${s.rank+1} · ${skillCost(selected,s.slot)} ✦`}</button>`:`<span>${s.available?`유닛 Lv.${s.unlock} 필요`:`${s.slot<4?s.slot+1:5}단계에서 개방`}</span>`}</div>`).join('')}</div><button id="levelUpSelected" ${maxed||battleOn||essence<cost?'disabled':''}>${battleOn?'전투 종료 후 강화 가능':maxed?'최대 레벨 달성':essence<cost?`정수 ${cost-essence} 부족`:`레벨업 · ${cost} ✦`}</button><small class="labNotice">이 영웅의 T${selected.lv}에만 적용됩니다.<br>새로 소환·조합한 같은 영웅에도 자동 적용됩니다.</small>`;
  body(document.querySelector('#detailHero').getContext('2d'),140,115,selected,1.9,true);
  document.querySelector('#levelUpSelected').onclick=()=>levelUpHero(selected.type,selected.lv);
  document.querySelectorAll('[data-skill-up]').forEach(b=>b.onclick=()=>levelUpSkill(selected.type,selected.lv,+b.dataset.skillUp));
@@ -169,33 +88,13 @@ function levelUpHero(type,tier){
  if(!catalogEntries().some(u=>u.type===type&&u.lv===tier))return false;
  const lv=getLv(type,tier),cost=levelCost(lv);if(lv>=30||essence<cost)return false;
  playSound('levelUp');essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();
- toast(`${evolutionNames[type][tier-1]} Lv.${lv+1}${(lv+1)%5===0&&(lv+1)/5<=tier?' · 새 스킬 개방!':''}`);renderHeroLab();refreshCodex();return true;
+ toast(`${evolutionNames[type][tier-1]} Lv.${lv+1}${tier===5&&[10,20].includes(lv+1)?' · 새 스킬 개방!':tier===5&&lv+1===30?' · 궁극기 강화!':''}`);renderHeroLab();refreshCodex();return true;
 }
 function grantEssence(amount){essence+=Math.max(0,Math.floor(amount));saveMeta()}
-function goLobby(){battleUpgrades={};skillEffects=[];started=false;paused=false;S.sel=null;S.drag=null;document.querySelector('#startScreen').hidden=false;document.querySelector('#resultScreen').hidden=true;document.querySelector('#leaveBattle').hidden=true;closeModal('#recipeOverlay');closeModal('#drawer');refreshSelection();renderWallet()}
+function goLobby(){battleUpgrades={};skillEffects=[];skillZones=[];started=false;paused=false;S.sel=null;S.drag=null;document.querySelector('#startScreen').hidden=false;document.querySelector('#resultScreen').hidden=true;document.querySelector('#leaveBattle').hidden=true;closeModal('#recipeOverlay');closeModal('#drawer');refreshSelection();renderWallet()}
 function openGrowth(){renderHeroLab();openModal('#drawer')}
 function heroLabel(u){return evolutionNames[u.type][u.lv-1]}
-function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5,6].map(lv=>{
- const r=lv<2?null:lv<4?RECIPES.find(r=>r.tier===lv&&r.cls===base.cls):RECIPES.find(r=>r.tier===lv&&SPECIALS[r.name]?.base===type);
- return {type,lv,...(lv>=4?{name:r.name}:{}),recipe:r?RECIPES.indexOf(r):-1};
-})).filter(u=>u.lv>1||summonTypes.includes(u.type))}
-const heroAtlas=typeof Image!=='undefined'?new Image():null;
-let atlasLoaded=false;
-if(heroAtlas){heroAtlas.onload=()=>{atlasLoaded=true;refreshCodex();if(document.querySelector('#drawer').style.display==='block')renderHeroLab();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};heroAtlas.src='/assets/heroes-v10.webp'}
-// Measured atlas cell boundaries; original transparent image remains unchanged.
-const atlasX=[0,151,301,461,630,809];
-const atlasY=[0,178,317,471,632,783,939,1098,1255,1417,1588,1762,1942];
-function drawHeroSprite(g,x,y,u,scale=1,mini=false){
- if(!atlasLoaded)return false;
- const col=Math.min(u.lv,5)-1,row=u.type,sx=atlasX[col],sy=atlasY[row],sw=atlasX[col+1]-sx,sh=atlasY[row+1]-sy;
- const size=mini?98*scale:90*scale,ratio=Math.min(size/sw,size/sh),dw=sw*ratio,dh=sh*ratio;
- g.save();const bob=mini?0:Math.sin(S.t*2+(u.slot||0))*.9;g.translate(x,y+bob);
- if(!mini&&u.lv>=3){g.fillStyle=tierColors[u.lv]+'35';g.beginPath();g.ellipse(0,12*scale,29*scale,8*scale,0,0,7);g.fill()}
- if(u.lv===6){g.shadowColor='#8effeb';g.shadowBlur=18;g.strokeStyle='#8effeb';g.beginPath();g.arc(0,-12*scale,33*scale,0,Math.PI*2);g.stroke()}
- g.drawImage(heroAtlas,sx,sy,sw,sh,-dw/2,mini?-dh*.56:-dh*.72,dw,dh);
- if(!mini){g.fillStyle=tierColors[u.lv];g.font='bold 8px system-ui';g.textAlign='center';g.fillText('·'.repeat(u.lv),0,dh*.3+3)}
- g.restore();return true;
-}
+function catalogEntries(){return ELEMENTS.flatMap(e=>[...Array.from({length:4},(_,i)=>({type:e.base,lv:i+1})),{type:e.base,lv:5},{type:e.support,lv:5}]).map(u=>{const recipe=RECIPES.findIndex(r=>r.tier===u.lv&&SPECIALS[r.name].base===u.type);return{...u,recipe,...(recipe>=0?{name:RECIPES[recipe].name}:{})}})}
 function unitData(u){return u.name?{...U[u.type],...SPECIALS[u.name],n:u.name}:U[u.type]}
 function specialOwned(name,tier=4){return units.filter(u=>u.name===name&&u.lv===tier).length}
 
@@ -223,15 +122,15 @@ function recipeMaterials(r){
 function renderRecipes(){
  const host=document.querySelector('#recipeBook');const scroll=document.querySelector('#recipeOverlay').scrollTop;
  const entries=catalogEntries();let available=RECIPES.filter(recipeReady).length;
- document.querySelector('#forgeCount').textContent=`66 영웅 · T1 6종 → T2부터 12종 · 조합 가능 ${available}`;
- host.innerHTML=['MELEE','RANGED','MAGIC'].map(cls=>{
+ document.querySelector('#forgeCount').textContent=`36 유닛 · 1~4단계 6속성 · 최종 공격형/지원형 12종 · 조합 가능 ${available}`;
+ host.innerHTML=ELEMENTS.map(({id:cls})=>{
  const list=entries.filter(u=>U[u.type].cls===cls&&(recipeFilter==='all'||recipeFilter===cls||(recipeFilter==='ready'&&u.recipe>=0&&recipeReady(RECIPES[u.recipe]))));
  if(!list.length)return '';
- return `<section class="codexClass class-${cls}"><header><span class="classSigil">${{MELEE:'⚔',RANGED:'➶',MAGIC:'✦'}[cls]}</span><div><small>HERO ARCHIVE</small><h3>${classLabels[cls]}</h3></div><span class="classTotal">${list.length} HEROES</span></header><div class="evolutionGrid">${list.map(u=>{
+ return `<section class="codexClass class-${cls}"><header><span class="classSigil">${ELEMENTS.find(e=>e.id===cls).label}</span><div><small>HERO ARCHIVE</small><h3>${classLabels[cls]}</h3></div><span class="classTotal">${list.length} HEROES</span></header><div class="evolutionGrid">${list.map(u=>{
  const r=RECIPES[u.recipe],ready=!!r&&recipeReady(r),owned=u.name?units.filter(v=>v.name===u.name).length:countOwned(U[u.type].n,u.lv);
  let summary=!r?'소환으로 획득':r.need?`${classLabels[cls]} T${r.need.tier} 합계 ${classOwned(cls,r.need.tier)} / 3`:'지정 재료 조합 · 확정 획득';
  let action=!r?'기본 소환 유닛':ready?(r.need?'탭하여 계열 랜덤 조합':'탭하여 즉시 조합'):'재료를 모아 주세요';
- return `<article class="evolutionCard ${ready?'ready':owned>0?'owned':'locked'} ${r&&!ready?'uncraftable':''}" style="--tier:${tierColors[u.lv]}"><div class="cardMeta"><span>T${u.lv} · ${tierNames[u.lv]}</span><small>보유 ${owned}</small></div><button class="heroSelect" data-craft="${u.recipe}" ${ready?'':'disabled'} aria-label="${heroLabel(u)} ${action}"><canvas width="240" height="210" data-catalog-type="${u.type}" data-lv="${u.lv}"></canvas><span class="heroArchetype">${heroNames[u.type]}</span><b>${heroLabel(u)}</b></button><div class="recipeSummary">${summary}</div><button class="skillInspect" data-inspect="${u.type}:${u.lv}">스킬 ${u.lv}개 · 상세 / 강화 ↗</button>${r?`<div class="mats">${recipeMaterials(r)}</div>`:'<div class="baseNote">소환 버튼으로 무작위 영웅을 획득합니다.</div>'}<div class="craftAction">${ready?'✦ ':''}${action}</div>${r?.need?'<div class="chanceNote">표시 영웅 확정 아님 · 4종 각 25%</div>':''}</article>`;
+ return `<article class="evolutionCard ${ready?'ready':owned>0?'owned':'locked'} ${r&&!ready?'uncraftable':''}" style="--tier:${tierColors[u.lv]}"><div class="cardMeta"><span>T${u.lv} · ${tierNames[u.lv]}</span><small>보유 ${owned}</small></div><button class="heroSelect" data-craft="${u.recipe}" ${ready?'':'disabled'} aria-label="${heroLabel(u)} ${action}"><canvas width="240" height="210" data-catalog-type="${u.type}" data-lv="${u.lv}"></canvas><span class="heroArchetype">${heroNames[u.type]}</span><b>${heroLabel(u)}</b></button><div class="recipeSummary">${summary}</div><button class="skillInspect" data-inspect="${u.type}:${u.lv}">스킬 ${skillRows(u).filter(s=>s.available).length}개 · 상세 / 강화 ↗</button>${r?`<div class="mats">${recipeMaterials(r)}</div>`:'<div class="baseNote">소환 버튼으로 무작위 영웅을 획득합니다.</div>'}<div class="craftAction">${ready?'✦ ':''}${action}</div>${r?.need?'<div class="chanceNote">표시 영웅 확정 아님 · 4종 각 25%</div>':''}</article>`;
  }).join('')}</div></section>`;
  }).join('')||'<p class="empty">아직 조합 가능한 영웅이 없습니다.<br>같은 계열, 같은 등급 3개를 모아 보세요.</p>';
  document.querySelectorAll('[data-catalog-type]').forEach(c=>body(c.getContext('2d'),120,111,{type:+c.dataset.catalogType,lv:+c.dataset.lv},1.75,true));
@@ -243,7 +142,7 @@ function renderRecipes(){
 function inventoryStamp(){return units.map(u=>`${u.type}:${u.lv}:${u.name||''}`).sort().join('|')}
 function removeUnit(u){units=units.filter(x=>x!==u);if(S.sel===u)S.sel=null}
 function craftRecipe(i){
- const r=RECIPES[i];if(!r||!recipeReady(r)||ended)return false;
+ const r=RECIPES[i];if(!r||!recipeReady(r)||ended||paused||!started)return false;
  let take=[];
  if(r.need)take=units.filter(u=>U[u.type].cls===r.cls&&u.lv===r.need.tier).slice(0,r.need.count);
  else if(r.parts)r.parts.forEach(n=>take.push(units.find(u=>U[u.type].n===n&&u.lv===r.partTier&&!take.includes(u))));
@@ -252,7 +151,7 @@ function craftRecipe(i){
  const keep=take[0],invested=take.reduce((sum,u)=>sum+unitInvestment(u),0);take.slice(1).forEach(removeUnit);keep.invested=invested;
  if(r.need){const candidates=U.map((u,i)=>({u,i})).filter(v=>v.u.cls===r.cls);keep.type=candidates[Math.floor(Math.random()*candidates.length)].i;delete keep.name}
  else{keep.name=r.name;keep.type=SPECIALS[r.name].base}
- playSound('fuse');keep.lv=r.tier;keep.anim=1;keep.cd=0;keep.mp=0;keep.skillCD=Array(6).fill(0);keep.skillCursor=0;S.sel=keep;
+ playSound('fuse');keep.lv=r.tier;keep.anim=1;keep.cd=0;keep.mp=0;keep.skillCD=Array(7).fill(0);keep.hp=undefined;keep.maxHP=undefined;keep.shield=0;keep.buffs={};keep.disabled=0;keep.skillCursor=0;S.sel=keep;
  const pos=slot(keep.slot);for(let j=0;j<28;j++)particles.push({x:pos.x,y:pos.y,vx:rnd(-80,80),vy:rnd(-80,80),t:.9,col:tierColors[r.tier]});
  toast(`${tierNames[r.tier]} · ${heroLabel(keep)} 조합 완료`);refreshSelection();renderRecipes();refreshCodex();return true;
 }
@@ -264,8 +163,8 @@ function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  let scale=Math.pow(1.19,S.wave-1);
  let hp=(boss?780:(elite?150:92))*scale*rnd(.92,1.10);let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,slow:0,stun:0,hit:0});S.spawn++}
-function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/((1+u.lv*.1)*(1+skillModifiers(u).speed));u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:combatAttack(u),kind:T.kind,type:u.type,lv:u.lv,dead:false})}
-function hit(e,damage,kind,silent=false){if(!e||e.hp<=0)return;e.hp-=damage;e.hit=.14;if(!silent)playSound('hit',kind);
+function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/((1+u.lv*.1)*(1+skillModifiers(u).speed));u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:combatAttack(u),kind:T.kind,type:u.type,lv:u.lv,dead:false});const clone=skillModifiers(u).clone;if(clone)shots.push({x:p.x+9,y:p.y-9,target:e,dmg:combatAttack(u)*clone,kind:T.kind,type:u.type,lv:u.lv,dead:false})}
+function hit(e,damage,kind,silent=false){if(!e||e.hp<=0)return;damage*=1+(e.vulnerableTime>0?(e.vulnerability||0):0);e.hp-=damage;e.hit=.14;if(!silent)playSound('hit',kind);
  let col=kind==='fire'?'#f6a15c':kind==='volt'?'#b9a5ff':kind==='ice'?'#bfeef4':kind==='arrow'?'#b9d58e':'#e7d8b6';
  if(!silent)for(let i=0;i<7;i++)particles.push({x:e.x,y:e.y,vx:rnd(-65,65),vy:rnd(-65,65),t:.4,col});
  if(!silent)floaters.push({x:e.x,y:e.y-14,t:.55,s:Math.round(damage),col});
@@ -274,52 +173,7 @@ function hit(e,damage,kind,silent=false){if(!e||e.hp<=0)return;e.hp-=damage;e.hi
 document.querySelector('#summon').onclick=summon;document.querySelector('#combine').onclick=openRecipes;
 document.querySelector('#codex').onclick=openRecipes;document.querySelector('#close').onclick=()=>closeModal('#drawer');
 function refreshCodex(){const heroes=catalogEntries();document.querySelector('#cards').innerHTML=heroes.map((u,i)=>{const t=unitData(u);return `<div class="card" style="--tier:${tierColors[u.lv]}"><span class="tierbadge">${heroNames[u.type]} · T${u.lv} ${tierNames[u.lv]}</span><canvas width="240" height="210" data-hero="${i}"></canvas><b>${heroLabel(u)}</b><span class="tag">${classLabels[t.cls]}</span><div class="skill">공격력 ${Math.round(t.atk*Math.pow(2.6,u.lv-1))} · 사거리 ${t.range}</div></div>`}).join('');document.querySelectorAll('[data-hero]').forEach(c=>body(c.getContext('2d'),120,111,heroes[+c.dataset.hero],1.75,true))}
-function body(g,x,y,u,s=1,mini=false){
- if(drawHeroSprite(g,x,y,u,s,mini))return;
- const T=unitData(u),lv=u.lv||1,color=tierColors[lv],time=mini?0:S.t,bob=mini?0:Math.sin(time*2+u.slot)*1.1;
- g.save();g.translate(x,y+bob);g.scale(s,s);
- function poly(points,fill,stroke){g.beginPath();points.forEach((p,i)=>i?g.lineTo(...p):g.moveTo(...p));g.closePath();if(fill){g.fillStyle=fill;g.fill()}if(stroke){g.strokeStyle=stroke;g.lineWidth=1;g.stroke()}}
- function line(points,col,w=2){g.beginPath();points.forEach((p,i)=>i?g.lineTo(...p):g.moveTo(...p));g.strokeStyle=col;g.lineWidth=w;g.lineCap='round';g.stroke()}
- function orb(x,y,r,c){g.beginPath();g.arc(x,y,r,0,Math.PI*2);g.fillStyle=c;g.fill()}
- const aura=g.createRadialGradient(0,0,2,0,0,lv>=4?55:30);aura.addColorStop(0,T.accent+(lv>=4?'45':'16'));aura.addColorStop(1,T.accent+'00');g.fillStyle=aura;g.fillRect(-60,-60,120,120);
- g.fillStyle='#02090cb0';g.beginPath();g.ellipse(0,24,23,6,0,0,7);g.fill();
- if(lv>=3){g.strokeStyle=color+'77';g.lineWidth=1;g.beginPath();g.ellipse(0,24,28+(lv-3)*3,9,0,0,7);g.stroke();for(let k=0;k<lv;k++){let a=k*Math.PI*2/lv+time*.25;orb(Math.cos(a)*30,24+Math.sin(a)*9,1.6,color)}}
- if(lv===5){for(let sign of [-1,1])poly([[sign*9,-12],[sign*37,-36],[sign*29,-10],[sign*45,-18],[sign*24,15],[sign*10,20]],T.c+'bb',T.accent+'88');g.strokeStyle=T.accent;g.lineWidth=1;g.beginPath();g.arc(0,-12,40,Math.PI*1.07,Math.PI*1.93);g.stroke()}
- // A compact cloth silhouette at tier 1, layered armour at higher tiers.
- poly([[-12,-10],[-20,22],[-7,18],[0,24],[18,21],[12,-10]],T.c);
- line([[-7,14],[-8,24]],'#142631',7);line([[7,14],[8,24]],'#142631',7);
- line([[-12,-4],[-18,9]],T.c,8);line([[12,-4],[18,8]],T.c,8);
- const plate=g.createLinearGradient(-13,-10,13,18);plate.addColorStop(0,T.accent);plate.addColorStop(.24,T.c);plate.addColorStop(1,'#162a32');
- poly([[-12,-9],[12,-9],[11,11],[0,17],[-11,11]],plate,lv>1?T.accent+'99':undefined);
- line([[-10,11],[10,11]],'#172327',4);orb(0,11,2.3,T.accent);
- if(lv>=2){poly([[-11,-9],[-21,-11],[-21,-3],[-11,1]],plate,T.accent);poly([[11,-9],[21,-11],[21,-3],[11,1]],plate,T.accent);line([[-7,-5],[0,1],[7,-5]],T.accent,1.5)}
- // Face, hood and readable eyes.
- orb(0,-22,12.5,'#111f29');poly([[-10,-25],[0,-32],[10,-25],[9,-14],[0,-10],[-9,-14]],'#d9cbb2');
- if(T.cls==='MAGIC'){poly([[-15,-22],[-9,-35],[0,-40],[9,-35],[15,-22],[8,-27],[0,-32],[-8,-27]],T.c,T.accent+'80')}
- else if(T.cls==='RANGED'){poly([[-14,-22],[-10,-35],[1,-38],[12,-31],[14,-21],[6,-27],[-3,-29]],T.c);line([[-10,-21],[10,-21]],'#223a38',4)}
- else{poly([[-13,-22],[-11,-34],[0,-38],[11,-34],[13,-22],[6,-25],[0,-23],[-6,-25]],plate,T.accent+'80');line([[0,-36],[0,-24]],T.accent,2)}
- line([[-7,-20],[-3,-20]],T.accent,2);line([[3,-20],[7,-20]],T.accent,2);
- if(lv>=3){poly([[-10,-32],[-16,-44],[-4,-37],[0,-47],[4,-37],[16,-44],[10,-32]],lv>=4?T.accent:T.c,T.accent)}
- // Individual equipment uses the same renderer on the field and in the codex.
- if(T.kind==='bash'){
- const shield=g.createLinearGradient(-30,0,-10,8);shield.addColorStop(0,'#293f48');shield.addColorStop(.5,T.c);shield.addColorStop(1,T.accent);
- poly([[-31,-5],[-19,-10],[-8,-5],[-10,15],[-19,23],[-29,15]],shield,T.accent);poly([[-23,0],[-15,0],[-15,9],[-19,14],[-23,9]],'#23343b',T.accent);line([[20,-14],[20,20]],'#a78b60',3);poly([[13,-17],[27,-17],[27,-6],[13,-6]],plate,T.accent)
- }else if(T.kind==='slash'){
- line([[15,12],[30,-20]],'#9f8293',4);poly([[20,0],[32,-26],[29,-4],[22,4]],'#e1e5e7',T.accent);line([[16,-1],[26,5]],T.accent,3);if(lv>=3){poly([[-18,8],[-31,-20],[-26,5],[-19,13]],'#ccd9df',T.accent)}
- }else if(T.kind==='arrow'){
- if(u.type===6||u.name==='BALLISTA'){poly([[10,-5],[34,-5],[34,4],[10,4]],'#334b52',T.accent);line([[24,-15],[24,13]],T.accent,4);line([[16,-13],[32,11]],'#e5dfca',1)}else{g.strokeStyle=T.accent;g.lineWidth=3;g.beginPath();g.ellipse(19,-1,13,24,0,-1.4,1.4);g.stroke();line([[21,-24],[21,22]],'#e0d6b6',1);line([[9,0],[36,0]],T.accent,2);poly([[36,0],[30,-3],[30,3]],T.accent)}
- }else{
- line([[21,-25],[18,23]],'#958066',3);orb(22,-28,10,T.accent+'22');g.shadowColor=T.accent;g.shadowBlur=10;
- if(T.kind==='fire'){poly([[22,-19],[13,-29],[19,-37],[22,-44],[26,-33],[30,-28]],T.accent);poly([[22,-23],[19,-30],[23,-34],[25,-29]],'#fff2cf')}
- if(T.kind==='ice'){poly([[22,-42],[30,-29],[22,-18],[14,-29]],T.accent);line([[22,-42],[22,-18]],'#f1ffff',1)}
- if(T.kind==='volt'){poly([[24,-43],[14,-27],[23,-27],[17,-14],[31,-33],[22,-33]],T.accent)}g.shadowBlur=0;
- }
- if(u.type===3){orb(-7,-34,4,'#819e74');orb(6,-34,3,'#bdd99b')}
- if(u.type===7){line([[-8,-34],[-14,-43]],T.accent,2)}
- if(u.type===11){g.strokeStyle=T.accent;g.lineWidth=2;g.beginPath();g.ellipse(0,-42,13,4,0,0,7);g.stroke()}
- if(!mini){g.fillStyle=color;g.font='bold 10px system-ui';g.textAlign='center';g.fillText('·'.repeat(lv),0,36)}
- g.restore();
-}
+function body(g,x,y,u,s=1,mini=false){drawElementHero(g,x,y,u,s,mini)}
 C.addEventListener('pointerdown',e=>{
  if(!started||paused||ended||document.querySelector('#drawer').style.display==='block'||document.querySelector('#recipeOverlay').style.display==='block')return;
  let p={x:e.clientX,y:e.clientY},near=units.find(u=>d(slot(u.slot),p)<25);
@@ -336,15 +190,15 @@ C.addEventListener('pointerup',e=>{
  }
  S.drag=null;
 });
-function update(dt){S.t+=dt;skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
+function update(dt){S.t+=dt;tickBattleHealth(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
  if(S.stageStart===0)S.stageStart=S.t;
  if(S.spawn<S.max&&S.t>S.next){spawn();S.next=S.t+(20/30)}
- mobs.forEach(m=>{if(m.hp<=0)return;if(m.dotTime>0){const elapsed=Math.min(dt,m.dotTime);m.dotTime-=elapsed;hit(m,(m.dotDps||0)*elapsed,'skill',true);if(m.hp<=0)return}m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
+ mobs.forEach(m=>{if(m.hp<=0)return;if(m.dotTime>0){const elapsed=Math.min(dt,m.dotTime);m.dotTime-=elapsed;hit(m,(m.dotDps||0)*elapsed,'skill',true);if(m.hp<=0)return}m.vulnerableTime=Math.max(0,(m.vulnerableTime||0)-dt);m.weakenTime=Math.max(0,(m.weakenTime||0)-dt);m.attackSlowTime=Math.max(0,(m.attackSlowTime||0)-dt);m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
  mobs=mobs.filter(m=>m.hp>0);
  if(mobs.length>=80){finish(false);return}
  if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;playSound('wave');toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8;grantEssence(3);S.runEssence=(S.runEssence||0)+3}
  if(S.wave===30&&S.spawn===S.max&&mobs.length===0){finish(true);return}
- units.forEach(u=>{tickHeroSkills(u,dt);u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=battleRange(u);let tar=mobs.filter(m=>m.hp>0&&d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
+ units.forEach(u=>{if(u.disabled>0||u.stun>0)return;tickHeroSkills(u,dt);u.cd-=dt*(u.slow>0?.65:1);u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=battleRange(u);let tar=mobs.filter(m=>m.hp>0&&d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
  shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;hit(s.target,s.dmg,s.kind)}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
  shots=shots.filter(s=>!s.dead);particles.forEach(p=>{p.x+=p.vx*dt;p.y+=p.vy*dt;p.vx*=.95;p.vy*=.95;p.t-=dt});particles=particles.filter(p=>p.t>0);floaters.forEach(f=>{f.y-=25*dt;f.t-=dt});floaters=floaters.filter(f=>f.t>0);
  document.querySelector('#coin').textContent=S.coin;document.querySelector('#life').textContent=mobs.length;document.querySelector('#wave').textContent=String(S.wave).padStart(2,'0')+' / 30';
@@ -370,15 +224,15 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
    ctx.fillText('RANGE '+sr,sp.x,Math.max(78,sp.y-sr-7));
    ctx.restore();
  }
- units.forEach(u=>{let p=slot(u.slot);if(S.sel===u){ctx.strokeStyle='#f1d087';ctx.lineWidth=2;ctx.beginPath();ctx.arc(p.x,p.y,24,0,7);ctx.stroke()}body(ctx,p.x,p.y-u.anim*3,u,unitScale()+u.anim*.03);if(skillRank(u,0)){ctx.fillStyle='#132a3a';ctx.fillRect(p.x-12,p.y+13,24,3);ctx.fillStyle='#5ecfff';ctx.fillRect(p.x-12,p.y+13,24*(u.mp||0)/100,3)}});
+ units.forEach(u=>{let p=slot(u.slot);if(S.sel===u){ctx.strokeStyle='#f1d087';ctx.lineWidth=2;ctx.beginPath();ctx.arc(p.x,p.y,24,0,7);ctx.stroke()}ctx.globalAlpha=u.disabled>0?.3:1;body(ctx,p.x,p.y-u.anim*3,u,unitScale()+u.anim*.03);ctx.globalAlpha=1;if(u.maxHP){ctx.fillStyle="#281f2c";ctx.fillRect(p.x-12,p.y+9,24,3);ctx.fillStyle=u.shield>0?"#94ddff":"#6ee7aa";ctx.fillRect(p.x-12,p.y+9,24*Math.max(0,u.hp/u.maxHP),3)}if(skillRank(u,0)){ctx.fillStyle='#132a3a';ctx.fillRect(p.x-12,p.y+13,24,3);ctx.fillStyle='#5ecfff';ctx.fillRect(p.x-12,p.y+13,24*(u.mp||0)/100,3)}});
  mobs.forEach(m=>{ctx.save();ctx.translate(m.x,m.y);ctx.shadowBlur=m.boss?20:8;ctx.shadowColor='#b94a52';ctx.fillStyle=m.hit?'#f3e6d4':'#7b3c43';ctx.beginPath();ctx.roundRect(-m.r,-m.r,m.r*2,m.r*2,8);ctx.fill();ctx.shadowBlur=0;ctx.fillStyle='#12181c';ctx.beginPath();ctx.arc(-4,-2,2,0,7);ctx.arc(4,-2,2,0,7);ctx.fill();ctx.fillStyle='#171d21';ctx.fillRect(-m.r,-m.r-7,m.r*2,3);ctx.fillStyle='#d8585f';ctx.fillRect(-m.r,-m.r-7,m.r*2*m.hp/m.max,3);ctx.restore()});
  shots.forEach(s=>{let T=U[s.type],col=T.accent;ctx.shadowBlur=12;ctx.shadowColor=col;ctx.fillStyle=col;ctx.beginPath();ctx.arc(s.x,s.y,s.kind==='fire'?5:3,0,7);ctx.fill();ctx.shadowBlur=0});
  particles.forEach(p=>{ctx.globalAlpha=Math.min(1,p.t*3);ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,7);ctx.fill();ctx.globalAlpha=1});
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  for(const e of skillEffects){ctx.save();ctx.globalAlpha=Math.min(1,e.t*2);ctx.strokeStyle=e.color;ctx.lineWidth=2;ctx.beginPath();if(e.points){e.points.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y))}else ctx.arc(e.x,e.y,e.r*(1-e.t*.5),0,Math.PI*2);ctx.stroke();ctx.restore()}
  ctx.restore()}
-function resetGame(){battleUpgrades={};skillEffects=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won){if(ended)return;ended=true;battleUpgrades={};skillEffects=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
+function resetGame(){battleUpgrades={};skillEffects=[];skillZones=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
+function finish(won){if(ended)return;ended=true;battleUpgrades={};skillEffects=[];skillZones=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};
 document.querySelector('#previewCodex').onclick=openGrowth;
@@ -393,7 +247,7 @@ refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54,108][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*.5)}
-function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · MP ${Math.floor(u.mp||0)}/100`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · HP ${Math.ceil(u.hp||0)}/${Math.round(u.maxHP||0)} · MP ${Math.floor(u.mp||0)}/100`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
 function refreshBattleUpgrade(){
  const u=S.sel;if(!u||!units.includes(u))return;
  const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u),button=document.querySelector('#battleUpgrade');
@@ -430,10 +284,10 @@ renderWallet();
 
 // Account adapter: authentication never writes over the original guest save.
 if(typeof window!=='undefined')window.ForgeGame={
- snapshot:()=>({version:3,levels:{...heroLevels},skills:{...heroSkills},essence}),
+ snapshot:()=>({version:4,levels:{...heroLevels},skills:{...heroSkills},essence}),
  guestSnapshot:()=>readMeta(),
  inBattle:()=>started&&!ended,
  pause:()=>{if(started&&!ended){paused=true;document.querySelector('#pause').textContent='▶';document.querySelector('#pause').setAttribute('aria-label','전투 계속')}},
- apply:(value,owner)=>{const clean=sanitizeMeta(value);metaStorageKey='ff_progress_account_'+owner;heroLevels=clean.levels;heroSkills=clean.skills;essence=clean.essence;renderHeroLab();refreshCodex()},
+ apply:(value,owner)=>{try{if(value?.version!==4&&!localStorage.getItem('ff_before_v16_'+owner))localStorage.setItem('ff_before_v16_'+owner,JSON.stringify(value))}catch{}const clean=sanitizeMeta(value);metaStorageKey='ff_progress_account_'+owner;heroLevels=clean.levels;heroSkills=clean.skills;essence=clean.essence;renderHeroLab();refreshCodex()},
  guest:()=>{const value=readMeta();metaStorageKey=META_KEY;heroLevels=value.levels;heroSkills=value.skills||{};essence=value.essence;renderHeroLab();refreshCodex()}
 };

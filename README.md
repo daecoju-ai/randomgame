@@ -1,6 +1,6 @@
 # FORTUNE FORGE — 운명의 대장간
 
-V8 `fortune_forge_v8_recipe_fix.html`을 기반으로 개선한 V12 개발 버전입니다.
+V8 `fortune_forge_v8_recipe_fix.html`을 기반으로 개선한 V13 개발 버전입니다.
 
 ## 실행
 
@@ -66,3 +66,6 @@ Vercel에서 Git 저장소 `daecoju-ai/randomgame`을 가져옵니다. Framework
 이메일 회원가입/인증번호, 로그인, 비밀번호 재설정, 로그아웃 및 계정별 성장 저장을 구현했습니다. 인증 서비스가 설정되지 않으면 실제 가입은 비활성화되고 비회원 플레이는 유지됩니다.
 
 운영 설정: [회원 계정 활성화](docs/ACCOUNTS_SETUP.md). Supabase SQL 및 Vercel 서버 환경변수가 필요합니다. 토큰은 HttpOnly 쿠키에만 저장하며 API를 PWA 캐시에 포함하지 않습니다. 기존 비회원 데이터는 별도로 보존하고, 계정 첫 저장 때 가져오기 여부를 선택합니다. 실제 SMTP 발송/운영 DB 연동은 설정 후 검증해야 합니다.
+
+## V13 사운드
+사용자가 업로드한 `public/audio.js`의 Web Audio 합성 음악과 효과음을 연결했습니다. 첫 터치/Enter 이후 음악이 시작되고 소환·조합·타격·처치·웨이브·성장·판매·궁극기·승패에 효과음이 재생됩니다. 로비와 전투에 음소거 버튼이 있으며 설정을 브라우저에 저장합니다. 백그라운드에서는 타이머·재생을 멈추고 AudioContext를 suspend합니다. 재생 노드는 종료 시 해제하고, 다수 타격/처치 효과음은 빈도를 제한합니다. MP3/WAV 외부 음원은 현재 저장소에 없습니다. 회원 서비스는 기존 설정 안내의 Supabase/SMTP/Vercel 환경변수가 준비되어야 활성화됩니다.

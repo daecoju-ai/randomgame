@@ -1,3 +1,4 @@
+function playSound(name,...args){if(typeof window!=='undefined')window.SFX?.[name]?.(...args)}
 function drawArena(){
  const a=geometry(),cx=W/2,cy=(a.top+a.bottom)/2;
  const bg=ctx.createRadialGradient(cx,cy,30,cx,cy,Math.max(W,H)*.7);bg.addColorStop(0,'#163638');bg.addColorStop(.5,'#0b2228');bg.addColorStop(1,'#050f17');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
@@ -53,7 +54,7 @@ function updateSummonPrice(){document.querySelector('#summon').textContent='소�
 function summon(){
  if(ended||paused)return;
  let cost=Math.min(40,10+Math.floor(S.summons/4)*2);
- if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();let type=summonTypes[Math.floor(Math.random()*summonTypes.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({type,slot:sl,lv:1,cd:0,anim:0,invested:cost});toast(heroNames[type]+' 소환')}
+ if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();let type=summonTypes[Math.floor(Math.random()*summonTypes.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({type,slot:sl,lv:1,cd:0,anim:0,invested:cost});playSound('summon');toast(heroNames[type]+' 소환')}
 
 const RECIPES=[
  {tier:2,cls:'MELEE',name:'MELEE T2 RANDOM',need:{cls:'MELEE',tier:1,count:3}},
@@ -155,7 +156,7 @@ function levelUpHero(type,tier){
  if(started&&!ended)return false;
  if(!catalogEntries().some(u=>u.type===type&&u.lv===tier))return false;
  const lv=getLv(type,tier),cost=levelCost(lv);if(lv>=20||essence<cost)return false;
- essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();
+ playSound('levelUp');essence-=cost;heroLevels[lvKey(type,tier)]=lv+1;saveMeta();
  toast(`${evolutionNames[type][tier-1]} Lv.${lv+1}${lv+1===5||lv+1===10?' · 새 스킬 개방!':''}`);renderHeroLab();refreshCodex();return true;
 }
 function grantEssence(amount){essence+=Math.max(0,Math.floor(amount));saveMeta()}
@@ -237,7 +238,7 @@ function craftRecipe(i){
  const keep=take[0],invested=take.reduce((sum,u)=>sum+unitInvestment(u),0);take.slice(1).forEach(removeUnit);keep.invested=invested;
  if(r.need){const candidates=U.map((u,i)=>({u,i})).filter(v=>v.u.cls===r.cls);keep.type=candidates[Math.floor(Math.random()*candidates.length)].i;delete keep.name}
  else{keep.name=r.name;keep.type=SPECIALS[r.name].base}
- keep.lv=r.tier;keep.anim=1;keep.cd=0;S.sel=keep;
+ playSound('fuse');keep.lv=r.tier;keep.anim=1;keep.cd=0;S.sel=keep;
  const pos=slot(keep.slot);for(let j=0;j<28;j++)particles.push({x:pos.x,y:pos.y,vx:rnd(-80,80),vy:rnd(-80,80),t:.9,col:tierColors[r.tier]});
  toast(`${tierNames[r.tier]} · ${heroLabel(keep)} 조합 완료`);refreshSelection();renderRecipes();refreshCodex();return true;
 }
@@ -250,13 +251,13 @@ function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let scale=Math.pow(1.19,S.wave-1);
  let hp=(boss?780:(elite?150:92))*scale*rnd(.92,1.10);let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,slow:0,stun:0,hit:0});S.spawn++}
 function fire(u,e){let T=unitData(u),p=slot(u.slot);u.cd=T.rate/(1+u.lv*.1);u.anim=1;shots.push({x:p.x,y:p.y,target:e,dmg:battleAttack(u),kind:T.kind,type:u.type,lv:u.lv,dead:false})}
-function hit(e,damage,kind,mlv=1){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=mlv>=5?1.2:.8;if(kind==='bash')e.stun=mlv>=5?.5:.35;if(kind==='slash'&&e.hp/e.max<(mlv>=5?.35:.25))damage*=1.8;e.hp-=damage;e.hit=.14;
+function hit(e,damage,kind,mlv=1){if(!e||e.hp<=0)return;if(kind==='ice')e.slow=mlv>=5?1.2:.8;if(kind==='bash')e.stun=mlv>=5?.5:.35;if(kind==='slash'&&e.hp/e.max<(mlv>=5?.35:.25))damage*=1.8;e.hp-=damage;e.hit=.14;playSound('hit',kind);
  let col=kind==='fire'?'#f6a15c':kind==='volt'?'#b9a5ff':kind==='ice'?'#bfeef4':kind==='arrow'?'#b9d58e':'#e7d8b6';
  for(let i=0;i<7;i++)particles.push({x:e.x,y:e.y,vx:rnd(-65,65),vy:rnd(-65,65),t:.4,col});
  floaters.push({x:e.x,y:e.y-14,t:.55,s:Math.round(damage),col});
- if(e.hp<=0){S.coin+=e.boss?30:2;for(let i=0;i<18;i++)particles.push({x:e.x,y:e.y,vx:rnd(-100,100),vy:rnd(-100,100),t:.6,col:'#d95a62'})}
+ if(e.hp<=0){playSound('death',e.boss);S.coin+=e.boss?30:2;for(let i=0;i<18;i++)particles.push({x:e.x,y:e.y,vx:rnd(-100,100),vy:rnd(-100,100),t:.6,col:'#d95a62'})}
 }
-function relic(){if(!started||paused||ended)return;if(relicCooldown>0)return toast('별빛 강림 충전 중');relicCooldown=7;toast('✦ 별빛 강림');mobs.forEach(m=>hit(m,75+S.wave*5,'volt'))}
+function relic(){if(!started||paused||ended)return;if(relicCooldown>0)return toast('별빛 강림 충전 중');relicCooldown=7;playSound('ultimate');toast('✦ 별빛 강림');mobs.forEach(m=>hit(m,75+S.wave*5,'volt'))}
 document.querySelector('#summon').onclick=summon;document.querySelector('#combine').onclick=openRecipes;document.querySelector('#ult').onclick=relic;
 document.querySelector('#codex').onclick=openRecipes;document.querySelector('#close').onclick=()=>closeModal('#drawer');
 function refreshCodex(){const heroes=catalogEntries();document.querySelector('#cards').innerHTML=heroes.map((u,i)=>{const t=unitData(u);return `<div class="card" style="--tier:${tierColors[u.lv]}"><span class="tierbadge">${heroNames[u.type]} · T${u.lv} ${tierNames[u.lv]}</span><canvas width="240" height="210" data-hero="${i}"></canvas><b>${heroLabel(u)}</b><span class="tag">${classLabels[t.cls]}</span><div class="skill">공격력 ${Math.round(t.atk*Math.pow(2.6,u.lv-1))} · 사거리 ${t.range}</div></div>`}).join('');document.querySelectorAll('[data-hero]').forEach(c=>body(c.getContext('2d'),120,111,heroes[+c.dataset.hero],1.75,true))}
@@ -328,7 +329,7 @@ function update(dt){S.t+=dt;relicCooldown=Math.max(0,relicCooldown-dt);
  mobs.forEach(m=>{if(m.hp<=0)return;m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
  mobs=mobs.filter(m=>m.hp>0);
  if(mobs.length>=80){finish(false);return}
- if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8;grantEssence(3);S.runEssence=(S.runEssence||0)+3}
+ if(S.t-S.stageStart>=20&&S.wave<30){S.wave++;playSound('wave');toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=8;grantEssence(3);S.runEssence=(S.runEssence||0)+3}
  if(S.wave===30&&S.spawn===S.max&&mobs.length===0){finish(true);return}
  units.forEach(u=>{u.cd-=dt;u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=battleRange(u);let tar=mobs.filter(m=>d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
  shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;let mlv=getLv(s.type,s.lv),dmg=s.dmg;if(s.kind==='fire'&&mlv>=5&&Math.random()<.15)dmg*=1.5;hit(s.target,dmg,s.kind,mlv);if(s.kind==='volt'){let near=mobs.filter(m=>m!==s.target&&d(m,s.target)<75).slice(0,mlv>=5?3:2);near.forEach(m=>hit(m,s.dmg*.5,'volt',mlv))}}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
@@ -363,7 +364,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  ctx.restore()}
 function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won){if(ended)return;ended=true;let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
+function finish(won){if(ended)return;ended=true;playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};
 document.querySelector('#previewCodex').onclick=openGrowth;
@@ -379,7 +380,7 @@ refreshCodex();renderHeroLab();
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*.5)}
 function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${battleAttack(u).toFixed(1)}`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
-function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);removeUnit(u);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (50% 환급)`);return true}
+function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);playSound('coin');removeUnit(u);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (50% 환급)`);return true}
 document.querySelector('#sellUnit').onclick=sellSelected;
 document.querySelector('#deselectUnit').onclick=()=>{S.sel=null;refreshSelection()};
 

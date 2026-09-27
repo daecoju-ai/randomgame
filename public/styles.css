@@ -75,3 +75,5 @@ button:active{transform:translateY(1px)}#summon{color:#33240d;background:linear-
 #battleUpgrade{min-height:36px;font-size:11px;padding:6px 8px;border-radius:8px;background:#244e43;color:#e0f5da;box-shadow:none}
 #battleUpgrade:disabled{opacity:.55;cursor:default}
 #battleUpgradeNotice{font-size:9px;text-align:center;color:#b7c8bb}
+
+.bottom{grid-template-columns:1fr 1fr}#summonOdds{position:absolute;bottom:82px;left:4%;width:92%;text-align:center;font-size:9px;color:#b7c8bb;pointer-events:none}.skillUnlocks p{font-size:12px;line-height:1.6;margin:8px 0}.skillUnlocks button,.skillInspect{min-height:36px;font-size:12px;padding:8px 12px}.skillUnlocks>div{display:block}.skillUnlocks small{display:block;margin-top:5px}.skillInspect{width:100%;color:#bef7df;background:#19382e;border:1px solid #47735e;border-radius:8px}

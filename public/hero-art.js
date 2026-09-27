@@ -1,5 +1,31 @@
-// The same compact vector character is used in battle, recipes and growth.
+// Generated, transparent painted atlas. Keep fallback while loading/offline.
+const paintedAtlas=typeof Image!=='undefined'?new Image():null;
+let paintedAtlasReady=false;
+const paintedColumns=[0,209,418,627,836,1045,1254];
+const paintedRows=[0,184,378,574,795,1018,1254];
+function paintedCell(u){
+ const col=ELEMENTS.findIndex(e=>e.base===u.type||e.support===u.type);
+ const row=u.lv===5?(isSupport(u)?5:4):u.lv-1;
+ if(col<0||row<0||row>5)return null;
+ const left=paintedColumns[col]+(row===5&&col===1?12:0);
+ return {x:left,y:paintedRows[row],w:paintedColumns[col+1]-left,h:paintedRows[row+1]-paintedRows[row]};
+}
+if(paintedAtlas){
+ paintedAtlas.onload=()=>{paintedAtlasReady=true;refreshCodex();renderHeroLab();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};
+ paintedAtlas.src='/assets/elemental-heroes-v17.webp';
+}
 function drawElementHero(g,x,y,u,s=1,mini=false){
+ const cell=paintedCell(u);
+ if(!paintedAtlasReady||!cell)return drawElementFallback(g,x,y,u,s,mini);
+ const bob=mini?0:Math.sin(S.t*2+(u.slot||0))*1.1;
+ const size=(mini?89:82)*s,ratio=Math.min(size/cell.w,size/cell.h),w=cell.w*ratio,h=cell.h*ratio;
+ g.save();g.translate(x,y+bob);
+ g.drawImage(paintedAtlas,cell.x,cell.y,cell.w,cell.h,-w/2,-h*.64,w,h);
+ if(!mini){g.fillStyle=elementFor(u.type).accent;g.font='bold 8px system-ui';g.textAlign='center';g.fillText(u.lv===5?(isSupport(u)?'지원':'공격'):'·'.repeat(u.lv),0,h*.36+8)}
+ g.restore();return true;
+}
+// The same compact vector character is used in battle, recipes and growth.
+function drawElementFallback(g,x,y,u,s=1,mini=false){
  const e=elementFor(u.type);if(!e)return false;const tier=u.lv,support=isSupport(u),bob=mini?0:Math.sin(S.t*2+(u.slot||0))*1.3;
  g.save();g.translate(x,y+bob);g.scale(s,s);
  const ellipse=(x,y,rx,ry,c)=>{g.fillStyle=c;g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fill()};

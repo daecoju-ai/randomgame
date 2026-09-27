@@ -17,3 +17,16 @@ test('anonymous and mismatched-owner saves cannot reach storage',async()=>{confi
 test('stale revision returns conflict and preserves remote data',async()=>{configured();const reqs=mock([{path:'/user',data:user},{path:'/rpc/',data:[]}]);const r=await call(progress,{action:'save',owner:uid,data:{levels:{'0:1':5},essence:0},revision:2},{cookie:'__Host-ff-access=fake-access'});assert.equal(r.statusCode,409);const sent=JSON.parse(reqs.at(-1).opt.body);assert.equal(sent.expected_revision,2);assert.equal(sent.user_id,undefined)});
 test('valid cloud save returns new revision; invalid currency and unknown units rejected',async()=>{configured();mock([{path:'/user',data:user},{path:'/rpc/',data:[{data:{levels:{'0:1':2},essence:108},revision:3}]}]);const r=await call(progress,{action:'save',owner:uid,data:{levels:{'0:1':2},essence:108},revision:2},{cookie:'__Host-ff-access=fake-access'});assert.equal(r.data.record.revision,3);for(const p of [{levels:{},essence:-1},{levels:{'2:1':4},essence:0},{levels:{'0:1':31},essence:0},{levels:[],essence:0}])assert.throws(()=>A.progress(p));assert.throws(()=>A.input({body:'{broken'}))});
 test('cloud validation accepts level30 tier6 and ranks1-10 but rejects locked or malformed skills',()=>{assert.equal(A.progress({levels:{'9:6':30},skills:{'9:6:5':10},essence:5}).skills['9:6:5'],10);for(const skills of [{'9:6:5':11},{'9:6:6':1},{'9:6:5':0},{'9:1:1':2},[]])assert.throws(()=>A.progress({levels:{'9:6':30},skills,essence:5}));assert.throws(()=>A.progress({levels:{'9:6':29},skills:{'9:6:5':1},essence:5}))});
+
+test('elemental v4 progress validates final branch unlocks and rejects removed tiers',()=>{
+ const {progress}=require('../lib/account.cjs');
+ assert.equal(progress({version:4,levels:{'3:5':20},skills:{'3:5:6':2},essence:10}).skills['3:5:6'],2);
+ assert.equal(progress({version:4,levels:{},skills:{'8:1:0':2},essence:0}).skills['8:1:0'],2);
+ for(const value of [
+  {levels:{'8:6':30},skills:{}},
+  {levels:{'3:2':2},skills:{}},
+  {levels:{'8:5':9},skills:{'8:5:5':2}},
+  {levels:{'8:5':19},skills:{'8:5:6':2}},
+  {levels:{'8:1':30},skills:{'8:1:1':2}},
+ ])assert.throws(()=>progress({version:4,essence:0,...value}));
+});

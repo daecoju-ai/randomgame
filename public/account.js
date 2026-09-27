@@ -52,7 +52,7 @@ $('#cloudRetry').onclick=async()=>{if(busy||saving)return;busy=true;render();try
 $('#cloudReload').onclick=()=>{$('#cloudConflictConfirm').hidden=false};
 $('#cloudConflictCancel').onclick=()=>{$('#cloudConflictConfirm').hidden=true};
 $('#cloudConflictAccept').onclick=async()=>{if(busy)return;busy=true;render();try{const r=await api('progress',{action:'load',owner:user.id});if(!r.record)throw Error('서버 기록이 없습니다. 다시 로그인해 주세요.');try{localStorage.setItem(key(user.id)+'_backup',JSON.stringify({revision,data:game.snapshot()}))}catch{}revision=r.record.revision;dirty=false;conflict=false;locked=false;game.apply(r.record.data,user.id);cache();$('#cloudConflictConfirm').hidden=true;status('서버 기록을 불러왔습니다.');message('계정 기록으로 이어서 플레이할 수 있습니다.')}catch(e){message(e.message)}finally{busy=false;render()}};
-async function choose(importGuest){if(busy)return;busy=true;awaitingChoice=false;game.apply(importGuest?game.guestSnapshot():{version:3,levels:{},essence:120},user.id);dirty=true;locked=false;cache();render();try{await flush()}finally{busy=false;render()}}
+async function choose(importGuest){if(busy)return;busy=true;awaitingChoice=false;game.apply(importGuest?game.guestSnapshot():{version:4,levels:{},essence:120},user.id);dirty=true;locked=false;cache();render();try{await flush()}finally{busy=false;render()}}
 $('#importGuest').onclick=()=>choose(true);$('#newAccountStart').onclick=()=>choose(false);
 $('#accountBadge').onclick=open;$('#accountHeaderButton').onclick=open;$('#accountClose').onclick=close;
 $('#accountForgot').onclick=()=>setMode('recover');$('#accountVerifyLink').onclick=()=>setMode('verify');$('#accountBack').onclick=()=>setMode('signin');document.querySelectorAll('[data-auth-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.authMode));

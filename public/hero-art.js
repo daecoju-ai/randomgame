@@ -59,19 +59,20 @@ function drawElementFallback(g,x,y,u,s=1,mini=false){
 
 // Stage and role marks share one neutral design across all elements.
 // Draw after combat effects so small screens keep a readable stage number.
+function tileBounds(){const a=geometry();return{hw:Math.min(23,Math.min(58,(a.width-108)/3)*.45),hh:Math.min(23,Math.min(54,(a.height-88)/7)*.44)}}
+function badgeLayout(){const b=tileBounds(),h=Math.min(18,b.hh*2-2);return{x:-b.hw+2,y:b.hh-h-2,w:16,h}}
 function drawUnitBadge(g,x,y,u){
- g.save();g.translate(x-20,y-25);g.globalAlpha=1;g.shadowBlur=0;
- g.fillStyle='#10151f';g.strokeStyle='#f3eee3';g.lineWidth=1.3;
- g.beginPath();g.roundRect(-8,-9,16,18,4);g.fill();g.stroke();
- g.fillStyle='#ffffff';g.font='900 12px system-ui';g.textAlign='center';g.textBaseline='middle';g.fillText(String(u.lv),0,.5);
+ const b=badgeLayout();g.save();g.translate(x+b.x,y+b.y);g.globalAlpha=1;g.shadowBlur=0;
+ g.fillStyle='#10151f';g.strokeStyle='#f3eee3';g.lineWidth=1;
+ g.beginPath();g.roundRect(0,0,b.w,b.h,3);g.fill();g.stroke();
+ g.fillStyle='#fff';g.font=`900 ${Math.min(13,b.h-2)}px system-ui`;g.textAlign='center';g.textBaseline='middle';g.fillText(String(u.lv),8,b.h/2+.5);
  if(u.lv===5){
-  // Crown identifies final evolution without adding another element color.
-  g.beginPath();g.moveTo(-6,-11);g.lineTo(-7,-15);g.lineTo(-3,-13);g.lineTo(0,-17);g.lineTo(3,-13);g.lineTo(7,-15);g.lineTo(6,-11);g.closePath();g.fill();
-  g.translate(40,0);g.fillStyle='#10151f';g.beginPath();g.roundRect(-8,-9,16,18,4);g.fill();g.stroke();
-  g.strokeStyle='#ffffff';g.lineWidth=2;g.lineCap='round';g.beginPath();
-  if(isSupport(u)){g.moveTo(-4,0);g.lineTo(4,0);g.moveTo(0,-4);g.lineTo(0,4)}
-  else{g.moveTo(-4,5);g.lineTo(4,-5);g.lineTo(4,-1);g.moveTo(-4,1);g.lineTo(0,5)}
-  g.stroke();
+  // Role icon also stays inside the occupied tile, at its upper right.
+  const bounds=tileBounds();g.translate(bounds.hw-15-b.x,-bounds.hh+2-b.y);
+  const h=Math.min(14,bounds.hh*2-4);g.fillStyle='#10151f';g.beginPath();g.roundRect(0,0,13,h,3);g.fill();
+  g.translate(6.5,h/2);g.strokeStyle='#fff';g.lineWidth=1.6;g.lineCap='round';g.beginPath();
+  if(isSupport(u)){g.moveTo(-3,0);g.lineTo(3,0);g.moveTo(0,-3);g.lineTo(0,3)}
+  else{g.moveTo(-3,4);g.lineTo(3,-4);g.lineTo(3,-1);g.moveTo(-3,1);g.lineTo(0,4)}g.stroke();
  }
  g.restore();
 }

@@ -4,7 +4,7 @@
 
 ## 운영자가 한 번 설정할 항목
 1. 이 게임용 Supabase 프로젝트를 생성합니다. 기존 다른 앱의 데이터베이스는 변경하지 않습니다.
-2. SQL Editor에서 `supabase/001_accounts.sql`을 실행합니다. 각 계정은 본인의 기록만 읽을 수 있으며 저장 함수가 로그인 UID와 revision을 검사합니다.
+2. SQL Editor에서 `supabase/001_accounts.sql`, `supabase/002_isolate_progress_writer.sql`을 순서대로 실행합니다. 각 계정은 본인의 기록만 읽을 수 있으며 private 스키마의 저장 함수가 로그인 UID와 revision을 검사합니다. 공개 RPC는 SECURITY INVOKER입니다.
 3. Authentication의 Email provider를 켜고 **Confirm email**을 활성화합니다. 비밀번호 최소 길이 10자. Site URL은 `https://randomfortune-game.vercel.app`.
 4. Email Templates의 Confirm signup / Reset password 본문을 아래 인증번호 방식으로 설정합니다. 기본 이메일 링크 템플릿은 이 앱의 쿠키 인증 흐름과 호환되지 않습니다.
    - 가입: `<h2>운명의 대장간 이메일 인증</h2><p>게임의 이메일 인증 화면에 입력하세요.</p><p>{{ .Token }}</p>`
@@ -24,4 +24,6 @@
 - 계정 삭제 UI/소셜 로그인/관리자 기능은 이번 범위에 포함되지 않습니다.
 
 ## 확인 범위
+2026-09-27: 서울 리전의 `randomgame` 프로젝트(`ozyrzptyfyytqchufbbe`)에 두 SQL 적용 완료. 생성 비용 조회 결과 월 $0. 실제 DB에서 최초 저장, 정상 revision 갱신, 오래된 revision 거절, 다른 계정의 조회·갱신 차단을 트랜잭션 롤백 방식으로 검증했습니다. 테스트 데이터는 남기지 않았습니다. Supabase security advisor 경고 0개. Vercel 팀 목록이 비어 있어 운영 환경변수는 적용하지 못했으며, 이메일 템플릿·SMTP·실제 가입 흐름은 미검증입니다.
+
 Node 자동 테스트는 mock Supabase 응답으로 인증/쿠키/접근제어/충돌을 검증합니다. 실제 이메일 발송 및 기기 간 계정 연동은 외부 서버 설정 완료 후 별도 검증해야 합니다.

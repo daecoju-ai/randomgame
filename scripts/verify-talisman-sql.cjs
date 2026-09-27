@@ -1,0 +1,14 @@
+const {PGlite}=require('@electric-sql/pglite');const fs=require('fs'),assert=require('node:assert/strict');
+(async()=>{const db=new PGlite();await db.exec(`create schema auth;create schema private;create role anon;create role authenticated;create table auth.users(id uuid primary key);create function auth.uid() returns uuid language sql as $$select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid$$;`);await db.exec(fs.readFileSync('supabase/migrations/20260928000000_talisman_economy.sql','utf8'));
+const user='11111111-1111-4111-8111-111111111111';await db.query('insert into auth.users values($1)',[user]);await db.query("select set_config('request.jwt.claim.sub',$1,false)",[user]);
+const call=async(action,id=null,n=1)=>(await db.query('select public.forge_talisman($1,$2,$3) as value',[action,id,n])).rows[0].value;
+assert.equal((await call('load')).tickets,3);assert.equal((await call('load')).tickets,3);
+assert.equal((await call('daily','22222222-2222-4222-8222-222222222222')).tickets,4);assert.equal((await call('daily','33333333-3333-4333-8333-333333333333')).tickets,4);
+const id='44444444-4444-4444-8444-444444444444',a=await call('draw',id);assert.equal(a.tickets,3);assert.equal(a.drops.length,1);assert.deepEqual(await call('draw',id),a);assert.equal((await call('load')).tickets,3);
+await assert.rejects(call('daily',id));assert.equal((await call('draw','55555555-5555-4555-8555-555555555555',10)).error,'TICKETS');assert.equal((await call('load')).tickets,3);
+await db.exec(`update private.talisman_wallets set pity_legend=99,owned='{"breeze":30}'`);let r=await call('draw','66666666-6666-4666-8666-666666666666');assert.equal(r.drops[0].id,'breeze');assert.equal(r.owned.breeze,31);assert.equal(r.pity[2],0);
+await db.exec('update private.talisman_wallets set pity_legend=99');r=await call('draw','77777777-7777-4777-8777-777777777777');assert.equal(r.dust,30);assert.equal(r.owned.breeze,31);
+await db.exec('update private.talisman_wallets set tickets=10,pity_epic=49');r=await call('draw','88888888-8888-4888-8888-888888888888',10);assert.equal(r.drops.length,10);assert.equal(r.tickets,0);
+await db.exec("select set_config('request.jwt.claim.sub','',false)");await assert.rejects(call('load'));
+await db.exec('set role anon');await assert.rejects(call('load'));await db.exec('reset role;set role authenticated');await assert.rejects(db.query('select * from private.talisman_wallets'));await db.exec('reset role');
+console.log('SQL PASS: welcome, daily, replay, atomic insufficient funds, pity, star cap, dust, 10 draws, auth and direct-write isolation');await db.close()})().catch(e=>{console.error(e);process.exit(1)});

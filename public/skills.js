@@ -1,3 +1,4 @@
+function talismanBonus(u,stat){return typeof window!=='undefined'?(window.ForgeEconomy?.bonus(u?elementFor(u.type).id:'all',stat)||0):0}
 // Evolution adds skills; final forms retain all four inherited skills.
 const INHERITED={
  fire:[['화염탄','single'],['화염 폭발','area'],['연속 화염탄','multi'],['화염 폭풍','burnZone']],
@@ -29,7 +30,7 @@ function skillKey(u,i){return `${u.type}:${u.lv}:${i}`}
 function skillRank(u,i){return validHero(u.type,u.lv)&&getLv(u.type,u.lv)>=skillUnlockLevel(u.lv,i)?(heroSkills[skillKey(u,i)]||1):0}
 function skillCost(u,i){return skillRank(u,i)*10*u.lv}
 function skillStats(def,rank,u){const r=Math.max(1,rank),final=def.slot>=4,awakened=u&&u.lv===5&&getLv(u.type,5)>=30&&def.slot===4,scale=awakened?1.5:1;
- return{power:(final?4+def.slot*.5:1+def.slot*.3)*(1+.12*(r-1))*scale,radius:combatCell()*(final?1:.65),stun:(final?1.8:.45)+r*.06,duration:(final?5:3)+r*.15,targets:Math.min(12,3+Math.ceil(r/2)),bonus:(.12+.025*r)*scale,mp:final?40:15+def.slot*4,cooldown:final?18+def.slot:6+def.slot*2,awakened};
+ return{power:(final?4+def.slot*.5:1+def.slot*.3)*(1+.12*(r-1))*scale*(1+talismanBonus(u,'skill')),radius:combatCell()*(final?1:.65),stun:((final?1.8:.45)+r*.06)*(1+talismanBonus(u,'control')),duration:((final?5:3)+r*.15)*(1+(['ice','mud','freeze','freezeZone'].includes(def.effect)?talismanBonus(u,'control'):0)),targets:Math.min(12,3+Math.ceil(r/2)),bonus:(.12+.025*r)*scale,mp:final?40:15+def.slot*4,cooldown:final?18+def.slot:6+def.slot*2,awakened};
 }
 function skillDescription(def,rank,u){const v=skillStats(def,rank,u),p=Math.round(v.power*100),b=Math.round(v.bonus*100),dur=v.duration.toFixed(1),a=`반경 ${(v.radius/combatCell()).toFixed(2)}칸`,f=def.effect;const text={
  single:`단일 적 ${p}% 피해`,area:`${a} 광역 ${p}% 피해`,multi:`사거리 내 서로 다른 적 ${v.targets}명에 ${p}% 화염탄`,wave:`전방 부채꼴 ${p}% 피해`,ice:`단일 ${p}% 피해 · ${dur}초 45% 감속`,mud:`${a} 진흙 지대 · ${dur}초 45% 감속`,burst:`단일 대상 ${v.targets}회 연속 공격 · 합계 ${p*2}% 피해`,strike:`단일 ${p*2}% 피해`,stun:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 기절`,chain:`간격 1칸 이내로 연결된 모든 적 · ${p}% 연쇄 피해 · 기절·감전`,speed:`자신 공격속도 +${b}%`,clone:`분신이 기본 공격의 ${b*2}%로 추가 공격`,mark:`대상 ${dur}초 받는 피해 +${b}%`,
@@ -52,9 +53,10 @@ function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0
   const effect=effects[def.effect];if(effect)add(effect[0],v.bonus*effect[1]);
  }}
  for(const buff of Object.values(u.buffs||{})){if(buff.time<=0)continue;for(const key in result)if(buff[key])add(key,buff[key])}
+ result.speed+=talismanBonus(u,'speed');result.mana+=talismanBonus(u,'mana');result.haste+=talismanBonus(u,'haste');result.crit+=talismanBonus(u,'crit');result.critPower+=talismanBonus(u,'critPower');
  result.haste=Math.min(.45,result.haste);result.crit=Math.min(.75,result.crit);return result;
 }
-function combatAttack(u){return battleAttack(u)*(1+skillModifiers(u).attack)}
+function combatAttack(u){return battleAttack(u)*(1+skillModifiers(u).attack)*(1+talismanBonus(u,'attack'))}
 function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),shadow=elementFor(u.type).id==='shadow';let damage=amount*(shadow?(enemy.boss?2:3):1);if(Math.random()<Math.min(.85,(shadow?.2:0)+mods.crit))damage*=2+mods.critPower;return damage}
 function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount),U[u.type].kind)}
 let skillZones=[];

@@ -21,6 +21,7 @@ function drawArena(){
 const C=document.querySelector('#g'),ctx=C.getContext('2d');let W,H,D;
 const S={coin:80,life:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,shake:0,ult:true,stageStart:0,summons:0,drag:null};
 let units=[],mobs=[],shots=[],particles=[],floaters=[];
+let battleUpgrades={}; // Run-only: never included in local or account progression.
 let started=false,paused=false,ended=false,relicCooldown=0;
 let recipeFilter="all",recipeStamp="";
 const tierNames=["","일반","고급","희귀","전설","신화"];
@@ -134,7 +135,9 @@ function lvKey(type,tier){return type+':'+tier}
 function getLv(type,tier){return heroLevels[lvKey(type,tier)]||1}
 function levelCost(lv){return lv*12}
 function metaAtkMult(type,tier){const lv=getLv(type,tier);return (1+.05*(lv-1))*(lv>=10?1.25:1)}
-function battleAttack(entry){return unitData(entry).atk*Math.pow(2.6,entry.lv-1)*metaAtkMult(entry.type,entry.lv)}
+function battleUpgradeLevel(u){return battleUpgrades[lvKey(u.type,u.lv)]||0}
+function battleUpgradeCost(u){return (battleUpgradeLevel(u)+1)*10}
+function battleAttack(entry){return unitData(entry).atk*Math.pow(2.6,entry.lv-1)*metaAtkMult(entry.type,entry.lv)*(1+battleUpgradeLevel(entry)/100)}
 function battleRange(entry){const t=unitData(entry);return t.range*(t.kind==='arrow'&&getLv(entry.type,entry.lv)>=5?1.2:1)}
 const KIND_SKILL2={bash:'방패 충격: 기절 0.35초 → 0.5초',slash:'처형: 적 체력 35% 미만에서 피해 ×1.8',arrow:'장거리 조준: 사거리 +20%',fire:'화염 치명타: 15% 확률로 피해 ×1.5',volt:'연쇄 확장: 추가 타격 2명 → 3명',ice:'서리 결계: 감속 0.8초 → 1.2초'};
 function entryKind(entry){return (entry.name&&SPECIALS[entry.name]?.kind)||U[entry.type].kind}
@@ -160,7 +163,7 @@ function levelUpHero(type,tier){
  toast(`${evolutionNames[type][tier-1]} Lv.${lv+1}${lv+1===5||lv+1===10?' · 새 스킬 개방!':''}`);renderHeroLab();refreshCodex();return true;
 }
 function grantEssence(amount){essence+=Math.max(0,Math.floor(amount));saveMeta()}
-function goLobby(){started=false;paused=false;S.sel=null;S.drag=null;document.querySelector('#startScreen').hidden=false;document.querySelector('#resultScreen').hidden=true;document.querySelector('#leaveBattle').hidden=true;closeModal('#recipeOverlay');closeModal('#drawer');refreshSelection();renderWallet()}
+function goLobby(){battleUpgrades={};started=false;paused=false;S.sel=null;S.drag=null;document.querySelector('#startScreen').hidden=false;document.querySelector('#resultScreen').hidden=true;document.querySelector('#leaveBattle').hidden=true;closeModal('#recipeOverlay');closeModal('#drawer');refreshSelection();renderWallet()}
 function openGrowth(){renderHeroLab();openModal('#drawer')}
 function heroLabel(u){return evolutionNames[u.type][u.lv-1]}
 function catalogEntries(){return U.flatMap((base,type)=>[1,2,3,4,5].map(lv=>{
@@ -338,6 +341,7 @@ function update(dt){S.t+=dt;relicCooldown=Math.max(0,relicCooldown-dt);
  document.querySelector('#stageProgress span').style.width=Math.min(100,(S.t-S.stageStart)/20*100)+'%';
  document.querySelector('#ult').textContent=relicCooldown>0?'충전 '+Math.ceil(relicCooldown)+'s':'✦ 별빛 강림';
  document.querySelector('#summon').disabled=S.coin<summonCost();
+ refreshBattleUpgrade();
  if(document.querySelector('#recipeOverlay').style.display==='block'&&recipeStamp!==inventoryStamp())renderRecipes();
  let b=mobs.find(m=>m.boss),bw=document.querySelector('#bossWrap');bw.style.display=b?'block':'none';if(b)document.querySelector('#bossBar').style.width=100*b.hp/b.max+'%';
 }
@@ -363,8 +367,8 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  particles.forEach(p=>{ctx.globalAlpha=Math.min(1,p.t*3);ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,7);ctx.fill();ctx.globalAlpha=1});
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  ctx.restore()}
-function resetGame(){Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won){if(ended)return;ended=true;playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
+function resetGame(){battleUpgrades={};Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;relicCooldown=0;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
+function finish(won){if(ended)return;ended=true;battleUpgrades={};refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};
 document.querySelector('#previewCodex').onclick=openGrowth;
@@ -379,7 +383,28 @@ refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*.5)}
-function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${battleAttack(u).toFixed(1)}`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;if(!valid)return;refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`T${u.lv} · Lv.${getLv(u.type,u.lv)} · 공격 ${battleAttack(u).toFixed(1)}`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function refreshBattleUpgrade(){
+ const u=S.sel;if(!u||!units.includes(u))return;
+ const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u),button=document.querySelector('#battleUpgrade');
+ button.disabled=!started||ended||paused||level>=10||S.coin<cost;
+ button.textContent=level>=10?'전투 강화 10/10 · 최대':`전투 강화 ${level}/10 → ${level+1} · ${cost} ◈`;
+ document.querySelector('#battleUpgradeNotice').textContent=`공격력 +${level}% · 같은 종류·단계 전체 적용 · 종료 시 초기화`;
+}
+function upgradeBattleSelected(){
+ const u=S.sel;
+ if(!started||ended||paused||!u||!units.includes(u))return false;
+ if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed())return false;
+ const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u);
+ if(level>=10||S.coin<cost)return false;
+ S.coin-=cost;battleUpgrades[lvKey(u.type,u.lv)]=level+1;
+ document.querySelector('#coin').textContent=S.coin;
+ document.querySelector('#summon').disabled=S.coin<summonCost();
+ refreshSelection();playSound('coin');
+ toast(`${heroLabel(u)} 전투 강화 ${level+1}/10 · 공격력 +${level+1}%`);
+ return true;
+}
+document.querySelector('#battleUpgrade').onclick=upgradeBattleSelected;
 function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);playSound('coin');removeUnit(u);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (50% 환급)`);return true}
 document.querySelector('#sellUnit').onclick=sellSelected;
 document.querySelector('#deselectUnit').onclick=()=>{S.sel=null;refreshSelection()};

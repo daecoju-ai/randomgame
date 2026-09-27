@@ -68,3 +68,10 @@ button:active{transform:translateY(1px)}#summon{color:#33240d;background:linear-
 
 /* Sound controls remain reachable in both lobby and battle. */
 .screen #lobbySound{position:absolute;top:max(16px,env(safe-area-inset-top));right:18px;width:auto;min-height:36px;padding:7px 12px;background:#142c34;color:#cdd7c5;border:1px solid #bbac7655;box-shadow:none;font-size:11px;text-align:center}#soundToggle{font-size:9px;padding:6px;min-width:48px}.top{gap:5px}@media(max-width:380px){.top .brand{font-size:12px}.top .brand-mark{display:none}.top button{padding:5px;min-width:28px}#soundToggle{font-size:8px;min-width:43px}}
+
+/* Run upgrades keep selection actions readable on narrow phones. */
+#selectionPanel{height:auto;display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:6px 8px}
+#selectionPanel>.battleUpgradeControls{grid-column:1 / -1;grid-row:2;display:flex;flex-direction:column;gap:4px}
+#battleUpgrade{min-height:36px;font-size:11px;padding:6px 8px;border-radius:8px;background:#244e43;color:#e0f5da;box-shadow:none}
+#battleUpgrade:disabled{opacity:.55;cursor:default}
+#battleUpgradeNotice{font-size:9px;text-align:center;color:#b7c8bb}

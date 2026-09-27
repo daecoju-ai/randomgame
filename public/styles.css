@@ -84,3 +84,13 @@ button:active{transform:translateY(1px)}#summon{color:#33240d;background:linear-
 .codexClass header{border-left:3px solid var(--class-accent);padding-left:12px}.classSigil{color:var(--class-accent);font-size:16px}
 .awakening{padding:12px;border:1px solid #baa57166;border-radius:10px;background:#c8aa5820;line-height:1.7!important;color:#ffe6a7!important}
 .skillUnlocks .sealed{opacity:.6}.skillUnlocks p{line-height:1.65}.labSelect canvas{max-width:100%}
+
+/* V18: readable unit names, descriptions and explicit essence rewards. */
+.labSelect b,.heroSelect b{font-size:18px;line-height:1.4;overflow-wrap:anywhere}
+.labSelect>span,.labSelect>small,.cardMeta,.cardMeta small,.heroArchetype,.recipeSummary,.craftAction,.baseNote,.labNotice,#saveStatus{font-size:13px;line-height:1.6}
+.skillUnlocks b{font-size:18px}.skillUnlocks p,#labDetail>p{font-size:16px}.skillUnlocks small,.growthStats>span{font-size:13px}.skillUnlocks button,.skillInspect,.labFilters button,#recipeFilters button{font-size:15px}
+#labDetail h3{font-size:28px}.mat strong,.mat small{font-size:12px}.mat .materialCount{font-size:17px}#selectedName{font-size:16px}#selectedTier{font-size:12px;line-height:1.5}#selectionPanel{bottom:103px}#resultText{font-size:18px;line-height:1.5}
+.rewardCard{width:min(390px,92vw);padding:20px 16px;border:1px solid #c4a66a;border-radius:16px;background:#182f32;margin:12px auto 20px;text-align:center}.rewardCard>span{font-size:18px;color:#ede3c5}.rewardCard>strong{display:block;font-size:52px;color:#ffdc87;line-height:1.3}.rewardCard p{font-size:14px;line-height:1.7;letter-spacing:0;margin:8px 0}.rewardCard>b{font-size:17px;color:#bde6cd}
+#resultScreen{overflow-y:auto;justify-content:flex-start;padding-top:max(35px,env(safe-area-inset-top))}#resultScreen h1{font-size:36px}#resultScreen button{flex-shrink:0}
+.class-earth{--class-accent:#65391f}.class-wind{--class-accent:#20cb59}
+@media(max-width:800px){#labCards{grid-template-columns:repeat(2,minmax(0,1fr))}.codexClass h3{font-size:18px}.classTotal{display:none}}

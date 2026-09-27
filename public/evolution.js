@@ -1,12 +1,13 @@
 // Stable type IDs retain account identity. Add future final forms here and in progression validation.
 const ELEMENTS=[
- {id:'fire',label:'불',base:8,support:11,color:'#ef5445',accent:'#ffb16f',kind:'fire',atk:7,rate:.95,role:'화력 · 화상',final:['불의 지배자','불의 무희']},
- {id:'water',label:'물',base:10,support:3,color:'#299df0',accent:'#96e9ff',kind:'ice',atk:6,rate:1,role:'광역 · 빙결 · 회복',final:['심해의 군주','물의 치유사']},
- {id:'earth',label:'땅',base:0,support:2,color:'#65391f',accent:'#bd8659',kind:'bash',atk:8,rate:1.2,role:'제어 · 방어',final:['대지의 파괴자','생명의 나무']},
- {id:'wind',label:'바람',base:7,support:4,color:'#20cb59',accent:'#86ff9b',kind:'arrow',atk:5,rate:.65,role:'공격속도 · 회오리',final:['폭풍의 지배자','바람의 선율사']},
- {id:'electric',label:'전기',base:9,support:5,color:'#f1c72e',accent:'#fff1a1',kind:'volt',atk:6,rate:.85,role:'연쇄 · 감전',final:['천둥의 왕','빛의 인도자']},
- {id:'shadow',label:'암흑',base:1,support:6,color:'#282238',accent:'#b994ff',kind:'slash',atk:10,rate:1.1,role:'단일 폭딜 · 처형',final:['어둠의 암살자','그림자의 인도자']}
+ {id:'fire',label:'불',base:8,support:11,color:'#ef5445',accent:'#ffb16f',kind:'fire',atk:7,rate:.95,reach:2.1,role:'광역 · 공격력',final:['멸겁의 군주','홍련의 무녀']},
+ {id:'water',label:'물',base:10,support:3,color:'#299df0',accent:'#96e9ff',kind:'ice',atk:6,rate:1,reach:2.3,role:'MP · 정화 · 빙결',final:['빙해의 제왕','청명의 신탁자']},
+ {id:'earth',label:'땅',base:0,support:2,color:'#65391f',accent:'#bd8659',kind:'bash',atk:8,rate:1.2,reach:1,role:'공격력 · 진흙 감속',final:['태산의 거신','대지의 현자']},
+ {id:'wind',label:'바람',base:7,support:4,color:'#20cb59',accent:'#86ff9b',kind:'arrow',atk:5,rate:.65,reach:1.6,role:'공격속도 · 쿨타임',final:['천공의 폭군','질풍의 지휘자']},
+ {id:'electric',label:'전기',base:9,support:5,color:'#f1c72e',accent:'#fff1a1',kind:'volt',atk:6,rate:.85,reach:2,role:'연쇄 감전 · 기절',final:['뇌명의 집행자','뇌광의 인도자']},
+ {id:'shadow',label:'암흑',base:1,support:6,color:'#282238',accent:'#b994ff',kind:'slash',atk:10,rate:1.1,reach:1,role:'치명타 · 보스 2배 / 일반 3배',final:['월식의 처형자','흑월의 예언자']}
 ];
+const GROWTH_NAMES={fire:['불씨령','홍염령','홍련의 술사','업화의 기사'],water:['물방울령','서리령','빙결의 술사','빙해의 기사'],earth:['조약돌령','암석령','암반의 투사','철산의 파수꾼'],wind:['산들령','질풍령','선풍의 척후','폭풍의 검객'],electric:['전광령','뇌운령','뇌전의 술사','벽력의 기사'],shadow:['그늘령','흑영령','월영의 자객','흑월의 추적자']};
 const BASE_TYPES=ELEMENTS.map(e=>e.base);
 const elementFor=type=>ELEMENTS.find(e=>e.base===type||e.support===type);
 const isSupport=u=>u.lv===5&&elementFor(u.type)?.support===u.type;

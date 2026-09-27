@@ -1,4 +1,4 @@
-const CACHE='fortune-forge-v17-2';
+const CACHE='fortune-forge-v18-1';
 const SHELL=['/','/index.html','/styles.css','/game.js','/skills.js','/evolution.js','/hero-art.js','/assets/elemental-heroes-v17.webp','/audio.js','/account.js','/pwa.js','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL))));
 // Activate a new version after all old game tabs close, preventing mixed game assets mid-battle.

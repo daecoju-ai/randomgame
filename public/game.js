@@ -148,12 +148,13 @@ function craftRecipe(i){
  else if(r.parts)r.parts.forEach(n=>take.push(units.find(u=>U[u.type].n===n&&u.lv===r.partTier&&!take.includes(u))));
  else r.special.forEach(n=>take.push(units.find(u=>u.name===n&&u.lv===(r.specialTier||4)&&!take.includes(u))));
  if(take.some(u=>!u))return false;
+ const previousTier=take[0].lv;
  const keep=take[0],invested=take.reduce((sum,u)=>sum+unitInvestment(u),0);take.slice(1).forEach(removeUnit);keep.invested=invested;
  if(r.need){const candidates=U.map((u,i)=>({u,i})).filter(v=>v.u.cls===r.cls);keep.type=candidates[Math.floor(Math.random()*candidates.length)].i;delete keep.name}
  else{keep.name=r.name;keep.type=SPECIALS[r.name].base}
  playSound('fuse');keep.lv=r.tier;keep.anim=1;keep.cd=0;keep.mp=0;keep.skillCD=Array(7).fill(0);keep.hp=undefined;keep.maxHP=undefined;keep.shield=0;keep.buffs={};keep.disabled=0;keep.skillCursor=0;S.sel=keep;
  const pos=slot(keep.slot);for(let j=0;j<28;j++)particles.push({x:pos.x,y:pos.y,vx:rnd(-80,80),vy:rnd(-80,80),t:.9,col:tierColors[r.tier]});
- toast(`${tierNames[r.tier]} · ${heroLabel(keep)} 조합 완료`);refreshSelection();renderRecipes();refreshCodex();return true;
+ toast(`${previousTier} → ${r.tier}단계 · ${heroLabel(keep)} 진화 완료`);refreshSelection();renderRecipes();refreshCodex();return true;
 }
 let modalReturn=null;
 function openModal(id){modalReturn=document.activeElement;document.querySelector(id).style.display='block';document.querySelector(id).focus()}
@@ -230,6 +231,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  particles.forEach(p=>{ctx.globalAlpha=Math.min(1,p.t*3);ctx.fillStyle=p.col;ctx.beginPath();ctx.arc(p.x,p.y,2.5,0,7);ctx.fill();ctx.globalAlpha=1});
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  for(const e of skillEffects){ctx.save();ctx.globalAlpha=Math.min(1,e.t*2);ctx.strokeStyle=e.color;ctx.lineWidth=2;ctx.beginPath();if(e.points){e.points.forEach((p,i)=>i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y))}else ctx.arc(e.x,e.y,e.r*(1-e.t*.5),0,Math.PI*2);ctx.stroke();ctx.restore()}
+ units.forEach(u=>{const p=slot(u.slot);drawUnitBadge(ctx,p.x,p.y,u)});
  ctx.restore()}
 function resetGame(){battleUpgrades={};skillEffects=[];skillZones=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=80;updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
 function finish(won){if(ended)return;ended=true;battleUpgrades={};skillEffects=[];skillZones=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);grantEssence(gained);document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${S.wave} 웨이브 · ${units.length}명의 영웅${won?' · 유적 방어 성공':' · 몬스터 수용 한계 도달'} · 이번 전투 정수 +${gained+(S.runEssence||0)} ✦`;document.querySelector('#resultScreen').hidden=false;closeModal('#recipeOverlay');closeModal('#drawer')}

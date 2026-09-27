@@ -5,3 +5,9 @@ Generated with the built-in image generator using the user's supplied evolution 
 Asset: `public/assets/elemental-heroes-v17.webp` (1254 × 1254 RGBA, alpha preserved; encoded at WebP quality 92). Measured cell bounds and stable type-to-element mappings are in `public/hero-art.js`. All game, recipe and growth views use the same sprite renderer. The original vector renderer remains as a loading/error fallback.
 
 Verified atlas loading and all 36 mappings in Chromium, desktop growth view and phone battle view. 49 existing gameplay/account tests pass. PWA cache version is v17-1.
+
+## Stage readability update
+- Neutral high-contrast 1–5 badges render after combat effects for every element.
+- Final units add a crown and sword/support-cross badge. Removed duplicate dot labels.
+- Earth uses dark brown (#65391f), wind vivid green (#20cb59); runtime sprite palette treatment also differentiates earth support.
+- Evolution toast states the old and new stage. Cache bumped to v17-2.

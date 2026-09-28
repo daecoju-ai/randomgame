@@ -22,13 +22,13 @@ function combatCell(){return (geometry().width-108)/3}
 function supportRadius(){return combatCell()*2.2}
 function rangeLabel(u){const e=elementFor(u.type);return `${e.reach<=1?'근접':e.reach<2?'중거리':'원거리'} ${e.reach}칸`}
 
-function definitions(u){const e=elementFor(u.type);return [...INHERITED[e.id],...(u.lv===5?FINAL_SKILLS[e.id][isSupport(u)?'support':'attack']:[])].map(([name,effect],i)=>({name,effect,slot:i,tier:i<4?i+1:5,unlock:i<4?1:[1,10,20][i-4],active:!PASSIVES.includes(effect)}))}
+function definitions(u){const e=elementFor(u.type);return (SPECIAL_SKILLS[e.id]||[...INHERITED[e.id],...(u.lv===5?FINAL_SKILLS[e.id][isSupport(u)?'support':'attack']:[])]).map(([name,effect],i)=>({name,effect,slot:i,tier:i<4?i+1:5,unlock:i<4?1:[1,10,20][i-4],active:!PASSIVES.includes(effect)}))}
 const SUMMON_WEIGHTS=[7000,2000,700,250,50];
 const SUMMON_ODDS='T1 70% · T2 20% · T3 7% · T4 2.5% · T5 0.5%';
 function rollSummonTier(random=Math.random){const roll=random()*10000;let total=0;for(let i=0;i<SUMMON_WEIGHTS.length;i++){total+=SUMMON_WEIGHTS[i];if(roll<total)return i+1}return 5}
 function skillKey(u,i){return `${u.type}:${u.lv}:${i}`}
 function skillRank(u,i){return validHero(u.type,u.lv)&&getLv(u.type,u.lv)>=skillUnlockLevel(u.lv,i)?(heroSkills[skillKey(u,i)]||1):0}
-function skillCost(u,i){return skillRank(u,i)*10*u.lv}
+function skillCost(u,i){return skillRank(u,i)*2*u.lv}
 function skillStats(def,rank,u){const r=Math.max(1,rank),final=def.slot>=4,awakened=u&&u.lv===5&&getLv(u.type,5)>=30&&def.slot===4,scale=awakened?1.5:1;
  return{power:(final?4+def.slot*.5:1+def.slot*.3)*(1+.12*(r-1))*scale*(1+talismanBonus(u,'skill')),radius:combatCell()*(final?1:.65),stun:((final?1.8:.45)+r*.06)*(1+talismanBonus(u,'control')),duration:((final?5:3)+r*.15)*(1+(['ice','mud','freeze','freezeZone'].includes(def.effect)?talismanBonus(u,'control'):0)),targets:Math.min(12,3+Math.ceil(r/2)),bonus:(.12+.025*r)*scale,mp:final?40:15+def.slot*4,cooldown:final?18+def.slot:6+def.slot*2,awakened};
 }
@@ -39,10 +39,10 @@ function skillDescription(def,rank,u){const v=skillStats(def,rank,u),p=Math.roun
  attackAura:`주변 2.2칸 아군 공격력 +${b}%`,splashAura:`주변 아군 기본 공격에 0.75칸 광역 피해 ${b*2}% 추가`,manaAura:`주변 아군 MP 회복속도 +${b*3}%`,earthAura:`주변 아군 공격력 +${b*2}% · 자신 주변 진흙으로 적 45% 감속`,speedAura:`주변 아군 공격속도 +${b*2}%`,hasteAura:`주변 아군 스킬 쿨타임 ${Math.min(45,b)}% 감소`,shockAura:`주변 전기 유닛 기절 지속시간 +${b*2}%`,critAura:`주변 아군 치명타 확률 +${b}%p`,critPowerAura:`주변 아군 치명타 피해 배율 +${b*2}%p`,
  fury:`주변 아군 ${dur}초 공격력 +${b*2}% · 기본 공격 광역 피해 ${b*2}%`,cleanse:`주변 아군 기절·감속 제거 · MP +${Math.round(v.bonus*100)}`,clarity:`주변 아군 ${dur}초 상태이상 면역 · MP 회복속도 +${b*3}%`,earthFury:`주변 아군 ${dur}초 공격력 +${b*3}%`,swift:`주변 아군 ${dur}초 공격속도 +${b*2}% · 스킬 쿨타임 ${Math.min(45,b*2)}% 감소`,critFury:`주변 아군 ${dur}초 치명타 확률 +${b}%p · 치명타 피해 배율 +${b*2}%p`
 
- };return text[f]||f;
+ };return text[f]||specialDescription(f)||f;
 }
 function skillRows(u){return definitions(u).map(def=>{const rank=skillRank(u,def.slot);return{...def,rank,unlocked:rank>0,available:def.tier<=u.lv,description:skillDescription(def,rank||1,u)}})}
-function levelUpSkill(type,tier,i){if(started&&!ended||typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed())return false;if(!Number.isInteger(i)||!validHero(type,tier))return false;const u={type,lv:tier},rank=skillRank(u,i),cost=skillCost(u,i);if(!rank||rank>=10||essence<cost)return false;essence-=cost;heroSkills[skillKey(u,i)]=rank+1;saveMeta();playSound('levelUp');renderHeroLab();return true}
+function levelUpSkill(type,tier,i){if(window.ForgeAccount?.currentUser?.())return window.ForgeAdventure.upgrade('skill',{type,tier,slot:i});if(window.ForgeAccount){window.ForgeAccount.open();return false;}if(started&&!ended||typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed())return false;if(!Number.isInteger(i)||!validHero(type,tier))return false;const u={type,lv:tier},rank=skillRank(u,i),cost=skillCost(u,i);if(!rank||rank>=10||essence<cost)return false;essence-=cost;heroSkills[skillKey(u,i)]=rank+1;saveMeta();playSound('levelUp');renderHeroLab();return true}
 function prepareSkills(u){if(!Number.isFinite(u.mp))u.mp=0;if(!u.skillCD)u.skillCD=Array(7).fill(0);if(!Number.isInteger(u.skillCursor))u.skillCursor=0;if(!u.buffs)u.buffs={}}
 function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0,resist:0,splash:0,crit:0,critPower:0,shock:0};
  const add=(key,value)=>result[key]=Math.max(result[key],value);
@@ -58,12 +58,12 @@ function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0
 }
 function combatAttack(u){return battleAttack(u)*(1+skillModifiers(u).attack)*(1+talismanBonus(u,'attack'))}
 function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),shadow=elementFor(u.type).id==='shadow';let damage=amount*(shadow?(enemy.boss?2:3):1);if(Math.random()<Math.min(.85,(shadow?.2:0)+mods.crit))damage*=2+mods.critPower;return damage}
-function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount),U[u.type].kind)}
+function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount),U[u.type].kind,false,u)}
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}
 function skillDamage(enemy,amount){hit(enemy,amount,'skill')}
-function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
-function castHeroSkill(u,def,rank,target){const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
+function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
+function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
  if(FRIENDLY_SKILLS.includes(f)){for(const ally of units){prepareSkills(ally);if(d(origin,slot(ally.slot))>supportRadius())continue;
   if(f==='cleanse'){ally.stun=0;ally.slow=0;ally.mp=Math.min(100,ally.mp+Math.round(v.bonus*100))}
   if(f==='clarity')ally.buffs.clarity={time:v.duration,resist:1,mana:v.bonus*3};
@@ -75,11 +75,12 @@ function castHeroSkill(u,def,rank,target){const v=skillStats(def,rank,u),origin=
  if(!target||d(origin,target)>battleRange(u))return;
  if(['bossStrike','deathMark'].includes(f))target=nearestTarget(u,true)||target;
  const all=mobs.filter(m=>m.hp>0);
- if(f==='chain'){targets=[target];for(let i=0;i<targets.length;i++)for(const enemy of all)if(!targets.includes(enemy)&&d(enemy,targets[i])<=combatCell())targets.push(enemy)}
+ if(f==='chain'){targets=[target];for(let i=0;i<targets.length;i++)for(const enemy of all)if(!targets.includes(enemy)&&d(enemy,targets[i])<=combatCell())targets.push(enemy);}
  else if(f==='multi')targets=all.filter(m=>d(origin,m)<=battleRange(u)).sort((a,b)=>b.p-a.p).slice(0,v.targets);
  else if(f==='wave'){const dx=target.x-origin.x,dy=target.y-origin.y,len=Math.hypot(dx,dy)||1;targets=all.filter(m=>{const dist=d(origin,m);return dist<=battleRange(u)&&((m.x-origin.x)*dx+(m.y-origin.y)*dy)/(len*(dist||1))>=.55})}
  else if(['single','ice','strike','burst','mark','execute','bossStrike','deathMark'].includes(f))targets=[target];
  else targets=all.filter(m=>d(m,target)<=v.radius);
+ if(f==='chain'&&targets.length>=5)window.ForgeAdventure?.record('chains');
  if(['burnZone','freezeZone','pullZone','stormZone','mud'].includes(f)){skillZones.push({effect:f,x:target.x,y:target.y,p:target.p,radius:v.radius,time:v.duration,damage:damage*(f==='freezeZone'?.15:.3),tick:0,v,source:u,color:U[u.type].accent});showSkill(u,def,v,target);return}
  if(f==='deathMark'){target.deathMark={time:2,damage:damage*2,source:u};showSkill(u,def,v,target);return}
  const noDamage=['mark','freeze','curse','weaken','bind'];
@@ -87,8 +88,9 @@ function castHeroSkill(u,def,rank,target){const v=skillStats(def,rank,u),origin=
   const factor=f==='execute'&&enemy.hp/enemy.max<=.3?(enemy.boss?2:4):['strike','bossStrike'].includes(f)?2:f==='meteor'?1.5:1;
   if(!noDamage.includes(f)){const repeats=f==='burst'?v.targets:f==='tidal'?3:f==='flurry'?5:1;for(let j=0;j<repeats;j++)dealHeroDamage(u,enemy,damage*factor*(f==='burst'?2:1)/repeats)}
   if(['stun','freeze','airborne','chain','globalThunder'].includes(f))enemy.stun=Math.max(enemy.stun||0,v.stun*(enemy.boss?.5:1)*(elementFor(u.type).id==='electric'?1+skillModifiers(u).shock:1));
+  if(f==='freeze'&&!enemy.missionFrozen){enemy.missionFrozen=true;window.ForgeAdventure?.record('freezes')}
   if(['ice','bind','freeze'].includes(f))enemy.slow=Math.max(enemy.slow||0,v.duration);
-  if(['burn','globalFire','chain'].includes(f)){enemy.dotTime=Math.max(enemy.dotTime||0,v.duration);enemy.dotDps=Math.max(enemy.dotDps||0,outgoingDamage(u,enemy,damage*.2))}
+  if(['burn','globalFire','chain'].includes(f)){enemy.dotSource=u;enemy.dotTime=Math.max(enemy.dotTime||0,v.duration);enemy.dotDps=Math.max(enemy.dotDps||0,outgoingDamage(u,enemy,damage*.2))}
   if(['mark','shatter','curse'].includes(f)){enemy.vulnerableTime=Math.max(enemy.vulnerableTime||0,v.duration);enemy.vulnerability=Math.max(enemy.vulnerability||0,v.bonus)}
   if(f==='weaken'){enemy.weakenTime=v.duration;enemy.weakness=Math.min(.7,v.bonus*2)}
   if(f==='bind'){enemy.attackSlowTime=v.duration;enemy.attackSlow=Math.min(.7,v.bonus*2)}
@@ -96,20 +98,20 @@ function castHeroSkill(u,def,rank,target){const v=skillStats(def,rank,u),origin=
  }
  showSkill(u,def,v,target);
 }
-function tickSkillZones(dt){for(const m of mobs){if(m.deathMark){m.deathMark.time-=dt;if(m.deathMark.time<=0){dealHeroDamage(m.deathMark.source,m,m.deathMark.damage);delete m.deathMark}}}
+function tickSkillZones(dt){tickSpecialEffects(dt);for(const m of mobs){if(m.deathMark){m.deathMark.time-=dt;if(m.deathMark.time<=0){dealHeroDamage(m.deathMark.source,m,m.deathMark.damage);delete m.deathMark}}}
  for(const z of skillZones){const elapsed=Math.min(dt,z.time);z.time-=elapsed;z.tick-=elapsed;
-  for(const m of mobs){if(m.hp<=0||d(m,z)>z.radius)continue;if(z.effect==='mud'){m.slow=Math.max(m.slow||0,.5);continue}dealHeroDamage(z.source,m,z.damage*elapsed);
+  for(const m of mobs){if(m.hp<=0||d(m,z)>z.radius)continue;if(z.effect==='mud'){m.mudTagged=true;m.slow=Math.max(m.slow||0,.5);continue}dealHeroDamage(z.source,m,z.damage*elapsed);
    if(z.effect==='pullZone'){const target=z.p??m.p,delta=((target-m.p+.5)%1+1)%1-.5;m.p+=Math.sign(delta)*Math.min(Math.abs(delta),elapsed*.06);Object.assign(m,path(m.p));m.slow=Math.max(m.slow||0,.3)}
    if(z.effect==='stormZone'&&z.tick<=0)m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1)*(1+skillModifiers(z.source).shock));
-   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35)m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1));
+   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35){m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1));if(!m.missionFrozen){m.missionFrozen=true;window.ForgeAdventure?.record('freezes')}}
   }if(z.tick<=0){z.tick=1;skillEffects.push({x:z.x,y:z.y,r:z.radius,t:.55,color:z.color})}
  }skillZones=skillZones.filter(z=>z.time>0);
 }
-function tickHeroSkills(u,dt){prepareSkills(u);if(u.stun>0)return;const mods=skillModifiers(u);u.mp=Math.min(100,u.mp+dt*12*(1+mods.mana));u.skillCD=u.skillCD.map(v=>Math.max(0,v-dt/(1-mods.haste)));const defs=definitions(u);
+function tickHeroSkills(u,dt){prepareSkills(u);if(u.stun>0)return;const mods=skillModifiers(u);u.mp=Math.min(100,u.mp+dt*(1+mods.mana));u.skillCD=u.skillCD.map(v=>Math.max(0,v-dt/(1-mods.haste)));const defs=definitions(u);
  for(let offset=0;offset<defs.length;offset++){const i=(u.skillCursor+offset)%defs.length,def=defs[i],rank=skillRank(u,i);if(!rank||!def.active)continue;const v=skillStats(def,rank,u);if(u.mp<v.mp||u.skillCD[i]>0)continue;
   const friendly=FRIENDLY_SKILLS.includes(def.effect),target=nearestTarget(u,['bossStrike','deathMark'].includes(def.effect));
   if(!friendly&&!target)continue;if(friendly&&!mobs.some(m=>m.hp>0))continue;
-  u.mp-=v.mp;u.skillCD[i]=v.cooldown;u.skillCursor=(i+1)%defs.length;castHeroSkill(u,def,rank,target);break;
+  u.mp-=v.mp;u.skillCD[i]=v.cooldown;u.skillCursor=(i+1)%defs.length;castHeroSkill(u,def,rank,target);if(units.some(a=>elementFor(a.type).id==='wind'&&isSupport(a)&&d(slot(a.slot),slot(u.slot))<=supportRadius()))window.ForgeAdventure?.record('windcasts');break;
  }
 }
 // Allies have statuses and MP only. Boss pulses provide debuffs for water cleanse.

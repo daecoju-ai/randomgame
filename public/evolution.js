@@ -1,3 +1,4 @@
+const SPECIAL_UNITS=typeof module!=='undefined'?require('./adventure-data.js').specials:window.ForgeAdventureData.specials;
 // Stable type IDs retain account identity. Add future final forms here and in progression validation.
 const ELEMENTS=[
  {id:'fire',label:'불',base:8,support:11,color:'#ef5445',accent:'#ffb16f',kind:'fire',atk:7,rate:.95,reach:2.1,role:'광역 · 공격력',final:['멸겁의 군주','홍련의 무녀']},
@@ -9,7 +10,8 @@ const ELEMENTS=[
 ];
 const GROWTH_NAMES={fire:['불씨령','홍염령','홍련의 술사','업화의 기사'],water:['물방울령','서리령','빙결의 술사','빙해의 기사'],earth:['조약돌령','암석령','암반의 투사','철산의 파수꾼'],wind:['산들령','질풍령','선풍의 척후','폭풍의 검객'],electric:['전광령','뇌운령','뇌전의 술사','벽력의 기사'],shadow:['그늘령','흑영령','월영의 자객','흑월의 추적자']};
 const BASE_TYPES=ELEMENTS.map(e=>e.base);
-const elementFor=type=>ELEMENTS.find(e=>e.base===type||e.support===type);
+const elementFor=type=>{const s=SPECIAL_UNITS.find(e=>e.type===type);return s?{...s,base:s.type,support:null,final:[s.name,s.name]}:ELEMENTS.find(e=>e.base===type||e.support===type)};
+const ALL_ELEMENTS=[...ELEMENTS,...SPECIAL_UNITS.map(s=>elementFor(s.type))];
 const isSupport=u=>u.lv===5&&elementFor(u.type)?.support===u.type;
 const validHero=(type,tier)=>Number.isInteger(type)&&!!elementFor(type)&&Number.isInteger(tier)&&tier>=1&&tier<=5&&(tier===5||BASE_TYPES.includes(type));
 const skillUnlockLevel=(tier,i)=>i<Math.min(tier,4)?1:tier===5&&i>=4&&i<=6?[1,10,20][i-4]:Infinity;

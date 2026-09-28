@@ -23,14 +23,14 @@ function render(){
  $('#accountSubmit').disabled=busy||game.inBattle();$('#accountTabs').hidden=!configured||checking||!['signin','signup'].includes(mode);$('#accountForgot').hidden=mode!=='signin';$('#accountVerifyLink').hidden=mode!=='signin';$('#accountBack').hidden=['signin','signup'].includes(mode);$('#accountResend').hidden=mode!=='verify';
  document.querySelectorAll('[data-auth-mode]').forEach(b=>{b.disabled=busy;b.classList.toggle('active',b.dataset.authMode===mode)});
  $('#accountResend').disabled=busy;$('#accountClose').disabled=busy;
- $('#accountBadge').textContent=user?'내 계정':'로그인 / 회원가입';
+ $('#accountBadge').textContent=user?'내 계정':'로그인 / 회원가입';if(user&&!checking&&!locked&&!dirty&&!saving&&!game.inBattle())window.ForgeAdventure?.accountReady(user.id);
 }
 function setMode(next){mode=next;$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';message('');render()}
 function open(){if(game.inBattle())game.pause();returnFocus=document.activeElement;render();if(!dialog.open)dialog.showModal();$('#accountEmail').focus()}
 function close(){if(busy)return;dialog.close();$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';returnFocus?.focus()}
 function hold(text){locked=true;game.pause();status(text);render()}
-function localGuest(){window.ForgeEconomy?.accountChanged(null);user=null;revision=null;dirty=false;conflict=false;awaitingChoice=false;locked=false;generation++;game.guest();status('비회원 · 이 브라우저에만 저장');render()}
-async function loadAccount(nextUser){user=nextUser;window.ForgeEconomy?.accountChanged(user.id);locked=true;generation++;game.pause();game.apply({levels:{},essence:0},user.id);status('계정 기록 불러오는 중');render();
+function localGuest(){window.ForgeAdventure?.accountChanged();window.ForgeEconomy?.accountChanged(null);user=null;revision=null;dirty=false;conflict=false;awaitingChoice=false;locked=false;generation++;game.guest();status('비회원 · 이 브라우저에만 저장');render()}
+async function loadAccount(nextUser){window.ForgeAdventure?.accountChanged();user=nextUser;window.ForgeEconomy?.accountChanged(user.id);locked=true;generation++;game.pause();game.apply({levels:{},essence:0},user.id);status('계정 기록 불러오는 중');render();
  try{const response=await api('progress',{action:'load',owner:user.id});const record=response.record,pending=cached(user.id);
   if(pending?.dirty){revision=pending.revision;dirty=true;game.apply(pending.data,user.id);if(record?.revision!==revision&&!(record===null&&revision===null)){conflict=true;hold('저장 충돌 · 계정에서 서버 기록을 확인해 주세요.');open();return}locked=false;await flush();return}
   if(!record){revision=null;awaitingChoice=true;hold('첫 계정 저장 · 기존 기록을 가져올지 선택해 주세요.');open();return}
@@ -38,7 +38,7 @@ async function loadAccount(nextUser){user=nextUser;window.ForgeEconomy?.accountC
  }catch(e){hold(e.message);message(e.message);open()}}
 async function flush(){if(saving)return saving;if(!user||!dirty||conflict||awaitingChoice)return;const owner=user.id,epoch=generation;
  saving=(async()=>{while(dirty&&user?.id===owner&&epoch===generation){const snapshot=game.snapshot(),stamp=JSON.stringify(snapshot);status('계정에 저장 중…');try{const result=await api('progress',{action:'save',owner,revision,data:snapshot});if(epoch!==generation)return;revision=result.record.revision;dirty=stamp!==JSON.stringify(game.snapshot());locked=false;cache();status(dirty?'계정에 저장 중…':'계정에 저장됨 · 다른 기기에서도 이어하기')}catch(e){if(epoch!==generation)return;conflict=e.status===409;cache();hold(e.message);message(e.message);return}}})();try{await saving}finally{saving=null;render()}}
-window.ForgeAccount={currentUser:()=>user,allowed:()=>!checking&&!locked,statusText:()=>$('#cloudStatus').textContent,changed:()=>{if(!user){status('비회원 · 이 브라우저에만 저장');return}dirty=true;cache();void flush()},open};
+window.ForgeAccount={currentUser:()=>user,allowed:()=>!checking&&!locked,statusText:()=>$('#cloudStatus').textContent,changed:()=>{if(window.ForgeAdventure?.active())return;if(!user){status('비회원 · 이 브라우저에만 저장');return}dirty=true;cache();void flush()},open};
 $('#accountForm').onsubmit=async e=>{e.preventDefault();if(busy||game.inBattle())return;busy=true;message('처리 중…');render();const email=$('#accountEmail').value,password=$('#accountPassword').value,code=$('#accountCode').value.trim();
  try{if(['signup','reset'].includes(mode)&&password!==$('#accountConfirm').value)throw Error('비밀번호가 서로 다릅니다.');const action=mode==='signin'?'signin':mode;const result=await api('account',{action,email,password,code});$('#accountPassword').value='';$('#accountConfirm').value='';
  if(result.user){await loadAccount(result.user);message(locked?'계정 저장 연결을 완료해 주세요.':'로그인했습니다.');}

@@ -14,7 +14,11 @@ if(paintedAtlas){
  paintedAtlas.onload=()=>{paintedAtlasReady=true;refreshCodex();renderHeroLab();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes()};
  paintedAtlas.src='/assets/elemental-heroes-v17.webp';
 }
+const specialAtlas=typeof Image!=='undefined'?new Image():null;let specialAtlasReady=false;
+if(specialAtlas){specialAtlas.onload=()=>{specialAtlasReady=true;refreshCodex();renderHeroLab()};specialAtlas.src='/assets/special-heroes-v20.webp'}
 function drawElementHero(g,x,y,u,s=1,mini=false){
+ if(u.type>=12&&specialAtlasReady){const n=u.type-12,w=418,h=627,size=(mini?104:94)*s;g.save();g.drawImage(specialAtlas,(n%3)*w,Math.floor(n/3)*h,w,h,x-size/3,y-size*.65,size*2/3,size);g.restore();return true}
+
  const cell=paintedCell(u);
  if(!paintedAtlasReady||!cell)return drawElementFallback(g,x,y,u,s,mini);
  const bob=mini?0:Math.sin(S.t*2+(u.slot||0))*1.1;
@@ -60,12 +64,12 @@ function drawElementFallback(g,x,y,u,s=1,mini=false){
 // Stage and role marks share one neutral design across all elements.
 // Draw after combat effects so small screens keep a readable stage number.
 function tileBounds(){const a=geometry();return{hw:Math.min(23,Math.min(58,(a.width-108)/3)*.45),hh:Math.min(23,Math.min(54,(a.height-88)/7)*.44)}}
-function badgeLayout(){const b=tileBounds(),h=Math.min(18,b.hh*2-2);return{x:-b.hw+2,y:b.hh-h-2,w:16,h}}
+function badgeLayout(){const b=tileBounds(),h=Math.min(13,b.hh*2-2);return{x:-b.hw+2,y:b.hh-h-2,w:12,h}}
 function drawUnitBadge(g,x,y,u){
  const b=badgeLayout();g.save();g.translate(x+b.x,y+b.y);g.globalAlpha=1;g.shadowBlur=0;
  g.fillStyle='#10151f';g.strokeStyle='#f3eee3';g.lineWidth=1;
  g.beginPath();g.roundRect(0,0,b.w,b.h,3);g.fill();g.stroke();
- g.fillStyle='#fff';g.font=`900 ${Math.min(13,b.h-2)}px system-ui`;g.textAlign='center';g.textBaseline='middle';g.fillText(String(u.lv),8,b.h/2+.5);
+ g.fillStyle='#fff';g.font=`900 ${Math.min(10,b.h-2)}px system-ui`;g.textAlign='center';g.textBaseline='middle';g.fillText(String(u.lv),6,b.h/2+.5);
  if(u.lv===5){
   // Role icon also stays inside the occupied tile, at its upper right.
   const bounds=tileBounds();g.translate(bounds.hw-15-b.x,-bounds.hh+2-b.y);

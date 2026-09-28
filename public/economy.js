@@ -8,7 +8,7 @@ function effect(t,n=1){return `${T.elements[t.element]} ${T.labels[t.stat]} ${T.
 function render(){
  $('#talismanStatus').textContent=notice;$('#talismanWallet').textContent=`소환권 ${state?.tickets||0}장 · 부적 가루 ${state?.dust||0}`;
  const p=state?.pity||[0,0,0];$('#talismanPity').textContent=`희귀 이상 ${10-p[0]}회 · 영웅 이상 ${50-p[1]}회 · 전설 ${100-p[2]}회 이내 보장`;
- $('#talismanDaily').disabled=busy||!owner||!state?.dailyAvailable||!!pending();
+ $('#talismanDaily').disabled=busy;
  for(const count of [1,10])$('#talismanDraw'+count).disabled=busy||!owner||!state||state.tickets<count||!!pending();
  $('#talismanRetry').hidden=!owner||!pending();$('#talismanRetry').disabled=busy;$('#talismanLogin').hidden=!!owner;
  $('#talismanRefresh').disabled=busy||!owner;

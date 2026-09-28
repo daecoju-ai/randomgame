@@ -1,6 +1,8 @@
 # FORTUNE FORGE — 운명의 대장간
 
-V8 `fortune_forge_v8_recipe_fix.html`을 기반으로 개선한 V13 개발 버전입니다.
+현재 V21 웹게임입니다. 아래 초기 개발 설명 일부는 과거 버전 기록입니다. 최신 변경 사항은 [V20](docs/V20.md), [V21](docs/V21.md)을 확인하세요.
+
+Android 출시 설정과 스토어 자료는 [Play 스토어 출시 준비](docs/play-store/README.md)에 있습니다. 현재 서명 AAB, 계정 삭제, 실제 이메일 인증 검증이 남아 있어 제출 가능 상태는 아닙니다.
 
 ## 실행
 

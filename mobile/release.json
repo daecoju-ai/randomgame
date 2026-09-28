@@ -6,10 +6,10 @@
   "versionCode": 1,
   "minSdk": 23,
   "targetSdk": 36,
-  "developerName": "",
+  "developerName": "Seongheung Kim",
   "supportEmail": "",
   "targetAudience": "",
-  "playAccountType": "",
+  "playAccountType": "personal",
   "evidence": {
     "packageIdConfirmed": "",
     "emailSignupLogin": "",

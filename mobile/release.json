@@ -1,0 +1,26 @@
+{
+  "packageId": "app.fortuneforge.game",
+  "host": "randomfortune-game.vercel.app",
+  "name": "운명의 대장간",
+  "versionName": "1.0.0",
+  "versionCode": 1,
+  "minSdk": 23,
+  "targetSdk": 36,
+  "developerName": "",
+  "supportEmail": "",
+  "targetAudience": "",
+  "playAccountType": "",
+  "evidence": {
+    "packageIdConfirmed": "",
+    "emailSignupLogin": "",
+    "accountDeletionAppAndWeb": "",
+    "publishedPrivacyPolicy": "",
+    "dataSafetyReview": "",
+    "signedAab": "",
+    "playSigningDigitalAssetLinks": "",
+    "androidDeviceTest": "",
+    "storeScreenshotsAndGraphic": "",
+    "assetCommercialRights": "",
+    "playTestingEligibility": ""
+  }
+}

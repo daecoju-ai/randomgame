@@ -6,3 +6,9 @@ node_modules/
 android/
 
 !.env.example
+
+# Reproducible Android output and signing material
+mobile/generated/
+mobile/signing/
+*.aab
+*.apk

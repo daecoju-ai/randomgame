@@ -25,12 +25,12 @@ function migrateProgress(value){
   refund+=levelInvestment(Math.min(existing,n));levels[newKey]=Math.max(existing,n);
  }
  for(const [key,rank] of Object.entries(value?.skills||{})){const m=/^(\d+):([1-6]):([0-5])$/.exec(key);if(m&&+m[1]<12&&+m[3]<+m[2]&&Number.isInteger(rank)&&rank>=1&&rank<=10&&(value.levels?.[`${m[1]}:${m[2]}`]||1)>=(+m[3]+1)*5)refund+=5*(+m[2])*rank*(rank-1)}
- return {version:4,levels,skills,essence:Math.min(10000000,Math.max(0,Number(value?.essence)||0)+refund)};
+ return {...(value.guardian?{guardian:value.guardian}:{}),version:4,levels,skills,essence:Math.min(10000000,Math.max(0,Number(value?.essence)||0)+refund)};
 }
 function cleanProgress(value){
  value=migrateProgress(value);const levels={},skills={};
  for(const [key,n] of Object.entries(value.levels||{})){const m=/^(\d+):([1-5])$/.exec(key);if(m&&validHero(+m[1],+m[2])&&Number.isInteger(n)&&n>=1&&n<=30)levels[key]=n}
  for(const [key,rank] of Object.entries(value.skills||{})){const m=/^(\d+):([1-5]):([0-6])$/.exec(key);if(m&&validHero(+m[1],+m[2])&&Number.isInteger(rank)&&rank>=1&&rank<=10&&(levels[`${m[1]}:${m[2]}`]||1)>=skillUnlockLevel(+m[2],+m[3]))skills[key]=rank}
- return {version:4,levels,skills,essence:Math.min(10000000,Math.max(0,Math.floor(Number(value.essence)||0)))};
+ return {...(value.guardian?{guardian:value.guardian}:{}),version:4,levels,skills,essence:Math.min(10000000,Math.max(0,Math.floor(Number(value.essence)||0)))};
 }
 if(typeof module!=='undefined')module.exports={validHero,skillUnlockLevel,cleanProgress,migrateProgress};

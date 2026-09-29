@@ -3,6 +3,7 @@ const path = require('node:path');
 const http = require('node:http');
 const {TwaManifest,TwaGenerator,ConsoleLog} = require('@bubblewrap/core');
 const c = require('./release.json');
+const {tuneProject}=require('./tune-project.cjs');
 async function main() {
   const out = path.join(__dirname,'generated');
   if (fs.existsSync(out)) throw new Error('mobile/generated already exists. Back up manual changes and remove it before regenerating.');
@@ -14,6 +15,8 @@ async function main() {
   Object.assign(twa, {packageId:c.packageId,name:c.name,launcherName:c.name,host:c.host,
     appVersionName:c.versionName,appVersionCode:c.versionCode,minSdkVersion:c.minSdk,
     orientation:'portrait',enableNotifications:false,shortcuts:[],
+    themeColorDark:twa.themeColor,navigationColor:twa.themeColor,navigationColorDark:twa.themeColor,
+    navigationDividerColor:twa.themeColor,navigationDividerColorDark:twa.themeColor,
     signingKey:{path:'../signing/upload.jks',alias:'upload'},generatorApp:'fortune-forge-release',
     webManifestUrl:undefined});
   const canonicalIcon=twa.iconUrl, canonicalMask=twa.maskableIconUrl;
@@ -29,6 +32,7 @@ async function main() {
     twa.iconUrl=local+'/icons/icon-512.png';twa.maskableIconUrl=local+'/icons/maskable-512.png';
     const invalid=twa.validate();if(invalid)throw new Error(invalid);
     await new TwaGenerator().createTwaProject(out,twa,new ConsoleLog('FortuneForge'));
+    tuneProject(out,c);
     const gradle=fs.readFileSync(path.join(out,'app/build.gradle'),'utf8');
     for(const key of ['compileSdkVersion','targetSdkVersion']) {
       const match=gradle.match(new RegExp(key+'\\s+(\\d+)'));
@@ -37,7 +41,7 @@ async function main() {
     twa.iconUrl=canonicalIcon;twa.maskableIconUrl=canonicalMask;
     twa.webManifestUrl=new URL(origin+'/manifest.webmanifest');
     await twa.saveToFile(path.join(out,'twa-manifest.json'));
-    console.log('Android source generated and SDK levels checked. No AAB built or signing key created.');
+    console.log('Android source generated: API 36, bright theme, separate preview ID. Run npm run build --prefix mobile next.');
   } finally {
     server.closeAllConnections();
     await new Promise(resolve=>server.close(resolve));

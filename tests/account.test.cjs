@@ -32,3 +32,5 @@ test('elemental v4 progress validates final branch unlocks and rejects removed t
 });
 
 test('deployment public config activates auth without environment secrets; custom projects require their own key',async()=>{delete process.env.SUPABASE_URL;delete process.env.SUPABASE_ANON_KEY;delete process.env.SUPABASE_PUBLISHABLE_KEY;assert.match(A.config().key,/^sb_publishable_/);assert.equal((await call(account,{action:'status'})).data.configured,true);process.env.SUPABASE_URL='https://another.supabase.co';assert.equal(A.config(),null);process.env.SUPABASE_PUBLISHABLE_KEY='sb_publishable_override';assert.equal(A.config().key,'sb_publishable_override');delete process.env.SUPABASE_PUBLISHABLE_KEY;configured()});
+
+test('guardian progress preserves valid permanent data and rejects invalid nickname or experience',()=>{const base={version:4,levels:{},skills:{},essence:0};assert.deepEqual(A.progress({...base,guardian:{nickname:'별이',xp:49500}}).guardian,{nickname:'별이',xp:49500});for(const guardian of [{nickname:'',xp:0},{nickname:'<script>',xp:0},{nickname:'별이',xp:-1},{nickname:'별이',xp:49501},{nickname:'별이',xp:1.5}])assert.throws(()=>A.progress({...base,guardian}))});

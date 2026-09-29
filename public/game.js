@@ -46,7 +46,7 @@ function updateSummonPrice(){document.querySelector('#summon').textContent='소�
 function summon(){
  if(ended||paused)return;
  let cost=Math.min(40,10+Math.floor(S.summons/4)*2);
- if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();const tier=rollSummonTier(),pool=catalogEntries().filter(u=>u.lv===tier&&u.type<12),entry=pool[Math.floor(Math.random()*pool.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({...entry,slot:sl,cd:0,anim:0,invested:cost,mp:0});playSound('summon');toast(`T${tier} ${heroLabel(entry)} 소환`)}
+ if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>i!==guardianRun.slot&&!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();const tier=rollSummonTier(),pool=catalogEntries().filter(u=>u.lv===tier&&u.type<12),entry=pool[Math.floor(Math.random()*pool.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({...entry,slot:sl,cd:0,anim:0,invested:cost,mp:0});playSound('summon');toast(`T${tier} ${heroLabel(entry)} 소환`)}
 
 
 const RECIPES=[],SPECIALS={};
@@ -199,7 +199,7 @@ function body(g,x,y,u,s=1,mini=false){drawElementHero(g,x,y,u,s,mini)}
 C.addEventListener('pointerdown',e=>{
  if(!started||paused||ended||document.querySelector('#drawer').style.display==='block'||document.querySelector('#recipeOverlay').style.display==='block')return;
  let p={x:e.clientX,y:e.clientY},near=units.find(u=>d(slot(u.slot),p)<25);
- if(d(guardianPosition(),p)<19){guardianRun.selected=true;S.sel=null;refreshSelection();return;}guardianRun.selected=false;
+ if(d(guardianPosition(),p)<19){guardianRun.selected=true;S.sel=null;S.drag={guardian:true,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection();return;}guardianRun.selected=false;
  if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection()}
 });
 C.addEventListener('pointerup',e=>{
@@ -208,13 +208,16 @@ C.addEventListener('pointerup',e=>{
  if(tapped){S.drag=null;refreshSelection();return;}
  let p={x:e.clientX,y:e.clientY},best=-1,bd=999;
  for(let i=0;i<32;i++){let q=slot(i),dd=d(q,p);if(dd<bd){bd=dd;best=i}}
+ if(S.drag.guardian){if(best>=0&&bd<31&&moveGuardian(best))toast('주인공 이동 배치');S.drag=null;refreshSelection();return;}
  if(best>=0&&bd<31){
    let a=S.drag.u,b=units.find(u=>u.slot===best);
-   if(b&&b!==a){let old=a.slot;a.slot=b.slot;b.slot=old;toast('유닛 위치 교환')}
+   if(guardianRun.slot===best){guardianRun.slot=a.slot;a.slot=best;toast('주인공과 위치 교환')}
+   else if(b&&b!==a){let old=a.slot;a.slot=b.slot;b.slot=old;toast('유닛 위치 교환')}
    else if(!b)a.slot=best;
  }
  S.drag=null;refreshSelection();
 });
+C.addEventListener('pointercancel',()=>{S.drag=null});
 function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
  if(S.stageStart===0)S.stageStart=S.t;
  if(S.spawn<S.max&&S.t>S.next){spawn();S.next=S.t+(20/30)}
@@ -260,7 +263,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  for(const e of skillEffects)drawSkillEffect(ctx,e);
  units.forEach(u=>{const p=slot(u.slot);drawUnitBadge(ctx,p.x,p.y,u)});
  ctx.restore()}
-function resetGame(){resetGuardian();battleDifficulty=selectedDifficulty;guestReward=0;document.querySelector('#battleSkills')?.close?.();randomForgeSelection=[];battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();S.summons=0;S.coin=mode().start+Math.floor(talismanBonus(null,'startCoin'));updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
+function resetGame(){resetGuardian();battleDifficulty=selectedDifficulty;guestReward=0;document.querySelector('#battleSkills')?.close?.();randomForgeSelection=[];battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();placeGuardian();S.summons=0;S.coin=mode().start+Math.floor(talismanBonus(null,'startCoin'));updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
 function finish(won){if(ended)return;ended=true;saveMeta();renderGuardian();battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);const talismanReward=Math.floor((gained+(S.runEssence||0))*talismanBonus(null,'essence'));guestReward=Math.floor((gained+(S.runEssence||0)+talismanReward)*mode().gold);document.querySelector('#claimBattleReward').disabled=!!window.ForgeAdventure?.active();document.querySelector('#claimBattleReward').textContent='보상 받기';document.querySelector('#battleSkills')?.close?.();document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${mode().label} · ${S.wave} 웨이브 · ${won?'유적 방어 성공':'몬스터 수용 한계 도달'}`;document.querySelector('#rewardTotal').textContent=`+${guestReward}`;document.querySelector('#rewardBreakdown').textContent=`웨이브 보상 ${S.runEssence||0} + 종료 보상 ${Math.floor(S.wave*1.5)} + 승리 보너스 ${won?30:0} + 부적 보너스 ${talismanReward}${battleDifficulty==='easy'?' · 쉬움 금화 70% 적용':''}`;document.querySelector('#rewardBalance').textContent=`현재 보유 금화 ${essence}`;document.querySelector('#resultScreen').hidden=false;window.ForgeUX?.rewards({pending:!!window.ForgeAdventure?.active()});if(window.ForgeAdventure?.active())window.ForgeAdventure.finish(won);closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{if(guestReward&&!window.ForgeAdventure?.active()){toast('보상을 먼저 받아 주세요.');return;}if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};

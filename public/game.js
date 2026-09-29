@@ -1,20 +1,20 @@
 function playSound(name,...args){if(typeof window!=='undefined')window.SFX?.[name]?.(...args)}
 function drawArena(){
  const a=geometry(),cx=W/2,cy=(a.top+a.bottom)/2;
- const bg=ctx.createRadialGradient(cx,cy,30,cx,cy,Math.max(W,H)*.7);bg.addColorStop(0,'#163638');bg.addColorStop(.5,'#0b2228');bg.addColorStop(1,'#050f17');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+ const bg=ctx.createRadialGradient(cx,cy,30,cx,cy,Math.max(W,H)*.7);bg.addColorStop(0,'#d8e8c6');bg.addColorStop(.5,'#e7efda');bg.addColorStop(1,'#f5f4e7');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
  // Fine architectural lines outside the battle area.
- ctx.strokeStyle='#94c9bc07';ctx.lineWidth=1;for(let x=0;x<W;x+=42){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}for(let y=0;y<H;y+=42){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
- ctx.fillStyle='#07171bb0';ctx.beginPath();ctx.roundRect(a.left+25,a.top+26,a.width-50,a.height-52,18);ctx.fill();
+ ctx.strokeStyle='#62885b10';ctx.lineWidth=1;for(let x=0;x<W;x+=42){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}for(let y=0;y<H;y+=42){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
+ ctx.fillStyle='#a8c88550';ctx.beginPath();ctx.roundRect(a.left+25,a.top+26,a.width-50,a.height-52,18);ctx.fill();
  const ring=(width,color)=>{ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineJoin='round';ctx.beginPath();for(let i=0;i<=160;i++){let p=path(i/160);i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y)}ctx.closePath();ctx.stroke()};
- ring(39,'#020d1399');ring(30,'#2b3c3d');ring(26,'#253638');ring(1,'#b4b59140');
- const per=2*(a.width+a.height);for(let i=0;i<per/24;i++){let p=path(i*24/per);ctx.strokeStyle='#0e2229';ctx.lineWidth=1;ctx.beginPath();if(p.y===a.top||p.y===a.bottom){ctx.moveTo(p.x-2,p.y-11);ctx.lineTo(p.x+2,p.y+11)}else{ctx.moveTo(p.x-11,p.y-2);ctx.lineTo(p.x+11,p.y+2)}ctx.stroke()}
+ ring(39,'#90a77755');ring(30,'#e1c987');ring(26,'#f5dea1');ring(1,'#bba36680');
+ const per=2*(a.width+a.height);for(let i=0;i<per/24;i++){let p=path(i*24/per);ctx.strokeStyle='#c5ad74';ctx.lineWidth=1;ctx.beginPath();if(p.y===a.top||p.y===a.bottom){ctx.moveTo(p.x-2,p.y-11);ctx.lineTo(p.x+2,p.y+11)}else{ctx.moveTo(p.x-11,p.y-2);ctx.lineTo(p.x+11,p.y+2)}ctx.stroke()}
  // Four carved gate stones.
- for(let x of [a.left,a.right])for(let y of [a.top,a.bottom]){ctx.fillStyle='#0e222b';ctx.strokeStyle='#8ca69555';ctx.beginPath();ctx.roundRect(x-15,y-15,30,30,6);ctx.fill();ctx.stroke();ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.shadowColor='#83e3c5';ctx.shadowBlur=14;ctx.fillStyle='#8addc4';ctx.fillRect(-4,-4,8,8);ctx.restore()}
+ for(let x of [a.left,a.right])for(let y of [a.top,a.bottom]){ctx.fillStyle='#e3dfca';ctx.strokeStyle='#7b9e7380';ctx.beginPath();ctx.roundRect(x-15,y-15,30,30,6);ctx.fill();ctx.stroke();ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.shadowColor='#48ad88';ctx.shadowBlur=14;ctx.fillStyle='#3d9b79';ctx.fillRect(-4,-4,8,8);ctx.restore()}
  // Rune at the heart of the grid.
- ctx.save();ctx.translate(cx,cy);ctx.strokeStyle='#9fb79516';ctx.lineWidth=1;for(let r of [48,55,90]){ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.stroke()}ctx.rotate(Math.PI/4);ctx.strokeRect(-35,-35,70,70);ctx.restore();
+ ctx.save();ctx.translate(cx,cy);ctx.strokeStyle='#71925325';ctx.lineWidth=1;for(let r of [48,55,90]){ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.stroke()}ctx.rotate(Math.PI/4);ctx.strokeRect(-35,-35,70,70);ctx.restore();
  const gy=Math.min(54,(a.height-88)/7),gx=(a.width-108)/3;
- for(let i=0;i<32;i++){let p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(23,gx*.45),hh=Math.min(23,gy*.44);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#2c4446':'#213639');tile.addColorStop(1,'#13292f');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#b6c6a04d':'#a4c7b623';ctx.lineWidth=1;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,6);ctx.fill();ctx.stroke();ctx.fillStyle='#c8d4ae30';ctx.font='12px serif';ctx.textAlign='center';ctx.fillText('◇',p.x,p.y+4)}
- for(let i=0;i<16;i++){let x=cx+Math.sin(i*18.3)*Math.min(W*.48,290),y=a.top+(Math.cos(i*9.1)+1)/2*a.height;ctx.globalAlpha=.16+.1*Math.sin(S.t+i);ctx.fillStyle='#a9edd2';ctx.beginPath();ctx.arc(x,y,1,0,7);ctx.fill()}ctx.globalAlpha=1;
+ for(let i=0;i<32;i++){let p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(23,gx*.45),hh=Math.min(23,gy*.44);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#eff7e2':'#e1edcf');tile.addColorStop(1,'#cddfb9');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#79a16d99':'#8baa6c66';ctx.lineWidth=1;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,6);ctx.fill();ctx.stroke();ctx.fillStyle='#66874755';ctx.font='12px serif';ctx.textAlign='center';ctx.fillText('◇',p.x,p.y+4)}
+ for(let i=0;i<16;i++){let x=cx+Math.sin(i*18.3)*Math.min(W*.48,290),y=a.top+(Math.cos(i*9.1)+1)/2*a.height;ctx.globalAlpha=.16+.1*Math.sin(S.t+i);ctx.fillStyle='#ffffff';ctx.beginPath();ctx.arc(x,y,1,0,7);ctx.fill()}ctx.globalAlpha=1;
 }
 
 

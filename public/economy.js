@@ -28,13 +28,13 @@ async function request(action,count=1){if(busy||!owner||window.ForgeGame.inBattl
  }catch(e){if(token!==epoch)return;if(e.code==='TICKETS'||(e.status>=400&&e.status<500))localStorage.removeItem(pendingKey(account));notice=(e.message||'연결을 확인해 주세요.')+(pending()?' 동일 요청 재확인으로 결과를 복구할 수 있습니다.':'');}finally{if(token===epoch){busy=false;render()}}}
 window.ForgeEconomy={
  accountChanged(id){epoch++;owner=id;state=null;battleOwned={};busy=false;notice=id?'부적 화면을 열어 보유 효과를 확인하세요.':'로그인하면 부적을 영구 보관할 수 있습니다.';render()},
- async beforeBattle(){owner=window.ForgeAccount?.currentUser()?.id||null;if(!owner){battleOwned={};return true}try{await load();if(!state||state.owner!==owner)return false;battleOwned={...state.owned};return true}catch(e){toast('부적 정보를 불러오지 못했습니다. 연결을 확인해 주세요.');return false}},
+ async beforeBattle(){owner=window.ForgeAccount?.currentUser()?.id||null;if(!owner){battleOwned={};return true}try{await load();if(!state||state.owner!==owner)return false;battleOwned={...state.owned};return true}catch(e){window.ForgeUX?.entryError('부적 정보를 불러오지 못했습니다. 연결을 확인한 뒤 다시 눌러 주세요.');return false}},
  bonus(element,stat){return T.totals(battleOwned,element,window.ForgeAdventure?.battleTalismanLevels())[stat]||0}
 };
 $('#openTalismans').onclick=async()=>{if(window.ForgeGame.inBattle())return;$('#talismanDialog').showModal();render();if(owner&&!busy){busy=true;render();try{await load()}catch(e){notice=e.message}finally{busy=false;render()}}};
 $('#closeTalismans').onclick=()=>$('#talismanDialog').close();$('#talismanLogin').onclick=()=>{$('#talismanDialog').close();window.ForgeAccount.open()};
 $('#talismanDaily').onclick=()=>request('daily');$('#talismanDraw1').onclick=()=>request('draw',1);$('#talismanDraw10').onclick=()=>request('draw',10);$('#talismanRetry').onclick=()=>request('draw');
 $('#talismanRefresh').onclick=async()=>{if(busy)return;busy=true;try{await load()}catch(e){notice=e.message}finally{busy=false;render()}};
-for(const id of ['#startGame','#restartGame']){const original=$(id).onclick;$(id).onclick=async()=>{if(!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}$(id).disabled=true;try{if(await window.ForgeEconomy.beforeBattle())original()}finally{$(id).disabled=false}}}
+for(const id of ['#startGame','#restartGame']){const original=$(id).onclick;$(id).onclick=async()=>{if($(id).disabled)return;if(!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}window.ForgeUX.entryTarget=id;window.ForgeUX.entryError('');const label=$(id).innerHTML;$(id).disabled=true;$(id).textContent='모험 준비 중…';try{if(await window.ForgeEconomy.beforeBattle())original()}catch(e){window.ForgeUX.entryError(e.message||'전투를 준비하지 못했습니다. 다시 눌러 주세요.')}finally{$(id).disabled=false;$(id).innerHTML=label}}}
 render();
 })();

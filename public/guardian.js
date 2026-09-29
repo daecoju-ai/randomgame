@@ -1,0 +1,23 @@
+/* One permanent companion; battle restoration never enters saved progression. */
+function cleanGuardian(v){return{nickname:typeof v?.nickname==='string'?Array.from(v.nickname.normalize('NFC').replace(/[<>\u0000-\u001f]/g,'').trim()).slice(0,12).join('')||'아스트라':'아스트라',xp:Math.max(0,Math.min(49500,Math.floor(Number(v?.xp)||0)))}}
+function guardianLevel(v){return Math.min(100,1+Math.floor((Math.sqrt(1+8*v.xp/10)-1)/2))}
+let guardianMeta=cleanGuardian(null),guardianRun={xp:0,mp:0,cd:0,attackCD:0,cleanCD:0,manaCD:0,selected:false,flash:0,saveClock:0};
+function guardianStage(){return Math.min(5,1+Math.floor(guardianRun.xp/150))}
+function guardianPower(){return guardianStage()/5}
+function guardianPosition(){const a=geometry();return{x:W/2,y:(a.top+a.bottom)/2}}
+function resetGuardian(){guardianRun={xp:0,mp:0,cd:0,attackCD:0,cleanCD:0,manaCD:0,selected:false,flash:0,saveClock:0};renderGuardian()}
+function guardianKill(m){const xp=m.boss?12:1,bonus=m.guardianMarkedUntil>S.t?1.1:1,old=guardianStage();guardianMeta.xp=Math.min(49500,guardianMeta.xp+xp);guardianRun.xp+=xp*bonus;if(old!==guardianStage())toast(`${guardianMeta.nickname} · 능력 ${guardianStage()*20}% 해방`);renderGuardian()}
+function guardianAllies(){const p=guardianPosition();return units.filter(u=>d(p,slot(u.slot))<=combatCell()*2).sort((a,b)=>d(p,slot(a.slot))-d(p,slot(b.slot))).slice(0,4)}
+function tickGuardian(dt){const stage=guardianStage(),power=guardianPower(),p=guardianPosition();guardianRun.mp=Math.min(100,guardianRun.mp+dt);for(const k of ['cd','attackCD','cleanCD','manaCD','flash'])guardianRun[k]=Math.max(0,guardianRun[k]-dt);const allies=guardianAllies();
+ for(const u of allies){prepareSkills(u);u.buffs.guardian={time:.25,attack:.08*power*(.5+.5*guardianLevel(guardianMeta)/100)}}
+ if(stage>=2&&guardianRun.cleanCD<=0&&guardianRun.mp>=30&&allies.some(u=>u.stun>0||u.slow>0)){for(const u of allies){u.stun=0;u.slow=0}guardianRun.mp-=30;guardianRun.cleanCD=25;guardianRun.flash=.5;}
+ if(stage>=3&&guardianRun.manaCD<=0&&guardianRun.mp>=100&&allies.length){for(const u of allies)u.buffs.guardianMana={time:6,mana:.15*power};guardianRun.mp-=40;guardianRun.manaCD=30;guardianRun.flash=.5;}
+ if(guardianRun.attackCD<=0){const target=mobs.filter(m=>m.hp>0&&d(p,m)<combatCell()*1.5).sort((a,b)=>b.p-a.p)[0];if(target){hit(target,120*power*(1+.03*(guardianLevel(guardianMeta)-1)),'skill');guardianRun.attackCD=1/.6;skillEffects.push({x:target.x,y:target.y,r:16,t:.3,color:'#775bd7',kind:'wind',effect:'slash'})}}
+ if(stage>=5)for(const u of allies)u.buffs.guardianResolve={time:.25,resist:1};
+ guardianRun.saveClock+=dt;if(guardianRun.saveClock>=15){guardianRun.saveClock=0;saveMeta()}
+ renderGuardian();
+}
+function castGuardian(){if(!started||paused||ended||guardianStage()<4||guardianRun.cd>0||guardianRun.mp<60)return false;const allies=guardianAllies();const u=S.sel&&allies.includes(S.sel)?S.sel:allies[0];if(!u){toast('지원범위 안에 아군을 배치하세요.');return false}prepareSkills(u);u.skillCD=u.skillCD.map(v=>v*(1-.15*guardianPower()));for(const m of mobs)if(m.hp>0&&d(slot(u.slot),m)<battleRange(u))m.guardianMarkedUntil=S.t+5;guardianRun.mp-=60;guardianRun.cd=35;guardianRun.flash=.6;toast('운명의 재정렬 · '+heroLabel(u));return true}
+function drawGuardian(){const p=guardianPosition();ctx.save();if(guardianRun.selected){for(const [radius,color] of [[1.5,'#7653bd'],[2,'#258b9b']]){ctx.strokeStyle=color;ctx.lineWidth=2;ctx.setLineDash(radius===2?[5,5]:[]);ctx.beginPath();ctx.arc(p.x,p.y,combatCell()*radius,0,Math.PI*2);ctx.stroke()}}ctx.setLineDash([]);ctx.fillStyle=guardianRun.flash>0?'#ffffff':'#f4eaff';ctx.strokeStyle='#7957bd';ctx.lineWidth=2;ctx.beginPath();ctx.arc(p.x,p.y,17,0,Math.PI*2);ctx.fill();ctx.stroke();ctx.fillStyle='#7452b4';ctx.font='bold 23px system-ui';ctx.textAlign='center';ctx.fillText('✦',p.x,p.y+8);ctx.font='bold 10px system-ui';ctx.fillStyle='#443163';ctx.fillText(guardianMeta.nickname,p.x,p.y-23);ctx.restore()}
+function renderGuardian(){const e=document.querySelector('#guardianStatus');if(e)e.textContent=`${guardianMeta.nickname} · Lv.${guardianLevel(guardianMeta)}/100 · 해방 ${guardianStage()*20}% · MP ${Math.floor(guardianRun.mp)}`;const b=document.querySelector('#guardianCast');if(b){b.disabled=!started||paused||ended||guardianStage()<4||guardianRun.cd>0||guardianRun.mp<60;b.textContent=guardianStage()<4?'재정렬 · 80% 해방 필요':guardianRun.cd>0?`재정렬 ${Math.ceil(guardianRun.cd)}초`:'재정렬 · MP 60'}const l=document.querySelector('#guardianLobby');if(l)l.textContent=`${guardianMeta.nickname} · Lv.${guardianLevel(guardianMeta)} / 100 · 누적 경험치 ${guardianMeta.xp}`}
+if(typeof module!=='undefined')module.exports={cleanGuardian,guardianLevel};

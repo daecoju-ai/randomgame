@@ -18,12 +18,12 @@ const catalog=[
  ['eclipse','일식의 송곳니',3,'shadow','critPower',.05],['dagger','밤사냥꾼의 인장',1,'shadow','crit',.01],
  ['storm','뇌신의 북',3,'electric','skill',.035],['voltage','번개의 사슬',2,'electric','control',.035]
 ].map(([id,name,grade,element,stat,value])=>({id,name,grade,element,stat,value}));
-const grades=['일반','희귀','영웅','전설'],thresholds=[1,3,7,15,31],weights=[.6,.3,.09,.01];
+const grades=['일반','희귀','영웅','전설'],thresholds=Array.from({length:20},(_,i)=>i+1),weights=[.6,.3,.09,.01];
 const labels={attack:'공격력',skill:'스킬 피해',splash:'기본 광역 피해 비율',mana:'MP 회복속도',control:'제어 지속시간',speed:'공격속도',haste:'쿨타임 감소',crit:'치명타 확률',critPower:'치명타 피해 배율',startCoin:'시작 코인',killCoin:'처치 시 코인 +1 확률',sell:'판매 환급률',essence:'전투 금화'};
 const elements={all:'전체',fire:'불',water:'물',earth:'땅',wind:'바람',electric:'전기',shadow:'암흑'};
 const caps={attack:.25,skill:.25,splash:.25,mana:.30,control:.20,speed:.25,haste:.10,crit:.15,critPower:.5,startCoin:30,killCoin:.20,sell:.20,essence:.20};
 const stars=n=>thresholds.filter(t=>n>=t).length;
-const factor=n=>stars(n)?1+(stars(n)-1)*.25:0;
+const factor=n=>stars(n)?1+(stars(n)-1)*.10:0;
 const levelFactor=l=>(100+(Math.max(1,Math.min(20,Math.floor(Number(l)||1)))-1)*5)/100;
 const upgradeCost=(grade,level)=>level>=20?0:(grade+1)*5*Math.max(1,Math.floor(level));
 function totals(owned,element='all',levels={}){const out=Object.fromEntries(Object.keys(caps).map(k=>[k,0]));for(const t of catalog)if(t.element==='all'||t.element===element)out[t.stat]+=t.value*factor(owned?.[t.id]||0)*levelFactor(levels[t.id]);for(const k in out)out[k]=Math.min(caps[k],out[k]);return out}

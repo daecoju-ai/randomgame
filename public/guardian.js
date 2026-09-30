@@ -9,7 +9,7 @@ function guardianPower(){return guardianStage()/5}
 function guardianPosition(){if(guardianRun.slot>=0)return slot(guardianRun.slot);const a=geometry();return{x:W/2,y:(a.top+a.bottom)/2}}
 function resetGuardian(){guardianRun=newGuardianRun();renderGuardian()}
 function placeGuardian(){guardianRun.slot=[15,16,...Array.from({length:32},(_,i)=>i)].find(i=>!units.some(u=>u.slot===i))??-1}
-function moveGuardian(to){if(!started||paused||ended||!Number.isInteger(to)||to<0||to>=32)return false;const u=units.find(u=>u.slot===to),old=guardianRun.slot;if(u){if(old<0)return false;u.slot=old}guardianRun.slot=to;guardianRun.selected=true;return true}
+function moveGuardian(to){if(!started||paused||ended||!Number.isInteger(to)||to<0||to>=32)return false;const u=units.find(u=>u.slot===to),old=guardianRun.slot;if(old===to)return false;luckEvent(u?'unitSwapped':'unitMoved',{id:'guardian',other:u?luckUnit(u).id:undefined,from:old,to});if(u){if(old<0)return false;u.slot=old}guardianRun.slot=to;guardianRun.selected=true;return true}
 let guardianArt=null;if(typeof Image!=='undefined'){guardianArt=new Image();guardianArt.src='/assets/guardian-goddess-v26.webp'}
 function guardianKill(m){const xp=m.boss?12:1,bonus=m.guardianMarkedUntil>S.t?1.1:1,old=guardianStage();guardianMeta.xp=Math.min(GuardianGrowth.max,guardianMeta.xp+xp);guardianRun.xp+=xp*bonus;if(old!==guardianStage())toast(`${guardianMeta.nickname} · 능력 ${guardianStage()*20}% 해방`);renderGuardian()}
 function guardianAllies(){const p=guardianPosition();return units.filter(u=>d(p,slot(u.slot))<=combatCell()*2).sort((a,b)=>d(p,slot(a.slot))-d(p,slot(b.slot))).slice(0,4)}

@@ -27,6 +27,8 @@ function noiseBurst(t0,dur,o={}){
 const KIND_TONE={bash:[110,'square'],slash:[880,'sawtooth'],arrow:[1400,'triangle'],fire:[300,'sawtooth'],volt:[1800,'square'],ice:[1200,'sine']};
 let lastHit=0,lastDeath=0;
 const SFX={
+ drawCharge(){if(!actx)return;const t=actx.currentTime;for(let i=0;i<8;i++)tone(110*Math.pow(2,i/5),t+i*.09,.5,{type:'triangle',gain:.12});noiseBurst(t,.7,{gain:.08,filterFreq:800})},
+ drawReveal(rarity=1){if(!actx)return;const t=actx.currentTime;[130.81,261.63,329.63,392,523.25].forEach(f=>tone(f,t,1.6,{type:'triangle',gain:.12,decay:1.5}));[523,659,784,1046,1318].forEach((f,i)=>tone(f,t+i*.1,.7,{gain:.16}));noiseBurst(t,.6,{gain:.14,filterFreq:2400});if(rarity>=4){tone(65.4,t,2,{gain:.22});for(let i=0;i<8;i++)tone(1046+i*90,t+.5+i*.08,.4,{gain:.08})}},
  summon(){if(!actx)return;const t=actx.currentTime;tone(660,t,.16,{type:'triangle',gain:.32});tone(990,t+.05,.18,{type:'triangle',gain:.24})},
  fuse(){if(!actx)return;const t=actx.currentTime;[523.25,659.25,783.99,1046.5].forEach((f,i)=>tone(f,t+i*.06,.22,{type:'sine',gain:.26}))},
  hit(kind){if(!actx)return;const t=actx.currentTime;if(t-lastHit<.045)return;lastHit=t;const[f,ty]=KIND_TONE[kind]||[440,'sine'];tone(f,t,.07,{type:ty,gain:.1,decay:.06})},

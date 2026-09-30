@@ -261,6 +261,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  floaters.forEach(f=>{ctx.globalAlpha=Math.min(1,f.t*3);ctx.fillStyle=f.col;ctx.font='900 11px system-ui';ctx.textAlign='center';ctx.fillText(f.s,f.x,f.y);ctx.globalAlpha=1});
  for(const z of skillZones)drawSkillEffect(ctx,{x:z.x,y:z.y,r:z.radius,t:.3,color:z.color,kind:elementFor(z.source.type).id,effect:z.effect});
  for(const e of skillEffects)drawSkillEffect(ctx,e);
+ drawGuardianEffects();
  units.forEach(u=>{const p=slot(u.slot);drawUnitBadge(ctx,p.x,p.y,u)});
  ctx.restore()}
 function resetGame(){resetGuardian();battleDifficulty=selectedDifficulty;guestReward=0;document.querySelector('#battleSkills')?.close?.();randomForgeSelection=[];battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();placeGuardian();S.summons=0;S.coin=mode().start+Math.floor(talismanBonus(null,'startCoin'));updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}

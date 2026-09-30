@@ -64,7 +64,7 @@ let storageAvailable=true,labFilter='all',selectedLabKey='0:1';
 function sanitizeMeta(value){return cleanProgress(value)}
 function readMeta(){try{if(typeof localStorage==='undefined'){storageAvailable=false;return{levels:{},essence:120}}const raw=localStorage.getItem(META_KEY);if(raw){try{const parsed=JSON.parse(raw);if(parsed.version!==4&&!localStorage.getItem(META_KEY+'_before_v16'))localStorage.setItem(META_KEY+'_before_v16',raw);return sanitizeMeta(parsed)}catch{storageAvailable=false;return{levels:{},essence:0}}}let legacy={};try{legacy=JSON.parse(localStorage.getItem('ff_heroLevelsV2')||'{}')}catch{}const value=sanitizeMeta({levels:legacy,essence:localStorage.getItem('ff_essence')||0});value.essence+=120;localStorage.setItem(META_KEY,JSON.stringify(value));return value}catch{storageAvailable=false;return{levels:{},essence:120}}}
 const initialMeta=readMeta();guardianMeta=cleanGuardian(initialMeta.guardian);let heroLevels=initialMeta.levels,heroSkills=initialMeta.skills||{},essence=initialMeta.essence;
-function saveMeta(){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(metaStorageKey,JSON.stringify({version:4,levels:heroLevels,skills:heroSkills,essence,guardian:{...guardianMeta}}));storageAvailable=true}catch{storageAvailable=false}renderWallet();if(typeof window!=='undefined')window.ForgeAccount?.changed()}
+function saveMeta(sync=true){try{if(typeof localStorage==='undefined')throw Error('storage unavailable');localStorage.setItem(metaStorageKey,JSON.stringify({version:4,levels:heroLevels,skills:heroSkills,essence,guardian:{...guardianMeta}}));storageAvailable=true}catch{storageAvailable=false}renderWallet();if(sync&&typeof window!=='undefined')window.ForgeAccount?.changed()}
 function heroUnlocked(type){return type<12||!!window.ForgeAdventure?.unlocked(type)}
 function diamondBalance(){return window.ForgeAdventure?.diamonds()||0}
 function renderWallet(){document.querySelector('#essence').textContent=essence;document.querySelector('#lobbyEssence').textContent=essence;if(document.querySelector('#diamondWallet'))document.querySelector('#diamondWallet').textContent=diamondBalance();document.querySelector('#saveStatus').textContent=(typeof window!=='undefined'&&window.ForgeAccount?.statusText())||(storageAvailable?'이 브라우저에 자동 저장 · 기기 간 동기화 없음':'저장 공간 사용 불가 · 종료하면 성장이 사라질 수 있습니다')}
@@ -318,6 +318,8 @@ renderWallet();
 
 // Account adapter: authentication never writes over the original guest save.
 if(typeof window!=='undefined')window.ForgeGame={
+ guardianSnapshot:()=>({...guardianMeta}),
+ guardianApply:(v)=>{guardianMeta=cleanGuardian(v);saveMeta(false);renderGuardian()},
  applyGrowth:(v)=>{heroLevels={...v.levels};heroSkills={...v.skills};essence=v.gold;renderWallet();renderHeroLab();refreshCodex()},
  snapshot:()=>({version:4,levels:{...heroLevels},skills:{...heroSkills},essence,guardian:{...guardianMeta}}),
  guestSnapshot:()=>readMeta(),
@@ -329,5 +331,5 @@ if(typeof window!=='undefined')window.ForgeGame={
 };
 
 document.querySelector('#guardianCast').onclick=castGuardian;
-document.querySelector('#guardianRename').onclick=()=>{if(started&&!ended)return;const input=document.querySelector('#guardianNickname'),raw=input.value.trim();if(!raw||Array.from(raw).length>12||/[<>\u0000-\u001f]/.test(raw)){toast('닉네임은 1~12글자로 입력하세요.');return;}guardianMeta.nickname=cleanGuardian({nickname:raw,xp:guardianMeta.xp}).nickname;saveMeta();renderGuardian();toast('주인공 이름을 저장했습니다.');};
+document.querySelector('#guardianRename').onclick=async()=>{if(started&&!ended||!window.ForgeAccount?.allowed())return;const input=document.querySelector('#guardianNickname'),button=document.querySelector('#guardianRename'),raw=input.value.normalize('NFC').trim();if(!raw||Array.from(raw).length>12||/[<>\u0000-\u001f]/.test(raw)){toast('닉네임은 1~12글자로 입력하세요.');return;}button.disabled=true;button.textContent='저장 중…';try{if(window.ForgeAccount?.currentUser()){await window.ForgeGuardianSync.rename(raw);toast('주인공 이름을 계정에 저장했습니다.')}else{guardianMeta.nickname=raw;saveMeta();renderGuardian();toast('주인공 이름을 이 기기에 저장했습니다.')}}catch(e){toast(e.message)}finally{button.disabled=false;button.textContent='이름 저장'}};
 renderGuardian();

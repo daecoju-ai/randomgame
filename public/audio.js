@@ -42,12 +42,21 @@ const SFX={
 };
 // Original K-pop-inspired instrumental: 122 BPM, four-chord pop harmony,
 // syncopated pluck hook, warm bass, kick/snare and offbeat hats. No sampled song.
-const BPM=122,EIGHTH=60/BPM/2;
+let musicScene="lobby";
+const musicBeat=()=>60/(musicScene==="battle"?132:104)/2;
 const CHORDS=[[48,52,55],[43,47,50],[45,48,52],[41,45,48]];
 const HOOK=[76,null,79,76,null,74,72,74, 71,null,74,79,null,74,71,null, 72,null,76,79,81,null,79,76, 77,null,76,72,null,74,76,null];
 let musicTimer=null,step=0,nextMusicTime=0;
 const hz=n=>440*Math.pow(2,(n-69)/12);
 function kick(t){const osc=actx.createOscillator(),g=actx.createGain();osc.type='sine';osc.frequency.setValueAtTime(145,t);osc.frequency.exponentialRampToValueAtTime(48,t+.13);g.gain.setValueAtTime(.52,t);g.gain.exponentialRampToValueAtTime(.0001,t+.23);osc.connect(g);g.connect(musicGain);track(osc,[g],true);osc.start(t);osc.stop(t+.25)}
+const LOBBY_HOOK=[72,null,76,null,79,null,76,null,74,null,71,null,67,null,71,null,72,null,76,null,81,null,79,null,77,null,76,null,74,null,72,null];
+function lobbyStep(index,t){
+ const eighth=index%8,chord=CHORDS[Math.floor(index/8)%4];
+ if(eighth===0)for(const note of chord)tone(hz(note+12),t,1.9,{type:"sine",gain:.07,dest:musicGain,attack:.08,decay:1.8});
+ if(eighth===0||eighth===4)tone(hz(chord[0]),t,.65,{type:"triangle",gain:.12,dest:musicGain,decay:.6});
+ const note=LOBBY_HOOK[index%32];if(note!==null)tone(hz(note),t,.42,{type:"sine",gain:.13,dest:musicGain,attack:.012,decay:.4});
+ if(eighth===2||eighth===6)noiseBurst(t,.035,{gain:.018,dest:musicGain,filterFreq:6500,filterType:"highpass"});
+}
 function musicStep(index,t){
  const eighth=index%8,bar=Math.floor(index/8)%16,chord=CHORDS[bar%4];
  if(eighth===0||eighth===4||(bar%4===3&&eighth===7))kick(t);
@@ -61,7 +70,7 @@ function musicStep(index,t){
 function scheduleMusic(){
  if(!actx||musicMuted||document.hidden||actx.state!=='running')return;
  if(nextMusicTime<actx.currentTime-.25)nextMusicTime=actx.currentTime+.03;
- while(nextMusicTime<actx.currentTime+.16){musicStep(step,nextMusicTime);step=(step+1)%128;nextMusicTime+=EIGHTH}
+ while(nextMusicTime<actx.currentTime+.16){(musicScene==="battle"?musicStep:lobbyStep)(step,nextMusicTime);step=(step+1)%128;nextMusicTime+=musicBeat()}
 }
 function startMusic(){if(musicTimer!==null||musicMuted||document.hidden||!actx||actx.state!=='running')return;nextMusicTime=actx.currentTime+.03;scheduleMusic();musicTimer=setInterval(scheduleMusic,80)}
 function stopMusic(){if(musicTimer!==null)clearInterval(musicTimer);musicTimer=null;nextMusicTime=0;step=0;stopVoices('music')}
@@ -87,7 +96,8 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden){stopMusic(
 addEventListener('pagehide',()=>{stopMusic();stopVoices();if(actx)try{Promise.resolve(actx.suspend()).catch(()=>{})}catch{}});
 addEventListener('pageshow',()=>{if(actx)unlock()});
 window.SFX=Object.fromEntries(Object.entries(SFX).map(([name,fn])=>[name,(...args)=>{if(sfxMuted||document.hidden||!actx||actx.state!=='running')return;try{fn(...args)}catch{}}]));
-window.ForgeAudio={setMusic:enabled=>setChannel('music',!enabled),setSfx:enabled=>setChannel('sfx',!enabled),state:()=>({music:!musicMuted,sfx:!sfxMuted})};
+function setScene(scene){const next=scene==="battle"?"battle":"lobby";if(next===musicScene)return;stopMusic();musicScene=next;startMusic()}
+window.ForgeAudio={setScene,setMusic:enabled=>setChannel('music',!enabled),setSfx:enabled=>setChannel('sfx',!enabled),state:()=>({music:!musicMuted,sfx:!sfxMuted,scene:musicScene})};
 window.ToggleMute=()=>{const off=!(musicMuted&&sfxMuted);setChannel('music',off);setChannel('sfx',off);return off};window.IsMuted=()=>musicMuted&&sfxMuted;
 document.querySelectorAll('[data-sound-toggle]').forEach(b=>b.addEventListener('click',()=>{if(settings&&!settings.open)settings.showModal()}));
 document.querySelector('#musicToggle')?.addEventListener('click',()=>setChannel('music',!musicMuted));

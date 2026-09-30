@@ -36,7 +36,7 @@ const U=Array.from({length:17},(_,type)=>{const e=elementFor(type);return{n:e.id
 function rs(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;C.width=W*D;C.height=H*D;ctx.setTransform(D,0,0,D,0,0)}addEventListener('resize',rs);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.textContent=s;e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
-function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?146:174,bottom=H-176;return{left,right,top,bottom,width,height:bottom-top}}
+function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?146:174,bottom=H-190;return{left,right,top,bottom,width,height:bottom-top}}
 function slot(i){let a=geometry(),gx=(a.width-108)/3,gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.28,Math.min(.64,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}

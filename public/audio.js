@@ -1,10 +1,10 @@
 (function(){
 const AC=window.AudioContext||window.webkitAudioContext;
-let actx=null,master=null,musicGain=null,sfxGain=null,muted=false;
-try{muted=localStorage.getItem('ff_muted')==='1'}catch{}
+let actx=null,master=null,musicGain=null,sfxGain=null,musicMuted=false,sfxMuted=false;
+try{const legacy=localStorage.getItem('ff_muted');musicMuted=(localStorage.getItem('ff_music_muted')??legacy)==='1';sfxMuted=(localStorage.getItem('ff_sfx_muted')??legacy)==='1'}catch{}
 const voices=new Set();
 function track(node,connections,isMusic){const v={node,connections,isMusic};voices.add(v);node.onended=()=>{voices.delete(v);for(const n of [node,...connections])try{n.disconnect()}catch{}}}
-function stopVoices(musicOnly=false){for(const v of voices){if(musicOnly&&!v.isMusic)continue;try{v.node.stop()}catch{}for(const n of [v.node,...v.connections])try{n.disconnect()}catch{}voices.delete(v)}}
+function stopVoices(kind='all'){for(const v of voices){if(kind==='music'&&!v.isMusic||kind==='sfx'&&v.isMusic)continue;try{v.node.stop()}catch{}for(const n of [v.node,...v.connections])try{n.disconnect()}catch{}voices.delete(v)}}
 function rnd(a,b){return a+Math.random()*(b-a)}
 function tone(freq,t0,dur,o={}){
  const {type='sine',gain=.3,dest=sfxGain,attack=.006,decay=dur*.8,detune=0,cutoff=0}=o;
@@ -57,25 +57,38 @@ function musicStep(index,t){
  if(bar>=4&&eighth%2===1)tone(hz(chord[(eighth>>1)%3]+24),t,.14,{type:'sine',gain:.045,dest:musicGain,decay:.12});
 }
 function scheduleMusic(){
- if(!actx||muted||document.hidden||actx.state!=='running')return;
+ if(!actx||musicMuted||document.hidden||actx.state!=='running')return;
  if(nextMusicTime<actx.currentTime-.25)nextMusicTime=actx.currentTime+.03;
  while(nextMusicTime<actx.currentTime+.16){musicStep(step,nextMusicTime);step=(step+1)%128;nextMusicTime+=EIGHTH}
 }
-function startMusic(){if(musicTimer!==null||muted||document.hidden||!actx||actx.state!=='running')return;nextMusicTime=actx.currentTime+.03;scheduleMusic();musicTimer=setInterval(scheduleMusic,80)}
-function stopMusic(){if(musicTimer!==null)clearInterval(musicTimer);musicTimer=null;nextMusicTime=0;step=0;stopVoices(true)}
+function startMusic(){if(musicTimer!==null||musicMuted||document.hidden||!actx||actx.state!=='running')return;nextMusicTime=actx.currentTime+.03;scheduleMusic();musicTimer=setInterval(scheduleMusic,80)}
+function stopMusic(){if(musicTimer!==null)clearInterval(musicTimer);musicTimer=null;nextMusicTime=0;step=0;stopVoices('music')}
 function ensureCtx(){
  if(actx)return true;if(!AC)return false;
- try{actx=new AC();master=actx.createGain();master.gain.value=muted?0:.7;master.connect(actx.destination);musicGain=actx.createGain();musicGain.gain.value=.32;musicGain.connect(master);sfxGain=actx.createGain();sfxGain.gain.value=.6;sfxGain.connect(master);return true}catch{actx=null;return false}
+ try{actx=new AC();master=actx.createGain();master.gain.value=.7;master.connect(actx.destination);musicGain=actx.createGain();musicGain.gain.value=musicMuted?0:.32;musicGain.connect(master);sfxGain=actx.createGain();sfxGain.gain.value=sfxMuted?0:.6;sfxGain.connect(master);return true}catch{actx=null;return false}
 }
 function unlock(){if(document.hidden||!ensureCtx())return;try{if(actx.state==='running')startMusic();else Promise.resolve(actx.resume()).then(startMusic).catch(()=>{})}catch{}}
-function syncButtons(){document.querySelectorAll('[data-sound-toggle]').forEach(b=>{b.textContent=muted?'소리 꺼짐':'소리 켜짐';b.setAttribute('aria-label',muted?'소리 켜기':'소리 끄기');b.setAttribute('aria-pressed',String(!muted));b.disabled=!AC;if(!AC)b.setAttribute('title','이 브라우저는 소리 재생을 지원하지 않습니다.')})}
-function setMuted(v){muted=!!v;try{localStorage.setItem('ff_muted',muted?'1':'0')}catch{}if(master)master.gain.setTargetAtTime(muted?0:.7,actx.currentTime,.05);if(muted){stopMusic();stopVoices()}else unlock();syncButtons()}
+const settings=document.querySelector('#soundSettingsDialog');
+function syncButtons(){
+ document.querySelectorAll('[data-sound-toggle]').forEach(b=>{b.textContent='소리 설정';b.setAttribute('aria-label','배경음·효과음 설정');b.disabled=!AC});
+ for(const [id,off,label]of [['musicToggle',musicMuted,'배경음'],['sfxToggle',sfxMuted,'효과음']]){const b=document.querySelector('#'+id);if(!b)continue;b.textContent=off?'OFF':'ON';b.setAttribute('aria-label',label+(off?' 켜기':' 끄기'));b.setAttribute('aria-pressed',String(!off));b.disabled=!AC}
+}
+function setChannel(kind,off){
+ off=!!off;if(kind==='music')musicMuted=off;else sfxMuted=off;
+ try{localStorage.setItem(kind==='music'?'ff_music_muted':'ff_sfx_muted',off?'1':'0')}catch{}
+ const bus=kind==='music'?musicGain:sfxGain;if(bus)bus.gain.setTargetAtTime(off?0:kind==='music'?.32:.6,actx.currentTime,.02);
+ if(off){if(kind==='music')stopMusic();else stopVoices('sfx')}else unlock();syncButtons();
+}
 addEventListener('pointerdown',unlock,{capture:true});
 addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' ')unlock()},{capture:true});
 document.addEventListener('visibilitychange',()=>{if(document.hidden){stopMusic();stopVoices();if(actx)try{Promise.resolve(actx.suspend()).catch(()=>{})}catch{}}else if(actx)unlock()});
 addEventListener('pagehide',()=>{stopMusic();stopVoices();if(actx)try{Promise.resolve(actx.suspend()).catch(()=>{})}catch{}});
 addEventListener('pageshow',()=>{if(actx)unlock()});
-window.SFX=Object.fromEntries(Object.entries(SFX).map(([name,fn])=>[name,(...args)=>{if(muted||document.hidden||!actx||actx.state!=='running')return;try{fn(...args)}catch{}}]));
-window.ToggleMute=()=>{setMuted(!muted);return muted};window.IsMuted=()=>muted;
-document.querySelectorAll('[data-sound-toggle]').forEach(b=>b.addEventListener('click',window.ToggleMute));syncButtons();
+window.SFX=Object.fromEntries(Object.entries(SFX).map(([name,fn])=>[name,(...args)=>{if(sfxMuted||document.hidden||!actx||actx.state!=='running')return;try{fn(...args)}catch{}}]));
+window.ForgeAudio={setMusic:enabled=>setChannel('music',!enabled),setSfx:enabled=>setChannel('sfx',!enabled),state:()=>({music:!musicMuted,sfx:!sfxMuted})};
+window.ToggleMute=()=>{const off=!(musicMuted&&sfxMuted);setChannel('music',off);setChannel('sfx',off);return off};window.IsMuted=()=>musicMuted&&sfxMuted;
+document.querySelectorAll('[data-sound-toggle]').forEach(b=>b.addEventListener('click',()=>{if(settings&&!settings.open)settings.showModal()}));
+document.querySelector('#musicToggle')?.addEventListener('click',()=>setChannel('music',!musicMuted));
+document.querySelector('#sfxToggle')?.addEventListener('click',()=>setChannel('sfx',!sfxMuted));
+document.querySelector('#closeSoundSettings')?.addEventListener('click',()=>settings.close());syncButtons();
 })();

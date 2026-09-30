@@ -18,12 +18,13 @@ function render(){
  document.querySelectorAll('[data-attend]').forEach(b=>b.onclick=()=>claim('attend'));
  document.querySelectorAll('[data-claim-mission]').forEach(b=>b.onclick=()=>claim('claim_mission',{key:b.dataset.claimMission}));
 
- $('#specialShop').innerHTML=D.specials.map(s=>{const owned=state?.unlocks?.[s.type],n=state?.stats?.[s.condition]||0,m=D.missions.find(m=>m.stat===s.condition);return `<article class="specialCard"><canvas width="180" height="170" data-special-art="${s.type}"></canvas><h3>${s.name}</h3><b>${s.label} · ${s.role}</b><p>해금 조건: ${m.name} ${n}/${s.goal}</p><p>조합: 속성 무관 4단계 3개 → 해금한 신규 유닛 중 동일 확률</p><button data-unlock-special="${s.type}" ${busy||owned||n<s.goal||!state||state.diamonds<s.price||saved()?'disabled':''}>${owned?'영구 해금 완료':`영구 해금 · ${s.price} 다이아`}</button></article>`}).join('');
+ $('#specialShop').innerHTML=D.specials.map(s=>{const owned=state?.unlocks?.[s.type],n=state?.stats?.[s.condition]||0,m=D.missions.find(m=>m.stat===s.condition);return `<article class="specialCard"><canvas width="180" height="170" data-special-art="${s.type}"></canvas><h3>${s.name}</h3><b>${s.label} · ${s.role}</b><p>조합: 속성 무관 4단계 3개 → 해금한 신규 유닛 중 동일 확률</p><button data-unlock-special="${s.type}" ${busy||owned||!state||state.diamonds<s.price||saved()?'disabled':''}>${owned?'영구 해금 완료':`영구 해금 · ${s.price} 다이아`}</button></article>`}).join('');
  document.querySelectorAll('[data-special-art]').forEach(c=>body(c.getContext('2d'),90,104,{type:+c.dataset.specialArt,lv:5},1.5,true));document.querySelectorAll('[data-unlock-special]').forEach(b=>b.onclick=()=>mutate('unlock',{type:+b.dataset.unlockSpecial}).catch(e=>toast(e.message)));
 }
 async function claim(action,payload={}){try{const v=await mutate(action,payload);if(v){window.ForgeUX.celebrate();if(action==='claim_battle'){$('#claimBattleReward').disabled=true;$('#claimBattleReward').textContent='수령 완료 ✓';$('#rewardBalance').textContent=`보유 금화 ${v.gold} · 다이아 ${v.diamonds}`;}await load();return true;}return false;}catch(e){toast(e.message);return false}}
 window.ForgeAdventure={
  unitStars:()=>state?.unitStars||{},battleUnitStars:()=>battleStars,
+ async buyUnit(type){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_buy',{type})},
  async drawUnit(){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_draw')},
  talismanLevels:()=>state?.talismanLevels||{},battleTalismanLevels:()=>battleLevels,
  claimBattle:()=>claim('claim_battle'),

@@ -22,7 +22,7 @@ function drawArena(){
 
 
 const C=document.querySelector('#g'),ctx=C.getContext('2d');let W,H,D;
-const S={coin:80,life:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,shake:0,stageStart:0,summons:0,drag:null};
+const S={coin:80,life:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,shake:0,stageStart:0,finalBossAt:null,summons:0,drag:null};
 let units=[],mobs=[],shots=[],particles=[],floaters=[];
 let skillEffects=[];
 let battleUpgrades={}; // Run-only: never included in local or account progression.
@@ -181,7 +181,7 @@ function openRecipes(){recipeFilter='all';document.querySelectorAll('[data-filte
 function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  let scale=Math.pow(1.19,S.wave-1);
- let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?780:(elite?150:92))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
+ let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?780:(elite?150:92))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});if(boss&&S.wave===30&&S.finalBossAt==null){S.finalBossAt=S.t;toast('최종 보스 등장 · 1분 30초 안에 모든 몬스터를 제거하세요')}S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
 function fire(u,e){let T=unitData(u),p=slot(u.slot),mods=skillModifiers(u);u.cd=T.rate/((1+u.lv*.1)*(1+mods.speed));u.anim=1;
  const strike=amount=>{if(T.range<=1){dealHeroDamage(u,e,amount);skillEffects.push({x:e.x,y:e.y,r:20,t:.35,color:T.accent,kind:elementFor(u.type).id,effect:T.kind==='slash'?'slash':'impact'})}else shots.push({x:p.x,y:p.y,target:e,dmg:amount,kind:T.kind,type:u.type,lv:u.lv,source:u,dead:false})};
  strike(combatAttack(u));if(mods.clone)strike(combatAttack(u)*mods.clone);
@@ -221,6 +221,7 @@ C.addEventListener('pointerup',e=>{
  S.drag=null;refreshSelection();
 });
 C.addEventListener('pointercancel',()=>{S.drag=null});
+function renderFinalCountdown(){const timer=document.querySelector("#finalCountdown");timer.hidden=S.wave!==30||S.finalBossAt==null||ended;if(timer.hidden)return;const remaining=Math.max(0,Math.ceil(90-(S.t-S.finalBossAt)));document.querySelector("#finalCountdownTime").textContent=Math.floor(remaining/60)+":"+String(remaining%60).padStart(2,"0");timer.dataset.urgency=remaining<=10?"critical":remaining<=30?"warning":"normal";}
 function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
 
  if(S.spawn<S.max&&S.t>S.next){spawn();S.next+=(20/30)}
@@ -228,12 +229,12 @@ function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones
  mobs=mobs.filter(m=>m.hp>0);
  if(mobs.length>=80){finish(false);return}
  if(S.t-S.stageStart>=20&&S.wave<30){luckEvent('waveEnd');S.wave++;luckEvent('waveStart');playSound('wave');toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=mode().waveCoin;S.runEssence=(S.runEssence||0)+3}
- if(S.wave===30){const elapsed=S.t-S.stageStart;if(elapsed>40){finish(false,'timeout');return}if(S.spawn===S.max&&mobs.length===0){finish(true);return}if(elapsed>=40){finish(false,'timeout');return}}
+ if(S.wave===30&&S.finalBossAt!=null){const elapsed=S.t-S.finalBossAt;if(elapsed>90){finish(false,'timeout');return}if(S.spawn===S.max&&mobs.length===0){finish(true);return}if(elapsed>=90){finish(false,'timeout');return}}
  units.forEach(u=>{if(u.stun>0)return;tickHeroSkills(u,dt);u.cd-=dt*(u.slow>0?.65:1);u.anim=Math.max(0,u.anim-dt*4);let p=slot(u.slot),T=unitData(u);if(u.cd<=0){let rng=battleRange(u);let tar=mobs.filter(m=>m.hp>0&&d(p,m)<rng).sort((a,b)=>b.p-a.p)[0];if(tar)fire(u,tar)}});
  shots.forEach(s=>{if(!s.target||s.target.hp<=0){s.dead=true;return}let dx=s.target.x-s.x,dy=s.target.y-s.y,dd=Math.hypot(dx,dy);if(dd<13){s.dead=true;dealHeroDamage(s.source,s.target,s.dmg);applyAttackSplash(s.source,s.target,s.dmg)}else{s.x+=dx/dd*440*dt;s.y+=dy/dd*440*dt}});
  shots=shots.filter(s=>!s.dead);particles.forEach(p=>{p.x+=p.vx*dt;p.y+=p.vy*dt;p.vx*=.95;p.vy*=.95;p.t-=dt});particles=particles.filter(p=>p.t>0);floaters.forEach(f=>{f.y-=25*dt;f.t-=dt});floaters=floaters.filter(f=>f.t>0);
- document.querySelector('#coin').textContent=S.coin;document.querySelector('#life').textContent=mobs.length;document.querySelector('#wave').textContent=String(S.wave).padStart(2,'0')+' / 30'+(S.wave===30?' · '+Math.max(0,Math.ceil(40-(S.t-S.stageStart)))+'초':'');
- document.querySelector('#stageProgress span').style.width=Math.min(100,(S.t-S.stageStart)/(S.wave===30?40:20)*100)+'%';
+ renderFinalCountdown();document.querySelector('#coin').textContent=S.coin;document.querySelector('#life').textContent=mobs.length;document.querySelector('#wave').textContent=String(S.wave).padStart(2,'0')+' / 30'+(S.wave===30?(S.finalBossAt==null?' · 보스 등장 대기':' · '+Math.max(0,Math.ceil(90-(S.t-S.finalBossAt)))+'초'):'');
+ document.querySelector('#stageProgress span').style.width=Math.min(100,(S.wave===30&&S.finalBossAt!=null?(S.t-S.finalBossAt)/90:(S.t-S.stageStart)/20)*100)+'%';
  document.querySelector('#summon').disabled=S.coin<summonCost();
  refreshSelection();
  if(document.querySelector('#recipeOverlay').style.display==='block'&&recipeStamp!==inventoryStamp())renderRecipes();
@@ -267,8 +268,8 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  drawGuardianEffects();
  units.forEach(u=>{const p=slot(u.slot);drawUnitBadge(ctx,p.x,p.y,u)});
  ctx.restore()}
-function resetGame(){luckInitializing=true;luckUnitSequence=0;luckMonsterSequence=0;window.ForgeAudio?.setScene("battle");resetGuardian();battleDifficulty=selectedDifficulty;guestReward=0;document.querySelector('#battleSkills')?.close?.();randomForgeSelection=[];battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();placeGuardian();window.ForgeSummons?.deploy();S.summons=0;S.coin=mode().start+Math.floor(talismanBonus(null,'startCoin'));luckInitializing=false;luckEvent('battleInit',{at:0,guardianSlot:guardianRun.slot,units:units.map(luckUnit)});updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
-function finish(won,reason){if(ended)return;ended=true;window.ForgeAudio?.setScene("lobby");saveMeta();renderGuardian();battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);const talismanReward=Math.floor((gained+(S.runEssence||0))*talismanBonus(null,'essence'));guestReward=Math.floor((gained+(S.runEssence||0)+talismanReward)*mode().gold);document.querySelector('#claimBattleReward').disabled=!!window.ForgeAdventure?.active();document.querySelector('#claimBattleReward').textContent='보상 받기';document.querySelector('#battleSkills')?.close?.();document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${mode().label} · ${S.wave} 웨이브 · ${won?'유적 방어 성공':reason==='timeout'?'최종 웨이브 40초 시간 초과':'몬스터 수용 한계 도달'}`;document.querySelector('#rewardTotal').textContent=`+${guestReward}`;document.querySelector('#rewardBreakdown').textContent=`웨이브 보상 ${S.runEssence||0} + 종료 보상 ${Math.floor(S.wave*1.5)} + 승리 보너스 ${won?30:0} + 부적 보너스 ${talismanReward}${battleDifficulty==='easy'?' · 쉬움 금화 70% 적용':''}`;document.querySelector('#rewardBalance').textContent=`현재 보유 금화 ${essence}`;document.querySelector('#resultScreen').hidden=false;window.ForgeUX?.rewards({pending:!!window.ForgeAdventure?.active()});if(window.ForgeAdventure?.active())window.ForgeAdventure.finish(won);closeModal('#recipeOverlay');closeModal('#drawer')}
+function resetGame(){luckInitializing=true;luckUnitSequence=0;luckMonsterSequence=0;window.ForgeAudio?.setScene("battle");resetGuardian();battleDifficulty=selectedDifficulty;guestReward=0;document.querySelector('#battleSkills')?.close?.();randomForgeSelection=[];battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];Object.assign(S,{coin:80,wave:1,t:0,next:0,spawn:0,max:30,sel:null,stageStart:0,finalBossAt:null,summons:0,drag:null,runEssence:0});units=[];mobs=[];shots=[];particles=[];floaters=[];paused=false;ended=false;for(let i=0;i<4;i++)summon();placeGuardian();window.ForgeSummons?.deploy();S.summons=0;S.coin=mode().start+Math.floor(talismanBonus(null,'startCoin'));renderFinalCountdown();luckInitializing=false;luckEvent('battleInit',{at:0,guardianSlot:guardianRun.slot,units:units.map(luckUnit)});updateSummonPrice();document.querySelector('#pause').textContent='Ⅱ';document.querySelector('#pause').setAttribute('aria-label','일시정지');refreshSelection()}
+function finish(won,reason){if(ended)return;ended=true;renderFinalCountdown();window.ForgeAudio?.setScene("lobby");saveMeta();renderGuardian();battleUpgrades={};skillEffects=[];skillZones=[];specialEchoes=[];refreshSelection();playSound(won?'victory':'defeat');let gained=Math.floor(S.wave*1.5)+(won?30:0);const talismanReward=Math.floor((gained+(S.runEssence||0))*talismanBonus(null,'essence'));guestReward=Math.floor((gained+(S.runEssence||0)+talismanReward)*mode().gold);document.querySelector('#claimBattleReward').disabled=!!window.ForgeAdventure?.active();document.querySelector('#claimBattleReward').textContent='보상 받기';document.querySelector('#battleSkills')?.close?.();document.querySelector('#resultTitle').textContent=won?'VICTORY':'다시, 전설을 향해';document.querySelector('#resultText').textContent=`${mode().label} · ${S.wave} 웨이브 · ${won?'유적 방어 성공':reason==='timeout'?'최종 보스 등장 후 1분 30초 시간 초과':'몬스터 수용 한계 도달'}`;document.querySelector('#rewardTotal').textContent=`+${guestReward}`;document.querySelector('#rewardBreakdown').textContent=`웨이브 보상 ${S.runEssence||0} + 종료 보상 ${Math.floor(S.wave*1.5)} + 승리 보너스 ${won?30:0} + 부적 보너스 ${talismanReward}${battleDifficulty==='easy'?' · 쉬움 금화 70% 적용':''}`;document.querySelector('#rewardBalance').textContent=`현재 보유 금화 ${essence}`;document.querySelector('#resultScreen').hidden=false;window.ForgeUX?.rewards({pending:!!window.ForgeAdventure?.active()});if(window.ForgeAdventure?.active())window.ForgeAdventure.finish(won);closeModal('#recipeOverlay');closeModal('#drawer')}
 document.querySelector('#startGame').onclick=()=>{const dialog=document.querySelector('#difficultyDialog');window.ForgeUX?.entryError('');if(!dialog.open)dialog.showModal();};
 document.querySelector('#closeDifficulty').onclick=()=>document.querySelector('#difficultyDialog').close();
 document.querySelector('#confirmBattle').onclick=()=>{if(window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#difficultyDialog').close();document.querySelector('#startScreen').hidden=true};
@@ -300,14 +301,14 @@ function upgradeBattleSelected(){
  const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u);
  if(level>=10||S.coin<cost)return false;
  luckEvent('battleSpend',{id:luckUnit(u).id});S.coin-=cost;battleUpgrades[lvKey(u.type,u.lv)]=level+1;
- document.querySelector('#coin').textContent=S.coin;
+ renderFinalCountdown();document.querySelector('#coin').textContent=S.coin;
  document.querySelector('#summon').disabled=S.coin<summonCost();
  refreshSelection();playSound('coin');
  toast(`${heroLabel(u)} 전투 강화 ${level+1}/10 · 공격력 +${level+1}%`);
  return true;
 }
 document.querySelector('#battleUpgrade').onclick=upgradeBattleSelected;
-function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);playSound('coin');removeUnit(u,value);S.coin+=value;S.drag=null;refreshSelection();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (${Math.round((.5+talismanBonus(null,'sell'))*100)}% 환급)`);return true}
+function sellSelected(){const u=S.sel;if(!started||ended||!u||!units.includes(u))return false;const value=sellValue(u);playSound('coin');removeUnit(u,value);S.coin+=value;S.drag=null;refreshSelection();renderFinalCountdown();document.querySelector('#coin').textContent=S.coin;document.querySelector('#summon').disabled=S.coin<summonCost();if(document.querySelector('#recipeOverlay').style.display==='block')renderRecipes();toast(`${heroLabel(u)} 판매 · +${value} ◈ (${Math.round((.5+talismanBonus(null,'sell'))*100)}% 환급)`);return true}
 document.querySelector('#sellUnit').onclick=sellSelected;
 document.querySelector('#deselectUnit').onclick=()=>{S.sel=null;guardianRun.selected=false;refreshSelection()};
 

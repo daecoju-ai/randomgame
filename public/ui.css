@@ -104,3 +104,4 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 #startScreen .lobbyNav button{min-height:68px;padding:8px 4px}
 #startScreen .versionLabel{margin:0;padding-top:0}
 @media(max-width:360px){#startScreen{padding-inline:12px;gap:8px}#startScreen .lobbyOverview{gap:8px}#startScreen .guardianLobby{padding:8px;grid-template-columns:32px minmax(0,1fr)}#startScreen .guardianLobby>img{width:32px;height:50px}#startScreen .guardianLobby>div{grid-template-columns:minmax(0,1fr)}#startScreen .guardianLobby #guardianRename{width:100%}}
+#startScreen .lobbyOverview,#startScreen #startGame,#startScreen #openUnitDraw,#startScreen .lobbyNav{width:min(100%,440px);max-width:440px;box-sizing:border-box}

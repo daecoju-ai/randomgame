@@ -184,3 +184,64 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 #startScreen .legendCard .legendPrice{display:flex;color:#d2f1ff}
 #startScreen .legendCard .legendSkill{color:#dcc9f4}
 #legendCatalog .legendDescription{font-size:11px;color:#bccbd1;line-height:1.6}
+
+/* V40: compact archive, full screen details and separate hidden collection. */
+.shopCollectionLinks{display:grid;gap:10px;margin-top:18px}
+.shopCollectionLinks button{display:block;width:100%;padding:15px;text-align:left;background:#243749;color:#f4e5c6;border:1px solid #7b7181;border-radius:14px;font-size:16px;min-height:56px}
+.shopCollectionLinks small{display:block;font-size:12px;color:#c4d0dc;margin-top:6px}
+.collectionDialog{box-sizing:border-box;width:min(900px,calc(100vw - 20px));max-height:92dvh;overflow:auto;overscroll-behavior:contain;border:1px solid #897c9c;border-radius:22px;background:#101f32;color:#edf1f8;padding:20px}
+.collectionDialog::backdrop,.albumDetailDialog::backdrop{background:#070f20db;backdrop-filter:blur(5px)}
+.collectionDialog>header{display:flex;justify-content:space-between;align-items:center;gap:12px;position:sticky;top:-20px;padding:14px 0;background:#101f32;z-index:2}
+.collectionDialog header h2{font-size:24px;margin:0;color:#fae2ae}.collectionDialog header small{font-size:10px;color:#c9bddb;letter-spacing:2px}
+.collectionDialog header button{flex-shrink:0;min-height:44px;padding:10px 14px;background:#25374b;color:#f1f4fc;border-color:#708497}
+.collectionDialog>p{font-size:13px;line-height:1.7;color:#cad7e7}
+.albumFilters,.purchaseCategories{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 18px}
+.albumFilters button,.purchaseCategories button{min-height:42px;padding:10px 12px;font-size:12px;background:#21354c;color:#d3e2f0;border:1px solid #596e86}
+.albumFilters button[aria-pressed="true"],.purchaseCategories button[aria-pressed="true"]{background:#e8c781;color:#302710;border-color:#ffe1a3}
+#unitAlbumGrid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.albumTile{box-sizing:border-box;display:flex;flex-direction:column;align-items:center;gap:5px;background:linear-gradient(140deg,#233950,#1d263d);border:1px solid #4d637b;border-radius:14px;padding:10px 6px;color:#f4e6c9;min-width:0}
+.albumTile canvas{width:100%;height:auto;aspect-ratio:1}.albumTile span{font-size:10px;color:#bed3e6}.albumTile b{font-size:12px;line-height:1.5;overflow-wrap:anywhere}.albumTile small{font-size:10px;color:#c2cedc}
+.albumDetailDialog{box-sizing:border-box;position:fixed;inset:0;width:100%;height:100dvh;max-width:none;max-height:none;border:0;border-radius:0;padding:0;background:#fffdf7;color:#203a31;overflow:auto}
+.albumDetailDialog>header{position:sticky;top:0;z-index:4;display:flex;justify-content:space-between;align-items:center;padding:max(10px,env(safe-area-inset-top)) 16px 10px;background:#fffdf7;border-bottom:1px solid #c9d6cb;gap:12px}
+.albumDetailDialog header button{min-height:44px;padding:10px 14px;background:#eaf1e9;color:#274838}
+#albumDetailBody{max-width:850px;margin:auto;padding:20px 18px 110px}
+#albumDetailBody>canvas{display:block;width:min(100%,360px);height:auto;margin:10px auto}
+#albumDetailBody h2{text-align:center;font-size:27px;color:#233f34;margin:12px 0}
+.albumBadge{display:inline-block;font-size:11px;padding:6px 10px;border-radius:20px;background:#dceae4;color:#265345}
+.albumRole{text-align:center;color:#455e51;font-size:14px}
+.albumStats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:20px 0}
+.albumStats>div{background:#eaf1e6;border:1px solid #cbd7ca;border-radius:12px;padding:12px 8px;min-width:0}.albumStats small{display:block;color:#4d6254;font-size:11px}.albumStats b{display:block;font-size:16px;margin-top:7px;overflow-wrap:anywhere}
+.albumSkills{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.albumSkills article{padding:16px;border:1px solid #cad8cf;border-radius:16px;background:#f0f5ec;color:#203a31}
+.albumSkills h3{font-size:18px;margin:12px 0 6px}.albumSkills small{font-size:12px;color:#496151}.albumSkills p{font-size:14px;line-height:1.7;color:#344f41}
+.albumDetailActions{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:44px 1fr 1fr 44px;gap:8px;padding:10px 14px max(12px,env(safe-area-inset-bottom));background:#fffdf7;border-top:1px solid #c5d4c8;z-index:5}
+.albumDetailActions button{min-height:48px;padding:10px 4px;font-size:14px;background:#245f47;color:white;border-color:#245f47}.albumDetailActions button:first-child,.albumDetailActions button:last-child{background:#e9f1e8;color:#244536}
+#hiddenCollectionCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.hiddenProduct{box-sizing:border-box;min-width:0;padding:16px;border:1px solid #9f87ae;border-radius:20px;background:radial-gradient(ellipse at top,#65548c60,transparent),#1b2c41;color:#e9edf8;text-align:left}
+.hiddenProduct>canvas{display:block;width:min(100%,220px);height:auto;margin:0 auto;filter:drop-shadow(0 8px 16px #0005)}
+.hiddenProduct h3{font-size:21px;color:#f8dfaa;margin:12px 0}.hiddenProduct p{font-size:13px;line-height:1.65;color:#d1dced}.hiddenProduct b,.hiddenProduct strong{display:block;color:#c6efe6;font-size:14px;margin:10px 0}
+.currencyLine{display:inline-flex;align-items:center;gap:7px;white-space:nowrap;font-weight:800;color:#c6edfc}.currencyLine em{font-weight:400;font-style:normal;font-size:11px;color:#e9c887;margin-left:auto}
+.currencyLine .premiumIcon{width:24px;height:24px;flex-shrink:0}
+.skillVisual{margin:0 0 12px;max-width:330px;width:100%}.skillVisual svg{display:block;width:100%;height:auto;border-radius:14px}.skillVisual figcaption{font-size:10px;color:#496251;margin-top:5px;text-align:center}
+.hiddenProduct .skillVisual figcaption,.collectionDialog .skillVisual figcaption{color:#cad7e9}
+#legendPurchaseDialog .unitShop{color:#203c32;border:0;border-radius:18px;padding:18px;background:#fffdf7}
+#legendPurchaseDialog .unitShop h3{color:#244336;margin:0 0 10px}
+#legendPurchaseDialog .unitProduct{color:#203c32}#legendPurchaseDialog .unitProduct p{color:#385346}
+#legendPurchaseDialog .unitShop select{font-size:16px;min-height:48px;background:#eff4eb;color:#233d32}
+#unitDraw,#unitBuy{display:inline-flex;align-items:center;justify-content:center;flex-wrap:nowrap;gap:8px;line-height:1.5;white-space:normal;padding:14px;font-size:18px}
+#unitDraw .premiumIcon,#unitBuy .premiumIcon,button .currencyIcon,.skillUnlocks button .premiumIcon,.talismanUpgrade .premiumIcon{display:inline-block;position:static;float:none;width:24px;height:24px;flex:0 0 24px;vertical-align:middle;margin:0}
+#unitDrawWallet{font-size:17px;flex-wrap:wrap}
+#unitBuy{width:100%;min-height:54px;background:#28664b;color:#fff;border-color:#28664b}
+#drawer .awakening{color:#6b4816!important;background:#fff0cd!important;border-color:#c7a85f;line-height:1.7}
+#drawer .heroPaging{position:static;background:#ecf3e8;color:#244435;margin-bottom:14px}
+#drawer #labDetail{background:#fffdf7;color:#203c32;overflow:visible;max-height:none}
+#drawer #labDetail .eyebrow,#drawer .combatIdentity{color:#455e50}
+#drawer .skillUnlocks b,#battleSkills .skillUnlocks b{color:#203c32}
+#drawer .skillUnlocks .sealed{color:#435748!important}
+#drawer .labHeader{padding-right:0}#drawer .labHeader #close{position:static;float:right;min-height:44px}
+#drawer #levelUpSelected{position:static;margin:16px 0;width:100%}
+#drawer .nextMilestone{background:#eef4e9;color:#234333;border-color:#b9ccac}
+#drawer .nextMilestone b,#drawer .nextMilestone p,#drawer .nextMilestone small{color:#345340}
+.inheritedSkill{border:1px solid #cad8cc;border-radius:14px;padding:14px;margin-top:12px}
+@media(max-width:600px){#unitAlbumGrid{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.collectionDialog{padding:16px}.collectionDialog>header{top:-16px}.collectionDialog header h2{font-size:21px}#hiddenCollectionCards{grid-template-columns:1fr}.hiddenProduct{display:grid;grid-template-columns:minmax(85px,.65fr) minmax(0,1.35fr);gap:12px;padding:14px}.hiddenProduct>canvas{align-self:start;position:sticky;top:64px}.hiddenProduct h3{font-size:18px}.hiddenProduct p{font-size:12px}.albumSkills{grid-template-columns:1fr}.skillUnlocks .skillVisual{max-width:none}#drawer #labCards{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(prefers-reduced-motion:no-preference){#featuredLegend .legendCard{animation:legendSlide .35s ease-out}@keyframes legendSlide{from{opacity:.4;transform:translateY(5px)}to{opacity:1;transform:none}}}

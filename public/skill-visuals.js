@@ -1,0 +1,22 @@
+/* Effect illustrations: the positions show target, area and support relationships. */
+(()=>{
+const palettes={fire:'#ff8b4d',water:'#62d7ff',earth:'#dcb57a',wind:'#73e4b0',electric:'#ffe36f',shadow:'#bc98ff',poison:'#f385c2',metal:'#b8d4e9',time:'#62decf',star:'#d6c4ff',void:'#bba0ff'};
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function art(u,def){
+const element=elementFor(u.type).id,color=palettes[element]||'#d6c4ff',f=def.effect||'single';
+const support=/Aura|fury|swift|clarity|cleanse|blessing|mana|reorder|speed|clone/i.test(f);
+const chain=/chain|thunder|ricochet|lightning/i.test(f);
+const zone=/Zone|area|wave|mud|freeze|rupture|airborne|burn|nova|meteor|shatter|stun|tidal|flurry|stardust|starfall|constellation|voidShard|voidBrand|riftDetonate|nullCollapse|acidPool|plague|detonate|venomQueen|steelShard|bladeStorm|timeSeal|timeCascade/i.test(f);
+let drawing='',caption='';
+const enemy=(x,y)=>'<g transform="translate('+x+' '+y+')"><path d="M-8 9V-5l-4-8 8 4h8l8-4-4 8V9Z" fill="#dd8a84" stroke="#ffc5b7"/><circle cx="-3" cy="0" r="1.7" fill="#151e33"/><circle cx="3" cy="0" r="1.7" fill="#151e33"/></g>';
+if(support){caption=/mana/i.test(f)?'아군 MP 회복':/reorder|haste|swift/i.test(f)?'아군 쿨타임 지원':/cleanse|clarity/i.test(f)?'아군 정화 · 보호':'주변 아군 강화';drawing='<ellipse cx="135" cy="57" rx="76" ry="32" fill="'+color+'" fill-opacity=".12" stroke="'+color+'" stroke-dasharray="4 5"/>'+[88,135,182].map(x=>'<g transform="translate('+x+' 54)"><circle r="12" fill="#3d6e78" stroke="#b5f4e7"/><path d="M0-22v-14m-5 5 5-5 5 5" fill="none" stroke="'+color+'" stroke-width="3"/><circle cx="-4" cy="-1" r="2" fill="#e4fff6"/><circle cx="4" cy="-1" r="2" fill="#e4fff6"/></g>').join('')}
+else if(/pierce|railStrike/.test(f)){caption='직선 관통';drawing=[100,152,205].map(x=>enemy(x,58)).join('')+'<path d="M38 58H230" stroke="'+color+'" stroke-width="8" opacity=".6"/><path d="M38 58H230m-12-8 12 8-12 8" fill="none" stroke="#f2fcff" stroke-width="2"/>'}
+else if(/echo|chronicle|rewindStrike/.test(f)){caption='기록 후 지연 타격';drawing=enemy(190,60)+'<circle cx="113" cy="49" r="22" fill="#223950" stroke="'+color+'" stroke-width="3"/><path d="M113 33v16l12 8M35 63h43m62 0h26" stroke="'+color+'" stroke-width="4" fill="none"/>'}
+else if(/Mark|toxicStack|toxicBurst|riftConsume|judgement|armorBreak/.test(f)){caption=/toxic/.test(f)?'중독 중첩 · 소모':'표식 부여 · 추가 피해';drawing=enemy(163,63)+'<circle cx="163" cy="61" r="30" stroke="'+color+'" stroke-width="3" fill="'+color+'" fill-opacity=".1"/><path d="m154 21 9-13 9 13-9 11Z" fill="'+color+'"/><circle cx="130" cy="27" r="4" fill="'+color+'"/><circle cx="194" cy="27" r="4" fill="'+color+'"/>'}
+else if(chain){caption='적 사이 연쇄 타격';drawing=[82,142,201].map((x,i)=>enemy(x,51+(i%2)*15)).join('')+'<path d="M31 55 59 43 69 59 82 51 111 70 123 48 142 66 169 44 182 64 201 51" fill="none" stroke="'+color+'" stroke-width="5" stroke-linejoin="round"/><path d="M31 55 59 43 69 59 82 51 111 70 123 48 142 66 169 44 182 64 201 51" fill="none" stroke="#fff4be" stroke-width="1.5"/>'}
+else if(zone){caption=/meteor|star/i.test(f)?'낙하 · 범위 타격':/freeze|mud/i.test(f)?'범위 감속 · 제어':/pull|airborne/i.test(f)?'회오리 · 범위 제어':'범위 공격';drawing='<ellipse cx="154" cy="65" rx="63" ry="26" fill="'+color+'" fill-opacity=".2" stroke="'+color+'" stroke-width="2"/>'+[[119,57],[160,47],[188,66]].map(([x,y])=>enemy(x,y)).join('')+'<path d="M110 61q43-65 89 0M125 66q29-42 62 0" fill="none" stroke="'+color+'" stroke-width="4"/><path d="m155 4-10 23h10l-8 19 29-28h-13l9-14Z" fill="'+color+'"/>'}
+else{caption=/execute|bossStrike|deathMark|strike|burst/i.test(f)?'집중 · 강력한 단일 타격':'단일 대상 타격';drawing=enemy(192,60)+'<path d="M43 63Q95 30 164 54" fill="none" stroke="'+color+'" stroke-width="9" opacity=".5"/><path d="m168 54 19-13-7 20 15 11-22-2-9 17 2-22-17-10Z" fill="'+color+'"/><path d="M38 64Q96 48 162 56" fill="none" stroke="#f1fbff" stroke-width="2"/>'}
+return '<figure class="skillVisual" data-effect="'+esc(f)+'"><svg viewBox="0 0 260 104" role="img" aria-label="'+esc(def.name+' · '+caption)+'"><rect width="260" height="104" rx="14" fill="#101e32"/><path d="M15 83H245M32 12V82M75 12V82M118 12V82M161 12V82M204 12V82" stroke="#ffffff08"/>'+drawing+'<circle cx="30" cy="62" r="11" fill="'+color+'" stroke="#ffffffa0"/><path d="m26 60 4-6 4 6-4 7Z" fill="#fff"/><text x="130" y="96" text-anchor="middle" fill="#e3edfa" font-size="10" font-family="sans-serif">'+esc(caption)+'</text></svg><figcaption>스킬 효과 그림</figcaption></figure>'
+}
+window.ForgeSkillVisuals={art};
+})();

@@ -1,0 +1,31 @@
+/* Full collection, dedicated hidden storefront, rotating home promotion. */
+(()=>{
+'use strict';
+const $=s=>document.querySelector(s);
+let albumFilter='all',albumIndex=0,rotation=0;
+const entries=()=>catalogEntries().filter(u=>albumFilter==='all'||albumFilter==='basic'&&u.lv<5||albumFilter==='legend'&&u.lv===5&&u.type<12||albumFilter==='hidden'&&u.type>=12);
+function closeHubs(){for(const id of ['shopHub','eventHub','unitAlbumDialog','hiddenCollectionDialog','albumDetailDialog'])$('#'+id).close()}
+function paint(root=document){root.querySelectorAll('[data-collection-art]').forEach(c=>{const [type,lv]=c.dataset.collectionArt.split(':').map(Number),g=c.getContext('2d');g.clearRect(0,0,c.width,c.height);body(g,c.width/2,c.height*.55,{type,lv},c.width/140,true)})}
+function album(){const list=entries();$('#unitAlbumGrid').innerHTML=list.map((u,i)=>'<button data-album-index="'+i+'" class="albumTile"><span>'+u.lv+'단계'+(u.type>=12?' · 히든':'')+'</span><canvas width="140" height="140" data-collection-art="'+u.type+':'+u.lv+'" aria-label="'+heroLabel(u)+'"></canvas><b>'+heroLabel(u)+'</b><small>Lv.'+getLv(u.type,u.lv)+' · ★'+(window.ForgeSummons?.stars(u)||0)+'</small></button>').join('');paint($('#unitAlbumGrid'));$('#unitAlbumGrid').querySelectorAll('[data-album-index]').forEach(b=>b.onclick=()=>{albumIndex=Number(b.dataset.albumIndex);detail();$('#albumDetailDialog').showModal()})}
+function detail(){const list=entries(),u=list[albumIndex],rows=skillRows(u);if(!u)return;$('#albumPosition').textContent=(albumIndex+1)+' / '+list.length;$('#albumDetailBody').innerHTML='<span class="albumBadge">'+u.lv+'단계 · '+elementFor(u.type).label+' · '+(u.type>=12?'히든 유닛':u.lv===5?'기본 전설':'기본 유닛')+'</span><canvas width="360" height="280" data-collection-art="'+u.type+':'+u.lv+'" aria-label="'+heroLabel(u)+'"></canvas><h2>'+heroLabel(u)+'</h2><p class="albumRole">'+elementFor(u.type).role+'</p><div class="albumStats"><div><small>현재 공격력</small><b>'+battleAttack(u).toFixed(1)+'</b></div><div><small>사거리</small><b>'+rangeLabel(u)+'</b></div><div><small>성장</small><b>Lv.'+getLv(u.type,u.lv)+' / 30</b></div></div><section class="albumSkills">'+rows.map(s=>'<article>'+window.ForgeSkillVisuals.art(u,s)+'<h3>'+s.name+'</h3><small>'+(!s.available?s.tier+'단계에서 개방':'Lv.'+s.unlock+' · '+(s.unlocked?'사용 가능':'레벨업으로 개방'))+'</small><p>'+s.description+'</p></article>').join('')+'</section>';paint($('#albumDetailBody'));$('#albumDetailDialog').scrollTop=0}
+function openAlbum(){closeHubs();album();$('#unitAlbumDialog').showModal()}
+$('#openUnitAlbum').onclick=openAlbum;
+$('#closeUnitAlbum').onclick=()=>$('#unitAlbumDialog').close();
+$('#closeAlbumDetail').onclick=()=>$('#albumDetailDialog').close();
+$('#albumDetailClose').onclick=()=>{closeHubs()};
+document.querySelectorAll('[data-album-filter]').forEach(b=>b.onclick=()=>{albumFilter=b.dataset.albumFilter;albumIndex=0;document.querySelectorAll('[data-album-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));album()});
+for(const [id,step] of [['albumPrev',-1],['albumNext',1]])$('#'+id).onclick=()=>{albumIndex=(albumIndex+step+entries().length)%entries().length;detail()};
+$('#albumToGrowth').onclick=()=>{const u=entries()[albumIndex];closeHubs();labFilter='all';heroCollectionQuery='';$('#heroSearch').value='';selectedLabKey=lvKey(u.type,u.lv);openGrowth();$('#drawer').scrollTop=0;$('#labDetail').scrollTop=0;$('#labDetail').scrollIntoView({block:'start'})};
+$('#albumToDraw').onclick=()=>{closeHubs();$('#openUnitDraw').click()};
+$('#openBaseLegends').onclick=()=>{closeHubs();window.ForgeSummons.openProduct(0,'base')};
+$('#openHiddenCollection').onclick=()=>{closeHubs();$('#hiddenCollectionDialog').showModal()};
+$('#closeHiddenCollection').onclick=()=>$('#hiddenCollectionDialog').close();
+function hiddenCards(){const d=$('#hiddenCollectionCards');d.innerHTML=[12,13,14,15,16].map(type=>{const u={type,lv:5},skill=skillRows(u)[4];return '<button class="hiddenProduct" data-hidden-buy="'+type+'"><canvas width="220" height="230" data-collection-art="'+type+':5" aria-label="'+heroLabel(u)+'"></canvas><div><span class="albumBadge">'+elementFor(type).label+' · 히든 전설</span><h3>'+heroLabel(u)+'</h3><p>'+elementFor(type).role+'</p><b>기본 공격력 '+(unitData(u).atk*Math.pow(2.6,4)).toFixed(1)+'</b>'+window.ForgeSkillVisuals.art(u,skill)+'<strong>'+skill.name+'</strong><p>'+skill.description+'</p><span class="currencyLine">'+window.ForgeUX.icon('diamonds')+' 2,000 <em>상세·구매 →</em></span></div></button>'}).join('');paint(d);d.querySelectorAll('[data-hidden-buy]').forEach(b=>b.onclick=()=>{closeHubs();window.ForgeSummons.openProduct(Number(b.dataset.hiddenBuy),'hidden')})}
+hiddenCards();
+function rotate(){if(document.hidden||$('#startScreen').hidden)return;const type=[12,13,14,15,16][rotation++%5];window.ForgeHome.showFeatured(type)}
+rotate();setInterval(rotate,6000);
+for(const atlas of [paintedAtlas,specialAtlas])atlas?.addEventListener('load',()=>{paint();hiddenCards()});
+window.ForgeCollection={open:openAlbum};
+})();
+// Arrow keys turn the full-screen archive without changing collection filters.
+document.querySelector('#albumDetailDialog').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();document.querySelector(e.key==='ArrowLeft'?'#albumPrev':'#albumNext').click()}});

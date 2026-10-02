@@ -176,3 +176,11 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 #startScreen #lobbyHero{width:100%;margin:0;max-width:100%}
 #startScreen #spiritFriends{width:100%;height:auto;margin-top:8px;display:block}
 #startScreen .versionLabel{max-width:520px;align-self:center;text-align:center}
+#startScreen .homePrimary #startGame{order:0}
+#startScreen .homePrimary #startGame small{margin:0;font-size:9px;font-weight:400;color:inherit}
+#startScreen .legendCard{background:radial-gradient(ellipse at 15% 50%,#9573d833,transparent 65%),linear-gradient(120deg,#242d42,#142d37);color:#f2e1bc;border-color:#b79a6466}
+#startScreen .legendCard span{float:none;position:static}
+#startScreen .legendCard .legendPower{display:block;color:#a9e0d0;font-size:10px}
+#startScreen .legendCard .legendPrice{display:flex;color:#d2f1ff}
+#startScreen .legendCard .legendSkill{color:#dcc9f4}
+#legendCatalog .legendDescription{font-size:11px;color:#bccbd1;line-height:1.6}

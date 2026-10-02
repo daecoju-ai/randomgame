@@ -38,18 +38,18 @@ const tierColors=["","#93a5aa","#76c7a3","#92b8f3","#edbe72","#c8a1ff","#8effeb"
 const U=Array.from({length:17},(_,type)=>{const e=elementFor(type);return{n:e.id+(type===e.support?'-support':''),cls:e.id,role:e.role,c:e.color,accent:e.accent,atk:e.atk*(type===e.support?.55:1),rate:e.rate,range:e.reach,kind:e.kind,desc:e.role}});
 function rs(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;C.width=W*D;C.height=H*D;ctx.setTransform(D,0,0,D,0,0)}addEventListener('resize',rs);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
-function toast(s){let e=document.querySelector('#toast');e.textContent=s;e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
+function toast(s){let e=document.querySelector('#toast');e.innerHTML=String(s).split('◈').map(t=>t.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))).join(window.ForgeUX.icon('battle'));e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
 function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?120:132,bottom=H-190;return{left,right,top,bottom,width,height:bottom-top}}
 function slot(i){let a=geometry(),gx=(a.width-108)/3,gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.28,Math.min(.64,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}
 const summonTypes=BASE_TYPES;
 function summonCost(){return Math.min(40,10+Math.floor(S.summons/4)*2)}
-function updateSummonPrice(){document.querySelector('#summon').textContent='소환 · '+summonCost()}
+function updateSummonPrice(){document.querySelector('#summon').innerHTML='소환 · '+window.ForgeUX.icon('battle')+' '+summonCost()}
 function summon(){
  if(ended||paused)return;
  let cost=Math.min(40,10+Math.floor(S.summons/4)*2);
- if(S.coin<cost)return toast('Battle Coin이 부족합니다 · 필요 '+cost);let free=[...Array(32).keys()].filter(i=>i!==guardianRun.slot&&!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();const tier=rollSummonTier(),pool=catalogEntries().filter(u=>u.lv===tier&&u.type<12),entry=pool[Math.floor(Math.random()*pool.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({...entry,slot:sl,cd:0,anim:0,invested:cost,mp:0});luckEvent('unitSummoned',luckUnit(units.at(-1)));playSound('summon');toast(`T${tier} ${heroLabel(entry)} 소환`)}
+ if(S.coin<cost)return toast('배틀코인이 부족합니다 · 필요 ◈ '+cost);let free=[...Array(32).keys()].filter(i=>i!==guardianRun.slot&&!units.some(u=>u.slot===i));if(!free.length)return toast('32개 슬롯이 가득 찼습니다');S.coin-=cost;S.summons++;updateSummonPrice();const tier=rollSummonTier(),pool=catalogEntries().filter(u=>u.lv===tier&&u.type<12),entry=pool[Math.floor(Math.random()*pool.length)],sl=free[Math.floor(Math.random()*free.length)];units.push({...entry,slot:sl,cd:0,anim:0,invested:cost,mp:0});luckEvent('unitSummoned',luckUnit(units.at(-1)));playSound('summon');toast(`T${tier} ${heroLabel(entry)} 소환`)}
 
 
 const RECIPES=[],SPECIALS={};
@@ -286,12 +286,12 @@ refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54,108][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*(.5+talismanBonus(null,'sell')))}
-function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=false;if(!valid){if(guardianRun.selected){document.querySelector('#selectionPanel').hidden=false;document.querySelector('#codex').hidden=true;document.querySelector('#selectedName').textContent=guardianMeta.nickname;document.querySelector('#selectedTier').textContent=`Lv.${guardianLevel(guardianMeta)} · 공격 ${(120*guardianPower()*(1+.03*(guardianLevel(guardianMeta)-1))).toFixed(1)} · 0.6회/초 · 1.5칸 · MP ${Math.floor(guardianRun.mp)}`;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=true;}return;}refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · ${rangeLabel(u)} · MP ${Math.floor(u.mp||0)}/100${u.stun>0?' · 기절':u.slow>0?' · 감속':''}`;document.querySelector('#sellUnit').textContent=`되팔기 +${sellValue(u)} ◈`}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=false;if(!valid){if(guardianRun.selected){document.querySelector('#selectionPanel').hidden=false;document.querySelector('#codex').hidden=true;document.querySelector('#selectedName').textContent=guardianMeta.nickname;document.querySelector('#selectedTier').textContent=`Lv.${guardianLevel(guardianMeta)} · 공격 ${(120*guardianPower()*(1+.03*(guardianLevel(guardianMeta)-1))).toFixed(1)} · 0.6회/초 · 1.5칸 · MP ${Math.floor(guardianRun.mp)}`;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=true;}return;}refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · ${rangeLabel(u)} · MP ${Math.floor(u.mp||0)}/100${u.stun>0?' · 기절':u.slow>0?' · 감속':''}`;document.querySelector('#sellUnit').innerHTML=`되팔기 ${window.ForgeUX.icon('battle')} +${sellValue(u)}`}
 function refreshBattleUpgrade(){
  const u=S.sel;if(!u||!units.includes(u))return;
  const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u),button=document.querySelector('#battleUpgrade');
  button.disabled=!started||ended||paused||level>=10||S.coin<cost;
- button.textContent=level>=10?'전투 강화 10/10 · 최대':`전투 강화 ${level}/10 → ${level+1} · ${cost} ◈`;
+ button.innerHTML=level>=10?'전투 강화 10/10 · 최대':`전투 강화 ${level}/10 → ${level+1} · ${window.ForgeUX.icon('battle')} ${cost}`;
  document.querySelector('#battleUpgradeNotice').textContent=`공격력 +${level}% · 같은 종류·단계 전체 적용 · 종료 시 초기화`;
 }
 function upgradeBattleSelected(){

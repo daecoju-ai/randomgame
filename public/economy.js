@@ -7,7 +7,7 @@ async function api(body){const r=await fetch('/api/talismans',{method:'POST',cre
 const statIcons={attack:'⚔',skill:'✦',splash:'◎',mana:'✧',control:'❄',speed:'➤',haste:'◷',crit:'✧',critPower:'⚔',startCoin:'◈',killCoin:'◈',sell:'↗',essence:'★'};
 let collectionFilter='all',elementFilter='all';
 const escapeText=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-function talismanArt(t){return `<img src="/assets/talismans-v28/${t.element}.webp" alt="" width="88" height="88" loading="lazy"><span class="talismanAbility" title="${T.labels[t.stat]}">${statIcons[t.stat]}</span>`}
+function talismanArt(t){return `<img src="/assets/talismans-v28/${t.element}.webp" alt="" width="88" height="88" loading="lazy"><span class="talismanAbility" title="${T.labels[t.stat]}">${['startCoin','killCoin','sell'].includes(t.stat)?window.ForgeUX.icon('battle'):statIcons[t.stat]}</span>`}
 function renderCollection(){
  const owned=state?.owned||{},list=T.catalog.filter(t=>(collectionFilter==='all'||owned[t.id]>0)&&(elementFilter==='all'||t.element===elementFilter));
  $('#talismanCollectionCount').textContent=`보유 ${T.catalog.filter(t=>owned[t.id]>0).length} / ${T.catalog.length}종`;

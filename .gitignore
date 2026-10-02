@@ -12,3 +12,6 @@ mobile/generated/
 mobile/signing/
 *.aab
 *.apk
+
+mobile/dist/
+mobile/.gradle-cache/

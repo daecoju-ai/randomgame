@@ -5,7 +5,8 @@
   "scripts": {
     "generate": "node generate.cjs",
     "audit": "node audit.cjs",
-    "assetlinks": "node assetlinks.cjs"
+    "assetlinks": "node assetlinks.cjs",
+    "build": "node build.cjs"
   },
   "dependencies": {
     "@bubblewrap/core": "1.25.0"

@@ -249,3 +249,4 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 .liveSkillVisual canvas{display:block;width:100%;height:auto;aspect-ratio:28/15;border-radius:14px;border:1px solid #72bec44d;background:#09192a}.liveSkillVisual .skillDamage{display:block;background:#142e43;color:#fff0bd;padding:10px 12px;margin-top:8px;border-radius:10px;font-size:14px;line-height:1.6;text-align:left;white-space:normal}.skillDamageNote{display:block;color:#496057;font-size:11px;line-height:1.5;margin-top:6px;text-align:left}.hiddenProduct .skillDamageNote{color:#c0d5e4}.liveSkillVisual figcaption{color:inherit;opacity:.8;padding:5px 0;font-size:11px}
 
 .albumSkills:has(>article:only-child){grid-template-columns:1fr;max-width:680px;margin-inline:auto}
+.skillVisual.liveSkillVisual{width:100%;max-width:none;margin-inline:0}

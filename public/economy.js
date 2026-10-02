@@ -22,7 +22,7 @@ function renderDrops(r){
 }
 function effect(t,n=1,level=1){return `${T.elements[t.element]} ${T.labels[t.stat]} ${T.format(t.stat,t.value*T.factor(n)*T.levelFactor(level))}`}
 function render(){
- $('#talismanStatus').textContent=notice;$('#talismanWallet').innerHTML=`<span><small>다이아</small><b>◆ ${window.ForgeAdventure?.diamonds()||0}</b></span><span><small>소환권</small><b>▱ ${state?.tickets||0}</b></span><span><small>가루</small><b>✧ ${state?.dust||0}</b></span>`;
+ $('#talismanStatus').textContent=notice;$('#talismanWallet').innerHTML=`<span><small>다이아</small><b>${window.ForgeUX.icon("diamonds")} ${window.ForgeAdventure?.diamonds()||0}</b></span><span><small>소환권</small><b>▱ ${state?.tickets||0}</b></span><span><small>가루</small><b>✧ ${state?.dust||0}</b></span>`;
  const p=state?.pity||[0,0,0];$('#talismanPity').textContent=`희귀 이상 ${10-p[0]}회 · 영웅 이상 ${50-p[1]}회 · 전설 ${100-p[2]}회 이내 보장`;
  $('#talismanDaily').disabled=busy||!owner;
  for(const count of [1,10])$('#talismanDraw'+count).disabled=busy||!owner||!state||state.tickets<count||!!pending();

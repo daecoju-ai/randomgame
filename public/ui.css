@@ -130,3 +130,46 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 @media(min-width:700px){#startScreen>*{width:min(100%,520px);max-width:520px}#startScreen .lobbyOverview,#startScreen #startGame,#startScreen #openUnitDraw,#startScreen .lobbyNav{width:min(100%,520px);max-width:520px}#startScreen .guardianLobby>img{height:240px}#startScreen .lobbyShowcase h2{font-size:27px}}
 @media(max-width:360px){#startScreen{padding-inline:12px;gap:8px}#startScreen .lobbyTop{gap:5px}#startScreen .lobbyTop h1{font-size:18px}#startScreen .guardianLobby>img{height:160px}#startScreen .lobbyShowcase{padding-left:12px}#startScreen .guardianLobby{padding-inline:8px}#startScreen .lobbyShowcase h2{font-size:17px}#startScreen .elementOrbs{gap:5px}}
 @media(max-height:740px){#startScreen{gap:8px;padding-top:12px}#startScreen .guardianLobby>img{height:150px}#startScreen .lobbyShowcase{padding-block:12px}#startScreen #lobbyHero{height:auto}#startScreen .lobbyNav button{min-height:62px}}
+
+/* V39: three main actions and nested collections */
+#startScreen{gap:12px;padding-top:max(14px,env(safe-area-inset-top))}
+#startScreen .lobbyTop{flex-wrap:wrap;gap:8px}
+#startScreen .lobbyTop>div:first-child{flex:1 1 calc(100% - 110px)}
+#startScreen .lobbyTop h1{font-size:clamp(29px,8vw,40px);letter-spacing:-1.5px;margin:4px 0}
+#startScreen .lobbyTop .headerWallet{order:4;width:100%;flex-direction:row;justify-content:flex-start;gap:18px;flex-basis:100%}
+#startScreen .headerWallet strong{font-size:14px}
+#startScreen .lobbyAccount{order:1}
+#startScreen .lobbyOverview{order:2;min-height:0}
+#startScreen .lobbyShowcase{padding:16px 0 16px 16px}
+#startScreen .guardianLobby>img{height:clamp(155px,24vh,225px)}
+#startScreen .homePrimary{order:3;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+#startScreen .homePrimary button,#startScreen #startGame{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;min-width:0;width:100%;min-height:86px;margin:0;padding:12px 4px;border-radius:16px;text-align:center;font-size:18px;box-shadow:0 6px 20px #0003}
+#startScreen .homePrimary button{background:linear-gradient(140deg,#31304f,#172c3c);border:1px solid #7e7192;color:#f3e5c9}
+#startScreen .homePrimary #startGame{background:linear-gradient(120deg,#f8e4ad,#d9a34b);border-color:#ffdfa1;color:#302714}
+#startScreen .homePrimary span{float:none;font-size:25px}
+#startScreen .homePrimary small{font-size:9px;margin:0;color:inherit;opacity:.8}
+#startScreen .featuredLegend{order:4}
+#startScreen .versionLabel{order:5}
+#startScreen .featuredLegend>.legendCard{width:100%;margin:0}
+.homeHub{box-sizing:border-box;width:min(620px,calc(100vw - 24px));max-height:88dvh;overflow:auto;padding:20px;background:linear-gradient(150deg,#18253c,#0f2630);color:#eadfc8;border:1px solid #9a805c;border-radius:22px}
+.homeHub::backdrop{background:#07101ed9;backdrop-filter:blur(5px)}
+.homeHub header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:20px}
+.homeHub h2{font-size:30px;margin:4px 0}.homeHub header small{font-size:10px;letter-spacing:2px;color:#c5a86e}
+.homeHub header button{width:44px;height:44px;background:#27354a;color:#eadfc8;border-color:#657387}
+.hubGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.hubGrid button{width:100%;min-width:0;min-height:130px;padding:16px 10px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;border:1px solid #716580;border-radius:17px;background:radial-gradient(ellipse at top,#50456355,transparent),#1b3040;color:#f2e5ca}
+.hubGrid button>span{font-size:32px;height:36px}.hubGrid b{font-size:18px}.hubGrid small{font-size:11px;color:#b1c4cb}
+.hubGrid .premiumIcon{width:32px;height:32px;vertical-align:middle}.hubGrid small .premiumIcon{width:18px;height:18px}
+.eventPromotion{width:100%;margin-top:18px;padding:18px;background:#283847;color:#f4deb1;border:1px solid #837254;white-space:normal;line-height:1.5}.eventPromotion small{display:block;margin-top:8px}
+.legendCard{box-sizing:border-box;display:grid;grid-template-columns:minmax(90px,.7fr) minmax(0,1.3fr);align-items:center;gap:10px;width:100%;margin:12px 0;padding:14px;border-radius:18px;text-align:left;border:1px solid #b79a6466;background:radial-gradient(ellipse at 15% 50%,#9573d833,transparent 65%),linear-gradient(120deg,#242d42,#142d37);color:#f2e1bc}
+.legendCard canvas{width:100%;height:auto;filter:drop-shadow(0 5px 10px #0005)}
+.legendCard>div{min-width:0}.legendCard b{display:block;font-size:17px;line-height:1.4;margin:6px 0}.legendCard small{font-size:8px;letter-spacing:1px;color:#d8b981}
+.legendCard p{font-size:11px;line-height:1.5;margin:6px 0;color:#b5c8d3}.legendCard .legendSkill{color:#dcc9f4;font-weight:700}.legendPower{font-size:10px;color:#a9e0d0}
+.legendPrice{display:flex;align-items:center;gap:5px;font-size:16px;font-weight:800;color:#d2f1ff;margin-top:9px}.legendPrice em{margin-left:auto;font-size:10px;font-style:normal;font-weight:400;color:#dec994}
+.legendPrice .premiumIcon,#unitDraw .premiumIcon,#unitDrawWallet .premiumIcon,#talismanWallet .premiumIcon,.eventPromotion .premiumIcon{width:22px;height:22px;vertical-align:middle;flex-shrink:0}
+#unitDrawWallet{display:flex;align-items:center;gap:8px}.legendNote{display:block;font-size:11px;line-height:1.6;color:#9eb4bd}
+#legendCatalog>h3{margin-top:24px;font-size:22px;color:#f1d197}#legendCatalog>p{font-size:12px;line-height:1.7;color:#b5c9d0}
+#talismanDialog[data-mode="growth"] #talismanDraw1,#talismanDialog[data-mode="growth"] #talismanDraw10,#talismanDialog[data-mode="growth"] #talismanPity{display:none}
+#talismanDialog[data-mode="draw"] [data-talisman-upgrade]{display:none}
+@media(max-height:740px){#startScreen{gap:8px}#startScreen .guardianLobby>img{height:145px}#startScreen .lobbyShowcase{padding-block:8px}#startScreen .homePrimary button,#startScreen #startGame{min-height:72px}#startScreen .legendCard.compact{padding:8px}#startScreen .legendCard.compact canvas{max-height:110px;object-fit:contain}}
+@media(max-width:360px){#startScreen .lobbyTop h1{font-size:28px}.legendCard{padding:10px;gap:6px}.legendCard b{font-size:14px}.legendPrice{font-size:14px}.legendPrice em{font-size:9px}.hubGrid b{font-size:16px}}

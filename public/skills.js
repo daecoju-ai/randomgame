@@ -22,31 +22,32 @@ function combatCell(){return (geometry().width-108)/3}
 function supportRadius(){return combatCell()*2.2}
 function rangeLabel(u){const e=elementFor(u.type);return `${e.reach<=1?'근접':e.reach<2?'중거리':'원거리'} ${e.reach}칸`}
 
-function definitions(u){const e=elementFor(u.type);return (SPECIAL_SKILLS[e.id]||[...INHERITED[e.id],...(u.lv===5?FINAL_SKILLS[e.id][isSupport(u)?'support':'attack']:[])]).map(([name,effect],i)=>({name,effect,slot:i,tier:i<4?i+1:5,unlock:i<4?1:[1,10,20][i-4],active:!PASSIVES.includes(effect)}))}
+function definitions(u){const e=elementFor(u.type),all=SPECIAL_SKILLS[e.id]||[...INHERITED[e.id],...(u.lv===5?FINAL_SKILLS[e.id][isSupport(u)?'support':'attack']:[])];return all.slice(0,u.lv).map(([name,effect],i)=>({name,effect,slot:i,tier:i+1,unlock:1,active:i===4?all.slice(4).some(x=>!PASSIVES.includes(x[1])):!PASSIVES.includes(effect),visualKey:e.id+':'+i,components:i===4?all.slice(4).map(([name,effect])=>({name,effect,slot:4,tier:5,unlock:1,active:!PASSIVES.includes(effect)})):null}))}
+function resolvedSkills(u){return definitions(u).flatMap(def=>def.components||[def])}
 const SUMMON_WEIGHTS=[7000,2000,700,250,50];
 const SUMMON_ODDS='T1 70% · T2 20% · T3 7% · T4 2.5% · T5 0.5%';
 function rollSummonTier(random=Math.random){const roll=random()*10000;let total=0;for(let i=0;i<SUMMON_WEIGHTS.length;i++){total+=SUMMON_WEIGHTS[i];if(roll<total)return i+1}return 5}
 function skillKey(u,i){return `${u.type}:${u.lv}:${i}`}
-function skillRank(u,i){return validHero(u.type,u.lv)&&getLv(u.type,u.lv)>=skillUnlockLevel(u.lv,i)?(heroSkills[skillKey(u,i)]||1):0}
+function skillRank(u,i){if(!Number.isInteger(i)||i<0||i>=u.lv)return 0;return validHero(u.type,u.lv)&&getLv(u.type,u.lv)>=skillUnlockLevel(u.lv,i)?(i===4?Math.max(heroSkills[skillKey(u,4)]||1,heroSkills[skillKey(u,5)]||1,heroSkills[skillKey(u,6)]||1):heroSkills[skillKey(u,i)]||1):0}
 function skillCost(u,i){return skillRank(u,i)*2*u.lv}
 function skillStats(def,rank,u){const r=Math.max(1,rank),final=def.slot>=4,awakened=u&&u.lv===5&&getLv(u.type,5)>=30&&def.slot===4,scale=awakened?1.5:1;
- return{power:(final?4+def.slot*.5:1+def.slot*.3)*(1+.12*(r-1))*scale*(1+talismanBonus(u,'skill')),radius:combatCell()*(final?1:.65),stun:((final?1.8:.45)+r*.06)*(1+talismanBonus(u,'control')),duration:((final?5:3)+r*.15)*(1+(['ice','mud','freeze','freezeZone'].includes(def.effect)?talismanBonus(u,'control'):0)),targets:Math.min(12,3+Math.ceil(r/2)),bonus:(.12+.025*r)*scale*(window.ForgeSummons?.factor(u)||1),mp:final?40:15+def.slot*4,cooldown:final?18+def.slot:6+def.slot*2,awakened};
+ return{power:(final?4+def.slot*.5:1+def.slot*.3)*(1+.12*(r-1))*scale*(1+talismanBonus(u,'skill')),radius:combatCell()*(final?1:.65),stun:((final?1.8:.6)*(1+.12*(r-1)))*(1+talismanBonus(u,'control')),duration:(final?6:3)*(1+.12*(r-1))*(1+talismanBonus(u,'control')),targets:Math.min(12,3+Math.ceil(r/2)),bonus:(.12+.025*r)*scale*(window.ForgeSummons?.factor(u)||1),mp:final?60:15+def.slot*4,cooldown:final?30:6+def.slot*2,awakened};
 }
 function skillDescription(def,rank,u){const v=skillStats(def,rank,u),p=Math.round(v.power*100),b=Math.round(v.bonus*100),dur=v.duration.toFixed(1),a=`반경 ${(v.radius/combatCell()).toFixed(2)}칸`,f=def.effect;const text={
- single:`단일 적 ${p}% 피해`,area:`${a} 광역 ${p}% 피해`,multi:`사거리 내 서로 다른 적 ${v.targets}명에 ${p}% 화염탄`,wave:`전방 부채꼴 ${p}% 피해`,ice:`단일 ${p}% 피해 · ${dur}초 45% 감속`,mud:`${a} 진흙 지대 · ${dur}초 45% 감속`,burst:`단일 대상 ${v.targets}회 연속 공격 · 합계 ${p*2}% 피해`,strike:`단일 ${p*2}% 피해`,stun:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 기절`,chain:`간격 1칸 이내로 연결된 모든 적 · ${p}% 연쇄 피해 · 기절·감전`,speed:`자신 공격속도 +${b}%`,clone:`분신이 기본 공격의 ${b*2}%로 추가 공격`,mark:`대상 ${dur}초 받는 피해 +${b}%`,
+ single:`단일 적 ${p}% 피해`,area:`${a} 광역 ${p}% 피해`,multi:`사거리 내 서로 다른 적 ${v.targets}명에 ${p}% 화염탄`,wave:`전방 부채꼴 ${p}% 피해`,ice:`단일 ${p}% 피해 · ${dur}초 45% 감속`,mud:`${a} 매초 ${Math.round(p*.3)}% 피해 · ${dur}초 진흙 지대 · 45% 감속`,burst:`단일 대상 ${v.targets}회 연속 공격 · 합계 ${p*2}% 피해`,strike:`단일 ${p*2}% 피해`,stun:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 기절`,chain:`간격 1칸 이내 연결 적 · ${p}% 피해 · ${v.stun.toFixed(1)}초 기절 · ${dur}초 감전`,speed:`자신 공격속도 +${b}%`,clone:`분신이 기본 공격의 ${b*2}%로 추가 공격`,mark:`대상 ${dur}초 받는 피해 +${b}%`,
  burnZone:`${a} 불꽃 지대 · ${dur}초 동안 매초 ${Math.round(p*.3)}% 피해`,freezeZone:`${a} 빙결 구역 · 매초 ${Math.round(p*.15)}% 피해 · 초당 35% 확률 빙결`,pullZone:`${a} 회오리 · 중앙으로 흡입 · ${dur}초 동안 매초 ${Math.round(p*.3)}% 피해`,stormZone:`${a} 번개 지대 · ${dur}초 동안 매초 ${Math.round(p*.3)}% 피해`,
- globalFire:`${a} ${p}% 화염 피해 + 화상`,globalWave:`${a} ${p}% 해일 피해`,globalThunder:`${a} ${p}% 번개 피해 + 기절`,burn:`${a} ${p}% 폭발 + ${dur}초 화상`,freeze:`${a} ${v.stun.toFixed(1)}초 확정 동결`,tidal:`${a} 적을 뒤로 밀며 3회 합계 ${p}% 피해`,rupture:`${a} ${p}% 대지 광역 피해`,meteor:`${a} ${p*1.5}% 바위 낙하`,shatter:`${a} ${p}% 피해 · ${dur}초 방어 약화 +${b}% 받는 피해`,flurry:`${a} 5연격 · 합계 ${p}% 피해`,airborne:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 띄우기`,bossStrike:`보스 우선 단일 ${p*2}% 집중 낙뢰`,deathMark:`강한 적 우선 표식 · 2초 뒤 ${p*2}% 폭발`,execute:`단일 ${p}% 피해 · 적 HP 30% 이하 4배 (보스 2배)`,
+ globalFire:`${a} ${p}% 화염 피해 + 화상`,globalWave:`${a} ${p}% 해일 피해`,globalThunder:`${a} ${p}% 번개 피해 + 기절`,burn:`${a} ${p}% 폭발 + ${dur}초 화상`,freeze:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 확정 동결`,tidal:`${a} 적을 뒤로 밀며 3회 합계 ${p}% 피해`,rupture:`${a} ${p}% 대지 광역 피해`,meteor:`${a} ${p*1.5}% 바위 낙하`,shatter:`${a} ${p}% 피해 · ${dur}초 방어 약화 +${b}% 받는 피해`,flurry:`${a} 5연격 · 합계 ${p}% 피해`,airborne:`${a} ${p}% 피해 · ${v.stun.toFixed(1)}초 띄우기`,bossStrike:`보스 우선 단일 ${p*2}% 집중 낙뢰`,deathMark:`강한 적 우선 표식 · 2초 뒤 ${p*2}% 폭발`,execute:`단일 ${p}% 피해 · 적 HP 30% 이하 4배 (보스 2배)`,
  attackAura:`주변 2.2칸 아군 공격력 +${b}%`,splashAura:`주변 아군 기본 공격에 0.75칸 광역 피해 ${b*2}% 추가`,manaAura:`주변 아군 MP 회복속도 +${b*3}%`,earthAura:`주변 아군 공격력 +${b*2}% · 자신 주변 진흙으로 적 45% 감속`,speedAura:`주변 아군 공격속도 +${b*2}%`,hasteAura:`주변 아군 스킬 쿨타임 ${Math.min(45,b)}% 감소`,shockAura:`주변 전기 유닛 기절 지속시간 +${b*2}%`,critAura:`주변 아군 치명타 확률 +${b}%p`,critPowerAura:`주변 아군 치명타 피해 배율 +${b*2}%p`,
  fury:`주변 아군 ${dur}초 공격력 +${b*2}% · 기본 공격 광역 피해 ${b*2}%`,cleanse:`주변 아군 기절·감속 제거 · MP +${Math.round(v.bonus*100)}`,clarity:`주변 아군 ${dur}초 상태이상 면역 · MP 회복속도 +${b*3}%`,earthFury:`주변 아군 ${dur}초 공격력 +${b*3}%`,swift:`주변 아군 ${dur}초 공격속도 +${b*2}% · 스킬 쿨타임 ${Math.min(45,b*2)}% 감소`,critFury:`주변 아군 ${dur}초 치명타 확률 +${b}%p · 치명타 피해 배율 +${b*2}%p`
 
- };return text[f]||specialDescription(f)||f;
+ };return text[f]||(specialDescription(f)||f).replace('6초',dur+'초');
 }
-function skillRows(u){return definitions(u).map(def=>{const rank=skillRank(u,def.slot);return{...def,rank,unlocked:rank>0,available:def.tier<=u.lv,description:skillDescription(def,rank||1,u)}})}
+function skillRows(u){return definitions(u).map(def=>{const rank=skillRank(u,def.slot);return{...def,rank,unlocked:rank>0,available:true,description:(def.components||[def]).map(d=>skillDescription(d,rank||1,u)).join(' / ')}})}
 function levelUpSkill(type,tier,i){if(window.ForgeAccount?.currentUser?.())return window.ForgeAdventure.upgrade('skill',{type,tier,slot:i});if(window.ForgeAccount){window.ForgeAccount.open();return false;}if(started&&!ended||typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed())return false;if(!Number.isInteger(i)||!validHero(type,tier))return false;const u={type,lv:tier},rank=skillRank(u,i),cost=skillCost(u,i);if(!rank||rank>=10||essence<cost)return false;essence-=cost;heroSkills[skillKey(u,i)]=rank+1;saveMeta();playSound('levelUp');renderHeroLab();return true}
 function prepareSkills(u){if(!Number.isFinite(u.mp))u.mp=0;if(!u.skillCD)u.skillCD=Array(7).fill(0);if(!Number.isInteger(u.skillCursor))u.skillCursor=0;if(!u.buffs)u.buffs={}}
 function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0,resist:0,splash:0,crit:0,critPower:0,shock:0};
  const add=(key,value)=>result[key]=Math.max(result[key],value);
- for(const ally of units){if(ally.stun>0)continue;for(const def of definitions(ally)){const rank=skillRank(ally,def.slot);if(!rank||def.active)continue;const v=skillStats(def,rank,ally);
+ for(const ally of units){if(ally.stun>0)continue;for(const def of resolvedSkills(ally)){const rank=skillRank(ally,def.slot);if(!rank||def.active)continue;const v=skillStats(def,rank,ally);
   if(ally===u&&def.effect==='speed')add('speed',v.bonus);if(ally===u&&def.effect==='clone')add('clone',v.bonus*2);
   if(d(slot(u.slot),slot(ally.slot))>supportRadius())continue;
   const effects={attackAura:['attack',1],splashAura:['splash',2],manaAura:['mana',3],earthAura:['attack',2],speedAura:['speed',2],hasteAura:['haste',1],shockAura:['shock',2],critAura:['crit',1],critPowerAura:['critPower',2]};
@@ -62,8 +63,8 @@ function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount)
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}
 function skillDamage(enemy,amount){hit(enemy,amount,'skill')}
-function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,type:u.type,origin,life:.55});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
-function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
+function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,type:u.type,origin,life:.55});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('skill',{element:elementFor(u.type).id,effect:def.effect,slot:def.slot,rank:v.rank||1})}
+function castHeroSkill(u,def,rank,target){if(def.components){for(const part of def.components){if(part.active)castHeroSkill(u,part,rank,target)}return}if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
  if(FRIENDLY_SKILLS.includes(f)){for(const ally of units){prepareSkills(ally);if(d(origin,slot(ally.slot))>supportRadius())continue;
   if(f==='cleanse'){ally.stun=0;ally.slow=0;ally.mp=Math.min(100,ally.mp+Math.round(v.bonus*100))}
   if(f==='clarity')ally.buffs.clarity={time:v.duration,resist:1,mana:v.bonus*3};
@@ -80,18 +81,18 @@ function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target)
  else if(f==='wave'){const dx=target.x-origin.x,dy=target.y-origin.y,len=Math.hypot(dx,dy)||1;targets=all.filter(m=>{const dist=d(origin,m);return dist<=battleRange(u)&&((m.x-origin.x)*dx+(m.y-origin.y)*dy)/(len*(dist||1))>=.55})}
  else if(['single','ice','strike','burst','mark','execute','bossStrike','deathMark'].includes(f))targets=[target];
  else targets=all.filter(m=>d(m,target)<=v.radius);
- if(['chain','multi'].includes(f))skillEffects.push({x:target.x,y:target.y,points:[origin,...targets.map(m=>({x:m.x,y:m.y}))],r:20,t:.55,life:.55,color:U[u.type].accent,kind:elementFor(u.type).id,effect:f});
+ if(['chain','multi'].includes(f))skillEffects.push({x:target.x,y:target.y,points:[origin,...targets.map(m=>({x:m.x,y:m.y}))],r:20,t:.55,life:.55,color:U[u.type].accent,kind:elementFor(u.type).id,effect:f,slot:def.slot,type:u.type});
  if(f==='chain'&&targets.length>=5)window.ForgeAdventure?.record('chains');
- if(['burnZone','freezeZone','pullZone','stormZone','mud'].includes(f)){skillZones.push({effect:f,x:target.x,y:target.y,p:target.p,radius:v.radius,time:v.duration,damage:damage*(f==='freezeZone'?.15:.3),tick:0,v,source:u,color:U[u.type].accent});showSkill(u,def,v,target);return}
+ if(['burnZone','freezeZone','pullZone','stormZone','mud'].includes(f)){skillZones.push({slot:def.slot,effect:f,x:target.x,y:target.y,p:target.p,radius:v.radius,time:v.duration,damage:damage*(f==='freezeZone'?.15:.3),tick:0,v,source:u,color:U[u.type].accent});showSkill(u,def,v,target);return}
  if(f==='deathMark'){target.deathMark={time:2,damage:damage*2,source:u};showSkill(u,def,v,target);return}
- const noDamage=['mark','freeze','curse','weaken','bind'];
+ const noDamage=['mark','curse','weaken','bind'];
  for(const enemy of targets){
   const factor=f==='execute'&&enemy.hp/enemy.max<=.3?(enemy.boss?2:4):['strike','bossStrike'].includes(f)?2:f==='meteor'?1.5:1;
   if(!noDamage.includes(f)){const repeats=f==='burst'?v.targets:f==='tidal'?3:f==='flurry'?5:1;for(let j=0;j<repeats;j++)dealHeroDamage(u,enemy,damage*factor*(f==='burst'?2:1)/repeats)}
   if(['stun','freeze','airborne','chain','globalThunder'].includes(f))enemy.stun=Math.max(enemy.stun||0,v.stun*(enemy.boss?.5:1)*(elementFor(u.type).id==='electric'?1+skillModifiers(u).shock:1));
-  if(f==='freeze'&&!enemy.missionFrozen){enemy.missionFrozen=true;window.ForgeAdventure?.record('freezes')}
+  if(['freeze','ice'].includes(f))enemy.controlKind='ice';if(f==='freeze'&&!enemy.missionFrozen){enemy.missionFrozen=true;window.ForgeAdventure?.record('freezes')}
   if(['ice','bind','freeze'].includes(f))enemy.slow=Math.max(enemy.slow||0,v.duration);
-  if(['burn','globalFire','chain'].includes(f)){enemy.dotSource=u;enemy.dotTime=Math.max(enemy.dotTime||0,v.duration);enemy.dotDps=Math.max(enemy.dotDps||0,outgoingDamage(u,enemy,damage*.2))}
+  if(['burn','globalFire','chain'].includes(f)){enemy.dotKind=elementFor(u.type).id;enemy.dotSource=u;enemy.dotTime=Math.max(enemy.dotTime||0,v.duration);enemy.dotDps=Math.max(enemy.dotDps||0,outgoingDamage(u,enemy,damage*.2))}
   if(['mark','shatter','curse'].includes(f)){enemy.vulnerableTime=Math.max(enemy.vulnerableTime||0,v.duration);enemy.vulnerability=Math.max(enemy.vulnerability||0,v.bonus)}
   if(f==='weaken'){enemy.weakenTime=v.duration;enemy.weakness=Math.min(.7,v.bonus*2)}
   if(f==='bind'){enemy.attackSlowTime=v.duration;enemy.attackSlow=Math.min(.7,v.bonus*2)}
@@ -101,11 +102,11 @@ function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target)
 }
 function tickSkillZones(dt){tickSpecialEffects(dt);for(const m of mobs){if(m.deathMark){m.deathMark.time-=dt;if(m.deathMark.time<=0){dealHeroDamage(m.deathMark.source,m,m.deathMark.damage);delete m.deathMark}}}
  for(const z of skillZones){const elapsed=Math.min(dt,z.time);z.time-=elapsed;z.tick-=elapsed;
-  for(const m of mobs){if(m.hp<=0||d(m,z)>z.radius)continue;if(z.effect==='mud'){m.mudTagged=true;m.slow=Math.max(m.slow||0,.5);continue}dealHeroDamage(z.source,m,z.damage*elapsed);
+  for(const m of mobs){if(m.hp<=0||d(m,z)>z.radius)continue;if(z.effect==='mud'){m.mudTagged=true;m.slow=Math.max(m.slow||0,z.v.duration*.35);dealHeroDamage(z.source,m,z.damage*elapsed);continue}dealHeroDamage(z.source,m,z.damage*elapsed);
    if(z.effect==='pullZone'){const target=z.p??m.p,delta=((target-m.p+.5)%1+1)%1-.5;m.p+=Math.sign(delta)*Math.min(Math.abs(delta),elapsed*.06);Object.assign(m,path(m.p));m.slow=Math.max(m.slow||0,.3)}
    if(z.effect==='stormZone'&&z.tick<=0)m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1)*(1+skillModifiers(z.source).shock));
-   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35){m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1));if(!m.missionFrozen){m.missionFrozen=true;window.ForgeAdventure?.record('freezes')}}
-  }if(z.tick<=0){z.tick=1;skillEffects.push({x:z.x,y:z.y,r:z.radius,t:.55,color:z.color})}
+   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35){m.controlKind='ice';m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1));if(!m.missionFrozen){m.missionFrozen=true;window.ForgeAdventure?.record('freezes')}}
+  }if(z.tick<=0){z.tick=1;skillEffects.push({x:z.x,y:z.y,r:z.radius,t:.55,life:.55,color:z.color,kind:elementFor(z.source.type).id,effect:z.effect,slot:z.slot,type:z.source.type})}
  }skillZones=skillZones.filter(z=>z.time>0);
 }
 function tickHeroSkills(u,dt){prepareSkills(u);if(u.stun>0)return;const mods=skillModifiers(u);u.mp=Math.min(100,u.mp+dt*(1+mods.mana));u.skillCD=u.skillCD.map(v=>Math.max(0,v-dt/(1-mods.haste)));const defs=definitions(u);
@@ -128,22 +129,22 @@ function tickBattleStatus(dt){
 
 // Display the same coefficients used by casting, before critical hits and target debuffs.
 function skillDamageBaseText(u,def){
- if(def.damageText)return def.damageText;
+ if(def.damageText)return def.damageText;if(def.components)return def.components.map(d=>d.name+': '+skillDamageBaseText(u,{...d,rank:def.rank})).join(' / ');
  const v=skillStats(def,def.rank||1,u),f=def.effect,base=(Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(1+talismanBonus(u,'attack')))*v.power;
  const n=ratio=>(base*ratio).toFixed(1),pct=ratio=>Math.round(v.power*ratio*100)+'%';
  const hit=(ratio=1)=>'피해 '+n(ratio)+' · 공격력 '+pct(ratio);
- if(PASSIVES.includes(f)||FRIENDLY_SKILLS.includes(f)||['mark','freeze','blessing','mana','reorder','clarity'].includes(f)){
+ if(PASSIVES.includes(f)||FRIENDLY_SKILLS.includes(f)||['mark','blessing','mana','reorder','clarity'].includes(f)){
   if(f==='clone')return '추가 공격 '+(battleAttack(u)*v.bonus*2).toFixed(1)+' · 기본 공격 '+Math.round(v.bonus*200)+'%';
   if(f==='splashAura')return '아군 기본 공격의 '+Math.round(v.bonus*200)+'% 광역 피해 추가';
   return '직접 피해 0 · 지원/제어 효과';
  }
- if(f==='mud')return '직접 피해 0 · 45% 감속';
+ if(f==='mud')return '초당 피해 '+n(.3)+' · '+v.duration.toFixed(1)+'초 지대 · 45% 감속';
  if(['burnZone','freezeZone','pullZone','stormZone'].includes(f)){const r=f==='freezeZone'?.15:.3;return '초당 피해 '+n(r)+' · '+v.duration.toFixed(1)+'초 유지'}
  if(['strike','bossStrike','deathMark','burst'].includes(f))return (f==='burst'?'연타 합계 ':f==='deathMark'?'2초 뒤 ':'')+hit(2);
  if(f==='meteor')return hit(1.5);
  if(f==='execute')return hit()+' · HP 30% 이하 '+n(4)+' (보스 '+n(2)+')';
  if(['burn','globalFire','chain'].includes(f))return hit()+' + 지속 피해 '+n(.2)+'/초 · '+v.duration.toFixed(1)+'초';
- if(['toxicStack','acidPool','plague'].includes(f))return hit(.5)+' + 중독 중첩당 '+n(.08)+'/초 · 6초';
+ if(['toxicStack','acidPool','plague'].includes(f))return hit(.5)+' + 중독 중첩당 '+n(.08)+'/초 · '+v.duration.toFixed(1)+'초';
  if(['toxicBurst','detonate','venomQueen'].includes(f))return hit(f==='venomQueen'?4:1)+' · 중독당 +'+n(.6)+(f==='venomQueen'?' (5중첩 포함)':' · 최대 '+n(4));
  if(['riftMark','voidShard','voidBrand'].includes(f))return hit(.5);
  if(['riftConsume','riftDetonate','nullCollapse'].includes(f))return hit(f==='nullCollapse'?4.5:1)+' · 균열당 +'+n(.7)+(f==='nullCollapse'?' (5중첩 포함)':' · 최대 '+n(4.5));

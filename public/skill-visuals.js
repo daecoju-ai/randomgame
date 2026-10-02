@@ -4,14 +4,14 @@
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function art(u,def){
  const damage=typeof skillDamageText==='function'?skillDamageText(u,def):'직접 피해 0 · 지원 효과';
- return '<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure>';
+ return '<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.components?def.components.map(x=>x.effect).join('|'):def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure>';
 }
 const seen=new Set(),active=new Set();
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)active.add(e.target);else active.delete(e.target)}),{threshold:.1});
 function scan(){for(const c of document.querySelectorAll('[data-skill-scene]'))if(!seen.has(c)){seen.add(c);observer.observe(c)}for(const c of seen)if(!c.isConnected){observer.unobserve(c);seen.delete(c);active.delete(c)}}
 new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});
 function scene(c,time){
- const [type,lv,skillSlot]=c.dataset.skillScene.split(':').map(Number),u={type,lv},f=c.dataset.sceneEffect,g=c.getContext('2d'),color=U[type].accent;
+ const [type,lv,skillSlot]=c.dataset.skillScene.split(':').map(Number),u={type,lv},f=c.dataset.sceneEffect.split('|')[Math.floor(time/2.8)%c.dataset.sceneEffect.split('|').length],g=c.getContext('2d'),color=U[type].accent;
  const p=(time%2.8)/2.8,cast=p>.18&&p<.85,phase=(p-.18)/.67;
  g.clearRect(0,0,560,300);const bg=g.createLinearGradient(0,0,0,300);bg.addColorStop(0,'#09192a');bg.addColorStop(1,'#183b40');g.fillStyle=bg;g.fillRect(0,0,560,300);
  // The battle's separate unit tiles and outer monster lane remain recognizable.

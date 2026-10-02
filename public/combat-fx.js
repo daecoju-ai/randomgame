@@ -8,20 +8,51 @@ function drawProjectile(g,s){const k=elementFor(s.type).id,c=U[s.type].accent,a=
  else if(k==='poison'){g.rect(-5,-4,8,8);g.rect(3,-2,4,4);g.fill();g.fillStyle='#ffffff';g.fillRect(-3,-2,2,2)}
  else {const wide=k==='fire'?6:3;g.moveTo(11,0);g.lineTo(-8,-wide);g.lineTo(k==='fire'?-3:-12,0);g.lineTo(-8,wide);g.closePath();g.fill();g.strokeStyle='#fff8';g.beginPath();g.moveTo(-5,0);g.lineTo(6,0);g.stroke()}
  g.restore();}
-function drawSkillEffect(g,e){drawPremiumSkillEffect(g,e);g.save();g.globalAlpha=Math.min(1,e.t*3);g.strokeStyle=e.color;g.fillStyle=e.color;g.lineWidth=2;const r=Math.max(8,e.r||20),k=e.kind||'fire',f=e.effect||'',phase=e.phase??S.t*5;
- if(e.points){g.beginPath();e.points.forEach((p,i)=>{if(!i)g.moveTo(p.x,p.y);else{const prev=e.points[i-1];g.lineTo((prev.x+p.x)/2+7,(prev.y+p.y)/2-7);g.lineTo(p.x,p.y)}});g.stroke()}
- else {g.translate(e.x,e.y);if(k==='electric'||f.includes('Thunder')||f==='bossStrike'){g.beginPath();g.moveTo(7,-r*1.8);g.lineTo(-8,-r*.5);g.lineTo(5,-r*.5);g.lineTo(-4,5);g.stroke()}
- else if(k==='shadow'||f==='slash'||k==='metal'){for(let i=0;i<(f==='slash'?1:3);i++){g.beginPath();g.ellipse(0,0,r,r*.25,-.7+i*.5,0,Math.PI);g.stroke()}}
- else if(k==='wind'||k==='void'){for(let i=0;i<3;i++){g.beginPath();g.arc(0,0,r*(.35+i*.25),phase+i,phase+i+4);g.stroke()}}
- else {const rays=k==='water'?6:k==='earth'?5:k==='star'?8:12;for(let i=0;i<rays;i++){const a=i*Math.PI*2/rays;g.beginPath();g.moveTo(Math.cos(a)*r*.3,Math.sin(a)*r*.3);g.lineTo(Math.cos(a)*r,Math.sin(a)*r);if(k==='earth'||k==='fire'){g.lineTo(Math.cos(a+.15)*r*.65,Math.sin(a+.15)*r*.65)}g.stroke()}}
- // Skill-specific sigil: inherited spells, control and final skills read differently.
- if(f==='telegraph'){g.setLineDash([3,5]);g.beginPath();g.arc(0,0,r,0,Math.PI*2);g.moveTo(-r*.3,0);g.lineTo(r*.3,0);g.moveTo(0,-r*.3);g.lineTo(0,r*.3);g.stroke()}
- if(/mark|Mark|Brand/.test(f)){g.rotate(Math.PI/4);g.strokeRect(-9,-9,18,18);g.rotate(-Math.PI/4)}
- if(/Aura|fury|Fury|swift|cleanse|clarity/.test(f)){for(let i=0;i<4;i++){const a=i*Math.PI/2;g.strokeRect(Math.cos(a)*r-3,Math.sin(a)*r-3,6,6)}}
- if(/multi|burst|flurry|Burst|Storm/.test(f)){for(let i=0;i<3;i++){g.beginPath();g.moveTo(-r+i*8,-r);g.lineTo(r-i*8,r);g.stroke()}}
- if(f.includes('Zone')||/Pool|mud|freeze|Seal/.test(f)){g.setLineDash([5,4]);g.beginPath();g.ellipse(0,0,r,r*.55,0,0,Math.PI*2);g.stroke()}
- if(e.slot>=4){g.lineWidth=1;g.beginPath();g.arc(0,0,r*1.2,0,Math.PI*2);g.stroke()}}
- g.restore();}
+// Same renderer in combat and the animated skill catalogue.
+function drawSkillEffect(g,e){
+ const k=e.kind||'fire',f=e.effect||'impact',slot=e.slot??0,r=Math.max(12,e.r||24),life=e.life||.65,p=Math.max(0,Math.min(1,1-e.t/life)),phase=e.phase??S.t*5;
+ const hash=Array.from(k+':'+slot+':'+f).reduce((n,c)=>(n*31+c.charCodeAt(0))>>>0,0);
+ g.save();g.globalAlpha=Math.min(1,e.t*4);g.strokeStyle=e.color||'#fff1a1';g.fillStyle=e.color||'#fff1a1';g.lineWidth=2;g.lineCap='round';g.shadowColor=g.strokeStyle;g.shadowBlur=12;
+ const arc=(x,y,rad,a,b)=>{g.beginPath();g.arc(x,y,Math.max(1,rad),a,b);g.stroke()};
+ const bolt=(a,b,seed)=>{g.beginPath();g.moveTo(a.x,a.y);for(let j=1;j<=9;j++){const t=j/9,offset=j===9?0:Math.sin(j*4.1+seed+phase*3)*12;g.lineTo(a.x+(b.x-a.x)*t+offset,a.y+(b.y-a.y)*t-offset*.55)}g.stroke()};
+ if(e.points){for(let i=1;i<e.points.length;i++){if(k==='electric'){g.lineWidth=6;bolt(e.points[i-1],e.points[i],hash+i);g.strokeStyle='#fff';g.lineWidth=1.5;bolt(e.points[i-1],e.points[i],hash+i);g.strokeStyle=e.color}else{g.beginPath();g.moveTo(e.points[0].x,e.points[0].y);g.lineTo(e.points[i].x,e.points[i].y);g.stroke()}}}
+ if(e.origin&&f==='single'){const travel=Math.min(1,p*3);drawProjectile(g,{x:e.origin.x+(e.x-e.origin.x)*travel,y:e.origin.y+(e.y-e.origin.y)*travel,type:e.type??ELEMENTS.find(z=>z.id===k)?.base??8,target:e})}
+ g.translate(e.x,e.y);
+ if(f==='telegraph'){g.setLineDash([6,5]);arc(0,0,r,0,Math.PI*2);g.beginPath();g.moveTo(-r,0);g.lineTo(r,0);g.moveTo(0,-r);g.lineTo(0,r);g.stroke()}
+ else if(k==='electric'){
+  const spokes=f==='single'?3:f==='chain'?slot===1?5:8:f==='bossStrike'?1:12;
+  if(f==='bossStrike'||f==='globalThunder'){g.lineWidth=8;bolt({x:0,y:-r*2},{x:0,y:0},hash);g.strokeStyle='#fff';g.lineWidth=2;bolt({x:0,y:-r*2},{x:0,y:0},hash)}
+  else for(let i=0;i<spokes;i++){const a=i*Math.PI*2/spokes+phase*.08;bolt({x:Math.cos(a)*r*.15,y:Math.sin(a)*r*.15},{x:Math.cos(a)*r*(.5+p*.5),y:Math.sin(a)*r*(.5+p*.5)},hash+i)}
+  for(let i=0;i<3+slot;i++)arc(Math.sin(i+phase)*r*.3,Math.cos(i+phase)*r*.3,4+i,phase+i,phase+i+1.8);
+ }else if(k==='fire'){
+  const count=f==='single'?3:f==='multi'?6:f==='area'?12:18;
+  for(let i=0;i<count;i++){const a=i*6.283/count,dist=r*(.12+p*.7);g.save();g.translate(Math.cos(a)*dist,Math.sin(a)*dist*.7);g.rotate(a);g.beginPath();g.moveTo(0,-6);g.quadraticCurveTo(15+slot*3,-24*(1-p),3,10);g.quadraticCurveTo(-10,0,0,-6);g.fillStyle=i%2?'#ffcd70':e.color;g.fill();g.restore()}
+ }else if(k==='water'){
+  if(f==='wave'||f==='globalWave'||f==='tidal'){for(let i=0;i<3+slot;i++)arc(-r*.25,0,r*(.2+p*.6)+i*5,-1.2,1.2)}
+  else for(let i=0;i<4+slot*2;i++){const a=i*6.283/(4+slot*2)+hash*.01;g.save();g.rotate(a);g.beginPath();g.moveTo(0,-r*(.2+p*.8));g.lineTo(7,-r*.2);g.lineTo(0,8);g.lineTo(-7,-r*.2);g.closePath();g.fillStyle='#b6f4ff';g.fill();g.restore()}
+ }else if(k==='earth'){
+  if(f==='mud'||f==='earthAura'){g.fillStyle='#6d503aaa';g.beginPath();g.ellipse(0,0,r,r*.45,0,0,6.283);g.fill();for(let i=0;i<6;i++)arc(Math.sin(i*3)*r*.7,Math.cos(i*2)*r*.3,3+p*8,0,6.283)}
+  else for(let i=0;i<3+slot;i++){const a=i*6.283/(3+slot);g.save();g.rotate(a);g.beginPath();g.moveTo(0,0);g.lineTo(r*.4,7);g.lineTo(r*.6,-8);g.lineTo(r*(.4+p*.6),6);g.stroke();g.fillRect(r*.6,-10,8+slot,10+slot);g.restore()}
+ }else if(k==='wind'){
+  for(let i=0;i<3+slot;i++){g.beginPath();g.ellipse(Math.sin(phase+i)*5,-i*8,r*(.25+i*.11)*(1-p*.25),r*.18,0,phase+i,phase+i+4.5);g.stroke()}
+  if(f==='speed'||f==='speedAura'||f==='hasteAura')for(let i=0;i<3;i++){g.beginPath();g.moveTo(-r+i*12,-12);g.lineTo(-r+10+i*12,0);g.lineTo(-r+i*12,12);g.stroke()}
+ }else if(k==='shadow'||k==='metal'){
+  const count=/mark|Mark|Break|Brand/.test(f)?4:1+slot;
+  for(let i=0;i<count;i++){g.save();g.rotate((hash%17)*.08+i*.65);g.beginPath();g.ellipse(0,0,r*(.35+p*.65),r*.15,0,.3,Math.PI*1.45);g.stroke();if(k==='metal'){g.fillRect(r*.5,-3,15,6)}g.restore()}
+ }else if(k==='poison'){
+  if(/Pool|plague/.test(f)){g.fillStyle='#b8ef4555';g.beginPath();g.ellipse(0,0,r,r*.5,0,0,6.283);g.fill()}
+  for(let i=0;i<5+slot*2;i++){const a=i*2.4+hash*.01,dist=r*(.1+p*.7);g.fillStyle=i%2?'#aaf54c':e.color;g.beginPath();g.arc(Math.cos(a)*dist,Math.sin(a)*dist*.6-p*12,3+(i%3)*2,0,6.283);g.fill()}
+ }else if(k==='time'){
+  for(let i=0;i<1+slot;i++){g.save();g.rotate(phase*.2+i*.5);arc(i*4,0,r*(.4+i*.1),0,6.283);g.beginPath();g.moveTo(0,-r*.4);g.lineTo(0,0);g.lineTo(r*.3,0);g.stroke();g.restore()}
+ }else if(k==='star'){
+  for(let i=0;i<2+slot;i++){g.save();g.translate(Math.sin(i*3)*r*.5,Math.cos(i*4)*r*.4);g.rotate(phase*.1);g.beginPath();for(let j=0;j<10;j++){const a=j*Math.PI/5,rr=j%2?5:14+p*12;g.lineTo(Math.cos(a)*rr,Math.sin(a)*rr)}g.closePath();g.stroke();g.restore()}
+ }else if(k==='void'){
+  for(let i=0;i<2+slot;i++){g.save();g.rotate(i+phase*.15);g.beginPath();g.ellipse(0,0,r*(.3+i*.12),r*.1,0,0,6.283);g.stroke();g.restore()}
+ }
+ // Each named spell has a stable, different runic pattern as well as its elemental silhouette.
+ if(slot>=4||/Aura|mark|Mark|Brand|Seal/.test(f)){g.save();g.rotate((hash%360)*Math.PI/180+phase*.05);const n=3+hash%6;g.beginPath();for(let i=0;i<=n;i++){const a=i*6.283/n;g.lineTo(Math.cos(a)*r*.7,Math.sin(a)*r*.7)}g.stroke();g.restore()}
+ g.restore();
+}
 
 function openBattleSkills(u){const dialog=document.querySelector('#battleSkills');if(!dialog?.show)return;prepareSkills(u);document.querySelector('#battleSkillContent').innerHTML=`<h2>${heroLabel(u)}</h2><p>${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · ${rangeLabel(u)}</p><p class="liveBattleNote">전투 진행 중 · 확인 시점의 스킬 상태</p><p>MP ${Math.floor(u.mp)} / 100 · 기본 회복 1/초</p><div class="skillUnlocks">${skillRows(u).filter(s=>s.available).map(s=>{const v=skillStats(s,s.rank||1,u);return `<div class="${s.unlocked?'unlocked':'sealed'}">${window.ForgeSkillVisuals?.art(u,s)}<b>${s.name}</b><small>${s.unlocked?'스킬 Lv.'+s.rank:'유닛 Lv.'+s.unlock+' 해금'} · ${s.active?'자동 시전':'지속 효과'}</small><p>${s.description}</p>${s.active?`<small>MP ${v.mp} · 재사용 ${v.cooldown}초 · ${!s.unlocked?'잠김':u.skillCD[s.slot]>0?'남은 시간 '+u.skillCD[s.slot].toFixed(1)+'초':u.mp<v.mp?'MP 충전 중':'사용 준비'}</small>`:''}</div>`}).join('')}</div>`;if(!dialog.open)dialog.show();dialog.onclose=null;document.querySelector('#closeBattleSkills').onclick=()=>dialog.close();}
 

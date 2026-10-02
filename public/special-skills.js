@@ -15,11 +15,11 @@ function specialDescription(f){const descriptions={
  };return descriptions[f]}
 function castSpecialSkill(u,def,rank,target){if(!SPECIAL_SKILLS[elementFor(u.type).id])return false;if(!target||d(slot(u.slot),target)>battleRange(u))return true;
  const v=skillStats(def,rank,u),f=def.effect,e=elementFor(u.type).id,damage=combatAttack(u)*v.power,alive=mobs.filter(m=>m.hp>0),near=alive.filter(m=>d(m,target)<=v.radius);let targets=[target];
- const fx=(m,effect=f)=>skillEffects.push({x:m.x,y:m.y,r:v.radius,t:.65,kind:e,effect,color:U[u.type].accent,origin:slot(u.slot),life:.65});
- const later=(m,delay,amount,area=false)=>{specialEchoes.push({source:u,target:m,x:m.x,y:m.y,delay,damage:amount,area,r:v.radius,kind:e});if(area)skillEffects.push({x:m.x,y:m.y,r:v.radius,t:delay,kind:e,effect:'telegraph',color:U[u.type].accent})};
+ const fx=(m,effect=f)=>skillEffects.push({x:m.x,y:m.y,r:v.radius,t:.65,kind:e,effect,slot:def.slot,type:u.type,color:U[u.type].accent,origin:slot(u.slot),life:.65});
+ const later=(m,delay,amount,area=false)=>{specialEchoes.push({source:u,target:m,x:m.x,y:m.y,delay,damage:amount,area,r:v.radius,kind:e,effect:f,slot:def.slot});if(area)skillEffects.push({x:m.x,y:m.y,r:v.radius,t:delay,kind:e,effect:'telegraph',slot:def.slot,type:u.type,color:U[u.type].accent})};
  if(e==='poison'){
   if(['acidPool','plague','detonate','venomQueen'].includes(f))targets=near;
-  for(const m of targets){const add=f==='venomQueen'?5:f==='plague'?3:f==='acidPool'?2:1;m.toxin=Math.min(5,(m.toxin||0)+(['detonate','toxicBurst'].includes(f)?0:add));m.toxinTime=6;m.toxinSource=u;m.toxinDps=damage*.08;
+  for(const m of targets){const add=f==='venomQueen'?5:f==='plague'?3:f==='acidPool'?2:1;m.toxin=Math.min(5,(m.toxin||0)+(['detonate','toxicBurst'].includes(f)?0:add));m.toxinTime=v.duration;m.toxinSource=u;m.toxinDps=damage*.08;
    const consume=['toxicBurst','detonate','venomQueen'].includes(f);dealHeroDamage(u,m,damage*(consume?1+(m.toxin||0)*.6:.5));if(consume){m.toxin=0;m.toxinTime=0}fx(m)}
  }else if(e==='metal'){
   if(['pierce','railStrike'].includes(f)){const o=slot(u.slot),dx=target.x-o.x,dy=target.y-o.y,len=Math.hypot(dx,dy)||1;targets=alive.filter(m=>d(o,m)<=battleRange(u)&&((m.x-o.x)*dx+(m.y-o.y)*dy)>=0&&Math.abs((m.x-o.x)*dy-(m.y-o.y)*dx)/len<=combatCell()*(f==='railStrike'?.3:.15))}
@@ -39,5 +39,5 @@ function castSpecialSkill(u,def,rank,target){if(!SPECIAL_SKILLS[elementFor(u.typ
 }
 function tickSpecialEffects(dt){
  for(const m of mobs){m.timeMarked=Math.max(0,(m.timeMarked||0)-dt);m.riftTime=Math.max(0,(m.riftTime||0)-dt);if(!m.riftTime)m.rift=0;if(m.toxinTime>0&&m.hp>0){const elapsed=Math.min(dt,m.toxinTime);m.toxinTime-=dt;dealHeroDamage(m.toxinSource,m,m.toxinDps*m.toxin*elapsed);if(m.toxinTime<=0)m.toxin=0}}
- for(const e of specialEchoes){e.delay-=dt;if(e.delay>0)continue;const targets=e.area?mobs.filter(m=>m.hp>0&&d(m,e)<=e.r):[e.target].filter(m=>m&&m.hp>0);for(const m of targets)dealHeroDamage(e.source,m,e.damage*(e.area&&d(m,e)<=e.r*.3?2:1));skillEffects.push({x:e.area?e.x:e.target.x,y:e.area?e.y:e.target.y,r:e.r,t:.55,kind:e.kind,effect:'impact',color:U[e.source.type].accent})}specialEchoes=specialEchoes.filter(e=>e.delay>0);
+ for(const e of specialEchoes){e.delay-=dt;if(e.delay>0)continue;const targets=e.area?mobs.filter(m=>m.hp>0&&d(m,e)<=e.r):[e.target].filter(m=>m&&m.hp>0);for(const m of targets)dealHeroDamage(e.source,m,e.damage*(e.area&&d(m,e)<=e.r*.3?2:1));skillEffects.push({x:e.area?e.x:e.target.x,y:e.area?e.y:e.target.y,r:e.r,t:.55,kind:e.kind,effect:e.effect,slot:e.slot,type:e.source.type,life:.55,color:U[e.source.type].accent})}specialEchoes=specialEchoes.filter(e=>e.delay>0);
 }

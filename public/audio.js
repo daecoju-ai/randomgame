@@ -25,8 +25,13 @@ function noiseBurst(t0,dur,o={}){
  src.connect(f);f.connect(g);g.connect(dest);track(src,[f,g],dest===musicGain);src.start(t0);src.stop(t0+dur+.02);
 }
 const KIND_TONE={bash:[110,'square'],slash:[880,'sawtooth'],arrow:[1400,'triangle'],fire:[300,'sawtooth'],volt:[1800,'square'],ice:[1200,'sine']};
-let lastHit=0,lastDeath=0;
+let lastHit=0,lastDeath=0,lastSkill=0;
 const SFX={
+ skill({element,effect,slot=0,rank=1}){if(!actx)return;const t=actx.currentTime;if(t-lastSkill<.09||voices.size>70)return;lastSkill=t;const hash=Array.from(effect||'').reduce((n,c)=>n+c.charCodeAt(0),0),final=slot>=4,dur=final?.45:.18,base={fire:150,water:1100,earth:65,wind:700,electric:1800,shadow:330,poison:240,metal:950,time:520,star:1320,void:90}[element]||440;
+  if(element==='electric'){for(let i=0;i<3+slot;i++){noiseBurst(t+i*.025,.035,{gain:.07,filterFreq:3000+i*330,filterType:'highpass'});tone(base+i*180+hash%200,t+i*.025,.055,{type:'square',gain:.055})}if(final)tone(70,t+.07,.3,{gain:.13})}
+  else if(element==='earth'||element==='fire'||element==='void'){noiseBurst(t,dur,{gain:.15,filterFreq:element==='earth'?450:element==='fire'?1400:250});tone(base,t,dur,{type:'triangle',gain:.13});tone(base*(1.3+slot*.2),t+.04,dur,{gain:.07})}
+  else{const ty=element==='metal'?'square':element==='shadow'?'sawtooth':'sine';for(let i=0;i<2+slot;i++)tone(base*Math.pow(1.12+(hash%7)*.01,i),t+i*.035,dur,{type:ty,gain:.075/(1+i*.15),detune:rank*2});noiseBurst(t,.12,{gain:.04,filterFreq:element==='wind'?4200:1700,filterType:'bandpass'})}
+ },
  drawCharge(){if(!actx)return;const t=actx.currentTime;for(let i=0;i<8;i++)tone(110*Math.pow(2,i/5),t+i*.09,.5,{type:'triangle',gain:.12});noiseBurst(t,.7,{gain:.08,filterFreq:800})},
  drawReveal(rarity=1){if(!actx)return;const t=actx.currentTime;[130.81,261.63,329.63,392,523.25].forEach(f=>tone(f,t,1.6,{type:'triangle',gain:.12,decay:1.5}));[523,659,784,1046,1318].forEach((f,i)=>tone(f,t+i*.1,.7,{gain:.16}));noiseBurst(t,.6,{gain:.14,filterFreq:2400});if(rarity>=4){tone(65.4,t,2,{gain:.22});for(let i=0;i<8;i++)tone(1046+i*90,t+.5+i*.08,.4,{gain:.08})}},
  summon(){if(!actx)return;const t=actx.currentTime;tone(660,t,.16,{type:'triangle',gain:.32});tone(990,t+.05,.18,{type:'triangle',gain:.24})},

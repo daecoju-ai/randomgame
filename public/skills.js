@@ -62,7 +62,7 @@ function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount)
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}
 function skillDamage(enemy,amount){hit(enemy,amount,'skill')}
-function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,origin,life:.55});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
+function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,type:u.type,origin,life:.55});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
 function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
  if(FRIENDLY_SKILLS.includes(f)){for(const ally of units){prepareSkills(ally);if(d(origin,slot(ally.slot))>supportRadius())continue;
   if(f==='cleanse'){ally.stun=0;ally.slow=0;ally.mp=Math.min(100,ally.mp+Math.round(v.bonus*100))}

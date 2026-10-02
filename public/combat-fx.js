@@ -31,7 +31,8 @@ function drawPremiumSkillEffect(g,e){
  g.save();g.globalAlpha=Math.min(1,e.t*4);g.globalCompositeOperation='lighter';g.lineCap='round';
  const beam=points=>{for(const [width,alpha] of [[11,.15],[5,.7],[1.5,1]]){g.lineWidth=width;g.strokeStyle=alpha===1?'#f7ffff':color;g.globalAlpha=alpha*Math.min(1,e.t*4);g.beginPath();points.forEach((q,i)=>i?g.lineTo(q.x,q.y):g.moveTo(q.x,q.y));g.stroke()}};
  if(e.points)beam(e.points);
- else if(e.origin&&/single|ice|strike|pierce|railStrike|echo|chronicle/.test(f))beam([e.origin,{x:e.x,y:e.y}]);
+ else if(e.origin&&/pierce|railStrike|echo|chronicle/.test(f))beam([e.origin,{x:e.x,y:e.y}]);
+ if(e.origin&&['single','ice','strike'].includes(f)){const travel=Math.min(1,p*3),x=e.origin.x+(e.x-e.origin.x)*travel,y=e.origin.y+(e.y-e.origin.y)*travel;drawProjectile(g,{x,y,type:e.type??ELEMENTS.find(z=>z.id===k)?.base??8,target:{x:e.x,y:e.y}})}
  g.translate(e.x,e.y);g.globalAlpha=Math.min(1,e.t*4);
  const glow=g.createRadialGradient(0,0,0,0,0,r);glow.addColorStop(0,'#ffffff88');glow.addColorStop(.18,color+'b0');glow.addColorStop(.65,color+'24');glow.addColorStop(1,color+'00');g.fillStyle=glow;g.beginPath();g.ellipse(0,0,r,r*.72,0,0,Math.PI*2);g.fill();
  g.strokeStyle=color;g.lineWidth=2;g.beginPath();g.ellipse(0,0,r*(.4+.6*p),r*(.25+.4*p),0,0,Math.PI*2);g.stroke();

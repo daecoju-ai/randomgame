@@ -24,7 +24,7 @@ function scene(c,time){
  body(g,origin.x,origin.y,u,1.35,true);
  if(cast){
   const target=support?{x:320,y:188}:targets[0];
-  const effect={x:target.x,y:target.y,r:support?143:62,t:Math.max(.05,.75*(1-phase)),color,kind:elementFor(type).id,effect:f,slot:skillSlot,phase:time*5,origin,life:.75};
+  const effect={x:target.x,y:target.y,r:support?143:62,t:Math.max(.05,.75*(1-phase)),color,kind:elementFor(type).id,effect:f,slot:skillSlot,type,phase:time*5,origin,life:.75};
   if(/chain|ricochet/i.test(f))effect.points=[origin,...targets];
   if(/pierce|railStrike|multi/.test(f))effect.points=[origin,...targets];
   drawSkillEffect(g,effect);

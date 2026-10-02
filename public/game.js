@@ -339,7 +339,6 @@ if(typeof window!=='undefined')window.ForgeGame={
 };
 
 document.querySelector('#guardianCast').onclick=castGuardian;
-document.querySelector('#guardianRename').onclick=async()=>{if(started&&!ended||!window.ForgeAccount?.allowed())return;const input=document.querySelector('#guardianNickname'),button=document.querySelector('#guardianRename'),raw=input.value.normalize('NFC').trim();if(!raw||Array.from(raw).length>12||/[<>\u0000-\u001f]/.test(raw)){toast('닉네임은 1~12글자로 입력하세요.');return;}button.disabled=true;button.textContent='저장 중…';try{if(window.ForgeAccount?.currentUser()){await window.ForgeGuardianSync.rename(raw);toast('주인공 이름을 계정에 저장했습니다.')}else{guardianMeta.nickname=raw;saveMeta();renderGuardian();toast('주인공 이름을 이 기기에 저장했습니다.')}}catch(e){toast(e.message)}finally{button.disabled=false;button.textContent='이름 저장'}};
 renderGuardian();
 
 document.querySelector("#guardianDetails").onclick=guardianDetails;

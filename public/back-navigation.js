@@ -57,6 +57,8 @@ addEventListener('popstate',()=>{
   history.back();return;
  }
  exitArmedAt=now;
+ const notice=$('toast');
+ if(notice){document.body.appendChild(notice);notice.style.zIndex='9999';notice.style.fontSize='16px';notice.style.bottom='max(80px, env(safe-area-inset-bottom))'}
  toast('한 번 더 누르면 종료됩니다');
  history.pushState(guard,'',location.href);
 });

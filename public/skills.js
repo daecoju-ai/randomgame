@@ -62,7 +62,7 @@ function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount)
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}
 function skillDamage(enemy,amount){hit(enemy,amount,'skill')}
-function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
+function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent;skillEffects.push({x:target?.x??origin.x,y:target?.y??origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,origin,life:.55});floaters.push({x:origin.x,y:origin.y-30,t:1,s:def.name+(v.awakened?' ✦':''),col:color});playSound('hit',U[u.type].kind)}
 function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];
  if(FRIENDLY_SKILLS.includes(f)){for(const ally of units){prepareSkills(ally);if(d(origin,slot(ally.slot))>supportRadius())continue;
   if(f==='cleanse'){ally.stun=0;ally.slow=0;ally.mp=Math.min(100,ally.mp+Math.round(v.bonus*100))}
@@ -80,6 +80,7 @@ function castHeroSkill(u,def,rank,target){if(castSpecialSkill(u,def,rank,target)
  else if(f==='wave'){const dx=target.x-origin.x,dy=target.y-origin.y,len=Math.hypot(dx,dy)||1;targets=all.filter(m=>{const dist=d(origin,m);return dist<=battleRange(u)&&((m.x-origin.x)*dx+(m.y-origin.y)*dy)/(len*(dist||1))>=.55})}
  else if(['single','ice','strike','burst','mark','execute','bossStrike','deathMark'].includes(f))targets=[target];
  else targets=all.filter(m=>d(m,target)<=v.radius);
+ if(['chain','multi'].includes(f))skillEffects.push({x:target.x,y:target.y,points:[origin,...targets.map(m=>({x:m.x,y:m.y}))],r:20,t:.55,life:.55,color:U[u.type].accent,kind:elementFor(u.type).id,effect:f});
  if(f==='chain'&&targets.length>=5)window.ForgeAdventure?.record('chains');
  if(['burnZone','freezeZone','pullZone','stormZone','mud'].includes(f)){skillZones.push({effect:f,x:target.x,y:target.y,p:target.p,radius:v.radius,time:v.duration,damage:damage*(f==='freezeZone'?.15:.3),tick:0,v,source:u,color:U[u.type].accent});showSkill(u,def,v,target);return}
  if(f==='deathMark'){target.deathMark={time:2,damage:damage*2,source:u};showSkill(u,def,v,target);return}
@@ -124,3 +125,33 @@ function tickBattleStatus(dt){
   for(const u of units){if(d(slot(u.slot),m)>combatCell()*2)continue;const resist=skillModifiers(u).resist;if(resist>=1)continue;u.slow=2;u.stun=.4}
  }
 }
+
+// Display the same coefficients used by casting, before critical hits and target debuffs.
+function skillDamageBaseText(u,def){
+ if(def.damageText)return def.damageText;
+ const v=skillStats(def,def.rank||1,u),f=def.effect,base=(Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(1+talismanBonus(u,'attack')))*v.power;
+ const n=ratio=>(base*ratio).toFixed(1),pct=ratio=>Math.round(v.power*ratio*100)+'%';
+ const hit=(ratio=1)=>'피해 '+n(ratio)+' · 공격력 '+pct(ratio);
+ if(PASSIVES.includes(f)||FRIENDLY_SKILLS.includes(f)||['mark','freeze','blessing','mana','reorder','clarity'].includes(f)){
+  if(f==='clone')return '추가 공격 '+(battleAttack(u)*v.bonus*2).toFixed(1)+' · 기본 공격 '+Math.round(v.bonus*200)+'%';
+  if(f==='splashAura')return '아군 기본 공격의 '+Math.round(v.bonus*200)+'% 광역 피해 추가';
+  return '직접 피해 0 · 지원/제어 효과';
+ }
+ if(f==='mud')return '직접 피해 0 · 45% 감속';
+ if(['burnZone','freezeZone','pullZone','stormZone'].includes(f)){const r=f==='freezeZone'?.15:.3;return '초당 피해 '+n(r)+' · '+v.duration.toFixed(1)+'초 유지'}
+ if(['strike','bossStrike','deathMark','burst'].includes(f))return (f==='burst'?'연타 합계 ':f==='deathMark'?'2초 뒤 ':'')+hit(2);
+ if(f==='meteor')return hit(1.5);
+ if(f==='execute')return hit()+' · HP 30% 이하 '+n(4)+' (보스 '+n(2)+')';
+ if(['burn','globalFire','chain'].includes(f))return hit()+' + 지속 피해 '+n(.2)+'/초 · '+v.duration.toFixed(1)+'초';
+ if(['toxicStack','acidPool','plague'].includes(f))return hit(.5)+' + 중독 중첩당 '+n(.08)+'/초 · 6초';
+ if(['toxicBurst','detonate','venomQueen'].includes(f))return hit(f==='venomQueen'?4:1)+' · 중독당 +'+n(.6)+(f==='venomQueen'?' (5중첩 포함)':' · 최대 '+n(4));
+ if(['riftMark','voidShard','voidBrand'].includes(f))return hit(.5);
+ if(['riftConsume','riftDetonate','nullCollapse'].includes(f))return hit(f==='nullCollapse'?4.5:1)+' · 균열당 +'+n(.7)+(f==='nullCollapse'?' (5중첩 포함)':' · 최대 '+n(4.5));
+ if(f==='starMark')return hit(.5);
+ if(f==='judgement')return hit()+' · 방어 약화 대상 '+n(2);
+ if(['echo','chronicle','rewindStrike','timeSeal','timeCascade'].includes(f))return (f==='timeSeal'?'즉시 피해 0':hit())+' + '+(f==='chronicle'?'1초·2초 뒤 각각 ':f==='rewindStrike'||f==='timeSeal'?'2초 뒤 ':'1초 뒤 ')+n(f==='rewindStrike'?1.5:.6)+' 재현 · 시간 표식 시 재현 ×1.25';
+ if(['starfall','meteorSign','constellation','supernova'].includes(f))return hit()+' · 중심부 '+n(2)+(f==='constellation'?' · 최대 3곳':'');
+ return (['flurry','tidal','bladeStorm'].includes(f)?'연타 합계 ':'')+hit();
+}
+
+function skillDamageText(u,def){const text=skillDamageBaseText(u,def);return elementFor(u.type).id==='shadow'&&!text.startsWith('직접 피해 0')?text+' · 암흑 특성: 일반 적 ×3 / 보스 ×2':text}

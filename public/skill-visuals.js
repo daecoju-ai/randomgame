@@ -1,23 +1,37 @@
-/* Effect illustrations: the positions show target, area and support relationships. */
+/* Live demonstrations use the exact hero, monster and VFX renderers used in battle. */
 (()=>{
-const palettes={fire:'#ff8b4d',water:'#62d7ff',earth:'#dcb57a',wind:'#73e4b0',electric:'#ffe36f',shadow:'#bc98ff',poison:'#f385c2',metal:'#b8d4e9',time:'#62decf',star:'#d6c4ff',void:'#bba0ff'};
+'use strict';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function art(u,def){
-const element=elementFor(u.type).id,color=palettes[element]||'#d6c4ff',f=def.effect||'single';
-const support=/Aura|fury|swift|clarity|cleanse|blessing|mana|reorder|speed|clone/i.test(f);
-const chain=/chain|thunder|ricochet|lightning/i.test(f);
-const zone=/Zone|area|wave|mud|freeze|rupture|airborne|burn|nova|meteor|shatter|stun|tidal|flurry|stardust|starfall|constellation|voidShard|voidBrand|riftDetonate|nullCollapse|acidPool|plague|detonate|venomQueen|steelShard|bladeStorm|timeSeal|timeCascade/i.test(f);
-let drawing='',caption='';
-const enemy=(x,y)=>'<g transform="translate('+x+' '+y+')"><path d="M-8 9V-5l-4-8 8 4h8l8-4-4 8V9Z" fill="#dd8a84" stroke="#ffc5b7"/><circle cx="-3" cy="0" r="1.7" fill="#151e33"/><circle cx="3" cy="0" r="1.7" fill="#151e33"/></g>';
-if(support){caption=/mana/i.test(f)?'아군 MP 회복':/reorder|haste|swift/i.test(f)?'아군 쿨타임 지원':/cleanse|clarity/i.test(f)?'아군 정화 · 보호':'주변 아군 강화';drawing='<ellipse cx="135" cy="57" rx="76" ry="32" fill="'+color+'" fill-opacity=".12" stroke="'+color+'" stroke-dasharray="4 5"/>'+[88,135,182].map(x=>'<g transform="translate('+x+' 54)"><circle r="12" fill="#3d6e78" stroke="#b5f4e7"/><path d="M0-22v-14m-5 5 5-5 5 5" fill="none" stroke="'+color+'" stroke-width="3"/><circle cx="-4" cy="-1" r="2" fill="#e4fff6"/><circle cx="4" cy="-1" r="2" fill="#e4fff6"/></g>').join('')}
-else if(/pierce|railStrike/.test(f)){caption='직선 관통';drawing=[100,152,205].map(x=>enemy(x,58)).join('')+'<path d="M38 58H230" stroke="'+color+'" stroke-width="8" opacity=".6"/><path d="M38 58H230m-12-8 12 8-12 8" fill="none" stroke="#f2fcff" stroke-width="2"/>'}
-else if(/echo|chronicle|rewindStrike/.test(f)){caption='기록 후 지연 타격';drawing=enemy(190,60)+'<circle cx="113" cy="49" r="22" fill="#223950" stroke="'+color+'" stroke-width="3"/><path d="M113 33v16l12 8M35 63h43m62 0h26" stroke="'+color+'" stroke-width="4" fill="none"/>'}
-else if(/Mark|toxicStack|toxicBurst|riftConsume|judgement|armorBreak/.test(f)){caption=/toxic/.test(f)?'중독 중첩 · 소모':'표식 부여 · 추가 피해';drawing=enemy(163,63)+'<circle cx="163" cy="61" r="30" stroke="'+color+'" stroke-width="3" fill="'+color+'" fill-opacity=".1"/><path d="m154 21 9-13 9 13-9 11Z" fill="'+color+'"/><circle cx="130" cy="27" r="4" fill="'+color+'"/><circle cx="194" cy="27" r="4" fill="'+color+'"/>'}
-else if(f==='multi'){caption='여러 적에게 동시 타격';drawing=[[178,28],[205,53],[178,78]].map(([x,y])=>enemy(x,y)).join('')+'<path d="M38 62Q90 8 167 28M38 62Q100 45 194 53M38 62Q104 93 167 78" fill="none" stroke="'+color+'" stroke-width="4"/>'}
-else if(chain){caption='적 사이 연쇄 타격';drawing=[82,142,201].map((x,i)=>enemy(x,51+(i%2)*15)).join('')+'<path d="M31 55 59 43 69 59 82 51 111 70 123 48 142 66 169 44 182 64 201 51" fill="none" stroke="'+color+'" stroke-width="5" stroke-linejoin="round"/><path d="M31 55 59 43 69 59 82 51 111 70 123 48 142 66 169 44 182 64 201 51" fill="none" stroke="#fff4be" stroke-width="1.5"/>'}
-else if(zone){caption=/meteor|star/i.test(f)?'낙하 · 범위 타격':/freeze|mud/i.test(f)?'범위 감속 · 제어':/pull|airborne/i.test(f)?'회오리 · 범위 제어':'범위 공격';drawing='<ellipse cx="154" cy="65" rx="63" ry="26" fill="'+color+'" fill-opacity=".2" stroke="'+color+'" stroke-width="2"/>'+[[119,57],[160,47],[188,66]].map(([x,y])=>enemy(x,y)).join('')+'<path d="M110 61q43-65 89 0M125 66q29-42 62 0" fill="none" stroke="'+color+'" stroke-width="4"/><path d="m155 4-10 23h10l-8 19 29-28h-13l9-14Z" fill="'+color+'"/>'}
-else{caption=/execute|bossStrike|deathMark|strike|burst/i.test(f)?'집중 · 강력한 단일 타격':'단일 대상 타격';drawing=enemy(192,60)+'<path d="M43 63Q95 30 164 54" fill="none" stroke="'+color+'" stroke-width="9" opacity=".5"/><path d="m168 54 19-13-7 20 15 11-22-2-9 17 2-22-17-10Z" fill="'+color+'"/><path d="M38 64Q96 48 162 56" fill="none" stroke="#f1fbff" stroke-width="2"/>'}
-return '<figure class="skillVisual" data-effect="'+esc(f)+'"><svg viewBox="0 0 260 104" role="img" aria-label="'+esc(def.name+' · '+caption)+'"><rect width="260" height="104" rx="14" fill="#101e32"/><path d="M15 83H245M32 12V82M75 12V82M118 12V82M161 12V82M204 12V82" stroke="#ffffff08"/>'+drawing+'<circle cx="30" cy="62" r="11" fill="'+color+'" stroke="#ffffffa0"/><path d="m26 60 4-6 4 6-4 7Z" fill="#fff"/><text x="130" y="96" text-anchor="middle" fill="#e3edfa" font-size="10" font-family="sans-serif">'+esc(caption)+'</text></svg><figcaption>스킬 효과 그림</figcaption></figure>'
+ const damage=typeof skillDamageText==='function'?skillDamageText(u,def):'직접 피해 0 · 지원 효과';
+ return '<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure>';
 }
-window.ForgeSkillVisuals={art};
+const seen=new Set(),active=new Set();
+const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)active.add(e.target);else active.delete(e.target)}),{threshold:.1});
+function scan(){for(const c of document.querySelectorAll('[data-skill-scene]'))if(!seen.has(c)){seen.add(c);observer.observe(c)}for(const c of seen)if(!c.isConnected){observer.unobserve(c);seen.delete(c);active.delete(c)}}
+new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});
+function scene(c,time){
+ const [type,lv,skillSlot]=c.dataset.skillScene.split(':').map(Number),u={type,lv},f=c.dataset.sceneEffect,g=c.getContext('2d'),color=U[type].accent;
+ const p=(time%2.8)/2.8,cast=p>.18&&p<.85,phase=(p-.18)/.67;
+ g.clearRect(0,0,560,300);const bg=g.createLinearGradient(0,0,0,300);bg.addColorStop(0,'#09192a');bg.addColorStop(1,'#183b40');g.fillStyle=bg;g.fillRect(0,0,560,300);
+ // The battle's separate unit tiles and outer monster lane remain recognizable.
+ g.fillStyle='#456354';g.fillRect(20,34,520,54);g.fillRect(445,34,70,234);g.fillStyle='#708078';for(let x=26;x<535;x+=22)g.fillRect(x,40,18,41);for(let y=94;y<260;y+=22)g.fillRect(451,y,57,18);
+ for(let x=0;x<4;x++)for(let y=0;y<2;y++){g.fillStyle=(x+y)%2?'#1c3b49':'#234451';g.fillRect(30+x*98,111+y*77,92,70);g.strokeStyle='#a4d0c31a';g.strokeRect(30+x*98,111+y*77,92,70)}
+ const support=/Aura|fury|Fury|swift|cleanse|clarity|blessing|mana|reorder|speed/i.test(f);
+ const targets=[{x:289,y:65},{x:380,y:65},{x:475,y:137}],origin={x:120,y:196};
+ if(support){for(let i=0;i<3;i++)body(g,225+i*90,190,{type:i%6,lv:Math.min(lv,4)},.76,true)}
+ else for(let i=0;i<targets.length;i++)drawMonster(g,{...targets[i],p:i*.1,r:15,hp:cast&&phase>.3?65:100,max:100,profile:MONSTER_NORMAL[i%3],hit:cast&&phase>.3&&phase<.5});
+ body(g,origin.x,origin.y,u,1.35,true);
+ if(cast){
+  const target=support?{x:320,y:188}:targets[0];
+  const effect={x:target.x,y:target.y,r:support?143:62,t:Math.max(.05,.75*(1-phase)),color,kind:elementFor(type).id,effect:f,slot:skillSlot,phase:time*5,origin,life:.75};
+  if(/chain|ricochet/i.test(f))effect.points=[origin,...targets];
+  if(/pierce|railStrike|multi/.test(f))effect.points=[origin,...targets];
+  drawSkillEffect(g,effect);
+  if(!support&&phase>.28){g.font='bold 19px system-ui';g.textAlign='center';g.shadowColor='#07101d';g.shadowBlur=4;g.fillStyle='#fff0bc';g.fillText('HIT',target.x,target.y-27);g.shadowBlur=0}
+ }
+ g.fillStyle='#071321bb';g.fillRect(0,270,560,30);g.font='bold 13px system-ui';g.textAlign='left';g.fillStyle='#ecf3fa';g.fillText('SKILL CAST  /  '+heroLabel(u),18,291);
+}
+let last=0;function frame(ms){if(ms-last>65&&!document.hidden){last=ms;let count=0;for(const c of active){if(!c.isConnected||!c.getClientRects().length||!c.closest('dialog[open], #drawer, #battleSkillContent'))continue;if(++count>8)break;scene(c,ms/1000)}}requestAnimationFrame(frame)}
+window.ForgeSkillVisuals={art};scan();requestAnimationFrame(frame);
 })();

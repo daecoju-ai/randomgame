@@ -15,7 +15,7 @@ function specialDescription(f){const descriptions={
  };return descriptions[f]}
 function castSpecialSkill(u,def,rank,target){if(!SPECIAL_SKILLS[elementFor(u.type).id])return false;if(!target||d(slot(u.slot),target)>battleRange(u))return true;
  const v=skillStats(def,rank,u),f=def.effect,e=elementFor(u.type).id,damage=combatAttack(u)*v.power,alive=mobs.filter(m=>m.hp>0),near=alive.filter(m=>d(m,target)<=v.radius);let targets=[target];
- const fx=(m,effect=f)=>skillEffects.push({x:m.x,y:m.y,r:v.radius,t:.65,kind:e,effect,color:U[u.type].accent});
+ const fx=(m,effect=f)=>skillEffects.push({x:m.x,y:m.y,r:v.radius,t:.65,kind:e,effect,color:U[u.type].accent,origin:slot(u.slot),life:.65});
  const later=(m,delay,amount,area=false)=>{specialEchoes.push({source:u,target:m,x:m.x,y:m.y,delay,damage:amount,area,r:v.radius,kind:e});if(area)skillEffects.push({x:m.x,y:m.y,r:v.radius,t:delay,kind:e,effect:'telegraph',color:U[u.type].accent})};
  if(e==='poison'){
   if(['acidPool','plague','detonate','venomQueen'].includes(f))targets=near;
@@ -24,6 +24,7 @@ function castSpecialSkill(u,def,rank,target){if(!SPECIAL_SKILLS[elementFor(u.typ
  }else if(e==='metal'){
   if(['pierce','railStrike'].includes(f)){const o=slot(u.slot),dx=target.x-o.x,dy=target.y-o.y,len=Math.hypot(dx,dy)||1;targets=alive.filter(m=>d(o,m)<=battleRange(u)&&((m.x-o.x)*dx+(m.y-o.y)*dy)>=0&&Math.abs((m.x-o.x)*dy-(m.y-o.y)*dx)/len<=combatCell()*(f==='railStrike'?.3:.15))}
   else if(f==='ricochet'){targets=[target];while(targets.length<4){const last=targets.at(-1),next=alive.filter(m=>!targets.includes(m)&&d(last,m)<=combatCell()*.8).sort((a,b)=>d(last,a)-d(last,b))[0];if(!next)break;targets.push(next)}}else if(['steelShard','bladeStorm'].includes(f))targets=near;
+  if(['ricochet','pierce','railStrike'].includes(f))skillEffects.push({x:target.x,y:target.y,points:[slot(u.slot),...targets.map(m=>({x:m.x,y:m.y}))],r:20,t:.65,life:.65,kind:e,effect:f,color:U[u.type].accent});
   for(const m of targets){if(f==='bladeStorm'){dealHeroDamage(u,m,damage/3);later(m,.12,damage/3);later(m,.24,damage/3)}else dealHeroDamage(u,m,damage*(f==='judgement'&&m.vulnerableTime>0?2:1));if(f==='armorBreak'){m.vulnerableTime=6;m.vulnerability=.2}fx(m)}
  }else if(e==='time'){
   if(['timeSeal','timeCascade'].includes(f))targets=near;

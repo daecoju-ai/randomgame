@@ -22,6 +22,7 @@ function render(){
  $('#accountSubmit').textContent={signin:'로그인',signup:'회원가입',verify:'인증 완료',recover:'인증번호 받기',reset:'비밀번호 변경'}[mode];
  $('#accountSubmit').disabled=busy||game.inBattle();$('#accountTabs').hidden=!configured||checking||!['signin','signup'].includes(mode);$('#accountForgot').hidden=mode!=='signin';$('#accountVerifyLink').hidden=mode!=='signin';$('#accountBack').hidden=['signin','signup'].includes(mode);$('#accountResend').hidden=mode!=='verify';
  document.querySelectorAll('[data-auth-mode]').forEach(b=>{b.disabled=busy;b.classList.toggle('active',b.dataset.authMode===mode)});
+ const social=$('#socialLogin');if(social)social.hidden=!!user||!configured||checking||!['signin','signup'].includes(mode);
  $('#accountResend').disabled=busy;$('#accountClose').disabled=busy;
  $('#accountBadge').textContent=user?'내 계정':'로그인 / 회원가입';if(user&&!checking&&!locked&&!dirty&&!saving&&!game.inBattle())window.ForgeAdventure?.accountReady(user.id);
 }
@@ -60,6 +61,17 @@ dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
 addEventListener('online',()=>{if(user&&dirty&&!conflict)void flush()});
 addEventListener('beforeunload',e=>{if(user&&dirty){cache();e.preventDefault();e.returnValue=''}});
 addEventListener('storage',e=>{if(user&&e.key===key(user.id)){conflict=true;hold('다른 탭에서 기록이 변경되었습니다. 서버 기록을 확인해 주세요.')}});
-async function init(){render();try{const result=await api('account',{action:'status'});configured=result.configured;if(result.user)await loadAccount(result.user);else localGuest()}catch(e){configured=false;localGuest();message(e.message)}finally{checking=false;render()}}
+
+let socialProviders={};
+async function loadSocial(){if(!configured)return;try{const r=await api('oauth',{action:'providers'});socialProviders=r.providers||{}}catch{socialProviders={}}
+ document.querySelectorAll('[data-social-provider]').forEach(b=>{b.disabled=!socialProviders[b.dataset.socialProvider];const label=b.querySelector('small');if(label)label.textContent=b.disabled?'설정 중':''});
+}
+document.querySelectorAll('[data-social-provider]').forEach(b=>b.onclick=async()=>{
+ if(busy||game.inBattle()||!socialProviders[b.dataset.socialProvider])return;busy=true;render();document.querySelectorAll('[data-social-provider]').forEach(x=>x.disabled=true);message('로그인 화면으로 이동합니다…');
+ try{const r=await api('oauth',{action:'start',provider:b.dataset.socialProvider});const url=new URL(r.url);if(url.origin!=='https://ozyrzptyfyytqchufbbe.supabase.co'||url.pathname!=='/auth/v1/authorize')throw Error('로그인 주소를 확인할 수 없습니다.');location.assign(url.href)}catch(e){busy=false;message(e.message);render();void loadSocial()}
+});
+const authResult=new URLSearchParams(location.search).get('auth_result');
+if(authResult){const clean=new URL(location.href);clean.searchParams.delete('auth_result');history.replaceState(history.state,'',clean.href)}
+async function init(){render();try{const result=await api('account',{action:'status'});configured=result.configured;if(result.user)await loadAccount(result.user);else localGuest()}catch(e){configured=false;localGuest();message(e.message)}finally{checking=false;render();void loadSocial();if(authResult){open();message(authResult==='success'?(user?'간편 로그인했습니다.':'로그인 상태를 확인해 주세요.'):authResult==='cancelled'?'간편 로그인을 취소했습니다.':authResult==='expired'?'로그인 요청이 만료되었습니다. 다시 시도해 주세요.':'간편 로그인에 실패했습니다. 다시 시도해 주세요.')}}}
 void init();
 })();

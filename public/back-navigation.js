@@ -2,7 +2,7 @@
 (()=>{
 'use strict';
 const $=id=>document.getElementById(id), trail=[];
-let current=null,handling=false;
+let current=null,handling=false,exitArmedAt=null;
 const visible=el=>el&&(el.tagName==='DIALOG'?el.open:!el.hidden&&getComputedStyle(el).display!=='none');
 function top(){
  const dialogs=[...document.querySelectorAll('dialog[open]')];
@@ -41,14 +41,27 @@ function back(){
   trail.pop();current=trail.at(-1)||null;
   // Only navigation screens are restored; transactional dialogs are never replayed.
   if(['shopHub','eventHub','unitAlbumDialog','hiddenCollectionDialog','albumDetailDialog','drawer'].includes(current))reopen(current);
- }else if(window.ForgeGame?.inBattle())$('homeButton').click();
- else if(visible($('resultScreen')))$('homeButton').click();
+ }
  }finally{handling=false;sync()}
 }
 // One guard entry avoids accumulating browser history as menus open and close.
 const guard={...(history.state||{}),forgeBackGuard:true};
 if(!history.state?.forgeBackGuard)history.pushState(guard,'',location.href);
-addEventListener('popstate',()=>{back();history.pushState(guard,'',location.href)});
+addEventListener('popstate',()=>{
+ sync();
+ if(current){exitArmedAt=null;back();history.pushState(guard,'',location.href);return}
+ const now=Date.now();
+ if(exitArmedAt!==null&&now-exitArmedAt<2000){
+  exitArmedAt=null;
+  // We are already on the original entry: let the browser/Android host leave it.
+  history.back();return;
+ }
+ exitArmedAt=now;
+ toast('한 번 더 누르면 종료됩니다');
+ history.pushState(guard,'',location.href);
+});
+// A normal game interaction cancels an armed exit, avoiding accidental later exits.
+addEventListener('pointerdown',()=>{exitArmedAt=null});
 new MutationObserver(sync).observe(document.body,{subtree:true,attributes:true,attributeFilter:['open','hidden','style']});
 sync();
 })();

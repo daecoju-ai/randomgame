@@ -12,3 +12,9 @@ mobile/generated/
 mobile/signing/
 *.aab
 *.apk
+
+# External source text pending license/content review
+.learning-staging/
+
+__pycache__/
+*.pyc

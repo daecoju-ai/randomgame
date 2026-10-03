@@ -1,0 +1,33 @@
+[
+  {
+    "source": "moe_2022_curriculum",
+    "rule": "교육과정은 출제 범위 확인용. 교과서/제2유형 자료의 본문·문제·해설을 상업 게임 문제은행에 복제하지 않음.",
+    "required_action": "문제·보기·해설 자체 제작, 원 출처 및 최신 이용조건 재확인"
+  },
+  {
+    "source": "krdict",
+    "rule": "텍스트/멀티미디어 등 항목별 최신 이용조건 확인 필요",
+    "required_action": "API 연결 전 공식 저작권 정책 재확인, attribution/share-alike 요구가 있으면 준수"
+  },
+  {
+    "source": "stdict",
+    "rule": "API 및 콘텐츠 최신 이용조건 확인 필요",
+    "required_action": "배포 전 공식 정책 재확인"
+  },
+  {
+    "source": "law_open",
+    "rule": "출처표시 등 국가법령정보 공동활용 이용조건 준수",
+    "required_action": "법령명·조문·기준일 추적"
+  },
+  {
+    "source": "qnet_exam",
+    "rule": "시험정보 API는 기출문제 이용허락이 아님",
+    "required_action": "기출문제 무단 수록 금지; 자체 제작 또는 별도 허가 콘텐츠 사용"
+  },
+  {
+    "id": "original_game_content",
+    "source": "original",
+    "rule": "자체 제작 문제·해설. 외부 교과서와 멀티미디어 복제 없음.",
+    "commercial_use": true
+  }
+]

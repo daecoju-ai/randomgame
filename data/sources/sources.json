@@ -50,5 +50,25 @@
     "effective_date": "2026-10-02",
     "data_checked_at": "2026-10-04",
     "copy_into_question_bank": false
+  },
+  {
+    "id": "qnet_industrial_safety_standard",
+    "name": "산업안전기사 출제기준(2024~2026)",
+    "purpose": "자체 문제 제작을 위한 범위 확인",
+    "url": "https://q-net.or.kr/cst006.do?artlSeq=5212081&brdId=Q006&gSite=Q&id=cst00602",
+    "effective_from": "2024-01-01",
+    "effective_until": "2026-12-31",
+    "data_checked_at": "2026-10-04",
+    "copy_into_question_bank": false
+  },
+  {
+    "id": "qnet_construction_safety_standard",
+    "name": "건설안전기사 종목정보 및 출제기준(2026~2030)",
+    "purpose": "자체 문제 제작을 위한 범위 확인",
+    "url": "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1440&jmInfoDivCcd=B0",
+    "effective_from": "2026-01-01",
+    "effective_until": "2030-12-31",
+    "data_checked_at": "2026-10-04",
+    "copy_into_question_bank": false
   }
 ]

@@ -1,0 +1,41 @@
+{
+  "version": "1.0.0",
+  "checked_at": "2026-10-04",
+  "storage": "github",
+  "question_policy": "자체 문제 제작 후 검수. 공개 자료의 상업적 재배포 권리는 별도 확인.",
+  "catalogs": {
+    "past_technical_professional": "https://www.q-net.or.kr/cst006.do?code=1203&id=cst00601",
+    "public_examples": "https://www.q-net.or.kr/cst006.do?code=1204&id=cst00601",
+    "exam_standards": "https://www.q-net.or.kr/cst006.do?code=1202&id=cst00601"
+  },
+  "targets": [
+    {
+      "id": "industrial-safety-engineer",
+      "name": "산업안전기사",
+      "standards_effective_from": "2024-01-01",
+      "standards_effective_until": "2026-12-31",
+      "source_reference": "qnet_industrial_safety_standard",
+      "status": "scope_review_pending",
+      "playable_course": false
+    },
+    {
+      "id": "construction-safety-engineer",
+      "name": "건설안전기사",
+      "standards_effective_from": "2026-01-01",
+      "standards_effective_until": "2030-12-31",
+      "source_reference": "qnet_construction_safety_standard",
+      "status": "scope_review_pending",
+      "playable_course": false
+    }
+  ],
+  "update_policy": {
+    "check_interval": "monthly",
+    "expired_standard_action": "block_new_publication_until_review",
+    "future_standard_action": "apply_from_effective_date",
+    "auto_publish": false
+  },
+  "existing_pilot": {
+    "path": "data/questions/certification/basics.pilot.json",
+    "coverage": "일반 안전·공식 체험. 특정 자격증 전체 과정 또는 공식 기출문제로 표시하지 않음."
+  }
+}

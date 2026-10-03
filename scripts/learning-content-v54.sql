@@ -1,24 +1,5 @@
--- Learning state only. Question text, choices and explanations remain in Git.
-create table private.learning_profiles(user_id uuid primary key references auth.users(id) on delete cascade,preferences jsonb not null default '{}',last_start uuid,last_area text,updated_at timestamptz not null default now());
-create table private.learning_sessions(user_id uuid not null references auth.users(id) on delete cascade,id uuid not null,question_id text not null,question_version int not null,subject text not null,domain text not null,mode text not null,prefixes jsonb not null,started_at timestamptz not null default now(),finished_at timestamptz,result jsonb,events jsonb,primary key(user_id,id));
-create index learning_sessions_recent on private.learning_sessions(user_id,started_at desc);
-create table private.learning_mastery(user_id uuid not null references auth.users(id) on delete cascade,question_id text not null,subject text not null,domain text not null,attempts int not null default 0,correct int not null default 0,errors int not null default 0,streak int not null default 0,last_version int not null,last_at timestamptz not null default now(),primary key(user_id,question_id));
-create table private.learning_rewards(user_id uuid not null references auth.users(id) on delete cascade,day date not null,subject text not null,run_id uuid not null,gold int not null,diamonds int not null,primary key(user_id,day,subject));
-alter table private.learning_profiles enable row level security;
-alter table private.learning_sessions enable row level security;
-alter table private.learning_mastery enable row level security;
-alter table private.learning_rewards enable row level security;
-revoke all on private.learning_profiles,private.learning_sessions,private.learning_mastery,private.learning_rewards from public,anon,authenticated;
--- Preserve all existing historical tables. New writes use bounded per-user state only.
-alter table private.learning_profiles add column if not exists last_start uuid;
-create table if not exists private.learning_current (like private.learning_sessions including defaults including constraints, primary key(user_id), foreign key(user_id) references auth.users(id) on delete cascade);
-create table if not exists private.learning_daily (like private.learning_rewards including defaults including constraints, primary key(user_id,subject), foreign key(user_id) references auth.users(id) on delete cascade);
-alter table private.learning_current enable row level security;
-alter table private.learning_daily enable row level security;
-revoke all on private.learning_current,private.learning_daily from public,anon,authenticated;
--- Carry only an existing in-progress session forward without removing historical data.
-insert into private.learning_current select distinct on(user_id) * from private.learning_sessions where finished_at is null order by user_id,started_at desc,id desc on conflict(user_id) do nothing;
-create function private.learning(p_action text,p_request uuid,p_payload jsonb) returns jsonb language plpgsql security definer set search_path='' as $$
+-- Expand approved pilot fingerprints only; preserve all account data and reward behavior.
+create or replace function private.learning(p_action text,p_request uuid,p_payload jsonb) returns jsonb language plpgsql security definer set search_path='' as $$
 declare uid uuid:=auth.uid();today date:=(clock_timestamp() at time zone 'Asia/Seoul')::date;r private.learning_current%rowtype;e jsonb;prefix jsonb;fp text;tokens text[]:=array[]::text[];step int:=0;mistakes int:=0;streak int:=0;heard boolean:=false;last_ms int:=-1;elapsed numeric;v jsonb;reward jsonb:='{}';gr int:=0;di int:=0;claim_count int;prefs jsonb;active jsonb;request_ms bigint;highwater uuid;
 begin
 if uid is null then raise exception 'Authentication required';end if;
@@ -75,8 +56,3 @@ elsif p_action='finish' then
 end if;
 return jsonb_build_object('owner',uid,'profile',(select preferences from private.learning_profiles where user_id=uid),'lastArea',(select last_area from private.learning_profiles where user_id=uid),'active',active,'daily',coalesce((select jsonb_agg(subject) from (select subject from private.learning_daily where user_id=uid and day=today union select subject from private.learning_rewards where user_id=uid and day=today) flags),'[]'::jsonb));
 end $$;
-revoke all on function private.learning(text,uuid,jsonb) from public,anon;
-grant execute on function private.learning(text,uuid,jsonb) to authenticated;
-create function public.forge_learning(p_action text,p_request uuid default null,p_payload jsonb default '{}') returns jsonb language sql security invoker set search_path='' as $$select private.learning(p_action,p_request,p_payload)$$;
-revoke all on function public.forge_learning(text,uuid,jsonb) from public,anon;
-grant execute on function public.forge_learning(text,uuid,jsonb) to authenticated;

@@ -1,2 +1,5 @@
-'use strict';const fs=require('node:fs'),path=require('node:path'),B=require('../lib/learning-bank.cjs');
-const dir=path.join(__dirname,'../public/learning-data');fs.mkdirSync(dir,{recursive:true});const packs=[],groups=new Map();for(const q of B.bank()){const id=`${q.school}-${q.grade}-${q.subject}`;if(!groups.has(id))groups.set(id,[]);groups.get(id).push(q)}for(const [id,rows] of groups){const {subject,school,grade}=rows[0],file=id+'.json';fs.writeFileSync(path.join(dir,file),JSON.stringify(rows));packs.push({id,subject,school,grade,title:({math:`초${grade} 수학 · 정답 타일 원정`,english:'영어 한 문장 듣고 만들기',korean:'국어·어휘 · 단어 원정',law:'생활법률 · 상황 원정',certification:'자격증 기초 · 안전·공식 원정'})[subject]||'학습 원정',url:'/learning-data/'+file,version:1,count:rows.length})}fs.writeFileSync(path.join(dir,'manifest.json'),JSON.stringify({version:2,packs}));
+'use strict';
+const fs=require('node:fs'),path=require('node:path'),B=require('../lib/learning-bank.cjs'),P=require('../lib/learning-packs.cjs');
+const dir=path.join(__dirname,'../public/learning-data');fs.mkdirSync(dir,{recursive:true});
+const packs=P.groupQuestions(B.bank()).map(({rows,...pack})=>{const file=pack.id+'.json';fs.writeFileSync(path.join(dir,file),JSON.stringify(rows));return {...pack,url:'/learning-data/'+file,version:1,count:rows.length}});
+fs.writeFileSync(path.join(dir,'manifest.json'),JSON.stringify({version:3,packs,certifications:P.catalog.targets.map(({id,name,subjects,standards_effective_from,standards_effective_until})=>({id,name,subjects,standards_effective_from,standards_effective_until}))}));

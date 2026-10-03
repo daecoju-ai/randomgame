@@ -70,5 +70,20 @@
     "effective_until": "2030-12-31",
     "data_checked_at": "2026-10-04",
     "copy_into_question_bank": false
+  },
+  {
+    "id": "original_certification_foundation",
+    "name": "자체 제작 자격증 기초 계산 원정",
+    "purpose": "과목별 기초 공식 및 수치 비교 체험. 공식 기출·전체 시험범위 아님",
+    "copy_into_question_bank": true,
+    "scope_references": [
+      "qnet_industrial_safety_standard",
+      "qnet_construction_safety_standard"
+    ],
+    "scope_urls": [
+      "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1431&jmInfoDivCcd=B0",
+      "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1440&jmInfoDivCcd=B0"
+    ],
+    "data_checked_at": "2026-10-04"
   }
 ]

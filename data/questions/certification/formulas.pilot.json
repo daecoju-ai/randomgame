@@ -1,0 +1,397 @@
+[
+  {
+    "id": "CERT-RISK-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "risk_score",
+    "learning_target": "이 원정의 위험도 = 가능성 × 중대성. 가능성 3, 중대성 4인 구역의 점수는?",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "이 원정의 위험도 = 가능성 × 중대성. 가능성 3, 중대성 4인 구역의 점수는?",
+    "choices": [
+      "7",
+      "12",
+      "16",
+      "34"
+    ],
+    "answer": "12",
+    "explanation": "3 × 4 = 12입니다. 이 문항에서 정한 점수 계산 연습이며 법정 위험성평가의 고정 등급을 뜻하지 않습니다.",
+    "certification_routes": [
+      {
+        "target": "industrial-safety-engineer",
+        "area": "risk"
+      },
+      {
+        "target": "construction-safety-engineer",
+        "area": "risk"
+      }
+    ],
+    "calculation": {
+      "formula": "product",
+      "inputs": [
+        3,
+        4
+      ],
+      "result": 12
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-RISK-000002",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "risk_score",
+    "learning_target": "같은 기준으로 계산한 위험도 점수예요. 낮은 점수부터 높은 점수까지 이동하세요.",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "같은 기준으로 계산한 위험도 점수예요. 낮은 점수부터 높은 점수까지 이동하세요.",
+    "choices": [
+      "2",
+      "4",
+      "8",
+      "12"
+    ],
+    "answer": [
+      "2",
+      "4",
+      "8",
+      "12"
+    ],
+    "explanation": "2 < 4 < 8 < 12 순서입니다. 실제 개선 우선순위는 점수 외에 현장 조건과 즉각적인 위험도 함께 확인합니다.",
+    "certification_routes": [
+      {
+        "target": "industrial-safety-engineer",
+        "area": "risk"
+      },
+      {
+        "target": "construction-safety-engineer",
+        "area": "risk"
+      }
+    ],
+    "calculation": {
+      "formula": "ascending",
+      "inputs": [
+        2,
+        4,
+        8,
+        12
+      ],
+      "result": [
+        2,
+        4,
+        8,
+        12
+      ]
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-ELEC-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "electrical_formula",
+    "learning_target": "이상적인 저항 회로에서 전류 I = 전압 V ÷ 저항 R. 24V, 8Ω일 때 전류 타일로 이동하세요.",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "이상적인 저항 회로에서 전류 I = 전압 V ÷ 저항 R. 24V, 8Ω일 때 전류 타일로 이동하세요.",
+    "choices": [
+      "3A",
+      "8A",
+      "16A",
+      "192A"
+    ],
+    "answer": "3A",
+    "explanation": "I = 24 ÷ 8 = 3A입니다. 기초 회로 계산 연습입니다.",
+    "certification_routes": [
+      {
+        "target": "industrial-safety-engineer",
+        "area": "electrical"
+      }
+    ],
+    "calculation": {
+      "formula": "quotient",
+      "inputs": [
+        24,
+        8
+      ],
+      "result": 3,
+      "unit": "A"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-ELEC-000002",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "electrical_formula",
+    "learning_target": "직류 회로의 전력 P = 전압 V × 전류 I. 12V, 2A일 때 전력은?",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "직류 회로의 전력 P = 전압 V × 전류 I. 12V, 2A일 때 전력은?",
+    "choices": [
+      "6W",
+      "14W",
+      "24W",
+      "120W"
+    ],
+    "answer": "24W",
+    "explanation": "P = 12 × 2 = 24W입니다. 단위 W는 와트입니다.",
+    "certification_routes": [
+      {
+        "target": "industrial-safety-engineer",
+        "area": "electrical"
+      }
+    ],
+    "calculation": {
+      "formula": "product",
+      "inputs": [
+        12,
+        2
+      ],
+      "result": 24,
+      "unit": "W"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-MECH-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "mechanical_formula",
+    "learning_target": "운동에너지 E = ½ × 질량 × 속력². 질량 2kg, 속력 3m/s인 물체의 에너지는?",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "운동에너지 E = ½ × 질량 × 속력². 질량 2kg, 속력 3m/s인 물체의 에너지는?",
+    "choices": [
+      "3J",
+      "6J",
+      "9J",
+      "18J"
+    ],
+    "answer": "9J",
+    "explanation": "E = 0.5 × 2 × 3² = 9J입니다. 속력이 두 배면 운동에너지는 네 배가 됩니다.",
+    "certification_routes": [
+      {
+        "target": "industrial-safety-engineer",
+        "area": "mechanical"
+      }
+    ],
+    "calculation": {
+      "formula": "kinetic",
+      "inputs": [
+        2,
+        3
+      ],
+      "result": 9,
+      "unit": "J"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-CONST-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "construction_calculation",
+    "learning_target": "직육면체 모형의 부피 = 가로 × 세로 × 높이. 4m × 2m × 0.5m 모형의 부피는?",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "직육면체 모형의 부피 = 가로 × 세로 × 높이. 4m × 2m × 0.5m 모형의 부피는?",
+    "choices": [
+      "2m³",
+      "4m³",
+      "6m³",
+      "8m³"
+    ],
+    "answer": "4m³",
+    "explanation": "4 × 2 × 0.5 = 4m³입니다. 단순 모형의 기하 계산이며 현장 타설량 산정은 별도 조건이 필요합니다.",
+    "certification_routes": [
+      {
+        "target": "construction-safety-engineer",
+        "area": "construction-method"
+      },
+      {
+        "target": "industrial-safety-engineer",
+        "area": "construction"
+      }
+    ],
+    "calculation": {
+      "formula": "product",
+      "inputs": [
+        4,
+        2,
+        0.5
+      ],
+      "result": 4,
+      "unit": "m³"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-CONST-000002",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "construction_calculation",
+    "learning_target": "경사 모형의 세로:가로 비가 1:2예요. 세로 3m라면 가로 길이 타일로 이동하세요.",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "경사 모형의 세로:가로 비가 1:2예요. 세로 3m라면 가로 길이 타일로 이동하세요.",
+    "choices": [
+      "1.5m",
+      "3m",
+      "6m",
+      "9m"
+    ],
+    "answer": "6m",
+    "explanation": "1:2 비율에서 세로 3m에 대응하는 가로는 3 × 2 = 6m입니다. 모형의 비례 계산이며 실제 굴착면의 안전 기울기 기준을 제시하는 문제가 아닙니다.",
+    "certification_routes": [
+      {
+        "target": "construction-safety-engineer",
+        "area": "construction"
+      },
+      {
+        "target": "industrial-safety-engineer",
+        "area": "construction"
+      }
+    ],
+    "calculation": {
+      "formula": "product",
+      "inputs": [
+        3,
+        2
+      ],
+      "result": 6,
+      "unit": "m"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "CERT-MAT-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "certification",
+    "domain": "materials_calculation",
+    "learning_target": "밀도 = 질량 ÷ 부피. 질량 12kg, 부피 0.005m³인 모형 재료의 밀도는?",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "밀도 = 질량 ÷ 부피. 질량 12kg, 부피 0.005m³인 모형 재료의 밀도는?",
+    "choices": [
+      "60kg/m³",
+      "600kg/m³",
+      "1200kg/m³",
+      "2400kg/m³"
+    ],
+    "answer": "2400kg/m³",
+    "explanation": "12 ÷ 0.005 = 2400kg/m³입니다. 이 문항에 주어진 모형의 값이며 모든 재료의 밀도를 뜻하지 않습니다.",
+    "certification_routes": [
+      {
+        "target": "construction-safety-engineer",
+        "area": "materials"
+      }
+    ],
+    "calculation": {
+      "formula": "quotient",
+      "inputs": [
+        12,
+        0.005
+      ],
+      "result": 2400,
+      "unit": "kg/m³"
+    },
+    "content_origin": "original",
+    "source_reference": "original_certification_foundation",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "formula_and_unit_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  }
+]

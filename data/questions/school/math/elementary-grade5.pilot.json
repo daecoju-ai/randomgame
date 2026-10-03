@@ -1,0 +1,95 @@
+[
+  {
+    "id": "E5-MATH-EXT-000001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "2/3 + 1/6는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "2/3 + 1/6는 얼마일까요?",
+    "choices": [
+      "3/9",
+      "1/2",
+      "5/6",
+      "1"
+    ],
+    "answer": "5/6",
+    "explanation": "2/3 + 1/6 = 5/6.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E5-MATH-EXT-000002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "1.5 × 4는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "1.5 × 4는 얼마일까요?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "explanation": "1.5 × 4 = 6.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E5-MATH-EXT-000003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "가로 8cm, 세로 5cm인 직사각형의 넓이는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 8cm, 세로 5cm인 직사각형의 넓이는 얼마일까요?",
+    "choices": [
+      "13cm²",
+      "26cm²",
+      "35cm²",
+      "40cm²"
+    ],
+    "answer": "40cm²",
+    "explanation": "가로 8cm, 세로 5cm인 직사각형의 넓이 = 40cm².",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  }
+]

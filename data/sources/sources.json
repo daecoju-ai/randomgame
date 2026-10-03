@@ -35,5 +35,20 @@
     "name": "자체 제작 영어 시범문장",
     "purpose": "단어 순서 듣기 프로토타입",
     "copy_into_question_bank": true
+  },
+  {
+    "id": "original_learning_pilot",
+    "name": "자체 제작 어휘·안전·공식 체험",
+    "purpose": "학습게임 시범 콘텐츠, 공식 기출문제 아님",
+    "copy_into_question_bank": true
+  },
+  {
+    "id": "labor_article17",
+    "name": "근로기준법 제17조 제2항",
+    "purpose": "원문을 복제하지 않은 상황 문제의 법적 기준",
+    "url": "https://www.law.go.kr/LSW/lsLinkCommonInfo.do?lsJoLnkSeq=1029728107",
+    "effective_date": "2026-10-02",
+    "data_checked_at": "2026-10-04",
+    "copy_into_question_bank": false
   }
 ]

@@ -18,3 +18,5 @@ mobile/signing/
 
 __pycache__/
 *.pyc
+
+/public/learning-data/source-status.json

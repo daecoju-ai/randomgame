@@ -1,0 +1,95 @@
+[
+  {
+    "id": "KOR-WORD-000001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "korean",
+    "domain": "word_meaning",
+    "learning_target": "친구와 정한 일을 지키기로 했어요. 어떤 말일까요?",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "친구와 정한 일을 지키기로 했어요. 어떤 말일까요?",
+    "choices": [
+      "약속",
+      "휴식",
+      "계절",
+      "거리"
+    ],
+    "answer": "약속",
+    "explanation": "약속은 서로 무엇을 하기로 정하는 일이에요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "KOR-WORD-000002",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "korean",
+    "domain": "antonym",
+    "learning_target": "문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.",
+    "choices": [
+      "닫다",
+      "읽다",
+      "걷다",
+      "웃다"
+    ],
+    "answer": "닫다",
+    "explanation": "열린 문을 반대로 닫는 행동은 ‘닫다’예요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "KOR-WORD-000003",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "korean",
+    "domain": "word_usage",
+    "learning_target": "무거운 짐을 함께 들어 주었어요. 이 행동은?",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "무거운 짐을 함께 들어 주었어요. 이 행동은?",
+    "choices": [
+      "도움",
+      "경쟁",
+      "소음",
+      "지각"
+    ],
+    "answer": "도움",
+    "explanation": "다른 사람이 일을 할 수 있도록 힘을 보태는 행동이에요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  }
+]

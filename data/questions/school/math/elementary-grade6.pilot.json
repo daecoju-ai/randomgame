@@ -1,0 +1,95 @@
+[
+  {
+    "id": "E6-MATH-EXT-000001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "3/4 ÷ 1/2는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "3/4 ÷ 1/2는 얼마일까요?",
+    "choices": [
+      "3/8",
+      "3/4",
+      "3/2",
+      "2/3"
+    ],
+    "answer": "3/2",
+    "explanation": "3/4 ÷ 1/2 = 3/2.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E6-MATH-EXT-000002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "2.4 ÷ 0.6는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "2.4 ÷ 0.6는 얼마일까요?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "2.4 ÷ 0.6 = 4.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E6-MATH-EXT-000003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "40명 중 10명의 비율을 백분율로 나타내면는 얼마일까요?",
+    "difficulty": 5,
+    "game_type": "TILE_CHOICE",
+    "question": "40명 중 10명의 비율을 백분율로 나타내면는 얼마일까요?",
+    "choices": [
+      "10%",
+      "20%",
+      "25%",
+      "40%"
+    ],
+    "answer": "25%",
+    "explanation": "40명 중 10명의 비율을 백분율로 나타내면 = 25%.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  }
+]

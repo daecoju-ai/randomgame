@@ -1,0 +1,24 @@
+{
+  "checkedAt": "2026-10-03T23:13:08.988Z",
+  "environment": "production",
+  "results": [
+    {
+      "provider": "krdict",
+      "status": "ok"
+    },
+    {
+      "provider": "stdict",
+      "status": "ok"
+    },
+    {
+      "provider": "law",
+      "status": "provider_rejected",
+      "providerCode": "04"
+    },
+    {
+      "provider": "qnet",
+      "status": "connection_failed",
+      "reason": "network"
+    }
+  ]
+}

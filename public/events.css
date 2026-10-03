@@ -6,3 +6,6 @@
 #kingCampaign p .premiumIcon{display:inline-block!important;vertical-align:middle;margin:0 4px}#kingCampaign p b{display:inline!important}#kingCampaign p{display:block!important}
 
 .miniRollFlash{top:20%;font-size:18px;padding:12px}.miniRollFlash canvas{width:120px;height:130px}
+
+/* Direct battlefield interaction without separate placement controls. */
+.miniArena{width:min(100%,51dvh);max-height:68dvh;touch-action:none}.miniDialog{padding:10px}.miniStats{padding:7px 0}.miniInstructions{margin:5px 0}.miniHP{margin:7px 0}

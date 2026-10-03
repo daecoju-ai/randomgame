@@ -4,14 +4,15 @@ declare kind text:=c->>'kind';dur int:=case when kind='luck' then 90 else 60 end
 begin
 if jsonb_typeof(actions) is distinct from 'array' or jsonb_array_length(actions)>120 then raise exception 'Invalid event actions';end if;
 for a in select value from jsonb_array_elements(actions) loop
- if jsonb_typeof(a->'t') is distinct from 'number' or (a->>'t') !~ '^\d+$' or (a->>'t')::int<last_t or (a->>'t')::int>=dur or a->>'kind' not in('place','spin') or (a->>'slot') !~ '^[0-5]$' then raise exception 'Invalid action time';end if;last_t:=(a->>'t')::int;
+ if jsonb_typeof(a->'t') is distinct from 'number' or (a->>'t') !~ '^\d+$' or (a->>'t')::int<last_t or (a->>'t')::int>=dur or a->>'kind' not in('place','spin','swap') or (a->>'slot') !~ '^[0-5]$' then raise exception 'Invalid action time';end if;last_t:=(a->>'t')::int;
 end loop;
 hp:=case when kind='slime' then 90000 when kind='mine' then ore[1] else 240 end;maxhp:=hp;
 if formation or coalesce((c->>'legends')::int=48,false) then for i in 1..6 loop us[i]:=c->'roster'->(i-1)||jsonb_build_object('index',i-1);end loop;end if;
 for t in 0..dur-1 loop
  for a in select value from jsonb_array_elements(actions) where (value->>'t')::int=t loop
  si:=(a->>'slot')::int+1;
- if a->>'kind'='place' and kind<>'luck' then
+ if a->>'kind'='swap' and coalesce((c->>'controls')::int=49,false) then if (a->>'from') !~ '^[0-5]$' then raise exception 'Invalid swap source';end if;from_slot:=(a->>'from')::int+1;tmp:=us[si];us[si]:=us[from_slot];us[from_slot]:=tmp;
+ elsif a->>'kind'='place' and kind<>'luck' then
  if (a->>'index') !~ '^\d+$' then raise exception 'Invalid roster selection';end if;idx:=(a->>'index')::int;u:=c->'roster'->idx;
  if (formation or coalesce((c->>'legends')::int=48,false)) and u is not null then from_slot:=null;for j in 1..6 loop if (us[j]->>'index')::int=idx then from_slot:=j;end if;end loop;if from_slot is not null then tmp:=us[si];us[si]:=us[from_slot];us[from_slot]:=tmp;end if;
  elsif u is not null then duplicate:=false;for j in 1..6 loop if j<>si and (us[j]->>'index')::int=idx then duplicate:=true;end if;end loop;if not duplicate then us[si]:=u||jsonb_build_object('index',idx);end if;end if;
@@ -31,9 +32,9 @@ for t in 0..dur-1 loop
  end loop;
  damage:=damage+total;
  if kind='slime' then hp:=greatest(0,hp-total);n:=((seed*16807+t*9973)%2147483647)%1000;gold:=gold+(total/220)*case when n<8 then 12 when n<80 then 5 when n<320 then 2 else 1 end;
- if hp=0 and not king then king:=true;kingat:=t+1;gold:=gold+150;end if;if not king then progress:=progress+.019*(1-control);end if;
+ if hp=0 and not king then king:=true;kingat:=t+1;gold:=gold+150;end if;if not king then progress:=progress+(case when coalesce((c->>'controls')::int=49,false) then .070 else .019 end)*(1-control);end if;
  elsif kind='mine' then hit:=total;while hit>0 and stage<7 loop take:=least(hp,hit);hp:=hp-take;hit:=hit-take;if hp=0 then stage:=stage+1;hp:=case when stage<7 then ore[stage+1] else 0 end;maxhp:=hp;end if;end loop;
- else hit:=total;while hit>0 loop take:=least(hp,hit);hp:=hp-take;hit:=hit-take;if hp=0 then kills:=kills+1;maxhp:=240+kills*45;hp:=maxhp;end if;end loop;progress:=progress+.03*(1-control);if progress>=1 then progress:=0;life:=life-1;hp:=maxhp;end if;end if;
+ else hit:=total;while hit>0 loop take:=least(hp,hit);hp:=hp-take;hit:=hit-take;if hp=0 then kills:=kills+1;maxhp:=240+kills*45;hp:=maxhp;end if;end loop;progress:=progress+(case when coalesce((c->>'controls')::int=49,false) then .070 else .03 end)*(1-control);if progress>=1 then progress:=0;life:=life-1;hp:=maxhp;end if;end if;
 end loop;
 return jsonb_build_object('damage',damage,'gold',gold,'stage',stage,'hp',hp,'kills',kills,'life',life,'king',king,'kingAt',kingat,'history',hist,'unitDamage',unitdamage,'grade',case when damage>=90000 then 'S' when damage>=55000 then 'A' when damage>=25000 then 'B' else 'C' end);
 end $$;
@@ -57,7 +58,7 @@ if p_action='start' then
  -- Main battle results stay available for delayed settlement.
  foreach typ in array array[8,10,0,7,9,1] loop roster:=roster||jsonb_build_array(private.event_unit(typ,5,g));end loop;
 
- conf:=jsonb_build_object('kind',k,'seed',floor(random()*1000000)::int+1,'growth',jsonb_build_object('levels',w.levels,'skills',w.skills,'unitStars',w.unit_stars),'roster',roster,'legends',48)||case when k='slime' then '{"formation":47}'::jsonb else '{}'::jsonb end;
+ conf:=jsonb_build_object('kind',k,'seed',floor(random()*1000000)::int+1,'growth',jsonb_build_object('levels',w.levels,'skills',w.skills,'unitStars',w.unit_stars),'roster',roster,'legends',48,'controls',49)||case when k='slime' then '{"formation":47}'::jsonb else '{}'::jsonb end;
  insert into private.event_runs(user_id,id,day,kind,config) values(uid,p_request,today,k,conf);p.active_run:=p_request;p.used:=jsonb_set(p.used,array[k],to_jsonb(n+1));end if;
 elsif p_action='finish' then
  select * into run from private.event_runs where user_id=uid and id=(p_payload->>'run')::uuid for update;

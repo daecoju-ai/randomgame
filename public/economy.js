@@ -42,6 +42,7 @@ async function request(action,count=1){if(busy||!owner||window.ForgeGame.inBattl
  await load();
  }catch(e){if(token!==epoch)return;if(e.code==='TICKETS'||(e.status>=400&&e.status<500))localStorage.removeItem(pendingKey(account));notice=(e.message||'연결을 확인해 주세요.')+(pending()?' 동일 요청 재확인으로 결과를 복구할 수 있습니다.':'');}finally{if(token===epoch){busy=false;render()}}}
 window.ForgeEconomy={
+ async refresh(){owner=window.ForgeAccount?.currentUser()?.id||null;if(owner)await load()},
  accountChanged(id){epoch++;owner=id;state=null;battleOwned={};busy=false;notice=id?'부적 화면을 열어 보유 효과를 확인하세요.':'로그인하면 부적을 영구 보관할 수 있습니다.';render()},
  async beforeBattle(){owner=window.ForgeAccount?.currentUser()?.id||null;if(!owner){battleOwned={};return true}try{await load();if(!state||state.owner!==owner)return false;battleOwned={...state.owned};return true}catch(e){window.ForgeUX?.entryError('부적 정보를 불러오지 못했습니다. 연결을 확인한 뒤 다시 눌러 주세요.');return false}},
  bonus(element,stat){return T.totals(battleOwned,element,window.ForgeAdventure?.battleTalismanLevels())[stat]||0}

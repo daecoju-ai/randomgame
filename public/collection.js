@@ -25,7 +25,7 @@ hiddenCards();
 function rotate(){if(document.hidden||$('#startScreen').hidden)return;const type=[12,13,14,15,16][rotation++%5];window.ForgeHome.showFeatured(type)}
 rotate();setInterval(rotate,6000);
 for(const atlas of [paintedAtlas,specialAtlas])atlas?.addEventListener('load',()=>{paint();hiddenCards()});
-window.ForgeCollection={open:openAlbum};
+window.ForgeCollection={open:openAlbum,detail(type,tier){albumFilter='all';const list=entries();albumIndex=list.findIndex(u=>u.type===type&&u.lv===tier);if(albumIndex<0)albumIndex=0;closeHubs();detail();$('#albumDetailDialog').showModal()}};
 })();
 // Arrow keys turn the full-screen archive without changing collection filters.
 document.querySelector('#albumDetailDialog').addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();document.querySelector(e.key==='ArrowLeft'?'#albumPrev':'#albumNext').click()}});

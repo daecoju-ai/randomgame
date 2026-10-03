@@ -16,9 +16,9 @@ if old_run is not null then
  again:=public.forge_learning('finish',gen_random_uuid(),jsonb_build_object('run',old_run,'events','[{"kind":"pick","token":"5","ms":0}]'::jsonb));if again->>'error'<>'RUN' then raise exception 'old completion replay accepted';end if;
 end if;old_run:=run;
 end loop;
-if (select count(*) from private.learning_sessions where user_id=uid)<>1 then raise exception 'session accumulated';end if;
+if (select count(*) from private.learning_current where user_id=uid)<>1 then raise exception 'session accumulated';end if;
 if exists(select 1 from private.learning_mastery where user_id=uid) then raise exception 'question stats stored';end if;
-if exists(select 1 from private.learning_sessions where user_id=uid and (question_id<>'' or prefixes<>'[]'::jsonb or events is not null)) then raise exception 'question history stored';end if;
+if exists(select 1 from private.learning_current where user_id=uid and (question_id<>'' or prefixes<>'[]'::jsonb or events is not null)) then raise exception 'question history stored';end if;
 if (select gold from private.adventure_wallets where user_id=uid)<>132 then raise exception 'wallet total';end if;
 perform public.forge_learning('profile',gen_random_uuid(),'{"preferences":{"school":"elementary","grade":1,"subjects":["math"]}}');v:=public.forge_learning('load',null,'{}');if v ? 'mastery' or v->'profile'->>'grade'<>'1' then raise exception 'profile/statistics wrong';end if;
 end $test$;

@@ -24,4 +24,3 @@ perform public.forge_learning('profile',gen_random_uuid(),'{"preferences":{"scho
 end $test$;
 select 'PASS: 103 completions, one session, no question history, no mastery, idempotent rewards, retired start/finish rejected, freely changed profile (rollback)' as checks;
 rollback;
-

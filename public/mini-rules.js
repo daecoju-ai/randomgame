@@ -11,7 +11,7 @@ function roster(g){return BASE.map(t=>unit(t,4,g)).concat(Array.from({length:17}
 function draw(config,t){const r=hash(config.seed,t),n=r%1000,tier=n<20?5:n<80?4:n<250?3:n<550?2:1,type=tier===5?Math.floor(r/1000)%17:BASE[Math.floor(r/1000)%6];return unit(type,tier,config.growth)}
 function pos(slot){return{x:slot%2?40:20,y:30+Math.floor(slot/2)*20}}
 function path(p){let d=((p%1)+1)%1*280;if(d<50)return{x:5+d,y:5};d-=50;if(d<90)return{x:55,y:5+d};d-=90;if(d<50)return{x:55-d,y:95};return{x:5,y:95-(d-50)}}
-function create(config){return{config,t:0,units:Array(6).fill(null),actions:[],damage:0,gold:0,stage:0,hp:config.kind==='slime'?90000:config.kind==='mine'?ORE[0]:1400,maxHp:config.kind==='slime'?90000:config.kind==='mine'?ORE[0]:1400,kills:0,king:false,kingAt:null,spins:0,lastSpin:-8,progress:0,hits:[],history:[],unitDamage:{},life:30}}
+function create(config){return{config,t:0,units:Array(6).fill(null),actions:[],damage:0,gold:0,stage:0,hp:config.kind==='slime'?90000:config.kind==='mine'?ORE[0]:240,maxHp:config.kind==='slime'?90000:config.kind==='mine'?ORE[0]:240,kills:0,king:false,kingAt:null,spins:0,lastSpin:-8,progress:0,hits:[],history:[],unitDamage:{},life:30}}
 function tick(s,actions=[]){const t=s.t,c=s.config;s.hits=[];
 for(const a of actions){if(a.t!==t||!Number.isInteger(a.slot)||a.slot<0||a.slot>5)throw Error('잘못된 배치 기록');if(a.kind==='place'&&c.kind!=='luck'){if(!Number.isInteger(a.index)||!c.roster[a.index]||s.units.some((u,i)=>i!==a.slot&&u?.index===a.index))continue;s.units[a.slot]={...c.roster[a.index],index:a.index}}else if(a.kind==='spin'&&c.kind==='luck'&&t-s.lastSpin>=8&&s.spins<12){const u=draw(c,t);s.units[a.slot]=u;s.spins++;s.lastSpin=t;s.history.push({...u,at:t})}}
 let point=c.kind==='mine'?{x:30,y:50}:path(s.progress),total=0,control=0;
@@ -21,7 +21,7 @@ let hit=Math.floor(u.dps*buff*(c.kind==='slime'?100/180*2.4:1));if(c.kind==='sli
 s.damage+=total;
 if(c.kind==='slime'){s.hp=Math.max(0,s.hp-total);const n=hash(c.seed,t)%1000,m=n<8?12:n<80?5:n<320?2:1;s.gold+=Math.floor(total/220)*m;if(s.hp===0&&!s.king){s.king=true;s.kingAt=t+1;s.gold+=150}if(!s.king)s.progress+=.019*(1-control)}
 else if(c.kind==='mine'){let hit=total;while(hit>0&&s.stage<7){const take=Math.min(s.hp,hit);s.hp-=take;hit-=take;if(s.hp===0){s.stage++;s.hp=s.stage<7?ORE[s.stage]:0;s.maxHp=s.hp}}}
-else{let hit=total;while(hit>0){const take=Math.min(s.hp,hit);s.hp-=take;hit-=take;if(s.hp===0){s.kills++;s.maxHp=1400+s.kills*170;s.hp=s.maxHp}}s.progress+=.03*(1-control);if(s.progress>=1){s.progress=0;s.life--;s.hp=s.maxHp}}
+else{let hit=total;while(hit>0){const take=Math.min(s.hp,hit);s.hp-=take;hit-=take;if(s.hp===0){s.kills++;s.maxHp=240+s.kills*45;s.hp=s.maxHp}}s.progress+=.03*(1-control);if(s.progress>=1){s.progress=0;s.life--;s.hp=s.maxHp}}
 s.t++;return s}
 function replay(config,actions){if(!Array.isArray(actions)||actions.length>120)throw Error('행동 기록 초과');let last=-1;for(const a of actions){if(!Number.isInteger(a.t)||a.t<last||a.t<0||a.t>=duration(config.kind)||!['place','spin'].includes(a.kind))throw Error('잘못된 행동 시간');last=a.t}const s=create(config);for(let t=0;t<duration(config.kind);t++)tick(s,actions.filter(a=>a.t===t));return s}
 const grade=d=>d>=90000?'S':d>=55000?'A':d>=25000?'B':'C';

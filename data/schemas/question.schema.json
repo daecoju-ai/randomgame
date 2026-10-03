@@ -1,0 +1,141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Learning Question",
+  "type": "object",
+  "required": [
+    "id",
+    "curriculum",
+    "school",
+    "grade",
+    "subject",
+    "domain",
+    "learning_target",
+    "difficulty",
+    "game_type",
+    "question",
+    "answer",
+    "content_origin",
+    "source_reference",
+    "license",
+    "review_status",
+    "version"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Z0-9_-]+$"
+    },
+    "curriculum": {
+      "type": "string"
+    },
+    "school": {
+      "enum": [
+        "elementary",
+        "middle",
+        "high",
+        "general"
+      ]
+    },
+    "grade": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    },
+    "subject": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "learning_target": {
+      "type": "string"
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "game_type": {
+      "enum": [
+        "multiple_choice",
+        "short_answer",
+        "tile_order",
+        "true_false",
+        "matching",
+        "TILE_SEQUENCE",
+        "TILE_CHOICE",
+        "MATCHING",
+        "ORDERING",
+        "MULTIPLE_CHOICE",
+        "TARGET_SELECT"
+      ]
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "choices": {
+      "type": "array",
+      "items": {
+        "type": [
+          "string",
+          "number"
+        ]
+      }
+    },
+    "answer": {},
+    "explanation": {
+      "type": "string"
+    },
+    "content_origin": {
+      "enum": [
+        "original",
+        "public_data",
+        "licensed"
+      ]
+    },
+    "source_reference": {
+      "type": "string"
+    },
+    "license": {
+      "type": "string"
+    },
+    "review_status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "published"
+      ]
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "effective_date": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "article_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "data_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

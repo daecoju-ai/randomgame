@@ -1,0 +1,105 @@
+[
+  {
+    "id": "E3-MATH-NUM-000001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "곱셈을 이용해 간단한 계산 문제를 해결한다",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "24 × 3은 얼마일까요?",
+    "choices": [
+      "62",
+      "72",
+      "82",
+      "92"
+    ],
+    "answer": "72",
+    "explanation": "24를 3번 더하면 72입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "version": 2,
+    "tags": [
+      "multiplication"
+    ],
+    "release_channel": "pilot",
+    "review": {
+      "method": "arithmetic_check_and_editorial_review",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E3-MATH-NUM-000002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "나눗셈을 이용해 똑같이 나누는 상황을 해결한다",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 20개를 5명에게 똑같이 나누면 한 명이 몇 개씩 받을까요?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "20을 5명에게 똑같이 나누면 20 ÷ 5 = 4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "version": 2,
+    "tags": [
+      "division"
+    ],
+    "release_channel": "pilot",
+    "review": {
+      "method": "arithmetic_check_and_editorial_review",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "E3-MATH-NUM-000003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "곱셈식의 빈칸에 알맞은 수를 찾는다",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "6 × □ = 42에서 □에 들어갈 수를 고르세요.",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "6 × 7 = 42입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "version": 2,
+    "tags": [
+      "multiplication",
+      "tile"
+    ],
+    "release_channel": "pilot",
+    "review": {
+      "method": "arithmetic_check_and_editorial_review",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    }
+  }
+]

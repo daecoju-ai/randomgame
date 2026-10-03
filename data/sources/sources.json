@@ -1,0 +1,39 @@
+[
+  {
+    "id": "moe_2022_curriculum",
+    "name": "교육부 2022 개정 교육과정",
+    "purpose": "학습 범위 및 출제 기준 확인용",
+    "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0",
+    "copy_into_question_bank": false
+  },
+  {
+    "id": "krdict",
+    "name": "국립국어원 한국어기초사전 Open API",
+    "purpose": "국어 어휘 학습 데이터",
+    "url": "https://krdict.korean.go.kr/kor/openApi/openApiInfo"
+  },
+  {
+    "id": "stdict",
+    "name": "국립국어원 표준국어대사전 Open API",
+    "purpose": "상세 어휘 및 전문용어",
+    "url": "https://stdict.korean.go.kr/openapi/openApiInfo.do"
+  },
+  {
+    "id": "law_open",
+    "name": "국가법령정보 공동활용",
+    "purpose": "법률 학습 기준 데이터",
+    "url": "https://open.law.go.kr/"
+  },
+  {
+    "id": "qnet_exam",
+    "name": "한국산업인력공단 국가기술자격 시험정보",
+    "purpose": "자격 종목/시험 메타정보",
+    "url": "https://www.data.go.kr/data/15003029/openapi.do"
+  },
+  {
+    "id": "original_english_pilot",
+    "name": "자체 제작 영어 시범문장",
+    "purpose": "단어 순서 듣기 프로토타입",
+    "copy_into_question_bank": true
+  }
+]

@@ -24,7 +24,7 @@ function render(){
  document.querySelectorAll('[data-auth-mode]').forEach(b=>{b.disabled=busy;b.classList.toggle('active',b.dataset.authMode===mode)});
  const social=$('#socialLogin');if(social)social.hidden=!!user||!configured||checking||!['signin','signup'].includes(mode);
  $('#accountResend').disabled=busy;$('#accountClose').disabled=busy;
- $('#accountBadge').textContent=user?'내 계정':'로그인 / 회원가입';if(user&&!checking&&!locked&&!dirty&&!saving&&!game.inBattle())window.ForgeAdventure?.accountReady(user.id);
+ $('#accountBadge').textContent='내 계정';if(user&&!checking&&!locked&&!dirty&&!saving&&!game.inBattle())window.ForgeAdventure?.accountReady(user.id);
 }
 function setMode(next){mode=next;$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';message('');render()}
 function open(){if(game.inBattle())game.pause();returnFocus=document.activeElement;render();if(!dialog.open)dialog.showModal();$('#accountEmail').focus()}

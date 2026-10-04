@@ -1,0 +1,104 @@
+/* Viewport layouts: content stays reachable through page controls. */
+html,body{height:100%;overflow:hidden;overscroll-behavior:none}
+body,body *{user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+input,textarea,[contenteditable=true],input *,textarea *,[contenteditable=true] *{user-select:text;-webkit-user-select:text;-webkit-touch-callout:default}
+button,a{touch-action:manipulation}
+#startScreen{height:100dvh!important;min-height:0!important;box-sizing:border-box;overflow:hidden!important;display:flex;justify-content:flex-start!important;gap:7px!important;padding:max(10px,env(safe-area-inset-top)) 12px max(6px,env(safe-area-inset-bottom))!important}
+#startScreen>*{width:100%;max-width:560px;flex-shrink:0}
+#startScreen .lobbyTop{display:block;min-height:0;margin:0;padding:0}
+#startScreen .lobbyTop h1{white-space:nowrap!important;font-size:clamp(18px,5.15vw,29px)!important;line-height:1.3;letter-spacing:-.8px;margin:0;text-align:center}
+.lobbyToolbar{display:flex;align-items:center;gap:6px;min-width:0}
+#startScreen .lobbyToolbar .headerWallet{display:flex;flex:1;justify-content:space-evenly;gap:4px;margin:0;min-width:0;order:0}
+#startScreen .lobbyToolbar .headerWallet>div{display:flex;align-items:center;gap:3px;min-width:0}
+#startScreen .headerWallet strong{font-size:14px;font-variant-numeric:tabular-nums}
+#startScreen .headerWallet [data-premium-icon]{width:20px;height:20px}
+#startScreen .lobbyToolbar #accountBadge{min-width:0;max-width:78px;min-height:36px;height:36px;padding:5px 8px;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#startScreen .lobbyToolbar #openMail,#startScreen .lobbyToolbar #lobbySound{width:36px;min-width:36px;height:36px;min-height:36px;max-height:36px;border:1px solid #91a8ab66;border-radius:12px;padding:6px;display:flex;align-items:center;justify-content:center;box-sizing:border-box;background:#1b3040;flex:none}
+#startScreen .lobbyToolbar #openMail span,#startScreen .lobbyToolbar #lobbySound span{width:24px;height:24px;font-size:24px;margin:0}
+#startScreen .lobbyCloudStatus{font-size:10px;line-height:13px;min-height:13px;margin:0;color:#a9bbc5;text-align:center;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#startScreen .lobbyOverview{display:grid;grid-template-columns:1fr 1fr;flex:1 1 auto;min-height:150px;max-height:360px!important;gap:8px;overflow:visible}
+#startScreen .lobbyShowcase,#startScreen .guardianLobby{min-height:0;padding:8px!important;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;overflow:visible!important}
+#startScreen #lobbyHero{position:static!important;transform:none!important;width:100%;height:auto!important;max-height:none!important;max-width:240px;flex:1 1 0;min-height:0;object-fit:contain;aspect-ratio:320/250}
+#startScreen .lobbyShowcase .showcaseLabel{font-size:8px;letter-spacing:.5px}
+#startScreen .lobbyShowcase h2{font-size:15px;line-height:1.25;margin:0;text-align:center}
+#startScreen .lobbyShowcase p,#startScreen #spiritFriends{display:none}
+#startScreen .guardianLobby>img{position:static!important;transform:none!important;width:100%!important;height:auto!important;flex:1 1 0;min-height:0;max-height:220px;object-fit:contain}
+#startScreen .guardianLobby>b{font-size:12px;line-height:1.3;text-align:center}
+#startScreen .guardianLobby>small{font-size:10px;line-height:1.3;text-align:center}
+#startScreen #guardianDetails{min-height:28px;padding:3px 8px;font-size:11px;flex-shrink:0}
+#startScreen .homePrimary{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+#startScreen .homePrimary button,#startScreen #startGame{display:grid;grid-template-columns:auto auto;align-content:center;justify-content:center;align-items:center;gap:2px 7px;min-height:58px;height:58px;padding:6px;border-radius:16px;font-size:19px}
+#startScreen .homePrimary button>span{grid-column:1;grid-row:1;font-size:23px;line-height:1}
+#startScreen .homePrimary button>b{grid-column:2;grid-row:1;font-size:19px}
+#startScreen .homePrimary button>small{grid-column:1/-1;grid-row:2;font-size:11px;line-height:1.3}
+#startScreen .homePrimary .learningMainEntry{height:51px;min-height:51px;grid-template-columns:1fr;gap:3px}
+#startScreen .homePrimary .learningMainEntry>b{grid-column:1;font-size:clamp(15px,4.2vw,20px)}
+#startScreen .featuredLegend>.legendCard{height:clamp(112px,19dvh,165px);min-height:112px;max-height:none!important;margin:0;padding:8px 12px;grid-template-columns:29% 1fr;gap:9px}
+#startScreen .legendCard canvas{width:100%;height:auto;max-height:140px;object-fit:contain;aspect-ratio:220/190}
+#startScreen .legendCard b{font-size:15px;margin:3px 0}
+#startScreen .legendCard p,#startScreen .legendCard small,#startScreen .legendCard .legendPower{font-size:11px;line-height:1.3;margin:3px 0}
+#startScreen .legendCard .legendPrice{font-size:15px}
+#startScreen .legendCard .legendPrice em{font-size:10px}
+#startScreen .versionLabel{font-size:10px;line-height:14px;margin:0;text-align:center}
+/* Paged dialogs retain their original nodes and event handlers. */
+:is(dialog[open],.screen:not([hidden]),#drawer,#recipeOverlay,#finish:not([hidden])).viewportShell[data-viewport-open]{position:fixed!important;inset:0!important;margin:0!important;width:100%!important;max-width:none!important;height:var(--ui-height,100dvh)!important;max-height:none!important;box-sizing:border-box;border-radius:0!important;padding:max(12px,env(safe-area-inset-top)) 14px max(8px,env(safe-area-inset-bottom))!important;overflow:hidden!important;display:flex!important;flex-direction:column;gap:8px}
+.viewportShell>.viewportHeading{flex:none;position:relative!important;inset:auto!important;transform:none!important;margin:0!important;padding:0!important;width:100%;max-width:none}
+.viewportShell>.viewportHeading h2{font-size:21px;margin:0}
+.viewportShell>.viewportWindow{flex:1;min-height:0;min-width:0;width:100%;overflow:hidden;position:relative}
+.viewportContent{height:100%;width:100%;column-width:var(--page-width);column-count:auto;column-gap:20px;column-fill:auto;overflow:visible}
+.viewportContent>*{margin-top:0;max-width:100%}
+.viewportContent :is(article,button,figure,label,input,select,textarea,.card,.mailItem,.learningPack){break-inside:avoid}
+.viewportContent :is(.hubGrid,.shopCollectionLinks,.cards,.labLayout,.albumSkills,.storePlans,.talismanActions,.miniCards,#unitAlbumGrid,#hiddenCollectionCards,#talismanCards,#unitCollection,#missionCards,#attendanceCards,#learningPacks,#learnCertificationResults){display:block!important;overflow:visible!important;max-height:none!important}
+.viewportContent :is(.hubGrid,.shopCollectionLinks,.cards,.miniCards,#unitAlbumGrid,#hiddenCollectionCards,#talismanCards,#unitCollection,#missionCards,#attendanceCards,#learningPacks,#learnCertificationResults)>*{width:100%;margin-bottom:8px;break-inside:avoid}
+.viewportContent :is(.labFilters,.albumFilters,.purchaseCategories,.talismanElements,.learningCategories,#recipeFilters){display:flex;flex-wrap:wrap;overflow:visible!important}
+.viewportContent #labDetail{position:static;break-inside:auto}
+.viewportContent :is(.sectionDisclosure,details,section,form){break-inside:auto;max-height:none;overflow:visible}
+.viewportContent :is(pre,p){white-space:normal;overflow-wrap:anywhere}
+.viewportNavigation{flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;width:100%;padding-top:5px;border-top:1px solid #8eaaa755}
+.viewportNavigation button{min-height:40px;min-width:58px;padding:6px 14px;border-radius:12px;font-size:20px;touch-action:manipulation}
+.viewportNavigation span{font-size:12px}
+.viewportNavigation button:disabled{opacity:.3}
+#sponsorDialog .viewportContent>a{display:block;height:calc(100% - 120px);min-height:180px;break-inside:avoid}
+#sponsorDialog .viewportContent>a img{width:100%;height:100%;max-height:none!important;object-fit:contain}
+#sponsorDialog .viewportContent p{font-size:12px;line-height:1.4;margin:5px 0}
+#miniDialog .viewportContent #miniArena{height:min(49dvh,430px);width:100%;object-fit:contain;max-height:none}
+#miniDialog .viewportContent .miniStats{margin:4px 0}
+#miniDialog .viewportContent .miniInstructions{font-size:11px;margin:4px 0}
+#driveGame{height:100dvh}#finish{max-height:80dvh}
+@media(max-height:650px){#startScreen{gap:5px!important}#startScreen .lobbyOverview{min-height:142px}#startScreen .lobbyShowcase h2{font-size:13px}#startScreen .guardianLobby>small{display:none}#startScreen .featuredLegend>.legendCard{height:112px}#quiz .ans{padding:5px;margin:3px 0}#quiz #feedback{min-height:1em}}
+
+.viewportContent .recipeGrid{display:block}.viewportContent .recipeCard{break-inside:avoid;margin-bottom:8px}
+
+#startScreen .lobbyToolbar #accountBadge{border:1px solid #91a8ab66;border-radius:12px;background:#1b3040;color:#f4e5b9;font-weight:700;text-align:center}
+#startScreen .lobbyToolbar .headerWallet{border:0;padding:0;background:none}
+#startScreen .lobbyOverview{overflow:hidden}
+#startScreen .featuredLegend>.legendCard{height:clamp(140px,19dvh,165px);min-height:140px;opacity:1!important}
+#startScreen .legendCard>div{display:flex;flex-direction:column;justify-content:center;gap:3px}
+#startScreen .legendCard b,#startScreen .legendCard p,#startScreen .legendCard small,#startScreen .legendCard .legendPower,#startScreen .legendCard .legendPrice{margin:0!important}
+#startScreen .legendCard .legendPrice{min-height:24px}
+#startScreen .legendCard .legendSkill{font-size:11px}
+
+#startScreen .lobbyOverview{max-height:none!important}
+.viewportContent h3{break-after:avoid}
+.viewportContent canvas:not(#miniArena){max-width:100%;height:auto}
+
+.viewportShell .hubGrid>button{min-height:76px;padding:10px;gap:4px;font-size:16px}
+.viewportShell .hubGrid>button span{font-size:23px;line-height:1}
+.viewportShell .hubGrid>button b{font-size:18px}
+.viewportShell .hubGrid>button small{font-size:12px}
+.viewportContent .rewardCard{break-inside:auto}
+.viewportContent .rewardMetrics{margin:8px 0}
+#finish.viewportShell{inset:0!important;width:100%!important;background:#071a2ef2}
+
+.viewportContent :is(.hiddenProduct,.unitProduct,.recipeCard){display:block;break-inside:auto!important}
+.viewportContent .hiddenProduct>canvas{position:static;max-height:170px;width:160px;object-fit:contain}
+.viewportContent .hiddenProduct .currencyLine{width:100%;min-height:40px;justify-content:center}
+.viewportContent #shopHero{max-height:180px;object-fit:contain}
+/* Keep playable fields and their controls together on one page. */
+#miniDialog .viewportContent #miniArena{height:min(45dvh,430px);width:auto;aspect-ratio:3/4;max-width:100%;object-fit:fill;margin-inline:auto}
+.viewportContent #learningPlay{break-inside:avoid}
+.viewportContent #learningPrompt{font-size:18px;line-height:1.35;margin:6px 0}
+.viewportContent #learningSentence{font-size:16px;min-height:24px;margin:4px 0}
+.viewportContent #learningBoard{width:min(100%,calc(var(--ui-height,100dvh) - 360px));margin-inline:auto;break-inside:avoid}
+.viewportContent #learningFeedback{min-height:28px;font-size:13px;margin:5px 0}
+.viewportContent #learningExit{min-height:36px;margin:4px 0}

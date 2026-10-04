@@ -306,7 +306,7 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
 
 
 /* V56 battle touch UX: canvas gestures must never select page text. */
-html,body,#g,#ui,#selectionPanel,.bottom,.top{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#g,#ui,#selectionPanel,.bottom,.top{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
 #g{touch-action:none}
 #selectionPanel{bottom:84px;max-height:86px;padding:5px 8px;gap:4px 6px;z-index:12}
 #selectionPanel #selectedName{font-size:13px}
@@ -316,3 +316,33 @@ html,body,#g,#ui,#selectionPanel,.bottom,.top{-webkit-user-select:none;user-sele
 #battleUpgradeNotice{font-size:7px;line-height:1.15}
 #sellUnit{min-height:30px;padding:5px 7px;font-size:9px}
 #deselectUnit{min-height:30px;font-size:17px}
+
+/* V56: reserve bottom controls; keep editable fields selectable. */
+input,textarea,[contenteditable=true]{user-select:text;-webkit-user-select:text;-webkit-touch-callout:default;touch-action:auto}
+#selectionPanel{bottom:calc(100px + env(safe-area-inset-bottom));max-height:none;box-sizing:border-box}
+#selectionPanel #selectedTier{font-size:11px}#selectionPanel button{min-height:32px!important;font-size:11px!important}
+@media(max-width:600px){
+ #startScreen .lobbyTop h1{white-space:normal;font-size:22px;line-height:1.15}
+ #startScreen .homePrimary{grid-template-columns:repeat(2,minmax(0,1fr))}
+ #startScreen .lobbyOverview{min-height:0;flex:1;max-height:240px}
+ #startScreen .lobbyShowcase{overflow:hidden;min-height:0}
+ #startScreen .lobbyShowcase p{font-size:11px}#startScreen .guardianLobby>b{font-size:12px}
+ #startScreen .homePrimary small{font-size:10px}#startScreen .homePrimary .learningMainEntry b{font-size:16px}
+ #startScreen .featuredLegend>.legendCard{max-height:none;min-height:100px}
+ #startScreen .legendCard p,#startScreen .legendCard small{font-size:10px}
+ #startScreen .versionLabel{font-size:10px;flex-shrink:0}
+ #startScreen .guardianLobby{overflow:hidden}
+}
+
+#startScreen .homePrimary{grid-template-columns:repeat(2,minmax(0,1fr))}
+#startScreen .lobbyTop h1{white-space:normal}
+@media(min-width:601px){#startScreen .lobbyTop h1{font-size:28px}#startScreen .lobbyOverview{max-height:300px}#startScreen #lobbyHero{height:170px}#startScreen .guardianLobby>img{height:160px}#startScreen .homePrimary button{min-height:70px;padding:8px}}
+@media(max-width:600px){#startScreen .guardianLobby>img{width:100%;height:clamp(60px,12dvh,105px);flex-shrink:1}#startScreen .guardianLobby{justify-content:center}#startScreen .lobbyTop h1{letter-spacing:-.6px}#startScreen>*{flex-shrink:0}#startScreen .lobbyOverview{flex-shrink:1}}
+
+:root{--battle-safe-bottom:env(safe-area-inset-bottom,0px)}
+#selectedSkillSummary{display:block;font-size:10px;line-height:14px;color:#405649;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#selectionPanel{background:#fffdf5f2;border-color:#819d87}
+#selectionPanel #selectedName{color:#203c32}
+#ui:has(#selectionPanel:not([hidden])) #summonOdds{visibility:hidden}
+#startScreen .lobbyTop h1{word-break:keep-all;overflow-wrap:normal}
+#startScreen .guardianLobby>b,#startScreen .guardianLobby>small{word-break:keep-all;overflow-wrap:normal}

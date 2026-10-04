@@ -37,10 +37,10 @@ let recipeFilter="all",recipeStamp="";
 const tierColors=["","#93a5aa","#76c7a3","#92b8f3","#edbe72","#c8a1ff","#8effeb"];
 const U=Array.from({length:17},(_,type)=>{const e=elementFor(type);return{n:e.id+(type===e.support?'-support':''),cls:e.id,role:e.role,c:e.color,accent:e.accent,atk:e.atk*(type===e.support?.55:1),rate:e.rate,range:e.reach,kind:e.kind,desc:e.role}});
 function rs(){D=Math.min(devicePixelRatio||1,2);const r=C.getBoundingClientRect();W=Math.max(1,r.width||innerWidth);H=Math.max(1,r.height||innerHeight);C.width=Math.round(W*D);C.height=Math.round(H*D);ctx.setTransform(D,0,0,D,0,0)}
-function canvasPoint(e){const r=C.getBoundingClientRect(),sx=W/r.width,sy=H/r.height;return{x:(e.clientX-r.left)*sx,y:(e.clientY-r.top)*sy}}addEventListener('resize',rs);rs();
+function canvasPoint(e){const r=C.getBoundingClientRect(),sx=W/r.width,sy=H/r.height;return{x:(e.clientX-r.left)*sx,y:(e.clientY-r.top)*sy}}addEventListener('resize',rs);if(typeof ResizeObserver!=='undefined')new ResizeObserver(rs).observe(C);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.innerHTML=String(s).split('◈').map(t=>t.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))).join(window.ForgeUX.icon('battle'));e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
-function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?120:132,bottom=H-190;return{left,right,top,bottom,width,height:bottom-top}}
+function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?120:132,bottom=H-232-(typeof getComputedStyle==='function'?parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--battle-safe-bottom'))||0:0);return{left,right,top,bottom,width,height:bottom-top}}
 function slot(i){let a=geometry(),gx=(a.width-108)/3,gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.28,Math.min(.64,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}
@@ -200,20 +200,27 @@ document.querySelector('#summon').onclick=summon;document.querySelector('#combin
 document.querySelector('#codex').onclick=openRecipes;document.querySelector('#close').onclick=()=>closeModal('#drawer');
 function refreshCodex(){const heroes=catalogEntries();document.querySelector('#cards').innerHTML=heroes.map((u,i)=>{const t=unitData(u);return `<div class="card" style="--tier:${tierColors[u.lv]}"><span class="tierbadge">${heroNames[u.type]} · ${u.lv}단계</span><canvas width="240" height="210" data-hero="${i}"></canvas><b>${heroLabel(u)}</b><span class="tag">${classLabels[t.cls]}</span><div class="skill">공격력 ${Math.round(t.atk*Math.pow(2.6,u.lv-1))} · ${rangeLabel(u)}</div></div>`}).join('');document.querySelectorAll('[data-hero]').forEach(c=>body(c.getContext('2d'),120,111,heroes[+c.dataset.hero],1.75,true))}
 function body(g,x,y,u,s=1,mini=false){drawElementHero(g,x,y,u,s,mini)}
+// Rendering and hit testing share slot() and the same CSS-pixel game space.
+function targetTile(p){const a=slot(0),z=slot(31),gx=(z.x-a.x)/3,gy=(z.y-a.y)/7;
+ if(gx<=0||gy<=0||p.x<a.x-gx/2||p.x>z.x+gx/2||p.y<a.y-gy/2||p.y>z.y+gy/2)return -1;
+ return Math.max(0,Math.min(7,Math.round((p.y-a.y)/gy)))*4+Math.max(0,Math.min(3,Math.round((p.x-a.x)/gx)));
+}
+C.addEventListener('contextmenu',e=>e.preventDefault());
+C.addEventListener('pointermove',e=>{if(!S.drag||S.drag.pointerId!==e.pointerId)return;e.preventDefault();const p=canvasPoint(e);S.drag.target=targetTile(p)});
+C.addEventListener('lostpointercapture',()=>{S.drag=null});
 C.addEventListener('pointerdown',e=>{
  if(!started||paused||ended||document.querySelector('#drawer').style.display==='block'||document.querySelector('#recipeOverlay').style.display==='block')return;
- e.preventDefault();let p=canvasPoint(e),near=units.find(u=>d(slot(u.slot),p)<30);
- if(d(guardianPosition(),p)<19){guardianRun.selected=true;S.sel=null;S.drag={guardian:true,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection();return;}guardianRun.selected=false;
- if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection()}
+ if(S.drag||e.isPrimary===false)return; e.preventDefault();let p=canvasPoint(e),target=targetTile(p),near=units.find(u=>u.slot===target);
+ if(target===guardianRun.slot){guardianRun.selected=true;S.sel=null;S.drag={guardian:true,startX:p.x,startY:p.y,pointerId:e.pointerId,target};C.setPointerCapture?.(e.pointerId);refreshSelection();return;}guardianRun.selected=false;
+ if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y,pointerId:e.pointerId,target};C.setPointerCapture?.(e.pointerId);refreshSelection()}
 });
 C.addEventListener('pointerup',e=>{
- if(!S.drag)return;
+ if(!S.drag||S.drag.pointerId!==e.pointerId)return;
  e.preventDefault();const p=canvasPoint(e),tapped=Math.hypot(p.x-S.drag.startX,p.y-S.drag.startY)<8;
  if(tapped){S.drag=null;refreshSelection();return;}
- let best=-1,bd=999;
- for(let i=0;i<32;i++){let q=slot(i),dd=d(q,p);if(dd<bd){bd=dd;best=i}}
- if(S.drag.guardian){if(best>=0&&bd<31&&moveGuardian(best))toast('주인공 이동 배치');S.drag=null;refreshSelection();return;}
- if(best>=0&&bd<31){
+ const best=targetTile(p);
+ if(S.drag.guardian){if(best>=0&&moveGuardian(best))toast('주인공 이동 배치');S.drag=null;refreshSelection();return;}
+ if(best>=0){
    let a=S.drag.u,b=units.find(u=>u.slot===best);
    if(guardianRun.slot===best){luckEvent('unitSwapped',{id:luckUnit(a).id,other:'guardian',from:a.slot,to:best});guardianRun.slot=a.slot;a.slot=best;toast('주인공과 위치 교환')}
    else if(b&&b!==a){luckEvent('unitSwapped',{id:luckUnit(a).id,other:luckUnit(b).id,from:a.slot,to:best});let old=a.slot;a.slot=b.slot;b.slot=old;toast('유닛 위치 교환')}
@@ -245,7 +252,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
  drawArena();
  // Selected unit: show its real attack radius.
  if(S.sel){
-   let sp=slot(S.sel.slot),sr=battleRange(S.sel);
+   let sp=slot(S.drag?.target>=0?S.drag.target:S.sel.slot),sr=battleRange(S.sel);
    ctx.save();
    ctx.fillStyle='#157cba22';
    ctx.strokeStyle='#126ba9';
@@ -257,6 +264,7 @@ function draw(){ctx.save();ctx.clearRect(0,0,W,H);
    ctx.fillText(rangeLabel(S.sel),sp.x,Math.max(78,sp.y-sr-7));
    ctx.restore();
  }
+ if(S.drag){const bounds=tileBounds();for(let i=0;i<32;i++){const p=slot(i);ctx.strokeStyle=i===S.drag.target?'#0069c9':'#288c7788';ctx.lineWidth=i===S.drag.target?3:1;ctx.strokeRect(p.x-bounds.hw,p.y-bounds.hh,bounds.hw*2,bounds.hh*2)}if(S.drag.target>=0){const p=slot(S.drag.target);ctx.fillStyle='#0069c9';ctx.font='bold 12px system-ui';ctx.textAlign='center';ctx.fillText('▼ 놓을 위치',p.x,p.y-bounds.hh-8)}}
  drawGuardian();
  units.forEach(u=>{const p=slot(u.slot),bounds=tileBounds();if(S.sel===u){ctx.strokeStyle='#f1d087';ctx.lineWidth=2;ctx.beginPath();ctx.roundRect(p.x-bounds.hw,p.y-bounds.hh,bounds.hw*2,bounds.hh*2,5);ctx.stroke()}body(ctx,p.x,p.y-u.anim*3,u,unitScale()+u.anim*.03);const barWidth=Math.max(12,bounds.hw*2-22);ctx.fillStyle='#132a3a';ctx.fillRect(p.x-bounds.hw+20,p.y+bounds.hh-5,barWidth,3);ctx.fillStyle='#5ecfff';ctx.fillRect(p.x-bounds.hw+20,p.y+bounds.hh-5,barWidth*(u.mp||0)/100,3)});
 
@@ -287,7 +295,7 @@ refreshCodex();renderHeroLab();
 
 function unitInvestment(u){return u.invested??10*([0,1,3,9,27,54,108][u.lv]||1)}
 function sellValue(u){return Math.floor(unitInvestment(u)*(.5+talismanBonus(null,'sell')))}
-function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=false;if(!valid){if(guardianRun.selected){document.querySelector('#selectionPanel').hidden=false;document.querySelector('#codex').hidden=true;document.querySelector('#selectedName').textContent=guardianMeta.nickname;document.querySelector('#selectedTier').textContent=`Lv.${guardianLevel(guardianMeta)} · 공격 ${(120*guardianPower()*(1+.03*(guardianLevel(guardianMeta)-1))).toFixed(1)} · 0.6회/초 · 1.5칸 · MP ${Math.floor(guardianRun.mp)}`;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=true;}return;}refreshBattleUpgrade();document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · ${rangeLabel(u)} · MP ${Math.floor(u.mp||0)}/100${u.stun>0?' · 기절':u.slow>0?' · 감속':''}`;document.querySelector('#sellUnit').innerHTML=`되팔기 ${window.ForgeUX.icon('battle')} +${sellValue(u)}`}
+function refreshSelection(){const u=S.sel,valid=!!u&&units.includes(u);document.querySelector('#selectionPanel').hidden=!valid;document.querySelector('#codex').hidden=valid;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=false;if(!valid){if(guardianRun.selected){document.querySelector('#selectionPanel').hidden=false;document.querySelector('#codex').hidden=true;document.querySelector('#selectedSkillSummary').textContent='지원 · 정화 · 마력 회복 · 재정렬';document.querySelector('#selectedName').textContent=guardianMeta.nickname;document.querySelector('#selectedTier').textContent=`Lv.${guardianLevel(guardianMeta)} · 공격 ${(120*guardianPower()*(1+.03*(guardianLevel(guardianMeta)-1))).toFixed(1)} · 0.6회/초 · 1.5칸 · MP ${Math.floor(guardianRun.mp)}`;for(const id of ['battleUpgrade','sellUnit','battleUpgradeNotice'])document.querySelector('#'+id).hidden=true;}return;}refreshBattleUpgrade();document.querySelector('#selectedSkillSummary').textContent=skillRows(u).filter(s=>s.available).map(s=>s.name).join(' · ');document.querySelector('#selectedName').textContent=heroLabel(u);document.querySelector('#selectedTier').textContent=`${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · 공격 ${combatAttack(u).toFixed(1)} · ${rangeLabel(u)} · MP ${Math.floor(u.mp||0)}/100${u.stun>0?' · 기절':u.slow>0?' · 감속':' · 정상'}`;document.querySelector('#sellUnit').innerHTML=`되팔기 ${window.ForgeUX.icon('battle')} +${sellValue(u)}`}
 function refreshBattleUpgrade(){
  const u=S.sel;if(!u||!units.includes(u))return;
  const level=battleUpgradeLevel(u),cost=battleUpgradeCost(u),button=document.querySelector('#battleUpgrade');

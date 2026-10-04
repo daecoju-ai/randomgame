@@ -7,7 +7,7 @@
 #drawer[data-native-pages] .essenceWallet{margin-left:8px;font-size:14px;gap:4px}.essenceWallet small{display:none}#drawer[data-native-pages] .essenceWallet b{font-size:18px}
 #drawer[data-native-pages] .labFilters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;overflow:visible;margin:0}
 #drawer[data-native-pages] .labFilters button{min-height:30px;padding:3px;font-size:12px;white-space:nowrap;border-radius:9px}
-#drawer[data-native-pages] .labLayout{display:flex;flex:1;min-height:0;flex-direction:column;gap:6px}
+#drawer[data-native-pages] .labLayout{display:flex;flex:1;min-height:0;flex-direction:column;gap:6px;align-items:stretch;width:100%}
 #drawer[data-native-pages] #labCards{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;order:0;flex:none}
 .labThumb{padding:3px;min-width:0;border-radius:10px;border:1px solid #a4bdab;background:#f7faf4;box-shadow:none;color:#234337;display:flex;flex-direction:column;align-items:center;gap:2px}
 .labThumb.selected{border:2px solid #338865;background:#d5ebdf}.labThumb canvas{width:100%;height:46px;object-fit:contain}.labThumb b{font-size:10px;white-space:nowrap}

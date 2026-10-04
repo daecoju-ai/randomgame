@@ -1,0 +1,7 @@
+{
+  "version": "2.0.0",
+  "generated_at": null,
+  "source": "official_api_sync",
+  "items": [],
+  "note": "Do not hardcode qualifications. Populate with scripts/sync-certifications.cjs after QNET_API_KEY and confirmed official endpoint are configured."
+}

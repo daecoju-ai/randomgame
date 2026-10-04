@@ -36,7 +36,8 @@ let recipeFilter="all",recipeStamp="";
 
 const tierColors=["","#93a5aa","#76c7a3","#92b8f3","#edbe72","#c8a1ff","#8effeb"];
 const U=Array.from({length:17},(_,type)=>{const e=elementFor(type);return{n:e.id+(type===e.support?'-support':''),cls:e.id,role:e.role,c:e.color,accent:e.accent,atk:e.atk*(type===e.support?.55:1),rate:e.rate,range:e.reach,kind:e.kind,desc:e.role}});
-function rs(){D=Math.min(devicePixelRatio||1,2);W=innerWidth;H=innerHeight;C.width=W*D;C.height=H*D;ctx.setTransform(D,0,0,D,0,0)}addEventListener('resize',rs);rs();
+function rs(){D=Math.min(devicePixelRatio||1,2);const r=C.getBoundingClientRect();W=Math.max(1,r.width||innerWidth);H=Math.max(1,r.height||innerHeight);C.width=Math.round(W*D);C.height=Math.round(H*D);ctx.setTransform(D,0,0,D,0,0)}
+function canvasPoint(e){const r=C.getBoundingClientRect(),sx=W/r.width,sy=H/r.height;return{x:(e.clientX-r.left)*sx,y:(e.clientY-r.top)*sy}}addEventListener('resize',rs);rs();
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.innerHTML=String(s).split('◈').map(t=>t.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))).join(window.ForgeUX.icon('battle'));e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
 function geometry(){const width=Math.min(W-40,410),left=(W-width)/2,right=left+width,top=H<620?120:132,bottom=H-190;return{left,right,top,bottom,width,height:bottom-top}}
@@ -201,15 +202,15 @@ function refreshCodex(){const heroes=catalogEntries();document.querySelector('#c
 function body(g,x,y,u,s=1,mini=false){drawElementHero(g,x,y,u,s,mini)}
 C.addEventListener('pointerdown',e=>{
  if(!started||paused||ended||document.querySelector('#drawer').style.display==='block'||document.querySelector('#recipeOverlay').style.display==='block')return;
- let p={x:e.clientX,y:e.clientY},near=units.find(u=>d(slot(u.slot),p)<25);
+ e.preventDefault();let p=canvasPoint(e),near=units.find(u=>d(slot(u.slot),p)<30);
  if(d(guardianPosition(),p)<19){guardianRun.selected=true;S.sel=null;S.drag={guardian:true,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection();return;}guardianRun.selected=false;
  if(near){S.sel=near;S.drag={u:near,startX:p.x,startY:p.y};C.setPointerCapture?.(e.pointerId);refreshSelection()}
 });
 C.addEventListener('pointerup',e=>{
  if(!S.drag)return;
- const tapped=Math.hypot(e.clientX-S.drag.startX,e.clientY-S.drag.startY)<8;
+ e.preventDefault();const p=canvasPoint(e),tapped=Math.hypot(p.x-S.drag.startX,p.y-S.drag.startY)<8;
  if(tapped){S.drag=null;refreshSelection();return;}
- let p={x:e.clientX,y:e.clientY},best=-1,bd=999;
+ let best=-1,bd=999;
  for(let i=0;i<32;i++){let q=slot(i),dd=d(q,p);if(dd<bd){bd=dd;best=i}}
  if(S.drag.guardian){if(best>=0&&bd<31&&moveGuardian(best))toast('주인공 이동 배치');S.drag=null;refreshSelection();return;}
  if(best>=0&&bd<31){

@@ -8,7 +8,18 @@
     "public_examples": "https://www.q-net.or.kr/cst006.do?code=1204&id=cst00601",
     "exam_standards": "https://www.q-net.or.kr/cst006.do?code=1202&id=cst00601"
   },
-  "targets": [
+  "targets": [],
+  "update_policy": {
+    "check_interval": "monthly",
+    "expired_standard_action": "block_new_publication_until_review",
+    "future_standard_action": "apply_from_effective_date",
+    "auto_publish": false
+  },
+  "existing_pilot": {
+    "path": "data/questions/certification/basics.pilot.json",
+    "coverage": "일반 안전·공식 체험. 특정 자격증 전체 과정 또는 공식 기출문제로 표시하지 않음."
+  },
+  "legacy_pilot_targets": [
     {
       "id": "industrial-safety-engineer",
       "name": "산업안전기사",
@@ -78,14 +89,6 @@
       "playable_foundation": true
     }
   ],
-  "update_policy": {
-    "check_interval": "monthly",
-    "expired_standard_action": "block_new_publication_until_review",
-    "future_standard_action": "apply_from_effective_date",
-    "auto_publish": false
-  },
-  "existing_pilot": {
-    "path": "data/questions/certification/basics.pilot.json",
-    "coverage": "일반 안전·공식 체험. 특정 자격증 전체 과정 또는 공식 기출문제로 표시하지 않음."
-  }
+  "catalog_path": "data/certifications/catalog/catalog.json",
+  "note": "Playable pilot mappings retained under legacy_pilot_targets; qualification catalog must be populated from official API data, not hardcoded."
 }

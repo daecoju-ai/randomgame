@@ -1,0 +1,5 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","type":"object",
+  "required":["id","qualification","subject","domain","game_type","question","answer","content_origin","review_status","version"],
+  "properties":{"id":{"type":"string"},"qualification":{"type":"object"},"subject":{"type":"string"},"domain":{"type":"string"},"learning_target":{"type":"string"},"difficulty":{"type":"integer","minimum":1,"maximum":5},"game_type":{"enum":["MULTIPLE_CHOICE","TILE_CHOICE","TILE_SEQUENCE","MATCHING","ORDERING","TARGET_SELECT","FORMULA"]},"question":{"type":"string"},"choices":{"type":"array","items":{"type":"string"}},"answer":{},"explanation":{"type":"string"},"content_origin":{"enum":["original","licensed_external"]},"source_references":{"type":"array","items":{"type":"string"}},"license":{"type":"string"},"review_status":{"enum":["draft","reviewed","published"]},"version":{"type":"integer","minimum":1}}
+}

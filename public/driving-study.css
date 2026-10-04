@@ -4,3 +4,5 @@
 #hud span{padding:4px 8px;border-radius:9px;background:#07111d99}#roadNotice{max-width:90%;overflow:hidden;text-overflow:ellipsis}
 
 #controls .pedal{width:22vw;max-width:138px;height:88px;aspect-ratio:auto;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;user-select:none;-webkit-user-select:none}#controls .pedal span{font-size:clamp(16px,4vw,24px)}#controls .pedal small{font-size:10px;opacity:.7}#controls .gas{background:#153f2dcc;border-color:#7ee3a7}#controls .brake{background:#4a2024dd;border-color:#ff8b91}#controls button.pressed{transform:scale(.94);filter:brightness(1.25)}
+
+#indicators{position:absolute;left:50%;bottom:126px;transform:translateX(-50%);display:flex;gap:10px;z-index:8}#indicators button{min-height:44px;padding:8px 14px;border-radius:14px;background:#17202bdd;border:1px solid #d5e1ee;color:#fff;font-weight:800;touch-action:manipulation}@media(max-width:520px){#indicators{bottom:118px}#indicators button{font-size:12px;padding:7px 10px}}

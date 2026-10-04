@@ -18,14 +18,14 @@ function scene(c,time){
  // The battle's separate unit tiles and outer monster lane remain recognizable.
  g.fillStyle='#456354';g.fillRect(20,34,520,54);g.fillRect(445,34,70,234);g.fillStyle='#708078';for(let x=26;x<535;x+=22)g.fillRect(x,40,18,41);for(let y=94;y<260;y+=22)g.fillRect(451,y,57,18);
  for(let x=0;x<4;x++)for(let y=0;y<2;y++){g.fillStyle=(x+y)%2?'#1c3b49':'#234451';g.fillRect(30+x*98,111+y*77,92,70);g.strokeStyle='#a4d0c31a';g.strokeRect(30+x*98,111+y*77,92,70)}
- const support=/Aura|fury|Fury|swift|cleanse|clarity|blessing|mana|reorder|speed/i.test(f);
+ const support=(f==='ultimate'&&isSupport(u))||/Aura|fury|Fury|swift|cleanse|clarity|blessing|mana|reorder|speed/i.test(f);
  const targets=[{x:289,y:65},{x:380,y:65},{x:475,y:137}],origin={x:120,y:196};
  if(support){for(let i=0;i<3;i++)body(g,225+i*90,190,{type:i%6,lv:Math.min(lv,4)},.76,true)}
  else for(let i=0;i<targets.length;i++)drawMonster(g,{...targets[i],p:i*.1,r:15,hp:cast&&phase>.3?65:100,max:100,profile:MONSTER_NORMAL[i%3],hit:cast&&phase>.3&&phase<.5});
  body(g,origin.x,origin.y,u,1.35,true);
  if(cast){
   const target=support?{x:320,y:188}:targets[0];
-  const effect={x:target.x,y:target.y,r:support?143:62,t:Math.max(.05,.75*(1-phase)),color,kind:elementFor(type).id,effect:f,slot:skillSlot,type,phase:time*5,origin,life:.75};
+  const effect={x:target.x,y:target.y,r:f==='ultimate'?143:support?143:62,t:Math.max(.05,.75*(1-phase)),color,kind:elementFor(type).id,effect:f,slot:skillSlot,type,support,phase:time*5,origin,life:.75};
   if(/chain|ricochet/i.test(f))effect.points=[origin,...targets];
   if(/pierce|railStrike|multi/.test(f))effect.points=[origin,...targets];
   drawSkillEffect(g,effect);

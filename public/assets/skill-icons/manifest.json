@@ -503,5 +503,90 @@
     "path": "/assets/skill-icons/8fd9918.svg",
     "family": "guardian",
     "effect": "star"
+  },
+  "태산 붕괴": {
+    "path": "/assets/skill-icons/a9fb36a2.svg",
+    "family": "earth",
+    "effect": "ultimate"
+  },
+  "월식 참살": {
+    "path": "/assets/skill-icons/84207162.svg",
+    "family": "shadow",
+    "effect": "ultimate"
+  },
+  "대륙의 수호": {
+    "path": "/assets/skill-icons/9dca5dfa.svg",
+    "family": "earth",
+    "effect": "ultimate"
+  },
+  "해양의 기적": {
+    "path": "/assets/skill-icons/f5f0e051.svg",
+    "family": "water",
+    "effect": "ultimate"
+  },
+  "천공의 행진": {
+    "path": "/assets/skill-icons/3973daef.svg",
+    "family": "wind",
+    "effect": "ultimate"
+  },
+  "천뢰의 공명": {
+    "path": "/assets/skill-icons/b7469eb.svg",
+    "family": "electric",
+    "effect": "ultimate"
+  },
+  "폭풍 분쇄": {
+    "path": "/assets/skill-icons/c9a4424d.svg",
+    "family": "wind",
+    "effect": "ultimate"
+  },
+  "불사조 강림": {
+    "path": "/assets/skill-icons/17a7e28.svg",
+    "family": "fire",
+    "effect": "ultimate"
+  },
+  "천벌 강림": {
+    "path": "/assets/skill-icons/c2021b96.svg",
+    "family": "electric",
+    "effect": "ultimate"
+  },
+  "절대 빙하": {
+    "path": "/assets/skill-icons/2dd1c6ae.svg",
+    "family": "water",
+    "effect": "ultimate"
+  },
+  "홍련의 성역": {
+    "path": "/assets/skill-icons/50b6042.svg",
+    "family": "fire",
+    "effect": "ultimate"
+  },
+  "만독의 재앙": {
+    "path": "/assets/skill-icons/a93b5369.svg",
+    "family": "poison",
+    "effect": "ultimate"
+  },
+  "심판의 철우": {
+    "path": "/assets/skill-icons/41ed7659.svg",
+    "family": "metal",
+    "effect": "ultimate"
+  },
+  "시간의 종말": {
+    "path": "/assets/skill-icons/42735868.svg",
+    "family": "time",
+    "effect": "ultimate"
+  },
+  "초신성 강림": {
+    "path": "/assets/skill-icons/43b01ad.svg",
+    "family": "star",
+    "effect": "ultimate"
+  },
+  "공허 대붕괴": {
+    "path": "/assets/skill-icons/92836a89.svg",
+    "family": "void",
+    "effect": "ultimate"
+  },
+  "흑월 강림": {
+    "path": "/assets/skill-icons/9a1be881.svg",
+    "family": "shadow",
+    "effect": "ultimate"
   }
 }

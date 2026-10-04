@@ -1,7 +1,7 @@
 (()=>{'use strict';const D=window.ForgeAdventureData,$=s=>document.querySelector(s);let state=null,owner=null,busy=false,loading=null,epoch=0,run=null,metrics={},finals=new Set(),battleLevels={},battleStars={},message='로그인하면 출석·미션·특별유닛을 이용할 수 있습니다.';
 const key=()=>`ff_adventure_pending_${owner}`;const saved=()=>{try{return JSON.parse(localStorage.getItem(key())||'null')}catch{return null}};
 const rewardText=n=>['gold','diamonds','tickets','rare'].filter(k=>n[k]).map(k=>`${D.names[k]} +${n[k]}`).join(' · ');
-function notesText(notes){return(notes||[]).map(n=>n.kind==='attendance'?`출석 ${n.day}회차 · ${rewardText(n)}`:n.kind==='mission'?`${n.name} ${n.goal} 달성 · ${D.names[n.currency]} +${n.amount}`:n.kind==='unit'?`${n.tier}단계 ${heroLabel({type:n.type,lv:n.tier})} · ★${n.after}${n.before?' · 중복 자동 강화':' · 신규 획득'}`:n.kind==='rare'?`${window.ForgeTalismans.catalog.find(t=>t.id===n.id)?.name} 획득${n.dust?' · 가루 +'+n.dust:''}`:`전투 보상 · ${rewardText(n)}`).join('\n')}
+function notesText(notes){return(notes||[]).map(n=>n.kind==='attendance'?`출석 ${n.day}회차 · ${rewardText(n)}`:n.kind==='mission'?`${n.name} ${n.goal} 달성 · ${D.names[n.currency]} +${n.amount}`:n.kind==='unit'?`${n.tier}단계 ${heroLabel({type:n.type,lv:n.tier})} · ★${n.after}${n.enhanced?' · 별 강화 완료':n.refund?' · 다이아 30개 반환':' · 보유 카드 '+n.cards+'장'}`:n.kind==='rare'?`${window.ForgeTalismans.catalog.find(t=>t.id===n.id)?.name} 획득${n.dust?' · 가루 +'+n.dust:''}`:`전투 보상 · ${rewardText(n)}`).join('\n')}
 function apply(v){if(v.owner!==owner)return;state=v;window.ForgeSummons?.apply(v);window.ForgeGame.applyGrowth(v);if(v.notes?.length){const detail=notesText(v.notes);message='보상을 받았습니다.';$('#adventureRewards').textContent=detail;toast(detail.split('\n')[0])}else if(message.startsWith('로그인'))message='출석 선물과 미션 보상을 확인하세요.';render()}
 async function api(body){const r=await fetch('/api/adventure',{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'Content-Type':'application/json','X-Forge-Request':'1'},body:JSON.stringify({...body,owner}),signal:AbortSignal.timeout(15000)});const data=await r.json();if(!r.ok||data.error)throw Object.assign(Error(data.message||'성장 서버 연결을 확인해 주세요.'),{status:r.status,code:data.error});return data}
 async function load(){const e=epoch;const data=await api({action:'load'});if(e===epoch)apply(data);return data}
@@ -24,7 +24,8 @@ function render(){
 async function claim(action,payload={}){try{const v=await mutate(action,payload);if(v){window.ForgeUX.celebrate();if(action==='claim_battle'){$('#claimBattleReward').disabled=true;$('#claimBattleReward').textContent='수령 완료 ✓';$('#rewardBalance').textContent=`보유 금화 ${v.gold} · 다이아 ${v.diamonds}`;}await load();return true;}return false;}catch(e){toast(e.message);return false}}
 window.ForgeAdventure={
  activeRun:()=>run,applyLuckGrowth:apply,
- unitStars:()=>state?.unitStars||{},battleUnitStars:()=>battleStars,
+ unitStars:()=>state?.unitStars||{},unitCards:()=>state?.unitCards||{},battleUnitStars:()=>battleStars,
+ enhanceUnit:(type,tier)=>claim('unit_enhance',{type,tier}),
  async buyUnit(type){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_buy',{type})},
  async drawUnit(){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_draw')},
  talismanLevels:()=>state?.talismanLevels||{},battleTalismanLevels:()=>battleLevels,

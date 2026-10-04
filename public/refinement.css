@@ -46,3 +46,17 @@
 #drawer .rowSkill{padding:0;min-height:0;width:100%;border:0;background:none;box-shadow:none;color:#203b31;display:flex;flex-direction:column;gap:3px;align-items:stretch}.rowSkill>span{display:flex;align-items:center;gap:4px}.rowSkill .skillIcon{width:25px;height:25px;border-radius:5px}.rowSkill b{font-size:11px;line-height:1.2;text-align:left}.rowSkill canvas{width:100%;height:52px;object-fit:contain;border-radius:6px;background:#102b35}.detailUnitName{margin:0;font-size:18px}#backToRows{min-height:32px;align-self:flex-start;padding:4px 10px;font-size:13px}
 @media(min-width:600px){.attributeRow{grid-template-columns:90px minmax(0,1fr) 180px}.rowPortrait canvas{width:86px;height:80px}.rowSkill canvas{height:65px}#drawer .rowGrowth h3{font-size:17px}.rowGrowth p,.rowGrowth>div small,.rowSkill b{font-size:14px}}
 @media(max-height:700px){.attributeRows{gap:4px}.attributeRow{padding:3px;gap:4px;grid-template-columns:50px minmax(0,1fr) 106px}.rowPortrait canvas{width:50px;height:48px}.rowSkill canvas{height:38px}#drawer .rowGrowth h3{margin-bottom:2px}.rowGrowth p{margin:1px 0}.rowSkill .skillIcon{width:22px;height:22px}}
+/* V60: three readable growth rows, card inventory and two-page attributes. */
+#drawer.attributeLibrary .attributeRows{grid-template-rows:repeat(3,minmax(0,1fr));gap:8px}
+#drawer.attributeLibrary .attributeRow{grid-template-columns:62px minmax(0,1fr) 114px;padding:7px;gap:5px}
+#drawer.attributeLibrary .rowGrowth p{white-space:normal}
+#drawer.attributeLibrary .rowLevel{justify-content:flex-start;gap:8px}
+#drawer.attributeLibrary .rowLevel button{min-width:42px;min-height:32px}
+#drawer.attributeLibrary .rowCost{display:flex;align-items:center;gap:3px;color:#8d651e;font-weight:700}
+.rowCost .premiumIcon{width:18px;height:18px}
+#drawer.attributeLibrary .rowEnhancement{grid-column:1/-1;border-top:1px solid #d4e2d6;padding-top:6px;display:grid;grid-template-columns:1fr 1.15fr;gap:8px;align-items:center}
+.rowStarAction{display:flex;flex-wrap:wrap;align-items:center;gap:6px}.rowStarAction>b{font-size:15px}.rowStarAction button{background:#cee9d9;color:#234c35;border:1px solid #88b298;border-radius:7px;padding:5px 12px;min-height:32px}.rowStarAction small{width:100%;font-size:11px}.rowStarPreview{background:#f0f4ec;padding:5px;border-radius:7px;font-size:11px}.rowStarPreview p{margin:3px 0}.rowStarPreview strong{color:#168352}.rowStarPreview small{font-size:10px}.rowGrowth>small{font-size:10px;color:#58705e}.skillAdded{font-style:normal;font-size:10px;background:#e6f3d7;color:#42732b;padding:2px;border-radius:4px}.rowSkill>span{flex-wrap:wrap}.rowSkill>small{font-size:10px;text-align:left}.growthRuleNote{margin:5px 0;font-size:10px;text-align:center;color:#526d5e;line-height:1.4}
+@media(min-width:600px){#drawer.attributeLibrary .attributeRow{grid-template-columns:90px minmax(0,1fr) 180px}.rowStarAction small,.rowStarPreview{font-size:14px}.rowStarPreview small{font-size:12px}}
+@media(max-height:700px){#drawer.attributeLibrary .attributeRow{padding:4px;gap:3px}.rowEnhancement{padding-top:3px!important}.rowStarAction button{min-height:28px;padding:3px 10px}.growthRuleNote{margin:2px 0}}
+
+.rowUltimate{display:flex;align-items:center;gap:8px;grid-column:1/-1;text-align:left;border:1px solid #cba85d;background:#fff8dc;border-radius:12px;padding:8px;color:#31483d}.rowUltimate img{width:42px;height:42px}.rowUltimate small{display:block}.skillNextPreview{background:#edf6ee;border-radius:12px;padding:12px;margin:12px 0}

@@ -18,7 +18,13 @@ function drawSkillEffect(g,e){
  if(e.points){for(let i=1;i<e.points.length;i++){if(k==='electric'){g.lineWidth=6;bolt(e.points[i-1],e.points[i],hash+i);g.strokeStyle='#fff';g.lineWidth=1.5;bolt(e.points[i-1],e.points[i],hash+i);g.strokeStyle=e.color}else{g.beginPath();g.moveTo(e.points[0].x,e.points[0].y);g.lineTo(e.points[i].x,e.points[i].y);g.stroke()}}}
  if(e.origin&&f==='single'){const travel=Math.min(1,p*3);drawProjectile(g,{x:e.origin.x+(e.x-e.origin.x)*travel,y:e.origin.y+(e.y-e.origin.y)*travel,type:e.type??ELEMENTS.find(z=>z.id===k)?.base??8,target:e})}
  g.translate(e.x,e.y);
- if(f==='telegraph'){g.setLineDash([6,5]);arc(0,0,r,0,Math.PI*2);g.beginPath();g.moveTo(-r,0);g.lineTo(r,0);g.moveTo(0,-r);g.lineTo(0,r);g.stroke()}
+ if(f==='ultimate'){
+  g.globalCompositeOperation='lighter';g.shadowBlur=28;const size=r*(.3+.7*p);
+  const glow=g.createRadialGradient(0,0,0,0,0,size);glow.addColorStop(0,'#ffffffbb');glow.addColorStop(.25,(e.color||'#fff')+'88');glow.addColorStop(1,'#ffffff00');g.fillStyle=glow;g.beginPath();g.arc(0,0,size,0,Math.PI*2);g.fill();
+  for(let j=0;j<4;j++){g.lineWidth=j===0?6:2;g.strokeStyle=j%2?'#fff':e.color;arc(0,0,size*(.45+j*.18),phase+j,phase+j+Math.PI*1.7)}
+  for(let j=0;j<28;j++){const a=j*Math.PI/14+phase*.15,rr=size*(.35+.65*((j%5)/4)),x=Math.cos(a)*rr,y=Math.sin(a)*rr;g.fillStyle=j%3?'#fff':e.color;g.beginPath();g.arc(x,y,2+j%4,0,Math.PI*2);g.fill();if(j%4===0){g.beginPath();g.moveTo(x,y);g.lineTo(x*.6,y*.6);g.stroke()}}
+  if(!e.support){g.strokeStyle='#ffffff';g.lineWidth=8*(1-p);g.beginPath();g.moveTo(0,-r*2);g.lineTo(0,0);g.stroke()}
+ }else if(f==='telegraph'){g.setLineDash([6,5]);arc(0,0,r,0,Math.PI*2);g.beginPath();g.moveTo(-r,0);g.lineTo(r,0);g.moveTo(0,-r);g.lineTo(0,r);g.stroke()}
  else if(k==='electric'){
   const spokes=f==='single'?3:f==='chain'?slot===1?5:8:f==='bossStrike'?1:12;
   if(f==='bossStrike'||f==='globalThunder'){g.lineWidth=8;bolt({x:0,y:-r*2},{x:0,y:0},hash);g.strokeStyle='#fff';g.lineWidth=2;bolt({x:0,y:-r*2},{x:0,y:0},hash)}
@@ -54,7 +60,7 @@ function drawSkillEffect(g,e){
  g.restore();
 }
 
-function openBattleSkills(u){const dialog=document.querySelector('#battleSkills');if(!dialog?.show)return;prepareSkills(u);document.querySelector('#battleSkillContent').innerHTML=`<h2>${heroLabel(u)}</h2><p>${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · ${rangeLabel(u)}</p><p class="liveBattleNote">전투 진행 중 · 확인 시점의 스킬 상태</p><p>MP ${Math.floor(u.mp)} / 100 · 기본 회복 1/초</p><div class="skillUnlocks">${skillRows(u).filter(s=>s.available).map(s=>{const v=skillStats(s,s.rank||1,u);return `<div class="${s.unlocked?'unlocked':'sealed'}">${window.ForgeSkillVisuals?.art(u,s)}<b>${s.name}</b><small>${s.unlocked?'스킬 Lv.'+s.rank:'유닛 Lv.'+s.unlock+' 해금'} · ${s.active?'자동 시전':'지속 효과'}</small><p>${s.description}</p>${s.active?`<small>MP ${v.mp} · 재사용 ${v.cooldown}초 · ${!s.unlocked?'잠김':u.skillCD[s.slot]>0?'남은 시간 '+u.skillCD[s.slot].toFixed(1)+'초':u.mp<v.mp?'MP 충전 중':'사용 준비'}</small>`:''}</div>`}).join('')}</div>`;if(!dialog.open)dialog.show();dialog.onclose=null;document.querySelector('#closeBattleSkills').onclick=()=>dialog.close();}
+function openBattleSkills(u){const dialog=document.querySelector('#battleSkills');if(!dialog?.show)return;prepareSkills(u);document.querySelector('#battleSkillContent').innerHTML=`<h2>${heroLabel(u)}</h2><p>${u.lv}단계 · Lv.${getLv(u.type,u.lv)} · ${rangeLabel(u)}</p><p class="liveBattleNote">전투 진행 중 · 확인 시점의 스킬 상태</p><p>MP ${Math.floor(u.mp)} / 100 · 기본 회복 1/초</p><div class="skillUnlocks">${skillRows(u).filter(s=>s.available).map(s=>{const v=skillStats(s,s.rank||1,u);return `<div class="${s.unlocked?'unlocked':'sealed'}">${window.ForgeSkillVisuals?.art(u,s)}<b>${s.name}</b><small>${s.unlocked?'스킬 Lv.'+s.rank:'★'+(s.ultimate?20:5)+' 개방'} · ${s.active?'자동 시전':'지속 효과'}</small><p>${s.description}</p>${s.active?`<small>MP ${v.mp} · 재사용 ${v.cooldown}초 · ${!s.unlocked?'잠김':u.skillCD[s.slot]>0?'남은 시간 '+u.skillCD[s.slot].toFixed(1)+'초':u.mp<v.mp?'MP 충전 중':'사용 준비'}</small>`:''}</div>`}).join('')}</div>`;if(!dialog.open)dialog.show();dialog.onclose=null;document.querySelector('#closeBattleSkills').onclick=()=>dialog.close();}
 
 // Layered light, elemental shapes and deterministic particles; visual only.
 function drawPremiumSkillEffect(g,e){

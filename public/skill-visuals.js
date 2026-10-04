@@ -7,6 +7,7 @@ function art(u,def){
  const damage=typeof skillDamageText==='function'?skillDamageText(u,def):'직접 피해 0 · 지원 효과';
  return '<div class="skillArt"><header class="skillTitle">'+icon(u,def)+'<b>'+esc(def.name)+'</b></header>'+((def.components?.length>1)?'<div class="skillComponents">'+def.components.map(d=>'<span>'+icon(u,d)+esc(d.name)+'</span>').join('')+'</div>':'')+'<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.components?def.components.map(x=>x.effect).join('|'):def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure></div>';
 }
+function description(u,def){const rank=def.rank||1;return `<p class="skillEffectDescription">${esc(def.description)}</p>${def.unlocked&&rank<20?`<div class="skillNextPreview"><b>다음 강화 · LV${rank} → LV${rank+1}</b><p>${esc((def.components||[def]).map(d=>skillDescription(d,rank+1,u)).join(' / '))}</p><small>최초 효과 기준 +10% · 복리 없음</small></div>`:''}<p class="skillOpenCondition">${def.unlocked?'사용 가능':def.ultimate?'★20에서 전용 스킬 개방':'별 강화 5회 · ★5에서 개방'}</p>`}
 const seen=new Set(),active=new Set();
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)active.add(e.target);else active.delete(e.target)}),{threshold:.1});
 function scan(){for(const c of document.querySelectorAll('[data-skill-scene]'))if(!seen.has(c)){seen.add(c);observer.observe(c);scene(c,performance.now()/1000)}for(const c of seen)if(!c.isConnected){observer.unobserve(c);seen.delete(c);active.delete(c)}}
@@ -34,5 +35,5 @@ function scene(c,time){
  g.fillStyle='#071321bb';g.fillRect(0,270,560,30);g.font='bold 13px system-ui';g.textAlign='left';g.fillStyle='#ecf3fa';g.fillText('SKILL CAST  /  '+heroLabel(u),18,291);
 }
 let last=0;function frame(ms){if(ms-last>65&&!document.hidden){last=ms;let count=0;for(const c of active){if(!c.isConnected||!c.getClientRects().length||!c.closest('dialog[open], #drawer, #battleSkillContent'))continue;if(++count>8)break;scene(c,ms/1000)}}requestAnimationFrame(frame)}
-window.ForgeSkillVisuals={art,icon};scan();requestAnimationFrame(frame);
+window.ForgeSkillVisuals={art,icon,description};scan();requestAnimationFrame(frame);
 })();

@@ -1,0 +1,5 @@
+{
+ "$schema":"https://json-schema.org/draft/2020-12/schema","type":"object",
+ "required":["id","qualification_name","source_type","source_title","source_url","license_status","storage_policy"],
+ "properties":{"id":{"type":"string"},"qualification_code":{"type":["string","null"]},"qualification_name":{"type":"string"},"grade":{"type":["string","null"]},"source_type":{"enum":["qnet_exam_standard","qnet_public_problem","qnet_past_exam","qnet_notice","public_api","ncs","other"]},"source_title":{"type":"string"},"source_url":{"type":"string"},"published_at":{"type":["string","null"]},"effective_from":{"type":["string","null"]},"effective_to":{"type":["string","null"]},"attachment_names":{"type":"array","items":{"type":"string"}},"copyright_owner":{"type":["string","null"]},"license_status":{"enum":["unknown","restricted","metadata_only","redistribution_allowed"]},"storage_policy":{"enum":["link_only","metadata_only","licensed_original_allowed"]},"checked_at":{"type":"string"},"notes":{"type":"string"}}
+}

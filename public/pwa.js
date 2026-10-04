@@ -5,4 +5,4 @@ installButton.addEventListener('click',async()=>{if(installPrompt){await install
 document.querySelector('#closeInstall').onclick=()=>document.querySelector('#installHelp').hidden=true;
 addEventListener('appinstalled',()=>{installPrompt=null;installButton.hidden=true});
 if(matchMedia('(display-mode: standalone)').matches||navigator.standalone)installButton.hidden=true;
-if('serviceWorker' in navigator&&['https:','http:'].includes(location.protocol))addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{installButton.title='오프라인 준비 실패. 연결 후 새로고침해 주세요.'}));
+if('serviceWorker' in navigator&&['https:','http:'].includes(location.protocol))addEventListener('load',async()=>{try{const reg=await navigator.serviceWorker.register('/sw.js',{updateViaCache:'none'});await reg.update();let refreshing=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(refreshing)return;refreshing=true;location.reload()});if(reg.waiting)reg.waiting.postMessage?.({type:'SKIP_WAITING'})}catch{installButton.title='오프라인 준비 실패. 연결 후 새로고침해 주세요.'}});

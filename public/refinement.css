@@ -62,3 +62,27 @@
 .rowUltimate{display:flex;align-items:center;gap:8px;grid-column:1/-1;text-align:left;border:1px solid #cba85d;background:#fff8dc;border-radius:12px;padding:8px;color:#31483d}.rowUltimate img{width:42px;height:42px}.rowUltimate small{display:block}.skillNextPreview{background:#edf6ee;border-radius:12px;padding:12px;margin:12px 0}
 
 #drawer.attributeLibrary .rowEnhancement:has(.rowUltimate){grid-template-columns:.7fr 1.2fr 1fr;gap:5px}.rowUltimate{grid-column:auto;min-width:0;min-height:0;padding:5px;font-size:11px;gap:4px}.rowUltimate img{width:26px;height:26px;flex:none}.rowUltimate small{font-size:10px;line-height:1.3}.labSkillDetail .skillArt,.labSkillDetail .skillVisual{flex:none}.labSkillDetail{overflow:auto}
+
+/* Content-sized cards prevent star panels overlapping on narrow phones. */
+#drawer.attributeLibrary #labDetail{overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;padding-bottom:8px}
+#drawer.attributeLibrary .attributeRows{flex:none;grid-template-rows:none;grid-auto-rows:auto;gap:12px;min-height:auto}
+#drawer.attributeLibrary .attributeRow{min-height:0;grid-template-rows:auto auto;align-items:center;padding:10px;overflow:hidden}
+#drawer.attributeLibrary .rowEnhancement{min-width:0;align-items:start;padding-top:10px;gap:10px}
+#drawer.attributeLibrary .rowEnhancement:has(.rowUltimate){grid-template-columns:1fr 1.15fr}
+#drawer.attributeLibrary .rowUltimate{grid-column:1/-1;font-size:14px;padding:8px;min-height:42px}
+#drawer.attributeLibrary .rowUltimate small{font-size:12px}
+#drawer.attributeLibrary .rowStarAction small{font-size:13px;line-height:1.5}
+#drawer.attributeLibrary .rowStarPreview{font-size:14px;line-height:1.5;min-width:0;overflow-wrap:anywhere;padding:8px}
+#drawer.attributeLibrary .rowStarPreview small,#drawer.attributeLibrary .rowGrowth>small{font-size:12px;line-height:1.5}
+#drawer.attributeLibrary .rowGrowth p{font-size:14px;line-height:1.5}
+#drawer.attributeLibrary .rowSkill>small{font-size:12px;line-height:1.4}
+#drawer.attributeLibrary #labDetail>.growthRuleNote{flex:none;font-size:13px;color:#385549;line-height:1.6;margin:6px 0;padding:10px;background:#eef4ea;border-radius:9px}
+#drawer.attributeLibrary .labUnitPaging{flex:none;position:sticky;bottom:-8px;background:#e9f0e5;padding:8px 0;z-index:2}
+#drawer.attributeLibrary .labSkillDetail{flex:none;overflow:visible;padding:12px;gap:10px}
+#drawer.attributeLibrary .labSkillDetail>p,#drawer.attributeLibrary .skillNextPreview p{font-size:16px;line-height:1.65;overflow-wrap:anywhere}
+#drawer.attributeLibrary .labSkillDetail .skillDamage{font-size:14px;line-height:1.6;white-space:normal;padding:7px 9px}
+#drawer.attributeLibrary .labSkillAction{flex-wrap:wrap;gap:12px}
+#drawer.attributeLibrary .labSkillAction small,#drawer.attributeLibrary .skillNextPreview small{font-size:14px;line-height:1.6}
+#drawer.attributeLibrary #labSkillUpgrade{font-size:15px;min-height:44px;padding:9px 12px}
+#drawer.attributeLibrary .labSkillTabs{flex:none}
+@media(max-width:420px){#drawer.attributeLibrary .attributeRow{grid-template-columns:48px minmax(0,1fr) 108px;gap:7px}#drawer.attributeLibrary .rowPortrait canvas{width:48px;height:58px}#drawer.attributeLibrary .rowEnhancement{grid-template-columns:1fr;gap:9px}#drawer.attributeLibrary .rowEnhancement:has(.rowUltimate){grid-template-columns:1fr}#drawer.attributeLibrary .rowSkill b{font-size:13px}#drawer.attributeLibrary .rowGrowth h3{font-size:16px}}

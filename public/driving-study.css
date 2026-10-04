@@ -2,3 +2,5 @@
 #roadNotice{position:absolute;top:64px;left:50%;transform:translateX(-50%);z-index:3;padding:7px 12px;border-radius:999px;background:#081522cc;border:1px solid #ffffff55;font-weight:800;font-size:12px;white-space:nowrap}#quiz{transition:opacity .2s,transform .2s}#quiz.waiting{opacity:.38;pointer-events:none;transform:scale(.98)}@media(max-width:700px){#roadNotice{top:48px;font-size:10px}#quiz{top:82px;width:62vw}}
 
 #hud span{padding:4px 8px;border-radius:9px;background:#07111d99}#roadNotice{max-width:90%;overflow:hidden;text-overflow:ellipsis}
+
+#controls .pedal{width:22vw;max-width:138px;height:88px;aspect-ratio:auto;border-radius:22px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;user-select:none;-webkit-user-select:none}#controls .pedal span{font-size:clamp(16px,4vw,24px)}#controls .pedal small{font-size:10px;opacity:.7}#controls .gas{background:#153f2dcc;border-color:#7ee3a7}#controls .brake{background:#4a2024dd;border-color:#ff8b91}#controls button.pressed{transform:scale(.94);filter:brightness(1.25)}

@@ -2,13 +2,14 @@
 (()=>{
 'use strict';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+function icon(u,def){let h=2166136261;for(const c of def.name)h=Math.imul(h^c.charCodeAt(0),16777619);return '<img class="skillIcon" src="/assets/skill-icons/'+(h>>>0).toString(16)+'.svg" alt="'+esc(def.name)+' 스킬 이미지" width="48" height="48">'}
 function art(u,def){
  const damage=typeof skillDamageText==='function'?skillDamageText(u,def):'직접 피해 0 · 지원 효과';
- return '<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.components?def.components.map(x=>x.effect).join('|'):def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure>';
+ return '<div class="skillArt"><header class="skillTitle">'+icon(u,def)+'<b>'+esc(def.name)+'</b></header>'+((def.components?.length>1)?'<div class="skillComponents">'+def.components.map(d=>'<span>'+icon(u,d)+esc(d.name)+'</span>').join('')+'</div>':'')+'<figure class="skillVisual liveSkillVisual"><canvas width="560" height="300" data-skill-scene="'+u.type+':'+u.lv+':'+(def.slot??0)+'" data-scene-effect="'+esc(def.components?def.components.map(x=>x.effect).join('|'):def.effect||'single')+'" aria-label="'+esc(heroLabel(u)+' · '+def.name+' 시전 장면')+'"></canvas><figcaption>게임 그래픽으로 재현한 시전 장면</figcaption><strong class="skillDamage">'+esc(damage)+'</strong><small class="skillDamageNote">치명타·적 방어 약화 적용 전 · 대상 1명 기준</small></figure></div>';
 }
 const seen=new Set(),active=new Set();
 const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)active.add(e.target);else active.delete(e.target)}),{threshold:.1});
-function scan(){for(const c of document.querySelectorAll('[data-skill-scene]'))if(!seen.has(c)){seen.add(c);observer.observe(c)}for(const c of seen)if(!c.isConnected){observer.unobserve(c);seen.delete(c);active.delete(c)}}
+function scan(){for(const c of document.querySelectorAll('[data-skill-scene]'))if(!seen.has(c)){seen.add(c);observer.observe(c);scene(c,performance.now()/1000)}for(const c of seen)if(!c.isConnected){observer.unobserve(c);seen.delete(c);active.delete(c)}}
 new MutationObserver(scan).observe(document.body,{childList:true,subtree:true});
 function scene(c,time){
  const [type,lv,skillSlot]=c.dataset.skillScene.split(':').map(Number),u={type,lv},f=c.dataset.sceneEffect.split('|')[Math.floor(time/2.8)%c.dataset.sceneEffect.split('|').length],g=c.getContext('2d'),color=U[type].accent;
@@ -33,5 +34,5 @@ function scene(c,time){
  g.fillStyle='#071321bb';g.fillRect(0,270,560,30);g.font='bold 13px system-ui';g.textAlign='left';g.fillStyle='#ecf3fa';g.fillText('SKILL CAST  /  '+heroLabel(u),18,291);
 }
 let last=0;function frame(ms){if(ms-last>65&&!document.hidden){last=ms;let count=0;for(const c of active){if(!c.isConnected||!c.getClientRects().length||!c.closest('dialog[open], #drawer, #battleSkillContent'))continue;if(++count>8)break;scene(c,ms/1000)}}requestAnimationFrame(frame)}
-window.ForgeSkillVisuals={art};scan();requestAnimationFrame(frame);
+window.ForgeSkillVisuals={art,icon};scan();requestAnimationFrame(frame);
 })();

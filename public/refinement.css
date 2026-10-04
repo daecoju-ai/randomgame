@@ -1,0 +1,37 @@
+/* Hero pages are measured layouts, never fragmented columns. */
+#drawer[data-native-pages][style*="block"]{position:fixed;inset:0;height:100dvh;max-height:none;padding:max(10px,env(safe-area-inset-top)) 12px max(8px,env(safe-area-inset-bottom));display:flex!important;flex-direction:column;gap:6px;overflow:hidden;background:linear-gradient(145deg,#f8f6eb,#e5eee4);color:#203b31;border-radius:0;box-sizing:border-box;z-index:45}
+#drawer[data-native-pages] .labHeader{height:40px;min-height:40px;padding:0;border:0;display:flex;align-items:center;gap:8px}
+#drawer[data-native-pages] .labHeader h2{font:700 23px system-ui;margin:0!important;color:#203b31}
+#drawer[data-native-pages] .labHeader .eyebrow{display:none}
+#drawer[data-native-pages] .labHeader #close{position:static;order:5;margin-left:auto;min-height:36px;padding:6px 10px}
+#drawer[data-native-pages] .essenceWallet{margin-left:8px;font-size:14px;gap:4px}.essenceWallet small{display:none}#drawer[data-native-pages] .essenceWallet b{font-size:18px}
+#drawer[data-native-pages] .labFilters{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;overflow:visible;margin:0}
+#drawer[data-native-pages] .labFilters button{min-height:30px;padding:3px;font-size:12px;white-space:nowrap;border-radius:9px}
+#drawer[data-native-pages] .labLayout{display:flex;flex:1;min-height:0;flex-direction:column;gap:6px}
+#drawer[data-native-pages] #labCards{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:4px;order:0;flex:none}
+.labThumb{padding:3px;min-width:0;border-radius:10px;border:1px solid #a4bdab;background:#f7faf4;box-shadow:none;color:#234337;display:flex;flex-direction:column;align-items:center;gap:2px}
+.labThumb.selected{border:2px solid #338865;background:#d5ebdf}.labThumb canvas{width:100%;height:46px;object-fit:contain}.labThumb b{font-size:10px;white-space:nowrap}
+#drawer[data-native-pages] #labDetail{order:1;flex:1;min-height:0;display:flex;flex-direction:column;gap:5px;padding:0;border:0;border-radius:0;background:none;box-shadow:none;position:static;text-align:left}
+.labHeroSummary{display:flex;align-items:center;gap:9px;flex:none;padding:4px 8px;border-radius:14px;background:#fffdf7;border:1px solid #b2c8b5}
+#drawer #detailHero{width:95px!important;height:86px!important;aspect-ratio:4/3;object-fit:contain;flex:none}.labHeroSummary>div{flex:1;min-width:0}
+#drawer[data-native-pages] .labHeroSummary h3{font-size:18px;margin:0 0 3px;color:#203b31}.labHeroSummary p{font-size:12px;margin:2px 0}.labHeroSummary small{font-size:11px}
+#drawer[data-native-pages] #levelUpSelected{display:inline-block;width:auto;min-height:30px;padding:4px 8px;font-size:12px;margin-left:8px}
+.labSkillTabs{display:flex;gap:4px;flex:none}.labSkillTabs button{flex:1;min-width:0;min-height:52px;padding:3px;border-radius:10px;background:#f5f8f0;color:#203b31;display:flex;flex-direction:column;align-items:center;gap:2px;border:1px solid #99b49f;box-shadow:none}.labSkillTabs button[aria-pressed=true]{background:#d1e9da;border-color:#297c59}.labSkillTabs img{width:30px;height:30px}.labSkillTabs span{font-size:10px;line-height:1.15}
+.labSkillDetail{min-height:0;flex:1;padding:6px 8px;border-radius:12px;background:#fffdf7;border:1px solid #b2c8b5;display:flex;flex-direction:column;gap:4px}
+.skillArt{min-width:0}.skillTitle{display:flex!important;align-items:center;gap:8px;margin:0!important;padding:0!important}.skillTitle b{font-size:16px;margin:0!important}.skillIcon{object-fit:contain;border-radius:10px;flex:none}.skillTitle .skillIcon{width:36px;height:36px}.skillComponents{display:flex;flex-wrap:wrap;gap:4px;margin:3px 0}.skillComponents span{display:flex;align-items:center;gap:3px;font-size:10px}.skillComponents img{width:24px;height:24px}
+.skillArt+ :is(b,h3,strong){display:none!important}.skillArt .skillVisual{margin:5px 0}.skillArt .skillVisual figcaption{display:none}.skillArt .skillDamageNote{font-size:10px}
+.labSkillDetail .skillArt{min-height:0;flex:1;display:flex;flex-direction:column}.labSkillDetail .skillVisual{min-height:0;flex:1;display:flex;flex-direction:column;gap:2px;margin:3px 0}.labSkillDetail .skillVisual canvas{min-height:0;flex:1;width:100%;max-height:150px;object-fit:contain;aspect-ratio:auto;border-radius:8px}.labSkillDetail .skillDamage{font-size:11px;padding:3px 5px;margin:0}.labSkillDetail .skillDamageNote{display:none}.labSkillDetail>p{font-size:13px;line-height:1.4;margin:0;color:#284a3c;flex:none}
+.labSkillAction{display:flex;align-items:center;justify-content:space-between;gap:4px;flex:none}.labSkillAction small{font-size:10px}.labSkillAction button{min-height:28px;padding:4px 7px;font-size:11px}
+.labUnitPaging{display:flex;align-items:center;justify-content:space-between;flex:none}.labUnitPaging button{min-height:32px;width:45px;padding:3px;font-size:21px}.labUnitPaging span{font-size:12px}
+#fieldFusion{grid-column:1/-1;display:flex;gap:4px;justify-content:center}#fieldFusion[hidden]{display:none}#fieldFusion button{background:linear-gradient(135deg,#8ff3ab,#3fbd74);color:#113b22;border-color:#288350;min-height:30px!important;padding:4px 7px;flex:1;font-weight:800}
+#selectionPanel:has(#fieldFusion:not([hidden])){padding:4px 6px}#selectionPanel:has(#fieldFusion:not([hidden])) #selectedSkillSummary{display:none}
+@media(max-height:700px){#drawer[data-native-pages]{gap:4px}.labSkillDetail{padding:4px 6px}.labHeroSummary{padding:3px 6px}#drawer #detailHero{height:74px!important;width:84px!important}.labSkillDetail .skillVisual canvas{max-height:96px}.labSkillDetail>p{font-size:12px;line-height:1.3}}
+#cloudStatus{display:none!important}.restDialog{width:min(94vw,440px);max-height:94dvh;border:1px solid #89b5aa;border-radius:20px;background:#f8f5eb;color:#173d38;padding:18px;box-sizing:border-box;user-select:none;-webkit-user-select:none}.restDialog::backdrop{background:#001820bd}.restDialog h2{margin:0;font-size:22px}.restDialog p{font-size:14px;line-height:1.5}.restSteps{display:grid;grid-template-columns:1fr 1fr;gap:8px}.restSteps figure{margin:0;background:#e9f0e7;border-radius:12px;padding:8px}.restSteps svg{width:100%;height:90px}.restSteps figcaption{font-size:13px}.restDialog button{width:100%;min-height:40px;border-radius:10px}.restCaution{font-size:12px!important}
+#drawer[data-native-pages] .labHeroSummary>div{display:grid;grid-template-columns:1fr auto;gap:2px 4px;align-items:center}
+#drawer[data-native-pages] .labHeroSummary h3,#drawer[data-native-pages] .labHeroSummary p{grid-column:1/-1;line-height:1.25;margin:0}
+#drawer[data-native-pages] .labHeroSummary small{line-height:1.25;margin:0;grid-column:1;font-size:10px}
+#drawer[data-native-pages] #levelUpSelected{margin:0;grid-column:2;min-height:28px}
+@media(max-height:700px){#drawer[data-native-pages] .labHeroSummary h3{font-size:17px}#drawer[data-native-pages] .labHeroSummary p{font-size:11px}#drawer[data-native-pages] #labCards{padding:0}.labSkillDetail .skillTitle .skillIcon{width:30px;height:30px}.labSkillDetail .skillTitle b{font-size:14px}.labSkillDetail .skillComponents img{width:18px;height:18px}.labSkillDetail .skillComponents{margin:1px 0}.labSkillDetail .skillDamage{font-size:10px;line-height:1.25}.labSkillDetail .skillVisual canvas{min-height:50px}}
+#selectionPanel:has(#fieldFusion:not([hidden])){gap:2px 4px!important}
+#selectionPanel:has(#fieldFusion:not([hidden])) #battleUpgradeNotice{display:none}
+#selectionPanel:has(#fieldFusion:not([hidden])) #selectedTier{margin-top:2px;line-height:1.2}

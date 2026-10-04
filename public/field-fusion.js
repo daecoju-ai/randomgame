@@ -1,0 +1,11 @@
+/* UI only: every fusion still passes through the existing recipe validators. */
+(()=>{'use strict';const panel=document.querySelector('#selectionPanel');panel.insertAdjacentHTML('beforeend','<div id="fieldFusion" hidden></div>');
+function matching(u){if(!u||u.lv>=5)return[];return RECIPES.map((r,i)=>({r,i})).filter(({r})=>r.partTier===u.lv&&r.cls===elementFor(u.type).id&&recipeReady(r)&&units.filter(v=>v.type===u.type&&v.lv===u.lv).length>=3)}
+function ready(u){return matching(u).length>0||(u.lv===4&&units.filter(v=>v.lv===4).length>=3&&randomFinalPool().length>0)}
+const original=refreshSelection;refreshSelection=function(){original();const host=document.querySelector('#fieldFusion'),u=S.sel;if(!u||!units.includes(u)||!started||ended){host.hidden=true;return}const recipes=matching(u),random=u.lv===4&&randomFinalPool().length>0;host.hidden=!recipes.length&&!random;if(host.hidden)return;const html=recipes.map(({r,i})=>`<button data-field-recipe="${i}" ${paused?'disabled':''}>조합${u.lv===4?(SPECIALS[r.name].base===elementFor(u.type).support?' · 지원':' · 공격'):''}</button>`).join('')+(random?`<button id="fieldRandom" ${paused||units.filter(v=>v.lv===4).length<3?'disabled':''}>조합 · 신규 랜덤${units.filter(v=>v.lv===4).length<3?' (4단계 3기 필요)':''}</button>`:'');if(host.dataset.content!==html){host.innerHTML=html;host.dataset.content=html}
+for(const b of host.querySelectorAll('[data-field-recipe]'))b.onclick=()=>{const keep=units.indexOf(u);if(keep>0){units.splice(keep,1);units.unshift(u)}craftRecipe(+b.dataset.fieldRecipe)};
+const b=document.querySelector('#fieldRandom');if(b)b.onclick=()=>{randomForgeSelection=[u,...units.filter(v=>v!==u&&v.lv===4).sort((a,b)=>a.slot-b.slot)].slice(0,3);craftRandomFinal()};};
+const render=draw;draw=function(){render();if(!started||ended)return;ctx.save();ctx.lineWidth=2.5;for(const u of units)if(ready(u)){const p=slot(u.slot),size=Math.min(44,(slot(4).y-slot(0).y)-4);ctx.strokeStyle='#75ff99';ctx.shadowColor='#53ee7c';ctx.shadowBlur=8;ctx.strokeRect(p.x-size/2,p.y-size/2,size,size)}ctx.restore()};
+document.querySelector('#combine').textContent='조합 가능 표시';document.querySelector('#combine').onclick=()=>{const u=units.find(ready);if(u){S.sel=u;guardianRun.selected=false;refreshSelection()}else toast('동일 유닛 3기를 모으면 타일이 녹색으로 빛납니다.')};
+window.ForgeFieldFusion={matching,ready};
+})();

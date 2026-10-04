@@ -1,0 +1,507 @@
+{
+  "화염탄": {
+    "path": "/assets/skill-icons/dae8a94b.svg",
+    "family": "fire",
+    "effect": "single"
+  },
+  "화염 폭발": {
+    "path": "/assets/skill-icons/430d72f6.svg",
+    "family": "fire",
+    "effect": "area"
+  },
+  "연속 화염탄": {
+    "path": "/assets/skill-icons/6678f58a.svg",
+    "family": "fire",
+    "effect": "multi"
+  },
+  "화염 폭풍": {
+    "path": "/assets/skill-icons/b38209d9.svg",
+    "family": "fire",
+    "effect": "burnZone"
+  },
+  "물방울": {
+    "path": "/assets/skill-icons/af9be56a.svg",
+    "family": "water",
+    "effect": "single"
+  },
+  "물의 파도": {
+    "path": "/assets/skill-icons/69f3c83.svg",
+    "family": "water",
+    "effect": "wave"
+  },
+  "얼음 화살": {
+    "path": "/assets/skill-icons/37627a4f.svg",
+    "family": "water",
+    "effect": "ice"
+  },
+  "빙결 구역": {
+    "path": "/assets/skill-icons/da88502f.svg",
+    "family": "water",
+    "effect": "freezeZone"
+  },
+  "바위 던지기": {
+    "path": "/assets/skill-icons/7e92fe5d.svg",
+    "family": "earth",
+    "effect": "single"
+  },
+  "진흙 구역": {
+    "path": "/assets/skill-icons/ceb7a65d.svg",
+    "family": "earth",
+    "effect": "mud"
+  },
+  "바위 폭주": {
+    "path": "/assets/skill-icons/9747f1de.svg",
+    "family": "earth",
+    "effect": "burst"
+  },
+  "지진 충격": {
+    "path": "/assets/skill-icons/2ef13d85.svg",
+    "family": "earth",
+    "effect": "stun"
+  },
+  "바람 칼날": {
+    "path": "/assets/skill-icons/b832fc93.svg",
+    "family": "wind",
+    "effect": "single"
+  },
+  "회오리": {
+    "path": "/assets/skill-icons/bec418e3.svg",
+    "family": "wind",
+    "effect": "stun"
+  },
+  "가속의 바람": {
+    "path": "/assets/skill-icons/1b87b436.svg",
+    "family": "wind",
+    "effect": "speed"
+  },
+  "토네이도": {
+    "path": "/assets/skill-icons/8821aab1.svg",
+    "family": "wind",
+    "effect": "pullZone"
+  },
+  "전기구체": {
+    "path": "/assets/skill-icons/60e3adc1.svg",
+    "family": "electric",
+    "effect": "single"
+  },
+  "감전": {
+    "path": "/assets/skill-icons/626b4411.svg",
+    "family": "electric",
+    "effect": "chain"
+  },
+  "연쇄 번개": {
+    "path": "/assets/skill-icons/b5c90977.svg",
+    "family": "electric",
+    "effect": "chain"
+  },
+  "전기 폭풍": {
+    "path": "/assets/skill-icons/d1b0c97d.svg",
+    "family": "electric",
+    "effect": "stormZone"
+  },
+  "암흑 단검": {
+    "path": "/assets/skill-icons/f9cd34ba.svg",
+    "family": "shadow",
+    "effect": "single"
+  },
+  "암흑 돌진": {
+    "path": "/assets/skill-icons/195b664a.svg",
+    "family": "shadow",
+    "effect": "strike"
+  },
+  "그림자 분신": {
+    "path": "/assets/skill-icons/b2bcabe5.svg",
+    "family": "shadow",
+    "effect": "clone"
+  },
+  "암흑 낙인": {
+    "path": "/assets/skill-icons/b57661bb.svg",
+    "family": "shadow",
+    "effect": "mark"
+  },
+  "독침": {
+    "path": "/assets/skill-icons/26d6cfb8.svg",
+    "family": "poison",
+    "effect": "toxicStack"
+  },
+  "산성 웅덩이": {
+    "path": "/assets/skill-icons/aff5e334.svg",
+    "family": "poison",
+    "effect": "acidPool"
+  },
+  "맹독 응축": {
+    "path": "/assets/skill-icons/c7b9ded7.svg",
+    "family": "poison",
+    "effect": "toxicStack"
+  },
+  "독성 파열": {
+    "path": "/assets/skill-icons/ec7f0c81.svg",
+    "family": "poison",
+    "effect": "toxicBurst"
+  },
+  "역병의 왕관": {
+    "path": "/assets/skill-icons/277005ae.svg",
+    "family": "poison",
+    "effect": "plague"
+  },
+  "만독 폭발": {
+    "path": "/assets/skill-icons/b3fa926f.svg",
+    "family": "poison",
+    "effect": "detonate"
+  },
+  "독화 만개": {
+    "path": "/assets/skill-icons/6927247c.svg",
+    "family": "poison",
+    "effect": "venomQueen"
+  },
+  "강철 관통": {
+    "path": "/assets/skill-icons/36de99ff.svg",
+    "family": "metal",
+    "effect": "pierce"
+  },
+  "은빛 도탄": {
+    "path": "/assets/skill-icons/4a95afcc.svg",
+    "family": "metal",
+    "effect": "ricochet"
+  },
+  "칼날 파편": {
+    "path": "/assets/skill-icons/ac126d4f.svg",
+    "family": "metal",
+    "effect": "steelShard"
+  },
+  "장갑 분쇄": {
+    "path": "/assets/skill-icons/aa77d8f9.svg",
+    "family": "metal",
+    "effect": "armorBreak"
+  },
+  "심판의 궤적": {
+    "path": "/assets/skill-icons/360630ba.svg",
+    "family": "metal",
+    "effect": "railStrike"
+  },
+  "백은 난무": {
+    "path": "/assets/skill-icons/e9ccd55c.svg",
+    "family": "metal",
+    "effect": "bladeStorm"
+  },
+  "강철 선고": {
+    "path": "/assets/skill-icons/1cf36cb0.svg",
+    "family": "metal",
+    "effect": "judgement"
+  },
+  "시간 잔상": {
+    "path": "/assets/skill-icons/1314fe28.svg",
+    "family": "time",
+    "effect": "echo"
+  },
+  "초침의 낙인": {
+    "path": "/assets/skill-icons/83f03c.svg",
+    "family": "time",
+    "effect": "timeMark"
+  },
+  "기록의 메아리": {
+    "path": "/assets/skill-icons/532899a6.svg",
+    "family": "time",
+    "effect": "echo"
+  },
+  "시각 봉인": {
+    "path": "/assets/skill-icons/703bb653.svg",
+    "family": "time",
+    "effect": "timeSeal"
+  },
+  "순간의 기록": {
+    "path": "/assets/skill-icons/c5866f5e.svg",
+    "family": "time",
+    "effect": "chronicle"
+  },
+  "되감긴 타격": {
+    "path": "/assets/skill-icons/56810886.svg",
+    "family": "time",
+    "effect": "rewindStrike"
+  },
+  "시간 연쇄": {
+    "path": "/assets/skill-icons/ed8f7af3.svg",
+    "family": "time",
+    "effect": "timeCascade"
+  },
+  "별빛 표식": {
+    "path": "/assets/skill-icons/6c31a893.svg",
+    "family": "star",
+    "effect": "starMark"
+  },
+  "성운 가루": {
+    "path": "/assets/skill-icons/b3a5bbd0.svg",
+    "family": "star",
+    "effect": "stardust"
+  },
+  "작은 유성": {
+    "path": "/assets/skill-icons/a6f98d7f.svg",
+    "family": "star",
+    "effect": "starfall"
+  },
+  "항성 관측": {
+    "path": "/assets/skill-icons/a3555346.svg",
+    "family": "star",
+    "effect": "starMark"
+  },
+  "낙성 예고": {
+    "path": "/assets/skill-icons/14a5a0ad.svg",
+    "family": "star",
+    "effect": "meteorSign"
+  },
+  "별자리 낙하": {
+    "path": "/assets/skill-icons/a26589dc.svg",
+    "family": "star",
+    "effect": "constellation"
+  },
+  "초신성": {
+    "path": "/assets/skill-icons/434b0f8c.svg",
+    "family": "star",
+    "effect": "supernova"
+  },
+  "균열 표식": {
+    "path": "/assets/skill-icons/ce946010.svg",
+    "family": "void",
+    "effect": "riftMark"
+  },
+  "공허 파편": {
+    "path": "/assets/skill-icons/f0463dac.svg",
+    "family": "void",
+    "effect": "voidShard"
+  },
+  "차원의 흔적": {
+    "path": "/assets/skill-icons/3b248e26.svg",
+    "family": "void",
+    "effect": "riftMark"
+  },
+  "균열 흡수": {
+    "path": "/assets/skill-icons/9288d45a.svg",
+    "family": "void",
+    "effect": "riftConsume"
+  },
+  "공허의 각인": {
+    "path": "/assets/skill-icons/32901c81.svg",
+    "family": "void",
+    "effect": "voidBrand"
+  },
+  "차원 붕괴": {
+    "path": "/assets/skill-icons/751ecb5e.svg",
+    "family": "void",
+    "effect": "riftDetonate"
+  },
+  "무의 종언": {
+    "path": "/assets/skill-icons/d279c02e.svg",
+    "family": "void",
+    "effect": "nullCollapse"
+  },
+  "종말의 화염": {
+    "path": "/assets/skill-icons/9952b638.svg",
+    "family": "fire",
+    "effect": "globalFire"
+  },
+  "불의 심판": {
+    "path": "/assets/skill-icons/c11d2a13.svg",
+    "family": "fire",
+    "effect": "burn"
+  },
+  "멸화 폭풍": {
+    "path": "/assets/skill-icons/3626952d.svg",
+    "family": "fire",
+    "effect": "burnZone"
+  },
+  "불의 축복": {
+    "path": "/assets/skill-icons/8b9078f9.svg",
+    "family": "fire",
+    "effect": "attackAura"
+  },
+  "폭염의 공명": {
+    "path": "/assets/skill-icons/85a213c2.svg",
+    "family": "fire",
+    "effect": "splashAura"
+  },
+  "불사조의 가호": {
+    "path": "/assets/skill-icons/2a1cf143.svg",
+    "family": "fire",
+    "effect": "fury"
+  },
+  "심해의 포효": {
+    "path": "/assets/skill-icons/3bdf151.svg",
+    "family": "water",
+    "effect": "globalWave"
+  },
+  "절대빙결": {
+    "path": "/assets/skill-icons/bac4087c.svg",
+    "family": "water",
+    "effect": "freeze"
+  },
+  "대해일": {
+    "path": "/assets/skill-icons/bbe64477.svg",
+    "family": "water",
+    "effect": "tidal"
+  },
+  "마력의 샘": {
+    "path": "/assets/skill-icons/8b3e6f2.svg",
+    "family": "water",
+    "effect": "manaAura"
+  },
+  "정화의 물결": {
+    "path": "/assets/skill-icons/d74f6238.svg",
+    "family": "water",
+    "effect": "cleanse"
+  },
+  "청명의 결계": {
+    "path": "/assets/skill-icons/adeadbb3.svg",
+    "family": "water",
+    "effect": "clarity"
+  },
+  "대지의 분노": {
+    "path": "/assets/skill-icons/b5053e79.svg",
+    "family": "earth",
+    "effect": "rupture"
+  },
+  "산의 붕괴": {
+    "path": "/assets/skill-icons/c61f488e.svg",
+    "family": "earth",
+    "effect": "meteor"
+  },
+  "지반 파괴": {
+    "path": "/assets/skill-icons/a76f7787.svg",
+    "family": "earth",
+    "effect": "shatter"
+  },
+  "거암의 힘": {
+    "path": "/assets/skill-icons/8fa407db.svg",
+    "family": "earth",
+    "effect": "earthAura"
+  },
+  "늪의 결계": {
+    "path": "/assets/skill-icons/1e570bf9.svg",
+    "family": "earth",
+    "effect": "mud"
+  },
+  "대륙의 기상": {
+    "path": "/assets/skill-icons/6a33a34d.svg",
+    "family": "earth",
+    "effect": "earthFury"
+  },
+  "폭풍의 눈": {
+    "path": "/assets/skill-icons/45c6e765.svg",
+    "family": "wind",
+    "effect": "pullZone"
+  },
+  "진공 난무": {
+    "path": "/assets/skill-icons/9aea0a9e.svg",
+    "family": "wind",
+    "effect": "flurry"
+  },
+  "천공 회오리": {
+    "path": "/assets/skill-icons/490e268e.svg",
+    "family": "wind",
+    "effect": "airborne"
+  },
+  "바람의 축복": {
+    "path": "/assets/skill-icons/db1767e7.svg",
+    "family": "wind",
+    "effect": "speedAura"
+  },
+  "순풍의 가호": {
+    "path": "/assets/skill-icons/df3be592.svg",
+    "family": "wind",
+    "effect": "hasteAura"
+  },
+  "시간의 돌풍": {
+    "path": "/assets/skill-icons/4d91022a.svg",
+    "family": "wind",
+    "effect": "swift"
+  },
+  "천벌의 심판": {
+    "path": "/assets/skill-icons/47c73b71.svg",
+    "family": "electric",
+    "effect": "globalThunder"
+  },
+  "연쇄 천벌": {
+    "path": "/assets/skill-icons/3d33e393.svg",
+    "family": "electric",
+    "effect": "chain"
+  },
+  "신의 낙뢰": {
+    "path": "/assets/skill-icons/f6d503a6.svg",
+    "family": "electric",
+    "effect": "bossStrike"
+  },
+  "감전 증폭": {
+    "path": "/assets/skill-icons/5fa31cd5.svg",
+    "family": "electric",
+    "effect": "shockAura"
+  },
+  "뇌전의 결계": {
+    "path": "/assets/skill-icons/a2a35339.svg",
+    "family": "electric",
+    "effect": "chain"
+  },
+  "벼락의 신호": {
+    "path": "/assets/skill-icons/7948d402.svg",
+    "family": "electric",
+    "effect": "bossStrike"
+  },
+  "죽음의 표식": {
+    "path": "/assets/skill-icons/6ef1fa7f.svg",
+    "family": "shadow",
+    "effect": "deathMark"
+  },
+  "그림자 참살": {
+    "path": "/assets/skill-icons/336339a5.svg",
+    "family": "shadow",
+    "effect": "burst"
+  },
+  "암흑 처형": {
+    "path": "/assets/skill-icons/e9d2cb61.svg",
+    "family": "shadow",
+    "effect": "execute"
+  },
+  "흑월의 축복": {
+    "path": "/assets/skill-icons/e72522ce.svg",
+    "family": "shadow",
+    "effect": "critAura"
+  },
+  "살의의 공명": {
+    "path": "/assets/skill-icons/c7fa55db.svg",
+    "family": "shadow",
+    "effect": "critPowerAura"
+  },
+  "월식의 계시": {
+    "path": "/assets/skill-icons/791fbd1a.svg",
+    "family": "shadow",
+    "effect": "critFury"
+  },
+  "별빛 일격": {
+    "path": "/assets/skill-icons/b5f2814f.svg",
+    "family": "guardian",
+    "effect": "star"
+  },
+  "별의 격려": {
+    "path": "/assets/skill-icons/f1da696e.svg",
+    "family": "guardian",
+    "effect": "star"
+  },
+  "정화의 가호": {
+    "path": "/assets/skill-icons/f38bc72c.svg",
+    "family": "guardian",
+    "effect": "star"
+  },
+  "마력 공명": {
+    "path": "/assets/skill-icons/7adf13f0.svg",
+    "family": "guardian",
+    "effect": "star"
+  },
+  "운명의 재정렬": {
+    "path": "/assets/skill-icons/10b8b7fb.svg",
+    "family": "guardian",
+    "effect": "star"
+  },
+  "완전 해방": {
+    "path": "/assets/skill-icons/8fd9918.svg",
+    "family": "guardian",
+    "effect": "star"
+  }
+}

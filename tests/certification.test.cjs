@@ -12,8 +12,8 @@ test('chosen certification packs include only mapped target and subject, not the
  assert.throws(()=>P.groupQuestions([{...B.bank()[0],certification_routes:[{target:'unknown',area:'unknown'}]}]),/Unknown certification route/);
 });
 test('server verification allowlist accepts every playable proof; no question text added to SQL',()=>{
- const sql=fs.readFileSync('scripts/learning-content-v54.sql','utf8');
- for(const q of B.bank()){assert(sql.includes(B.proof(q).fingerprint));assert(!sql.includes(q.question));}
+ const sql=fs.readFileSync('scripts/learning-content-v54.sql','utf8');const newSQL=fs.readFileSync('scripts/learning-content-v58.sql','utf8');
+ for(const q of B.bank()){assert((q.id.startsWith('V58-')?newSQL:sql).includes(B.proof(q).fingerprint));assert(!newSQL.includes(q.question));}
  const prior=fs.readFileSync('scripts/learning-content-v53.sql','utf8');
  assert.equal(sql.replace(/fp not in \([^)]*\)/,'ALLOWLIST'),prior.replace(/fp not in \([^)]*\)/,'ALLOWLIST'));
 });

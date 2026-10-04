@@ -23,7 +23,7 @@ function prepare(el){
 }
 function go(s,page){s.page=Math.max(0,Math.min(s.count-1,page));s.win.scrollLeft=s.page*s.stride;const [prev,next]=s.nav.querySelectorAll('button');prev.disabled=s.page===0;next.disabled=s.page===s.count-1;s.nav.querySelector('span').textContent=(s.page+1)+' / '+s.count;}
 function update(){frame=0;document.documentElement.style.setProperty('--ui-height',(window.visualViewport?.height||innerHeight)+'px');for(const el of document.querySelectorAll('dialog,#drawer,#recipeOverlay,#resultScreen,#leaveBattle,#finish')){
- if(!visible(el)){el.removeAttribute('data-viewport-open');continue}const s=prepare(el);el.setAttribute('data-viewport-open','');
+ if(el.dataset.nativePages==='true')continue;if(!visible(el)){el.removeAttribute('data-viewport-open');continue}const s=prepare(el);el.setAttribute('data-viewport-open','');
  // Some existing renderers append fresh nodes directly to the dialog.
  for(const child of [...el.children])if(child!==s.heading&&child!==s.win&&child!==s.nav&&!child.matches('.miniLegendFlash,.revealGlow'))s.content.append(child);
  const width=s.win.clientWidth;if(!width)continue;

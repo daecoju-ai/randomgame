@@ -15,7 +15,7 @@ $('#closeAlbumDetail').onclick=()=>$('#albumDetailDialog').close();
 $('#albumDetailClose').onclick=()=>{closeHubs()};
 document.querySelectorAll('[data-album-filter]').forEach(b=>b.onclick=()=>{albumFilter=b.dataset.albumFilter;albumIndex=0;albumPage=0;document.querySelectorAll('[data-album-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));album()});
 for(const [id,step] of [['albumPrev',-1],['albumNext',1]])$('#'+id).onclick=()=>{albumIndex=(albumIndex+step+entries().length)%entries().length;skillPage=0;detail()};
-$('#albumToGrowth').onclick=()=>{const u=entries()[albumIndex];closeHubs();labFilter='all';heroCollectionQuery='';$('#heroSearch').value='';selectedLabKey=lvKey(u.type,u.lv);openGrowth();$('#drawer').scrollTop=0;$('#labDetail').scrollTop=0;$('#labDetail').scrollIntoView({block:'start'})};
+$('#albumToGrowth').onclick=()=>{const u=entries()[albumIndex];closeHubs();labFilter='all';heroCollectionQuery='';if($('#heroSearch'))$('#heroSearch').value='';selectedLabKey=lvKey(u.type,u.lv);openGrowth();$('#drawer').scrollTop=0;$('#labDetail').scrollTop=0;$('#labDetail').scrollIntoView({block:'start'})};
 $('#albumToDraw').onclick=()=>{closeHubs();$('#openUnitDraw').click()};
 $('#openBaseLegends').onclick=()=>{closeHubs();window.ForgeSummons.openProduct(0,'base')};
 $('#openHiddenCollection').onclick=()=>{closeHubs();$('#hiddenCollectionDialog').showModal()};

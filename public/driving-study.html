@@ -1,0 +1,8 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><title>학습 드라이빙 · 공부하면서 레벨업 행운디펜스</title><link rel="stylesheet" href="/driving-study.css"></head><body>
+<div id="driveGame"><canvas id="road" aria-label="학습 드라이빙 도로"></canvas>
+<header><button id="driveBack" type="button">← 학습 메뉴</button><b>공부하면서 레벨업 · 학습 드라이빙</b><span id="score">점수 0</span></header>
+<div id="roadNotice" aria-live="polite">한국 도로 실전학습 · 안전하게 주행하세요</div><section id="quiz"><small id="qCount">문제 1/5</small><h2 id="question"></h2><div id="answers"></div><p id="feedback" aria-live="polite"></p></section>
+<div id="hud"><b><span id="speed">0</span> km/h</b><span>충돌 <strong id="hits">0</strong>/5</span><span>안전운전 <strong id="safeCount">0</strong></span><span>남은시간 <strong id="time">60</strong>초</span></div>
+<div id="indicators"><button type="button" id="indicatorLeft" aria-label="좌측 방향지시등">← 깜빡이</button><button type="button" id="indicatorRight" aria-label="우측 방향지시등">깜빡이 →</button></div><div id="controls"><button type="button" data-k="left" aria-label="왼쪽">◀</button><button type="button" data-k="right" aria-label="오른쪽">▶</button><button type="button" data-k="brake" class="pedal brake"><span>브레이크</span><small>BRAKE</small></button><button type="button" data-k="gas" class="pedal gas"><span>엑셀</span><small>ACCEL</small></button></div>
+<div id="finish" hidden><h1>주행 완료!</h1><p id="result"></p><p id="rewardNotice">학습 결과를 기록합니다. 보상은 기존 서버 검증 흐름과 연결 후 지급됩니다.</p><button id="driveRetry" type="button">다시 하기</button><button id="driveHome" type="button">학습 메뉴</button></div>
+</div><script src="/driving-study.js"></script></body></html>

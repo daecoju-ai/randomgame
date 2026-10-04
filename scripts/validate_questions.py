@@ -15,6 +15,11 @@ for f in files:
         seen.add(qid)
         if q.get('game_type') in ('multiple_choice','tile_order') and 'choices' in q and str(q.get('answer')) not in [str(x) for x in q['choices']]: errors.append(f'{p}: answer not in choices')
         if q.get('review_status') not in ('draft','reviewed','published'): errors.append(f'{p}: invalid review_status')
+        if '/data/questions/certification/' in ('/'+f.as_posix()):
+            for k in ['qualification_code','qualification_name','qualification_grade']:
+                if not q.get(k): errors.append(f'{p}: missing {k}')
+            refs=q.get('source_references',[])
+            if not isinstance(refs,list) or not refs: errors.append(f'{p}: missing source_references')
 if errors:
     print('\n'.join(errors)); sys.exit(1)
 print(f'OK: {len(seen)} questions validated across {len(files)} files')

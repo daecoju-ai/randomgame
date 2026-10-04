@@ -68,7 +68,8 @@
         "MATCHING",
         "ORDERING",
         "MULTIPLE_CHOICE",
-        "TARGET_SELECT"
+        "TARGET_SELECT",
+        "FORMULA"
       ]
     },
     "question": {
@@ -131,6 +132,33 @@
       ]
     },
     "data_checked_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "qualification_code": {
+      "type": "string"
+    },
+    "qualification_name": {
+      "type": "string"
+    },
+    "qualification_grade": {
+      "type": "string"
+    },
+    "source_references": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "law_name": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "law_effective_date": {
       "type": [
         "string",
         "null"

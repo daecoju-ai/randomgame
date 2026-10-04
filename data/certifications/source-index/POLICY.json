@@ -1,0 +1,9 @@
+{
+  "policy_version": 1,
+  "checked_at": "2026-10-04",
+  "rules": [
+    {"source":"Q-Net 국가기술자격 시험문제","default_license_status":"restricted","default_storage_policy":"link_only","rule":"명시적 재배포 허락 전 원문을 GitHub에 복제하지 않는다."},
+    {"source":"Q-Net 출제기준","default_license_status":"metadata_only","default_storage_policy":"link_only","rule":"학습범위 참고용으로 사용하고 문제/보기/해설은 독자 제작한다."},
+    {"source":"공공데이터 OpenAPI","default_license_status":"check_per_dataset","default_storage_policy":"metadata_only","rule":"각 데이터셋 이용허락범위를 기록한 뒤 허용 범위에서 캐시/가공한다."}
+  ]
+}

@@ -1,5 +1,5 @@
 (function(root,factory){const rules=factory();if(typeof module==='object')module.exports=rules;else root.ForgeLearningRules=rules})(typeof globalThis==='object'?globalThis:this,()=>{'use strict';
-const TYPES={TILE_SEQUENCE:'sequence',ORDERING:'sequence',tile_order:'choice',TILE_CHOICE:'choice',TARGET_SELECT:'choice',MULTIPLE_CHOICE:'choice',multiple_choice:'choice',MATCHING:'matching',matching:'matching'};
+const TYPES={TILE_SEQUENCE:'sequence',ORDERING:'sequence',tile_order:'choice',TILE_CHOICE:'choice',TARGET_SELECT:'choice',FORMULA:'choice',MULTIPLE_CHOICE:'choice',multiple_choice:'choice',MATCHING:'matching',matching:'matching'};
 function mode(q){return TYPES[q.game_type]||null}
 function answers(q){return(Array.isArray(q.answer)?q.answer:[q.answer]).map(String)}
 function start(q){return{step:0,mistakes:0,streak:0,picked:[],events:[],done:false,heard:false}}

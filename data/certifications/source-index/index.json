@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "items": [],
+  "policy": {
+    "store_original_when": [
+      "redistribution_allowed"
+    ],
+    "link_only_when": [
+      "unknown",
+      "restricted"
+    ],
+    "checked_at": "2026-10-04"
+  }
+}

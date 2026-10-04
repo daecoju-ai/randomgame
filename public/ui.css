@@ -303,3 +303,16 @@ button,input,select{font-family:inherit}button{border-radius:10px;box-shadow:non
  #startScreen #lobbyHero{max-height:16dvh}
  #startScreen .featuredLegend>.legendCard{max-height:13dvh}
 }
+
+
+/* V56 battle touch UX: canvas gestures must never select page text. */
+html,body,#g,#ui,#selectionPanel,.bottom,.top{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+#g{touch-action:none}
+#selectionPanel{bottom:84px;max-height:86px;padding:5px 8px;gap:4px 6px;z-index:12}
+#selectionPanel #selectedName{font-size:13px}
+#selectionPanel #selectedTier{font-size:9px;line-height:1.25}
+#selectionPanel>.battleUpgradeControls{gap:2px}
+#battleUpgrade{min-height:28px;padding:4px 6px;font-size:9px}
+#battleUpgradeNotice{font-size:7px;line-height:1.15}
+#sellUnit{min-height:30px;padding:5px 7px;font-size:9px}
+#deselectUnit{min-height:30px;font-size:17px}

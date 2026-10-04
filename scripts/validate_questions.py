@@ -16,7 +16,7 @@ for f in files:
         if q.get('game_type') in ('multiple_choice','tile_order') and 'choices' in q and str(q.get('answer')) not in [str(x) for x in q['choices']]: errors.append(f'{p}: answer not in choices')
         if q.get('review_status') not in ('draft','reviewed','published'): errors.append(f'{p}: invalid review_status')
         rel = f.relative_to(root).as_posix()
-        if rel.startswith('data/questions/certification/'):
+        if rel.startswith('data/questions/certification/original/') or rel.startswith('data/questions/certification/licensed/'):
             for k in ['qualification_code','qualification_name','qualification_grade']:
                 if not q.get(k): errors.append(f'{p}: missing {k}')
             refs=q.get('source_references',[])

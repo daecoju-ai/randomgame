@@ -1,0 +1,958 @@
+[
+  {
+    "id": "V62-ENGLISH-001",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "정중한 부탁",
+    "learning_target": "정중한 부탁",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 창문을 열어 주세요.",
+    "choices": [
+      "Please",
+      "open",
+      "the",
+      "window"
+    ],
+    "answer": [
+      "Please",
+      "open",
+      "the",
+      "window"
+    ],
+    "explanation": "Please open the window. — 창문을 열어 주세요. (정중한 부탁)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Please open the window"
+  },
+  {
+    "id": "V62-ENGLISH-002",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "반복되는 습관",
+    "learning_target": "반복되는 습관",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 그녀는 매일 밤 책을 읽어요.",
+    "choices": [
+      "She",
+      "reads",
+      "books",
+      "every",
+      "night"
+    ],
+    "answer": [
+      "She",
+      "reads",
+      "books",
+      "every",
+      "night"
+    ],
+    "explanation": "She reads books every night. — 그녀는 매일 밤 책을 읽어요. (반복되는 습관)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "She reads books every night"
+  },
+  {
+    "id": "V62-ENGLISH-003",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "지금 진행 중인 행동",
+    "learning_target": "지금 진행 중인 행동",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 우리는 공원에서 놀고 있어요.",
+    "choices": [
+      "We",
+      "are",
+      "playing",
+      "in",
+      "the",
+      "park"
+    ],
+    "answer": [
+      "We",
+      "are",
+      "playing",
+      "in",
+      "the",
+      "park"
+    ],
+    "explanation": "We are playing in the park. — 우리는 공원에서 놀고 있어요. (지금 진행 중인 행동)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "We are playing in the park"
+  },
+  {
+    "id": "V62-ENGLISH-004",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "can으로 능력 말하기",
+    "learning_target": "can으로 능력 말하기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 내 남동생은 자전거를 탈 수 있어요.",
+    "choices": [
+      "My",
+      "brother",
+      "can",
+      "ride",
+      "a",
+      "bicycle"
+    ],
+    "answer": [
+      "My",
+      "brother",
+      "can",
+      "ride",
+      "a",
+      "bicycle"
+    ],
+    "explanation": "My brother can ride a bicycle. — 내 남동생은 자전거를 탈 수 있어요. (can으로 능력 말하기)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "My brother can ride a bicycle"
+  },
+  {
+    "id": "V62-ENGLISH-005",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "위치 표현",
+    "learning_target": "위치 표현",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 탁자 아래에 고양이 한 마리가 있어요.",
+    "choices": [
+      "There",
+      "is",
+      "a",
+      "cat",
+      "under",
+      "the",
+      "table"
+    ],
+    "answer": [
+      "There",
+      "is",
+      "a",
+      "cat",
+      "under",
+      "the",
+      "table"
+    ],
+    "explanation": "There is a cat under the table. — 탁자 아래에 고양이 한 마리가 있어요. (위치 표현)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "There is a cat under the table"
+  },
+  {
+    "id": "V62-ENGLISH-006",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "장소 묻기",
+    "learning_target": "장소 묻기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 네 학교는 어디에 있니?",
+    "choices": [
+      "Where",
+      "is",
+      "your",
+      "school"
+    ],
+    "answer": [
+      "Where",
+      "is",
+      "your",
+      "school"
+    ],
+    "explanation": "Where is your school. — 네 학교는 어디에 있니? (장소 묻기)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Where is your school"
+  },
+  {
+    "id": "V62-ENGLISH-007",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "시간 묻기",
+    "learning_target": "시간 묻기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 너는 몇 시에 일어나니?",
+    "choices": [
+      "What",
+      "time",
+      "do",
+      "you",
+      "get",
+      "up"
+    ],
+    "answer": [
+      "What",
+      "time",
+      "do",
+      "you",
+      "get",
+      "up"
+    ],
+    "explanation": "What time do you get up. — 너는 몇 시에 일어나니? (시간 묻기)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "What time do you get up"
+  },
+  {
+    "id": "V62-ENGLISH-008",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "가격 묻기",
+    "learning_target": "가격 묻기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 이 공책은 얼마인가요?",
+    "choices": [
+      "How",
+      "much",
+      "is",
+      "this",
+      "notebook"
+    ],
+    "answer": [
+      "How",
+      "much",
+      "is",
+      "this",
+      "notebook"
+    ],
+    "explanation": "How much is this notebook. — 이 공책은 얼마인가요? (가격 묻기)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "How much is this notebook"
+  },
+  {
+    "id": "V62-ENGLISH-009",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "과거 행동",
+    "learning_target": "과거 행동",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 나는 어제 도서관에 갔어요.",
+    "choices": [
+      "I",
+      "went",
+      "to",
+      "the",
+      "library",
+      "yesterday"
+    ],
+    "answer": [
+      "I",
+      "went",
+      "to",
+      "the",
+      "library",
+      "yesterday"
+    ],
+    "explanation": "I went to the library yesterday. — 나는 어제 도서관에 갔어요. (과거 행동)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "I went to the library yesterday"
+  },
+  {
+    "id": "V62-ENGLISH-010",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "미래 계획",
+    "learning_target": "미래 계획",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 그들은 내일 우리를 방문할 거예요.",
+    "choices": [
+      "They",
+      "will",
+      "visit",
+      "us",
+      "tomorrow"
+    ],
+    "answer": [
+      "They",
+      "will",
+      "visit",
+      "us",
+      "tomorrow"
+    ],
+    "explanation": "They will visit us tomorrow. — 그들은 내일 우리를 방문할 거예요. (미래 계획)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "They will visit us tomorrow"
+  },
+  {
+    "id": "V62-ENGLISH-011",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "비교급",
+    "learning_target": "비교급",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 이 가방은 내 것보다 무거워요.",
+    "choices": [
+      "This",
+      "bag",
+      "is",
+      "heavier",
+      "than",
+      "mine"
+    ],
+    "answer": [
+      "This",
+      "bag",
+      "is",
+      "heavier",
+      "than",
+      "mine"
+    ],
+    "explanation": "This bag is heavier than mine. — 이 가방은 내 것보다 무거워요. (비교급)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "This bag is heavier than mine"
+  },
+  {
+    "id": "V62-ENGLISH-012",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "함께할 행동 제안",
+    "learning_target": "함께할 행동 제안",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 우리 교실을 청소하자.",
+    "choices": [
+      "Let",
+      "us",
+      "clean",
+      "the",
+      "classroom"
+    ],
+    "answer": [
+      "Let",
+      "us",
+      "clean",
+      "the",
+      "classroom"
+    ],
+    "explanation": "Let us clean the classroom. — 우리 교실을 청소하자. (함께할 행동 제안)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Let us clean the classroom"
+  },
+  {
+    "id": "V62-ENGLISH-013",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "금지 표현",
+    "learning_target": "금지 표현",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 복도에서 뛰지 마세요.",
+    "choices": [
+      "Do",
+      "not",
+      "run",
+      "in",
+      "the",
+      "hallway"
+    ],
+    "answer": [
+      "Do",
+      "not",
+      "run",
+      "in",
+      "the",
+      "hallway"
+    ],
+    "explanation": "Do not run in the hallway. — 복도에서 뛰지 마세요. (금지 표현)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Do not run in the hallway"
+  },
+  {
+    "id": "V62-ENGLISH-014",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "도움 요청",
+    "learning_target": "도움 요청",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 이것 좀 도와줄 수 있니?",
+    "choices": [
+      "Can",
+      "you",
+      "help",
+      "me",
+      "with",
+      "this"
+    ],
+    "answer": [
+      "Can",
+      "you",
+      "help",
+      "me",
+      "with",
+      "this"
+    ],
+    "explanation": "Can you help me with this. — 이것 좀 도와줄 수 있니? (도움 요청)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Can you help me with this"
+  },
+  {
+    "id": "V62-ENGLISH-015",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "look for 표현",
+    "learning_target": "look for 표현",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 나는 내 열쇠를 찾고 있어요.",
+    "choices": [
+      "I",
+      "am",
+      "looking",
+      "for",
+      "my",
+      "keys"
+    ],
+    "answer": [
+      "I",
+      "am",
+      "looking",
+      "for",
+      "my",
+      "keys"
+    ],
+    "explanation": "I am looking for my keys. — 나는 내 열쇠를 찾고 있어요. (look for 표현)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "I am looking for my keys"
+  },
+  {
+    "id": "V62-ENGLISH-016",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "시간 전치사 at",
+    "learning_target": "시간 전치사 at",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 우리는 정오에 점심을 먹어요.",
+    "choices": [
+      "We",
+      "have",
+      "lunch",
+      "at",
+      "noon"
+    ],
+    "answer": [
+      "We",
+      "have",
+      "lunch",
+      "at",
+      "noon"
+    ],
+    "explanation": "We have lunch at noon. — 우리는 정오에 점심을 먹어요. (시간 전치사 at)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "We have lunch at noon"
+  },
+  {
+    "id": "V62-ENGLISH-017",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "월 앞의 in",
+    "learning_target": "월 앞의 in",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 그녀의 생일은 3월이에요.",
+    "choices": [
+      "Her",
+      "birthday",
+      "is",
+      "in",
+      "March"
+    ],
+    "answer": [
+      "Her",
+      "birthday",
+      "is",
+      "in",
+      "March"
+    ],
+    "explanation": "Her birthday is in March. — 그녀의 생일은 3월이에요. (월 앞의 in)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Her birthday is in March"
+  },
+  {
+    "id": "V62-ENGLISH-018",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "일정 설명",
+    "learning_target": "일정 설명",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 기차는 7시에 출발해요.",
+    "choices": [
+      "The",
+      "train",
+      "leaves",
+      "at",
+      "seven"
+    ],
+    "answer": [
+      "The",
+      "train",
+      "leaves",
+      "at",
+      "seven"
+    ],
+    "explanation": "The train leaves at seven. — 기차는 7시에 출발해요. (일정 설명)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "The train leaves at seven"
+  },
+  {
+    "id": "V62-ENGLISH-019",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "현재형 부정문",
+    "learning_target": "현재형 부정문",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 그는 당근을 좋아하지 않아요.",
+    "choices": [
+      "He",
+      "does",
+      "not",
+      "like",
+      "carrots"
+    ],
+    "answer": [
+      "He",
+      "does",
+      "not",
+      "like",
+      "carrots"
+    ],
+    "explanation": "He does not like carrots. — 그는 당근을 좋아하지 않아요. (현재형 부정문)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "He does not like carrots"
+  },
+  {
+    "id": "V62-ENGLISH-020",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "be 동사 의문문",
+    "learning_target": "be 동사 의문문",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 너는 경기를 할 준비가 됐니?",
+    "choices": [
+      "Are",
+      "you",
+      "ready",
+      "for",
+      "the",
+      "game"
+    ],
+    "answer": [
+      "Are",
+      "you",
+      "ready",
+      "for",
+      "the",
+      "game"
+    ],
+    "explanation": "Are you ready for the game. — 너는 경기를 할 준비가 됐니? (be 동사 의문문)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Are you ready for the game"
+  },
+  {
+    "id": "V62-ENGLISH-021",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "정중하게 원하는 것 말하기",
+    "learning_target": "정중하게 원하는 것 말하기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 물을 좀 마시고 싶어요.",
+    "choices": [
+      "I",
+      "would",
+      "like",
+      "some",
+      "water"
+    ],
+    "answer": [
+      "I",
+      "would",
+      "like",
+      "some",
+      "water"
+    ],
+    "explanation": "I would like some water. — 물을 좀 마시고 싶어요. (정중하게 원하는 것 말하기)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "I would like some water"
+  },
+  {
+    "id": "V62-ENGLISH-022",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "길 안내",
+    "learning_target": "길 안내",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 모퉁이에서 왼쪽으로 도세요.",
+    "choices": [
+      "Turn",
+      "left",
+      "at",
+      "the",
+      "corner"
+    ],
+    "answer": [
+      "Turn",
+      "left",
+      "at",
+      "the",
+      "corner"
+    ],
+    "explanation": "Turn left at the corner. — 모퉁이에서 왼쪽으로 도세요. (길 안내)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Turn left at the corner"
+  },
+  {
+    "id": "V62-ENGLISH-023",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "키 비교",
+    "learning_target": "키 비교",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 내 여동생은 나보다 키가 커요.",
+    "choices": [
+      "My",
+      "sister",
+      "is",
+      "taller",
+      "than",
+      "me"
+    ],
+    "answer": [
+      "My",
+      "sister",
+      "is",
+      "taller",
+      "than",
+      "me"
+    ],
+    "explanation": "My sister is taller than me. — 내 여동생은 나보다 키가 커요. (키 비교)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "My sister is taller than me"
+  },
+  {
+    "id": "V62-ENGLISH-024",
+    "curriculum": "2022",
+    "school": "general",
+    "grade": "general",
+    "subject": "english",
+    "domain": "감사 표현",
+    "learning_target": "감사 표현",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장을 듣고 순서대로 만들어요: 도와줘서 고마워요.",
+    "choices": [
+      "Thank",
+      "you",
+      "for",
+      "your",
+      "help"
+    ],
+    "answer": [
+      "Thank",
+      "you",
+      "for",
+      "your",
+      "help"
+    ],
+    "explanation": "Thank you for your help. — 도와줘서 고마워요. (감사 표현)",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "sentence": "Thank you for your help"
+  }
+]

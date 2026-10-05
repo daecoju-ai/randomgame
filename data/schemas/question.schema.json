@@ -163,6 +163,30 @@
         "string",
         "null"
       ]
+    },
+    "hint": {
+      "type": "string"
+    },
+    "easy_explanation": {
+      "type": "string"
+    },
+    "principle": {
+      "type": "string"
+    },
+    "explanation_steps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "wrong_answer_feedback": {
+      "type": "object"
+    },
+    "followup_question": {
+      "type": "object"
+    },
+    "license_notes": {
+      "type": "string"
     }
   },
   "additionalProperties": true

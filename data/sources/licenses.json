@@ -29,5 +29,19 @@
     "source": "original",
     "rule": "자체 제작 문제·해설. 외부 교과서와 멀티미디어 복제 없음.",
     "commercial_use": true
+  },
+  {
+    "id": "reference_only_no_copy",
+    "source": "external_reference",
+    "rule": "공개·무료 열람 또는 다운로드 가능 여부와 게임 내 재배포 권한은 별개다. 명시적 재사용 허가가 확인되지 않은 원문·문항·해설·이미지는 저장소와 게임에 복제하지 않는다.",
+    "commercial_use": false,
+    "required_action": "범위·난이도·유형만 참고해 문제·보기·해설을 새로 작성하고 원출처 메타데이터를 남긴다."
+  },
+  {
+    "id": "public_data_attribution_pending_review",
+    "source": "public_data",
+    "rule": "공공데이터라도 데이터셋별 공공누리·이용약관·제3자 저작권 조건이 다를 수 있다.",
+    "commercial_use": "dataset_specific",
+    "required_action": "실제 값이나 원문을 배포하기 전 해당 데이터셋의 최신 이용조건과 출처표시 의무를 재확인한다."
   }
 ]

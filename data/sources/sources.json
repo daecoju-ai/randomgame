@@ -94,5 +94,80 @@
     "allowed_copy": false,
     "usage": "자체 제작 계산 문제의 정답 검증에만 사용. 문항 및 해설은 자체 제작. API 결과는 exact rational 계산과 대조.",
     "checked_at": "2026-10-05"
+  },
+  {
+    "id": "aihub_subject_staged_71855",
+    "name": "AI-Hub 교과 단계별 교과 데이터",
+    "purpose": "초·중·고 과목별 개념·난이도·문항 구조 분석 및 자체 문제 생성 참고",
+    "url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71855&topMenu=100",
+    "dataset_id": "71855",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "원본 파일·문항·이미지는 GitHub에 재배포하지 않고 내부 분석/검증에만 사용"
+  },
+  {
+    "id": "aihub_math_solution_71859",
+    "name": "AI-Hub 수학 교과 문제 풀이과정 데이터",
+    "purpose": "수학 문제 난이도·풀이 단계·오답 설명 구조 참고",
+    "url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71859&topMenu=100",
+    "dataset_id": "71859",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "원문 복제 대신 원리·유형을 분석해 새로운 수치·상황·문장으로 자체 제작"
+  },
+  {
+    "id": "aihub_korean_passage_71857",
+    "name": "AI-Hub 국어 교과 지문형 문제 데이터",
+    "purpose": "국어 지문형 문항의 난이도·보기·해설 구조 참고",
+    "url": "https://aihub.or.kr/aihubdata/data/view.do?aihubDataSe=data&currMenu=115&dataSetSn=71857&topMenu=100",
+    "dataset_id": "71857",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "원 지문·문항·이미지 재배포 금지. 자체 지문·자체 문항 생성에 참고"
+  },
+  {
+    "id": "ncic_2022_reference",
+    "name": "국가교육과정정보센터 NCIC",
+    "purpose": "2022 개정 교육과정의 학년·과목·성취 범위 확인",
+    "url": "https://ncic.go.kr/",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "교육과정 범위 매핑용. 게시물별 이용조건을 확인하고 보호된 본문은 복제하지 않음"
+  },
+  {
+    "id": "kosis_openapi",
+    "name": "국가통계포털 KOSIS OpenAPI",
+    "purpose": "수학·사회 실생활형 통계 문제를 위한 공공 통계값 참고",
+    "url": "https://kosis.kr/openapi/index/index.jsp",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "사용 데이터셋별 이용조건과 출처표시를 확인한 뒤 통계값을 활용해 자체 문제 제작"
+  },
+  {
+    "id": "kice_exam_reference",
+    "name": "한국교육과정평가원 평가 문항 참고",
+    "purpose": "고등학교 평가 유형·난이도·오답 설계 참고",
+    "url": "https://www.kice.re.kr/",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "공개 시험문제를 그대로 게임에 복제하지 않고 출제 방식만 참고"
+  },
+  {
+    "id": "edunet_reference",
+    "name": "에듀넷 티-클리어 학습·평가자료",
+    "purpose": "학년·단원별 학습자료 및 평가 유형 참고",
+    "url": "https://www.edunet.net/",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "개별 콘텐츠 라이선스 확인 전 원문·문항·이미지 복제 금지"
+  },
+  {
+    "id": "ebsmath_reference",
+    "name": "EBSMath",
+    "purpose": "수학 단원 구성·설명 방식·학습 난이도 참고",
+    "url": "https://www.ebsmath.co.kr/",
+    "checked_at": "2026-10-06",
+    "copy_into_question_bank": false,
+    "usage": "EBS 문항·해설·이미지는 별도 허가 없이 복제하지 않고 자체 제작의 참고자료로만 사용"
   }
 ]

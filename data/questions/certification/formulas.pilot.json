@@ -46,6 +46,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -107,6 +112,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -153,6 +163,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -199,6 +214,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -245,6 +265,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -296,6 +321,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -346,6 +376,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   },
   {
@@ -392,6 +427,11 @@
       "method": "formula_and_unit_check",
       "date": "2026-10-04",
       "human_publication_pending": true
+    },
+    "qualification": {
+      "code": "common",
+      "name": "공통 안전·공식 기초",
+      "grade": "foundation"
     }
   }
 ]

@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "V61-E6-MATH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "20명의 25%는 몇 명인가요?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "25%는 25/100입니다. 20 × 25 ÷ 100 = 5명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*25/100",
+      "result": "5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 20개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 20 × 2/5 = 8개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*2/5",
+      "result": "8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 5cm, 세로 3cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "45",
+      "44",
+      "46",
+      "47"
+    ],
+    "answer": "45",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 5 × 3 × 3 = 45cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "5*3*3",
+      "result": "45",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 2cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "12.56",
+      "11.56",
+      "13.56",
+      "14.56"
+    ],
+    "answer": "12.56",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 2 × 2 × 3.14 = 12.56cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "2*2*3.14",
+      "result": "12.56",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "40명의 25%는 몇 명인가요?",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "25%는 25/100입니다. 40 × 25 ÷ 100 = 10명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "40*25/100",
+      "result": "10",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 25개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 25 × 2/5 = 10개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "25*2/5",
+      "result": "10",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 6cm, 세로 4cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "72",
+      "71",
+      "73",
+      "74"
+    ],
+    "answer": "72",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 6 × 4 × 3 = 72cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "6*4*3",
+      "result": "72",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 3cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "28.26",
+      "27.26",
+      "29.26",
+      "30.26"
+    ],
+    "answer": "28.26",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 3 × 3 × 3.14 = 28.26cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "3*3*3.14",
+      "result": "28.26",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "6 ÷ (4/2) = ? (답은 소수로)",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 6 × 2/4 = 3입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "6/(4/2)",
+      "result": "3",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "60명의 25%는 몇 명인가요?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "25%는 25/100입니다. 60 × 25 ÷ 100 = 15명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "60*25/100",
+      "result": "15",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 30개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 30 × 2/5 = 12개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "30*2/5",
+      "result": "12",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 7cm, 세로 5cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "105",
+      "104",
+      "106",
+      "107"
+    ],
+    "answer": "105",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 7 × 5 × 3 = 105cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "7*5*3",
+      "result": "105",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 4cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "50.24",
+      "49.24",
+      "51.24",
+      "52.24"
+    ],
+    "answer": "50.24",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 4 × 4 × 3.14 = 50.24cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "4*4*3.14",
+      "result": "50.24",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "7 ÷ (5/2) = ? (답은 소수로)",
+    "choices": [
+      "2.8",
+      "1.8",
+      "3.8",
+      "4.8"
+    ],
+    "answer": "2.8",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 7 × 2/5 = 2.8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "7/(5/2)",
+      "result": "2.8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "80명의 25%는 몇 명인가요?",
+    "choices": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ],
+    "answer": "20",
+    "explanation": "25%는 25/100입니다. 80 × 25 ÷ 100 = 20명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "80*25/100",
+      "result": "20",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 35개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 35 × 2/5 = 14개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "35*2/5",
+      "result": "14",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 8cm, 세로 6cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "144",
+      "143",
+      "145",
+      "146"
+    ],
+    "answer": "144",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 8 × 6 × 3 = 144cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "8*6*3",
+      "result": "144",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 5cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "78.5",
+      "77.5",
+      "79.5",
+      "80.5"
+    ],
+    "answer": "78.5",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 5 × 5 × 3.14 = 78.5cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "5*5*3.14",
+      "result": "78.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "100명의 25%는 몇 명인가요?",
+    "choices": [
+      "25",
+      "24",
+      "26",
+      "27"
+    ],
+    "answer": "25",
+    "explanation": "25%는 25/100입니다. 100 × 25 ÷ 100 = 25명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "100*25/100",
+      "result": "25",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 40개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 40 × 2/5 = 16개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "40*2/5",
+      "result": "16",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 9cm, 세로 7cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "189",
+      "188",
+      "190",
+      "191"
+    ],
+    "answer": "189",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 9 × 7 × 3 = 189cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "9*7*3",
+      "result": "189",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 6cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "113.04",
+      "112.04",
+      "114.04",
+      "115.04"
+    ],
+    "answer": "113.04",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 6 × 6 × 3.14 = 113.04cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "6*6*3.14",
+      "result": "113.04",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "120명의 25%는 몇 명인가요?",
+    "choices": [
+      "30",
+      "29",
+      "31",
+      "32"
+    ],
+    "answer": "30",
+    "explanation": "25%는 25/100입니다. 120 × 25 ÷ 100 = 30명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "120*25/100",
+      "result": "30",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 45개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 45 × 2/5 = 18개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "45*2/5",
+      "result": "18",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 10cm, 세로 8cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "240",
+      "239",
+      "241",
+      "242"
+    ],
+    "answer": "240",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 10 × 8 × 3 = 240cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10*8*3",
+      "result": "240",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 7cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "153.86",
+      "152.86",
+      "154.86",
+      "155.86"
+    ],
+    "answer": "153.86",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 7 × 7 × 3.14 = 153.86cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "7*7*3.14",
+      "result": "153.86",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "10 ÷ (8/2) = ? (답은 소수로)",
+    "choices": [
+      "2.5",
+      "1.5",
+      "3.5",
+      "4.5"
+    ],
+    "answer": "2.5",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 10 × 2/8 = 2.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10/(8/2)",
+      "result": "2.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "140명의 25%는 몇 명인가요?",
+    "choices": [
+      "35",
+      "34",
+      "36",
+      "37"
+    ],
+    "answer": "35",
+    "explanation": "25%는 25/100입니다. 140 × 25 ÷ 100 = 35명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "140*25/100",
+      "result": "35",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 50개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ],
+    "answer": "20",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 50 × 2/5 = 20개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "50*2/5",
+      "result": "20",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 11cm, 세로 2cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "66",
+      "65",
+      "67",
+      "68"
+    ],
+    "answer": "66",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 11 × 2 × 3 = 66cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "11*2*3",
+      "result": "66",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 8cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "200.96",
+      "199.96",
+      "201.96",
+      "202.96"
+    ],
+    "answer": "200.96",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 8 × 8 × 3.14 = 200.96cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "8*8*3.14",
+      "result": "200.96",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "11 ÷ (2/2) = ? (답은 소수로)",
+    "choices": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 11 × 2/2 = 11입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "11/(2/2)",
+      "result": "11",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-033",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "160명의 25%는 몇 명인가요?",
+    "choices": [
+      "40",
+      "39",
+      "41",
+      "42"
+    ],
+    "answer": "40",
+    "explanation": "25%는 25/100입니다. 160 × 25 ÷ 100 = 40명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "160*25/100",
+      "result": "40",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-034",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 55개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 55 × 2/5 = 22개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "55*2/5",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-035",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 12cm, 세로 3cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "108",
+      "107",
+      "109",
+      "110"
+    ],
+    "answer": "108",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 12 × 3 × 3 = 108cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12*3*3",
+      "result": "108",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-036",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 9cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "254.34",
+      "253.34",
+      "255.34",
+      "256.34"
+    ],
+    "answer": "254.34",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 9 × 9 × 3.14 = 254.34cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "9*9*3.14",
+      "result": "254.34",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-037",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "12 ÷ (3/2) = ? (답은 소수로)",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 12 × 2/3 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12/(3/2)",
+      "result": "8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-038",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "180명의 25%는 몇 명인가요?",
+    "choices": [
+      "45",
+      "44",
+      "46",
+      "47"
+    ],
+    "answer": "45",
+    "explanation": "25%는 25/100입니다. 180 × 25 ÷ 100 = 45명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "180*25/100",
+      "result": "45",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-039",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 60개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 60 × 2/5 = 24개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "60*2/5",
+      "result": "24",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-040",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 13cm, 세로 4cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "156",
+      "155",
+      "157",
+      "158"
+    ],
+    "answer": "156",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 13 × 4 × 3 = 156cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "13*4*3",
+      "result": "156",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-041",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 10cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "314",
+      "313",
+      "315",
+      "316"
+    ],
+    "answer": "314",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 10 × 10 × 3.14 = 314cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10*10*3.14",
+      "result": "314",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-042",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "13 ÷ (4/2) = ? (답은 소수로)",
+    "choices": [
+      "6.5",
+      "5.5",
+      "7.5",
+      "8.5"
+    ],
+    "answer": "6.5",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 13 × 2/4 = 6.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "13/(4/2)",
+      "result": "6.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-043",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "200명의 25%는 몇 명인가요?",
+    "choices": [
+      "50",
+      "49",
+      "51",
+      "52"
+    ],
+    "answer": "50",
+    "explanation": "25%는 25/100입니다. 200 × 25 ÷ 100 = 50명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "200*25/100",
+      "result": "50",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-044",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 65개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "26",
+      "25",
+      "27",
+      "28"
+    ],
+    "answer": "26",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 65 × 2/5 = 26개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "65*2/5",
+      "result": "26",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-045",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 14cm, 세로 5cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "210",
+      "209",
+      "211",
+      "212"
+    ],
+    "answer": "210",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 14 × 5 × 3 = 210cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14*5*3",
+      "result": "210",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-046",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 11cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "379.94",
+      "378.94",
+      "380.94",
+      "381.94"
+    ],
+    "answer": "379.94",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 11 × 11 × 3.14 = 379.94cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "11*11*3.14",
+      "result": "379.94",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-047",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "14 ÷ (5/2) = ? (답은 소수로)",
+    "choices": [
+      "5.6",
+      "4.6",
+      "6.6",
+      "7.6"
+    ],
+    "answer": "5.6",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 14 × 2/5 = 5.6입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14/(5/2)",
+      "result": "5.6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-048",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "220명의 25%는 몇 명인가요?",
+    "choices": [
+      "55",
+      "54",
+      "56",
+      "57"
+    ],
+    "answer": "55",
+    "explanation": "25%는 25/100입니다. 220 × 25 ÷ 100 = 55명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "220*25/100",
+      "result": "55",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-049",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 70개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "28",
+      "27",
+      "29",
+      "30"
+    ],
+    "answer": "28",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 70 × 2/5 = 28개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "70*2/5",
+      "result": "28",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-050",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 15cm, 세로 6cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "270",
+      "269",
+      "271",
+      "272"
+    ],
+    "answer": "270",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 15 × 6 × 3 = 270cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15*6*3",
+      "result": "270",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-051",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 12cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "452.16",
+      "451.16",
+      "453.16",
+      "454.16"
+    ],
+    "answer": "452.16",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 12 × 12 × 3.14 = 452.16cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12*12*3.14",
+      "result": "452.16",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-052",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "15 ÷ (6/2) = ? (답은 소수로)",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 15 × 2/6 = 5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15/(6/2)",
+      "result": "5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-053",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "240명의 25%는 몇 명인가요?",
+    "choices": [
+      "60",
+      "59",
+      "61",
+      "62"
+    ],
+    "answer": "60",
+    "explanation": "25%는 25/100입니다. 240 × 25 ÷ 100 = 60명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "240*25/100",
+      "result": "60",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-054",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 75개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "30",
+      "29",
+      "31",
+      "32"
+    ],
+    "answer": "30",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 75 × 2/5 = 30개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "75*2/5",
+      "result": "30",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-055",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 16cm, 세로 7cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "336",
+      "335",
+      "337",
+      "338"
+    ],
+    "answer": "336",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 16 × 7 × 3 = 336cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "16*7*3",
+      "result": "336",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-056",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 13cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "530.66",
+      "529.66",
+      "531.66",
+      "532.66"
+    ],
+    "answer": "530.66",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 13 × 13 × 3.14 = 530.66cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "13*13*3.14",
+      "result": "530.66",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-057",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "260명의 25%는 몇 명인가요?",
+    "choices": [
+      "65",
+      "64",
+      "66",
+      "67"
+    ],
+    "answer": "65",
+    "explanation": "25%는 25/100입니다. 260 × 25 ÷ 100 = 65명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "260*25/100",
+      "result": "65",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-058",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 80개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "32",
+      "31",
+      "33",
+      "34"
+    ],
+    "answer": "32",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 80 × 2/5 = 32개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "80*2/5",
+      "result": "32",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-059",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 17cm, 세로 8cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "408",
+      "407",
+      "409",
+      "410"
+    ],
+    "answer": "408",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 17 × 8 × 3 = 408cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "17*8*3",
+      "result": "408",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-060",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 14cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "615.44",
+      "614.44",
+      "616.44",
+      "617.44"
+    ],
+    "answer": "615.44",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 14 × 14 × 3.14 = 615.44cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14*14*3.14",
+      "result": "615.44",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-061",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "17 ÷ (8/2) = ? (답은 소수로)",
+    "choices": [
+      "4.25",
+      "3.25",
+      "5.25",
+      "6.25"
+    ],
+    "answer": "4.25",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 17 × 2/8 = 4.25입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "17/(8/2)",
+      "result": "4.25",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-062",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "280명의 25%는 몇 명인가요?",
+    "choices": [
+      "70",
+      "69",
+      "71",
+      "72"
+    ],
+    "answer": "70",
+    "explanation": "25%는 25/100입니다. 280 × 25 ÷ 100 = 70명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "280*25/100",
+      "result": "70",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-063",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 85개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "34",
+      "33",
+      "35",
+      "36"
+    ],
+    "answer": "34",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 85 × 2/5 = 34개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "85*2/5",
+      "result": "34",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-064",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 18cm, 세로 2cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "108",
+      "107",
+      "109",
+      "110"
+    ],
+    "answer": "108",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 18 × 2 × 3 = 108cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18*2*3",
+      "result": "108",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-065",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 15cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "706.5",
+      "705.5",
+      "707.5",
+      "708.5"
+    ],
+    "answer": "706.5",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 15 × 15 × 3.14 = 706.5cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15*15*3.14",
+      "result": "706.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-066",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "18 ÷ (2/2) = ? (답은 소수로)",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 18 × 2/2 = 18입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18/(2/2)",
+      "result": "18",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-067",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "300명의 25%는 몇 명인가요?",
+    "choices": [
+      "75",
+      "74",
+      "76",
+      "77"
+    ],
+    "answer": "75",
+    "explanation": "25%는 25/100입니다. 300 × 25 ÷ 100 = 75명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "300*25/100",
+      "result": "75",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-068",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 90개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 90 × 2/5 = 36개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "90*2/5",
+      "result": "36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-069",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 19cm, 세로 3cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "171",
+      "170",
+      "172",
+      "173"
+    ],
+    "answer": "171",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 19 × 3 × 3 = 171cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "19*3*3",
+      "result": "171",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-070",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 16cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "803.84",
+      "802.84",
+      "804.84",
+      "805.84"
+    ],
+    "answer": "803.84",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 16 × 16 × 3.14 = 803.84cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "16*16*3.14",
+      "result": "803.84",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-071",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "320명의 25%는 몇 명인가요?",
+    "choices": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "25%는 25/100입니다. 320 × 25 ÷ 100 = 80명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "320*25/100",
+      "result": "80",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-072",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 95개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "38",
+      "37",
+      "39",
+      "40"
+    ],
+    "answer": "38",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 95 × 2/5 = 38개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "95*2/5",
+      "result": "38",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-073",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 20cm, 세로 4cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "240",
+      "239",
+      "241",
+      "242"
+    ],
+    "answer": "240",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 20 × 4 × 3 = 240cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*4*3",
+      "result": "240",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-074",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 17cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "907.46",
+      "906.46",
+      "908.46",
+      "909.46"
+    ],
+    "answer": "907.46",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 17 × 17 × 3.14 = 907.46cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "17*17*3.14",
+      "result": "907.46",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-075",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "20 ÷ (4/2) = ? (답은 소수로)",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 20 × 2/4 = 10입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20/(4/2)",
+      "result": "10",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-076",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "340명의 25%는 몇 명인가요?",
+    "choices": [
+      "85",
+      "84",
+      "86",
+      "87"
+    ],
+    "answer": "85",
+    "explanation": "25%는 25/100입니다. 340 × 25 ÷ 100 = 85명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "340*25/100",
+      "result": "85",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-077",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 100개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "40",
+      "39",
+      "41",
+      "42"
+    ],
+    "answer": "40",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 100 × 2/5 = 40개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "100*2/5",
+      "result": "40",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-078",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 21cm, 세로 5cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "315",
+      "314",
+      "316",
+      "317"
+    ],
+    "answer": "315",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 21 × 5 × 3 = 315cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "21*5*3",
+      "result": "315",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-079",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 18cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "1017.36",
+      "1016.36",
+      "1018.36",
+      "1019.36"
+    ],
+    "answer": "1017.36",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 18 × 18 × 3.14 = 1017.36cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18*18*3.14",
+      "result": "1017.36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-080",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "21 ÷ (5/2) = ? (답은 소수로)",
+    "choices": [
+      "8.4",
+      "7.4",
+      "9.4",
+      "10.4"
+    ],
+    "answer": "8.4",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 21 × 2/5 = 8.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "21/(5/2)",
+      "result": "8.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-081",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "360명의 25%는 몇 명인가요?",
+    "choices": [
+      "90",
+      "89",
+      "91",
+      "92"
+    ],
+    "answer": "90",
+    "explanation": "25%는 25/100입니다. 360 × 25 ÷ 100 = 90명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "360*25/100",
+      "result": "90",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-082",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 105개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "42",
+      "41",
+      "43",
+      "44"
+    ],
+    "answer": "42",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 105 × 2/5 = 42개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "105*2/5",
+      "result": "42",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-083",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 22cm, 세로 6cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "396",
+      "395",
+      "397",
+      "398"
+    ],
+    "answer": "396",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 22 × 6 × 3 = 396cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "22*6*3",
+      "result": "396",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-084",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 19cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "1133.54",
+      "1132.54",
+      "1134.54",
+      "1135.54"
+    ],
+    "answer": "1133.54",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 19 × 19 × 3.14 = 1133.54cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "19*19*3.14",
+      "result": "1133.54",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-085",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "380명의 25%는 몇 명인가요?",
+    "choices": [
+      "95",
+      "94",
+      "96",
+      "97"
+    ],
+    "answer": "95",
+    "explanation": "25%는 25/100입니다. 380 × 25 ÷ 100 = 95명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "380*25/100",
+      "result": "95",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-086",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 110개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "44",
+      "43",
+      "45",
+      "46"
+    ],
+    "answer": "44",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 110 × 2/5 = 44개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "110*2/5",
+      "result": "44",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-087",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 23cm, 세로 7cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "483",
+      "482",
+      "484",
+      "485"
+    ],
+    "answer": "483",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 23 × 7 × 3 = 483cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "23*7*3",
+      "result": "483",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-088",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 20cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "1256",
+      "1255",
+      "1257",
+      "1258"
+    ],
+    "answer": "1256",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 20 × 20 × 3.14 = 1256cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*20*3.14",
+      "result": "1256",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-089",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "백분율의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "400명의 25%는 몇 명인가요?",
+    "choices": [
+      "100",
+      "99",
+      "101",
+      "102"
+    ],
+    "answer": "100",
+    "explanation": "25%는 25/100입니다. 400 × 25 ÷ 100 = 100명입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "백분율"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "400*25/100",
+      "result": "100",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-090",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "비례배분의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 115개를 2 : 3으로 나눕니다. 작은 몫은 몇 개인가요?",
+    "choices": [
+      "46",
+      "45",
+      "47",
+      "48"
+    ],
+    "answer": "46",
+    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 115 × 2/5 = 46개입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "비례배분"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "115*2/5",
+      "result": "46",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-091",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직육면체 부피의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 24cm, 세로 8cm, 높이 3cm인 직육면체의 부피는 몇 cm³인가요?",
+    "choices": [
+      "576",
+      "575",
+      "577",
+      "578"
+    ],
+    "answer": "576",
+    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 24 × 8 × 3 = 576cm³입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직육면체 부피"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "24*8*3",
+      "result": "576",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-092",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "원의 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "반지름 21cm인 원의 넓이는 몇 cm²인가요? (원주율 3.14)",
+    "choices": [
+      "1384.74",
+      "1383.74",
+      "1385.74",
+      "1386.74"
+    ],
+    "answer": "1384.74",
+    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 21 × 21 × 3.14 = 1384.74cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "원의 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "21*21*3.14",
+      "result": "1384.74",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-093",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "24 ÷ (8/2) = ? (답은 소수로)",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 24 × 2/8 = 6입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "24/(8/2)",
+      "result": "6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-094",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "25 ÷ (2/2) = ? (답은 소수로)",
+    "choices": [
+      "25",
+      "24",
+      "26",
+      "27"
+    ],
+    "answer": "25",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 25 × 2/2 = 25입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "25/(2/2)",
+      "result": "25",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-095",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "27 ÷ (4/2) = ? (답은 소수로)",
+    "choices": [
+      "13.5",
+      "12.5",
+      "14.5",
+      "15.5"
+    ],
+    "answer": "13.5",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 27 × 2/4 = 13.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "27/(4/2)",
+      "result": "13.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-096",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "28 ÷ (5/2) = ? (답은 소수로)",
+    "choices": [
+      "11.2",
+      "10.2",
+      "12.2",
+      "13.2"
+    ],
+    "answer": "11.2",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 28 × 2/5 = 11.2입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "28/(5/2)",
+      "result": "11.2",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-097",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "31 ÷ (8/2) = ? (답은 소수로)",
+    "choices": [
+      "7.75",
+      "6.75",
+      "8.75",
+      "9.75"
+    ],
+    "answer": "7.75",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 31 × 2/8 = 7.75입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "31/(8/2)",
+      "result": "7.75",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-098",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "32 ÷ (2/2) = ? (답은 소수로)",
+    "choices": [
+      "32",
+      "31",
+      "33",
+      "34"
+    ],
+    "answer": "32",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 32 × 2/2 = 32입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "32/(2/2)",
+      "result": "32",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-099",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "33 ÷ (3/2) = ? (답은 소수로)",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 33 × 2/3 = 22입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "33/(3/2)",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E6-MATH-100",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수 나눗셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "34 ÷ (4/2) = ? (답은 소수로)",
+    "choices": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "분수로 나눌 때는 역수를 곱해요. 34 × 2/4 = 17입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수 나눗셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "34/(4/2)",
+      "result": "17",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  }
+]

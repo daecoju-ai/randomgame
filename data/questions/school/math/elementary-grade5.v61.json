@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "V61-E5-MATH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 5cm, 세로 3cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 5 × 3 = 15cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "5*3",
+      "result": "15",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 10cm, 높이 3cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 10 × 3 ÷ 2 = 15cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10*3/2",
+      "result": "15",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 1점, 3점, 5점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "3",
+      "2",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "점수의 합을 횟수로 나눠요. (1 + 3 + 5) ÷ 3 = 3점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(1+3+5)/3",
+      "result": "3",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.1 × 3 = ?",
+    "choices": [
+      "0.3",
+      "1.3",
+      "2.3",
+      "3.3"
+    ],
+    "answer": "0.3",
+    "explanation": "1/10을 3배 하면 0.3입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "1/10*3",
+      "result": "0.3",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 15L의 1/3은 몇 L인가요?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "전체를 3등분한 한 부분입니다. 15 ÷ 3 = 5L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15/3",
+      "result": "5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 6cm, 세로 4cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 6 × 4 = 24cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "6*4",
+      "result": "24",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 12cm, 높이 4cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 12 × 4 ÷ 2 = 24cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12*4/2",
+      "result": "24",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 2점, 4점, 6점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "점수의 합을 횟수로 나눠요. (2 + 4 + 6) ÷ 3 = 4점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(2+4+6)/3",
+      "result": "4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.2 × 4 = ?",
+    "choices": [
+      "0.8",
+      "1.8",
+      "2.8",
+      "3.8"
+    ],
+    "answer": "0.8",
+    "explanation": "2/10을 4배 하면 0.8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "2/10*4",
+      "result": "0.8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 24L의 1/4은 몇 L인가요?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "전체를 4등분한 한 부분입니다. 24 ÷ 4 = 6L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "24/4",
+      "result": "6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 7cm, 세로 5cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "35",
+      "34",
+      "36",
+      "37"
+    ],
+    "answer": "35",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 7 × 5 = 35cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "7*5",
+      "result": "35",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 14cm, 높이 5cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "35",
+      "34",
+      "36",
+      "37"
+    ],
+    "answer": "35",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 14 × 5 ÷ 2 = 35cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14*5/2",
+      "result": "35",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 3점, 5점, 7점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "점수의 합을 횟수로 나눠요. (3 + 5 + 7) ÷ 3 = 5점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(3+5+7)/3",
+      "result": "5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.3 × 5 = ?",
+    "choices": [
+      "1.5",
+      "0.5",
+      "2.5",
+      "3.5"
+    ],
+    "answer": "1.5",
+    "explanation": "3/10을 5배 하면 1.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "3/10*5",
+      "result": "1.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 35L의 1/5은 몇 L인가요?",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "전체를 5등분한 한 부분입니다. 35 ÷ 5 = 7L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "35/5",
+      "result": "7",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 8cm, 세로 6cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "48",
+      "47",
+      "49",
+      "50"
+    ],
+    "answer": "48",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 8 × 6 = 48cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "8*6",
+      "result": "48",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 16cm, 높이 6cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "48",
+      "47",
+      "49",
+      "50"
+    ],
+    "answer": "48",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 16 × 6 ÷ 2 = 48cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "16*6/2",
+      "result": "48",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 4점, 6점, 8점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "점수의 합을 횟수로 나눠요. (4 + 6 + 8) ÷ 3 = 6점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(4+6+8)/3",
+      "result": "6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.4 × 6 = ?",
+    "choices": [
+      "2.4",
+      "1.4",
+      "3.4",
+      "4.4"
+    ],
+    "answer": "2.4",
+    "explanation": "4/10을 6배 하면 2.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "4/10*6",
+      "result": "2.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 48L의 1/6은 몇 L인가요?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "전체를 6등분한 한 부분입니다. 48 ÷ 6 = 8L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "48/6",
+      "result": "8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 9cm, 세로 7cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "63",
+      "62",
+      "64",
+      "65"
+    ],
+    "answer": "63",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 9 × 7 = 63cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "9*7",
+      "result": "63",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 18cm, 높이 7cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "63",
+      "62",
+      "64",
+      "65"
+    ],
+    "answer": "63",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 18 × 7 ÷ 2 = 63cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18*7/2",
+      "result": "63",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 5점, 7점, 9점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "7",
+      "6",
+      "8",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "점수의 합을 횟수로 나눠요. (5 + 7 + 9) ÷ 3 = 7점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(5+7+9)/3",
+      "result": "7",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.5 × 7 = ?",
+    "choices": [
+      "3.5",
+      "2.5",
+      "4.5",
+      "5.5"
+    ],
+    "answer": "3.5",
+    "explanation": "5/10을 7배 하면 3.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "5/10*7",
+      "result": "3.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 63L의 1/7은 몇 L인가요?",
+    "choices": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "전체를 7등분한 한 부분입니다. 63 ÷ 7 = 9L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "63/7",
+      "result": "9",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 10cm, 세로 8cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 10 × 8 = 80cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10*8",
+      "result": "80",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 20cm, 높이 8cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 20 × 8 ÷ 2 = 80cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*8/2",
+      "result": "80",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 6점, 8점, 10점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "8",
+      "7",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "점수의 합을 횟수로 나눠요. (6 + 8 + 10) ÷ 3 = 8점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(6+8+10)/3",
+      "result": "8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.6 × 8 = ?",
+    "choices": [
+      "4.8",
+      "3.8",
+      "5.8",
+      "6.8"
+    ],
+    "answer": "4.8",
+    "explanation": "6/10을 8배 하면 4.8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "6/10*8",
+      "result": "4.8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 80L의 1/8은 몇 L인가요?",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "전체를 8등분한 한 부분입니다. 80 ÷ 8 = 10L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "80/8",
+      "result": "10",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 11cm, 세로 2cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 11 × 2 = 22cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "11*2",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 22cm, 높이 2cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 22 × 2 ÷ 2 = 22cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "22*2/2",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-033",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 7점, 9점, 11점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "9",
+      "8",
+      "10",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "점수의 합을 횟수로 나눠요. (7 + 9 + 11) ÷ 3 = 9점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(7+9+11)/3",
+      "result": "9",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-034",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.7 × 2 = ?",
+    "choices": [
+      "1.4",
+      "0.4",
+      "2.4",
+      "3.4"
+    ],
+    "answer": "1.4",
+    "explanation": "7/10을 2배 하면 1.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "7/10*2",
+      "result": "1.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-035",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 22L의 1/2은 몇 L인가요?",
+    "choices": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "전체를 2등분한 한 부분입니다. 22 ÷ 2 = 11L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "22/2",
+      "result": "11",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-036",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 12cm, 세로 3cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 12 × 3 = 36cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12*3",
+      "result": "36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-037",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 24cm, 높이 3cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 24 × 3 ÷ 2 = 36cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "24*3/2",
+      "result": "36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-038",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 8점, 10점, 12점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "10",
+      "9",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "점수의 합을 횟수로 나눠요. (8 + 10 + 12) ÷ 3 = 10점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(8+10+12)/3",
+      "result": "10",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-039",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.8 × 3 = ?",
+    "choices": [
+      "2.4",
+      "1.4",
+      "3.4",
+      "4.4"
+    ],
+    "answer": "2.4",
+    "explanation": "8/10을 3배 하면 2.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "8/10*3",
+      "result": "2.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-040",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 36L의 1/3은 몇 L인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "전체를 3등분한 한 부분입니다. 36 ÷ 3 = 12L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "36/3",
+      "result": "12",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-041",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 13cm, 세로 4cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "52",
+      "51",
+      "53",
+      "54"
+    ],
+    "answer": "52",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 13 × 4 = 52cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "13*4",
+      "result": "52",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-042",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 26cm, 높이 4cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "52",
+      "51",
+      "53",
+      "54"
+    ],
+    "answer": "52",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 26 × 4 ÷ 2 = 52cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "26*4/2",
+      "result": "52",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-043",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 9점, 11점, 13점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "점수의 합을 횟수로 나눠요. (9 + 11 + 13) ÷ 3 = 11점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(9+11+13)/3",
+      "result": "11",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-044",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "0.9 × 4 = ?",
+    "choices": [
+      "3.6",
+      "2.6",
+      "4.6",
+      "5.6"
+    ],
+    "answer": "3.6",
+    "explanation": "9/10을 4배 하면 3.6입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "9/10*4",
+      "result": "3.6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-045",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 52L의 1/4은 몇 L인가요?",
+    "choices": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "전체를 4등분한 한 부분입니다. 52 ÷ 4 = 13L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "52/4",
+      "result": "13",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-046",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 14cm, 세로 5cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "70",
+      "69",
+      "71",
+      "72"
+    ],
+    "answer": "70",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 14 × 5 = 70cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14*5",
+      "result": "70",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-047",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 28cm, 높이 5cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "70",
+      "69",
+      "71",
+      "72"
+    ],
+    "answer": "70",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 28 × 5 ÷ 2 = 70cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "28*5/2",
+      "result": "70",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-048",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 10점, 12점, 14점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "점수의 합을 횟수로 나눠요. (10 + 12 + 14) ÷ 3 = 12점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(10+12+14)/3",
+      "result": "12",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-049",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1 × 5 = ?",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "10/10을 5배 하면 5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "10/10*5",
+      "result": "5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-050",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 70L의 1/5은 몇 L인가요?",
+    "choices": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "전체를 5등분한 한 부분입니다. 70 ÷ 5 = 14L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "70/5",
+      "result": "14",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-051",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 15cm, 세로 6cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "90",
+      "89",
+      "91",
+      "92"
+    ],
+    "answer": "90",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 15 × 6 = 90cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15*6",
+      "result": "90",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-052",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 30cm, 높이 6cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "90",
+      "89",
+      "91",
+      "92"
+    ],
+    "answer": "90",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 30 × 6 ÷ 2 = 90cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "30*6/2",
+      "result": "90",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-053",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 11점, 13점, 15점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "13",
+      "12",
+      "14",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "점수의 합을 횟수로 나눠요. (11 + 13 + 15) ÷ 3 = 13점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(11+13+15)/3",
+      "result": "13",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-054",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.1 × 6 = ?",
+    "choices": [
+      "6.6",
+      "5.6",
+      "7.6",
+      "8.6"
+    ],
+    "answer": "6.6",
+    "explanation": "11/10을 6배 하면 6.6입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "11/10*6",
+      "result": "6.6",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-055",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 90L의 1/6은 몇 L인가요?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "전체를 6등분한 한 부분입니다. 90 ÷ 6 = 15L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "90/6",
+      "result": "15",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-056",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 16cm, 세로 7cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "112",
+      "111",
+      "113",
+      "114"
+    ],
+    "answer": "112",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 16 × 7 = 112cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "16*7",
+      "result": "112",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-057",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 32cm, 높이 7cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "112",
+      "111",
+      "113",
+      "114"
+    ],
+    "answer": "112",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 32 × 7 ÷ 2 = 112cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "32*7/2",
+      "result": "112",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-058",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 12점, 14점, 16점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "14",
+      "13",
+      "15",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "점수의 합을 횟수로 나눠요. (12 + 14 + 16) ÷ 3 = 14점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(12+14+16)/3",
+      "result": "14",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-059",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.2 × 7 = ?",
+    "choices": [
+      "8.4",
+      "7.4",
+      "9.4",
+      "10.4"
+    ],
+    "answer": "8.4",
+    "explanation": "12/10을 7배 하면 8.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "12/10*7",
+      "result": "8.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-060",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 112L의 1/7은 몇 L인가요?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "전체를 7등분한 한 부분입니다. 112 ÷ 7 = 16L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "112/7",
+      "result": "16",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-061",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 17cm, 세로 8cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "136",
+      "135",
+      "137",
+      "138"
+    ],
+    "answer": "136",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 17 × 8 = 136cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "17*8",
+      "result": "136",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-062",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 34cm, 높이 8cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "136",
+      "135",
+      "137",
+      "138"
+    ],
+    "answer": "136",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 34 × 8 ÷ 2 = 136cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "34*8/2",
+      "result": "136",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-063",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 13점, 15점, 17점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "15",
+      "14",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "점수의 합을 횟수로 나눠요. (13 + 15 + 17) ÷ 3 = 15점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(13+15+17)/3",
+      "result": "15",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-064",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.3 × 8 = ?",
+    "choices": [
+      "10.4",
+      "9.4",
+      "11.4",
+      "12.4"
+    ],
+    "answer": "10.4",
+    "explanation": "13/10을 8배 하면 10.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "13/10*8",
+      "result": "10.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-065",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 136L의 1/8은 몇 L인가요?",
+    "choices": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "전체를 8등분한 한 부분입니다. 136 ÷ 8 = 17L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "136/8",
+      "result": "17",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-066",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 18cm, 세로 2cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 18 × 2 = 36cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18*2",
+      "result": "36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-067",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 36cm, 높이 2cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "36",
+      "35",
+      "37",
+      "38"
+    ],
+    "answer": "36",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 36 × 2 ÷ 2 = 36cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "36*2/2",
+      "result": "36",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-068",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 14점, 16점, 18점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "점수의 합을 횟수로 나눠요. (14 + 16 + 18) ÷ 3 = 16점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(14+16+18)/3",
+      "result": "16",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-069",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.4 × 2 = ?",
+    "choices": [
+      "2.8",
+      "1.8",
+      "3.8",
+      "4.8"
+    ],
+    "answer": "2.8",
+    "explanation": "14/10을 2배 하면 2.8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "14/10*2",
+      "result": "2.8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-070",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 36L의 1/2은 몇 L인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "전체를 2등분한 한 부분입니다. 36 ÷ 2 = 18L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "36/2",
+      "result": "18",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-071",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 19cm, 세로 3cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "57",
+      "56",
+      "58",
+      "59"
+    ],
+    "answer": "57",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 19 × 3 = 57cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "19*3",
+      "result": "57",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-072",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 38cm, 높이 3cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "57",
+      "56",
+      "58",
+      "59"
+    ],
+    "answer": "57",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 38 × 3 ÷ 2 = 57cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "38*3/2",
+      "result": "57",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-073",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 15점, 17점, 19점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "17",
+      "16",
+      "18",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "점수의 합을 횟수로 나눠요. (15 + 17 + 19) ÷ 3 = 17점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(15+17+19)/3",
+      "result": "17",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-074",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.5 × 3 = ?",
+    "choices": [
+      "4.5",
+      "3.5",
+      "5.5",
+      "6.5"
+    ],
+    "answer": "4.5",
+    "explanation": "15/10을 3배 하면 4.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "15/10*3",
+      "result": "4.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-075",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 57L의 1/3은 몇 L인가요?",
+    "choices": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ],
+    "answer": "19",
+    "explanation": "전체를 3등분한 한 부분입니다. 57 ÷ 3 = 19L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "57/3",
+      "result": "19",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-076",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 20cm, 세로 4cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 20 × 4 = 80cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20*4",
+      "result": "80",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-077",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 40cm, 높이 4cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answer": "80",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 40 × 4 ÷ 2 = 80cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "40*4/2",
+      "result": "80",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-078",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 16점, 18점, 20점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "점수의 합을 횟수로 나눠요. (16 + 18 + 20) ÷ 3 = 18점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(16+18+20)/3",
+      "result": "18",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-079",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.6 × 4 = ?",
+    "choices": [
+      "6.4",
+      "5.4",
+      "7.4",
+      "8.4"
+    ],
+    "answer": "6.4",
+    "explanation": "16/10을 4배 하면 6.4입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "16/10*4",
+      "result": "6.4",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-080",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 80L의 1/4은 몇 L인가요?",
+    "choices": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ],
+    "answer": "20",
+    "explanation": "전체를 4등분한 한 부분입니다. 80 ÷ 4 = 20L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "80/4",
+      "result": "20",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-081",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 21cm, 세로 5cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "105",
+      "104",
+      "106",
+      "107"
+    ],
+    "answer": "105",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 21 × 5 = 105cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "21*5",
+      "result": "105",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-082",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 42cm, 높이 5cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "105",
+      "104",
+      "106",
+      "107"
+    ],
+    "answer": "105",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 42 × 5 ÷ 2 = 105cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "42*5/2",
+      "result": "105",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-083",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 17점, 19점, 21점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "19",
+      "18",
+      "20",
+      "21"
+    ],
+    "answer": "19",
+    "explanation": "점수의 합을 횟수로 나눠요. (17 + 19 + 21) ÷ 3 = 19점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(17+19+21)/3",
+      "result": "19",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-084",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.7 × 5 = ?",
+    "choices": [
+      "8.5",
+      "7.5",
+      "9.5",
+      "10.5"
+    ],
+    "answer": "8.5",
+    "explanation": "17/10을 5배 하면 8.5입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "17/10*5",
+      "result": "8.5",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-085",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 105L의 1/5은 몇 L인가요?",
+    "choices": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ],
+    "answer": "21",
+    "explanation": "전체를 5등분한 한 부분입니다. 105 ÷ 5 = 21L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "105/5",
+      "result": "21",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-086",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 22cm, 세로 6cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "132",
+      "131",
+      "133",
+      "134"
+    ],
+    "answer": "132",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 22 × 6 = 132cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "22*6",
+      "result": "132",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-087",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 44cm, 높이 6cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "132",
+      "131",
+      "133",
+      "134"
+    ],
+    "answer": "132",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 44 × 6 ÷ 2 = 132cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "44*6/2",
+      "result": "132",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-088",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 18점, 20점, 22점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "20",
+      "19",
+      "21",
+      "22"
+    ],
+    "answer": "20",
+    "explanation": "점수의 합을 횟수로 나눠요. (18 + 20 + 22) ÷ 3 = 20점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(18+20+22)/3",
+      "result": "20",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-089",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.8 × 6 = ?",
+    "choices": [
+      "10.8",
+      "9.8",
+      "11.8",
+      "12.8"
+    ],
+    "answer": "10.8",
+    "explanation": "18/10을 6배 하면 10.8입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "18/10*6",
+      "result": "10.8",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-090",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 132L의 1/6은 몇 L인가요?",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "전체를 6등분한 한 부분입니다. 132 ÷ 6 = 22L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "132/6",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-091",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 23cm, 세로 7cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "161",
+      "160",
+      "162",
+      "163"
+    ],
+    "answer": "161",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 23 × 7 = 161cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "23*7",
+      "result": "161",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-092",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 46cm, 높이 7cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "161",
+      "160",
+      "162",
+      "163"
+    ],
+    "answer": "161",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 46 × 7 ÷ 2 = 161cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "46*7/2",
+      "result": "161",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-093",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 19점, 21점, 23점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "21",
+      "20",
+      "22",
+      "23"
+    ],
+    "answer": "21",
+    "explanation": "점수의 합을 횟수로 나눠요. (19 + 21 + 23) ÷ 3 = 21점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(19+21+23)/3",
+      "result": "21",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-094",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "1.9 × 7 = ?",
+    "choices": [
+      "13.3",
+      "12.3",
+      "14.3",
+      "15.3"
+    ],
+    "answer": "13.3",
+    "explanation": "19/10을 7배 하면 13.3입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "19/10*7",
+      "result": "13.3",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-095",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 161L의 1/7은 몇 L인가요?",
+    "choices": [
+      "23",
+      "22",
+      "24",
+      "25"
+    ],
+    "answer": "23",
+    "explanation": "전체를 7등분한 한 부분입니다. 161 ÷ 7 = 23L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "161/7",
+      "result": "23",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-096",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "직사각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "가로 24cm, 세로 8cm인 직사각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "192",
+      "191",
+      "193",
+      "194"
+    ],
+    "answer": "192",
+    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 24 × 8 = 192cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "직사각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "24*8",
+      "result": "192",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-097",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "삼각형 넓이의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "밑변 48cm, 높이 8cm인 삼각형의 넓이는 몇 cm²인가요?",
+    "choices": [
+      "192",
+      "191",
+      "193",
+      "194"
+    ],
+    "answer": "192",
+    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 48 × 8 ÷ 2 = 192cm²입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "삼각형 넓이"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "48*8/2",
+      "result": "192",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-098",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "평균의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "세 번의 점수가 20점, 22점, 24점입니다. 평균은 몇 점인가요?",
+    "choices": [
+      "22",
+      "21",
+      "23",
+      "24"
+    ],
+    "answer": "22",
+    "explanation": "점수의 합을 횟수로 나눠요. (20 + 22 + 24) ÷ 3 = 22점입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "평균"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "(20+22+24)/3",
+      "result": "22",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-099",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "소수 곱셈의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "2 × 8 = ?",
+    "choices": [
+      "16",
+      "15",
+      "17",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "20/10을 8배 하면 16입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "소수 곱셈"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "20/10*8",
+      "result": "16",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  },
+  {
+    "id": "V61-E5-MATH-100",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "분수의 양의 뜻을 이해하고 문제에 적용한다",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "물 192L의 1/8은 몇 L인가요?",
+    "choices": [
+      "24",
+      "23",
+      "25",
+      "26"
+    ],
+    "answer": "24",
+    "explanation": "전체를 8등분한 한 부분입니다. 192 ÷ 8 = 24L입니다.",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "tags": [
+      "분수의 양"
+    ],
+    "review": {
+      "method": "mathjs_api_and_exact_rational_verification",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "verification": {
+      "provider": "mathjs",
+      "expression": "192/8",
+      "result": "24",
+      "source_reference": "mathjs_calculation_api",
+      "snapshot": "data/references/mathjs-v61-verification.json"
+    }
+  }
+]

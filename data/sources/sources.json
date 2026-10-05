@@ -85,5 +85,14 @@
       "https://www.q-net.or.kr/crf005.do?id=crf00503s02&jmCd=1440&jmInfoDivCcd=B0"
     ],
     "data_checked_at": "2026-10-04"
+  },
+  {
+    "id": "mathjs_calculation_api",
+    "name": "math.js REST 계산 API",
+    "url": "https://api.mathjs.org/",
+    "type": "calculation_verification",
+    "allowed_copy": false,
+    "usage": "자체 제작 계산 문제의 정답 검증에만 사용. 문항 및 해설은 자체 제작. API 결과는 exact rational 계산과 대조.",
+    "checked_at": "2026-10-05"
   }
 ]

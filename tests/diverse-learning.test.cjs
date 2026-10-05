@@ -15,6 +15,6 @@ test('diverse bank supplies four subjects and both choice and ordered gameplay w
   if(q.subject==='english')assert.equal(q.sentence,q.answer.join(' '));
  }
  const packs=P.groupQuestions(B.bank());for(const subject of ['science','social']){
-  const p=packs.find(p=>p.subject===subject);assert.equal(p.school,'elementary');assert.equal(p.grade,3);assert.equal(p.rows.length,24);
+  const ps=packs.filter(p=>p.subject===subject);assert(ps.length>1);assert(ps.every(p=>p.school==='elementary'&&p.grade>=3&&p.grade<=6));assert.equal(ps.reduce((n,p)=>n+p.rows.length,0),24);
  }
 });

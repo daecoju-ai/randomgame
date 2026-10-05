@@ -1,0 +1,863 @@
+{
+  "version": 1,
+  "status": "pilot",
+  "source_reference": "moe_2022_curriculum",
+  "note": "학년군 교육과정을 참고한 서비스 배치. 교과서별 학기·단원 일치 및 교사 검수는 미완료. 기존 문제의 식별자·정답·보상 검증 지문은 유지한다.",
+  "placements": {
+    "V58-E5-MATH-001": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-002": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-003": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-004": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-005": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-006": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-007": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-008": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-009": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-010": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-011": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-012": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-013": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-014": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-015": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-016": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-017": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-018": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-019": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-020": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-021": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-022": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-023": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-024": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-025": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-026": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-027": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-028": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-029": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-030": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-031": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-032": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-033": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-034": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-035": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V58-E5-MATH-036": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "백분율은 비와 비율 학습 뒤에 배치"
+    },
+    "V62-SCIENCE-001": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-002": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-003": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-004": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-005": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-006": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-007": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-008": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-009": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-010": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-011": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-012": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-013": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-014": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-015": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-016": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-017": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-018": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-019": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-020": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-021": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-022": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-023": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SCIENCE-024": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-001": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-002": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-003": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-004": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-005": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-006": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-007": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-008": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-009": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-010": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-011": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-012": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-013": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-014": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-015": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-016": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-017": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-018": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-019": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-020": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-021": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-022": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-023": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-SOCIAL-024": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-001": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-002": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-003": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-004": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-005": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-006": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-007": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-008": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-009": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-010": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-011": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-012": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-013": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-014": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-015": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-016": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-017": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-018": {
+      "school": "elementary",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-019": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-020": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-021": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-022": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-023": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-KOREAN-024": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-001": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-002": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-003": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-004": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-005": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-006": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-007": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-008": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-009": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-010": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-011": {
+      "school": "middle",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-012": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-013": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-014": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-015": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-016": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-017": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-018": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-019": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-020": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-021": {
+      "school": "elementary",
+      "grade": 6,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-022": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-023": {
+      "school": "middle",
+      "grade": 1,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "V62-ENGLISH-024": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "개념과 문장 길이에 따른 시범 학년 배치"
+    },
+    "KOR-WORD-000001": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "KOR-WORD-000002": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "KOR-WORD-000003": {
+      "school": "elementary",
+      "grade": 2,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-001": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-002": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-003": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-004": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-005": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-006": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-007": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-008": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-009": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-010": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-011": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-012": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-013": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-014": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-015": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-016": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-017": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-018": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-019": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-020": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-021": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-022": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-023": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-024": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-025": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-026": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-027": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-028": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-029": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "V58-ENG-030": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000001": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000002": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000003": {
+      "school": "elementary",
+      "grade": 3,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000004": {
+      "school": "elementary",
+      "grade": 4,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000005": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    },
+    "ENG-SENTENCE-000006": {
+      "school": "elementary",
+      "grade": 5,
+      "reason": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    }
+  }
+}

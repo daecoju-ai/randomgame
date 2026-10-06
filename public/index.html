@@ -45,7 +45,7 @@
 <div class="accountLinks"><button id="accountForgot" type="button">비밀번호 찾기</button><button id="accountVerifyLink" type="button">이메일 인증하기</button><button id="accountResend" type="button" hidden>인증번호 다시 받기</button><button id="accountBack" type="button" hidden>로그인으로 돌아가기</button></div>
 <small>비밀번호는 기기에 저장하지 않습니다. 회원 계정에는 이메일과 게임 성장 기록이 저장됩니다.</small><p class="accountPolicyLink"><a href="/privacy/" target="_blank" rel="noopener noreferrer">개인정보처리방침</a> · 계정 및 데이터 삭제 안내</p>
 </form></div>
-<div id="accountMember" hidden><p id="accountUser"></p><p>유닛 성장과 금화를 계정에 보관합니다.</p>
+<div id="accountMember" hidden><p id="accountUser"></p><p>유닛 성장과 금화를 계정에 보관합니다.</p><details class="accountDelete"><summary>계정 및 데이터 삭제</summary><p>계정과 서버에 저장된 게임 데이터가 영구 삭제되며 복구할 수 없습니다.</p><button id="accountDeleteStart" type="button">계정 및 데이터 삭제</button><div id="accountDeleteConfirm" hidden><p><strong>정말 삭제할까요?</strong> 이 작업은 되돌릴 수 없습니다.</p><button id="accountDeleteCancel" type="button">취소</button><button id="accountDeleteAccept" type="button">영구 삭제</button></div><small><a href="/delete-account/" target="_blank" rel="noopener noreferrer">계정 삭제 안내</a></small></details>
 <div id="accountChoice" hidden><h3>어떤 기록으로 시작할까요?</h3><p>이 계정의 첫 저장입니다. 비회원 기록은 별도로 보관됩니다.</p><button id="importGuest">이 기기의 비회원 성장 가져오기</button><button id="newAccountStart">새로 시작 · 금화 120</button></div>
 <button id="cloudRetry">저장 / 연결 다시 시도</button><button id="cloudReload" hidden>서버 기록 불러오기</button>
 <div id="cloudConflictConfirm" hidden><p>아직 저장하지 못한 변경 대신 서버 기록을 사용합니다. 현재 기록은 이 기기에 백업됩니다.</p><button id="cloudConflictAccept">서버 기록 사용</button><button id="cloudConflictCancel">취소</button></div>

@@ -48,6 +48,9 @@ $('#accountForm').onsubmit=async e=>{e.preventDefault();if(busy||game.inBattle()
  else if(mode==='reset'){localGuest();setMode('signin');message('비밀번호를 변경했습니다. 새 비밀번호로 로그인해 주세요.')}
  }catch(e){message(e.message)}finally{busy=false;render()}};
 $('#accountResend').onclick=async()=>{if(busy)return;busy=true;render();try{await api('account',{action:'resend',email:$('#accountEmail').value});message('인증 가능한 주소라면 메일이 재발송됩니다. 잠시 기다려 주세요.')}catch(e){message(e.message)}finally{busy=false;render()}};
+$('#accountDeleteStart').onclick=()=>{$('#accountDeleteConfirm').hidden=false};
+$('#accountDeleteCancel').onclick=()=>{$('#accountDeleteConfirm').hidden=true};
+$('#accountDeleteAccept').onclick=async()=>{if(busy||!user||game.inBattle())return;busy=true;message('계정과 데이터를 삭제하는 중…');render();try{await api('account',{action:'delete'});try{localStorage.removeItem(key(user.id));localStorage.removeItem(key(user.id)+'_backup')}catch{}localGuest();setMode('signin');$('#accountDeleteConfirm').hidden=true;message('계정과 서버 데이터를 삭제했습니다.')}catch(e){message(e.message)}finally{busy=false;render()}};
 $('#accountLogout').onclick=async()=>{if(busy||dirty||saving||game.inBattle())return;busy=true;render();try{await api('account',{action:'logout'});localGuest();setMode('signin');message('로그아웃했습니다. 비회원 기록으로 돌아갑니다.')}catch(e){message(e.message)}finally{busy=false;render()}};
 $('#cloudRetry').onclick=async()=>{if(busy||saving)return;busy=true;render();try{if(dirty)await flush();else if(user)await loadAccount(user)}finally{busy=false;render()}};
 $('#cloudReload').onclick=()=>{$('#cloudConflictConfirm').hidden=false};

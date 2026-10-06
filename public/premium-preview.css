@@ -1,0 +1,37 @@
+/* Premium UI preview — visual shell only. Existing unit art/canvas rendering is intentionally untouched. */
+:root{--px-bg:#07101f;--px-panel:#0b1b31;--px-panel2:#102744;--px-line:#3d78b8;--px-gold:#ffc95b;--px-blue:#43c8ff;--px-violet:#9c64ff;--px-text:#f7fbff;--px-muted:#a9c0d9}
+body{background:radial-gradient(circle at 50% 0,#183b68 0,#081426 45%,#050b15 100%);color:var(--px-text)}
+button{border:1px solid #3c6796;background:linear-gradient(180deg,#183b62,#0d213c);color:#f7fbff;box-shadow:inset 0 1px 0 #ffffff22,0 7px 18px #0008;text-shadow:0 1px 2px #000}
+button:not(:disabled):active{filter:brightness(1.16)}
+.top{background:linear-gradient(180deg,#071324fa 0,#0a1a30e8 72%,transparent);border-bottom:1px solid #3f79a744}
+.brand{color:#fff1b5;text-shadow:0 0 15px #4ac9ff66}.brand-mark{color:#69ddff;text-shadow:0 0 18px #6ee6ff}
+.top button{background:linear-gradient(#173b63,#0b203a);border-color:#4f85ba;color:#e9f7ff}
+.status{background:linear-gradient(180deg,#132e4bf2,#08172bf5);border:1px solid #5ba6dc88;box-shadow:0 10px 30px #0008,inset 0 0 22px #2d8cc51c}
+.status strong{color:#fff7dc}.compactStatus>div{position:relative}.compactStatus>div+div:before{content:"";position:absolute;left:-18px;top:10%;height:80%;width:1px;background:#5f9ed955}
+#stageProgress{background:#193c5c}#stageProgress span{background:linear-gradient(90deg,#4de4ff,#ffd56a);box-shadow:0 0 12px #50ddff}
+#arenaLabel span{color:#bfe9ff;text-shadow:0 0 12px #5bcfff}
+.bottom{background:linear-gradient(transparent,#071426 40%)}.bottom #summon,#confirmBattle,#claimBattleReward{background:linear-gradient(180deg,#ffda70,#f39a22);color:#271400;border-color:#ffe8a4;box-shadow:inset 0 1px #fff7c8,0 5px 0 #9c4c12,0 12px 28px #ff9d2438}.bottom #combine{background:linear-gradient(180deg,#327ec1,#173e75);border-color:#6acbff}
+.screen{background:radial-gradient(circle at 50% 12%,#204e80 0,transparent 42%),linear-gradient(180deg,#08182b,#050b15);color:#fff}
+#startScreen:before{content:"";position:absolute;inset:0;pointer-events:none;background:radial-gradient(circle at 18% 22%,#55dfff20 0 2px,transparent 3px),radial-gradient(circle at 82% 16%,#ffd85c25 0 2px,transparent 3px);background-size:72px 72px,91px 91px}
+.lobbyTop h1{color:#fff1a6;text-shadow:0 2px 0 #704a10,0 0 24px #41c8ff66}
+.lobbyToolbar,.walletStrip{background:linear-gradient(180deg,#102b4b,#091a31);border-color:#467eb3!important;box-shadow:inset 0 1px #ffffff1f,0 8px 20px #0005}
+.lobbyShowcase,.guardianLobby,.featuredLegend{background:radial-gradient(circle at 50% 20%,#1f5a8840,transparent 55%),linear-gradient(180deg,#102a47,#09182c)!important;border:1px solid #3f77a9!important;box-shadow:inset 0 0 32px #1b8ed022,0 12px 30px #0006!important}
+.homePrimary button{border-radius:16px!important;min-height:92px!important;background:linear-gradient(180deg,#173e69,#0c2240)!important;border:1px solid #4b8cc4!important;box-shadow:inset 0 1px #ffffff25,0 6px 0 #06111f,0 12px 24px #0005!important}
+.homePrimary #startGame{background:linear-gradient(180deg,#ffb83e,#e36d18)!important;border-color:#ffe08b!important;color:#fff!important}
+.homePrimary #openShopHub{background:linear-gradient(180deg,#7144c8,#39246e)!important;border-color:#bd91ff!important}
+.homePrimary .learningMainEntry{background:linear-gradient(180deg,#176c9e,#113d73)!important;border-color:#55d8ff!important}
+dialog,.homeHub,.collectionDialog,#drawer,#recipeOverlay{background:radial-gradient(circle at 50% 0,#173b65 0,transparent 38%),linear-gradient(180deg,#0b1b31,#050d1a)!important;color:#f7fbff!important;border:1px solid #4f91c8!important;box-shadow:0 24px 70px #000c,inset 0 0 40px #228fd31c!important}
+dialog header,.homeHub header,.collectionDialog header{border-bottom:1px solid #4c83b866}
+dialog h2,.homeHub h2,.collectionDialog h2,#drawer h2{color:#fff0a8!important;text-shadow:0 0 16px #ffbd4c35}
+.hubGrid button,.shopCollectionLinks button,.miniCard,.card,.evolutionCard,.attributeRow,.storePlans article,#missionCards>* ,#attendanceCards>*{background:linear-gradient(180deg,#15375c,#0b1e38)!important;border:1px solid #417caf!important;box-shadow:inset 0 1px #ffffff18,0 8px 18px #0005!important}
+.hubGrid button:hover{border-color:#63d9ff!important;box-shadow:0 0 22px #31c8ff35!important}
+#eventHub{background:radial-gradient(circle at 15% 0,#4e2d7b 0,transparent 35%),radial-gradient(circle at 85% 10%,#175f89 0,transparent 40%),linear-gradient(180deg,#0b1730,#070d1a)!important}
+.miniCard{border-radius:17px!important}.miniCard.mine{background:linear-gradient(135deg,#0e4c72,#142b56)!important}.miniCard.luck{background:linear-gradient(135deg,#55327c,#1d2855)!important}
+#studyHub,.learningCampaign{background:radial-gradient(circle at 80% 0,#174e79 0,transparent 45%),linear-gradient(180deg,#0d2844,#081629)!important;border-color:#4388bd!important;color:#f7fbff!important}
+.studySubjects button{background:linear-gradient(180deg,#17466c,#0d2b4b)!important;border-color:#4c91c1!important}.studyIcon{background:#163d67!important;color:#ffdd73!important}
+#resultScreen .rewardCard,.rewardMetrics article{background:linear-gradient(180deg,#17385b,#0b1c34)!important;border:1px solid #4b8dc2!important}
+#mailDialog #mailList>*{background:linear-gradient(180deg,#153653,#0a1d34)!important;border-color:#477da6!important}
+#selectionPanel{background:linear-gradient(180deg,#163c61f5,#091a31f8);border-color:#63b5e3;box-shadow:0 8px 26px #0009}
+#bossWrap{background:#0a1930e8;border:1px solid #743f9c}#bossTrack{background:#120c1c}#bossBar{background:linear-gradient(90deg,#a332ff,#ff493e,#ffbe35);box-shadow:0 0 14px #ff4b5d}
+#toast{background:#07162df2;border-color:#55bce8}
+@media(max-width:520px){.homePrimary{gap:8px}.homePrimary button{min-height:78px!important}.lobbyShowcase,.guardianLobby{border-radius:16px!important}}

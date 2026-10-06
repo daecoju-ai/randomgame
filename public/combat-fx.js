@@ -57,6 +57,12 @@ function drawSkillEffect(g,e){
  }
  // Each named spell has a stable, different runic pattern as well as its elemental silhouette.
  if(slot>=4||/Aura|mark|Mark|Brand|Seal/.test(f)){g.save();g.rotate((hash%360)*Math.PI/180+phase*.05);const n=3+hash%6;g.beginPath();for(let i=0;i<=n;i++){const a=i*6.283/n;g.lineTo(Math.cos(a)*r*.7,Math.sin(a)*r*.7)}g.stroke();g.restore()}
+
+ // V63 premium finish: a second, lighter layer adds elemental identity without changing damage or timing.
+ if(!e._premiumLayer){
+  const q={...e,_premiumLayer:true};
+  try{drawPremiumSkillEffect(g,q)}catch(_){}
+ }
  g.restore();
 }
 

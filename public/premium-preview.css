@@ -111,3 +111,29 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
 :focus-visible{outline:2px solid #76e4ff!important;outline-offset:2px}
 @media(max-width:520px){:is(dialog,.homeHub,.collectionDialog){border-radius:18px!important}.hubGrid{gap:9px!important}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
+/* V62 detail QA: hierarchy, tap targets, compact-phone fit. Artwork remains untouched. */
+.premiumIcon{width:25px;height:25px;vertical-align:middle;flex:none}
+.status.compactStatus>div{display:flex;align-items:center;justify-content:center;gap:7px;min-width:0}.status.compactStatus strong{font-variant-numeric:tabular-nums;white-space:nowrap}
+.status.compactStatus>div:first-child .premiumIcon{width:28px;height:28px}.status.compactStatus>div:last-child .premiumIcon{width:29px;height:29px}
+.homeHub,.collectionDialog{width:min(94vw,680px)!important;max-height:92dvh!important;overflow:auto!important}
+.homeHub header,.collectionDialog header{position:sticky;top:0;z-index:5;padding-bottom:10px;backdrop-filter:blur(10px)}
+.homeHub header button,.collectionDialog header button{min-width:44px;min-height:44px}
+.hubGrid{gap:11px}.hubGrid button{min-height:96px!important}.hubGrid button>b{font-size:17px}.hubGrid button>small{line-height:1.45}
+.shopCollectionLinks{gap:9px}.shopCollectionLinks button{min-height:58px;text-align:left}
+#unitAlbumGrid,#hiddenCollectionCards,#unitCollection,#talismanCards{gap:9px}
+#battleSkills{width:min(94vw,620px);max-height:90dvh;overflow:auto}
+#battleSkills #closeBattleSkills{position:sticky;top:0;z-index:3;float:right}
+#accountDialog{width:min(94vw,480px)!important;max-height:92dvh!important}#accountForm input{min-height:48px!important;font-size:16px!important}
+#mailDialog{width:min(94vw,580px);max-height:92dvh;overflow:auto}#mailDialog footer{position:sticky;bottom:0;padding-top:10px;background:linear-gradient(transparent,#071523 30%)}
+#soundSettingsDialog{width:min(92vw,440px)}.soundRow{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:13px;border-radius:13px;margin:9px 0}.soundRow button{min-width:72px}
+#battleEntryDialog,#leaveBattle{width:min(92vw,460px)}#battleEntryDialog>button,#leaveBattle>button{width:100%;margin-top:8px}
+#drawRevealContent{max-height:65dvh;overflow:auto}
+#resultScreen button{min-height:48px}
+#toast{max-width:calc(100vw - 28px);overflow-wrap:anywhere}
+@media(max-width:390px){
+ .status.compactStatus{width:94%;padding:9px 10px!important}.status.compactStatus>div{gap:4px}.status.compactStatus strong{font-size:15px!important}.status.compactStatus .premiumIcon{width:22px!important;height:22px!important}
+ .homeHub,.collectionDialog{width:96vw!important;padding:14px!important}.hubGrid button{min-height:82px!important;padding:10px!important}.hubGrid button>b{font-size:15px}
+ .shopCollectionLinks button{font-size:12px!important}
+ #selectionPanel{width:96%;gap:4px 5px;padding:6px 7px}
+}

@@ -38,3 +38,76 @@ dialog h2,.homeHub h2,.collectionDialog h2,#drawer h2{color:#fff0a8!important;te
 
 /* V48 readability: keep typography crisp; no decorative text shadows. */
 body,body *,button,button *,input,select,textarea,label{ text-shadow:none!important; }
+
+
+/* V61 full-page premium pass. Unit/hero artwork and canvas renderers are intentionally untouched. */
+:root{--lux-bg:#06101d;--lux-surface:#0d2239;--lux-surface2:#143352;--lux-line:#3d79a9;--lux-line-soft:#3d79a955;--lux-gold:#ffd56b;--lux-cyan:#5edcff;--lux-text:#f4f9ff;--lux-muted:#b4c8dc;--lux-danger:#ff7d82;--lux-ok:#70e3ac}
+body,body *{text-shadow:none!important}
+dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
+:is(dialog,.homeHub,.collectionDialog,#drawer,#recipeOverlay,.learningDialog,.miniDialog,.restDialog){
+ background:radial-gradient(circle at 80% 0,#1c54824d 0,transparent 38%),linear-gradient(180deg,#0c2139,#06111f)!important;
+ color:var(--lux-text)!important;border:1px solid var(--lux-line)!important;
+ box-shadow:0 24px 70px #000b,inset 0 1px #ffffff18!important}
+:is(dialog,.homeHub,.collectionDialog) header{background:linear-gradient(180deg,#173a5a99,#0b1d31aa);border-bottom:1px solid var(--lux-line-soft)!important}
+:is(dialog,.homeHub,.collectionDialog) :is(h2,h3),#drawer :is(h2,h3){color:#fff0b0!important}
+:is(dialog,.homeHub,.collectionDialog,#drawer) :is(p,small,label,summary){color:var(--lux-muted)}
+:is(dialog,.homeHub,.collectionDialog,#drawer) button{background:linear-gradient(180deg,#1b466e,#0e2947);color:var(--lux-text);border-color:#5792bf;box-shadow:inset 0 1px #ffffff20,0 5px 14px #0005}
+:is(dialog,.homeHub,.collectionDialog,#drawer) button:disabled{filter:saturate(.35);opacity:.55}
+:is(input,select,textarea){background:#07192c!important;color:var(--lux-text)!important;border:1px solid #477fa8!important;border-radius:9px!important}
+:is(.hubGrid button,.shopCollectionLinks button,.card,.miniCard,.storePlans article,#missionCards>*,#attendanceCards>*,#unitAlbumGrid>*,#hiddenCollectionCards>*,#unitCollection>*,#talismanCards>*){
+ background:linear-gradient(145deg,#163b60,#0a1e35)!important;border:1px solid #477eaa!important;box-shadow:inset 0 1px #ffffff17,0 8px 20px #0005!important}
+:is(.hubGrid button,.shopCollectionLinks button,.card,.miniCard):active{transform:translateY(1px);filter:brightness(1.12)}
+/* lobby */
+#startScreen{background:radial-gradient(circle at 50% 5%,#1e5788 0,transparent 36%),linear-gradient(180deg,#08182b,#050b15)!important}
+.lobbyTop,.lobbyToolbar{border-color:var(--lux-line-soft)!important}.versionLabel{color:#7897b5!important}
+.guardianLobby img{filter:drop-shadow(0 8px 15px #0009)}
+/* battle HUD: preserve battlefield and all unit art */
+.status.compactStatus{border-radius:22px;background:linear-gradient(180deg,#173c60,#0a213b)!important;border:1px solid #5795c0!important}
+.status .premiumIcon{filter:drop-shadow(0 3px 5px #0007)}
+#selectionPanel{background:linear-gradient(180deg,#12385bf5,#071a30f8)!important;border:1px solid #54a2d0!important}
+#selectionPanel :is(small,b){color:#e8f4ff!important}
+#battleUpgrade{background:linear-gradient(180deg,#f4e5a5,#d7c679)!important;color:#173044!important;border-color:#fff2b9!important}
+#sellUnit{background:linear-gradient(180deg,#f4d5ae,#d7a972)!important;color:#35230e!important}
+#selectedSkills{background:linear-gradient(180deg,#eaf5ef,#c9e0d8)!important;color:#17352e!important}
+.bottom #summon{background:linear-gradient(180deg,#ffd86e,#f19b27)!important;color:#241400!important}
+.bottom #combine{background:linear-gradient(180deg,#2488cf,#155087)!important;color:#fff!important}
+/* growth/codex pages */
+#drawer[data-native-pages][style*="block"]{background:radial-gradient(circle at 80% 0,#1c56803d 0,transparent 35%),linear-gradient(180deg,#0b2035,#06111e)!important;color:var(--lux-text)!important}
+#drawer[data-native-pages] .labHeader h2,#drawer[data-native-pages] .labHeroSummary h3,#drawer .rowGrowth h3{color:#fff0b0!important}
+#drawer[data-native-pages] :is(.labHeroSummary,.labSkillDetail,.attributeRow){background:linear-gradient(145deg,#143755,#0b2239)!important;border-color:#417ba7!important;color:var(--lux-text)!important}
+#drawer[data-native-pages] :is(.labHeroSummary p,.labHeroSummary small,.labSkillDetail p,.rowGrowth p,.rowGrowth small,.rowSkill small){color:#c5d6e5!important}
+.labThumb{background:#102c47!important;border-color:#3e739b!important;color:#eaf6ff!important}.labThumb.selected{background:#174e72!important;border-color:#6de0ff!important}
+.labSkillTabs button{background:#102d49!important;color:#eaf6ff!important;border-color:#3f749b!important}.labSkillTabs button[aria-pressed=true]{background:#195b7d!important;border-color:#6ee2ff!important}
+.rowGrowth button,.rowStarAction button{background:linear-gradient(180deg,#2b7ba5,#174b70)!important;color:#fff!important;border-color:#66b7dc!important}.rowStarPreview{background:#081b2e!important;color:#dcecff!important}
+.rowSkill canvas,.labSkillDetail .skillVisual canvas{background:#061723!important;border:1px solid #315f7e}
+/* collections, shop, draws */
+#unitDrawDialog .summonPortal{background:radial-gradient(circle,#fff1a8 0,#6bdcff 12%,#5142b6 34%,transparent 67%);filter:drop-shadow(0 0 18px #6bdcff);color:#fff3a4}
+#unitDraw{background:linear-gradient(180deg,#7250ca,#3b287a)!important;border-color:#c0a1ff!important}
+#drawReveal{background:radial-gradient(circle at 50% 38%,#5d46b555,transparent 30%),linear-gradient(#0b1d35,#050a14)!important}
+.albumFilters,.purchaseCategories,.talismanViewTabs,.talismanElements{background:#07192b;border:1px solid #315d7d;border-radius:12px;padding:5px}
+#unitProduct,.entryReward,#battleEntryReward{background:linear-gradient(145deg,#163b5b,#0a1e34)!important;border:1px solid #477fa8!important;border-radius:14px}
+/* account, mail, attendance, missions */
+#accountDialog form,#accountDialog section,#mailList>*,#attendanceCards>*,#missionCards>*{border-radius:14px}
+#mailClaimAll,#claimAndStart,#claimPendingBattle{background:linear-gradient(180deg,#ffd86f,#e99a2a)!important;color:#251600!important;border-color:#ffe8a1!important}
+/* event and minigame */
+#eventHub,.miniDialog{background:radial-gradient(circle at 18% 0,#52347966 0,transparent 35%),radial-gradient(circle at 85% 0,#176f9a55 0,transparent 38%),linear-gradient(180deg,#0b1d34,#06101d)!important}
+.miniArena{background:#071b2c!important;border:1px solid #4d88ad!important;box-shadow:inset 0 0 24px #38b9e31a}
+.miniHP{background:#071421!important;border:1px solid #335d78}.miniHP i{background:linear-gradient(90deg,#59e5b0,#65dfff,#ffd76e)!important}
+.rouletteButton{background:linear-gradient(180deg,#ffd86d,#e89a2b)!important;color:#241500!important}
+/* study hub and learning */
+#studyHub,.learningCampaign,.learningDialog{background:radial-gradient(circle at 85% 0,#1c658355 0,transparent 42%),linear-gradient(180deg,#0c2a43,#071522)!important;color:var(--lux-text)!important;border-color:#4587af!important}
+.studySubjects button,.learningPack{background:linear-gradient(145deg,#164a69,#0d304d)!important;border-color:#4a8ab1!important;color:#f4f9ff!important}
+.studyIcon{background:#0c2945!important;color:#ffd970!important;border:1px solid #3f7399}
+.learningCategories button[aria-pressed=true],#learningLesson button:not(:disabled){border-color:#75ddff}
+.learningProfile,#learningCertification,#learningLesson,#learningHints,.learningReward{background:#0b263d!important;border-color:#40779c!important;color:#eef8ff!important}
+.learningFilters select,#learnCertificationSearch{background:#071c2e!important;color:#fff!important;border-color:#3f7599!important}
+#learningBoard{background:#071e31!important;border-color:#477fa4!important}.learningCell{background:#123c5a!important;border-color:#3f7395!important}.learningCell.target{background:linear-gradient(#ffe38b,#e6aa3e)!important;color:#1c2631!important;border-color:#fff0ae!important}
+#learningFeedback,#learningSentence{color:#ffdf7e!important}
+/* result/reward/settings */
+#resultScreen{background:radial-gradient(circle at 50% 10%,#1b5c8455,transparent 40%),linear-gradient(#091a2c,#050b14)!important}
+.rewardCard,.rewardMetrics article,.soundRow{background:linear-gradient(145deg,#143a5c,#0a2037)!important;border:1px solid #417ba7!important}
+#soundSettingsDialog .soundRow button[aria-pressed=true]{background:linear-gradient(180deg,#2e9a7a,#176047)!important;border-color:#6ce0ae!important}
+/* accessibility & motion */
+:focus-visible{outline:2px solid #76e4ff!important;outline-offset:2px}
+@media(max-width:520px){:is(dialog,.homeHub,.collectionDialog){border-radius:18px!important}.hubGrid{gap:9px!important}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}

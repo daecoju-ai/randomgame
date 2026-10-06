@@ -137,3 +137,10 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
  .shopCollectionLinks button{font-size:12px!important}
  #selectionPanel{width:96%;gap:4px 5px;padding:6px 7px}
 }
+
+/* V63 final surface pass */
+#finalCountdown{background:linear-gradient(180deg,#501d35ed,#210d22f5)!important;border:1px solid #e36b87!important;color:#fff!important;box-shadow:0 0 24px #df46663d!important}#finalCountdownTime{color:#ffe48a!important;font-variant-numeric:tabular-nums}
+#bossWrap{background:linear-gradient(180deg,#281331e8,#100b1beb)!important;border:1px solid #9a56c0!important;color:#f8e9ff!important;box-shadow:0 6px 22px #0007!important}
+#recipeOverlay{background:radial-gradient(circle at 50% 0,#173f64 0,transparent 36%),linear-gradient(180deg,#091a2d,#050d18)!important}#recipeTop{background:#0b2036ee!important;border-color:#3f7398!important}#recipeTop h2{color:#fff0ac!important}.codexClass{background:#0b2036!important;border-color:#3e759d!important}.codexClass>header{background:#12334f!important}.codexClass h3,.heroSelect b,.recipeHero b{color:#edf7ff!important}.evolutionCard,.recipeCard{background:linear-gradient(145deg,#123553,#091c31)!important;border-color:#376d95!important}.recipeSummary,.craftAction,.baseNote,.chanceNote,.heroArchetype{color:#adc4d8!important}.evolutionCard .mat{background:#07192b!important;border-color:#315f7e!important}.mat strong,.mat .materialCount{color:#e8f4ff!important}
+#rotateNotice{background:#061321!important;color:#fff0b0!important}
+.entryNotice{background:#2b2417!important;border-color:#8e7138!important;color:#ffe7a1!important}

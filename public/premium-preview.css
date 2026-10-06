@@ -35,3 +35,6 @@ dialog h2,.homeHub h2,.collectionDialog h2,#drawer h2{color:#fff0a8!important;te
 #bossWrap{background:#0a1930e8;border:1px solid #743f9c}#bossTrack{background:#120c1c}#bossBar{background:linear-gradient(90deg,#a332ff,#ff493e,#ffbe35);box-shadow:0 0 14px #ff4b5d}
 #toast{background:#07162df2;border-color:#55bce8}
 @media(max-width:520px){.homePrimary{gap:8px}.homePrimary button{min-height:78px!important}.lobbyShowcase,.guardianLobby{border-radius:16px!important}}
+
+/* V48 readability: keep typography crisp; no decorative text shadows. */
+body,body *,button,button *,input,select,textarea,label{ text-shadow:none!important; }

@@ -4,11 +4,7 @@ const fs=require('fs'),vm=require('vm');
 const sandbox={window:{}};vm.createContext(sandbox);vm.runInContext(fs.readFileSync('public/game-balance.js','utf8'),sandbox);
 const B=sandbox.window.ForgeBalance;
 const elements=[['fire',7,.95],['water',6,1],['earth',8,1.2],['wind',5,.65],['electric',6,.85],['shadow',10,1.1]];
-const luck={
- bad:{tiers:[2,2,1,1,1,1],mix:.88},
- average:{tiers:[3,2,2,2,1,1],mix:1},
- good:{tiers:[5,4,3,3,2,2],mix:1.14}
-};
+const luck=B.progression.drawLuck;
 const checkpoints={hour1:'hour1',hour3:'hour3',day7:'day7',day14:'day14',day30:'day30'};
 function growth(s){return 1+.05*(s.level-1)+.2*s.stars}
 function skill(s){return 1+.1*(s.skill-1)}

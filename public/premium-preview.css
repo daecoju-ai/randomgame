@@ -307,3 +307,19 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
 @keyframes finalUrgency{to{transform:translateX(-50%) scale(1.035);filter:brightness(1.18)}}
 @media(max-width:390px){#difficultyDialog{padding:10px!important}#difficultyDialog [data-difficulty]{min-height:68px!important}#resultScreen #resultTitle{font-size:29px!important}}
 @media(prefers-reduced-motion:reduce){#finalCountdown[data-urgency=critical]{animation:none}}
+
+
+/* V75 unit stat audit + monster codex */
+.monsterCodexEntry{width:100%;display:flex!important;align-items:center;justify-content:center;gap:10px;min-height:58px!important;margin:8px 0!important;background:linear-gradient(135deg,#173d60,#281b4c)!important;border-color:#6e70b5!important}
+.monsterCodexEntry .premiumIcon{width:34px;height:34px}.monsterCodexEntry>span:last-child{display:flex;flex-direction:column;text-align:left}.monsterCodexEntry b{color:#fff0ad;font-size:15px}.monsterCodexEntry small{color:#b9d1e2!important;font-size:10px}
+#monsterCodexDialog{width:min(96vw,760px)!important;max-height:92dvh!important;overflow:auto!important;padding:14px!important}
+#monsterCodexDialog>header{position:sticky;top:-14px;z-index:4;margin:-14px -14px 12px!important;padding:14px!important;backdrop-filter:blur(10px)}
+.monsterCodexSection>h3{margin:15px 0 8px;color:#79e2ff!important;font-size:14px}
+.monsterCodexGrid,.monsterBossGrid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.monsterCodexGrid article,.monsterBossGrid article{padding:11px;border:1px solid #3e759d;border-radius:15px;background:linear-gradient(145deg,#123553,#091c31);min-width:0}
+.monsterCodexGrid article{display:grid;grid-template-columns:48px 1fr;gap:9px;align-items:center}.monsterCodexArt{width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at 35% 30%,#fff8,var(--monster));border:2px solid #ffffff66;color:#fff;font-weight:950}
+.monsterCodexGrid h4,.monsterBossGrid h4{margin:0 0 3px;color:#fff0ae;font-size:14px}.monsterCodexGrid p,.monsterBossGrid p{margin:2px 0 7px!important;font-size:10px!important;color:#bcd0df!important}
+.monsterStats{display:grid;grid-template-columns:repeat(3,1fr);gap:4px}.monsterStats span{display:flex;flex-direction:column;padding:5px;border-radius:8px;background:#061728;color:#8fb8d2;font-size:8px}.monsterStats strong{margin-top:2px;color:#f6fbff;font-size:11px;font-variant-numeric:tabular-nums}
+.bossWave{display:inline-block;margin-bottom:5px;padding:3px 7px;border-radius:20px;background:#5d3277;color:#f6dfff;font-size:9px;font-weight:900}.bossSkill{margin-top:8px;padding:8px;border-radius:10px;background:#07192b;border:1px solid #5e4b7c}.bossSkill b{display:block;color:#ffdd78;font-size:10px}.bossSkill span{display:block;margin-top:3px;color:#e5edf6;font-size:10px;line-height:1.4}.monsterCodexNote{padding:9px 10px;border-radius:10px;background:#0a263d;color:#b9d0e0!important;font-size:10px!important;line-height:1.5}
+.attackLine{display:flex;flex-wrap:wrap;gap:5px!important;align-items:center}.attackLine span,.attackLine b,.attackLine strong{padding:3px 6px;border-radius:7px;background:#07192b;font-size:10px}.attackLine b{color:#fff0a8}.attackLine strong{color:#70e3ac}.growthFormula{margin:7px 0!important;padding:8px 10px;border-radius:10px;background:#07192b;color:#bcd5e6!important;font-size:10px!important;line-height:1.5}
+@media(max-width:430px){.monsterCodexGrid,.monsterBossGrid{grid-template-columns:1fr}.monsterCodexEntry{min-height:52px!important}#monsterCodexDialog{padding:10px!important}}

@@ -244,3 +244,19 @@ console.log('Easy target:',prog.freeTarget.easyHours,'active hours to first clea
 console.log('Normal target:',prog.freeTarget.normalDays,'days F2P with favorable T1-T5 draw/upgrade allocation; not a guaranteed calendar-day clear.');
 if(!(B.difficulties.easy.hp<=.45&&B.difficulties.easy.gold>=.8)){console.error('FAIL easy pacing must support early free progression');process.exitCode=1}
 if(!(B.difficulties.normal.hp>=1&&B.difficulties.normal.final<=90)){console.error('FAIL normal should remain a month-scale progression gate');process.exitCode=1}
+
+
+console.log('\nF2P checkpoint combat-power audit');
+const snap=B.progression.snapshots;
+for(const [when,s] of Object.entries(snap)){
+ const growth=1+.05*(s.level-1)+.2*s.stars;
+ const skill=1+.1*(s.skill-1);
+ const score=growth*skill;
+ console.log(when,'Lv'+s.level,'★'+s.stars,'skill'+s.skill,'growth '+growth.toFixed(2)+'x','skill '+skill.toFixed(2)+'x','powerIndex '+score.toFixed(2));
+}
+const p1=(1+.05*(snap.hour1.level-1)+.2*snap.hour1.stars)*(1+.1*(snap.hour1.skill-1));
+const p3=(1+.05*(snap.hour3.level-1)+.2*snap.hour3.stars)*(1+.1*(snap.hour3.skill-1));
+const p30=(1+.05*(snap.day30.level-1)+.2*snap.day30.stars)*(1+.1*(snap.day30.skill-1));
+if(!(p3>=p1*1.5)){console.error('FAIL first 3 hours do not provide enough visible combat growth');process.exitCode=1}
+if(!(p30>=p3*2)){console.error('FAIL month-one growth is too flat versus first-clear progression');process.exitCode=1}
+console.log('Pacing contract: hour3 should support Easy first-clear attempts; day30 + favorable T1-T5 draw should support Normal first-clear attempts. These checkpoints are QA targets, not guaranteed rewards.');

@@ -223,7 +223,7 @@ console.log('persistent attack',maxGrowth.toFixed(2)+'x','skill rank',maxSkill.t
 const maxBasicEnvelope=maxGrowth*maxBattle*maxSupport*maxSpeed;
 const maxSkillEnvelope=maxBasicEnvelope*maxSkill*maxSkillHaste;
 console.log('theoretical max basic envelope',maxBasicEnvelope.toFixed(1)+'x','active-skill envelope',maxSkillEnvelope.toFixed(1)+'x');
-const difficultyPressure={easy:.50*.80,normal:1,hard:1.45*1.08};
+const difficultyPressure=Object.fromEntries(Object.entries(B.difficulties).map(([id,d])=>[id,d.hp*d.speed]));
 for(const [id,d] of Object.entries(B.difficulties)){
  const pressure=d.hp*d.speed;
  const relative=pressure/difficultyPressure.normal;
@@ -260,3 +260,18 @@ const p30=(1+.05*(snap.day30.level-1)+.2*snap.day30.stars)*(1+.1*(snap.day30.ski
 if(!(p3>=p1*1.5)){console.error('FAIL first 3 hours do not provide enough visible combat growth');process.exitCode=1}
 if(!(p30>=p3*2)){console.error('FAIL month-one growth is too flat versus first-clear progression');process.exitCode=1}
 console.log('Pacing contract: hour3 should support Easy first-clear attempts; day30 + favorable T1-T5 draw should support Normal first-clear attempts. These checkpoints are QA targets, not guaranteed rewards.');
+
+console.log('\nBattle summon / T5 fun audit');
+function weights(mode,wave){const s=B.battleSummon[mode],t=Math.max(0,Math.min(1,(wave-10)/10));return s.base.map((v,i)=>v+(s.wave20[i]-v)*t)}
+for(const mode of ['easy','normal','hard']){
+ const cfg=B.battleSummon[mode];
+ for(const wave of [1,10,15,20,25,30]){const w=weights(mode,wave);console.log(mode,'W'+wave,w.map((x,i)=>'T'+(i+1)+' '+(x*100).toFixed(1)+'%').join(' | '))}
+ console.log(mode,'T5 pity wave',cfg.pityWave);
+}
+if(B.battleSummon.easy.wave20[4]<.02) {console.error('FAIL Easy W20 T5 chance below fun target');process.exitCode=1}
+if(B.battleSummon.easy.pityWave>20){console.error('FAIL Easy T5 pity occurs too late');process.exitCode=1}
+console.log('Contract: Easy exposes T5 by W20 at latest after the next summon; Normal/Hard retain later rarity gates.');
+console.log('\nElement reaction balance audit');
+const R=B.reactions;
+console.log('fire+water damage',R.fireWaterDamage+'x','fire/water+wind radius',R.windRadius+'x','water+electric damage',R.waterElectricDamage+'x','stun',R.waterElectricStun+'x','earth+electric',R.earthElectricDamage+'x','fire+earth',R.fireEarthDot+'x');
+if(R.windRadius>1.5||R.waterElectricDamage>1.3||R.waterElectricStun>1.5){console.error('FAIL elemental reaction burst/control exceeds launch ceiling');process.exitCode=1}

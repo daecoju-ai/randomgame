@@ -227,3 +227,31 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
  #accountDialog .socialLogin>button{min-height:44px!important}
  #accountDialog #accountForm input{min-height:42px!important}
 }
+
+
+/* V70 legend purchase: remove pale legacy surfaces and improve readability */
+#legendPurchaseDialog{width:min(94vw,620px)!important;max-height:92dvh!important;padding:14px!important;background:radial-gradient(circle at 80% 0,#225b7b55,transparent 34%),linear-gradient(180deg,#0b2035,#06111e)!important;color:#edf7ff!important;overflow:auto!important}
+#legendPurchaseDialog>header{background:linear-gradient(180deg,#103451f2,#0a2035f2)!important;border-bottom:1px solid #376f96!important;padding:8px 4px 10px!important}
+#legendPurchaseDialog>header h2{color:#fff0ad!important;font-size:23px!important}
+#legendPurchaseDialog>header button{min-width:68px!important;min-height:44px!important}
+#legendPurchaseDialog .purchaseCategories{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px!important;margin:10px 0!important;background:#07192b!important}
+#legendPurchaseDialog .purchaseCategories button{min-height:44px!important;padding:7px!important;font-size:13px!important;color:#eef8ff!important}
+#legendPurchaseDialog .unitShop{padding:14px!important;border:1px solid #376f96!important;border-radius:16px!important;background:linear-gradient(145deg,#123754,#091e32)!important;color:#edf7ff!important}
+#legendPurchaseDialog .unitShop h3{margin:0 0 5px!important;color:#fff0ad!important;font-size:20px!important}
+#legendPurchaseDialog .unitShop>p{margin:4px 0 10px!important;color:#bdd1e1!important;font-size:13px!important}
+#legendPurchaseDialog .unitShop label{display:block;margin:7px 0 5px!important;color:#9fdcf3!important;font-size:12px!important;font-weight:800}
+#legendPurchaseDialog #unitBuyChoice{width:100%!important;min-height:48px!important;padding:8px 11px!important;border-radius:11px!important;background:#061a2b!important;color:#f4f9ff!important;border:1px solid #4b89b0!important;font-size:15px!important}
+#legendPurchaseDialog #legendPurchaseStatus{color:#ffd978!important;font-weight:800!important}
+#legendPurchaseDialog #unitProduct{margin-top:10px!important;padding:12px!important;background:radial-gradient(circle at 50% 32%,#225e8455,transparent 38%),linear-gradient(180deg,#123a59,#091f34)!important;color:#edf7ff!important;border-color:#4a84aa!important;overflow:hidden!important}
+#legendPurchaseDialog #unitProduct *{color:inherit}
+#legendPurchaseDialog #unitProduct :is(h2,h3,h4,strong,b){color:#fff1b0!important}
+#legendPurchaseDialog #unitProduct :is(p,small,li){color:#c5d8e7!important}
+#legendPurchaseDialog #unitProduct canvas,#legendPurchaseDialog #unitProduct img{display:block;max-width:100%!important;height:auto!important;margin:6px auto!important}
+#legendPurchaseDialog #unitBuy{width:100%!important;min-height:48px!important;margin-top:10px!important;background:linear-gradient(180deg,#6a4ac1,#392574)!important;color:#fff!important;border-color:#b89cff!important}
+#legendPurchaseDialog .shopFine{font-size:10px!important;line-height:1.45!important;color:#9fb8cb!important}
+@media(max-width:430px){
+ #legendPurchaseDialog{width:96vw!important;padding:10px!important}
+ #legendPurchaseDialog>header h2{font-size:20px!important}
+ #legendPurchaseDialog .unitShop{padding:11px!important}
+ #legendPurchaseDialog #unitProduct{padding:9px!important}
+}

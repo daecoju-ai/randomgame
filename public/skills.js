@@ -93,9 +93,9 @@ function castHeroSkill(u,def,rank,target){if(def.ultimate){castUltimate(u,def,ra
  for(const enemy of targets){
   const factor=f==='execute'&&enemy.hp/enemy.max<=.3?(enemy.boss?2:4):['strike','bossStrike'].includes(f)?2:f==='meteor'?1.5:1;
   if(!noDamage.includes(f)){const repeats=f==='burst'?v.targets:f==='tidal'?3:f==='flurry'?5:1;for(let j=0;j<repeats;j++)dealHeroDamage(u,enemy,damage*factor*(f==='burst'?2:1)/repeats)}
-  if(['stun','freeze','airborne','chain','globalThunder'].includes(f))enemy.stun=Math.max(enemy.stun||0,v.stun*(enemy.boss?.5:1)*(elementFor(u.type).id==='electric'?1+skillModifiers(u).shock:1));
+  if(['stun','freeze','airborne','chain','globalThunder'].includes(f))enemy.stun=Math.max(enemy.stun||0,(typeof monsterControlDuration==='function'?monsterControlDuration(enemy,v.stun):v.stun)*(elementFor(u.type).id==='electric'?1+skillModifiers(u).shock:1));
   if(['freeze','ice'].includes(f))enemy.controlKind='ice';if(f==='freeze'&&!enemy.missionFrozen){enemy.missionFrozen=true;window.ForgeAdventure?.record('freezes')}
-  if(['ice','bind','freeze'].includes(f))enemy.slow=Math.max(enemy.slow||0,v.duration);
+  if(['ice','bind','freeze'].includes(f))enemy.slow=Math.max(enemy.slow||0,(typeof monsterControlDuration==='function'?monsterControlDuration(enemy,v.duration):v.duration));
   if(['burn','globalFire','chain'].includes(f)){enemy.dotKind=elementFor(u.type).id;enemy.dotSource=u;enemy.dotTime=Math.max(enemy.dotTime||0,v.duration);enemy.dotDps=Math.max(enemy.dotDps||0,outgoingDamage(u,enemy,damage*.2))}
   if(['mark','shatter','curse'].includes(f)){enemy.vulnerableTime=Math.max(enemy.vulnerableTime||0,v.duration);enemy.vulnerability=Math.max(enemy.vulnerability||0,v.bonus)}
   if(f==='weaken'){enemy.weakenTime=v.duration;enemy.weakness=Math.min(.7,v.bonus*2)}
@@ -108,8 +108,8 @@ function tickSkillZones(dt){tickSpecialEffects(dt);for(const m of mobs){if(m.dea
  for(const z of skillZones){const elapsed=Math.min(dt,z.time);z.time-=elapsed;z.tick-=elapsed;
   for(const m of mobs){if(m.hp<=0||d(m,z)>z.radius)continue;if(z.effect==='mud'){m.mudTagged=true;m.slow=Math.max(m.slow||0,z.v.duration*.35);dealHeroDamage(z.source,m,z.damage*elapsed);continue}dealHeroDamage(z.source,m,z.damage*elapsed);
    if(z.effect==='pullZone'){const target=z.p??m.p,delta=((target-m.p+.5)%1+1)%1-.5;m.p+=Math.sign(delta)*Math.min(Math.abs(delta),elapsed*.06);Object.assign(m,path(m.p));m.slow=Math.max(m.slow||0,.3)}
-   if(z.effect==='stormZone'&&z.tick<=0)m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1)*(1+skillModifiers(z.source).shock));
-   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35){m.controlKind='ice';m.stun=Math.max(m.stun||0,z.v.stun*(m.boss?.5:1));if(!m.missionFrozen){m.missionFrozen=true;window.ForgeAdventure?.record('freezes')}}
+   if(z.effect==='stormZone'&&z.tick<=0)m.stun=Math.max(m.stun||0,(typeof monsterControlDuration==='function'?monsterControlDuration(m,z.v.stun):z.v.stun)*(1+skillModifiers(z.source).shock));
+   if(z.effect==='freezeZone'&&z.tick<=0&&Math.random()<.35){m.controlKind='ice';m.stun=Math.max(m.stun||0,(typeof monsterControlDuration==='function'?monsterControlDuration(m,z.v.stun):z.v.stun));if(!m.missionFrozen){m.missionFrozen=true;window.ForgeAdventure?.record('freezes')}}
   }if(z.tick<=0){z.tick=1;skillEffects.push({x:z.x,y:z.y,r:z.radius,t:.55,life:.55,color:z.color,kind:elementFor(z.source.type).id,effect:z.effect,slot:z.slot,type:z.source.type})}
  }skillZones=skillZones.filter(z=>z.time>0);
 }

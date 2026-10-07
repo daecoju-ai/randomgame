@@ -26,7 +26,7 @@ function render(){
  $('#accountResend').disabled=busy;$('#accountClose').disabled=busy;
  $('#accountBadge').textContent='내 계정';if(user&&!checking&&!locked&&!dirty&&!saving&&!game.inBattle())window.ForgeAdventure?.accountReady(user.id);
 }
-function setMode(next){mode=next;$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';message('');render()}
+function setMode(next){if(!['signin','signup','verify','recover','reset'].includes(next))return;mode=next;$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';message('');render();requestAnimationFrame(()=>$('#accountEmail')?.focus({preventScroll:true}))}
 function open(){if(game.inBattle())game.pause();returnFocus=document.activeElement;render();if(!dialog.open)dialog.showModal();$('#accountEmail').focus()}
 function close(){if(busy)return;dialog.close();$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';returnFocus?.focus()}
 function hold(text){locked=true;game.pause();status(text);render()}
@@ -59,7 +59,7 @@ $('#cloudConflictAccept').onclick=async()=>{if(busy)return;busy=true;render();tr
 async function choose(importGuest){if(busy)return;busy=true;awaitingChoice=false;game.apply(importGuest?game.guestSnapshot():{version:4,levels:{},essence:120},user.id);dirty=true;locked=false;cache();render();try{await flush();if(!dirty)await window.ForgeGuardianSync?.load(user.id)}finally{busy=false;render()}}
 $('#importGuest').onclick=()=>choose(true);$('#newAccountStart').onclick=()=>choose(false);
 $('#accountBadge').onclick=open;$('#accountHeaderButton').onclick=open;$('#accountClose').onclick=close;
-$('#accountForgot').onclick=()=>setMode('recover');$('#accountVerifyLink').onclick=()=>setMode('verify');$('#accountBack').onclick=()=>setMode('signin');document.querySelectorAll('[data-auth-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.authMode));
+$('#accountForgot').onclick=e=>{e.preventDefault();setMode('recover')};$('#accountVerifyLink').onclick=e=>{e.preventDefault();setMode('verify')};$('#accountBack').onclick=e=>{e.preventDefault();setMode('signin')};document.querySelectorAll('[data-auth-mode]').forEach(b=>b.onclick=e=>{e.preventDefault();setMode(b.dataset.authMode)});
 dialog.addEventListener('cancel',e=>{e.preventDefault();close()});
 addEventListener('online',()=>{if(user&&dirty&&!conflict)void flush()});
 addEventListener('beforeunload',e=>{if(user&&dirty){cache();e.preventDefault();e.returnValue=''}});

@@ -189,7 +189,7 @@ function openRecipes(){recipeFilter='all';document.querySelectorAll('[data-filte
 function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
  const curve=window.ForgeBalance?.waves||{hpGrowth:1.17,normalBaseHp:88,eliteBaseHp:142,bossBaseHp:720};let scale=Math.pow(curve.hpGrowth,S.wave-1);
- let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?curve.bossBaseHp:(elite?curve.eliteBaseHp:curve.normalBaseHp))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});if(boss&&S.wave===30&&S.finalBossAt==null){S.finalBossAt=S.t;toast(`최종 보스 등장 · ${mode().final}초 안에 모든 몬스터를 제거하세요`)}S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
+ let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?curve.bossBaseHp:(elite?curve.eliteBaseHp:curve.normalBaseHp))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});if(boss){skillEffects.push({x:p.x,y:p.y,r:boss?58:30,t:1.15,life:1.15,color:profile.color,kind:'void',effect:'bossSpawn',slot:5,support:false});S.shake=Math.max(S.shake||0,.45);toast(`${profile.name} 등장 · ${profile.theme}`);if(S.wave===30&&S.finalBossAt==null){S.finalBossAt=S.t;toast(`최종 보스 등장 · ${mode().final}초 안에 모든 몬스터를 제거하세요`)}}S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
 function fire(u,e){let T=unitData(u),p=slot(u.slot),mods=skillModifiers(u);u.cd=T.rate/((1+u.lv*.1)*(1+mods.speed));u.anim=1;
  const strike=amount=>{if(T.range<=1){dealHeroDamage(u,e,amount);skillEffects.push({x:e.x,y:e.y,r:20,t:.35,color:T.accent,kind:elementFor(u.type).id,effect:T.kind==='slash'?'slash':'impact'})}else shots.push({x:p.x,y:p.y,target:e,dmg:amount,kind:T.kind,type:u.type,lv:u.lv,source:u,dead:false})};
  strike(combatAttack(u));if(mods.clone)strike(combatAttack(u)*mods.clone);
@@ -237,7 +237,7 @@ C.addEventListener('pointerup',e=>{
 });
 C.addEventListener('pointercancel',()=>{S.drag=null});
 function renderFinalCountdown(){const timer=document.querySelector("#finalCountdown");timer.hidden=S.wave!==30||S.finalBossAt==null||ended;if(timer.hidden)return;const remaining=Math.max(0,Math.ceil(mode().final-(S.t-S.finalBossAt)));document.querySelector("#finalCountdownTime").textContent=Math.floor(remaining/60)+":"+String(remaining%60).padStart(2,"0");timer.dataset.urgency=remaining<=10?"critical":remaining<=30?"warning":"normal";}
-function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
+function update(dt){S.t+=dt;S.shake=Math.max(0,(S.shake||0)-dt);tickGuardian(dt);tickBattleStatus(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
 
  if(S.spawn<S.max&&S.t>S.next){spawn();S.next+=(20/30)}
  mobs.forEach(m=>{if(m.hp<=0)return;if(m.dotTime>0){const elapsed=Math.min(dt,m.dotTime);m.dotTime-=elapsed;hit(m,(m.dotDps||0)*elapsed,'skill',true,m.dotSource);if(m.hp<=0)return}m.vulnerableTime=Math.max(0,(m.vulnerableTime||0)-dt);m.weakenTime=Math.max(0,(m.weakenTime||0)-dt);m.attackSlowTime=Math.max(0,(m.attackSlowTime||0)-dt);m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);const traitSpeed=typeof tickMonsterTrait==='function'?tickMonsterTrait(m,dt):1;if(m.stun<=0)m.p+=dt*.070*mode().speed*(m.profile?.speed||1)*traitSpeed*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
@@ -255,7 +255,7 @@ function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones
  if(document.querySelector('#recipeOverlay').style.display==='block'&&recipeStamp!==inventoryStamp())renderRecipes();
  let b=mobs.find(m=>m.boss),bw=document.querySelector('#bossWrap');bw.style.display=b?'block':'none';if(b){document.querySelector('#bossBar').style.width=100*b.hp/b.max+'%';const name=document.querySelector('#bossName');if(name)name.textContent=b.profile?.name||'보스';}
 }
-function draw(){ctx.save();ctx.clearRect(0,0,W,H);
+function draw(){ctx.save();ctx.clearRect(0,0,W,H);if(S.shake>0){const q=Math.min(5,S.shake*12);ctx.translate(Math.sin(S.t*58)*q,Math.cos(S.t*47)*q)}
  drawArena();
  // Selected unit: show its real attack radius.
  if(S.sel){

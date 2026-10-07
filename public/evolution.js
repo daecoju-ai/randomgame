@@ -6,7 +6,7 @@ const ELEMENTS=[
  {id:'earth',label:'땅',base:0,support:2,color:'#65391f',accent:'#bd8659',kind:'bash',atk:8,rate:1.2,reach:1,role:'공격력 · 진흙 감속',final:['태산의 거신','대지의 현자']},
  {id:'wind',label:'바람',base:7,support:4,color:'#20cb59',accent:'#86ff9b',kind:'arrow',atk:5,rate:.65,reach:1.5,role:'공격속도 · 쿨타임',final:['천공의 폭군','질풍의 지휘자']},
  {id:'electric',label:'전기',base:9,support:5,color:'#f1c72e',accent:'#fff1a1',kind:'volt',atk:6,rate:.85,reach:1.8,role:'연쇄 감전 · 기절',final:['뇌명의 집행자','뇌광의 인도자']},
- {id:'shadow',label:'암흑',base:1,support:6,color:'#282238',accent:'#b994ff',kind:'slash',atk:10,rate:1.1,reach:1,role:'치명타 · 보스 2배 / 일반 3배',final:['월식의 처형자','흑월의 예언자']}
+ {id:'shadow',label:'암흑',base:1,support:6,color:'#282238',accent:'#b994ff',kind:'slash',atk:10,rate:1.1,reach:1,role:'치명타 · 단일 집중 / 보스 특화',final:['월식의 처형자','흑월의 예언자']}
 ];
 const GROWTH_NAMES={fire:['불씨령','홍염령','홍련의 술사','업화의 기사'],water:['물방울령','서리령','빙결의 술사','빙해의 기사'],earth:['조약돌령','암석령','암반의 투사','철산의 파수꾼'],wind:['산들령','질풍령','선풍의 척후','폭풍의 검객'],electric:['전광령','뇌운령','뇌전의 술사','벽력의 기사'],shadow:['그늘령','흑영령','월영의 자객','흑월의 추적자']};
 const BASE_TYPES=ELEMENTS.map(e=>e.base);

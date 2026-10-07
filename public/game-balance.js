@@ -1,10 +1,11 @@
 /* Static balance lives in GitHub/Vercel, not Supabase. User-owned state only goes to Supabase. */
 (()=>{'use strict';
 window.ForgeBalance=Object.freeze({
- schema:4,
+ schema:5,
  waves:Object.freeze({count:30,spawnInterval:20,hpGrowth:1.17,normalBaseHp:88,eliteBaseHp:142,bossBaseHp:720,eliteEvery:10}),
  combat:Object.freeze({shadowNormal:2.4,shadowBoss:1.8,shadowCrit:.15,critMultiplier:2,fireSplash:.25}),
  supportCaps:Object.freeze({attack:.60,speed:.55,mana:.80,haste:.45,splash:.45,crit:.40,critPower:.60,shock:.60}),
+ ultimate:Object.freeze({power:64,mp:80,cooldown:45,radius:3,duration:8}),
  difficulties:Object.freeze({
   easy:Object.freeze({label:'쉬움',hp:.52,speed:.82,start:125,waveCoin:12,gold:.70,diamonds:1,cap:90,final:105}),
   normal:Object.freeze({label:'보통',hp:1,speed:1,start:90,waveCoin:9,gold:1,diamonds:2,cap:80,final:90}),

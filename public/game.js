@@ -27,7 +27,7 @@ let units=[],mobs=[],shots=[],particles=[],floaters=[];
 let skillEffects=[];
 let battleUpgrades={}; // Run-only: never included in local or account progression.
 let started=false,paused=false,ended=false;
-const DIFFICULTIES={easy:{label:'쉬움',hp:.52,speed:.82,start:125,waveCoin:12,gold:.70,diamonds:1,cap:90,final:105},normal:{label:'보통',hp:1,speed:1,start:90,waveCoin:9,gold:1,diamonds:2,cap:80,final:90},hard:{label:'어려움',hp:1.55,speed:1.10,start:72,waveCoin:7,gold:1.45,diamonds:3,cap:70,final:75}};
+const DIFFICULTIES=window.ForgeBalance?.difficulties||{easy:{label:'쉬움',hp:.52,speed:.82,start:125,waveCoin:12,gold:.70,diamonds:1,cap:90,final:105},normal:{label:'보통',hp:1,speed:1,start:90,waveCoin:9,gold:1,diamonds:2,cap:80,final:90},hard:{label:'어려움',hp:1.55,speed:1.10,start:72,waveCoin:7,gold:1.45,diamonds:3,cap:70,final:75}};
 let selectedDifficulty='normal',battleDifficulty='normal',guestReward=0;
 function mode(){return DIFFICULTIES[battleDifficulty]}
 function setDifficulty(value){if(started&&!ended||document.querySelector('#confirmBattle').disabled||document.querySelector('#restartGame').disabled||!DIFFICULTIES[value])return;selectedDifficulty=value;document.querySelectorAll('[data-difficulty]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.difficulty===value)));}

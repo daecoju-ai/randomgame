@@ -171,3 +171,27 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
 /* V66 battle entry energy */
 .battleEnergyWallet{border-color:#7a642b!important;background:linear-gradient(180deg,#182c3d,#0a1928)!important}.battleEnergyWallet .premiumIcon{width:22px!important;height:22px!important}.battleEnergyWallet strong{color:#ffe28a!important;font-variant-numeric:tabular-nums}
 .battleEnergyPanel{margin:12px 0;padding:12px;border:1px solid #6e6438;border-radius:15px;background:radial-gradient(circle at 12% 0,#ffce4730,transparent 32%),linear-gradient(145deg,#102a43,#081827);box-shadow:inset 0 1px #ffffff16}.battleEnergyPanel>div{display:flex;align-items:center;gap:10px}.battleEnergyPanel .premiumIcon{width:34px;height:34px;filter:drop-shadow(0 0 8px #ffc84666)}.battleEnergyPanel p{display:flex;flex-direction:column;gap:2px;margin:0;flex:1}.battleEnergyPanel b{display:flex;justify-content:space-between;gap:12px;color:#fff2bd}.battleEnergyPanel strong{color:#ffe071;font-size:17px;font-variant-numeric:tabular-nums}.battleEnergyPanel small{display:block;margin-top:6px;color:#a9c1d5!important;line-height:1.4}.battleEnergyPanel p small{margin:0;color:#72dfff!important}.battleEnergyPanel button{width:100%;margin-top:10px;min-height:44px;background:linear-gradient(180deg,#5b3c8f,#34205e)!important;border-color:#b68cff!important;color:#f7edff!important}.battleEnergyPanel button:not(:disabled){box-shadow:0 0 18px #8d62d533}.battleEnergyPanel button:disabled{opacity:.55}
+
+
+/* V68 shop hub: fit all seven shop actions on one phone page */
+#shopHub{overflow:hidden!important}
+#shopHub .hubGrid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:8px!important;margin:8px 0!important}
+#shopHub .hubGrid>button{min-height:116px!important;padding:10px 7px!important;border-radius:14px!important;gap:3px!important}
+#shopHub .hubGrid .premiumIcon{width:34px!important;height:34px!important;margin-bottom:1px!important}
+#shopHub .hubGrid>button>b{font-size:17px!important;line-height:1.15!important}
+#shopHub .hubGrid>button>small{font-size:11px!important;line-height:1.25!important}
+#shopHub .hubGrid>button>small .premiumIcon{width:15px!important;height:15px!important}
+#shopHub .shopCollectionLinks{display:grid!important;grid-template-columns:1fr!important;gap:6px!important;margin-top:7px!important}
+#shopHub .shopCollectionLinks>button{min-height:58px!important;padding:8px 12px!important;border-radius:12px!important;font-size:14px!important;text-align:left!important;line-height:1.15!important}
+#shopHub .shopCollectionLinks>button small{display:block!important;margin-top:4px!important;font-size:10px!important;line-height:1.2!important}
+#shopHub>header{margin-bottom:4px!important;padding-bottom:7px!important}
+#shopHub>header h2{margin:1px 0 0!important}
+@media(max-width:430px){
+ #shopHub{width:96vw!important;padding:12px!important;max-height:94dvh!important}
+ #shopHub .hubGrid>button{min-height:102px!important;padding:7px 5px!important}
+ #shopHub .hubGrid .premiumIcon{width:30px!important;height:30px!important}
+ #shopHub .hubGrid>button>b{font-size:15px!important}
+ #shopHub .hubGrid>button>small{font-size:10px!important}
+ #shopHub .shopCollectionLinks>button{min-height:50px!important;padding:6px 10px!important;font-size:13px!important}
+ #shopHub .shopCollectionLinks>button small{font-size:9px!important;margin-top:2px!important}
+}

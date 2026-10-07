@@ -34,3 +34,10 @@ const d30b=teamDps(B.progression.snapshots.day30,'bad')/w30Need('normal');
 if(h3<.90){console.error('WARN hour3 average below Easy target',h3.toFixed(2));process.exitCode=1}
 if(d30g<.90){console.error('WARN day30 good below Normal target',d30g.toFixed(2));process.exitCode=1}
 if(d30b>=1.15){console.error('WARN day30 bad luck guarantees Normal too easily',d30b.toFixed(2));process.exitCode=1}
+
+console.log('\nBATTLE SUMMON MONTE CARLO (100k synthetic draws per checkpoint)');
+let seed=1701;function rand(){seed=(seed*1664525+1013904223)>>>0;return seed/4294967296}
+function weights(mode,wave){const s=B.battleSummon[mode],t=Math.max(0,Math.min(1,(wave-10)/10));return s.base.map((v,i)=>v+(s.wave20[i]-v)*t)}
+function roll(mode,wave,seen5){const s=B.battleSummon[mode];if(wave>=s.pityWave&&!seen5)return 5;const w=weights(mode,wave),r=rand();let a=0;for(let i=0;i<5;i++){a+=w[i];if(r<a)return i+1}return 1}
+for(const mode of ['easy','normal','hard'])for(const wave of [10,15,20,25,30]){let counts=[0,0,0,0,0];for(let n=0;n<100000;n++)counts[roll(mode,wave,true)-1]++;console.log(mode,'W'+wave,counts.map((v,i)=>'T'+(i+1)+' '+(v/1000).toFixed(1)+'%').join(' | '))}
+console.log('Pity is account/run-state dependent and intentionally excluded from independent-draw percentages above.');

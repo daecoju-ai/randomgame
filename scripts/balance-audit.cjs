@@ -44,3 +44,10 @@ for(const [key,d] of Object.entries(B.difficulties)){
 console.log('\nSupport stacking caps');
 for(const [k,v] of Object.entries(B.supportCaps||{}))console.log(k,Math.round(v*100)+'%');
 console.log('Rule: nearby duplicate support effects use strongest value; different support categories can combine only up to these caps.');
+
+console.log('\nT5 ★20 ultimate baseline');
+const q=B.ultimate;
+for(const rank of [1,10,20]){
+ const scale=1+.1*(rank-1);
+ console.log('rank '+rank,'power '+Math.round(q.power*scale*100)+'%','duration '+(q.duration*scale).toFixed(1)+'s','MP '+q.mp,'CD '+q.cooldown+'s');
+}

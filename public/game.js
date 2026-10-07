@@ -283,7 +283,6 @@ document.querySelector('#startGame').onclick=()=>{const dialog=document.querySel
 document.querySelector('#closeDifficulty').onclick=()=>document.querySelector('#difficultyDialog').close();
 document.querySelector('#confirmBattle').onclick=()=>{if(window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}started=true;resetGame();document.querySelector('#difficultyDialog').close();document.querySelector('#startScreen').hidden=true};
 document.querySelector('#restartGame').onclick=()=>{if(guestReward&&!window.ForgeAdventure?.active()){toast('보상을 먼저 받아 주세요.');return;}if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}resetGame();document.querySelector('#resultScreen').hidden=true};
-document.querySelector('#previewCodex').onclick=openGrowth;
 document.querySelector('#pause').onclick=()=>{if(typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed()){window.ForgeAccount.open();return}paused=!paused;document.querySelector('#pause').textContent=paused?'▶':'Ⅱ';document.querySelector('#pause').setAttribute('aria-label',paused?'전투 계속':'일시정지');toast(paused?'전투 일시정지':'전투 계속')};
 document.querySelector('#closeRecipe').onclick=()=>closeModal('#recipeOverlay');
 document.querySelector('#recipeOverlay').addEventListener('pointerdown',e=>{if(e.target.id==='recipeOverlay')closeModal('#recipeOverlay')});

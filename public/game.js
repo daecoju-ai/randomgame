@@ -183,8 +183,8 @@ function closeModal(id){document.querySelector(id).style.display='none';modalRet
 function openRecipes(){recipeFilter='all';document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b.dataset.filter==='all'));openModal('#recipeOverlay');renderRecipes();document.querySelector('#recipeOverlay').scrollTop=0}
 function spawn(){let boss=S.spawn===S.max-1&&S.wave%5===0;
  let elite=(S.spawn+1)%10===0&&!boss;
- let scale=Math.pow(1.19,S.wave-1);
- let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?780:(elite?150:92))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});if(boss&&S.wave===30&&S.finalBossAt==null){S.finalBossAt=S.t;toast(`최종 보스 등장 · ${mode().final}초 안에 모든 몬스터를 제거하세요`)}S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
+ const curve=window.ForgeBalance?.waves||{hpGrowth:1.17,normalBaseHp:88,eliteBaseHp:142,bossBaseHp:720};let scale=Math.pow(curve.hpGrowth,S.wave-1);
+ let profile=typeof monsterProfile==='function'?monsterProfile(S.wave,S.spawn,boss):{hp:1,speed:1};let hp=profile.hp*(boss?curve.bossBaseHp:(elite?curve.eliteBaseHp:curve.normalBaseHp))*scale*rnd(.92,1.10)*mode().hp;let p=path(0);mobs.push({p:0,x:p.x,y:p.y,hp,max:hp,r:boss?25:13,boss,profile,luckId:'m'+(++luckMonsterSequence),slow:0,stun:0,hit:0});if(boss&&S.wave===30&&S.finalBossAt==null){S.finalBossAt=S.t;toast(`최종 보스 등장 · ${mode().final}초 안에 모든 몬스터를 제거하세요`)}S.spawn++;luckEvent('monsterSpawned',{id:mobs.at(-1).luckId})}
 function fire(u,e){let T=unitData(u),p=slot(u.slot),mods=skillModifiers(u);u.cd=T.rate/((1+u.lv*.1)*(1+mods.speed));u.anim=1;
  const strike=amount=>{if(T.range<=1){dealHeroDamage(u,e,amount);skillEffects.push({x:e.x,y:e.y,r:20,t:.35,color:T.accent,kind:elementFor(u.type).id,effect:T.kind==='slash'?'slash':'impact'})}else shots.push({x:p.x,y:p.y,target:e,dmg:amount,kind:T.kind,type:u.type,lv:u.lv,source:u,dead:false})};
  strike(combatAttack(u));if(mods.clone)strike(combatAttack(u)*mods.clone);

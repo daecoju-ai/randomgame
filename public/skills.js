@@ -62,7 +62,7 @@ function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0
  result.haste=Math.min(.45,result.haste);result.crit=Math.min(.75,result.crit);return result;
 }
 function combatAttack(u){return battleAttack(u)*(1+skillModifiers(u).attack)*(1+talismanBonus(u,'attack'))}
-function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),shadow=elementFor(u.type).id==='shadow';let damage=amount*(shadow?(enemy.boss?2:3):1);if(Math.random()<Math.min(.85,(shadow?.2:0)+mods.crit))damage*=2+mods.critPower;return damage}
+function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),shadow=elementFor(u.type).id==='shadow',bal=window.ForgeBalance?.combat||{shadowNormal:2.4,shadowBoss:1.8,shadowCrit:.15,critMultiplier:2};let damage=amount*(shadow?(enemy.boss?bal.shadowBoss:bal.shadowNormal):1);if(Math.random()<Math.min(.85,(shadow?bal.shadowCrit:0)+mods.crit))damage*=bal.critMultiplier+mods.critPower;return damage}
 function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount),U[u.type].kind,false,u)}
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}

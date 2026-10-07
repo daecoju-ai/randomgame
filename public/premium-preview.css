@@ -566,3 +566,13 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 #drawer .codexUpgradeActions button{min-height:48px!important;border-radius:11px!important;font-weight:900!important}
 #drawer #codexLevelUp{background:linear-gradient(180deg,#20a85e,#08723f)!important;color:#fff!important;border:1px solid #66d794!important}
 @media(max-width:720px){#drawer .labLayout{grid-template-columns:1.25fr .9fr!important;gap:7px!important}#drawer .codexRosterGrid{grid-template-columns:repeat(4,minmax(0,1fr))!important}#drawer #labCards,#drawer #labDetail{padding:6px!important}#drawer .codexUnitTile b{font-size:10px!important}#drawer .codexUnitTile small{font-size:8px!important}#drawer .codexSelectedInfo h3{font-size:17px!important}#drawer .codexSelectedInfo dl{grid-template-columns:1fr!important}}
+
+/* V117 — brighter fantasy-board finish matching the supplied battle reference. */
+#gameWrap{background:linear-gradient(180deg,#80cce1 0 8%,#3d815d 22% 82%,#1d4c3c 100%)!important}
+#gameWrap>#g{border-color:#d8c67e!important;box-shadow:0 10px 26px rgba(6,28,24,.42),inset 0 0 0 2px rgba(255,247,197,.16)!important}
+#gameWrap .status>div small{display:block!important;font-size:9px!important;font-weight:800!important;opacity:.72!important;line-height:1!important}
+#gameWrap .status strong{font-size:18px!important;line-height:1.15!important}
+#gameWrap #guardianHUD{border-color:#76b5c4!important}
+#gameWrap .bottom{background:linear-gradient(180deg,rgba(24,63,51,.93),rgba(11,39,35,.97))!important}
+#gameWrap #summon{box-shadow:inset 0 1px rgba(255,255,255,.25),0 5px 12px rgba(0,79,47,.28)!important}
+#gameWrap #combine{box-shadow:inset 0 1px #fff,0 5px 12px rgba(52,45,22,.2)!important}

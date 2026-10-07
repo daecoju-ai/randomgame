@@ -104,7 +104,7 @@ begin
   if jsonb_array_length(p_payload->'finals')>coalesce((p_payload->'stats'->>'crafts')::int,0) then raise exception 'Invalid crafted finals';end if;
   gold_gain:=floor(wave*1.5)+(wave-1)*3+case when won then 30 else 0 end;
   n:=coalesce((tw.owned->>'training')::int,0);gold_gain:=gold_gain+floor(gold_gain*least(.20,(case when n>=1 then .025*(1+(least(20,n)-1)*.1) else 0 end)*(1+(coalesce((w.talisman_levels->>'training')::int,1)-1)*.05)));
-  if w.run_mode='easy' then gold_gain:=floor(gold_gain*.7);elsif w.run_mode='hard' then gold_gain:=floor(gold_gain*1.45);end if;
+  if w.run_mode='easy' then gold_gain:=floor(gold_gain*.7);elsif w.run_mode='hard' then gold_gain:=floor(gold_gain*1.55);end if;
   diamond_gain:=coalesce((p_payload->'stats'->>'bosses')::int,0)*case when w.run_mode='easy' then 1 when w.run_mode='hard' then 3 else 2 end;
   w.pending_battle:=jsonb_build_object('gold',gold_gain,'diamonds',diamond_gain,'difficulty',w.run_mode);
   notes:=notes||jsonb_build_array(jsonb_build_object('kind','battle_pending','gold',gold_gain,'diamonds',diamond_gain));w.active_run:=null;w.run_started:=null;

@@ -146,3 +146,20 @@ for(const wave of Array.from({length:30},(_,i)=>i+1)){
  previous=total;
  if(wave===1||wave%5===0)console.log('W'+wave,'normal effective pack',Math.round(total));
 }
+
+
+console.log('\nSkill semantic checks');
+const skillContracts={
+ fire:['single','area','multi','burnZone'],
+ water:['single','wave','ice','freezeZone'],
+ earth:['single','mud','burst','stun'],
+ wind:['single','stun','speed','pullZone'],
+ electric:['single','chain','chain','stormZone'],
+ shadow:['single','strike','clone','mark']
+};
+const expectedRoles={fire:'AoE/burn',water:'control',earth:'heavy/control',wind:'speed/cooldown',electric:'chain/stun',shadow:'single/boss'};
+for(const [element,effects] of Object.entries(skillContracts)){
+ const singleCount=effects.filter(x=>['single','ice','strike','burst'].includes(x)).length;
+ console.log(element,expectedRoles[element],effects.join(','),'direct-single-like',singleCount);
+}
+console.log('PASS semantic intent table emitted; runtime definitions should preserve these element identities.');

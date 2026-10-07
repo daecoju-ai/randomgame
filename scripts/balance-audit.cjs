@@ -40,3 +40,7 @@ for(const [key,d] of Object.entries(B.difficulties)){
  const initial=effective(raw,finalBoss[2]),awakened=effective(raw,Math.min(.65,finalBoss[2]+.08));
  console.log(key,Math.round(initial)+' -> '+Math.round(awakened),'limit '+d.final+'s');
 }
+
+console.log('\nSupport stacking caps');
+for(const [k,v] of Object.entries(B.supportCaps||{}))console.log(k,Math.round(v*100)+'%');
+console.log('Rule: nearby duplicate support effects use strongest value; different support categories can combine only up to these caps.');

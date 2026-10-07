@@ -106,3 +106,12 @@ console.log('support final-form personal offense multiplier:',B.combat.supportAt
 console.log('single-target active skill multiplier:',B.combat.singleSkill,'(highest direct skill damage class)');
 console.log('Rule: support personal DPS < attack-form personal DPS; single-target direct skills > equal-rank AoE/control direct hit.');
 console.log('Shadow remains an intentional boss/single-target specialist on top of the single-target premium.');
+
+
+console.log('\nRole regression checks');
+const fail=[];
+if(!(B.combat.supportAttack>0&&B.combat.supportAttack<1))fail.push('supportAttack must stay below attacker baseline');
+if(!(B.combat.singleSkill>1))fail.push('single-target premium must exceed AoE/control direct-hit baseline');
+if(!(B.combat.shadowBoss>B.combat.shadowNormal))fail.push('shadow boss multiplier must exceed normal multiplier');
+if(!Object.values(B.difficulties).every(d=>d.cap===80))fail.push('all modes must use 80-monster fail cap');
+if(fail.length){console.error('FAIL',fail.join(' | '));process.exitCode=1}else console.log('PASS support < attacker; single > AoE/control; shadow boss > shadow normal; cap=80');

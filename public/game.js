@@ -4,28 +4,25 @@ function luckUnit(u){if(!u.luckId)u.luckId='u'+(++luckUnitSequence);return {id:u
 function playSound(name,...args){if(typeof window!=='undefined')window.SFX?.[name]?.(...args)}
 function drawArena(){
  const a=geometry(),cx=W/2,cy=(a.top+a.bottom)/2;
- // Deep enchanted forest floor: decorative only; unit art and 4x8 gameplay geometry stay unchanged.
- const bg=ctx.createRadialGradient(cx,cy,28,cx,cy,Math.max(W,H)*.72);bg.addColorStop(0,'#557a4f');bg.addColorStop(.43,'#315d46');bg.addColorStop(.76,'#173c35');bg.addColorStop(1,'#09252b');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
- const vignette=ctx.createLinearGradient(0,0,0,H);vignette.addColorStop(0,'#061b2caa');vignette.addColorStop(.18,'#0d2c2b33');vignette.addColorStop(.72,'#10261922');vignette.addColorStop(1,'#06121ed9');ctx.fillStyle=vignette;ctx.fillRect(0,0,W,H);
- // Moss, stones and warm lantern pools around the route.
- for(let i=0;i<30;i++){const x=(i*83.7)%W,y=(i*47.3+37)%H,r=8+(i%5)*4;ctx.fillStyle=i%3===0?'#476d3d55':'#1e493c66';ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill()}
- for(const t of [.04,.21,.38,.55,.72,.89]){const p=path(t);const glow=ctx.createRadialGradient(p.x,p.y,1,p.x,p.y,34);glow.addColorStop(0,'#ffd66dbb');glow.addColorStop(.2,'#f5a83b66');glow.addColorStop(1,'#f5a83b00');ctx.fillStyle=glow;ctx.beginPath();ctx.arc(p.x,p.y,34,0,7);ctx.fill();ctx.fillStyle='#ffd879';ctx.fillRect(p.x-2,p.y-5,4,8);ctx.fillStyle='#52371d';ctx.fillRect(p.x-3,p.y+3,6,5)}
- // Premium stone loop.
- const ring=(width,color)=>{ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineJoin='round';ctx.beginPath();for(let i=0;i<=160;i++){let p=path(i/160);i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y)}ctx.closePath();ctx.stroke()};
- ring(43,'#102f2b');ring(37,'#6d7757');ring(31,'#a99b6c');ring(25,'#716e4f');ring(2,'#d5c78a88');
- const per=2*(a.width+a.height);for(let i=0;i<per/22;i++){let p=path(i*22/per);ctx.strokeStyle=i%2?'#4d5842':'#c4b68166';ctx.lineWidth=1.2;ctx.beginPath();if(p.y===a.top||p.y===a.bottom){ctx.moveTo(p.x-5,p.y-10);ctx.lineTo(p.x+4,p.y+10)}else{ctx.moveTo(p.x-10,p.y-5);ctx.lineTo(p.x+10,p.y+4)}ctx.stroke()}
- // Inner tactical lawn.
- const lawn=ctx.createLinearGradient(0,a.top,0,a.bottom);lawn.addColorStop(0,'#557a4b');lawn.addColorStop(.5,'#426d48');lawn.addColorStop(1,'#31583f');ctx.fillStyle=lawn;ctx.beginPath();ctx.roundRect(a.left+27,a.top+28,a.width-54,a.height-56,18);ctx.fill();ctx.strokeStyle='#8db57455';ctx.lineWidth=2;ctx.stroke();
- // Four rune gate stones.
- for(let x of [a.left,a.right])for(let y of [a.top,a.bottom]){ctx.fillStyle='#596655';ctx.strokeStyle='#b9aa78';ctx.lineWidth=1.4;ctx.beginPath();ctx.roundRect(x-16,y-16,32,32,7);ctx.fill();ctx.stroke();ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.shadowColor='#58e1b2';ctx.shadowBlur=16;ctx.fillStyle='#63d5aa';ctx.fillRect(-4,-4,8,8);ctx.restore()}
- // Subtle rune under the board.
- ctx.save();ctx.translate(cx,cy);ctx.strokeStyle='#9bd59b24';ctx.lineWidth=1;for(let r of [48,55,90]){ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.stroke()}ctx.rotate(Math.PI/4);ctx.strokeRect(-35,-35,70,70);ctx.restore();
- // Dimensional inner-board frame and cast shadow. Gameplay coordinates are unchanged.
- ctx.save();ctx.shadowColor='#03120fcc';ctx.shadowBlur=22;ctx.shadowOffsetY=13;ctx.fillStyle='#17382d';ctx.beginPath();ctx.roundRect(a.left+20,a.top+20,a.width-40,a.height-40,20);ctx.fill();ctx.restore();
- const edge=ctx.createLinearGradient(a.left,a.top,a.right,a.bottom);edge.addColorStop(0,'#b7d39766');edge.addColorStop(.48,'#3d694f22');edge.addColorStop(1,'#071c18aa');ctx.strokeStyle=edge;ctx.lineWidth=5;ctx.beginPath();ctx.roundRect(a.left+24,a.top+24,a.width-48,a.height-48,18);ctx.stroke();
+ // Bright fantasy forest arena inspired by the supplied composition; gameplay geometry and unit art are untouched.
+ const sky=ctx.createLinearGradient(0,0,0,H);sky.addColorStop(0,'#8ed7ef');sky.addColorStop(.18,'#4f9477');sky.addColorStop(.72,'#2f6744');sky.addColorStop(1,'#173f32');ctx.fillStyle=sky;ctx.fillRect(0,0,W,H);
+ // Forest clusters around the arena.
+ for(let i=0;i<38;i++){const side=i%2?1:-1,x=side>0?W-8-(i%5)*9:8+(i%5)*9,y=a.top-35+(i*37)%(Math.max(120,a.height+70)),r=13+(i%4)*4;ctx.fillStyle=i%3===0?'#2f7650':'#3e8955';ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();ctx.fillStyle='#7aae63aa';ctx.beginPath();ctx.arc(x-side*5,y-r*.25,r*.55,0,7);ctx.fill()}
+ // Warm lanterns at route corners and sides.
+ for(const t of [.03,.16,.28,.41,.53,.66,.78,.91]){const p=path(t),g=ctx.createRadialGradient(p.x,p.y,1,p.x,p.y,30);g.addColorStop(0,'#fff3a9');g.addColorStop(.2,'#ffc857aa');g.addColorStop(1,'#ff9d2400');ctx.fillStyle=g;ctx.beginPath();ctx.arc(p.x,p.y,30,0,7);ctx.fill();ctx.fillStyle='#ffe27a';ctx.fillRect(p.x-2,p.y-6,4,8)}
+ // Raised stone monster road.
+ const ring=(w,col)=>{ctx.strokeStyle=col;ctx.lineWidth=w;ctx.lineJoin='round';ctx.beginPath();for(let i=0;i<=180;i++){const p=path(i/180);i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y)}ctx.closePath();ctx.stroke()};
+ ring(48,'#244735');ring(42,'#807b5b');ring(35,'#b3a77b');ring(27,'#746f54');ring(3,'#e0d29a99');
+ const per=2*(a.width+a.height);for(let i=0;i<per/20;i++){const p=path(i*20/per);ctx.strokeStyle=i%2?'#5b5b48':'#d8ca9688';ctx.lineWidth=1.1;ctx.beginPath();ctx.moveTo(p.x-7,p.y-6);ctx.lineTo(p.x+6,p.y+7);ctx.stroke()}
+ // Central raised 4x8 stone board.
+ ctx.save();ctx.shadowColor='#0b2119bb';ctx.shadowBlur=18;ctx.shadowOffsetY=10;ctx.fillStyle='#526e54';ctx.beginPath();ctx.roundRect(a.left+31,a.top+31,a.width-62,a.height-62,16);ctx.fill();ctx.restore();
+ ctx.strokeStyle='#b7c894';ctx.lineWidth=4;ctx.beginPath();ctx.roundRect(a.left+32,a.top+32,a.width-64,a.height-64,15);ctx.stroke();
  const gy=Math.min(54,(a.height-88)/7),gx=(a.width-108)/3;
- for(let i=0;i<32;i++){let p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(23,gx*.45),hh=Math.min(23,gy*.44);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#d0e8ae':'#86aa78');tile.addColorStop(.52,occupied?'#9fc47f':'#668d64');tile.addColorStop(1,occupied?'#587d57':'#3e654e');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#c9ee9ecc':'#a5c38a66';ctx.lineWidth=1.2;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,7);ctx.shadowColor='#061a13aa';ctx.shadowBlur=5;ctx.shadowOffsetY=4;ctx.fill();ctx.shadowColor='transparent';ctx.shadowBlur=0;ctx.shadowOffsetY=0;ctx.stroke();ctx.strokeStyle='#e3f0bd33';ctx.beginPath();ctx.moveTo(p.x-hw+7,p.y-hh+4);ctx.lineTo(p.x+hw-7,p.y-hh+4);ctx.stroke();ctx.fillStyle=occupied?'#e3f7b455':'#b9d99d44';ctx.font='12px serif';ctx.textAlign='center';ctx.fillText('◇',p.x,p.y+4)}
- for(let i=0;i<18;i++){let x=cx+Math.sin(i*18.3)*Math.min(W*.48,290),y=a.top+(Math.cos(i*9.1)+1)/2*a.height;ctx.globalAlpha=.12+.1*Math.sin(S.t+i);ctx.fillStyle=i%3?'#c9f5cf':'#ffe4a0';ctx.beginPath();ctx.arc(x,y,1.2,0,7);ctx.fill()}ctx.globalAlpha=1;
+ for(let i=0;i<32;i++){const p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(25,gx*.46),hh=Math.min(24,gy*.45);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#d9edbd':'#a8bf91');tile.addColorStop(.55,occupied?'#a9ca89':'#829d73');tile.addColorStop(1,occupied?'#6f985f':'#617d60');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#d8f2a8':'#c0d3a7';ctx.lineWidth=1.4;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,5);ctx.fill();ctx.stroke();ctx.strokeStyle='#f3f6d844';ctx.beginPath();ctx.moveTo(p.x-hw+5,p.y-hh+4);ctx.lineTo(p.x+hw-5,p.y-hh+4);ctx.stroke()}
+ // Corner crystals/gates make the loop readable without changing collision/path coordinates.
+ for(const [x,y] of [[a.left,a.top],[a.right,a.top],[a.right,a.bottom],[a.left,a.bottom]]){ctx.save();ctx.translate(x,y);ctx.shadowColor='#62e2ff';ctx.shadowBlur=13;ctx.fillStyle='#61c7d8';ctx.beginPath();ctx.moveTo(0,-10);ctx.lineTo(8,0);ctx.lineTo(0,10);ctx.lineTo(-8,0);ctx.closePath();ctx.fill();ctx.restore()}
+ // Subtle center magic crest.
+ ctx.save();ctx.translate(cx,cy);ctx.globalAlpha=.18;ctx.strokeStyle='#e8f3c0';ctx.lineWidth=1.2;ctx.beginPath();ctx.arc(0,0,48,0,7);ctx.stroke();ctx.rotate(Math.PI/4);ctx.strokeRect(-30,-30,60,60);ctx.restore();
 }
 
 

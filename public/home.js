@@ -11,7 +11,7 @@ $('#openTalismanDraw').onclick=()=>{$('#openTalismans').click();talismanMode('dr
 function openLegend(type){$('#shopHub').close();window.ForgeSummons.openProduct(type,'hidden')}
 
 function card(type,compact=false){
-const u={type,lv:5},data=unitData(u),skills=skillRows(u).filter(s=>s.slot>=4),attack=data.atk*Math.pow(2.6,4),rate=1.5/data.rate;
+const u={type,lv:5},data=unitData(u),skills=skillRows(u).filter(s=>s.slot>=4),attack=baseAttack(u),rate=1.5/data.rate;
 return '<button class="legendCard '+(compact?'compact':'')+'" data-legend="'+type+'"><canvas width="220" height="190" data-legend-art="'+type+'" aria-label="'+heroLabel(u)+'"></canvas><div><small>HIDDEN LEGEND · 5단계</small><b>'+heroLabel(u)+'</b><p>'+elementFor(type).role+'</p><span class="legendPower">공격력 '+attack.toFixed(1)+' · 초당 '+rate.toFixed(2)+'회</span><p class="legendSkill">'+(skills[0]?.name||'전용 스킬')+'</p>'+(compact?'':'<p class="legendDescription">'+(skills[0]?.description||'')+' · Lv.'+(skills[0]?.unlock||1)+' 개방</p>')+'<span class="legendPrice">'+icon()+' 2,000 <em>상세 보기 →</em></span></div></button>'
 }
 window.ForgeHome={showFeatured(type){$('#featuredLegend').innerHTML=card(type,true);$('#featuredLegend [data-legend]').onclick=()=>openLegend(type);paint()}};$('#featuredLegend').innerHTML=card(13,true);

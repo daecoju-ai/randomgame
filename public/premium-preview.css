@@ -195,3 +195,35 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
  #shopHub .shopCollectionLinks>button{min-height:50px!important;padding:6px 10px!important;font-size:13px!important}
  #shopHub .shopCollectionLinks>button small{font-size:9px!important;margin-top:2px!important}
 }
+
+
+/* V69 account dialog: single-page mobile sign-in/sign-up */
+#accountDialog{overflow:hidden!important}
+#accountDialog .accountHeading{margin-bottom:5px!important}
+#accountDialog>h2{margin:6px 0 2px!important;font-size:28px!important}
+#accountDialog>p#accountState{margin:0 0 8px!important;font-size:13px!important}
+#accountDialog #accountTabs{gap:7px!important;margin:7px 0 9px!important}
+#accountDialog #accountTabs button{min-height:44px!important;padding:7px!important}
+#accountDialog .socialLogin{gap:6px!important;margin:6px 0!important}
+#accountDialog .socialLogin>p{margin:2px 0 4px!important;font-size:12px!important}
+#accountDialog .socialLogin>button{min-height:48px!important;padding:7px 10px!important;font-size:15px!important}
+#accountDialog .socialLogin>small{font-size:10px!important;line-height:1.3!important}
+#accountDialog .socialDivider{margin:5px 0!important}
+#accountDialog #accountForm{gap:6px!important}
+#accountDialog #accountForm label{gap:3px!important;font-size:11px!important}
+#accountDialog #accountForm input{min-height:44px!important;padding:8px 12px!important;font-size:15px!important}
+#accountDialog #accountSubmit{min-height:45px!important;margin-top:2px!important}
+#accountDialog .accountLinks{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px!important;margin:5px 0!important}
+#accountDialog .accountLinks button{min-height:38px!important;padding:5px!important;font-size:11px!important}
+#accountDialog #accountForm>small{font-size:9px!important;line-height:1.3!important}
+#accountDialog .accountPolicyLink{margin:5px 0 0!important;font-size:10px!important}
+#accountDialog .accountPolicyLink a{text-decoration:underline;text-underline-offset:2px}
+#accountDialog #accountMessage{margin:5px 0 0!important;min-height:0!important;font-size:11px!important}
+@media(max-width:430px){
+ #accountDialog{width:96vw!important;max-height:94dvh!important;padding:12px 14px!important}
+ #accountDialog .accountHeading .eyebrow{font-size:9px!important}
+ #accountDialog #accountClose{width:46px!important;height:46px!important;min-height:46px!important}
+ #accountDialog>h2{font-size:25px!important}
+ #accountDialog .socialLogin>button{min-height:44px!important}
+ #accountDialog #accountForm input{min-height:42px!important}
+}

@@ -262,3 +262,11 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
 #accountDialog[data-native-pages="true"] .viewportWindow,#accountDialog[data-native-pages="true"] .viewportNavigation{display:none!important}
 #accountDialog[data-native-pages="true"] button,#accountDialog[data-native-pages="true"] a{pointer-events:auto!important;touch-action:manipulation}
 #accountDialog[data-native-pages="true"] .accountPolicyLink a{display:inline-block;padding:5px 2px;min-height:30px}
+
+
+/* V73 release QA: native single-screen shop/collection flows */
+#shopHub[data-native-pages="true"],#legendPurchaseDialog[data-native-pages="true"],#hiddenCollectionDialog[data-native-pages="true"],#unitAlbumDialog[data-native-pages="true"]{overflow-y:auto!important;overflow-x:hidden!important;overscroll-behavior:contain}
+#shopHub[data-native-pages="true"] .viewportWindow,#shopHub[data-native-pages="true"] .viewportNavigation,
+#legendPurchaseDialog[data-native-pages="true"] .viewportWindow,#legendPurchaseDialog[data-native-pages="true"] .viewportNavigation,
+#hiddenCollectionDialog[data-native-pages="true"] .viewportWindow,#hiddenCollectionDialog[data-native-pages="true"] .viewportNavigation,
+#unitAlbumDialog[data-native-pages="true"] .viewportWindow,#unitAlbumDialog[data-native-pages="true"] .viewportNavigation{display:none!important}

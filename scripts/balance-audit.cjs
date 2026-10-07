@@ -28,7 +28,7 @@ const elements=[['fire',7,.95],['water',6,1],['earth',8,1.2],['wind',5,.65],['el
 for(let tier=1;tier<=5;tier++){
  const row=elements.map(([name,atk,rate])=>{
   const base=atk*Math.pow(2.6,tier-1),interval=rate/(1+tier*.1),dps=base/interval;
-  const role=name==='shadow'?dps*(B.combat.shadowBoss*(1+B.combat.shadowCrit*(B.combat.critMultiplier-1))):dps;
+  const elem=B.combat.element?.[name]??1,role=dps*elem*(name==='shadow'?(B.combat.shadowBoss*(1+B.combat.shadowCrit*(B.combat.critMultiplier-1))):1);
   return name+':'+Math.round(role);
  });
  console.log('T'+tier,row.join(' | '));
@@ -72,3 +72,10 @@ for(const [key,diff] of Object.entries(B.difficulties)){
  }
 }
 console.log('\nDesign target: Easy ~= 60% Normal pressure, Hard ~= 145% Normal pressure after HP/speed/start-coin effects. 80 live monsters is a universal fail condition.');
+
+console.log('\nNormalized base DPS spread by tier');
+for(let tier=1;tier<=5;tier++){
+ const values=elements.map(([name,atk,rate])=>{const base=atk*Math.pow(2.6,tier-1),interval=rate/(1+tier*.1),raw=base/interval,elem=B.combat.element?.[name]??1;return [name,raw*elem*(name==='shadow'?B.combat.shadowBoss*(1+B.combat.shadowCrit*(B.combat.critMultiplier-1)):1)]});
+ const nums=values.map(x=>x[1]),lo=Math.min(...nums),hi=Math.max(...nums),avg=nums.reduce((a,b)=>a+b,0)/nums.length;
+ console.log('T'+tier,'avg '+avg.toFixed(1),'spread '+((hi/lo-1)*100).toFixed(1)+'%',values.map(x=>x[0]+':'+Math.round(x[1])).join(' | '));
+}

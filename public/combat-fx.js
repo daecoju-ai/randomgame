@@ -77,9 +77,11 @@ function drawPremiumSkillEffect(g,e){
  else if(e.origin&&/pierce|railStrike|echo|chronicle/.test(f))beam([e.origin,{x:e.x,y:e.y}]);
  if(e.origin&&['single','ice','strike'].includes(f)){const travel=Math.min(1,p*3),x=e.origin.x+(e.x-e.origin.x)*travel,y=e.origin.y+(e.y-e.origin.y)*travel;drawProjectile(g,{x,y,type:e.type??ELEMENTS.find(z=>z.id===k)?.base??8,target:{x:e.x,y:e.y}})}
  g.translate(e.x,e.y);g.globalAlpha=Math.min(1,e.t*4);
- const glow=g.createRadialGradient(0,0,0,0,0,r);glow.addColorStop(0,'#ffffff88');glow.addColorStop(.18,color+'b0');glow.addColorStop(.65,color+'24');glow.addColorStop(1,color+'00');g.fillStyle=glow;g.beginPath();g.ellipse(0,0,r,r*.72,0,0,Math.PI*2);g.fill();
- g.strokeStyle=color;g.lineWidth=2;g.beginPath();g.ellipse(0,0,r*(.4+.6*p),r*(.25+.4*p),0,0,Math.PI*2);g.stroke();
- const count=e.slot>=4?20:12;for(let i=0;i<count;i++){const a=i*Math.PI*2/count+.27,dist=r*(.22+p*.78),x=Math.cos(a)*dist,y=Math.sin(a)*dist*.72;g.save();g.translate(x,y);g.rotate(a+phase*.08);g.fillStyle=i%3?'#fff1ca':color;
+ // Offensive casts stay visually concentrated on the monster. Friendly buffs may use the broad aura.
+ const offensive=!e.support,visualR=offensive?Math.min(r,Math.max(20,34+(e.slot||0)*5)):r;
+ const glow=g.createRadialGradient(0,0,0,0,0,visualR);glow.addColorStop(0,offensive?'#ffffff66':'#ffffff88');glow.addColorStop(.18,color+(offensive?'8c':'b0'));glow.addColorStop(.65,color+'24');glow.addColorStop(1,color+'00');g.fillStyle=glow;g.beginPath();g.ellipse(0,0,visualR,visualR*(offensive?.62:.72),0,0,Math.PI*2);g.fill();
+ g.strokeStyle=color;g.lineWidth=offensive?1.5:2;g.beginPath();g.ellipse(0,0,visualR*(.35+.55*p),visualR*(.2+.35*p),0,0,Math.PI*2);g.stroke();
+ const count=e.slot>=4?20:12;for(let i=0;i<count;i++){const a=i*Math.PI*2/count+.27,dist=visualR*(.22+p*.78),x=Math.cos(a)*dist,y=Math.sin(a)*dist*.72;g.save();g.translate(x,y);g.rotate(a+phase*.08);g.fillStyle=i%3?'#fff1ca':color;
   if(k==='earth'||k==='metal'||k==='water'){g.beginPath();g.moveTo(0,-7);g.lineTo(4,0);g.lineTo(0,7);g.lineTo(-3,0);g.closePath();g.fill()}
   else if(k==='fire'||k==='poison'){g.beginPath();g.ellipse(0,0,2.5,7*(1-p)+2,0,0,Math.PI*2);g.fill()}
   else{g.fillRect(-1,-5,2,10);g.fillRect(-5,-1,10,2)}g.restore();

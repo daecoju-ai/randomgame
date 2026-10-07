@@ -78,7 +78,9 @@ function levelCost(lv){return lv*12}
 function metaAtkMult(type,tier){return 1+.05*(getLv(type,tier)-1)}
 function battleUpgradeLevel(u){return battleUpgrades[lvKey(u.type,u.lv)]||0}
 function battleUpgradeCost(u){return (battleUpgradeLevel(u)+1)*10}
-function battleAttack(entry){return unitData(entry).atk*Math.pow(2.6,entry.lv-1)*window.ForgeDrawRules.growthFactor(getLv(entry.type,entry.lv),window.ForgeSummons?.stars(entry)||0)*(1+battleUpgradeLevel(entry)/100)}
+function baseAttack(entry){return unitData(entry).atk*Math.pow(2.6,entry.lv-1)}
+function persistentAttack(entry){return baseAttack(entry)*window.ForgeDrawRules.growthFactor(getLv(entry.type,entry.lv),window.ForgeSummons?.stars(entry)||0)}
+function battleAttack(entry){return persistentAttack(entry)*(1+battleUpgradeLevel(entry)/100)}
 function battleRange(entry){return unitData(entry).range*combatCell()}
 function renderHeroLab(){
  renderWallet();const entries=catalogEntries();
@@ -190,7 +192,7 @@ function fire(u,e){let T=unitData(u),p=slot(u.slot),mods=skillModifiers(u);u.cd=
 }
 function applyAttackSplash(u,target,damage){const splash=Math.max(elementFor(u.type).id==='fire'?.25:0,skillModifiers(u).splash)+talismanBonus(u,'splash');if(!splash)return;for(const m of mobs)if(m!==target&&m.hp>0&&d(m,target)<=combatCell()*.75)dealHeroDamage(u,m,damage*splash)}
 
-function hit(e,damage,kind,silent=false,source=null){if(!e||e.hp<=0)return;damage*=1+(e.vulnerableTime>0?(e.vulnerability||0):0);e.hp-=damage;e.hit=.14;if(!silent)playSound('hit',kind);
+function hit(e,damage,kind,silent=false,source=null){if(!e||e.hp<=0)return;damage*=typeof monsterDamageMultiplier==='function'?monsterDamageMultiplier(e):1;damage*=1+(e.vulnerableTime>0?(e.vulnerability||0):0);e.hp-=damage;e.hit=.14;if(!silent)playSound('hit',kind);
  let col=kind==='fire'?'#f6a15c':kind==='volt'?'#b9a5ff':kind==='ice'?'#bfeef4':kind==='arrow'?'#b9d58e':'#e7d8b6';
  if(!silent)for(let i=0;i<7;i++)particles.push({x:e.x,y:e.y,vx:rnd(-65,65),vy:rnd(-65,65),t:.4,col});
  if(!silent)floaters.push({x:e.x,y:e.y-14,t:.55,s:Math.round(damage),col});
@@ -233,7 +235,7 @@ function renderFinalCountdown(){const timer=document.querySelector("#finalCountd
 function update(dt){S.t+=dt;tickGuardian(dt);tickBattleStatus(dt);tickSkillZones(dt);skillEffects=skillEffects.map(e=>({...e,t:e.t-dt})).filter(e=>e.t>0);
 
  if(S.spawn<S.max&&S.t>S.next){spawn();S.next+=(20/30)}
- mobs.forEach(m=>{if(m.hp<=0)return;if(m.dotTime>0){const elapsed=Math.min(dt,m.dotTime);m.dotTime-=elapsed;hit(m,(m.dotDps||0)*elapsed,'skill',true,m.dotSource);if(m.hp<=0)return}m.vulnerableTime=Math.max(0,(m.vulnerableTime||0)-dt);m.weakenTime=Math.max(0,(m.weakenTime||0)-dt);m.attackSlowTime=Math.max(0,(m.attackSlowTime||0)-dt);m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*mode().speed*(m.profile?.speed||1)*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
+ mobs.forEach(m=>{if(m.hp<=0)return;if(m.dotTime>0){const elapsed=Math.min(dt,m.dotTime);m.dotTime-=elapsed;hit(m,(m.dotDps||0)*elapsed,'skill',true,m.dotSource);if(m.hp<=0)return}m.vulnerableTime=Math.max(0,(m.vulnerableTime||0)-dt);m.weakenTime=Math.max(0,(m.weakenTime||0)-dt);m.attackSlowTime=Math.max(0,(m.attackSlowTime||0)-dt);m.hit=Math.max(0,m.hit-dt);m.stun=Math.max(0,m.stun-dt);m.slow=Math.max(0,m.slow-dt);if(m.stun<=0)m.p+=dt*.070*mode().speed*(m.profile?.speed||1)*(typeof tickMonsterTrait==='function'?tickMonsterTrait(m,dt):1)*(m.slow>0?.55:1);let p=path(m.p);m.x=p.x;m.y=p.y});
  mobs=mobs.filter(m=>m.hp>0);
  if(mobs.length>=80){finish(false);return}
  if(S.t-S.stageStart>=20&&S.wave<30){luckEvent('waveEnd');S.wave++;luckEvent('waveStart');playSound('wave');toast('WAVE '+S.wave);S.spawn=0;S.max=30;S.stageStart=S.t;S.next=S.t;S.coin+=mode().waveCoin;S.runEssence=(S.runEssence||0)+3}

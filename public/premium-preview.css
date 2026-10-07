@@ -456,3 +456,14 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
  #unitAlbumGrid .albumText>b{font-size:8.5px!important}.albumText small{font-size:7px!important}
  #unitAlbumQuick{padding:7px!important}#unitAlbumQuick>canvas{max-height:125px!important}#unitAlbumQuick>h3{font-size:16px!important}.quickStats{grid-template-columns:1fr!important;gap:3px}.quickStats span{display:flex;justify-content:space-between;padding:4px 6px!important}.quickSkill{padding:6px!important}.quickSkill small{display:none}.quickNext{padding:6px!important}#albumQuickLevel,#albumQuickDetail{min-height:40px!important;font-size:10px!important}
 }
+
+
+/* V88 currency consistency + enchanted arena readability */
+.premiumIcon:not(.battleCoinIcon){filter:drop-shadow(0 2px 2px #0005)}
+[data-premium-icon="gold"] .premiumIcon,.currencyLine .premiumIcon,.essenceWallet .premiumIcon{filter:drop-shadow(0 2px 2px #6d3e0870)}
+.rewardArt{filter:drop-shadow(0 4px 5px #0007)}
+#resultScreen .rewardCard{background:linear-gradient(145deg,#0c2d49,#081a2e)!important;border-color:#4c8db9!important}
+#resultScreen #rewardTotal{color:#ffd45c!important}
+#resultScreen #rewardBalance,#resultScreen #rewardBreakdown{color:#bfd3df!important;opacity:1!important}
+#resultScreen .rewardMetrics article{background:linear-gradient(145deg,#123753,#0a2138)!important;border-color:#4a83a8!important}
+#resultScreen .rewardMetrics article b,#resultScreen .rewardMetrics article strong{color:#f3fbff!important}

@@ -181,3 +181,19 @@ for(const rank of [1,10,20]){
  console.log('rank',rank,'single',single.toFixed(2)+'x','AoE/control',aoe.toFixed(2)+'x','premium',((single/aoe-1)*100).toFixed(0)+'%');
  if(single<=aoe){console.error('FAIL single-target skill must exceed AoE/control direct hit');process.exitCode=1}
 }
+
+
+console.log('\nSpecial-unit premium audit');
+const specials=[
+ ['poison','독화여왕 베노라',6,1.1,2,200],
+ ['metal','강철심판관 페로스',9,1.25,1,200],
+ ['time','시계술사 크로니아',5,1.15,2,250],
+ ['star','성운지기 아스트라',7,1.3,3,250],
+ ['void','공허군주 니힐',6,1.1,2,300]
+];
+for(const [id,name,atk,rate,range,price] of specials){
+ const base=atk*Math.pow(2.6,4),dps=base/(rate/(1+5*.1)),premium=dps*B.combat.specialUnit;
+ console.log(name,id,'range '+range,'price '+price,'baseDPS '+dps.toFixed(1),'premiumDPS '+premium.toFixed(1),'bonus '+Math.round((B.combat.specialUnit-1)*100)+'%');
+}
+if(!(B.combat.specialUnit>1&&B.combat.specialUnit<=1.25)){console.error('FAIL special unit premium should be meaningful but controlled (1.01-1.25)');process.exitCode=1}
+console.log('Rule: special units receive a controlled premium on top of unique mechanics; premium must not erase shadow single-target/boss identity.');

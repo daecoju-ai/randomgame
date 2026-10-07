@@ -16,7 +16,7 @@ function render(){
  $('#accountLogout').disabled=busy||!!saving||dirty||game.inBattle();
  $('#accountBattleNote').hidden=!game.inBattle();
  $('#accountTitle').textContent=user?'내 계정':({signin:'다시 만난 영웅',signup:'새로운 모험의 시작',verify:'이메일 인증',recover:'비밀번호 찾기',reset:'새 비밀번호 설정'}[mode]);
- $('#passwordField').hidden=!['signin','signup','reset'].includes(mode);$('#accountPassword').required=!$('#passwordField').hidden;$('#accountPassword').autocomplete=mode==='signin'?'current-password':'new-password';
+ $('#nicknameField').hidden=mode!=='signup';$('#accountNickname').required=mode==='signup';$('#passwordField').hidden=!['signin','signup','reset'].includes(mode);$('#accountPassword').required=!$('#passwordField').hidden;$('#accountPassword').autocomplete=mode==='signin'?'current-password':'new-password';
  $('#codeField').hidden=!['verify','reset'].includes(mode);$('#accountCode').required=!$('#codeField').hidden;
  $('#confirmField').hidden=!['signup','reset'].includes(mode);$('#accountConfirm').required=!$('#confirmField').hidden;
  $('#accountSubmit').textContent={signin:'로그인',signup:'회원가입',verify:'인증 완료',recover:'인증번호 받기',reset:'비밀번호 변경'}[mode];
@@ -39,10 +39,10 @@ async function loadAccount(nextUser){window.ForgeGuardianSync?.reset();window.Fo
  }catch(e){hold(e.message);message(e.message);open()}}
 async function flush(){if(saving)return saving;if(!user||!dirty||conflict||awaitingChoice)return;const owner=user.id,epoch=generation;
  saving=(async()=>{while(dirty&&user?.id===owner&&epoch===generation){const snapshot=game.snapshot(),stamp=JSON.stringify(snapshot);status('계정에 저장 중…');try{const result=await api('progress',{action:'save',owner,revision,data:snapshot});if(epoch!==generation)return;revision=result.record.revision;dirty=stamp!==JSON.stringify(game.snapshot());locked=false;cache();status(dirty?'계정에 저장 중…':'계정에 저장됨 · 다른 기기에서도 이어하기')}catch(e){if(epoch!==generation)return;conflict=e.status===409;cache();hold(e.message);message(e.message);return}}})();try{await saving}finally{saving=null;render()}}
-window.ForgeAccount={currentUser:()=>user,allowed:()=>!checking&&!locked,statusText:()=>$('#cloudStatus').textContent,changed:()=>{window.ForgeGuardianSync?.changed();if(window.ForgeAdventure?.active())return;if(!user){status('비회원 · 이 브라우저에만 저장');return}dirty=true;cache();void flush()},open};
-$('#accountForm').onsubmit=async e=>{e.preventDefault();if(busy||game.inBattle())return;busy=true;message('처리 중…');render();const email=$('#accountEmail').value,password=$('#accountPassword').value,code=$('#accountCode').value.trim();
- try{if(['signup','reset'].includes(mode)&&password!==$('#accountConfirm').value)throw Error('비밀번호가 서로 다릅니다.');const action=mode==='signin'?'signin':mode;const result=await api('account',{action,email,password,code});$('#accountPassword').value='';$('#accountConfirm').value='';
- if(result.user){await loadAccount(result.user);message(locked?'계정 저장 연결을 완료해 주세요.':'로그인했습니다.');}
+window.ForgeAccount={currentUser:()=>user,nickname:()=>user?.nickname||window.ForgeGuardian?.nickname?.()||'모험가',allowed:()=>!checking&&!locked,statusText:()=>$('#cloudStatus').textContent,changed:()=>{window.ForgeGuardianSync?.changed();if(window.ForgeAdventure?.active())return;if(!user){status('비회원 · 이 브라우저에만 저장');return}dirty=true;cache();void flush()},open};
+$('#accountForm').onsubmit=async e=>{e.preventDefault();if(busy||game.inBattle())return;busy=true;message('처리 중…');render();const email=$('#accountEmail').value,password=$('#accountPassword').value,code=$('#accountCode').value.trim(),nickname=$('#accountNickname').value.trim();
+ try{if(['signup','reset'].includes(mode)&&password!==$('#accountConfirm').value)throw Error('비밀번호가 서로 다릅니다.');const action=mode==='signin'?'signin':mode;const result=await api('account',{action,email,password,code,...(mode==='signup'?{nickname}:{})});$('#accountPassword').value='';$('#accountConfirm').value='';
+ if(result.user){if(result.user.nickname)window.ForgeGuardian?.setNickname(result.user.nickname);await loadAccount(result.user);message(locked?'계정 저장 연결을 완료해 주세요.':'로그인했습니다.');}
  else if(mode==='signup'){setMode('verify');message('이메일의 인증번호를 입력해 주세요. 이미 가입했다면 로그인해 주세요.')}
  else if(mode==='recover'){setMode('reset');message('인증 가능한 주소라면 메일이 발송됩니다. 인증번호와 새 비밀번호를 입력해 주세요.')}
  else if(mode==='reset'){localGuest();setMode('signin');message('비밀번호를 변경했습니다. 새 비밀번호로 로그인해 주세요.')}

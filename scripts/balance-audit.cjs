@@ -210,3 +210,26 @@ for(const [id,name,atk,rate,range,price] of specials){
  if(price>last&&last>0){} last=price;
 }
 console.log('Intent: 200 tier = unique mechanic +18%; 250 tier ~= +25%; 300 tier ~= +32%, while shadow keeps the dedicated boss/single-target ceiling.');
+
+
+console.log('\nMAX-account difficulty audit (Lv30 / skill20 / star20 / talisman caps)');
+const maxGrowth=1+.05*29+.2*20; // 6.45x persistent attack
+const maxSkill=1+.1*19; // 2.9x rank scaling
+const maxBattle=1.10; // run upgrade 10/10
+const maxSupport=1+B.supportCaps.attack;
+const maxSpeed=1+B.supportCaps.speed;
+const maxSkillHaste=1/(1-B.supportCaps.haste);
+console.log('persistent attack',maxGrowth.toFixed(2)+'x','skill rank',maxSkill.toFixed(2)+'x','run attack',maxBattle.toFixed(2)+'x','support attack',maxSupport.toFixed(2)+'x','support speed',maxSpeed.toFixed(2)+'x','haste throughput',maxSkillHaste.toFixed(2)+'x');
+const maxBasicEnvelope=maxGrowth*maxBattle*maxSupport*maxSpeed;
+const maxSkillEnvelope=maxBasicEnvelope*maxSkill*maxSkillHaste;
+console.log('theoretical max basic envelope',maxBasicEnvelope.toFixed(1)+'x','active-skill envelope',maxSkillEnvelope.toFixed(1)+'x');
+const difficultyPressure={easy:.50*.80,normal:1,hard:1.45*1.08};
+for(const [id,d] of Object.entries(B.difficulties)){
+ const pressure=d.hp*d.speed;
+ const relative=pressure/difficultyPressure.normal;
+ const finalWindow=d.final;
+ console.log(id,'HP',d.hp+'x','speed',d.speed+'x','pressure',pressure.toFixed(2)+'x','start',d.start,'waveCoin',d.waveCoin,'W30',finalWindow+'s','rewardGold',d.gold+'x','bossDia',d.diamonds);
+}
+if(B.difficulties.hard.hp<1.55){console.error('WARN max-account hard HP may be too forgiving below 1.55x; live simulation required before raising.')}
+if(B.difficulties.easy.hp>.55){console.error('FAIL easy should remain onboarding-friendly');process.exitCode=1}
+console.log('Design target at MAX account: Easy = comfortable/farm, Normal = reliable but placement-sensitive, Hard = optimized roster/support/positioning required; max progression must not imply automatic Hard clear.');

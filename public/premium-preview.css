@@ -467,3 +467,29 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 #resultScreen #rewardBalance,#resultScreen #rewardBreakdown{color:#bfd3df!important;opacity:1!important}
 #resultScreen .rewardMetrics article{background:linear-gradient(145deg,#123753,#0a2138)!important;border-color:#4a83a8!important}
 #resultScreen .rewardMetrics article b,#resultScreen .rewardMetrics article strong{color:#f3fbff!important}
+
+
+/* V89 selectable codex workbench */
+.attributeLibrary{max-width:980px!important}
+.attributeLibrary .labFilters{position:sticky;top:0;z-index:5;background:#081b2df2;padding:8px 0}
+.codexFilterStrip{display:flex;gap:6px;overflow-x:auto;padding:2px 2px 8px;scrollbar-width:none}.codexFilterStrip::-webkit-scrollbar{display:none}
+.codexFilterStrip button{flex:0 0 auto;min-width:58px;padding:9px 12px!important;border-radius:11px!important}
+.codexFilterStrip button[aria-pressed="true"]{background:linear-gradient(180deg,#35a77c,#176b58)!important;border-color:#8ce0ba!important;color:#fff9d1!important}
+.attributeLibrary .labWorkspace{display:grid!important;grid-template-columns:minmax(0,1.2fr) minmax(300px,.8fr)!important;gap:12px!important;align-items:start!important}
+#labCards{display:block!important;min-width:0}
+.codexRosterGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px;padding:2px}
+.codexUnitTile{position:relative;min-width:0!important;padding:5px!important;border-radius:12px!important;overflow:hidden;text-align:center!important;background:linear-gradient(145deg,#f1f7ed,#d8e8dc)!important;border:2px solid #b6d0bf!important;color:#16372e!important;box-shadow:0 4px 10px #0003!important}
+.codexUnitTile.selected{border-color:#e9bd45!important;box-shadow:0 0 0 2px #ffe89966,0 6px 16px #0004!important}
+.codexUnitTile canvas{width:100%;aspect-ratio:1.08/1;height:auto;display:block;background:linear-gradient(180deg,#e7f3e7,#cde2d2);border-radius:9px}
+.codexUnitTile b{display:block;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#17362e!important}.codexUnitTile small{font-size:9px;color:#49665d!important}
+.codexTier{position:absolute;left:7px;top:7px;z-index:2;display:grid;place-items:center;width:22px;height:22px;border-radius:7px;background:#08182c;color:#fff5c2;font-weight:900;border:1px solid #d7bd6a}
+#labDetail{min-width:0}
+.codexSelectedCard{display:grid;grid-template-columns:1fr;gap:8px;background:linear-gradient(180deg,#eef5ea,#dbe9dd)!important;border:1px solid #a8c4b0!important;border-radius:16px;padding:10px;color:#17352d!important}
+.codexSelectedArt{position:relative;border-radius:14px;overflow:hidden;background:radial-gradient(circle at 50% 35%,#f6e7a1,#b7d7ae 46%,#729a79);text-align:center}
+.codexSelectedArt canvas{width:100%;height:auto;max-height:230px;display:block}.codexSelectedArt>span{position:absolute;right:8px;top:8px;background:#4c3519dd;color:#fff0b1;padding:5px 8px;border-radius:9px;font-weight:900;font-size:10px}
+.codexSelectedInfo>small{color:#37725e!important;font-weight:800}.codexSelectedInfo h3{margin:2px 0 5px;color:#6d4a0c!important;font-size:22px}.codexLevelBadge,.codexStars{display:inline-block;margin:2px 4px 6px 0;padding:5px 8px;border-radius:9px;background:#173c43;color:#f8f4d4;font-weight:900;font-size:11px}
+.codexSelectedInfo dl{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin:4px 0 8px}.codexSelectedInfo dl div{display:flex;justify-content:space-between;padding:7px 8px;background:#ffffffa8;border:1px solid #bfd1c2;border-radius:8px}.codexSelectedInfo dt{font-size:10px;color:#557067}.codexSelectedInfo dd{margin:0;font-size:11px;font-weight:900;color:#132f29}
+.codexSkillList{display:grid;gap:5px}.codexSkillList button{display:flex!important;align-items:center!important;gap:8px!important;padding:7px!important;text-align:left!important;background:#f8fbf3!important;color:#17352d!important;border-color:#bdd1c1!important}.codexSkillList .skillArt,.codexSkillList svg{flex:0 0 42px}.codexSkillList span{min-width:0}.codexSkillList b,.codexSkillList small{display:block;color:#17352d!important}
+.codexUpgradeActions{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:8px}.codexUpgradeActions button:first-child{background:linear-gradient(180deg,#29a768,#0c754d)!important;border-color:#6fdb9e!important}.codexUpgradeActions button:last-child{background:linear-gradient(180deg,#f0c54e,#bd7e18)!important;border-color:#ffe493!important;color:#2d1a05!important}
+@media(max-width:800px){.attributeLibrary .labWorkspace{grid-template-columns:minmax(0,1.08fr) minmax(220px,.92fr)!important}.codexRosterGrid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:560px){.attributeLibrary{inset:3% 2% 72px!important;padding:10px!important}.attributeLibrary .labWorkspace{grid-template-columns:minmax(0,1.05fr) minmax(155px,.95fr)!important;gap:7px!important}.codexRosterGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:5px}.codexUnitTile{padding:3px!important}.codexUnitTile b{font-size:9px}.codexUnitTile small{font-size:8px}.codexSelectedCard{padding:7px}.codexSelectedInfo h3{font-size:15px}.codexSelectedInfo dl{grid-template-columns:1fr}.codexSelectedInfo dl div{padding:5px}.codexSkillList button{padding:5px!important}.codexUpgradeActions{grid-template-columns:1fr}.codexSelectedArt canvas{max-height:170px}}

@@ -14,7 +14,7 @@ function specialDescription(f){const descriptions={
  riftMark:'균열 1중첩 부여 · 최대 5중첩',voidShard:'주변 적에게 피해와 균열 1중첩',riftConsume:'대상의 균열 소모 · 중첩당 추가 피해',voidBrand:'주변 적에게 균열 3중첩',riftDetonate:'주변 적의 균열을 소모해 폭발',nullCollapse:'대상에 균열 5중첩 부여 후 소모 · 주변에도 피해'
  };return descriptions[f]}
 function castSpecialSkill(u,def,rank,target){if(!SPECIAL_SKILLS[elementFor(u.type).id])return false;if(!target||d(slot(u.slot),target)>battleRange(u))return true;
- const v=skillStats(def,rank,u),f=def.effect,e=elementFor(u.type).id,damage=combatAttack(u)*v.power,alive=mobs.filter(m=>m.hp>0),near=alive.filter(m=>d(m,target)<=v.radius);let targets=[target];
+ const v=skillStats(def,rank,u),f=def.effect,e=elementFor(u.type).id,damage=combatAttack(u)*v.power*skillRoleMultiplier(def),alive=mobs.filter(m=>m.hp>0),near=alive.filter(m=>d(m,target)<=v.radius);let targets=[target];
  const fx=(m,effect=f)=>skillEffects.push({x:m.x,y:m.y,r:v.radius,t:.65,kind:e,effect,slot:def.slot,type:u.type,color:U[u.type].accent,origin:slot(u.slot),life:.65});
  const later=(m,delay,amount,area=false)=>{specialEchoes.push({source:u,target:m,x:m.x,y:m.y,delay,damage:amount,area,r:v.radius,kind:e,effect:f,slot:def.slot});if(area)skillEffects.push({x:m.x,y:m.y,r:v.radius,t:delay,kind:e,effect:'telegraph',slot:def.slot,type:u.type,color:U[u.type].accent})};
  if(e==='poison'){

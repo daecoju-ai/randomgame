@@ -408,3 +408,51 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
  #selectionPanel #battleUpgrade,#selectionPanel #sellUnit,#selectionPanel #selectedSkills{height:47px!important;min-height:47px!important;padding:6px!important;font-size:11.5px!important}
  #selectionPanel #sellUnit,#selectionPanel #selectedSkills{min-width:78px!important}
 }
+
+
+/* V87 premium field + unified archive. Unit artwork is intentionally untouched. */
+body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45 0,#071d2c 42%,#04121d 100%)}
+#ui{background:linear-gradient(180deg,#061525cc 0 13%,transparent 30%,transparent 72%,#071728e8 100%)!important}
+#ui .top{background:linear-gradient(180deg,#07172af5,#0b2941e8)!important;border-bottom:1px solid #5c91a5!important;box-shadow:0 5px 20px #0008!important}
+#ui .status{background:linear-gradient(180deg,#f9f3dd,#e7ecd9)!important;border:2px solid #d2c18a!important;box-shadow:0 5px 15px #0005!important}
+#ui .status>div{background:transparent!important;border:0!important;color:#152839!important}
+#ui .status strong,#ui .status b{color:#152839!important}
+#stageProgress{height:10px!important;border:2px solid #d2b45d!important;border-radius:20px!important;background:#092434!important;box-shadow:0 3px 8px #0008!important}
+#stageProgress span{border-radius:20px!important;background:linear-gradient(90deg,#38d16e,#ffe34e,#ff9c35)!important}
+#arenaLabel{border-radius:14px!important;background:linear-gradient(180deg,#0d2945d9,#07192cdd)!important;border-color:#467b9d!important}
+.bottom{gap:10px!important;padding:10px 14px calc(10px + env(safe-area-inset-bottom))!important;background:linear-gradient(180deg,transparent,#071524 28%)!important}
+#summon{background:linear-gradient(180deg,#28a85e,#08733d)!important;border-color:#8fe3a8!important;color:white!important}
+#combine{background:linear-gradient(180deg,#fffdf4,#e7eadf)!important;border-color:#d3c694!important;color:#17293a!important}
+#guardianHUD,#selectionPanel{background:linear-gradient(155deg,#0b3150f5,#071a2df5)!important;border:1px solid #5b91b4!important;box-shadow:0 9px 25px #0008!important}
+
+#unitAlbumDialog[data-native-pages="true"]{width:min(98vw,980px)!important;height:min(94dvh,900px)!important;max-height:94dvh!important;padding:12px!important;overflow:hidden!important;background:linear-gradient(150deg,#eef8ef,#dcece2)!important;border:2px solid #9bbca9!important;color:#18372f!important}
+#unitAlbumDialog>header{display:flex!important;align-items:center;justify-content:space-between;margin:-12px -12px 8px!important;padding:12px 14px!important;background:linear-gradient(180deg,#0c3650,#08253b)!important;border-bottom:1px solid #5f93a9!important}
+#unitAlbumDialog>header h2{color:#fff0a3!important;margin:0!important}#unitAlbumDialog>header small{color:#8bdff3!important}
+#unitAlbumDialog .albumFilters{display:grid!important;grid-template-columns:repeat(4,1fr);gap:6px!important;margin:7px 0 10px!important}
+#unitAlbumDialog .albumFilters button{min-height:40px!important;border-radius:10px!important;background:#e7f2e9!important;color:#23483d!important;border:1px solid #a7c8b2!important}
+#unitAlbumDialog .albumFilters button[aria-pressed=true]{background:linear-gradient(180deg,#32a96a,#17784d)!important;color:#fff!important;border-color:#8ce0ad!important}
+.albumWorkbench{height:calc(100% - 104px);display:grid;grid-template-columns:minmax(0,1.5fr) minmax(245px,.8fr);gap:10px;min-height:0}
+.albumRoster{display:flex;flex-direction:column;min-height:0;padding:9px;border:1px solid #b3ccba;border-radius:16px;background:#f5fbf4}
+#unitAlbumGrid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:7px!important;overflow:auto!important;align-content:start;min-height:0}
+#unitAlbumGrid .albumTile{position:relative!important;min-height:0!important;padding:4px!important;border-radius:12px!important;background:linear-gradient(180deg,#f8fff9,#dcebdd)!important;border:2px solid #bed1bf!important;box-shadow:0 3px 8px #315a4030!important;color:#17382f!important}
+#unitAlbumGrid .albumTile.selected{border-color:#e8b936!important;box-shadow:0 0 0 2px #f5d760,0 5px 13px #7b5a1838!important}
+#unitAlbumGrid .albumTile canvas{width:100%!important;height:auto!important;aspect-ratio:1/1;object-fit:contain}
+#unitAlbumGrid .albumTier{position:absolute;z-index:2;left:4px;top:4px;padding:2px 5px!important;border-radius:8px;background:#102b3be8!important;color:#fff!important;font-size:9px!important}
+#unitAlbumGrid .albumText{display:block!important;padding:2px 3px 4px}.albumText>b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#193a31!important;font-size:10px!important}.albumText small{display:flex!important;justify-content:space-between;color:#41665a!important;font-size:8px!important}
+.albumRoster #albumPageNav{margin-top:auto!important;padding-top:6px}
+#unitAlbumQuick{min-height:0;overflow:auto;padding:11px;border:1px solid #a9c8b3;border-radius:16px;background:linear-gradient(180deg,#eff8ee,#d9e9dc);box-shadow:inset 0 1px #fff}
+#unitAlbumQuick>.albumBadge{display:table;margin:0 auto 4px!important}#unitAlbumQuick>canvas{display:block;width:min(100%,220px)!important;height:auto!important;max-height:190px;margin:0 auto;object-fit:contain}
+#unitAlbumQuick>h3{text-align:center;margin:2px 0!important;font-size:22px!important;color:#153b31!important}#unitAlbumQuick>p{text-align:center;margin:0 0 8px!important;color:#567066!important;font-size:11px!important}
+.quickStats{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}.quickStats span{padding:7px 3px;border-radius:10px;background:#f7fbf5;border:1px solid #c4d6c7;text-align:center}.quickStats small{display:block;color:#678078;font-size:8px}.quickStats b{color:#193c32;font-size:12px}
+.quickSkill,.quickNext{margin-top:7px;padding:8px;border-radius:11px;background:#f8fbf5;border:1px solid #c5d8c9}.quickSkill>b{display:flex;align-items:center;gap:6px;color:#183b31}.quickSkill .skillIcon{width:34px!important;height:34px!important}.quickSkill small{display:block;margin-top:4px;color:#587066;font-size:9px;line-height:1.35}.quickNext{display:flex;justify-content:space-between;align-items:center}.quickNext small{color:#62796f}.quickNext b{color:#183a31}.quickNext em{color:#159154;font-style:normal}
+#albumQuickLevel,#albumQuickDetail{width:100%;min-height:45px!important;margin-top:7px!important;border-radius:11px!important;font-weight:900!important}#albumQuickLevel{background:linear-gradient(180deg,#28ad62,#08763d)!important;color:#fff!important;border-color:#78d799!important}#albumQuickDetail{background:#123c5a!important;color:#eef8ff!important;border-color:#6b9cba!important}
+
+@media(max-width:600px){
+ #unitAlbumDialog[data-native-pages="true"]{padding:8px!important}
+ #unitAlbumDialog>header{margin:-8px -8px 6px!important;padding:9px!important}
+ #unitAlbumDialog .albumFilters{gap:4px!important;margin:5px 0 7px!important}.albumFilters button{font-size:10px!important;padding:5px!important}
+ .albumWorkbench{height:calc(100% - 91px);grid-template-columns:minmax(0,1.15fr) minmax(145px,.85fr);gap:6px}
+ .albumRoster{padding:5px!important}#unitAlbumGrid{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:4px!important}
+ #unitAlbumGrid .albumText>b{font-size:8.5px!important}.albumText small{font-size:7px!important}
+ #unitAlbumQuick{padding:7px!important}#unitAlbumQuick>canvas{max-height:125px!important}#unitAlbumQuick>h3{font-size:16px!important}.quickStats{grid-template-columns:1fr!important;gap:3px}.quickStats span{display:flex;justify-content:space-between;padding:4px 6px!important}.quickSkill{padding:6px!important}.quickSkill small{display:none}.quickNext{padding:6px!important}#albumQuickLevel,#albumQuickDetail{min-height:40px!important;font-size:10px!important}
+}

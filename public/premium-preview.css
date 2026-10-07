@@ -522,3 +522,47 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 .status.compactStatus{position:relative;z-index:4;box-shadow:0 10px 24px rgba(0,0,0,.38),inset 0 1px rgba(255,255,255,.14)!important}
 #selectionPanel{box-shadow:0 16px 34px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.1)!important}
 .bottom{position:relative;z-index:4}.bottom button{box-shadow:0 10px 18px rgba(0,0,0,.36),inset 0 2px rgba(255,255,255,.18)!important}
+
+/* V116 — reference-matched battle + collection composition. Existing unit art stays untouched. */
+#gameWrap{position:relative;overflow:hidden;background:linear-gradient(180deg,#143a55 0 8%,#315f55 8% 73%,#17362d 73% 100%)!important}
+#gameWrap:before{content:"";position:absolute;inset:0;pointer-events:none;z-index:0;background:radial-gradient(circle at 12% 18%,rgba(255,211,111,.22),transparent 17%),radial-gradient(circle at 88% 24%,rgba(82,199,255,.18),transparent 18%),linear-gradient(90deg,rgba(10,38,40,.38),transparent 12% 88%,rgba(10,38,40,.38));}
+#gameWrap>#g{position:relative;z-index:1;border:2px solid rgba(218,190,112,.72)!important;border-radius:18px!important;box-shadow:0 8px 24px rgba(0,0,0,.34),inset 0 0 0 3px rgba(255,255,255,.05)!important;background:linear-gradient(135deg,rgba(106,143,87,.22),rgba(60,102,79,.2))!important}
+#gameWrap .status{z-index:5;display:grid!important;grid-template-columns:1fr 1fr 1fr!important;gap:8px!important;padding:8px 10px!important;background:rgba(9,31,48,.88)!important;border:1px solid rgba(151,210,222,.5)!important;border-radius:14px!important;box-shadow:0 5px 14px rgba(0,0,0,.25)!important}
+#gameWrap .status>div{min-height:46px!important;border-radius:10px!important;background:linear-gradient(180deg,#f8f3df,#e9e2c7)!important;color:#17222a!important;border:1px solid #c9bd8d!important}
+#gameWrap .status>div:nth-child(2){background:linear-gradient(180deg,#183b56,#102b42)!important;color:#fff!important;border-color:#487b9b!important}
+#gameWrap #guardianHUD{z-index:5;background:linear-gradient(180deg,rgba(13,42,63,.96),rgba(8,29,48,.96))!important;border:1px solid #5689a7!important;border-radius:14px!important;box-shadow:0 6px 16px rgba(0,0,0,.3)!important}
+#gameWrap #selectionPanel{z-index:6;background:linear-gradient(180deg,#102f49,#092338)!important;border:1px solid #5f94b1!important;border-radius:14px!important;box-shadow:0 7px 18px rgba(0,0,0,.35)!important}
+#gameWrap .bottom{z-index:7;gap:10px!important;padding:10px!important;background:rgba(8,27,40,.92)!important;border-top:1px solid rgba(191,218,204,.45)!important}
+#gameWrap .bottom button{min-height:58px!important;border-radius:15px!important;font-size:18px!important;font-weight:900!important}
+#gameWrap #summon{background:linear-gradient(180deg,#18a55d,#08723f)!important;border:2px solid #8ce6ad!important;color:#fff!important}
+#gameWrap #combine{background:linear-gradient(180deg,#fffdf1,#e9e1c8)!important;border:2px solid #d8c992!important;color:#1f292d!important}
+#summonOdds{z-index:7!important;background:rgba(6,28,43,.86)!important;border:1px solid rgba(102,190,211,.48)!important;border-radius:10px!important;padding:5px 10px!important;color:#e9f7ff!important}
+#hint{z-index:7!important;color:#d8e7e3!important}
+
+/* Collection: left roster / right hero inspector like the supplied reference. */
+#drawer{background:linear-gradient(180deg,#e8f5eb 0,#dcefe5 100%)!important;color:#18322c!important}
+#drawer .labHeader{background:linear-gradient(180deg,#123a50,#0b293d)!important;color:#fff!important;border-bottom:3px solid #c99b3d!important}
+#drawer .labFilters{background:#edf8f1!important;border:1px solid #bad7c6!important;border-radius:14px!important;padding:8px!important}
+#drawer .codexFilterStrip{display:flex!important;gap:6px!important;overflow-x:auto!important}
+#drawer .codexFilterStrip button{background:#e4f1e9!important;color:#24483d!important;border:1px solid #bdd5c7!important;border-radius:9px!important;font-weight:800!important}
+#drawer .codexFilterStrip button[aria-pressed="true"]{background:#278d63!important;color:#fff!important;border-color:#176b49!important}
+#drawer .labLayout{display:grid!important;grid-template-columns:minmax(0,1.35fr) minmax(280px,.9fr)!important;grid-template-areas:"roster detail"!important;gap:12px!important;align-items:start!important}
+#drawer #labCards{grid-area:roster!important;background:#f4fbf6!important;border:1px solid #b8d6c4!important;border-radius:16px!important;padding:10px!important}
+#drawer #labDetail{grid-area:detail!important;position:sticky!important;top:8px!important;background:#f8fcf9!important;border:1px solid #b6d2c0!important;border-radius:16px!important;padding:10px!important;box-shadow:0 7px 18px rgba(29,73,55,.13)!important}
+#drawer .codexRosterGrid{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr))!important;gap:7px!important}
+#drawer .codexUnitTile{background:linear-gradient(180deg,#fff,#e8f3eb)!important;border:2px solid #c4d9cb!important;border-radius:10px!important;color:#18352d!important;min-width:0!important;padding:4px!important}
+#drawer .codexUnitTile.selected{border-color:#e5ae36!important;box-shadow:0 0 0 2px rgba(255,199,70,.28)!important}
+#drawer .codexUnitTile canvas{width:100%!important;height:auto!important;border-radius:8px!important;background:linear-gradient(180deg,#eaf5ec,#d6eadc)!important}
+#drawer .codexSelectedCard{display:block!important}
+#drawer .codexSelectedArt{background:linear-gradient(180deg,#dcefe1,#bcdac6)!important;border-radius:13px!important;border:1px solid #9ec5aa!important;text-align:center!important;padding:5px!important}
+#drawer .codexSelectedArt canvas{width:min(100%,280px)!important;height:auto!important}
+#drawer .codexSelectedInfo h3{font-size:22px!important;color:#18382f!important;margin:6px 0!important}
+#drawer .codexLevelBadge,#drawer .codexStars{background:#173a43!important;color:#fff!important;border-radius:10px!important;padding:7px 10px!important;margin:5px 0!important}
+#drawer .codexSelectedInfo dl{display:grid!important;grid-template-columns:1fr 1fr!important;gap:5px!important}
+#drawer .codexSelectedInfo dl>div{background:#edf6ef!important;border:1px solid #c6ddd0!important;border-radius:9px!important;padding:7px!important}
+#drawer .codexSkillList{display:grid!important;gap:6px!important;margin-top:8px!important}
+#drawer .codexSkillList button{background:#f2f8f3!important;color:#203a33!important;border:1px solid #c1d7ca!important;border-radius:10px!important}
+#drawer .codexUpgradeActions{display:grid!important;grid-template-columns:1fr 1fr!important;gap:7px!important;margin-top:9px!important}
+#drawer .codexUpgradeActions button{min-height:48px!important;border-radius:11px!important;font-weight:900!important}
+#drawer #codexLevelUp{background:linear-gradient(180deg,#20a85e,#08723f)!important;color:#fff!important;border:1px solid #66d794!important}
+@media(max-width:720px){#drawer .labLayout{grid-template-columns:1.25fr .9fr!important;gap:7px!important}#drawer .codexRosterGrid{grid-template-columns:repeat(4,minmax(0,1fr))!important}#drawer #labCards,#drawer #labDetail{padding:6px!important}#drawer .codexUnitTile b{font-size:10px!important}#drawer .codexUnitTile small{font-size:8px!important}#drawer .codexSelectedInfo h3{font-size:17px!important}#drawer .codexSelectedInfo dl{grid-template-columns:1fr!important}}

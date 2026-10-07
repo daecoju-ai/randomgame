@@ -387,3 +387,24 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
  #albumDetailBody>canvas{width:min(100%,270px)!important;max-height:220px!important}
  .albumStats>div{min-height:58px!important}.albumStats b{font-size:13px!important}
 }
+
+/* V86 battle selection: information on demand */
+#selectionPanel{display:grid!important;grid-template-columns:minmax(0,1fr) repeat(3,minmax(0,auto))!important;gap:8px!important;align-items:center!important;padding:10px 12px!important}
+#selectionPanel[hidden]{display:none!important}
+#selectionPanel>div:first-child{grid-column:1/-1!important;display:flex!important;align-items:baseline!important;gap:9px!important;padding-right:28px}
+#selectionPanel #selectedName{font-size:20px!important;line-height:1.15!important;color:#ffe6a0!important;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#selectionPanel #selectedTier{font-size:14px!important;color:#d4e3ef!important;white-space:nowrap!important}
+#selectionPanel #selectedSkillSummary{display:none!important}
+#selectionPanel .battleUpgradeControls{grid-column:1/2!important;display:grid!important;grid-template-columns:1fr!important;min-width:0}
+#selectionPanel #battleUpgrade,#selectionPanel #sellUnit,#selectionPanel #selectedSkills{height:50px!important;min-height:50px!important;margin:0!important;padding:7px 11px!important;border-radius:13px!important;font-size:13px!important;font-weight:900!important;line-height:1.15!important}
+#selectionPanel #battleUpgradeNotice{font-size:9.5px!important;line-height:1!important;text-align:center!important;margin-top:3px!important;color:#b8c9d6!important}
+#selectionPanel #sellUnit{min-width:94px!important}
+#selectionPanel #selectedSkills{min-width:92px!important}
+#selectionPanel #deselectUnit{top:7px!important;right:8px!important}
+@media(max-width:390px){
+ #selectionPanel{gap:6px!important;padding:9px!important}
+ #selectionPanel #selectedName{font-size:18px!important}
+ #selectionPanel #selectedTier{font-size:12px!important}
+ #selectionPanel #battleUpgrade,#selectionPanel #sellUnit,#selectionPanel #selectedSkills{height:47px!important;min-height:47px!important;padding:6px!important;font-size:11.5px!important}
+ #selectionPanel #sellUnit,#selectionPanel #selectedSkills{min-width:78px!important}
+}

@@ -163,3 +163,21 @@ for(const [element,effects] of Object.entries(skillContracts)){
  console.log(element,expectedRoles[element],effects.join(','),'direct-single-like',singleCount);
 }
 console.log('PASS semantic intent table emitted; runtime definitions should preserve these element identities.');
+
+
+console.log('\nT5 attack-vs-support personal DPS guard');
+for(const [element,atk,rate] of elements){
+ const base=atk*Math.pow(2.6,4),interval=rate/(1+5*.1),elem=B.combat.element?.[element]??1,shadowBoss=element==='shadow'?B.combat.shadowBoss*(1+B.combat.shadowCrit*(B.combat.critMultiplier-1)):1;
+ const attackDps=base/interval*elem*shadowBoss,supportDps=attackDps*B.combat.supportAttack;
+ const ratio=supportDps/attackDps;
+ console.log(element,'attack',attackDps.toFixed(1),'support',supportDps.toFixed(1),'ratio',ratio.toFixed(2));
+ if(ratio>=.70){console.error('FAIL '+element+' support personal DPS ceiling too high');process.exitCode=1}
+}
+console.log('Target: support-form personal basic DPS <= 70% of same-element attack-form; current design target 55%.');
+
+console.log('\nSingle-vs-AoE direct skill guard');
+for(const rank of [1,10,20]){
+ const scale=1+.1*(rank-1),single=scale*B.combat.singleSkill,aoe=scale;
+ console.log('rank',rank,'single',single.toFixed(2)+'x','AoE/control',aoe.toFixed(2)+'x','premium',((single/aoe-1)*100).toFixed(0)+'%');
+ if(single<=aoe){console.error('FAIL single-target skill must exceed AoE/control direct hit');process.exitCode=1}
+}

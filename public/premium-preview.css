@@ -505,3 +505,6 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 
 /* V107 · Weekly Honor */
 .rankingTabs{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:12px 0}.rankRow{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:11px;border-bottom:1px solid rgba(150,190,255,.14)}.rankRow>strong{font-size:18px;text-align:center}.rankRow span{display:grid}.rankRow small{opacity:.72}.rankRow em{font-style:normal;font-weight:900}.myRank{display:flex;justify-content:space-between;padding:12px;border:1px solid rgba(255,215,105,.35);border-radius:14px}.diamondStorePlans .popular{outline:1px solid rgba(255,215,105,.6)}
+
+/* V108 · dormant Honor Shop */
+.honorPreview{margin-top:18px;padding:14px;border:1px solid rgba(255,215,105,.28);border-radius:16px;background:rgba(12,22,48,.78)}#honorShopPreview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0}#honorShopPreview article{display:grid;gap:3px;padding:10px;border:1px solid rgba(122,180,255,.2);border-radius:12px}#honorShopPreview span{font-size:12px}#honorShopPreview small{opacity:.68}@media(max-width:390px){#honorShopPreview{grid-template-columns:1fr}}

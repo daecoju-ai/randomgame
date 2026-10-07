@@ -323,3 +323,16 @@ dialog::backdrop{background:#020813d9;backdrop-filter:blur(5px)}
 .bossWave{display:inline-block;margin-bottom:5px;padding:3px 7px;border-radius:20px;background:#5d3277;color:#f6dfff;font-size:9px;font-weight:900}.bossSkill{margin-top:8px;padding:8px;border-radius:10px;background:#07192b;border:1px solid #5e4b7c}.bossSkill b{display:block;color:#ffdd78;font-size:10px}.bossSkill span{display:block;margin-top:3px;color:#e5edf6;font-size:10px;line-height:1.4}.monsterCodexNote{padding:9px 10px;border-radius:10px;background:#0a263d;color:#b9d0e0!important;font-size:10px!important;line-height:1.5}
 .attackLine{display:flex;flex-wrap:wrap;gap:5px!important;align-items:center}.attackLine span,.attackLine b,.attackLine strong{padding:3px 6px;border-radius:7px;background:#07192b;font-size:10px}.attackLine b{color:#fff0a8}.attackLine strong{color:#70e3ac}.growthFormula{margin:7px 0!important;padding:8px 10px;border-radius:10px;background:#07192b;color:#bcd5e6!important;font-size:10px!important;line-height:1.5}
 @media(max-width:430px){.monsterCodexGrid,.monsterBossGrid{grid-template-columns:1fr}.monsterCodexEntry{min-height:52px!important}#monsterCodexDialog{padding:10px!important}}
+
+
+/* V76 talisman completion + three difficulty tiers */
+.talismanRuleStrip{display:grid;grid-template-columns:repeat(3,1fr);gap:7px;margin:9px 0 11px}
+.talismanRuleStrip>span{display:flex;flex-direction:column;gap:4px;padding:9px;border:1px solid #345d7c;border-radius:12px;background:#081d31}
+.talismanRuleStrip b{color:#ffe39a;font-size:11px}.talismanRuleStrip small{color:#bdd1df!important;font-size:9px;line-height:1.4}
+#difficultyDialog .difficultyPicker{display:grid!important;grid-template-columns:repeat(3,1fr);gap:7px}
+#difficultyDialog .difficultyPicker>legend,#difficultyDialog .difficultyHelp{grid-column:1/-1}
+#difficultyDialog [data-difficulty="hard"]{border-color:#a95e87!important;background:linear-gradient(145deg,#371b38,#19152d)!important}
+#difficultyDialog [data-difficulty="hard"][aria-pressed="true"]{outline:2px solid #f09bc8!important}
+#difficultyDialog [data-difficulty] b{font-size:14px}#difficultyDialog [data-difficulty] small{font-size:9px!important;line-height:1.3}
+#talismanDialog[data-native-pages="true"]{overflow-y:auto!important;overflow-x:hidden!important}
+@media(max-width:430px){.talismanRuleStrip{grid-template-columns:1fr 1fr}.talismanRuleStrip>span:last-child{grid-column:1/-1}#difficultyDialog .difficultyPicker{grid-template-columns:repeat(3,1fr)}#difficultyDialog [data-difficulty]{padding:8px 4px!important}}

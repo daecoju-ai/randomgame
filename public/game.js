@@ -4,20 +4,25 @@ function luckUnit(u){if(!u.luckId)u.luckId='u'+(++luckUnitSequence);return {id:u
 function playSound(name,...args){if(typeof window!=='undefined')window.SFX?.[name]?.(...args)}
 function drawArena(){
  const a=geometry(),cx=W/2,cy=(a.top+a.bottom)/2;
- const bg=ctx.createRadialGradient(cx,cy,30,cx,cy,Math.max(W,H)*.7);bg.addColorStop(0,'#d8e8c6');bg.addColorStop(.5,'#e7efda');bg.addColorStop(1,'#f5f4e7');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
- // Fine architectural lines outside the battle area.
- ctx.strokeStyle='#62885b10';ctx.lineWidth=1;for(let x=0;x<W;x+=42){ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke()}for(let y=0;y<H;y+=42){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(W,y);ctx.stroke()}
- ctx.fillStyle='#a8c88550';ctx.beginPath();ctx.roundRect(a.left+25,a.top+26,a.width-50,a.height-52,18);ctx.fill();
+ // Deep enchanted forest floor: decorative only; unit art and 4x8 gameplay geometry stay unchanged.
+ const bg=ctx.createRadialGradient(cx,cy,28,cx,cy,Math.max(W,H)*.72);bg.addColorStop(0,'#557a4f');bg.addColorStop(.43,'#315d46');bg.addColorStop(.76,'#173c35');bg.addColorStop(1,'#09252b');ctx.fillStyle=bg;ctx.fillRect(0,0,W,H);
+ const vignette=ctx.createLinearGradient(0,0,0,H);vignette.addColorStop(0,'#061b2caa');vignette.addColorStop(.18,'#0d2c2b33');vignette.addColorStop(.72,'#10261922');vignette.addColorStop(1,'#06121ed9');ctx.fillStyle=vignette;ctx.fillRect(0,0,W,H);
+ // Moss, stones and warm lantern pools around the route.
+ for(let i=0;i<30;i++){const x=(i*83.7)%W,y=(i*47.3+37)%H,r=8+(i%5)*4;ctx.fillStyle=i%3===0?'#476d3d55':'#1e493c66';ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill()}
+ for(const t of [.04,.21,.38,.55,.72,.89]){const p=path(t);const glow=ctx.createRadialGradient(p.x,p.y,1,p.x,p.y,34);glow.addColorStop(0,'#ffd66dbb');glow.addColorStop(.2,'#f5a83b66');glow.addColorStop(1,'#f5a83b00');ctx.fillStyle=glow;ctx.beginPath();ctx.arc(p.x,p.y,34,0,7);ctx.fill();ctx.fillStyle='#ffd879';ctx.fillRect(p.x-2,p.y-5,4,8);ctx.fillStyle='#52371d';ctx.fillRect(p.x-3,p.y+3,6,5)}
+ // Premium stone loop.
  const ring=(width,color)=>{ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineJoin='round';ctx.beginPath();for(let i=0;i<=160;i++){let p=path(i/160);i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y)}ctx.closePath();ctx.stroke()};
- ring(39,'#90a77755');ring(30,'#e1c987');ring(26,'#f5dea1');ring(1,'#bba36680');
- const per=2*(a.width+a.height);for(let i=0;i<per/24;i++){let p=path(i*24/per);ctx.strokeStyle='#c5ad74';ctx.lineWidth=1;ctx.beginPath();if(p.y===a.top||p.y===a.bottom){ctx.moveTo(p.x-2,p.y-11);ctx.lineTo(p.x+2,p.y+11)}else{ctx.moveTo(p.x-11,p.y-2);ctx.lineTo(p.x+11,p.y+2)}ctx.stroke()}
- // Four carved gate stones.
- for(let x of [a.left,a.right])for(let y of [a.top,a.bottom]){ctx.fillStyle='#e3dfca';ctx.strokeStyle='#7b9e7380';ctx.beginPath();ctx.roundRect(x-15,y-15,30,30,6);ctx.fill();ctx.stroke();ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.shadowColor='#48ad88';ctx.shadowBlur=14;ctx.fillStyle='#3d9b79';ctx.fillRect(-4,-4,8,8);ctx.restore()}
- // Rune at the heart of the grid.
- ctx.save();ctx.translate(cx,cy);ctx.strokeStyle='#71925325';ctx.lineWidth=1;for(let r of [48,55,90]){ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.stroke()}ctx.rotate(Math.PI/4);ctx.strokeRect(-35,-35,70,70);ctx.restore();
+ ring(43,'#102f2b');ring(37,'#6d7757');ring(31,'#a99b6c');ring(25,'#716e4f');ring(2,'#d5c78a88');
+ const per=2*(a.width+a.height);for(let i=0;i<per/22;i++){let p=path(i*22/per);ctx.strokeStyle=i%2?'#4d5842':'#c4b68166';ctx.lineWidth=1.2;ctx.beginPath();if(p.y===a.top||p.y===a.bottom){ctx.moveTo(p.x-5,p.y-10);ctx.lineTo(p.x+4,p.y+10)}else{ctx.moveTo(p.x-10,p.y-5);ctx.lineTo(p.x+10,p.y+4)}ctx.stroke()}
+ // Inner tactical lawn.
+ const lawn=ctx.createLinearGradient(0,a.top,0,a.bottom);lawn.addColorStop(0,'#557a4b');lawn.addColorStop(.5,'#426d48');lawn.addColorStop(1,'#31583f');ctx.fillStyle=lawn;ctx.beginPath();ctx.roundRect(a.left+27,a.top+28,a.width-54,a.height-56,18);ctx.fill();ctx.strokeStyle='#8db57455';ctx.lineWidth=2;ctx.stroke();
+ // Four rune gate stones.
+ for(let x of [a.left,a.right])for(let y of [a.top,a.bottom]){ctx.fillStyle='#596655';ctx.strokeStyle='#b9aa78';ctx.lineWidth=1.4;ctx.beginPath();ctx.roundRect(x-16,y-16,32,32,7);ctx.fill();ctx.stroke();ctx.save();ctx.translate(x,y);ctx.rotate(Math.PI/4);ctx.shadowColor='#58e1b2';ctx.shadowBlur=16;ctx.fillStyle='#63d5aa';ctx.fillRect(-4,-4,8,8);ctx.restore()}
+ // Subtle rune under the board.
+ ctx.save();ctx.translate(cx,cy);ctx.strokeStyle='#9bd59b24';ctx.lineWidth=1;for(let r of [48,55,90]){ctx.beginPath();ctx.arc(0,0,r,0,7);ctx.stroke()}ctx.rotate(Math.PI/4);ctx.strokeRect(-35,-35,70,70);ctx.restore();
  const gy=Math.min(54,(a.height-88)/7),gx=(a.width-108)/3;
- for(let i=0;i<32;i++){let p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(23,gx*.45),hh=Math.min(23,gy*.44);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#eff7e2':'#e1edcf');tile.addColorStop(1,'#cddfb9');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#79a16d99':'#8baa6c66';ctx.lineWidth=1;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,6);ctx.fill();ctx.stroke();ctx.fillStyle='#66874755';ctx.font='12px serif';ctx.textAlign='center';ctx.fillText('◇',p.x,p.y+4)}
- for(let i=0;i<16;i++){let x=cx+Math.sin(i*18.3)*Math.min(W*.48,290),y=a.top+(Math.cos(i*9.1)+1)/2*a.height;ctx.globalAlpha=.16+.1*Math.sin(S.t+i);ctx.fillStyle='#ffffff';ctx.beginPath();ctx.arc(x,y,1,0,7);ctx.fill()}ctx.globalAlpha=1;
+ for(let i=0;i<32;i++){let p=slot(i),occupied=units.some(u=>u.slot===i),hw=Math.min(23,gx*.45),hh=Math.min(23,gy*.44);const tile=ctx.createLinearGradient(p.x,p.y-hh,p.x,p.y+hh);tile.addColorStop(0,occupied?'#b9d79d':'#789d6c');tile.addColorStop(1,occupied?'#769d68':'#567b59');ctx.fillStyle=tile;ctx.strokeStyle=occupied?'#c9ee9ecc':'#a5c38a66';ctx.lineWidth=1.2;ctx.beginPath();ctx.roundRect(p.x-hw,p.y-hh,hw*2,hh*2,7);ctx.fill();ctx.stroke();ctx.fillStyle=occupied?'#e3f7b455':'#b9d99d44';ctx.font='12px serif';ctx.textAlign='center';ctx.fillText('◇',p.x,p.y+4)}
+ for(let i=0;i<18;i++){let x=cx+Math.sin(i*18.3)*Math.min(W*.48,290),y=a.top+(Math.cos(i*9.1)+1)/2*a.height;ctx.globalAlpha=.12+.1*Math.sin(S.t+i);ctx.fillStyle=i%3?'#c9f5cf':'#ffe4a0';ctx.beginPath();ctx.arc(x,y,1.2,0,7);ctx.fill()}ctx.globalAlpha=1;
 }
 
 

@@ -22,3 +22,21 @@ console.log('\nPersistent attack multipliers');
 for(const [name,lv,stars] of [['신규',1,0],['초기성장',10,3],['중간성장',20,8],['후반성장',30,15],['최대',30,20]]){
  console.log(name,(1+.05*(lv-1)+.2*stars).toFixed(2)+'x');
 }
+
+console.log('\nBase attack DPS by element/tier (before skills/talismans)');
+const elements=[['fire',7,.95],['water',6,1],['earth',8,1.2],['wind',5,.65],['electric',6,.85],['shadow',10,1.1]];
+for(let tier=1;tier<=5;tier++){
+ const row=elements.map(([name,atk,rate])=>{
+  const base=atk*Math.pow(2.6,tier-1),interval=rate/(1+tier*.1),dps=base/interval;
+  const role=name==='shadow'?dps*(B.combat.shadowBoss*(1+B.combat.shadowCrit*(B.combat.critMultiplier-1))):dps;
+  return name+':'+Math.round(role);
+ });
+ console.log('T'+tier,row.join(' | '));
+}
+console.log('\nW30 boss effective HP range');
+const finalBoss=bossProfiles.at(-1);
+for(const [key,d] of Object.entries(B.difficulties)){
+ const raw=B.waves.bossBaseHp*B.waves.hpGrowth**29*finalBoss[1]*d.hp;
+ const initial=effective(raw,finalBoss[2]),awakened=effective(raw,Math.min(.65,finalBoss[2]+.08));
+ console.log(key,Math.round(initial)+' -> '+Math.round(awakened),'limit '+d.final+'s');
+}

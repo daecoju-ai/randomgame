@@ -233,3 +233,14 @@ for(const [id,d] of Object.entries(B.difficulties)){
 if(B.difficulties.hard.hp<1.55){console.error('WARN max-account hard HP may be too forgiving below 1.55x; live simulation required before raising.')}
 if(B.difficulties.easy.hp>.55){console.error('FAIL easy should remain onboarding-friendly');process.exitCode=1}
 console.log('Design target at MAX account: Easy = comfortable/farm, Normal = reliable but placement-sensitive, Hard = optimized roster/support/positioning required; max progression must not imply automatic Hard clear.');
+
+
+console.log('\nF2P progression pacing targets');
+const prog=B.progression;
+const levelTotal=tier=>Array.from({length:29},(_,i)=>i+1).reduce((s,lv)=>s+Math.max(1,Math.round(lv*12*(prog.levelGoldScale[tier]??1))),0);
+const skillTotal=tier=>Array.from({length:19},(_,i)=>i+1).reduce((s,r)=>s+Math.max(1,Math.round(r*2*tier*(prog.skillDiamondScale[tier]??1))),0);
+for(let tier=1;tier<=5;tier++)console.log('T'+tier,'Lv1-30 gold',levelTotal(tier),'one skill 1-20 diamonds',skillTotal(tier));
+console.log('Easy target:',prog.freeTarget.easyHours,'active hours to first clear with focused T1-T3 growth; lucky T4/T5 draw may accelerate but is not required.');
+console.log('Normal target:',prog.freeTarget.normalDays,'days F2P with favorable T1-T5 draw/upgrade allocation; not a guaranteed calendar-day clear.');
+if(!(B.difficulties.easy.hp<=.45&&B.difficulties.easy.gold>=.8)){console.error('FAIL easy pacing must support early free progression');process.exitCode=1}
+if(!(B.difficulties.normal.hp>=1&&B.difficulties.normal.final<=90)){console.error('FAIL normal should remain a month-scale progression gate');process.exitCode=1}

@@ -79,3 +79,8 @@ for(let tier=1;tier<=5;tier++){
  const nums=values.map(x=>x[1]),lo=Math.min(...nums),hi=Math.max(...nums),avg=nums.reduce((a,b)=>a+b,0)/nums.length;
  console.log('T'+tier,'avg '+avg.toFixed(1),'spread '+((hi/lo-1)*100).toFixed(1)+'%',values.map(x=>x[0]+':'+Math.round(x[1])).join(' | '));
 }
+
+console.log('\nRole-aware balance targets');
+console.log('shadow: intentional single-target outlier; short range/no broad AoE. Do NOT normalize it to six-element average.');
+console.log('shadow boss target: roughly 1.7x-2.3x sustained single-target DPS of generalist elements is acceptable.');
+console.log('fire/electric: judge pack/AoE DPS; water: control-adjusted value; earth: durable burst/control; wind: attack cadence/cooldown value.');

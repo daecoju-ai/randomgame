@@ -115,3 +115,34 @@ if(!(B.combat.singleSkill>1))fail.push('single-target premium must exceed AoE/co
 if(!(B.combat.shadowBoss>B.combat.shadowNormal))fail.push('shadow boss multiplier must exceed normal multiplier');
 if(!Object.values(B.difficulties).every(d=>d.cap===80))fail.push('all modes must use 80-monster fail cap');
 if(fail.length){console.error('FAIL',fail.join(' | '));process.exitCode=1}else console.log('PASS support < attacker; single > AoE/control; shadow boss > shadow normal; cap=80');
+
+
+console.log('\nDeterministic combat QA matrix');
+const defenseTargets=[['slime',.04,false],['beetle',.14,false],['W30',.20,true],['W30-phase',.28,true]];
+const directEffects={single:1,ice:1,strike:2,burst:2,bossStrike:2,deathMark:2,execute:1,area:1,wave:1,stun:1,chain:1,meteor:1.5,tidal:1,flurry:1};
+const roleMult=effect=>['single','ice','strike','burst','bossStrike','deathMark','execute','mark'].includes(effect)?B.combat.singleSkill:1;
+const expectedHit=(element,raw,targetDef,boss=false)=>{
+ const elem=B.combat.element?.[element]??1;
+ const shadow=element==='shadow'?(boss?B.combat.shadowBoss:B.combat.shadowNormal):1;
+ return raw*elem*shadow*(1-targetDef);
+};
+for(const tier of [1,3,5]){
+ console.log('T'+tier);
+ for(const [element,atk,rate] of elements){
+  const base=atk*Math.pow(2.6,tier-1),effect=element==='shadow'?'strike':'single',shown=base*roleMult(effect)*(directEffects[effect]||1);
+  const cells={fire:3,water:3,earth:1,wind:2,electric:2,shadow:1}[element];
+  const targetText=defenseTargets.map(([name,def,boss])=>name+':'+expectedHit(element,shown,def,boss).toFixed(1)).join(' | ');
+  console.log(element,'range '+cells,'shown '+shown.toFixed(1),'->',targetText);
+ }
+}
+console.log('Note: deterministic QA excludes random crit from exact equality; shadow crit is audited separately as expected-value DPS.');
+
+console.log('\n30-wave pressure gates');
+let previous=0;
+for(const wave of Array.from({length:30},(_,i)=>i+1)){
+ const scale=B.waves.hpGrowth**(wave-1),avg=normalProfiles.reduce((sum,p)=>sum+effective(B.waves.normalBaseHp*scale*p[1],p[2]),0)/normalProfiles.length;
+ const boss=wave%5===0?(()=>{const p=bossProfiles[wave/5-1];return effective(B.waves.bossBaseHp*scale*p[1],p[2])})():0,total=avg*29+boss;
+ if(total<previous*.82)console.error('WARN pressure drop W'+wave,Math.round(previous),'->',Math.round(total));
+ previous=total;
+ if(wave===1||wave%5===0)console.log('W'+wave,'normal effective pack',Math.round(total));
+}

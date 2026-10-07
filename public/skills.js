@@ -136,9 +136,9 @@ function tickBattleStatus(dt){
 // Display the same coefficients used by casting, before critical hits and target debuffs.
 function skillDamageBaseText(u,def){
  if(def.ultimate&&isSupport(u))return '직접 피해 0 · '+ultimateSupportText(u,def.rank||1);
- if(def.ultimate){const v=skillStats(def,def.rank||1,u);return '피해 '+((Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(1+talismanBonus(u,'attack')))*v.power).toFixed(1)+' · 현재 공격력의 '+Math.round(v.power*100)+'%'}
+ if(def.ultimate){const v=skillStats(def,def.rank||1,u),base=(Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(isSupport(u)?(window.ForgeBalance?.combat?.supportAttack??.55):1)*(1+talismanBonus(u,'attack')))*v.power;return '피해 '+base.toFixed(1)+' · 현재 공격력의 '+Math.round(v.power*100)+'%'}
  if(def.damageText)return def.damageText;if(def.components)return def.components.map(d=>d.name+': '+skillDamageBaseText(u,{...d,rank:def.rank})).join(' / ');
- const v=skillStats(def,def.rank||1,u),f=def.effect,base=(Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(1+talismanBonus(u,'attack')))*v.power;
+ const v=skillStats(def,def.rank||1,u),f=def.effect,base=(Number.isInteger(u.slot)?combatAttack(u):battleAttack(u)*(isSupport(u)?(window.ForgeBalance?.combat?.supportAttack??.55):1)*(1+talismanBonus(u,'attack')))*v.power*skillRoleMultiplier(def);
  const n=ratio=>(base*ratio).toFixed(1),pct=ratio=>Math.round(v.power*ratio*100)+'%';
  const hit=(ratio=1)=>'피해 '+n(ratio)+' · 현재 공격력의 '+pct(ratio);
  if(PASSIVES.includes(f)||FRIENDLY_SKILLS.includes(f)||['mark','blessing','mana','reorder','clarity'].includes(f)){

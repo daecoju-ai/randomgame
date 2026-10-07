@@ -84,3 +84,18 @@ console.log('\nRole-aware balance targets');
 console.log('shadow: intentional single-target outlier; short range/no broad AoE. Do NOT normalize it to six-element average.');
 console.log('shadow boss target: roughly 1.7x-2.3x sustained single-target DPS of generalist elements is acceptable.');
 console.log('fire/electric: judge pack/AoE DPS; water: control-adjusted value; earth: durable burst/control; wind: attack cadence/cooldown value.');
+
+
+console.log('\nRange contract');
+console.log('earth 1 / shadow 1 = melee 1 tile');
+console.log('wind 2 / electric 2 = mid 2 tiles');
+console.log('fire 3 / water 3 = ranged 3 tiles');
+
+console.log('\nDisplayed-vs-runtime damage contract');
+console.log('single/area/wave/ice/stun/global: displayed power = combatAttack * skill power before monster defense/vulnerability.');
+console.log('strike,bossStrike: displayed 2x and runtime factor 2x.');
+console.log('meteor: displayed 1.5x and runtime factor 1.5x.');
+console.log('burst: displayed total 2x and runtime repeats sum to 2x.');
+console.log('tidal/flurry: displayed total power and runtime repeats sum to 1x.');
+console.log('execute: displayed 1x; <=30% HP runtime 4x normal / 2x boss.');
+console.log('All hero damage then passes element/shadow/crit modifiers and monster defense/vulnerability exactly once.');

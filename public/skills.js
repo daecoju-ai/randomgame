@@ -20,7 +20,7 @@ const PASSIVES=['speed','clone','attackAura','splashAura','manaAura','earthAura'
 const FRIENDLY_SKILLS=['fury','cleanse','clarity','earthFury','swift','critFury'];
 function combatCell(){return (geometry().width-108)/3}
 function supportRadius(){return combatCell()*2.2}
-function rangeLabel(u){const e=elementFor(u.type);return `${e.reach<=1?'근접':e.reach<2?'중거리':'원거리'} ${e.reach}칸`}
+function rangeLabel(u){const e=elementFor(u.type),cells=e.reach<=1?1:e.reach<=2?2:3;return `${cells===1?'근거리':cells===2?'중거리':'원거리'} ${cells}칸`}
 
 const ULTIMATE_NAMES=['태산 붕괴','월식 참살','대륙의 수호','해양의 기적','천공의 행진','천뢰의 공명','흑월 강림','폭풍 분쇄','불사조 강림','천벌 강림','절대 빙하','홍련의 성역','만독의 재앙','심판의 철우','시간의 종말','초신성 강림','공허 대붕괴'];
 function ultimateDefinition(u){return{name:ULTIMATE_NAMES[u.type],effect:'ultimate',slot:5,tier:5,unlock:20,active:true,ultimate:true,visualKey:elementFor(u.type).id+':ultimate:'+u.type}}
@@ -66,7 +66,7 @@ function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),element=ele
 function dealHeroDamage(u,enemy,amount){hit(enemy,outgoingDamage(u,enemy,amount),U[u.type].kind,false,u)}
 let skillZones=[];
 function nearestTarget(u,strongest=false){const alive=mobs.filter(m=>m.hp>0&&d(slot(u.slot),m)<=battleRange(u));return strongest?alive.sort((a,b)=>Number(!!b.boss)-Number(!!a.boss)||b.hp-a.hp)[0]:alive.filter(m=>d(slot(u.slot),m)<=battleRange(u)).sort((a,b)=>b.p-a.p)[0]}
-function skillDamage(enemy,amount){hit(enemy,amount,'skill')}
+function skillDamage(enemy,amount,source=null){if(source)dealHeroDamage(source,enemy,amount);else hit(enemy,amount,'skill')}
 function offensiveFxTarget(target){return target&&mobs.includes(target)&&target.hp>0&&Number.isFinite(target.x)&&Number.isFinite(target.y)?target:null}
 function showSkill(u,def,v,target){const origin=slot(u.slot),color=U[u.type].accent,isFriendly=FRIENDLY_SKILLS.includes(def.effect);if(isFriendly){skillEffects.push({x:origin.x,y:origin.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,type:u.type,origin,life:.55,support:true})}else{const enemy=offensiveFxTarget(target);if(enemy)skillEffects.push({x:enemy.x,y:enemy.y,r:v.radius,t:.55,color,kind:elementFor(u.type).id,effect:def.effect,slot:def.slot,type:u.type,origin,life:.55,support:false,targetId:enemy.luckId})}playSound('skill',{element:elementFor(u.type).id,effect:def.effect,slot:def.slot,rank:v.rank||1})}
 function castHeroSkill(u,def,rank,target){if(def.ultimate){castUltimate(u,def,rank,target);return}if(def.components){for(const part of def.components){if(part.active)castHeroSkill(u,part,rank,target)}return}if(castSpecialSkill(u,def,rank,target))return;const v=skillStats(def,rank,u),origin=slot(u.slot),damage=combatAttack(u)*v.power,f=def.effect;let targets=[];

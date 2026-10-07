@@ -49,7 +49,7 @@ function skillDescription(def,rank,u){if(def.ultimate)return isSupport(u)?ultima
 function skillRows(u){return definitions(u).map(def=>{const rank=skillRank(u,def.slot);return{...def,rank,unlocked:rank>0,available:true,description:(def.components||[def]).map(d=>skillDescription(d,rank||1,u)).join(' / ')}})}
 function levelUpSkill(type,tier,i){if(window.ForgeAccount?.currentUser?.())return window.ForgeAdventure.upgrade('skill',{type,tier,slot:i});if(window.ForgeAccount){window.ForgeAccount.open();return false;}if(started&&!ended||typeof window!=='undefined'&&window.ForgeAccount&&!window.ForgeAccount.allowed())return false;if(!Number.isInteger(i)||!validHero(type,tier))return false;const u={type,lv:tier},rank=skillRank(u,i),cost=skillCost(u,i);if(!rank||rank>=20||essence<cost)return false;essence-=cost;heroSkills[skillKey(u,i)]=rank+1;saveMeta();playSound('levelUp');renderHeroLab();return true}
 function prepareSkills(u){if(!Number.isFinite(u.mp))u.mp=0;if(!u.skillCD)u.skillCD=Array(7).fill(0);if(!Number.isInteger(u.skillCursor))u.skillCursor=0;if(!u.buffs)u.buffs={}}
-function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0,resist:0,splash:0,crit:0,critPower:0,shock:0};
+function skillModifiers(u){const caps=window.ForgeBalance?.supportCaps||{attack:.60,speed:.55,mana:.80,haste:.45,splash:.45,crit:.40,critPower:.60,shock:.60};const result={attack:0,speed:0,mana:0,haste:0,clone:0,resist:0,splash:0,crit:0,critPower:0,shock:0};
  const add=(key,value)=>result[key]=Math.max(result[key],value);
  for(const ally of units){if(ally.stun>0)continue;for(const def of resolvedSkills(ally)){const rank=skillRank(ally,def.slot);if(!rank||def.active)continue;const v=skillStats(def,rank,ally);
   if(ally===u&&def.effect==='speed')add('speed',v.bonus);if(ally===u&&def.effect==='clone')add('clone',v.bonus*2);
@@ -59,7 +59,7 @@ function skillModifiers(u){const result={attack:0,speed:0,mana:0,haste:0,clone:0
  }}
  for(const buff of Object.values(u.buffs||{})){if(buff.time<=0)continue;for(const key in result)if(buff[key])add(key,buff[key])}
  result.speed+=talismanBonus(u,'speed');result.mana+=talismanBonus(u,'mana');result.haste+=talismanBonus(u,'haste');result.crit+=talismanBonus(u,'crit');result.critPower+=talismanBonus(u,'critPower');
- result.haste=Math.min(.45,result.haste);result.crit=Math.min(.75,result.crit);return result;
+ result.attack=Math.min(caps.attack,result.attack);result.speed=Math.min(caps.speed,result.speed);result.mana=Math.min(caps.mana,result.mana);result.haste=Math.min(caps.haste,result.haste);result.splash=Math.min(caps.splash,result.splash);result.crit=Math.min(caps.crit,result.crit);result.critPower=Math.min(caps.critPower,result.critPower);result.shock=Math.min(caps.shock,result.shock);return result;
 }
 function combatAttack(u){return battleAttack(u)*(1+skillModifiers(u).attack)*(1+talismanBonus(u,'attack'))}
 function outgoingDamage(u,enemy,amount){const mods=skillModifiers(u),shadow=elementFor(u.type).id==='shadow',bal=window.ForgeBalance?.combat||{shadowNormal:2.4,shadowBoss:1.8,shadowCrit:.15,critMultiplier:2};let damage=amount*(shadow?(enemy.boss?bal.shadowBoss:bal.shadowNormal):1);if(Math.random()<Math.min(.85,(shadow?bal.shadowCrit:0)+mods.crit))damage*=bal.critMultiplier+mods.critPower;return damage}

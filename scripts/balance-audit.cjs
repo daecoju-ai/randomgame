@@ -51,3 +51,24 @@ for(const rank of [1,10,20]){
  const scale=1+.1*(rank-1);
  console.log('rank '+rank,'power '+Math.round(q.power*scale*100)+'%','duration '+(q.duration*scale).toFixed(1)+'s','MP '+q.mp,'CD '+q.cooldown+'s');
 }
+
+
+console.log('\nWave pressure / target clear-time audit');
+const normalProfiles=[
+ ['slime',1,.04],['bat',.70,0],['beetle',1.32,.14]
+];
+const checkpoints=[1,5,10,15,20,25,30];
+for(const [key,diff] of Object.entries(B.difficulties)){
+ console.log('\n['+key+']');
+ for(const wave of checkpoints){
+  const scale=B.waves.hpGrowth**(wave-1);
+  const avgNormal=normalProfiles.reduce((sum,p)=>sum+effective(B.waves.normalBaseHp*scale*p[1]*diff.hp,p[2]),0)/normalProfiles.length;
+  const wavePack=avgNormal*29;
+  let boss=0;
+  if(wave%5===0){const p=bossProfiles[wave/5-1];boss=effective(B.waves.bossBaseHp*scale*p[1]*diff.hp,p[2]);}
+  const total=wavePack+boss;
+  const target=wave<10?18:wave<20?22:wave<30?27:diff.final;
+  console.log('W'+wave,'effective pack '+Math.round(total),'target team DPS '+Math.round(total/target),'target '+target+'s');
+ }
+}
+console.log('\nDesign target: Easy ~= 60% Normal pressure, Hard ~= 145% Normal pressure after HP/speed/start-coin effects. 80 live monsters is a universal fail condition.');

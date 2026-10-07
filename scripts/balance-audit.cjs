@@ -99,3 +99,10 @@ console.log('burst: displayed total 2x and runtime repeats sum to 2x.');
 console.log('tidal/flurry: displayed total power and runtime repeats sum to 1x.');
 console.log('execute: displayed 1x; <=30% HP runtime 4x normal / 2x boss.');
 console.log('All hero damage then passes element/shadow/crit modifiers and monster defense/vulnerability exactly once.');
+
+
+console.log('\nCombat role hierarchy');
+console.log('support final-form personal offense multiplier:',B.combat.supportAttack,'(buff/control utility excluded from personal DPS)');
+console.log('single-target active skill multiplier:',B.combat.singleSkill,'(highest direct skill damage class)');
+console.log('Rule: support personal DPS < attack-form personal DPS; single-target direct skills > equal-rank AoE/control direct hit.');
+console.log('Shadow remains an intentional boss/single-target specialist on top of the single-target premium.');

@@ -197,3 +197,16 @@ for(const [id,name,atk,rate,range,price] of specials){
 }
 if(!(B.combat.specialUnit>1&&B.combat.specialUnit<=1.25)){console.error('FAIL special unit premium should be meaningful but controlled (1.01-1.25)');process.exitCode=1}
 console.log('Rule: special units receive a controlled premium on top of unique mechanics; premium must not erase shadow single-target/boss identity.');
+
+
+console.log('\nSpecial purchase-tier value gates');
+let last=0;
+for(const [id,name,atk,rate,range,price] of specials){
+ const tier=B.combat.specialPremium?.[id]??1,total=B.combat.specialUnit*tier;
+ const base=atk*Math.pow(2.6,4)/(rate/(1+5*.1)),premium=base*total;
+ console.log(name,'price',price,'premium',total.toFixed(3)+'x','T5 personal DPS',premium.toFixed(1),'role range',range);
+ if(price>=250&&total<1.20){console.error('FAIL '+name+' premium too low for 250+ price tier');process.exitCode=1}
+ if(price>=300&&total<1.30){console.error('FAIL '+name+' premium too low for 300 price tier');process.exitCode=1}
+ if(price>last&&last>0){} last=price;
+}
+console.log('Intent: 200 tier = unique mechanic +18%; 250 tier ~= +25%; 300 tier ~= +32%, while shadow keeps the dedicated boss/single-target ceiling.');

@@ -1,0 +1,2 @@
+const A=require('../lib/account.cjs');
+module.exports=async(req,res)=>{try{res.setHeader('Cache-Control','no-store, private');if(req.method!=='GET')throw new A.Fault(405,'METHOD','지원하지 않는 요청입니다.');const mode=['easy','normal','hard'].includes(req.query?.mode)?req.query.mode:'easy';const auth=await A.identity(req,res);const rows=await A.upstream('/rest/v1/rpc/forge_weekly_ranking',{method:'POST',token:auth?.token,body:{p_mode:mode}});res.status(200).json(rows)}catch(e){A.fail(res,e)}};

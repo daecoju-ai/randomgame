@@ -1,9 +1,9 @@
 /* Static balance lives in GitHub/Vercel, not Supabase. User-owned state only goes to Supabase. */
 (()=>{'use strict';
 window.ForgeBalance=Object.freeze({
- schema:6,
+ schema:7,
  waves:Object.freeze({count:30,spawnInterval:20,hpGrowth:1.155,normalBaseHp:84,eliteBaseHp:136,bossBaseHp:700,eliteEvery:10}),
- combat:Object.freeze({shadowNormal:2.4,shadowBoss:1.8,shadowCrit:.15,critMultiplier:2,fireSplash:.25}),
+ combat:Object.freeze({shadowNormal:2.0,shadowBoss:1.55,shadowCrit:.12,critMultiplier:2,fireSplash:.22,element:Object.freeze({fire:.98,water:1.05,earth:1.08,wind:.92,electric:1.00,shadow:1.00})}),
  supportCaps:Object.freeze({attack:.60,speed:.55,mana:.80,haste:.45,splash:.45,crit:.40,critPower:.60,shock:.60}),
  ultimate:Object.freeze({power:64,mp:80,cooldown:45,radius:3,duration:8}),
  difficulties:Object.freeze({

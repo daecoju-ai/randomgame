@@ -27,7 +27,7 @@ window.ForgeAdventure={
  unitStars:()=>state?.unitStars||{},unitCards:()=>state?.unitCards||{},battleUnitStars:()=>battleStars,
  enhanceUnit:(type,tier)=>claim('unit_enhance',{type,tier}),
  async buyUnit(type){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_buy',{type})},
- async drawUnit(){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);return mutate('unit_draw')},
+ async drawUnit(count=1){const id=window.ForgeAccount?.currentUser()?.id;if(!id){window.ForgeAccount?.open();return null}if(window.ForgeGame.inBattle())return null;if(!state&&!await ready(id))throw Error(message);const n=count===10?10:1;return mutate('unit_draw',{count:n})},
  talismanLevels:()=>state?.talismanLevels||{},battleTalismanLevels:()=>battleLevels,
  claimBattle:()=>claim('claim_battle'),
  active:()=>!!state&&state.owner===window.ForgeAccount?.currentUser()?.id,

@@ -1,0 +1,7 @@
+/* Weekly Honor: competitive score from server-validated battle results. */
+(()=>{'use strict';const $=s=>document.querySelector(s);let mode='easy';
+async function api(){const r=await fetch('/api/ranking?mode='+encodeURIComponent(mode),{credentials:'same-origin',cache:'no-store'}),v=await r.json();if(!r.ok)throw Error(v.message||'랭킹을 불러오지 못했습니다.');return v}
+function row(x,i){return '<article class="rankRow"><strong>'+(i+1)+'</strong><span><b>'+String(x.name||'모험가').replace(/[<>]/g,'')+'</b><small>'+x.wave+'W · 보스 '+x.bosses+' · '+(x.won?'클리어':'도전')+'</small></span><em>'+Number(x.score).toLocaleString()+'</em></article>'}
+async function load(){if(!$('#rankingList'))return;$('#rankingStatus').textContent='이번 주 기록을 불러오는 중…';try{const v=await api();$('#rankingStatus').textContent=v.week+' · '+v.modeLabel;$('#rankingList').innerHTML=v.rows.map(row).join('')||'<p>아직 기록이 없습니다. 첫 기록의 주인공이 되어보세요.</p>';$('#rankingMy').innerHTML=v.mine?'<div class="myRank"><b>내 최고 기록</b><strong>'+v.mine.rank+'위 · '+Number(v.mine.score).toLocaleString()+'점</strong></div>':''}catch(e){$('#rankingStatus').textContent=e.message}}
+$('#openRanking')?.addEventListener('click',()=>{$('#eventHub')?.close();$('#rankingDialog')?.showModal();load()});$('#closeRanking')?.addEventListener('click',()=>$('#rankingDialog').close());document.querySelectorAll('[data-rank-mode]').forEach(b=>b.onclick=()=>{mode=b.dataset.rankMode;document.querySelectorAll('[data-rank-mode]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));load()});
+})();

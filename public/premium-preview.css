@@ -1079,3 +1079,17 @@ body{background:
   #gameWrap #selectionPanel #sellUnit,
   #gameWrap #selectionPanel #selectedSkills{font-size:10px!important;padding:5px!important}
 }
+
+
+/* V136 — restore explicit stage counter in the battle HUD. */
+#gameWrap .status.compactStatus{grid-template-columns:repeat(4,minmax(0,1fr))!important}
+#gameWrap .status.compactStatus>div{min-width:0!important}
+#gameWrap .status.compactStatus #stage{color:#fff3b5!important;font-weight:900!important}
+#gameWrap .status.compactStatus #wave{color:#fff!important}
+@media(max-width:390px){
+ #gameWrap .status.compactStatus{width:calc(100% - 16px)!important}
+ #gameWrap .status.compactStatus>div{padding:3px 1px!important}
+ #gameWrap .status.compactStatus>div small{font-size:6px!important}
+ #gameWrap .status.compactStatus strong{font-size:12px!important}
+ #gameWrap .status.compactStatus .premiumIcon{width:15px!important;height:15px!important}
+}

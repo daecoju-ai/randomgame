@@ -910,3 +910,96 @@ body{background:
 #gameWrap .bottom{height:67px!important;padding-top:6px!important}
 #gameWrap .bottom button{height:49px!important;min-height:49px!important}
 @media(max-width:390px){#gameWrap .top{grid-template-columns:minmax(0,1fr) repeat(5,29px)!important;gap:2px!important}#gameWrap .top button{width:29px!important;min-width:29px!important;height:31px!important;min-height:31px!important}#gameWrap .top .brand{font-size:9px!important}#gameWrap .top .brand-mark{display:none!important}#gameWrap .status.compactStatus{top:51px!important}#gameWrap #stageProgress{top:101px!important}#gameWrap>#g{margin-top:109px!important}}
+
+
+/* V134 — mobile lobby overflow correction (2026-10-08).
+   Fixes the stretched brand seal, wrapped wallet values, overlapping secondary menu,
+   and cramped hero/guardian copy without changing any JS hooks or game logic. */
+#startScreen .lobbyTop>.lobbyBrandMark{
+  flex:0 0 46px!important;
+  width:46px!important;
+  min-width:46px!important;
+  max-width:46px!important;
+  height:46px!important;
+  aspect-ratio:1/1!important;
+  box-sizing:border-box!important;
+}
+#startScreen .lobbyTop>.lobbyTitleStack{
+  flex:0 1 auto!important;
+  width:auto!important;
+  min-width:0!important;
+  max-width:calc(100% - 55px)!important;
+}
+#startScreen .lobbyTitleStack>small,
+#startScreen .lobbyTitleStack h1,
+#startScreen .lobbyTitleStack h1 b{white-space:nowrap!important}
+#startScreen .lobbyToolbar{
+  grid-template-columns:72px minmax(0,1fr) 42px 42px!important;
+  min-width:0!important;
+}
+#startScreen .headerWallet{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  width:100%!important;
+  min-width:0!important;
+}
+#startScreen .headerWallet>div{
+  min-width:0!important;
+  width:auto!important;
+  padding:5px 3px!important;
+  justify-content:center!important;
+  gap:2px!important;
+  overflow:hidden!important;
+}
+#startScreen .headerWallet strong{
+  white-space:nowrap!important;
+  word-break:keep-all!important;
+  overflow-wrap:normal!important;
+  font-size:13px!important;
+  line-height:1!important;
+}
+#startScreen .headerWallet .premiumIcon{width:19px!important;height:19px!important}
+#startScreen .lobbyOverview{min-width:0!important}
+#startScreen .lobbyShowcase,#startScreen .guardianLobby{min-width:0!important}
+#startScreen .guardianLobby b,#startScreen .guardianLobby small{
+  max-width:100%!important;
+  overflow-wrap:normal!important;
+  word-break:keep-all!important;
+}
+#startScreen .homeSecondary{
+  width:100%!important;
+  min-width:0!important;
+  overflow:hidden!important;
+}
+#startScreen .homeSecondary>button{
+  width:100%!important;
+  max-width:100%!important;
+  overflow:hidden!important;
+}
+#startScreen .homeSecondary>button>span:last-child{
+  overflow:hidden!important;
+}
+#startScreen .homeSecondary b,
+#startScreen .homeSecondary small{
+  display:block!important;
+  max-width:100%!important;
+  overflow:hidden!important;
+  text-overflow:ellipsis!important;
+}
+@media(max-width:390px){
+  #startScreen .lobbyTop>.lobbyBrandMark{
+    flex-basis:40px!important;width:40px!important;min-width:40px!important;max-width:40px!important;height:40px!important;font-size:22px!important;
+  }
+  #startScreen .lobbyTop>.lobbyTitleStack{max-width:calc(100% - 49px)!important}
+  #startScreen .lobbyTitleStack h1{font-size:16px!important}
+  #startScreen .lobbyTitleStack h1 b{font-size:23px!important}
+  #startScreen .lobbyToolbar{grid-template-columns:62px minmax(0,1fr) 38px 38px!important;gap:4px!important}
+  #startScreen .headerWallet>div{padding:4px 2px!important}
+  #startScreen .headerWallet strong{font-size:12px!important}
+  #startScreen .headerWallet .premiumIcon{width:17px!important;height:17px!important}
+  #startScreen .homeSecondary{grid-template-columns:repeat(3,minmax(0,1fr))!important}
+  #startScreen .homeSecondary>button{gap:3px!important;padding:4px 3px!important}
+  #startScreen .homeSecondary .premiumIcon{width:21px!important;height:21px!important}
+  #startScreen .homeSecondary b{font-size:9px!important}
+  #startScreen .homeSecondary small{font-size:6px!important}
+}

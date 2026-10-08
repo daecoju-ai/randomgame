@@ -893,3 +893,20 @@ body{background:
 #honorShopPreview{grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:4px!important;margin:5px 0!important}
 #honorShopPreview article{padding:5px!important;border-radius:8px!important;background:#f8fff6!important;border:1px solid #b8ceb9!important}#honorShopPreview article b{font-size:8px!important;color:#26483c!important}#honorShopPreview article span,#honorShopPreview article small{font-size:6px!important;color:#60776e!important}
 @media(max-width:390px){#rankingList .rankRow{grid-template-columns:27px minmax(0,1fr) auto!important}#honorShopPreview{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+
+/* V133 — battle header correction + reference HUD density. All five controls remain accessible. */
+#gameWrap .top{grid-template-columns:minmax(0,1fr) repeat(5,34px)!important;gap:3px!important;height:50px!important;padding:5px 6px!important}
+#gameWrap .top .grow{display:none!important}
+#gameWrap .top button{width:34px!important;min-width:34px!important;height:34px!important;min-height:34px!important;padding:2px!important;border-radius:8px!important;font-size:0!important;line-height:1!important}
+#gameWrap #soundToggle:after{content:"♫";font-size:16px!important}#gameWrap #accountHeaderButton{font-size:15px!important}#gameWrap #homeButton{font-size:17px!important}#gameWrap #pause{font-size:15px!important}#gameWrap #install:after{content:"↓";font-size:17px!important}
+#gameWrap .status.compactStatus{top:53px!important;height:47px!important;width:min(95%,430px)!important;padding:4px!important;gap:4px!important}
+#gameWrap .status>div{min-height:36px!important;padding:3px!important;border-radius:8px!important}#gameWrap .status>div small{font-size:6px!important}#gameWrap .status strong{font-size:14px!important}
+#gameWrap #stageProgress{top:103px!important;height:5px!important}
+#gameWrap>#g{margin-top:111px!important;max-height:calc(100dvh - 294px)!important}
+#gameWrap #bossWrap{top:109px!important}
+#battleSideTools{top:112px!important}
+#gameWrap #guardianHUD{bottom:91px!important}
+#gameWrap .battleGuideStrip{bottom:69px!important}
+#gameWrap .bottom{height:67px!important;padding-top:6px!important}
+#gameWrap .bottom button{height:49px!important;min-height:49px!important}
+@media(max-width:390px){#gameWrap .top{grid-template-columns:minmax(0,1fr) repeat(5,29px)!important;gap:2px!important}#gameWrap .top button{width:29px!important;min-width:29px!important;height:31px!important;min-height:31px!important}#gameWrap .top .brand{font-size:9px!important}#gameWrap .top .brand-mark{display:none!important}#gameWrap .status.compactStatus{top:51px!important}#gameWrap #stageProgress{top:101px!important}#gameWrap>#g{margin-top:109px!important}}

@@ -1267,3 +1267,66 @@ body{background:
  #startScreen .homePrimary b{font-size:19px!important}
  #startScreen .homePrimary small{font-size:11px!important}
 }
+
+
+/* V142 — shop hub is a true full-screen game view, not a centered modal */
+#shopHub{
+ position:fixed!important;
+ inset:0!important;
+ width:100vw!important;
+ height:100dvh!important;
+ max-width:none!important;
+ max-height:none!important;
+ margin:0!important;
+ padding:0 14px 18px!important;
+ border:0!important;
+ border-radius:0!important;
+ overflow-y:auto!important;
+ overflow-x:hidden!important;
+ box-sizing:border-box!important;
+ background:radial-gradient(circle at 50% 0,rgba(74,155,194,.28),transparent 30%),linear-gradient(180deg,#0b3048,#0b3b43 52%,#082830)!important;
+}
+#shopHub>header{
+ position:sticky!important;top:0!important;z-index:12!important;
+ min-height:94px!important;margin:0 -14px 12px!important;padding:18px 20px 12px!important;
+ border-radius:0!important;box-sizing:border-box!important;
+}
+#shopHub>header h2{font-size:30px!important;line-height:1.05!important}
+#shopHub>header small{font-size:11px!important}
+#shopHub>header button,#shopHub .closeHub{
+ width:58px!important;height:58px!important;min-width:58px!important;min-height:58px!important;
+ border-radius:15px!important;font-size:27px!important;
+}
+#shopHub .shopQuickTabs{
+ top:94px!important;
+ min-height:62px!important;
+ margin:0 0 12px!important;padding:7px!important;gap:7px!important;
+ border-radius:14px!important;
+}
+#shopHub .shopQuickTabs button{height:48px!important;min-height:48px!important;font-size:14px!important;border-radius:10px!important}
+#shopHub .hubGrid{gap:12px!important;margin:12px 0!important}
+#shopHub .hubGrid>button{
+ min-height:150px!important;
+ padding:14px 10px!important;
+ border-radius:18px!important;
+}
+#shopHub .hubGrid>button>b{font-size:20px!important;line-height:1.15!important}
+#shopHub .hubGrid>button>small{font-size:12px!important;line-height:1.3!important;margin-top:6px!important}
+#shopHub .hubGrid .premiumIcon{width:46px!important;height:46px!important}
+#shopHub .shopCollectionLinks{display:grid!important;grid-template-columns:1fr!important;gap:9px!important}
+#shopHub .shopCollectionLinks>button{
+ min-height:72px!important;padding:10px 14px!important;border-radius:13px!important;text-align:left!important;
+}
+#shopHub .shopCollectionLinks>button b{font-size:17px!important}
+#shopHub .shopCollectionLinks>button small{font-size:11px!important;line-height:1.3!important}
+@media(max-width:390px){
+ #shopHub{padding:0 10px 14px!important}
+ #shopHub>header{min-height:82px!important;margin:0 -10px 9px!important;padding:13px 14px 10px!important}
+ #shopHub>header h2{font-size:26px!important}
+ #shopHub>header button,#shopHub .closeHub{width:52px!important;height:52px!important;min-width:52px!important;min-height:52px!important}
+ #shopHub .shopQuickTabs{top:82px!important;min-height:56px!important}
+ #shopHub .shopQuickTabs button{height:44px!important;min-height:44px!important;font-size:13px!important}
+ #shopHub .hubGrid>button{min-height:132px!important}
+ #shopHub .hubGrid>button>b{font-size:18px!important}
+ #shopHub .hubGrid>button>small{font-size:11px!important}
+}

@@ -1202,3 +1202,29 @@ body{background:
  #guardianHUD #guardianBuffs button,#guardianHUD #guardianBuffs span{min-height:32px!important}
  #gameWrap #selectionPanel{left:51px!important;right:6px!important}
 }
+
+
+/* V140 — gameplay-first arena sizing. Canvas owns the full middle band; HUD sits outside it. */
+#gameWrap>#g{
+ position:fixed!important;
+ left:0!important;right:0!important;
+ top:126px!important;
+ bottom:214px!important;
+ width:100vw!important;
+ height:auto!important;
+ max-width:none!important;
+ max-height:none!important;
+ margin:0!important;
+ border-radius:0!important;
+ box-sizing:border-box!important;
+}
+#battleSideTools{top:154px!important}
+#guardianHUD{bottom:78px!important}
+#gameWrap .bottom{bottom:8px!important}
+#gameWrap #selectionPanel{bottom:216px!important}
+@media(max-width:390px){
+ #gameWrap>#g{top:114px!important;bottom:198px!important}
+ #battleSideTools{top:132px!important}
+ #guardianHUD{bottom:73px!important}
+ #gameWrap #selectionPanel{bottom:200px!important}
+}

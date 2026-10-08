@@ -614,3 +614,42 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 #gameWrap #summon:before{content:"✦";margin-right:7px;font-size:20px}
 #gameWrap #combine:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#68d78c;margin-right:7px;box-shadow:0 0 0 3px rgba(104,215,140,.18)}
 @media(max-width:430px){#gameWrap .battleGuideStrip{grid-template-columns:1fr!important;gap:3px!important}#gameWrap .battleGuideStrip #summonOdds,#gameWrap .battleGuideStrip #hint{min-height:23px!important;font-size:8px!important;padding:3px 5px!important}}
+
+/* V122 — background-only reference pass. No controls, layout, mechanics, or artwork are changed. */
+body{background:
+ radial-gradient(circle at 78% 8%,rgba(115,89,255,.24),transparent 22%),
+ radial-gradient(circle at 18% 13%,rgba(48,174,255,.22),transparent 25%),
+ linear-gradient(180deg,#071f4a 0%,#092f58 24%,#0c3c45 58%,#071d25 100%)!important}
+.screen,#startScreen{background:
+ radial-gradient(circle at 50% -6%,rgba(88,163,255,.32),transparent 32%),
+ radial-gradient(circle at 14% 25%,rgba(35,115,97,.35),transparent 26%),
+ radial-gradient(circle at 88% 32%,rgba(73,48,128,.30),transparent 27%),
+ linear-gradient(180deg,#082c58 0%,#0b3d55 35%,#12483d 70%,#082a27 100%)!important}
+#startScreen:after{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:
+ radial-gradient(circle at 12% 12%,rgba(255,244,174,.82) 0 1px,transparent 2px),
+ radial-gradient(circle at 74% 8%,rgba(173,222,255,.78) 0 1px,transparent 2px),
+ radial-gradient(circle at 88% 21%,rgba(255,217,116,.62) 0 1px,transparent 2px),
+ linear-gradient(180deg,transparent 0 63%,rgba(7,27,29,.38) 100%);background-size:73px 73px,101px 101px,137px 137px,100% 100%}
+#startScreen>*{position:relative;z-index:1}
+#gameWrap{background:
+ radial-gradient(circle at 50% 0,rgba(74,158,211,.28),transparent 25%),
+ radial-gradient(circle at 10% 45%,rgba(30,101,67,.44),transparent 25%),
+ radial-gradient(circle at 90% 48%,rgba(28,93,66,.48),transparent 27%),
+ linear-gradient(180deg,#0b4161 0%,#245f54 34%,#1e573e 72%,#0d3029 100%)!important}
+#gameWrap:before{background:
+ radial-gradient(circle at 8% 20%,rgba(255,204,86,.24),transparent 10%),
+ radial-gradient(circle at 92% 25%,rgba(255,207,96,.20),transparent 11%),
+ radial-gradient(circle at 6% 73%,rgba(78,185,112,.22),transparent 16%),
+ radial-gradient(circle at 94% 76%,rgba(54,160,102,.24),transparent 18%),
+ linear-gradient(90deg,rgba(5,36,31,.42),transparent 17% 83%,rgba(5,36,31,.42))!important}
+#eventHub,.miniDialog{background:
+ radial-gradient(circle at 15% 4%,rgba(52,136,208,.32),transparent 27%),
+ radial-gradient(circle at 88% 18%,rgba(114,57,163,.30),transparent 30%),
+ linear-gradient(180deg,#082b51 0%,#0b3650 40%,#102b3b 100%)!important}
+#studyHub,.learningCampaign,.learningDialog{background:
+ radial-gradient(circle at 78% 0,rgba(58,156,205,.28),transparent 30%),
+ radial-gradient(circle at 8% 32%,rgba(35,111,87,.28),transparent 28%),
+ linear-gradient(180deg,#0a3556 0%,#0d3d50 48%,#0b2937 100%)!important}
+#resultScreen{background:
+ radial-gradient(circle at 50% 10%,rgba(63,158,208,.28),transparent 32%),
+ linear-gradient(180deg,#092f50 0%,#0b3946 48%,#08232f 100%)!important}

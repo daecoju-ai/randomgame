@@ -773,3 +773,24 @@ body{background:
 #eventHub .hubGrid>button b{font-size:12px!important;color:#203a34!important}#eventHub .hubGrid>button small{font-size:7px!important;line-height:1.25!important;color:#50665e!important}
 #eventHub .eventPromotion{width:100%!important;min-height:54px!important;margin-top:5px!important;border-radius:12px!important;background:linear-gradient(180deg,#72528d,#493568)!important;border:1px solid #bca1d0!important;color:#fff!important;font-size:12px!important;font-weight:900!important}#eventHub .eventPromotion small{display:block!important;font-size:8px!important;color:#eadff2!important;margin-top:3px!important}
 @media(max-width:390px){#shopHub .hubGrid>button{min-height:84px!important}#eventHub .hubGrid>button{min-height:98px!important}#eventHub .hubGrid>button b{font-size:10px!important}.shopQuickTabs{top:52px!important}}
+
+/* V128 — reference reward/mission panel composition. Existing reward logic untouched. */
+#adventureDialog{width:min(96vw,650px)!important;max-height:94dvh!important;padding:0 9px 12px!important;background:radial-gradient(circle at 50% 0,rgba(74,165,190,.28),transparent 30%),linear-gradient(180deg,#0d3c4a,#0a3038)!important;border:1px solid #6d9291!important}
+#adventureDialog>header{position:sticky!important;top:0!important;z-index:5!important;margin:0 -9px 6px!important;padding:8px 9px!important;background:linear-gradient(180deg,#143f51,#092c3b)!important;border-bottom:2px solid #c8a14b!important}
+#adventureDialog>header h2{font-size:20px!important;margin:0!important;color:#fff1ae!important}
+#adventureDialog #adventureWallet{display:block!important;text-align:right!important;margin:4px 0!important;padding:5px 8px!important;border-radius:9px!important;background:#082b36!important;border:1px solid #567f7e!important;color:#ffe49b!important;font-size:11px!important}
+#adventureDialog .talismanActions{display:grid!important;grid-template-columns:repeat(4,1fr)!important;gap:4px!important;margin:5px 0!important}
+#adventureDialog .talismanActions button{min-height:35px!important;padding:4px!important;font-size:8px!important;border-radius:8px!important}
+#adventureDialog #adventureRewards{max-height:48px!important;overflow:auto!important;margin:4px 0!important;padding:5px!important;font-size:8px!important;border-radius:8px!important;background:#092832!important;color:#d7e9e5!important}
+#adventureDialog>h3{font-size:14px!important;margin:7px 0 2px!important;color:#fff0a7!important}#adventureDialog>p{font-size:8px!important;margin:2px 0 5px!important;color:#c9dfda!important}
+#adventureDialog #attendanceCards{display:grid!important;grid-template-columns:repeat(7,1fr)!important;gap:4px!important;margin:5px 0 8px!important}
+#adventureDialog #attendanceCards>*{min-width:0!important;min-height:78px!important;padding:4px!important;border-radius:9px!important;background:linear-gradient(180deg,#edf5e9,#d7e9d8)!important;border:1px solid #a9c7ad!important;color:#234239!important;box-shadow:0 3px 7px rgba(6,34,28,.2)!important}
+#adventureDialog #attendanceCards :is(b,strong){font-size:9px!important;color:#263d35!important}#adventureDialog #attendanceCards :is(small,p,span){font-size:7px!important;line-height:1.15!important;color:#50685f!important}
+#adventureDialog details.sectionDisclosure{margin:5px 0!important;border:1px solid #688987!important;border-radius:11px!important;background:#0d3540!important;overflow:hidden!important}
+#adventureDialog details.sectionDisclosure>summary{padding:7px 8px!important;font-size:10px!important;font-weight:900!important;color:#fff0b1!important;background:#123e48!important}
+#adventureDialog #missionCards{display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:5px!important;padding:6px!important}
+#adventureDialog #missionCards>*{min-height:66px!important;padding:6px!important;border-radius:9px!important;background:linear-gradient(180deg,#eaf2e8,#d7e6d8)!important;border:1px solid #a8c0aa!important;color:#213d34!important;box-shadow:none!important}
+#adventureDialog #missionCards :is(b,strong){font-size:9px!important;color:#203a32!important}#adventureDialog #missionCards :is(p,small,span){font-size:7px!important;line-height:1.2!important;color:#53685f!important}
+#adventureDialog #specialShop{padding:6px!important;display:grid!important;grid-template-columns:repeat(2,1fr)!important;gap:5px!important}
+#adventureDialog #specialShop>*{border-radius:9px!important;padding:6px!important}
+@media(max-width:390px){#adventureDialog #attendanceCards{grid-template-columns:repeat(4,1fr)!important}#adventureDialog .talismanActions{grid-template-columns:repeat(2,1fr)!important}#adventureDialog #missionCards{grid-template-columns:1fr!important}}

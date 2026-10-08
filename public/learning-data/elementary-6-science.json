@@ -1,1 +1,158 @@
-[{"id":"V62-SCIENCE-018","curriculum":"2022","school":"elementary","grade":6,"subject":"science","domain":"지구","learning_target":"지구","difficulty":2,"game_type":"TILE_CHOICE","question":"낮과 밤이 번갈아 오는 주된 까닭은?","choices":["지구의 자전","달의 모양 변화","바람의 방향","구름의 이동"],"answer":"지구의 자전","explanation":"지구가 자전하면서 태양을 향하는 쪽과 반대쪽이 바뀝니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"}]
+[
+  {
+    "id": "V62-SCIENCE-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "science",
+    "domain": "지구",
+    "learning_target": "지구",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "낮과 밤이 번갈아 오는 주된 까닭은?",
+    "choices": [
+      "지구의 자전",
+      "달의 모양 변화",
+      "바람의 방향",
+      "구름의 이동"
+    ],
+    "answer": "지구의 자전",
+    "explanation": "지구가 자전하면서 태양을 향하는 쪽과 반대쪽이 바뀝니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V145-ELEMENTARY-6-SCIENCE-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "science",
+    "domain": "전기",
+    "learning_target": "전기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "전구가 켜지려면 전지와 전구 사이의 전기 회로는?",
+    "choices": [
+      "끊어지지 않고 연결되어야 한다",
+      "한쪽만 연결되면 된다",
+      "전선이 없어야 한다",
+      "전지를 반드시 물에 넣어야 한다"
+    ],
+    "answer": "끊어지지 않고 연결되어야 한다",
+    "explanation": "전류가 흐르려면 전지와 전구를 잇는 회로가 닫혀 있어야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_automated_structure_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V145-ELEMENTARY-6-SCIENCE-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "science",
+    "domain": "기체",
+    "learning_target": "기체",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "따뜻한 공기가 차가운 공기보다 일반적으로 위로 올라가는 까닭은?",
+    "choices": [
+      "밀도가 작아지기 때문이다",
+      "질량이 완전히 사라지기 때문이다",
+      "항상 고체가 되기 때문이다",
+      "중력이 없어지기 때문이다"
+    ],
+    "answer": "밀도가 작아지기 때문이다",
+    "explanation": "공기는 가열되면 팽창하여 주변의 차가운 공기보다 밀도가 작아질 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_automated_structure_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V145-ELEMENTARY-6-SCIENCE-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "science",
+    "domain": "태양계",
+    "learning_target": "태양계",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "달이 스스로 빛나는 것처럼 보이는 까닭은?",
+    "choices": [
+      "태양빛을 반사하기 때문이다",
+      "달에서 불이 타기 때문이다",
+      "지구가 빛을 만들어 주기 때문이다",
+      "달이 전구이기 때문이다"
+    ],
+    "answer": "태양빛을 반사하기 때문이다",
+    "explanation": "달은 스스로 빛을 내지 않고 태양빛을 반사합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_automated_structure_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V145-ELEMENTARY-6-SCIENCE-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "science",
+    "domain": "생물",
+    "learning_target": "생물",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숨을 들이마실 때 몸 안으로 들어오는 공기에서 생명 활동에 중요한 기체는?",
+    "choices": [
+      "산소",
+      "헬륨",
+      "네온",
+      "수증기만"
+    ],
+    "answer": "산소",
+    "explanation": "우리 몸은 호흡을 통해 산소를 받아들여 생명 활동에 이용합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_automated_structure_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

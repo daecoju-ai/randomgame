@@ -12,7 +12,7 @@ function detail(){const list=entries(),u=list[albumIndex],rows=skillRows(u).filt
 function openAlbum(){closeHubs();album();$('#unitAlbumDialog').showModal()}
 $('#openUnitAlbum').onclick=openAlbum;
 $('#closeUnitAlbum').onclick=()=>$('#unitAlbumDialog').close();
-$('#closeAlbumDetail').onclick=()=>$('#albumDetailDialog').close();
+$('#closeAlbumDetail').onclick=()=>{$('#albumDetailDialog').close();albumPage=Math.floor(albumIndex/12);album();if(!$('#unitAlbumDialog').open)$('#unitAlbumDialog').showModal()};
 $('#albumDetailClose').onclick=()=>{closeHubs()};
 document.querySelectorAll('[data-album-filter]').forEach(b=>b.onclick=()=>{albumFilter=b.dataset.albumFilter;albumIndex=0;albumPage=0;document.querySelectorAll('[data-album-filter]').forEach(x=>x.setAttribute('aria-pressed',String(x===b)));album()});
 for(const [id,step] of [['albumPrev',-1],['albumNext',1]])$('#'+id).onclick=()=>{albumIndex=(albumIndex+step+entries().length)%entries().length;skillPage=0;detail()};

@@ -1,0 +1,157 @@
+[
+  {
+    "id": "V146-M1-MATH-001",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "math",
+    "domain": "일차방정식",
+    "learning_target": "일차방정식",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "x + 7 = 15일 때 x는?",
+    "answer": "8",
+    "choices": [
+      "8",
+      "7",
+      "15",
+      "22"
+    ],
+    "explanation": "양변에서 7을 빼면 x=8입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-MATH-002",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "math",
+    "domain": "정수",
+    "learning_target": "정수",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "(-3) + 5의 값은?",
+    "answer": "2",
+    "choices": [
+      "2",
+      "-2",
+      "8",
+      "-8"
+    ],
+    "explanation": "수직선에서 -3에서 오른쪽으로 5칸 이동하면 2입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-MATH-003",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "math",
+    "domain": "비례",
+    "learning_target": "비례",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "한 개에 600원인 연필 4개의 가격은?",
+    "answer": "2400원",
+    "choices": [
+      "2400원",
+      "1800원",
+      "600원",
+      "3000원"
+    ],
+    "explanation": "600×4=2400원이므로 개수에 비례하여 가격이 늘어납니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-MATH-004",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "math",
+    "domain": "기하",
+    "learning_target": "기하",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "삼각형의 내각의 크기의 합은?",
+    "answer": "180°",
+    "choices": [
+      "180°",
+      "90°",
+      "270°",
+      "360°"
+    ],
+    "explanation": "삼각형의 세 내각을 한 직선 위에 모으면 평각인 180°가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-MATH-005",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "math",
+    "domain": "통계",
+    "learning_target": "통계",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "자료 2, 4, 6, 8의 평균은?",
+    "answer": "5",
+    "choices": [
+      "5",
+      "4",
+      "6",
+      "20"
+    ],
+    "explanation": "모든 자료의 합 20을 자료 수 4로 나누면 5입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

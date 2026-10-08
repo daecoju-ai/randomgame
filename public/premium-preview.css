@@ -1228,3 +1228,42 @@ body{background:
  #guardianHUD{bottom:73px!important}
  #gameWrap #selectionPanel{bottom:200px!important}
 }
+
+
+/* V141 — lobby readability + equal button sizing from mobile screenshot */
+#startScreen .homeSecondary{align-items:stretch!important}
+#startScreen .homeSecondary>button{
+ height:84px!important;min-height:84px!important;
+ padding:9px 8px!important;border-radius:14px!important;
+ justify-content:flex-start!important;
+}
+#startScreen .homeSecondary .premiumIcon{width:30px!important;height:30px!important;flex:0 0 30px!important}
+#startScreen .homeSecondary b{font-size:14px!important;line-height:1.15!important}
+#startScreen .homeSecondary small{font-size:10px!important;line-height:1.3!important;margin-top:4px!important}
+#startScreen .guardianLobby b{font-size:13px!important;line-height:1.2!important}
+#startScreen .guardianLobby small{font-size:10px!important;line-height:1.35!important}
+#startScreen .guardianLobby button{width:100%!important;height:46px!important;min-height:46px!important;font-size:13px!important}
+#startScreen .lobbyShowcase p{font-size:11px!important;line-height:1.3!important}
+#startScreen .homePrimary{align-items:stretch!important}
+#startScreen .homePrimary>button{
+ height:104px!important;min-height:104px!important;
+ padding:10px!important;border-radius:17px!important;
+}
+#startScreen .homePrimary .learningMainEntry{
+ height:88px!important;min-height:88px!important;
+}
+#startScreen .homePrimary b{font-size:21px!important;line-height:1.1!important}
+#startScreen .homePrimary small{font-size:12px!important;line-height:1.3!important;margin-top:5px!important}
+#startScreen .headerWallet strong{font-size:15px!important}
+@media(max-width:390px){
+ #startScreen .homeSecondary>button{height:78px!important;min-height:78px!important;padding:7px 5px!important}
+ #startScreen .homeSecondary .premiumIcon{width:26px!important;height:26px!important;flex-basis:26px!important}
+ #startScreen .homeSecondary b{font-size:12px!important}
+ #startScreen .homeSecondary small{font-size:9px!important}
+ #startScreen .guardianLobby b{font-size:12px!important}
+ #startScreen .guardianLobby small{font-size:9px!important}
+ #startScreen .homePrimary>button{height:96px!important;min-height:96px!important}
+ #startScreen .homePrimary .learningMainEntry{height:82px!important;min-height:82px!important}
+ #startScreen .homePrimary b{font-size:19px!important}
+ #startScreen .homePrimary small{font-size:11px!important}
+}

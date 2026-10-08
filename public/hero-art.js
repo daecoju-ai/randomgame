@@ -40,11 +40,13 @@ function drawSpiritTier12(g,x,y,u,s=1,mini=false){
  g.restore();return true;
 }
 function drawElementHero(g,x,y,u,s=1,mini=false){
- if(u.type<12&&u.lv<=2)return drawSpiritTier12(g,x,y,u,s,mini);
+ // T1/T2 must use the same painted evolution atlas as T3-T5. The old vector
+ // fallback made them look like plain colored pills instead of the reference mascots.
+ // drawSpiritTier12 remains only as an offline/loading fallback below.
  if(u.type>=12&&specialAtlasReady){const n=u.type-12,w=418,h=627,size=(mini?104:94)*s;g.save();g.drawImage(specialAtlas,(n%3)*w,Math.floor(n/3)*h,w,h,x-size/3,y-size*.65,size*2/3,size);g.restore();return true}
 
  const cell=paintedCell(u);
- if(!paintedAtlasReady||!cell)return drawElementFallback(g,x,y,u,s,mini);
+ if(!paintedAtlasReady||!cell)return u.type<12&&u.lv<=2?drawSpiritTier12(g,x,y,u,s,mini):drawElementFallback(g,x,y,u,s,mini);
  const bob=mini?0:Math.sin(S.t*2+(u.slot||0))*1.1;
  const size=(mini?89:82)*s,ratio=Math.min(size/cell.w,size/cell.h),w=cell.w*ratio,h=cell.h*ratio;
  g.save();g.translate(x,y+bob);

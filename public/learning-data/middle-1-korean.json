@@ -1,0 +1,157 @@
+[
+  {
+    "id": "V146-M1-KOR-001",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "주장과 근거",
+    "learning_target": "주장과 근거",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘학교에 나무를 심자. 나무는 그늘을 만들어 준다.’에서 근거는?",
+    "answer": "나무는 그늘을 만들어 준다",
+    "choices": [
+      "나무는 그늘을 만들어 준다",
+      "학교에 나무를 심자",
+      "학교",
+      "나무"
+    ],
+    "explanation": "‘나무를 심자’는 주장이고 ‘그늘을 만들어 준다’는 주장을 뒷받침하는 근거입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-KOR-002",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문맥",
+    "learning_target": "문맥",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘자료를 비교하여 공통점을 찾았다.’에서 ‘비교’의 뜻은?",
+    "answer": "둘 이상의 대상을 견주어 살펴봄",
+    "choices": [
+      "둘 이상의 대상을 견주어 살펴봄",
+      "한 가지를 외움",
+      "문장을 그대로 베낌",
+      "결과를 숨김"
+    ],
+    "explanation": "비교는 둘 이상의 대상을 서로 견주어 같고 다른 점을 살피는 것입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-KOR-003",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "설명문에서 내용의 신뢰성을 높이는 방법은?",
+    "answer": "확인 가능한 자료를 근거로 제시한다",
+    "choices": [
+      "확인 가능한 자료를 근거로 제시한다",
+      "근거 없이 단정한다",
+      "출처를 숨긴다",
+      "의견을 사실처럼 쓴다"
+    ],
+    "explanation": "자료의 출처와 근거를 밝히면 독자가 설명을 검증할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-KOR-004",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "토론",
+    "learning_target": "토론",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론에서 상대 의견을 반박할 때 바람직한 방법은?",
+    "answer": "의견의 근거를 검토해 논리적으로 말한다",
+    "choices": [
+      "의견의 근거를 검토해 논리적으로 말한다",
+      "상대방을 놀린다",
+      "말을 끊는다",
+      "근거 없이 틀렸다고 한다"
+    ],
+    "explanation": "토론은 사람을 공격하는 것이 아니라 주장과 근거를 검토하는 활동입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V146-M1-KOR-005",
+    "curriculum": "2022",
+    "school": "middle",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "표현",
+    "learning_target": "표현",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘시간은 화살처럼 빠르게 흐른다’에 쓰인 표현 방법은?",
+    "answer": "비유",
+    "choices": [
+      "비유",
+      "정의",
+      "분류",
+      "열거"
+    ],
+    "explanation": "시간의 흐름을 화살에 빗대어 빠름을 드러낸 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "draft_structure_pending_curriculum_review",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

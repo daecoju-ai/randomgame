@@ -15,6 +15,8 @@ function verifyNavigation(){
  document.documentElement.dataset.navigationIntegrity=missing.length?'missing':'ok';
 }
 verifyNavigation();
+$('#homeUnitShortcut')?.addEventListener('click',()=>$('#openShopHub')?.click());
+$('#homeMissionShortcut')?.addEventListener('click',()=>$('#openEventHub')?.click());
 function talismanMode(mode){const d=$('#talismanDialog');d.dataset.mode=mode;$('#talismanTitle').textContent=mode==='growth'?'부적 성장':'부적 뽑기';$('#shopHub').close()}
 $('#openTalismans').addEventListener('click',()=>talismanMode('growth'));
 $('#openTalismanDraw').onclick=()=>{$('#openTalismans').click();talismanMode('draw')};

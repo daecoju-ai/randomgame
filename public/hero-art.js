@@ -40,9 +40,9 @@ function drawSpiritTier12(g,x,y,u,s=1,mini=false){
  g.restore();return true;
 }
 function drawElementHero(g,x,y,u,s=1,mini=false){
- // T1/T2 must use the same painted evolution atlas as T3-T5. The old vector
- // fallback made them look like plain colored pills instead of the reference mascots.
- // drawSpiritTier12 remains only as an offline/loading fallback below.
+ // Battle T1/T2 use the dedicated spirit renderer so their silhouettes always read
+ // as round mascot -> taller egg-shaped evolved spirit, matching the battle reference.
+ if(!mini&&u.type<12&&u.lv<=2)return drawSpiritTier12(g,x,y,u,s,mini);
  if(u.type>=12&&specialAtlasReady){const n=u.type-12,w=418,h=627,size=(mini?104:94)*s;g.save();g.drawImage(specialAtlas,(n%3)*w,Math.floor(n/3)*h,w,h,x-size/3,y-size*.65,size*2/3,size);g.restore();return true}
 
  const cell=paintedCell(u);

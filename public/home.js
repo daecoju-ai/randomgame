@@ -18,9 +18,9 @@ verifyNavigation();
 $('#homeUnitShortcut')?.addEventListener('click',()=>$('#openShopHub')?.click());
 $('#homeMissionShortcut')?.addEventListener('click',()=>$('#openEventHub')?.click());
 for(const b of document.querySelectorAll('[data-shop-section]'))b.addEventListener('click',()=>{const section=b.dataset.shopSection;for(const x of document.querySelectorAll('[data-shop-section]'))x.setAttribute('aria-pressed',String(x===b));const target=section==='unit'?$('#previewCodex'):section==='talisman'?$('#openTalismans'):$('#openUnitAlbum');target?.scrollIntoView({block:'center',behavior:'smooth'});target?.focus({preventScroll:true})});
-function talismanMode(mode){const d=$('#talismanDialog');d.dataset.mode=mode;$('#talismanTitle').textContent=mode==='growth'?'부적 성장':'부적 뽑기';$('#shopHub').close()}
+function talismanMode(mode){const d=$('#talismanDialog');d.dataset.mode=mode;$('#talismanTitle').textContent=mode==='growth'?'부적 성장':'부적 뽑기';$('#shopHub').close();if(d.open){const target=mode==='draw'?$('#talismanDraw1'):$('#talismanCards');requestAnimationFrame(()=>target?.scrollIntoView({block:'start',behavior:'smooth'}))}}
 $('#openTalismans').addEventListener('click',()=>talismanMode('growth'));
-$('#openTalismanDraw').onclick=()=>{$('#openTalismans').click();talismanMode('draw')};
+$('#openTalismanDraw').onclick=()=>{talismanMode('draw');$('#openTalismans').click();requestAnimationFrame(()=>{$('#talismanTitle').textContent='부적 뽑기';$('#talismanDialog').dataset.mode='draw';$('#talismanDraw1')?.scrollIntoView({block:'center',behavior:'smooth'})})};
 function openLegend(type){$('#shopHub').close();window.ForgeSummons.openProduct(type,'hidden')}
 
 function card(type,compact=false){

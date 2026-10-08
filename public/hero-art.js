@@ -16,7 +16,31 @@ if(paintedAtlas){
 }
 const specialAtlas=typeof Image!=='undefined'?new Image():null;let specialAtlasReady=false;
 if(specialAtlas){specialAtlas.onload=()=>{specialAtlasReady=true;refreshCodex();renderHeroLab()};specialAtlas.src='/assets/special-heroes-v20.webp'}
+function drawSpiritTier12(g,x,y,u,s=1,mini=false){
+ const e=elementFor(u.type);if(!e||u.lv>2)return false;const tier=u.lv,bob=mini?0:Math.sin(S.t*2.4+(u.slot||0))*1.2;
+ g.save();g.translate(x,y+bob);g.scale(s,s);
+ const ell=(x,y,rx,ry,c)=>{g.fillStyle=c;g.beginPath();g.ellipse(x,y,rx,ry,0,0,Math.PI*2);g.fill()};
+ const poly=(p,c)=>{g.fillStyle=c;g.beginPath();p.forEach(([a,b],i)=>i?g.lineTo(a,b):g.moveTo(a,b));g.closePath();g.fill()};
+ const outline=e.id==='shadow'?'#171222':'#263443',main=e.color,accent=e.accent;
+ // Reference-like cute elemental spirit: T1 round mascot, T2 larger egg-shaped evolved mascot.
+ g.globalAlpha=.28;ell(0,20,tier===1?20:22,5,'#071d18');g.globalAlpha=1;
+ if(e.id==='fire')poly([[-18,-7],[-12,-27],[-5,-19],[1,-37],[7,-20],[17,-30],[14,-10]],accent);
+ if(e.id==='water')poly([[-12,-18],[0,-39],[12,-18]],accent);
+ if(e.id==='earth'){poly([[-17,-15],[-11,-29],[-2,-24],[5,-35],[14,-21],[18,-10]],accent)}
+ if(e.id==='wind'){poly([[-21,-7],[-30,-14],[-21,-20],[-12,-18],[-4,-31],[5,-20],[17,-22],[12,-8]],accent)}
+ if(e.id==='electric'){poly([[-23,-16],[-14,-27],[-12,-18],[-5,-25],[-9,-8]],accent);poly([[23,-16],[14,-27],[12,-18],[5,-25],[9,-8]],accent)}
+ if(e.id==='shadow'){poly([[-22,-10],[-15,-28],[-7,-20],[0,-34],[7,-20],[15,-28],[22,-10]],accent)}
+ const rx=tier===1?20:22,ry=tier===1?20:28,cy=tier===1?0:-5;
+ g.strokeStyle=outline;g.lineWidth=3.5;g.beginPath();g.ellipse(0,cy,rx+1,ry+1,0,0,7);g.stroke();
+ const gr=g.createLinearGradient(-16,cy-ry,18,cy+ry);gr.addColorStop(0,accent);gr.addColorStop(.55,main);gr.addColorStop(1,e.id==='shadow'?'#171326':main);ell(0,cy,rx,ry,gr);
+ ell(-7,cy-ry*.42,5,3,'#ffffff70');
+ for(const side of [-1,1]){ell(side*7,cy+1,4.6,tier===1?6:6.5,outline);ell(side*6,cy-1,1.5,2,'#fff')}
+ g.strokeStyle=outline;g.lineWidth=2;g.lineCap='round';g.beginPath();g.arc(0,cy+8,5,0.15,Math.PI-.15);g.stroke();
+ if(tier===2){g.strokeStyle=accent;g.lineWidth=2;g.beginPath();g.arc(0,cy,rx+5,-.25,1.1);g.stroke();g.globalAlpha=.8;ell(rx+5,cy-7,2.5,2.5,'#fff7b5');g.globalAlpha=1}
+ g.restore();return true;
+}
 function drawElementHero(g,x,y,u,s=1,mini=false){
+ if(u.type<12&&u.lv<=2)return drawSpiritTier12(g,x,y,u,s,mini);
  if(u.type>=12&&specialAtlasReady){const n=u.type-12,w=418,h=627,size=(mini?104:94)*s;g.save();g.drawImage(specialAtlas,(n%3)*w,Math.floor(n/3)*h,w,h,x-size/3,y-size*.65,size*2/3,size);g.restore();return true}
 
  const cell=paintedCell(u);

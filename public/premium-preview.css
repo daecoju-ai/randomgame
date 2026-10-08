@@ -1423,3 +1423,12 @@ body :is(h2,h3){font-size:max(var(--ui-min-title),1em)!important}
   margin-left:-8px!important;margin-right:-8px!important
  }
 }
+
+/* V145 — independent knowledge-star shop preview */
+#studyHub .knowledgeShopPreview{margin:18px 0 28px;padding:15px;border:1px solid #9cba7e88;border-radius:16px;background:#0c3444}
+#studyHub .knowledgeShopPreview h3{font-size:20px!important;color:#ffe7a5}
+#studyHub .knowledgeShopPreview p{font-size:12px!important;line-height:1.5!important;color:#d7e8e5}
+#studyHub .knowledgeShopCards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+#studyHub .knowledgeShopCards article{min-height:96px;padding:13px 10px;border:1px solid #d1ac6280;border-radius:13px;background:linear-gradient(140deg,#204b5c,#17313c)}
+#studyHub .knowledgeShopCards b{display:block;font-size:14px!important;color:#fff1c5}
+#studyHub .knowledgeShopCards small{display:block;margin-top:9px;font-size:11px!important;color:#d6e7ec}

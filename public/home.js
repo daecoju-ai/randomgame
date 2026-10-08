@@ -5,6 +5,16 @@ const $=s=>document.querySelector(s),icon=()=>window.ForgeUX.icon('diamonds');
 for(const [button,dialog] of [['openShopHub','shopHub'],['openEventHub','eventHub']])$('#'+button).onclick=()=>$('#'+dialog).showModal();
 document.querySelectorAll('[data-close-hub]').forEach(b=>b.onclick=()=>$('#'+b.dataset.closeHub).close());
 for(const id of ['previewCodex','openUnitDraw','openAdventure','openLuck','luckEvent'])$('#'+id).addEventListener('click',()=>{$('#shopHub').close();$('#eventHub').close()});
+// Preserve every existing lobby destination while the visual shell is rearranged.
+const requiredLobbyActions=['startGame','openShopHub','openEventHub','openMonsterCodex','guardianDetails','openMail','lobbySound','accountBadge'];
+const requiredShopActions=['previewCodex','openUnitDraw','openTalismans','openTalismanDraw','openUnitAlbum','openHiddenCollection','openBaseLegends'];
+const requiredEventActions=['openRanking','openAdventure','openLuck','luckEvent'];
+function verifyNavigation(){
+ const missing=[...requiredLobbyActions,...requiredShopActions,...requiredEventActions].filter(id=>!document.getElementById(id));
+ if(missing.length)console.error('[UI] Missing preserved actions:',missing.join(', '));
+ document.documentElement.dataset.navigationIntegrity=missing.length?'missing':'ok';
+}
+verifyNavigation();
 function talismanMode(mode){const d=$('#talismanDialog');d.dataset.mode=mode;$('#talismanTitle').textContent=mode==='growth'?'부적 성장':'부적 뽑기';$('#shopHub').close()}
 $('#openTalismans').addEventListener('click',()=>talismanMode('growth'));
 $('#openTalismanDraw').onclick=()=>{$('#openTalismans').click();talismanMode('draw')};

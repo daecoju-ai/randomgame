@@ -1143,3 +1143,33 @@ body{background:
  #gameWrap .bottom button{height:62px!important;font-size:15px!important}
  #gameWrap #selectionPanel{bottom:197px!important}
 }
+
+
+/* V138 — target-reference battle HUD pass 2 */
+#gameWrap .status.compactStatus{
+ display:grid!important;grid-template-columns:1fr 1.35fr 1fr!important;gap:8px!important;
+}
+#gameWrap .status.compactStatus>div{display:flex!important}
+#gameWrap .status.compactStatus .stageCard,
+#gameWrap .status.compactStatus .monsterCard{
+ flex-direction:row!important;gap:7px!important;background:linear-gradient(180deg,#fffef5,#eee8d5)!important;
+}
+#gameWrap .status.compactStatus .stageCard>span{font-size:20px!important;color:#24905c!important}
+#gameWrap .status.compactStatus .waveCard{position:relative!important}
+#gameWrap .status.compactStatus .waveCard em{font-style:normal!important;font-size:10px!important;font-weight:900!important;color:#ffd86c!important}
+#gameWrap .status.compactStatus .monsterCard .premiumIcon{width:22px!important;height:22px!important}
+#gameWrap .status.compactStatus>.battleCoinValue{
+ position:fixed!important;left:22px!important;bottom:29px!important;z-index:18!important;
+ color:#fff!important;font-size:13px!important;pointer-events:none!important;
+}
+#gameWrap .status.compactStatus>.battleCoinValue:before{content:"◉ ";color:#ffd451!important}
+#gameWrap .bottom #summon{padding-left:32px!important}
+#gameWrap>#g{width:min(96vw,680px)!important}
+#arenaLabel{display:none!important}
+#gameWrap .battleGuideStrip{display:none!important}
+@media(max-width:390px){
+ #gameWrap .status.compactStatus{grid-template-columns:.95fr 1.25fr .95fr!important;gap:3px!important}
+ #gameWrap .status.compactStatus .stageCard>span{font-size:15px!important}
+ #gameWrap .status.compactStatus .waveCard em{font-size:8px!important}
+ #gameWrap .status.compactStatus>.battleCoinValue{left:15px!important;bottom:27px!important;font-size:11px!important}
+}

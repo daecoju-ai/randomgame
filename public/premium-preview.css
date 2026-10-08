@@ -576,3 +576,20 @@ body:has(#ui:not([hidden])){background:radial-gradient(circle at 50% 18%,#173c45
 #gameWrap .bottom{background:linear-gradient(180deg,rgba(24,63,51,.93),rgba(11,39,35,.97))!important}
 #gameWrap #summon{box-shadow:inset 0 1px rgba(255,255,255,.25),0 5px 12px rgba(0,79,47,.28)!important}
 #gameWrap #combine{box-shadow:inset 0 1px #fff,0 5px 12px rgba(52,45,22,.2)!important}
+
+/* V118 — reference-position battle controls. */
+#battleSideTools{position:absolute;left:8px;top:128px;z-index:12;display:grid;gap:7px;width:52px}
+#battleSideTools button{min-height:48px;padding:4px!important;border-radius:12px!important;background:linear-gradient(180deg,#f8f1d7,#d8c997)!important;border:2px solid #806c3e!important;color:#20332c!important;font-weight:900!important;box-shadow:0 4px 9px rgba(0,0,0,.25)!important}
+#battleSideTools button small{display:block;font-size:9px;line-height:1.1;margin-top:2px}
+#gameWrap #guardianHUD{display:grid!important;grid-template-columns:minmax(118px,1fr) auto auto!important;align-items:center!important;gap:7px!important;padding:6px 8px!important;min-height:66px!important}
+#gameWrap .guardianIdentity{display:flex;align-items:center;gap:6px;min-width:0}
+#gameWrap .guardianIdentity img{width:42px;height:54px;object-fit:contain;flex:0 0 auto}
+#gameWrap .guardianIdentity span{display:grid;min-width:0}
+#gameWrap .guardianIdentity b{font-size:14px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:#fff}
+#gameWrap .guardianIdentity #guardianStatus{font-size:9px!important;line-height:1.25;color:#cbe4ee!important;white-space:normal}
+#gameWrap #guardianBuffs{display:grid!important;grid-template-columns:repeat(4,38px)!important;gap:4px!important}
+#gameWrap .guardianBuff{width:38px!important;height:38px!important;display:grid!important;place-items:center!important;border-radius:9px!important;background:linear-gradient(180deg,#214c62,#102e43)!important;border:1px solid #7fb3c5!important;font-size:17px!important}
+#gameWrap .guardianBuff small{font-size:7px!important;line-height:1!important}
+#gameWrap #guardianCast{min-height:42px!important;max-width:82px!important;padding:5px 7px!important;border-radius:10px!important;background:linear-gradient(180deg,#eee4bd,#c7ae66)!important;color:#21322e!important;border:1px solid #f3d985!important;font-weight:900!important}
+#gameWrap #selectionPanel{margin-top:4px!important;grid-template-columns:minmax(0,1fr) auto auto auto!important}
+@media(max-width:520px){#battleSideTools{left:5px;top:126px;width:45px}#battleSideTools button{min-height:43px!important;font-size:14px!important}#gameWrap #guardianHUD{grid-template-columns:minmax(105px,1fr) auto!important}#gameWrap #guardianBuffs{grid-template-columns:repeat(4,32px)!important}#gameWrap .guardianBuff{width:32px!important;height:34px!important;font-size:15px!important}#gameWrap #guardianCast{grid-column:2}#gameWrap .guardianIdentity img{width:34px;height:46px}}

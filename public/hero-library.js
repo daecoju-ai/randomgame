@@ -33,9 +33,10 @@ function codexDetail(u,battle){const lv=getLv(u.type,u.lv),stars=window.ForgeSum
 function details(u,battle){const rows=skillRows(u),s=rows[slot];return `<button id="backToRows">← ${elementFor(u.type).label} 전체 단계</button><h3 class="detailUnitName">${heroLabel(u)} · ${u.lv}단계</h3><nav class="labSkillTabs">${rows.map((s,i)=>`<button data-detail-slot="${i}" aria-pressed="${slot===i}">${window.ForgeSkillVisuals.icon(u,s)}<span>${s.name}</span></button>`).join('')}</nav><section class="labSkillDetail">${window.ForgeSkillVisuals.art(u,s)}${window.ForgeSkillVisuals.description(u,s)}<div class="labSkillAction"><small>${s.active?`MP ${skillStats(s,s.rank||1,u).mp} · 재사용 ${skillStats(s,s.rank||1,u).cooldown}초`:'지속 효과'} · 스킬 ${s.rank}/20 · ${s.rank<20?'다음 강화 '+skillCost(u,s.slot)+' 다이아':'최대'}</small><button id="labSkillUpgrade" ${battle||!s.unlocked||s.rank>=20||!heroUnlocked(u.type)||diamondBalance()<skillCost(u,s.slot)?'disabled':''}>${!s.unlocked?(s.ultimate?'★20 개방 후 강화':'★5 개방 후 강화'):s.rank>=20?'최대 강화':`스킬 강화 · ${skillCost(u,s.slot)} 다이아`}</button></div></section>`}
 window.ForgeHeroLibrary={openSkill(u,i){for(const id of ['legendPurchaseDialog','shopHub'])$('#'+id)?.close();selectedLabKey=lvKey(u.type,u.lv);lastKey=selectedLabKey;const gs=groups(),index=gs.findIndex(g=>g.units.some(x=>lvKey(x.type,x.lv)===selectedLabKey));if(index>=0){page=index;unitPage=Math.floor(gs[index].units.findIndex(x=>lvKey(x.type,x.lv)===selectedLabKey)/3)}detail={...u};slot=i;openGrowth();render()}};
 $('#growthTabUnits')?.addEventListener('click',()=>{detail=null;render()});
-$('#growthTabAlbum')?.addEventListener('click',()=>{lab.style.display='none';$('#openUnitAlbum')?.click()});
-$('#growthTabDraw')?.addEventListener('click',()=>{lab.style.display='none';$('#openUnitDraw')?.click()});
-$('#growthTabTalisman')?.addEventListener('click',()=>{lab.style.display='none';$('#openTalismans')?.click()});
+const leaveGrowthFor=(target)=>{closeModal('#drawer');requestAnimationFrame(()=>$(target)?.click())};
+$('#growthTabAlbum')?.addEventListener('click',()=>leaveGrowthFor('#openUnitAlbum'));
+$('#growthTabDraw')?.addEventListener('click',()=>leaveGrowthFor('#openUnitDraw'));
+$('#growthTabTalisman')?.addEventListener('click',()=>leaveGrowthFor('#openTalismans'));
 renderHeroLab=render;
 const open=()=>{detail=null;openGrowth()};$('#previewCodex').onclick=()=>{for(const id of ['shopHub','eventHub','unitAlbumDialog','albumDetailDialog'])$('#'+id)?.close();open()};
 render();paintedAtlas?.addEventListener('load',render);specialAtlas?.addEventListener('load',render);

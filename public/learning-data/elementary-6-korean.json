@@ -478,5 +478,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "주장의 타당성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주장의 타당성을 판단할 때 가장 중요하게 살펴볼 것은?",
+    "choices": [
+      "근거가 주장과 관련 있고 믿을 만한지",
+      "문장이 길수록 좋은 주장인지",
+      "글씨가 클수록 사실인지",
+      "같은 말을 많이 반복했는지"
+    ],
+    "answer": "근거가 주장과 관련 있고 믿을 만한지",
+    "explanation": "주장이 타당하려면 근거가 주장과 직접 연결되고 믿을 수 있어야 합니다. 근거의 출처와 내용이 정확한지, 주장에 실제로 도움이 되는지를 함께 살펴야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "매체 표현 효과",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "같은 내용을 글과 영상으로 접할 때 영상의 특징으로 알맞은 것은?",
+    "choices": [
+      "소리와 움직이는 화면을 함께 활용할 수 있다",
+      "반드시 글보다 정확하다",
+      "출처를 확인할 필요가 없다",
+      "보는 사람마다 같은 생각만 하게 된다"
+    ],
+    "answer": "소리와 움직이는 화면을 함께 활용할 수 있다",
+    "explanation": "영상은 문자뿐 아니라 소리, 화면, 움직임 등을 함께 사용해 정보를 전달할 수 있습니다. 다만 영상이라는 이유만으로 항상 정확한 것은 아니므로 내용과 출처도 확인해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "논리적 순서",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주장하는 글의 구성을 가장 자연스럽게 배열한 것은?",
+    "choices": [
+      "문제 제시→주장→근거→정리",
+      "근거→관계없는 이야기→제목→주장 삭제",
+      "결론→무관한 예→같은 말 반복→끝",
+      "자료 복사→출처 삭제→주장 바꾸기"
+    ],
+    "answer": "문제 제시→주장→근거→정리",
+    "explanation": "독자가 글의 흐름을 따라갈 수 있도록 문제를 제시하고 자신의 주장을 밝힌 뒤 근거로 뒷받침합니다. 마지막에는 핵심을 정리하면 주장이 더 분명하게 전달됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "피동 표현 이해",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“바람에 문이 열렸다.”에서 문이 스스로 행동한 것이 아니라 어떤 힘에 의해 열린 상황을 나타내는 말은?",
+    "choices": [
+      "열렸다",
+      "바람에",
+      "문이",
+      "상황"
+    ],
+    "answer": "열렸다",
+    "explanation": "‘열렸다’는 문이 다른 힘의 영향을 받아 열린 상태가 되었음을 나타냅니다. 누가 직접 ‘문을 열었다’고 하는 표현과 비교하면 행동을 당하거나 영향을 받은 상황을 쉽게 구별할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "협상",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "서로 원하는 것이 다를 때 문제를 해결하는 태도로 가장 알맞은 것은?",
+    "choices": [
+      "서로의 요구와 이유를 듣고 받아들일 수 있는 방법을 찾는다",
+      "내 요구만 무조건 받아들이라고 한다",
+      "상대의 말을 듣기 전에 자리를 떠난다",
+      "상대를 이기기 위해 사실과 다른 말을 한다"
+    ],
+    "answer": "서로의 요구와 이유를 듣고 받아들일 수 있는 방법을 찾는다",
+    "explanation": "의견이나 요구가 다를 때는 각자가 중요하게 생각하는 이유를 확인해야 합니다. 서로 양보하거나 조정할 수 있는 부분을 찾아 모두가 받아들일 수 있는 해결책을 만드는 것이 중요합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

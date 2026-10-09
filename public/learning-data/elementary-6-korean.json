@@ -1598,5 +1598,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-051",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료의 신뢰성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "인터넷 자료의 신뢰성을 판단할 때 가장 도움이 되는 정보는?",
+    "choices": [
+      "작성 기관과 작성 날짜, 근거 자료",
+      "글자 모양과 배경색",
+      "댓글의 이모지 개수",
+      "제목의 길이"
+    ],
+    "answer": "작성 기관과 작성 날짜, 근거 자료",
+    "explanation": "누가 언제 만들었는지, 어떤 근거를 사용했는지 확인하면 자료의 책임성과 최신성을 판단할 수 있습니다. 한 가지 요소만 보지 말고 여러 정보를 함께 살펴야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-052",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "주제 통합",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "서로 다른 두 글이 같은 문제를 다룰 때 통합적으로 읽는 방법은?",
+    "choices": [
+      "공통점과 차이점, 각각의 근거를 비교해 자신의 이해를 구성한다",
+      "첫 번째 글만 읽고 두 번째 글은 무시한다",
+      "두 글의 제목만 이어 붙인다",
+      "더 긴 글을 무조건 옳다고 정한다"
+    ],
+    "answer": "공통점과 차이점, 각각의 근거를 비교해 자신의 이해를 구성한다",
+    "explanation": "여러 글을 함께 읽을 때는 같은 문제를 어떻게 바라보는지 비교해야 합니다. 공통점과 차이점, 근거의 타당성을 살피면 한 글에만 의존하지 않고 문제를 폭넓게 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-053",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "자료 시각화",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "조사 결과의 항목별 수치를 비교해 보여 주려 할 때 적절한 자료는?",
+    "choices": [
+      "막대그래프",
+      "긴 대화문",
+      "인물 사진 한 장",
+      "관련 없는 지도"
+    ],
+    "answer": "막대그래프",
+    "explanation": "항목별 수치의 크기를 비교하려면 막대의 길이로 차이를 쉽게 확인할 수 있는 막대그래프가 효과적입니다. 자료 형태는 전달하려는 정보의 성격에 맞게 선택해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-054",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 성분",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“지수가 도서관에서 책을 읽는다.”에서 행동이 이루어지는 장소를 나타내는 부분은?",
+    "choices": [
+      "도서관에서",
+      "지수가",
+      "책을",
+      "읽는다"
+    ],
+    "answer": "도서관에서",
+    "explanation": "‘도서관에서’는 ‘어디에서 읽는가?’에 답하며 행동이 이루어지는 장소를 구체적으로 나타냅니다. 문장 성분은 다른 말과의 관계와 문장에서 맡은 역할을 함께 살펴 구별합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-055",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "반론하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론에서 상대 의견에 반론할 때 가장 알맞은 태도는?",
+    "choices": [
+      "상대의 근거를 정확히 확인한 뒤 문제점을 근거와 함께 설명한다",
+      "상대의 말을 듣지 않고 틀렸다고만 한다",
+      "상대를 비난한다",
+      "주제와 관계없는 약점을 말한다"
+    ],
+    "answer": "상대의 근거를 정확히 확인한 뒤 문제점을 근거와 함께 설명한다",
+    "explanation": "반론은 사람을 공격하는 것이 아니라 주장이나 근거의 문제를 검토하는 것입니다. 상대의 말을 정확히 이해한 뒤 부족한 점을 관련 근거와 함께 설명해야 건설적인 토론이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,5 +1,5 @@
 {
-  "version": 29,
+  "version": 30,
   "packs": [
     {
       "id": "general-general-certification",
@@ -215,7 +215,7 @@
       "title": "국어·어휘 · 단어 원정",
       "url": "/learning-data/elementary-4-korean.json",
       "version": 2,
-      "count": 8
+      "count": 13
     },
     {
       "id": "elementary-3-science",

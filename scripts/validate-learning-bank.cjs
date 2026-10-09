@@ -33,10 +33,12 @@ for(const pack of manifest.packs){
   if(!['draft','reviewed','published'].includes(q.review_status))errors.push(label+': invalid review status');
   if(q.review_status==='draft')draft++;
   if(q.review_status==='published'&&(!q.review||q.review.human_publication_pending!==false))errors.push(label+': published without human review');
+  if(q.review_status==='draft'&&q.review?.human_publication_pending===false)errors.push(label+': draft cannot claim completed human publication review');
+  if(q.review_status==='draft'&&String(q.review?.method||'').includes('automated_structure_check'))errors.push(label+': draft claims automated validation before validator approval');
   if(String(q.explanation||'').length<12)warnings.push(label+': short explanation');
   if(q.source_reference==='original_learning_pilot')warnings.push(label+': generic source; curriculum mapping pending');
  }
 }
-console.log(JSON.stringify({packs:manifest.packs.length,questions:total,drafts:draft,errors:errors.length,warnings:warnings.length},null,2));
+console.log(JSON.stringify({packs:manifest.packs.length,questions:total,drafts:draft,errors:errors.length,warnings:warnings.length,policy:'draft/reviewed may remain pilot; published requires completed human review'},null,2));
 if(warnings.length)console.log('WARNINGS\n'+warnings.slice(0,30).join('\n'));
 if(errors.length){console.error('ERRORS\n'+errors.slice(0,100).join('\n'));process.exitCode=1}

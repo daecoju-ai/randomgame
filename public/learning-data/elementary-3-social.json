@@ -369,5 +369,181 @@
       "확인한다"
     ],
     "explanation": "지도에서는 먼저 알고 있는 기준 장소를 찾은 뒤 주변의 방향과 위치 관계를 살펴 원하는 장소를 확인할 수 있습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-012",
+    "domain": "고장",
+    "learning_target": "현장 조사 과정을 순서대로 이해한다",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "우리 고장을 조사하는 과정을 순서대로 맞추세요.",
+    "choices": [
+      "조사할 내용을 정한다",
+      "현장에서 관찰하고 기록한다",
+      "모은 자료를 정리한다"
+    ],
+    "answer": [
+      "조사할 내용을 정한다",
+      "현장에서 관찰하고 기록한다",
+      "모은 자료를 정리한다"
+    ],
+    "explanation": "조사 전에 무엇을 알아볼지 정하고, 현장에서 자료를 모은 뒤, 마지막으로 기록과 자료를 정리합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-013",
+    "domain": "지도",
+    "learning_target": "지도 기호의 쓰임을 이해한다",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "지도와 지도 기호의 관계를 바르게 설명한 것을 고르세요.",
+    "choices": [
+      "지도 기호 → 장소나 시설을 간단히 나타낸다",
+      "지도 기호 → 모든 건물을 실제 크기로 그린다",
+      "지도 기호 → 소리만으로 장소를 나타낸다"
+    ],
+    "answer": "지도 기호 → 장소나 시설을 간단히 나타낸다",
+    "explanation": "지도 기호는 학교, 병원 같은 장소와 시설을 지도에서 쉽고 간단하게 알아볼 수 있도록 표시합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-014",
+    "domain": "고장",
+    "learning_target": "상황에 맞는 자료 조사 방법을 선택한다",
+    "difficulty": 3,
+    "game_type": "TARGET_SELECT",
+    "question": "우리 동네 시장의 현재 모습을 가장 정확하게 알아보려면 어떤 방법이 좋을까요?",
+    "choices": [
+      "직접 방문해 관찰하고 기록한다",
+      "오래된 사진만 본다",
+      "상상해서 그린다",
+      "친구와 가위바위보로 정한다"
+    ],
+    "answer": "직접 방문해 관찰하고 기록한다",
+    "explanation": "현재 모습을 알아보려면 현장을 직접 살펴보는 것이 적절합니다. 관찰한 내용을 사진이나 글로 기록하면 비교와 정리에도 도움이 됩니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-015",
+    "domain": "생활",
+    "learning_target": "공공시설의 역할을 상황에 적용한다",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책을 빌리고 여러 자료를 찾아보고 싶습니다. 이용하기 가장 알맞은 공공시설은?",
+    "choices": [
+      "도서관",
+      "소방서",
+      "우체국",
+      "경찰서"
+    ],
+    "answer": "도서관",
+    "explanation": "도서관은 책과 여러 정보 자료를 이용할 수 있도록 돕는 공공시설입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-016",
+    "domain": "고장",
+    "learning_target": "과거와 현재의 변화를 문장으로 구성한다",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "고장의 변화를 설명하는 문장이 되도록 순서대로 고르세요.",
+    "choices": [
+      "옛날과",
+      "오늘날의",
+      "사진을",
+      "비교하면",
+      "변화를",
+      "알 수 있다"
+    ],
+    "answer": [
+      "옛날과",
+      "오늘날의",
+      "사진을",
+      "비교하면",
+      "변화를",
+      "알 수 있다"
+    ],
+    "explanation": "같은 장소의 옛날 사진과 오늘날 사진을 비교하면 건물, 길, 생활 모습 등이 어떻게 달라졌는지 찾을 수 있습니다."
   }
 ]

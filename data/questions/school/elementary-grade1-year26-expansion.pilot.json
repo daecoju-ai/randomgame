@@ -1,0 +1,326 @@
+[
+  {
+    "id": "G1-YEAR26-EXP-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 2자루와 색연필 4자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "2자루와 4자루를 하나씩 모아 세면 6자루입니다. 2 + 4 = 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 3자루와 색연필 7자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "3자루와 7자루를 하나씩 모아 세면 10자루입니다. 3 + 7 = 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 4자루와 색연필 1자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "4자루와 1자루를 하나씩 모아 세면 5자루입니다. 4 + 1 = 5입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 5자루와 색연필 4자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "5자루와 4자루를 하나씩 모아 세면 9자루입니다. 5 + 4 = 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 6자루와 색연필 7자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "6자루와 7자루를 하나씩 모아 세면 13자루입니다. 6 + 7 = 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 7자루와 색연필 1자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "7자루와 1자루를 하나씩 모아 세면 8자루입니다. 7 + 1 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 8자루와 색연필 4자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "8자루와 4자루를 하나씩 모아 세면 12자루입니다. 8 + 4 = 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 9자루와 색연필 7자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "9자루와 7자루를 하나씩 모아 세면 16자루입니다. 9 + 7 = 16입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 두 수를 모아 덧셈의 원리를 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필 1자루와 색연필 1자루를 한 통에 넣었습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "2",
+      "3",
+      "1",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "1자루와 1자루를 하나씩 모아 세면 2자루입니다. 1 + 1 = 2입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

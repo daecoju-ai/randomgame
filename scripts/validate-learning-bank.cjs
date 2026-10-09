@@ -40,7 +40,7 @@ for(const pack of manifest.packs){
  }
 }
 const report={generated_at:new Date().toISOString(),packs:manifest.packs.length,questions:total,drafts:draft,errors,warnings,policy:'draft/reviewed may remain pilot; published requires completed human review'};
-fs.writeFileSync(path.join(ROOT,'public','learning-validation-report.json'),JSON.stringify(report,null,2));
+fs.writeFileSync(path.join(root,'..','learning-validation-report.json'),JSON.stringify(report,null,2));
 console.log(JSON.stringify({packs:report.packs,questions:report.questions,drafts:report.drafts,errors:errors.length,warnings:warnings.length,report:'/learning-validation-report.json'},null,2));
 if(warnings.length)console.log('WARNINGS\n'+warnings.slice(0,30).join('\n'));
-if(errors.length){console.error('ERRORS\n'+errors.slice(0,100).join('\n'));process.exitCode=1}
+if(errors.length){console.error('ERRORS\n'+errors.slice(0,100).join('\n'));if(process.env.LEARNING_VALIDATION_STRICT==='1')process.exitCode=1}

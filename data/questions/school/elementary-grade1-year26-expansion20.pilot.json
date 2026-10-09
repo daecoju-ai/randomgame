@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP20-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 비가 내리자 현우는 가방에서 우산을 꺼냈습니다. 현우가 우산을 꺼낸 까닭은?",
+    "choices": [
+      "햇볕을 쬐려고",
+      "비를 맞지 않으려고",
+      "공을 차려고",
+      "책을 읽으려고"
+    ],
+    "answer": "비를 맞지 않으려고",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '비를 맞지 않으려고'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 민지는 교실 바닥에 물이 흘러 있는 것을 보고 선생님께 알렸습니다. 민지가 알린 까닭으로 알맞은 것은?",
+    "choices": [
+      "물을 더 마시려고",
+      "미끄러질 수 있어서",
+      "교실이 넓어서",
+      "공부가 끝나서"
+    ],
+    "answer": "미끄러질 수 있어서",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '미끄러질 수 있어서'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 다온이는 친구가 아끼는 책을 빌려 읽고 깨끗하게 돌려주었습니다. 다온이의 행동에서 알 수 있는 마음은?",
+    "choices": [
+      "책을 버리고 싶음",
+      "친구의 물건을 소중히 여김",
+      "친구를 피하고 싶음",
+      "책을 숨기고 싶음"
+    ],
+    "answer": "친구의 물건을 소중히 여김",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '친구의 물건을 소중히 여김'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 아침에 지각할 뻔한 유진이는 다음 날부터 가방을 전날 밤에 챙겼습니다. 유진이가 바꾼 습관은?",
+    "choices": [
+      "늦게 일어나기",
+      "전날 미리 준비하기",
+      "준비물을 빼놓기",
+      "아침을 거르기"
+    ],
+    "answer": "전날 미리 준비하기",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '전날 미리 준비하기'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 태민이는 새싹이 자라는 모습을 보고 날짜마다 그림을 그렸습니다. 태민이가 그림을 그린 이유로 가장 알맞은 것은?",
+    "choices": [
+      "화분을 숨기려고",
+      "변화를 기록하려고",
+      "물을 버리려고",
+      "책을 접으려고"
+    ],
+    "answer": "변화를 기록하려고",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '변화를 기록하려고'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 수아는 놀이터에서 다친 친구를 보고 가까운 어른에게 도움을 요청했습니다. 수아가 도움을 요청한 이유는?",
+    "choices": [
+      "친구를 놀리려고",
+      "친구를 안전하게 돕기 위해",
+      "혼자 떠나려고",
+      "놀이를 계속하려고"
+    ],
+    "answer": "친구를 안전하게 돕기 위해",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '친구를 안전하게 돕기 위해'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 지호는 길에서 떨어진 장갑을 주워 관리실에 맡겼습니다. 지호가 장갑을 맡긴 까닭은?",
+    "choices": [
+      "장갑을 버리려고",
+      "주인이 찾을 수 있게 하려고",
+      "장갑을 숨기려고",
+      "장갑을 찢으려고"
+    ],
+    "answer": "주인이 찾을 수 있게 하려고",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '주인이 찾을 수 있게 하려고'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 가온이는 수업 중 모르는 낱말이 나오자 뜻을 물어보았습니다. 가온이가 뜻을 물은 까닭은?",
+    "choices": [
+      "수업을 방해하려고",
+      "내용을 이해하려고",
+      "친구를 놀리려고",
+      "책을 잃어버려서"
+    ],
+    "answer": "내용을 이해하려고",
+    "explanation": "글에서 한 행동과 그 까닭을 연결하면 '내용을 이해하려고'라고 추론할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사과가 9개 있었습니다. 3개를 먹고 2개를 더 받았습니다. 지금 몇 개인가요?",
+    "choices": [
+      "6",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "9-3+2=8입니다. 상황을 순서대로 더하고 빼면 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색연필 7자루 중 2자루를 친구에게 주고 4자루를 샀습니다. 몇 자루인가요?",
+    "choices": [
+      "7",
+      "10",
+      "9",
+      "8"
+    ],
+    "answer": "9",
+    "explanation": "7-2+4=9입니다. 상황을 순서대로 더하고 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "새가 나뭇가지에 5마리 있었습니다. 4마리가 왔다가 3마리가 날아갔습니다. 몇 마리인가요?",
+    "choices": [
+      "4",
+      "7",
+      "6",
+      "5"
+    ],
+    "answer": "6",
+    "explanation": "5+4-3=6입니다. 상황을 순서대로 더하고 빼면 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 12개 중 5개를 상자에 넣고 2개를 꺼냈습니다. 상자 밖에는 몇 개인가요?",
+    "choices": [
+      "7",
+      "10",
+      "9",
+      "8"
+    ],
+    "answer": "9",
+    "explanation": "12-5+2=9입니다. 상황을 순서대로 더하고 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필 8자루를 가지고 있다가 3자루를 더 받고 4자루를 사용하려고 책상에 놓았습니다. 손에 남은 연필은 몇 자루인가요?",
+    "choices": [
+      "5",
+      "8",
+      "7",
+      "6"
+    ],
+    "answer": "7",
+    "explanation": "8+3-4=7입니다. 상황을 순서대로 더하고 빼면 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "딸기 10개 중 4개를 먹고 3개를 더 가져왔습니다. 몇 개인가요?",
+    "choices": [
+      "7",
+      "10",
+      "9",
+      "8"
+    ],
+    "answer": "9",
+    "explanation": "10-4+3=9입니다. 상황을 순서대로 더하고 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "스티커 6장을 받았고 5장을 더 받았습니다. 3장을 붙였다면 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "6",
+      "9",
+      "8",
+      "7"
+    ],
+    "answer": "8",
+    "explanation": "6+5-3=8입니다. 상황을 순서대로 더하고 빼면 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP20-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황의 단서를 이용해 추론하고 계산 과정을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "공책 11권 중 2권을 나누어 주고 4권을 새로 받았습니다. 몇 권인가요?",
+    "choices": [
+      "11",
+      "14",
+      "13",
+      "12"
+    ],
+    "answer": "13",
+    "explanation": "11-2+4=13입니다. 상황을 순서대로 더하고 빼면 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

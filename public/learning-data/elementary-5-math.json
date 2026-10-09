@@ -4294,5 +4294,172 @@
       "snapshot": "data/references/mathjs-v61-verification.json"
     },
     "revision_note": "단위분수를 등분과 나눗셈으로 연결"
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V147-E5-MATH-104",
+    "domain": "number_operations",
+    "learning_target": "분수 계산 과정을 순서대로 설명한다",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "1/2 + 1/4을 계산하는 과정을 순서대로 맞추세요.",
+    "choices": [
+      "1/2을 2/4로 바꾼다",
+      "2/4와 1/4을 더한다",
+      "답 3/4을 얻는다"
+    ],
+    "answer": [
+      "1/2을 2/4로 바꾼다",
+      "2/4와 1/4을 더한다",
+      "답 3/4을 얻는다"
+    ],
+    "explanation": "분모가 다르면 먼저 같은 분모로 바꿉니다. 1/2=2/4로 만든 뒤 2/4+1/4=3/4로 계산합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V147-E5-MATH-105",
+    "domain": "number_operations",
+    "learning_target": "곱셈식의 빈칸을 역연산으로 찾는다",
+    "difficulty": 2,
+    "game_type": "FORMULA",
+    "question": "□ × 6 = 54입니다. □에 들어갈 수를 고르세요.",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "곱셈의 빈칸은 나눗셈으로 확인할 수 있습니다. 54÷6=9이므로 □에는 9가 들어갑니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V147-E5-MATH-106",
+    "domain": "measurement",
+    "learning_target": "직사각형의 넓이 공식을 상황에 적용한다",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "가로 8m, 세로 5m인 직사각형 화단의 넓이를 고르세요.",
+    "choices": [
+      "13㎡",
+      "26㎡",
+      "40㎡",
+      "80㎡"
+    ],
+    "answer": "40㎡",
+    "explanation": "직사각형의 넓이는 가로×세로입니다. 8×5=40이므로 화단의 넓이는 40㎡입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V147-E5-MATH-107",
+    "domain": "number_operations",
+    "learning_target": "문제 상황에 알맞은 식을 선택한다",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주스 2.5L씩 4통이 있습니다. 전체 양을 구하는 식으로 알맞은 것은?",
+    "choices": [
+      "2.5+4",
+      "4÷2.5",
+      "2.5×4",
+      "2.5-4"
+    ],
+    "answer": "2.5×4",
+    "explanation": "2.5L가 똑같이 4통 있으므로 같은 양을 4번 더하는 상황입니다. 따라서 2.5×4로 나타낼 수 있습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V147-E5-MATH-108",
+    "domain": "number_operations",
+    "learning_target": "계산 결과의 크기를 비교한다",
+    "difficulty": 3,
+    "game_type": "MATCHING",
+    "question": "계산식과 결과가 올바르게 연결된 것을 고르세요.",
+    "choices": [
+      "3.2×5 → 16",
+      "4.5×2 → 8",
+      "18÷3 → 5"
+    ],
+    "answer": "3.2×5 → 16",
+    "explanation": "3.2를 5번 더하면 16입니다. 4.5×2는 9이고 18÷3은 6이므로 첫 번째 연결만 맞습니다."
   }
 ]

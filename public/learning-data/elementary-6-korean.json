@@ -158,5 +158,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료의 신뢰성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "인터넷 자료를 글에 활용할 때 가장 알맞은 행동은?",
+    "choices": [
+      "작성자와 출처, 작성 시점을 확인한다",
+      "검색 결과의 첫 문장을 무조건 믿는다",
+      "출처가 없는 자료를 그대로 사용한다",
+      "제목만 보고 내용을 판단한다"
+    ],
+    "answer": "작성자와 출처, 작성 시점을 확인한다",
+    "explanation": "인터넷 자료는 누구나 만들 수 있으므로 믿을 만한지 확인해야 합니다. 작성자·출처·작성 시점과 다른 자료와의 일치 여부를 살피면 신뢰성을 판단하는 데 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "관점 비교",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "같은 사건을 다룬 두 글의 관점을 비교하려면 무엇을 살펴봐야 하나요?",
+    "choices": [
+      "각 글이 강조하는 내용과 사용한 근거",
+      "글자의 크기만 비교한다",
+      "문장의 개수만 센다",
+      "제목의 길이만 비교한다"
+    ],
+    "answer": "각 글이 강조하는 내용과 사용한 근거",
+    "explanation": "관점은 대상을 바라보고 해석하는 방식입니다. 두 글이 무엇을 중요하게 보고 어떤 근거를 선택했는지 비교하면 서로 다른 관점을 파악할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "고쳐쓰기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 고쳐 쓸 때 가장 먼저 살펴볼 내용은?",
+    "choices": [
+      "글의 목적에 맞게 내용이 잘 드러나는지",
+      "글자 수가 짝수인지",
+      "모든 문장의 길이가 같은지",
+      "같은 낱말을 최대한 많이 썼는지"
+    ],
+    "answer": "글의 목적에 맞게 내용이 잘 드러나는지",
+    "explanation": "고쳐쓰기는 맞춤법만 확인하는 일이 아닙니다. 먼저 글의 목적과 중심 내용이 분명한지 살핀 뒤 문단 구성, 문장 표현, 맞춤법 등을 차례로 점검하는 것이 좋습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 성분",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“민수가 운동장에서 공을 찼다.”에서 행동을 한 사람은?",
+    "choices": [
+      "민수",
+      "운동장",
+      "공",
+      "찼다"
+    ],
+    "answer": "민수",
+    "explanation": "문장에서 ‘누가’ 행동했는지 찾으면 행동의 주체를 알 수 있습니다. ‘누가 공을 찼는가?’라고 물으면 ‘민수가’가 답이므로 행동을 한 사람은 민수입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "토론",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론에서 상대 주장을 반박할 때 가장 알맞은 방법은?",
+    "choices": [
+      "상대의 근거를 확인하고 타당하지 않은 점을 근거와 함께 말한다",
+      "상대의 말을 듣지 않고 틀렸다고 한다",
+      "큰 목소리로 같은 말만 반복한다",
+      "사람의 성격을 비난한다"
+    ],
+    "answer": "상대의 근거를 확인하고 타당하지 않은 점을 근거와 함께 말한다",
+    "explanation": "토론의 반박은 사람을 공격하는 것이 아니라 주장과 근거를 검토하는 과정입니다. 상대 근거의 부족한 점을 찾고 그 이유나 다른 근거를 제시해야 설득력 있는 반박이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

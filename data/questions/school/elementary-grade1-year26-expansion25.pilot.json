@@ -1,0 +1,602 @@
+[
+  {
+    "id": "G1-YEAR26-EXP25-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "그림 그리기 준비 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "색칠하기",
+      "종이 준비하기",
+      "연필로 밑그림 그리기"
+    ],
+    "answer": [
+      "종이 준비하기",
+      "연필로 밑그림 그리기",
+      "색칠하기"
+    ],
+    "explanation": "종이 준비하기 → 연필로 밑그림 그리기 → 색칠하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "도서관 책 빌리기 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "집에서 읽기",
+      "읽고 싶은 책 찾기",
+      "대출하기"
+    ],
+    "answer": [
+      "읽고 싶은 책 찾기",
+      "대출하기",
+      "집에서 읽기"
+    ],
+    "explanation": "읽고 싶은 책 찾기 → 대출하기 → 집에서 읽기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식물 관찰 기록 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "본 모습 기록하기",
+      "관찰할 식물 정하기",
+      "자세히 살펴보기"
+    ],
+    "answer": [
+      "관찰할 식물 정하기",
+      "자세히 살펴보기",
+      "본 모습 기록하기"
+    ],
+    "explanation": "관찰할 식물 정하기 → 자세히 살펴보기 → 본 모습 기록하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "편지 보내기 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "편지 보내기",
+      "편지 내용 쓰기",
+      "봉투에 넣기"
+    ],
+    "answer": [
+      "편지 내용 쓰기",
+      "봉투에 넣기",
+      "편지 보내기"
+    ],
+    "explanation": "편지 내용 쓰기 → 봉투에 넣기 → 편지 보내기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "길을 물어보는 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "설명 듣기",
+      "안전한 어른 찾기",
+      "도움을 요청하기"
+    ],
+    "answer": [
+      "안전한 어른 찾기",
+      "도움을 요청하기",
+      "설명 듣기"
+    ],
+    "explanation": "안전한 어른 찾기 → 도움을 요청하기 → 설명 듣기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "운동 전후 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "정리 운동하기",
+      "준비 운동하기",
+      "몸 움직이며 운동하기"
+    ],
+    "answer": [
+      "준비 운동하기",
+      "몸 움직이며 운동하기",
+      "정리 운동하기"
+    ],
+    "explanation": "준비 운동하기 → 몸 움직이며 운동하기 → 정리 운동하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "장난감 정리 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "바닥 확인하기",
+      "장난감 종류별로 모으기",
+      "제자리에 넣기"
+    ],
+    "answer": [
+      "장난감 종류별로 모으기",
+      "제자리에 넣기",
+      "바닥 확인하기"
+    ],
+    "explanation": "장난감 종류별로 모으기 → 제자리에 넣기 → 바닥 확인하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "발표 준비 순서: 다음 행동을 올바른 순서로 배열하세요.",
+    "choices": [
+      "연습하기",
+      "발표할 내용 생각하기",
+      "말할 순서 정하기"
+    ],
+    "answer": [
+      "발표할 내용 생각하기",
+      "말할 순서 정하기",
+      "연습하기"
+    ],
+    "explanation": "발표할 내용 생각하기 → 말할 순서 정하기 → 연습하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "귤 13개 중 4개를 먹었습니다. 남은 귤 중 3개를 친구에게 주었습니다. 몇 개가 남았나요?",
+    "choices": [
+      "7",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "순서대로 계산하면 13-4-3=6이므로 정답은 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나무에 새 6마리가 있었습니다. 5마리가 더 왔다가 2마리가 날아갔습니다. 몇 마리가 남았나요?",
+    "choices": [
+      "10",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "순서대로 계산하면 6+5-2=9이므로 정답은 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 9장을 갖고 있다가 4장을 더 받고 6장을 사용했습니다. 몇 장이 남았나요?",
+    "choices": [
+      "8",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "순서대로 계산하면 9+4-6=7이므로 정답은 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 15개를 5개 먹고 3개를 더 받았습니다. 지금 몇 개인가요?",
+    "choices": [
+      "14",
+      "11",
+      "13",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "순서대로 계산하면 15-5+3=13이므로 정답은 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "공 8개를 2개씩 두 상자에 넣었습니다. 상자 밖에 남은 공은 몇 개인가요?",
+    "choices": [
+      "5",
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "순서대로 계산하면 8-2-2=4이므로 정답은 4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필 7자루에 6자루를 더 샀다가 5자루를 나누어 주었습니다. 몇 자루가 남았나요?",
+    "choices": [
+      "9",
+      "6",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "순서대로 계산하면 7+6-5=8이므로 정답은 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 14개를 갖고 있다가 7개를 잃어버리고 2개를 찾았습니다. 지금 몇 개인가요?",
+    "choices": [
+      "10",
+      "7",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "순서대로 계산하면 14-7+2=9이므로 정답은 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP25-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 순서와 수학 문제를 단계별로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "꽃 4송이를 꽂고 5송이를 더 꽂았습니다. 그중 3송이를 빼면 몇 송이가 남나요?",
+    "choices": [
+      "7",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "순서대로 계산하면 4+5-3=6이므로 정답은 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

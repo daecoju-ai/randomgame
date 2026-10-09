@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP21-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 빨강 4개, 파랑 7개, 노랑 2개. 가장 많은 색을(를) 고르세요.",
+    "choices": [
+      "빨강",
+      "파랑",
+      "노랑",
+      "모두 같음"
+    ],
+    "answer": "파랑",
+    "explanation": "각 수를 비교해 보면 정답은 '파랑'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 사과 6개, 배 3개, 귤 5개. 가장 적은 과일을(를) 고르세요.",
+    "choices": [
+      "사과",
+      "배",
+      "귤",
+      "모두 같음"
+    ],
+    "answer": "배",
+    "explanation": "각 수를 비교해 보면 정답은 '배'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 고양이 8표, 강아지 5표, 토끼 4표. 가장 많은 표를 받은 동물을(를) 고르세요.",
+    "choices": [
+      "강아지",
+      "고양이",
+      "토끼",
+      "모두 같음"
+    ],
+    "answer": "고양이",
+    "explanation": "각 수를 비교해 보면 정답은 '고양이'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 버스 2대, 자동차 9대, 자전거 6대. 가장 적은 탈것을(를) 고르세요.",
+    "choices": [
+      "자동차",
+      "버스",
+      "자전거",
+      "모두 같음"
+    ],
+    "answer": "버스",
+    "explanation": "각 수를 비교해 보면 정답은 '버스'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 딸기 5개, 포도 5개, 복숭아 3개. 개수가 같은 두 과일을(를) 고르세요.",
+    "choices": [
+      "딸기와 복숭아",
+      "딸기와 포도",
+      "포도와 복숭아",
+      "세 과일 모두"
+    ],
+    "answer": "딸기와 포도",
+    "explanation": "각 수를 비교해 보면 정답은 '딸기와 포도'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 빨간 블록 4개, 노란 블록 4개, 파란 블록 7개. 개수가 같은 두 색을(를) 고르세요.",
+    "choices": [
+      "빨강과 파랑",
+      "빨강과 노랑",
+      "노랑과 파랑",
+      "세 색 모두"
+    ],
+    "answer": "빨강과 노랑",
+    "explanation": "각 수를 비교해 보면 정답은 '빨강과 노랑'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 1반 9명, 2반 6명, 3반 8명. 가장 많은 학생이 있는 반을(를) 고르세요.",
+    "choices": [
+      "2반",
+      "1반",
+      "3반",
+      "모두 같음"
+    ],
+    "answer": "1반",
+    "explanation": "각 수를 비교해 보면 정답은 '1반'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "조사 결과: 튤립 3송이, 장미 7송이, 국화 5송이. 가장 적은 꽃을(를) 고르세요.",
+    "choices": [
+      "장미",
+      "튤립",
+      "국화",
+      "모두 같음"
+    ],
+    "answer": "튤립",
+    "explanation": "각 수를 비교해 보면 정답은 '튤립'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '비가 와서 우산을 썼어요.'",
+    "choices": [
+      "비가 왔지만",
+      "비가 오기 전에",
+      "비가 와서",
+      "비가 오지 않아"
+    ],
+    "answer": "비가 와서",
+    "explanation": "'비가 와서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '배가 고파서 밥을 먹었어요.'",
+    "choices": [
+      "배가 불러서",
+      "밥을 먹은 뒤에",
+      "배가 고파서",
+      "잠이 와서"
+    ],
+    "answer": "배가 고파서",
+    "explanation": "'배가 고파서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '친구가 아파서 보건실에 갔어요.'",
+    "choices": [
+      "친구가 웃어서",
+      "친구가 노래해서",
+      "친구가 아파서",
+      "친구가 달려서"
+    ],
+    "answer": "친구가 아파서",
+    "explanation": "'친구가 아파서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '손이 더러워서 비누로 씻었어요.'",
+    "choices": [
+      "손이 깨끗해서",
+      "손이 차가워서",
+      "손이 더러워서",
+      "손이 작아서"
+    ],
+    "answer": "손이 더러워서",
+    "explanation": "'손이 더러워서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '추워서 겉옷을 입었어요.'",
+    "choices": [
+      "더워서",
+      "졸려서",
+      "추워서",
+      "배불러서"
+    ],
+    "answer": "추워서",
+    "explanation": "'추워서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '연필이 부러져서 새 연필을 꺼냈어요.'",
+    "choices": [
+      "연필이 길어서",
+      "연필이 많아서",
+      "연필이 부러져서",
+      "연필이 예뻐서"
+    ],
+    "answer": "연필이 부러져서",
+    "explanation": "'연필이 부러져서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '늦잠을 자서 서둘러 준비했어요.'",
+    "choices": [
+      "일찍 일어나서",
+      "잠을 안 자서",
+      "늦잠을 자서",
+      "친구가 와서"
+    ],
+    "answer": "늦잠을 자서",
+    "explanation": "'늦잠을 자서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP21-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 분류와 알맞은 문장 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문장을 읽고 행동의 까닭을 나타내는 부분을 고르세요. '목이 말라서 물을 마셨어요.'",
+    "choices": [
+      "배가 아파서",
+      "물이 많아서",
+      "목이 말라서",
+      "비가 와서"
+    ],
+    "answer": "목이 말라서",
+    "explanation": "'목이 말라서'가 뒤에 나온 행동의 이유를 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

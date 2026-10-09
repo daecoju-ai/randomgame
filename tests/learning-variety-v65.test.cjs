@@ -5,9 +5,9 @@ const B=require('../lib/learning-bank.cjs');
 const R=require('../public/learning-rules.js');
 const P=require('../lib/learning-packs.cjs');
 
-test('v64 and v65 exercises retain unique IDs, usable answers, and explanations',()=>{
- const rows=B.bank().filter(q=>/^V6[45]-/.test(q.id));
- assert.equal(rows.length,12);
+test('v64 through v66 exercises retain unique IDs, usable answers, and explanations',()=>{
+ const rows=B.bank().filter(q=>/^V6[456]-/.test(q.id));
+ assert.equal(rows.length,18);
  assert.equal(new Set(rows.map(q=>q.id)).size,12);
  const modes=new Set(rows.map(q=>q.game_type));
  for(const type of ['ORDERING','TILE_SEQUENCE','FORMULA','TARGET_SELECT','MULTIPLE_CHOICE'])assert(modes.has(type),type);

@@ -1,0 +1,199 @@
+[
+  {
+    "id": "V64-MATH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "수의 규칙",
+    "learning_target": "규칙에 따라 수 배열 완성",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "2씩 커지는 수를 순서대로 골라 2, 4, 6, 8을 완성하세요.",
+    "choices": [
+      "8",
+      "4",
+      "2",
+      "6"
+    ],
+    "answer": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "explanation": "2에서 시작해 2씩 더하면 4, 6, 8이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V64-MATH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "math",
+    "domain": "곱셈",
+    "learning_target": "곱셈식을 덧셈과 연결",
+    "difficulty": 2,
+    "game_type": "FORMULA",
+    "question": "3 × 4를 같은 값의 덧셈으로 나타낸 것은?",
+    "choices": [
+      "3+3+3+3",
+      "4+4+4+4",
+      "3+4",
+      "3+3+4"
+    ],
+    "answer": "3+3+3+3",
+    "explanation": "3을 4번 더한 값은 12이므로 3 × 4와 같습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V64-KOREAN-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 순서 이해",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "자연스러운 문장이 되도록 어절을 순서대로 선택하세요.",
+    "choices": [
+      "읽습니다.",
+      "나는",
+      "책을"
+    ],
+    "answer": [
+      "나는",
+      "책을",
+      "읽습니다."
+    ],
+    "explanation": "누가(나는), 무엇을(책을), 어떻게 한다(읽습니다)의 순서로 문장을 만듭니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V64-ENGLISH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "english",
+    "domain": "기초 문장",
+    "learning_target": "주어 동사 목적어 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'나는 사과를 좋아해요'를 영어 단어로 순서대로 만드세요.",
+    "choices": [
+      "apples.",
+      "like",
+      "I"
+    ],
+    "answer": [
+      "I",
+      "like",
+      "apples."
+    ],
+    "explanation": "영어 평서문은 주어 I, 동사 like, 목적어 apples 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V64-SCIENCE-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "식물의 한살이",
+    "learning_target": "씨앗 발아 조건 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "씨앗이 싹트는 데 일반적으로 필요한 조건은?",
+    "choices": [
+      "적절한 물과 온도, 공기",
+      "항상 강한 햇빛",
+      "매일 비료",
+      "얼음처럼 낮은 온도"
+    ],
+    "answer": "적절한 물과 온도, 공기",
+    "explanation": "씨앗이 발아하려면 보통 물, 적절한 온도, 산소가 필요합니다. 햇빛은 식물마다 발아 조건이 다릅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V64-SOCIAL-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "지도",
+    "learning_target": "지도 기호와 방향 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "지도에서 북쪽이 위쪽일 때 오른쪽은 어느 방향인가요?",
+    "choices": [
+      "동쪽",
+      "서쪽",
+      "남쪽",
+      "북쪽"
+    ],
+    "answer": "동쪽",
+    "explanation": "북쪽이 위에 있는 지도에서 오른쪽은 동쪽, 왼쪽은 서쪽입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

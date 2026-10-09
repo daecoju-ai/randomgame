@@ -89,7 +89,7 @@
     "release_channel": "pilot",
     "version": 1,
     "review": {
-      "method": "author_draft_automated_structure_check",
+      "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
     }
@@ -120,7 +120,7 @@
     "release_channel": "pilot",
     "version": 1,
     "review": {
-      "method": "author_draft_automated_structure_check",
+      "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
     }
@@ -151,7 +151,7 @@
     "release_channel": "pilot",
     "version": 1,
     "review": {
-      "method": "author_draft_automated_structure_check",
+      "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
     }
@@ -182,7 +182,7 @@
     "release_channel": "pilot",
     "version": 1,
     "review": {
-      "method": "author_draft_automated_structure_check",
+      "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
     }

@@ -1298,18 +1298,19 @@
       "17"
     ],
     "answer": "12",
-    "explanation": "2 × 3 × 2 = 12 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 2×3=6개가 들어가고, 이런 층이 2개이므로 6×2=12개입니다. 따라서 부피는 12cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-002",
@@ -1329,18 +1330,19 @@
       "29"
     ],
     "answer": "24",
-    "explanation": "3 × 4 × 2 = 24 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 3×4=12개가 들어가고, 이런 층이 2개이므로 12×2=24개입니다. 따라서 부피는 24cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-003",
@@ -1360,18 +1362,19 @@
       "45"
     ],
     "answer": "40",
-    "explanation": "4 × 5 × 2 = 40 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 4×5=20개가 들어가고, 이런 층이 2개이므로 20×2=40개입니다. 따라서 부피는 40cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-004",
@@ -1391,18 +1394,19 @@
       "65"
     ],
     "answer": "60",
-    "explanation": "5 × 6 × 2 = 60 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 5×6=30개가 들어가고, 이런 층이 2개이므로 30×2=60개입니다. 따라서 부피는 60cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-005",
@@ -1422,18 +1426,19 @@
       "41"
     ],
     "answer": "36",
-    "explanation": "6 × 3 × 2 = 36 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 6×3=18개가 들어가고, 이런 층이 2개이므로 18×2=36개입니다. 따라서 부피는 36cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-006",
@@ -1453,18 +1458,19 @@
       "61"
     ],
     "answer": "56",
-    "explanation": "7 × 4 × 2 = 56 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 7×4=28개가 들어가고, 이런 층이 2개이므로 28×2=56개입니다. 따라서 부피는 56cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-007",
@@ -1484,18 +1490,19 @@
       "85"
     ],
     "answer": "80",
-    "explanation": "8 × 5 × 2 = 80 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 8×5=40개가 들어가고, 이런 층이 2개이므로 40×2=80개입니다. 따라서 부피는 80cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-008",
@@ -1515,18 +1522,19 @@
       "113"
     ],
     "answer": "108",
-    "explanation": "9 × 6 × 2 = 108 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 9×6=54개가 들어가고, 이런 층이 2개이므로 54×2=108개입니다. 따라서 부피는 108cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-009",
@@ -1546,18 +1554,19 @@
       "65"
     ],
     "answer": "60",
-    "explanation": "10 × 3 × 2 = 60 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 10×3=30개가 들어가고, 이런 층이 2개이므로 30×2=60개입니다. 따라서 부피는 60cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-010",
@@ -1577,18 +1586,19 @@
       "93"
     ],
     "answer": "88",
-    "explanation": "11 × 4 × 2 = 88 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 11×4=44개가 들어가고, 이런 층이 2개이므로 44×2=88개입니다. 따라서 부피는 88cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-011",
@@ -1608,18 +1618,19 @@
       "125"
     ],
     "answer": "120",
-    "explanation": "12 × 5 × 2 = 120 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 12×5=60개가 들어가고, 이런 층이 2개이므로 60×2=120개입니다. 따라서 부피는 120cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-012",
@@ -1639,18 +1650,19 @@
       "161"
     ],
     "answer": "156",
-    "explanation": "13 × 6 × 2 = 156 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 13×6=78개가 들어가고, 이런 층이 2개이므로 78×2=156개입니다. 따라서 부피는 156cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-013",
@@ -1670,18 +1682,19 @@
       "89"
     ],
     "answer": "84",
-    "explanation": "14 × 3 × 2 = 84 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 14×3=42개가 들어가고, 이런 층이 2개이므로 42×2=84개입니다. 따라서 부피는 84cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-014",
@@ -1701,18 +1714,19 @@
       "125"
     ],
     "answer": "120",
-    "explanation": "15 × 4 × 2 = 120 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 15×4=60개가 들어가고, 이런 층이 2개이므로 60×2=120개입니다. 따라서 부피는 120cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-015",
@@ -1732,18 +1746,19 @@
       "165"
     ],
     "answer": "160",
-    "explanation": "16 × 5 × 2 = 160 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 16×5=80개가 들어가고, 이런 층이 2개이므로 80×2=160개입니다. 따라서 부피는 160cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-016",
@@ -1763,18 +1778,19 @@
       "209"
     ],
     "answer": "204",
-    "explanation": "17 × 6 × 2 = 204 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 17×6=102개가 들어가고, 이런 층이 2개이므로 102×2=204개입니다. 따라서 부피는 204cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-017",
@@ -1794,18 +1810,19 @@
       "113"
     ],
     "answer": "108",
-    "explanation": "18 × 3 × 2 = 108 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 18×3=54개가 들어가고, 이런 층이 2개이므로 54×2=108개입니다. 따라서 부피는 108cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-018",
@@ -1825,18 +1842,19 @@
       "157"
     ],
     "answer": "152",
-    "explanation": "19 × 4 × 2 = 152 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 19×4=76개가 들어가고, 이런 층이 2개이므로 76×2=152개입니다. 따라서 부피는 152cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-019",
@@ -1856,18 +1874,19 @@
       "205"
     ],
     "answer": "200",
-    "explanation": "20 × 5 × 2 = 200 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 20×5=100개가 들어가고, 이런 층이 2개이므로 100×2=200개입니다. 따라서 부피는 200cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-020",
@@ -1887,18 +1906,19 @@
       "257"
     ],
     "answer": "252",
-    "explanation": "21 × 6 × 2 = 252 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 21×6=126개가 들어가고, 이런 층이 2개이므로 126×2=252개입니다. 따라서 부피는 252cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-021",
@@ -1918,18 +1938,19 @@
       "137"
     ],
     "answer": "132",
-    "explanation": "22 × 3 × 2 = 132 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 22×3=66개가 들어가고, 이런 층이 2개이므로 66×2=132개입니다. 따라서 부피는 132cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-022",
@@ -1949,18 +1970,19 @@
       "189"
     ],
     "answer": "184",
-    "explanation": "23 × 4 × 2 = 184 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 23×4=92개가 들어가고, 이런 층이 2개이므로 92×2=184개입니다. 따라서 부피는 184cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-023",
@@ -1980,18 +2002,19 @@
       "245"
     ],
     "answer": "240",
-    "explanation": "24 × 5 × 2 = 240 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 24×5=120개가 들어가고, 이런 층이 2개이므로 120×2=240개입니다. 따라서 부피는 240cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-024",
@@ -2011,18 +2034,19 @@
       "305"
     ],
     "answer": "300",
-    "explanation": "25 × 6 × 2 = 300 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 25×6=150개가 들어가고, 이런 층이 2개이므로 150×2=300개입니다. 따라서 부피는 300cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-025",
@@ -2042,18 +2066,19 @@
       "161"
     ],
     "answer": "156",
-    "explanation": "26 × 3 × 2 = 156 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 26×3=78개가 들어가고, 이런 층이 2개이므로 78×2=156개입니다. 따라서 부피는 156cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-026",
@@ -2073,18 +2098,19 @@
       "221"
     ],
     "answer": "216",
-    "explanation": "27 × 4 × 2 = 216 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 27×4=108개가 들어가고, 이런 층이 2개이므로 108×2=216개입니다. 따라서 부피는 216cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-027",
@@ -2104,18 +2130,19 @@
       "285"
     ],
     "answer": "280",
-    "explanation": "28 × 5 × 2 = 280 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 28×5=140개가 들어가고, 이런 층이 2개이므로 140×2=280개입니다. 따라서 부피는 280cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-028",
@@ -2135,18 +2162,19 @@
       "353"
     ],
     "answer": "348",
-    "explanation": "29 × 6 × 2 = 348 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 29×6=174개가 들어가고, 이런 층이 2개이므로 174×2=348개입니다. 따라서 부피는 348cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-029",
@@ -2166,18 +2194,19 @@
       "185"
     ],
     "answer": "180",
-    "explanation": "30 × 3 × 2 = 180 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 30×3=90개가 들어가고, 이런 층이 2개이므로 90×2=180개입니다. 따라서 부피는 180cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-030",
@@ -2197,18 +2226,19 @@
       "253"
     ],
     "answer": "248",
-    "explanation": "31 × 4 × 2 = 248 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 31×4=124개가 들어가고, 이런 층이 2개이므로 124×2=248개입니다. 따라서 부피는 248cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-031",
@@ -2228,18 +2258,19 @@
       "325"
     ],
     "answer": "320",
-    "explanation": "32 × 5 × 2 = 320 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 32×5=160개가 들어가고, 이런 층이 2개이므로 160×2=320개입니다. 따라서 부피는 320cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-032",
@@ -2259,18 +2290,19 @@
       "401"
     ],
     "answer": "396",
-    "explanation": "33 × 6 × 2 = 396 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 33×6=198개가 들어가고, 이런 층이 2개이므로 198×2=396개입니다. 따라서 부피는 396cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-033",
@@ -2290,18 +2322,19 @@
       "209"
     ],
     "answer": "204",
-    "explanation": "34 × 3 × 2 = 204 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 34×3=102개가 들어가고, 이런 층이 2개이므로 102×2=204개입니다. 따라서 부피는 204cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-034",
@@ -2321,18 +2354,19 @@
       "285"
     ],
     "answer": "280",
-    "explanation": "35 × 4 × 2 = 280 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 35×4=140개가 들어가고, 이런 층이 2개이므로 140×2=280개입니다. 따라서 부피는 280cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-035",
@@ -2352,18 +2386,19 @@
       "365"
     ],
     "answer": "360",
-    "explanation": "36 × 5 × 2 = 360 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 36×5=180개가 들어가고, 이런 층이 2개이므로 180×2=360개입니다. 따라서 부피는 360cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V58-E6-MATH-036",
@@ -2383,18 +2418,19 @@
       "449"
     ],
     "answer": "444",
-    "explanation": "37 × 6 × 2 = 444 cm³입니다.",
+    "explanation": "1cm³짜리 정육면체로 채운다고 생각합니다. 한 층에는 37×6=222개가 들어가고, 이런 층이 2개이므로 222×2=444개입니다. 따라서 부피는 444cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직육면체 부피 공식을 1cm³ 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V61-E6-MATH-001",

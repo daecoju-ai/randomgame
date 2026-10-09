@@ -17,12 +17,12 @@
       "92"
     ],
     "answer": "72",
-    "explanation": "24를 3번 더하면 72입니다.",
+    "explanation": "24가 3묶음 있다고 생각하면 24+24+24=72입니다. 같은 수를 3번 더하는 것을 곱셈으로 나타내면 24 × 3 = 72입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
-    "version": 2,
+    "version": 3,
     "tags": [
       "multiplication"
     ],
@@ -31,7 +31,8 @@
       "method": "arithmetic_check_and_editorial_review",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "두 자리 수 곱셈을 묶음과 반복 덧셈으로 연결"
   },
   {
     "id": "E3-MATH-NUM-000002",
@@ -51,12 +52,12 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "20을 5명에게 똑같이 나누면 20 ÷ 5 = 4입니다.",
+    "explanation": "20개를 5명이 똑같이 나누어 가지려면 5개의 같은 묶음을 만듭니다. 5 × 4 = 20이므로 한 명이 받는 사탕은 4개입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
-    "version": 2,
+    "version": 3,
     "tags": [
       "division"
     ],
@@ -65,7 +66,8 @@
       "method": "arithmetic_check_and_editorial_review",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "등분 나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "E3-MATH-NUM-000003",
@@ -85,12 +87,12 @@
       "8"
     ],
     "answer": "7",
-    "explanation": "6 × 7 = 42입니다.",
+    "explanation": "6씩 몇 묶음이면 42가 되는지 생각합니다. 6, 12, 18, 24, 30, 36, 42로 6을 7번 더하므로 □는 7입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
-    "version": 2,
+    "version": 3,
     "tags": [
       "multiplication",
       "tile"
@@ -100,7 +102,8 @@
       "method": "arithmetic_check_and_editorial_review",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "곱셈식의 빈칸을 반복 덧셈과 묶음 수로 찾도록 설명"
   },
   {
     "id": "V58-E3-MATH-001",

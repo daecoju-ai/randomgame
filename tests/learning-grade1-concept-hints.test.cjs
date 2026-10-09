@@ -20,7 +20,7 @@ test('all grade-one pilot questions have distinct worked-example prompts and usa
  const fs=require('node:fs');
  const path=require('node:path');
  const dir=path.join(__dirname,'../data/questions/school');
- const files=fs.readdirSync(dir).filter(name=>/^elementary-grade1-year26.*\\.pilot\\.json$/.test(name));
+ const files=fs.readdirSync(dir).filter(name=>/^elementary-grade1-year26.*\.pilot\.json$/.test(name));
  assert(files.length>=8,'expected the full grade-one pilot collection');
  let checked=0;
  for(const name of files){

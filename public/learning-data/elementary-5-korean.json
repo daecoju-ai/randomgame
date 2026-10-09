@@ -1758,5 +1758,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-056",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "글의 구조",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시간의 흐름에 따라 경험을 쓴 글에서 내용을 파악하기 좋은 방법은?",
+    "choices": [
+      "일어난 사건을 시간 순서대로 정리한다",
+      "인물 이름을 가나다순으로 정리한다",
+      "문장 길이만 비교한다",
+      "마지막 사건만 읽는다"
+    ],
+    "answer": "일어난 사건을 시간 순서대로 정리한다",
+    "explanation": "경험을 시간의 흐름에 따라 쓴 글은 언제 어떤 일이 일어났는지 순서를 잡아 읽는 것이 중요합니다. 사건을 차례대로 정리하면 변화 과정과 전체 내용을 쉽게 파악할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-057",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "비유 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“호수는 거울처럼 맑았다.”에서 ‘거울처럼’을 사용한 효과는?",
+    "choices": [
+      "호수의 맑은 모습을 익숙한 대상에 빗대어 생생하게 나타낸다",
+      "호수가 실제 거울이라는 뜻을 나타낸다",
+      "호수의 크기를 정확히 재어 준다",
+      "거울의 가격을 알려 준다"
+    ],
+    "answer": "호수의 맑은 모습을 익숙한 대상에 빗대어 생생하게 나타낸다",
+    "explanation": "비유는 어떤 대상을 다른 익숙한 대상에 빗대어 특징을 쉽게 떠올리게 합니다. 거울의 맑고 반사되는 모습을 이용해 호수의 모습을 더 생생하게 표현했습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-058",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "경험 글쓰기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "자신의 경험을 글로 쓸 때 독자가 상황을 잘 이해하게 하는 방법은?",
+    "choices": [
+      "언제 어디서 무슨 일이 있었는지 구체적으로 쓴다",
+      "느낌만 한 단어로 쓴다",
+      "사건의 순서를 모두 뒤섞는다",
+      "중요한 상황을 모두 생략한다"
+    ],
+    "answer": "언제 어디서 무슨 일이 있었는지 구체적으로 쓴다",
+    "explanation": "경험을 전달하려면 사건이 일어난 때와 장소, 주요 행동을 구체적으로 제시해야 합니다. 필요한 상황 정보가 있으면 독자가 글쓴이의 경험과 느낌을 자연스럽게 따라갈 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-059",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "이어진 문장",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "두 문장을 ‘그래서’로 이을 때 가장 자연스러운 관계는?",
+    "choices": [
+      "원인과 결과",
+      "서로 관계없는 내용",
+      "같은 낱말의 반복",
+      "인물 이름의 나열"
+    ],
+    "answer": "원인과 결과",
+    "explanation": "‘그래서’는 앞의 내용 때문에 뒤의 결과가 생겼음을 나타낼 때 사용합니다. 앞뒤 문장이 실제로 원인과 결과 관계인지 확인해야 자연스럽게 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-060",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "설명 듣기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "복잡한 만들기 방법을 들을 때 순서를 놓치지 않는 방법은?",
+    "choices": [
+      "단계별 핵심 행동을 순서대로 메모한다",
+      "마지막 단계만 기억한다",
+      "설명을 들으며 순서를 임의로 바꾼다",
+      "도구 이름만 반복해서 쓴다"
+    ],
+    "answer": "단계별 핵심 행동을 순서대로 메모한다",
+    "explanation": "방법을 설명하는 말은 행동의 순서가 중요합니다. ‘먼저-다음-마지막’과 같은 순서 표현과 각 단계의 핵심 행동을 메모하면 과정을 정확히 따라갈 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

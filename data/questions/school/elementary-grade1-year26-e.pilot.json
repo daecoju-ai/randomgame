@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-E-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "13에서 5를 빼면 얼마인가요?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "13에서 5를 빼면 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "8과 7을 더하면 얼마인가요?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "8에 7을 더하면 15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "17에서 8을 빼면 얼마인가요?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "17에서 8을 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "6과 9를 더하면 얼마인가요?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "15",
+    "explanation": "6에 9를 더하면 15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "19에서 10을 빼면 얼마인가요?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "19에서 10을 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 20보다 작은 수는 무엇인가요?",
+    "choices": [
+      "21",
+      "22",
+      "19",
+      "23"
+    ],
+    "answer": "19",
+    "explanation": "19는 20보다 1 작은 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "geometry_measurement 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴바늘이 12, 짧은바늘이 9를 가리키면 몇 시인가요?",
+    "choices": [
+      "8시",
+      "9시",
+      "10시",
+      "11시"
+    ],
+    "answer": "9시",
+    "explanation": "긴바늘이 12에 있고 짧은바늘이 9에 있으면 9시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "data_patterns 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "3, 6, 9 다음에 오는 수는 무엇인가요?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": "3씩 커지는 규칙이므로 9 다음은 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'유나는 아침에 빵을 먹고 우유를 마셨어요.' 유나가 마신 것은?",
+    "choices": [
+      "물",
+      "우유",
+      "주스",
+      "차"
+    ],
+    "answer": "우유",
+    "explanation": "문장에 유나가 우유를 마셨다고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'준호는 공원에서 자전거를 탔어요.' 준호는 어디에서 자전거를 탔나요?",
+    "choices": [
+      "학교",
+      "공원",
+      "도서관",
+      "집"
+    ],
+    "answer": "공원",
+    "explanation": "글에서 준호가 공원에서 자전거를 탔다고 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 이해",
+    "learning_target": "낱말 이해 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 '빠르다'와 반대되는 뜻의 낱말은?",
+    "choices": [
+      "느리다",
+      "길다",
+      "작다",
+      "높다"
+    ],
+    "answer": "느리다",
+    "explanation": "'빠르다'와 반대되는 뜻은 '느리다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "글자 익히기 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'친구'에서 두 번째 글자는 무엇인가요?",
+    "choices": [
+      "친",
+      "군",
+      "구",
+      "기"
+    ],
+    "answer": "구",
+    "explanation": "'친구'는 '친'과 '구' 두 글자로 이루어져 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 이해",
+    "learning_target": "문장 이해 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 부탁하는 말은 무엇인가요?",
+    "choices": [
+      "문을 닫아 주세요.",
+      "오늘은 맑아요.",
+      "나는 학생이에요.",
+      "꽃이 예뻐요."
+    ],
+    "answer": "문을 닫아 주세요.",
+    "explanation": "'문을 닫아 주세요.'는 다른 사람에게 행동을 부탁하는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 이해",
+    "learning_target": "낱말 이해 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 날씨를 나타내는 말은?",
+    "choices": [
+      "맑다",
+      "연필",
+      "책상",
+      "신발"
+    ],
+    "answer": "맑다",
+    "explanation": "'맑다'는 하늘이나 날씨의 상태를 나타내는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 안전 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "횡단보도 앞에서 가장 먼저 확인해야 할 것은?",
+    "choices": [
+      "보행자 신호와 주변 차량",
+      "친구의 장난감",
+      "가방 색깔",
+      "길가의 꽃"
+    ],
+    "answer": "보행자 신호와 주변 차량",
+    "explanation": "횡단보도를 건널 때에는 보행자 신호와 주변 차량을 확인해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-E-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연 관찰",
+    "learning_target": "자연 관찰 기초 이해와 활용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식물의 뿌리는 주로 어디에 있나요?",
+    "choices": [
+      "흙 속",
+      "구름 위",
+      "나뭇잎 끝",
+      "하늘"
+    ],
+    "answer": "흙 속",
+    "explanation": "많은 식물의 뿌리는 흙 속에서 물을 흡수하고 식물을 지탱합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_readability_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

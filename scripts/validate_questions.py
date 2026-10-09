@@ -44,7 +44,8 @@ def validate_schema(q,schema):
 schema=json.loads((root/'data/schemas/question.schema.json').read_text())
 sources={x['id'] for x in json.loads((root/'data/sources/sources.json').read_text())}
 licenses={x.get('id') for x in json.loads((root/'data/sources/licenses.json').read_text())}
-curricula=list((root/'data/curriculum').rglob('*.json'));curriculum_codes={json.loads(f.read_text())['curriculum'] for f in curricula}
+curricula=[json.loads(f.read_text()) for f in (root/'data/curriculum').rglob('*.json')]
+curriculum_codes={c['curriculum'] for c in curricula if isinstance(c,dict) and 'curriculum' in c}
 for f in files:
  for q in json.loads(f.read_text()):
   try: validate_schema(q,schema)
@@ -56,7 +57,7 @@ for f in files:
   answers=q['answer'] if isinstance(q['answer'],list) else [q['answer']]
   if any(str(a) not in [str(x) for x in q.get('choices',[])] for a in answers):errors.append(f"{q.get('id')}: answer/choices mismatch")
   if q.get('school')=='elementary' and q.get('subject')=='math':
-   domains={u['domain'] for c in curricula for u in json.loads(c.read_text()).get('units',[])}
+   domains={u['domain'] for c in curricula if isinstance(c,dict) for u in c.get('units',[]) if isinstance(u,dict) and 'domain' in u}
    if q.get('domain') not in domains:errors.append(f"{q.get('id')}: unknown curriculum domain")
 if errors:print('\n'.join(errors));sys.exit(1)
 print('OK: schema, grade, curriculum, source, license and answer checks')

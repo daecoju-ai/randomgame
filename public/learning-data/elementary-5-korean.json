@@ -3198,5 +3198,182 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V147-ELEMENTARY-5-KOREAN-101",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "원인과 결과의 순서",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "원인에서 결과로 자연스럽게 이어지도록 순서를 맞추세요.",
+    "choices": [
+      "비가 많이 내렸다",
+      "하천의 물이 불어났다",
+      "낮은 길이 잠겼다"
+    ],
+    "answer": [
+      "비가 많이 내렸다",
+      "하천의 물이 불어났다",
+      "낮은 길이 잠겼다"
+    ],
+    "explanation": "먼저 비가 많이 내리고, 그 결과 하천의 물이 불어나며, 마지막으로 낮은 길이 잠기는 순서입니다. 사건 사이의 원인과 결과를 따라가면 순서를 정할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트"
+  },
+  {
+    "id": "V147-ELEMENTARY-5-KOREAN-102",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "설명하는 글의 구성",
+    "difficulty": 3,
+    "game_type": "ORDERING",
+    "question": "설명하는 글의 기본 흐름이 되도록 순서를 맞추세요.",
+    "choices": [
+      "설명할 대상을 소개한다",
+      "대상의 특징을 구체적으로 설명한다",
+      "중요한 내용을 정리한다"
+    ],
+    "answer": [
+      "설명할 대상을 소개한다",
+      "대상의 특징을 구체적으로 설명한다",
+      "중요한 내용을 정리한다"
+    ],
+    "explanation": "설명하는 글은 대상을 먼저 소개하고, 가운데에서 특징이나 정보를 구체적으로 설명한 뒤, 끝에서 중요한 내용을 정리하면 흐름이 분명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트"
+  },
+  {
+    "id": "V147-ELEMENTARY-5-KOREAN-103",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "주장과 근거 연결",
+    "difficulty": 3,
+    "game_type": "MATCHING",
+    "question": "주장에 가장 알맞은 근거를 찾아 연결하세요.",
+    "choices": [
+      "급식 잔반을 줄이자 → 먹을 만큼만 받으면 음식물 쓰레기를 줄일 수 있다",
+      "도서관에서는 조용히 하자 → 운동장은 넓다",
+      "물을 아껴 쓰자 → 연필은 글씨를 쓸 때 사용한다"
+    ],
+    "answer": "급식 잔반을 줄이자 → 먹을 만큼만 받으면 음식물 쓰레기를 줄일 수 있다",
+    "explanation": "근거는 주장과 직접 관련되어 그 주장이 타당한 이유를 설명해야 합니다. 먹을 만큼만 받는 행동은 잔반 감소와 직접 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트"
+  },
+  {
+    "id": "V147-ELEMENTARY-5-KOREAN-104",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "어휘",
+    "learning_target": "문맥에 맞는 낱말",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "‘여러 의견을 하나로 모아 결정했다.’와 뜻이 가장 가까운 표현을 고르세요.",
+    "choices": [
+      "의견을 종합했다",
+      "의견을 숨겼다",
+      "의견을 잊었다",
+      "의견을 흩뜨렸다"
+    ],
+    "answer": "의견을 종합했다",
+    "explanation": "‘종합하다’는 여러 가지를 한데 모아 하나로 정리한다는 뜻입니다. 여러 의견을 모아 결정했다는 문맥에 가장 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트"
+  },
+  {
+    "id": "V147-ELEMENTARY-5-KOREAN-105",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 호응",
+    "difficulty": 3,
+    "game_type": "TILE_SEQUENCE",
+    "question": "문장 성분이 자연스럽게 호응하도록 문장을 완성하세요.",
+    "choices": [
+      "나는",
+      "어제",
+      "도서관에서",
+      "책을",
+      "읽었다"
+    ],
+    "answer": [
+      "나는",
+      "어제",
+      "도서관에서",
+      "책을",
+      "읽었다"
+    ],
+    "explanation": "‘나는’은 행동의 주체이고 ‘책을’은 읽은 대상이며 ‘도서관에서’는 장소를 나타냅니다. 각 성분을 자연스럽게 이어 문장을 완성할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트"
   }
 ]

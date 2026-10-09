@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP29-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 1 → 3 → 5 → □",
+    "choices": [
+      "8",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 2 → 5 → 8 → □",
+    "choices": [
+      "12",
+      "9",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 10 → 9 → 8 → □",
+    "choices": [
+      "8",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 4 → 6 → 8 → □",
+    "choices": [
+      "11",
+      "8",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 12 → 10 → 8 → □",
+    "choices": [
+      "7",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 3 → 6 → 9 → □",
+    "choices": [
+      "13",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 15 → 14 → 13 → □",
+    "choices": [
+      "13",
+      "10",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 수의 규칙을 찾고 빈칸에 들어갈 수를 고르세요. 5 → 7 → 9 → □",
+    "choices": [
+      "12",
+      "9",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "앞의 수들이 일정하게 늘거나 줄어듭니다. 다음 수는 11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 나를 도와줬을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "왜 도와줬어?",
+      "그냥 가!",
+      "도와줘서 고마워.",
+      "다음에도 꼭 해!"
+    ],
+    "answer": "도와줘서 고마워.",
+    "explanation": "상대방을 배려하며 '도와줘서 고마워.'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 책을 빌리고 싶을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "그 책 내놔!",
+      "그냥 가져갈게!",
+      "이 책을 잠깐 빌려도 될까?",
+      "빌려줄 필요 없어!"
+    ],
+    "answer": "이 책을 잠깐 빌려도 될까?",
+    "explanation": "상대방을 배려하며 '이 책을 잠깐 빌려도 될까?'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 실수했을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "너 때문에 망했어!",
+      "다신 하지 마!",
+      "괜찮아. 다음에 조심하자.",
+      "너랑 안 놀아!"
+    ],
+    "answer": "괜찮아. 다음에 조심하자.",
+    "explanation": "상대방을 배려하며 '괜찮아. 다음에 조심하자.'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구와 의견이 다를 때 알맞은 말을 고르세요.",
+    "choices": [
+      "내 생각만 맞아!",
+      "말하지 마!",
+      "나는 다르게 생각해. 네 생각도 들어 볼래.",
+      "네 생각은 틀렸어!"
+    ],
+    "answer": "나는 다르게 생각해. 네 생각도 들어 볼래.",
+    "explanation": "상대방을 배려하며 '나는 다르게 생각해. 네 생각도 들어 볼래.'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 발표를 잘했을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "빨리 끝내지!",
+      "조용히 해!",
+      "발표를 잘 들었어.",
+      "별로였어!"
+    ],
+    "answer": "발표를 잘 들었어.",
+    "explanation": "상대방을 배려하며 '발표를 잘 들었어.'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "실수로 친구의 공책을 떨어뜨렸을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "네가 주워!",
+      "그냥 가자!",
+      "미안해. 내가 주워 줄게.",
+      "내 잘못 아니야!"
+    ],
+    "answer": "미안해. 내가 주워 줄게.",
+    "explanation": "상대방을 배려하며 '미안해. 내가 주워 줄게.'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 아파 보일 때 알맞은 말을 고르세요.",
+    "choices": [
+      "왜 아파?",
+      "참아!",
+      "괜찮아? 선생님께 알려 드릴까?",
+      "혼자 있어!"
+    ],
+    "answer": "괜찮아? 선생님께 알려 드릴까?",
+    "explanation": "상대방을 배려하며 '괜찮아? 선생님께 알려 드릴까?'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP29-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "수의 규칙과 생활 속 적절한 표현을 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "새 친구가 교실에 왔을 때 알맞은 말을 고르세요.",
+    "choices": [
+      "여기 오지 마!",
+      "말 걸지 마!",
+      "안녕! 같이 놀래?",
+      "혼자 있어!"
+    ],
+    "answer": "안녕! 같이 놀래?",
+    "explanation": "상대방을 배려하며 '안녕! 같이 놀래?'라고 말하는 것이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

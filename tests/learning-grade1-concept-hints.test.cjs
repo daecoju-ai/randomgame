@@ -15,3 +15,25 @@ test('first grade arithmetic and patterns receive concept-specific hints',()=>{
 test('grade-two learning keeps existing generic lesson selection',()=>{
  assert.notEqual(S.lesson({...base,grade:2,question:'2 + 3을 더하면?'}).id,'grade1-add');
 });
+
+test('all grade-one pilot questions have distinct worked-example prompts and usable hints',()=>{
+ const fs=require('node:fs');
+ const path=require('node:path');
+ const dir=path.join(__dirname,'../data/questions/school');
+ const files=fs.readdirSync(dir).filter(name=>/^elementary-grade1-year26.*\\.pilot\\.json$/.test(name));
+ assert(files.length>=8,'expected the full grade-one pilot collection');
+ let checked=0;
+ for(const name of files){
+  for(const q of JSON.parse(fs.readFileSync(path.join(dir,name),'utf8'))){
+   const l=S.lesson(q);
+   if(!l)continue;
+   assert.notEqual(l.prompt.trim(),q.question.trim(),q.id);
+   assert(l.choices.includes(l.answer),q.id);
+   assert.equal(new Set(l.choices).size,l.choices.length,q.id);
+   assert.equal(l.hints.length,2,q.id);
+   assert(l.hints.every(h=>typeof h==='string'&&h.trim().length>8),q.id);
+   checked++;
+  }
+ }
+ assert(checked>=100,'expected at least 100 scaffolded grade-one pilot questions');
+});

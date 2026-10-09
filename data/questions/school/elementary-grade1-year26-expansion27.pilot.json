@@ -297,15 +297,15 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'하늘이 맑아요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "비가 내리는 소리를 나타내는 말은?",
     "choices": [
-      "흐려요",
-      "추워요",
-      "맑아요",
-      "어두워요"
+      "반짝반짝",
+      "살금살금",
+      "주룩주룩",
+      "부릉부릉"
     ],
-    "answer": "맑아요",
-    "explanation": "'맑아요'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "answer": "주룩주룩",
+    "explanation": "'주룩주룩'는 비가 내리는 소리를 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -333,15 +333,15 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'바람이 세게 불어요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "강아지가 짖는 소리를 나타내는 말은?",
     "choices": [
-      "조용히",
-      "느리게",
-      "세게",
-      "약하게"
+      "야옹",
+      "짹짹",
+      "멍멍",
+      "음매"
     ],
-    "answer": "세게",
-    "explanation": "'세게'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "answer": "멍멍",
+    "explanation": "'멍멍'는 강아지가 짖는 소리를 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -369,7 +369,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'물방울이 뚝뚝 떨어져요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "물방울이 하나씩 떨어지는 소리를 나타내는 말은?",
     "choices": [
       "반짝반짝",
       "살금살금",
@@ -377,7 +377,7 @@
       "쌩쌩"
     ],
     "answer": "뚝뚝",
-    "explanation": "'뚝뚝'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'뚝뚝'는 물방울이 하나씩 떨어지는 소리를 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -405,7 +405,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'아이가 살금살금 걸어요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "조용히 조심해서 걷는 모습을 나타내는 말은?",
     "choices": [
       "쾅쾅",
       "쿵쾅쿵쾅",
@@ -413,7 +413,7 @@
       "번쩍번쩍"
     ],
     "answer": "살금살금",
-    "explanation": "'살금살금'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'살금살금'는 조용히 조심해서 걷는 모습을 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -441,7 +441,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'별이 반짝반짝 빛나요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "별이 빛나는 모습을 나타내는 말은?",
     "choices": [
       "철썩철썩",
       "부릉부릉",
@@ -449,7 +449,7 @@
       "쿵쿵"
     ],
     "answer": "반짝반짝",
-    "explanation": "'반짝반짝'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'반짝반짝'는 별이 빛나는 모습을 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -477,7 +477,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'기차가 칙칙폭폭 달려요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "기차가 달리는 소리를 흉내 낸 말은?",
     "choices": [
       "야옹야옹",
       "멍멍",
@@ -485,7 +485,7 @@
       "짹짹"
     ],
     "answer": "칙칙폭폭",
-    "explanation": "'칙칙폭폭'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'칙칙폭폭'는 기차가 달리는 소리를 흉내 낸 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -513,7 +513,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'빗방울이 후두둑 떨어져요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "빗방울이 한꺼번에 떨어지는 소리를 나타내는 말은?",
     "choices": [
       "반짝반짝",
       "살랑살랑",
@@ -521,7 +521,7 @@
       "두근두근"
     ],
     "answer": "후두둑",
-    "explanation": "'후두둑'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'후두둑'는 빗방울이 한꺼번에 떨어지는 소리를 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -549,7 +549,7 @@
     "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
     "difficulty": 2,
     "game_type": "MULTIPLE_CHOICE",
-    "question": "'나뭇잎이 살랑살랑 흔들려요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "question": "나뭇잎이 바람에 가볍게 흔들리는 모습을 나타내는 말은?",
     "choices": [
       "쿵쾅쿵쾅",
       "번쩍번쩍",
@@ -557,7 +557,7 @@
       "철썩철썩"
     ],
     "answer": "살랑살랑",
-    "explanation": "'살랑살랑'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "explanation": "'살랑살랑'는 나뭇잎이 바람에 가볍게 흔들리는 모습을 나타내는 말을 표현합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",

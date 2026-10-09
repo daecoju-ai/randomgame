@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP39-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "16개의 색연필 중 9개를 필통에 넣었습니다. 필통 밖에 있는 색연필은?",
+    "choices": [
+      "5개",
+      "6개",
+      "7개",
+      "8개"
+    ],
+    "answer": "7개",
+    "explanation": "16-9=7개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 규칙: 2, 4, 6, 8, 다음에 올 수는?",
+    "choices": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "2씩 커지는 규칙이므로 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "네모 모양 종이의 네 모서리를 셌습니다. 모서리는 모두 몇 개인가요?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "answer": "4개",
+    "explanation": "네모에는 모서리가 네 개 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "9개의 구슬과 8개의 구슬을 합친 뒤 5개를 꺼냈습니다. 남은 구슬은?",
+    "choices": [
+      "10개",
+      "11개",
+      "12개",
+      "13개"
+    ],
+    "answer": "12개",
+    "explanation": "9+8=17, 17-5=12개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "좋아하는 동물 조사: 고양이 7명, 강아지 9명, 토끼 5명. 가장 적게 고른 동물은?",
+    "choices": [
+      "고양이",
+      "강아지",
+      "토끼",
+      "모두 같음"
+    ],
+    "answer": "토끼",
+    "explanation": "7, 9, 5 중 5가 가장 작습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 13보다 2 큰 수는?",
+    "choices": [
+      "11",
+      "12",
+      "14",
+      "15"
+    ],
+    "answer": "15",
+    "explanation": "13+2=15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '다연이는 식물에 물을 주고 창가에 두었습니다. 며칠 뒤 새잎이 나왔습니다.' 가장 나중에 일어난 일은?",
+    "choices": [
+      "식물을 샀다",
+      "물을 주었다",
+      "창가에 두었다",
+      "새잎이 나왔다"
+    ],
+    "answer": "새잎이 나왔다",
+    "explanation": "물을 주고 창가에 둔 뒤 며칠 후 새잎이 나왔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '공원에서는 쓰레기를 쓰레기통에 버려 주세요.' 안내에 맞는 행동은?",
+    "choices": [
+      "쓰레기를 길에 버린다",
+      "쓰레기통에 버린다",
+      "나무 밑에 숨긴다",
+      "물에 던진다"
+    ],
+    "answer": "쓰레기통에 버린다",
+    "explanation": "안내문은 쓰레기를 쓰레기통에 버리라고 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '수현이는 친구의 그림을 보고 색을 예쁘게 썼다고 말했습니다.' 수현이가 한 말의 성격은?",
+    "choices": [
+      "칭찬",
+      "꾸중",
+      "명령",
+      "거절"
+    ],
+    "answer": "칭찬",
+    "explanation": "친구 그림의 좋은 점을 말했으므로 칭찬입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "메모: '준호야, 체육복은 옷장 두 번째 칸에 넣었어.' 체육복을 찾을 곳은?",
+    "choices": [
+      "책상 첫 번째 칸",
+      "옷장 두 번째 칸",
+      "신발장",
+      "책가방"
+    ],
+    "answer": "옷장 두 번째 칸",
+    "explanation": "메모에 장소와 칸이 구체적으로 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "교실 바닥에 물이 쏟아졌습니다. 어떻게 해야 할까요?",
+    "choices": [
+      "그대로 뛰어다닌다",
+      "선생님께 알리고 안전하게 닦는다",
+      "친구에게 미끄러져 보라고 한다",
+      "물을 더 붓는다"
+    ],
+    "answer": "선생님께 알리고 안전하게 닦는다",
+    "explanation": "물이 있는 바닥은 미끄러우므로 어른에게 알리고 안전하게 처리합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP39-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "다양한 상황의 조건을 비교하고 글의 내용을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "같은 장소에서 오늘과 어제의 날씨를 비교하려고 합니다. 무엇을 기록하면 좋을까요?",
+    "choices": [
+      "날짜와 하늘 상태",
+      "친구의 키",
+      "책의 두께",
+      "연필의 길이"
+    ],
+    "answer": "날짜와 하늘 상태",
+    "explanation": "날짜별 날씨를 기록해야 변화를 비교할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

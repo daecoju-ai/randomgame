@@ -1,5 +1,5 @@
 {
-  "version": 26,
+  "version": 27,
   "packs": [
     {
       "id": "general-general-certification",
@@ -359,7 +359,7 @@
       "title": "초5 수학 · 정답 타일 원정",
       "url": "/learning-data/elementary-5-math.json",
       "version": 1,
-      "count": 103
+      "count": 108
     },
     {
       "id": "elementary-6-math",

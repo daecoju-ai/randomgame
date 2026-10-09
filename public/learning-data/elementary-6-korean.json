@@ -3038,5 +3038,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-096",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "논증 구조",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주장하는 글에서 ‘주장-근거-예시’의 관계를 살피는 이유는?",
+    "choices": [
+      "근거와 예시가 주장을 실제로 뒷받침하는지 판단하려고",
+      "글의 문장 수를 맞추려고",
+      "예시를 모두 삭제하려고",
+      "주장과 관계없는 내용을 늘리려고"
+    ],
+    "answer": "근거와 예시가 주장을 실제로 뒷받침하는지 판단하려고",
+    "explanation": "논증을 읽을 때는 단순히 근거가 있다는 사실보다 그 근거가 주장과 논리적으로 연결되는지 확인해야 합니다. 예시는 근거를 구체화하거나 이해를 돕는 역할을 할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-097",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료의 최신성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "빠르게 변하는 정보를 조사할 때 자료의 작성 날짜를 확인해야 하는 이유는?",
+    "choices": [
+      "오래된 정보가 현재 상황과 달라졌을 수 있어서",
+      "오래된 자료는 글자가 사라져서",
+      "최신 자료는 항상 길어서",
+      "작성 날짜가 내용의 글자 수를 알려 줘서"
+    ],
+    "answer": "오래된 정보가 현재 상황과 달라졌을 수 있어서",
+    "explanation": "통계, 제도, 기술처럼 시간이 지나며 변하는 정보는 과거 자료가 현재 상황을 정확히 보여 주지 못할 수 있습니다. 자료의 작성·갱신 시점을 확인하고 필요하면 최신 자료와 비교해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-098",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "보고서 결론",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "조사 보고서의 결론을 쓸 때 가장 알맞은 방법은?",
+    "choices": [
+      "조사 결과를 바탕으로 핵심 발견과 의미를 정리한다",
+      "조사하지 않은 사실을 새로 만들어 넣는다",
+      "본문과 관계없는 의견만 쓴다",
+      "자료와 반대되는 결론을 근거 없이 쓴다"
+    ],
+    "answer": "조사 결과를 바탕으로 핵심 발견과 의미를 정리한다",
+    "explanation": "결론은 앞에서 제시한 조사 과정과 결과를 토대로 작성해야 합니다. 중요한 결과를 간단히 정리하고 그것이 조사 목적과 관련해 어떤 의미가 있는지 설명하면 보고서가 자연스럽게 마무리됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-099",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 호응",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“비록 비가 왔지만 우리는 계획대로 출발했다.”에서 ‘비록’과 자연스럽게 호응하는 표현은?",
+    "choices": [
+      "-지만",
+      "-때문에만",
+      "-자마자만",
+      "-도록만"
+    ],
+    "answer": "-지만",
+    "explanation": "‘비록’은 기대와 다른 결과나 양보의 뜻을 나타내는 표현과 자연스럽게 어울립니다. ‘비록 … -지만’처럼 앞뒤 표현의 호응을 살피면 문장을 더 정확하고 자연스럽게 만들 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-100",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발언 요약",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴 토의가 끝난 뒤 결정 사항을 정확히 공유하는 방법은?",
+    "choices": [
+      "합의한 내용, 담당자, 해야 할 일을 핵심만 정리해 확인한다",
+      "기억나는 농담만 전달한다",
+      "결정되지 않은 내용을 결정된 것처럼 말한다",
+      "각 발언을 순서 없이 모두 반복한다"
+    ],
+    "answer": "합의한 내용, 담당자, 해야 할 일을 핵심만 정리해 확인한다",
+    "explanation": "토의 결과를 공유할 때는 논의 과정 전체보다 실제로 합의된 사항을 분명하게 정리하는 것이 중요합니다. 담당자와 후속 행동까지 확인하면 실행 과정에서 생길 수 있는 오해를 줄일 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

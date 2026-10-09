@@ -4286,13 +4286,13 @@
       "49"
     ],
     "answer": "47",
-    "explanation": "겹치지 않으므로 길이를 더해요. 37 + 10 = 47cm입니다.",
+    "explanation": "두 끈이 겹치지 않으므로 각 길이를 그대로 합합니다. 37+10=47, 전체는 47cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -4307,7 +4307,8 @@
       "result": "47",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이가 두 길이의 합인 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-074",
@@ -4327,13 +4328,13 @@
       "40"
     ],
     "answer": "38",
-    "explanation": "2씩 커지는 규칙입니다. 36 + 2 = 38입니다.",
+    "explanation": "34-32=2, 36-34=2로 차이가 같습니다. 따라서 2씩 커지는 규칙이고 다음 수는 38입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -4348,7 +4349,8 @@
       "result": "38",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 항의 차이를 직접 비교해 규칙을 확인"
   },
   {
     "id": "V61-E2-MATH-075",
@@ -4368,13 +4370,13 @@
       "51"
     ],
     "answer": "49",
-    "explanation": "두 수를 더하면 38 + 11 = 49입니다.",
+    "explanation": "11를 2과 9으로 가릅니다. 38+2=40으로 다음 십을 만든 뒤 9을 더하면 49입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -4389,7 +4391,8 @@
       "result": "49",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-076",
@@ -4409,13 +4412,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "38에서 11를 빼면 27입니다.",
+    "explanation": "38에서 11를 빼면 27입니다. 11만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -4430,7 +4433,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-077",
@@ -4450,13 +4454,13 @@
       "14"
     ],
     "answer": "12",
-    "explanation": "3개씩 4묶음이므로 3 × 4 = 12개입니다.",
+    "explanation": "3개짜리 묶음이 4개입니다. 3+3+3+3=12이므로 3 × 4 = 12입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -4471,7 +4475,8 @@
       "result": "12",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "동일한 묶음의 반복 덧셈을 곱셈식으로 연결"
   },
   {
     "id": "V61-E2-MATH-078",
@@ -4491,13 +4496,13 @@
       "51"
     ],
     "answer": "49",
-    "explanation": "겹치지 않으므로 길이를 더해요. 38 + 11 = 49cm입니다.",
+    "explanation": "두 끈이 겹치지 않으므로 각 길이를 그대로 합합니다. 38+11=49, 전체는 49cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -4512,7 +4517,8 @@
       "result": "49",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이가 두 길이의 합인 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-079",
@@ -4532,13 +4538,13 @@
       "42"
     ],
     "answer": "40",
-    "explanation": "2씩 커지는 규칙입니다. 38 + 2 = 40입니다.",
+    "explanation": "36-34=2, 38-36=2로 차이가 같습니다. 따라서 2씩 커지는 규칙이고 다음 수는 40입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -4553,7 +4559,8 @@
       "result": "40",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 항의 차이를 직접 비교해 규칙을 확인"
   },
   {
     "id": "V61-E2-MATH-080",
@@ -4573,13 +4580,13 @@
       "44"
     ],
     "answer": "42",
-    "explanation": "두 수를 더하면 39 + 3 = 42입니다.",
+    "explanation": "3를 1과 2으로 가릅니다. 39+1=40으로 다음 십을 만든 뒤 2을 더하면 42입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -4594,7 +4601,8 @@
       "result": "42",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-081",
@@ -4614,13 +4622,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "39에서 3를 빼면 36입니다.",
+    "explanation": "39에서 3를 빼면 36입니다. 3만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -4635,7 +4643,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-082",
@@ -4655,13 +4664,13 @@
       "18"
     ],
     "answer": "16",
-    "explanation": "4개씩 4묶음이므로 4 × 4 = 16개입니다.",
+    "explanation": "4개짜리 묶음이 4개입니다. 4+4+4+4=16이므로 4 × 4 = 16입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -4676,7 +4685,8 @@
       "result": "16",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "동일한 묶음의 반복 덧셈을 곱셈식으로 연결"
   },
   {
     "id": "V61-E2-MATH-083",
@@ -4696,13 +4706,13 @@
       "44"
     ],
     "answer": "42",
-    "explanation": "겹치지 않으므로 길이를 더해요. 39 + 3 = 42cm입니다.",
+    "explanation": "두 끈이 겹치지 않으므로 각 길이를 그대로 합합니다. 39+3=42, 전체는 42cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -4717,7 +4727,8 @@
       "result": "42",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이가 두 길이의 합인 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-084",
@@ -4737,13 +4748,13 @@
       "44"
     ],
     "answer": "42",
-    "explanation": "2씩 커지는 규칙입니다. 40 + 2 = 42입니다.",
+    "explanation": "38-36=2, 40-38=2로 차이가 같습니다. 따라서 2씩 커지는 규칙이고 다음 수는 42입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -4758,7 +4769,8 @@
       "result": "42",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 항의 차이를 직접 비교해 규칙을 확인"
   },
   {
     "id": "V61-E2-MATH-085",
@@ -4778,13 +4790,13 @@
       "46"
     ],
     "answer": "44",
-    "explanation": "두 수를 더하면 40 + 4 = 44입니다.",
+    "explanation": "40에 4를 더해 44가 됩니다. 일의 자리부터 수가 얼마나 커지는지 확인합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -4799,7 +4811,8 @@
       "result": "44",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-086",
@@ -4819,13 +4832,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "40에서 4를 빼면 36입니다.",
+    "explanation": "40에서 4를 빼면 36입니다. 4만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -4840,7 +4853,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-087",
@@ -4860,13 +4874,13 @@
       "22"
     ],
     "answer": "20",
-    "explanation": "5개씩 4묶음이므로 5 × 4 = 20개입니다.",
+    "explanation": "5개짜리 묶음이 4개입니다. 5+5+5+5=20이므로 5 × 4 = 20입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -4881,7 +4895,8 @@
       "result": "20",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "동일한 묶음의 반복 덧셈을 곱셈식으로 연결"
   },
   {
     "id": "V61-E2-MATH-088",
@@ -4901,13 +4916,13 @@
       "46"
     ],
     "answer": "44",
-    "explanation": "겹치지 않으므로 길이를 더해요. 40 + 4 = 44cm입니다.",
+    "explanation": "두 끈이 겹치지 않으므로 각 길이를 그대로 합합니다. 40+4=44, 전체는 44cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -4922,7 +4937,8 @@
       "result": "44",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이가 두 길이의 합인 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-089",
@@ -4942,13 +4958,13 @@
       "46"
     ],
     "answer": "44",
-    "explanation": "2씩 커지는 규칙입니다. 42 + 2 = 44입니다.",
+    "explanation": "40-38=2, 42-40=2로 차이가 같습니다. 따라서 2씩 커지는 규칙이고 다음 수는 44입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -4963,7 +4979,8 @@
       "result": "44",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 항의 차이를 직접 비교해 규칙을 확인"
   },
   {
     "id": "V61-E2-MATH-090",
@@ -4983,13 +5000,13 @@
       "48"
     ],
     "answer": "46",
-    "explanation": "두 수를 더하면 41 + 5 = 46입니다.",
+    "explanation": "41에 5를 더해 46가 됩니다. 일의 자리부터 수가 얼마나 커지는지 확인합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -5004,7 +5021,8 @@
       "result": "46",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-091",
@@ -5024,13 +5042,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "41에서 5를 빼면 36입니다.",
+    "explanation": "41에서 5를 빼면 36입니다. 5만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -5045,7 +5063,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-092",
@@ -5065,13 +5084,13 @@
       "26"
     ],
     "answer": "24",
-    "explanation": "6개씩 4묶음이므로 6 × 4 = 24개입니다.",
+    "explanation": "6개짜리 묶음이 4개입니다. 6+6+6+6=24이므로 6 × 4 = 24입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -5086,7 +5105,8 @@
       "result": "24",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "동일한 묶음의 반복 덧셈을 곱셈식으로 연결"
   },
   {
     "id": "V61-E2-MATH-093",
@@ -5106,13 +5126,13 @@
       "48"
     ],
     "answer": "46",
-    "explanation": "겹치지 않으므로 길이를 더해요. 41 + 5 = 46cm입니다.",
+    "explanation": "두 끈이 겹치지 않으므로 각 길이를 그대로 합합니다. 41+5=46, 전체는 46cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -5127,7 +5147,8 @@
       "result": "46",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이가 두 길이의 합인 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-094",
@@ -5147,13 +5168,13 @@
       "48"
     ],
     "answer": "46",
-    "explanation": "2씩 커지는 규칙입니다. 44 + 2 = 46입니다.",
+    "explanation": "42-40=2, 44-42=2로 차이가 같습니다. 따라서 2씩 커지는 규칙이고 다음 수는 46입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -5168,7 +5189,8 @@
       "result": "46",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 항의 차이를 직접 비교해 규칙을 확인"
   },
   {
     "id": "V61-E2-MATH-095",
@@ -5188,13 +5210,13 @@
       "50"
     ],
     "answer": "48",
-    "explanation": "두 수를 더하면 42 + 6 = 48입니다.",
+    "explanation": "42에 6를 더해 48가 됩니다. 일의 자리부터 수가 얼마나 커지는지 확인합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -5209,7 +5231,8 @@
       "result": "48",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-096",
@@ -5229,13 +5252,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "42에서 6를 빼면 36입니다.",
+    "explanation": "42에서 6를 빼면 36입니다. 6만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -5250,7 +5273,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-097",
@@ -5270,13 +5294,13 @@
       "52"
     ],
     "answer": "50",
-    "explanation": "두 수를 더하면 43 + 7 = 50입니다.",
+    "explanation": "43에 7를 더해 50가 됩니다. 일의 자리부터 수가 얼마나 커지는지 확인합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -5291,7 +5315,8 @@
       "result": "50",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-098",
@@ -5311,13 +5336,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "43에서 7를 빼면 36입니다.",
+    "explanation": "43에서 7를 빼면 36입니다. 7만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -5332,7 +5357,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   },
   {
     "id": "V61-E2-MATH-099",
@@ -5352,13 +5378,13 @@
       "54"
     ],
     "answer": "52",
-    "explanation": "두 수를 더하면 44 + 8 = 52입니다.",
+    "explanation": "8를 6과 2으로 가릅니다. 44+6=50으로 다음 십을 만든 뒤 2을 더하면 52입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -5373,7 +5399,8 @@
       "result": "52",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "받아올림을 준비하는 수 가르기 또는 덧셈 변화 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-100",
@@ -5393,13 +5420,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "44에서 8를 빼면 36입니다.",
+    "explanation": "44에서 8를 빼면 36입니다. 8만큼 뒤로 이동해 결과가 맞는지 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -5414,6 +5441,7 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뺄셈을 뒤로 세기와 연결해 결과를 검산하도록 설명"
   }
 ]

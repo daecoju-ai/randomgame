@@ -17,18 +17,19 @@
       "63"
     ],
     "answer": "43",
-    "explanation": "28 + 15 = 43.",
+    "explanation": "15를 2와 13으로 가릅니다. 28+2=30으로 먼저 십을 만든 뒤 13을 더하면 43입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "받아올림 덧셈을 수 가르기와 십 만들기 전략으로 설명"
   },
   {
     "id": "E2-MATH-EXT-000002",
@@ -48,18 +49,19 @@
       "47"
     ],
     "answer": "27",
-    "explanation": "54 - 27 = 27.",
+    "explanation": "54에서 먼저 20을 빼면 34이고, 다시 7을 빼면 27입니다. 따라서 54 − 27 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "두 자리 수 뺄셈을 십과 일로 나누어 단계적으로 설명"
   },
   {
     "id": "E2-MATH-EXT-000003",
@@ -79,18 +81,19 @@
       "30"
     ],
     "answer": "24",
-    "explanation": "4를 6번 더하면 4+4+4+4+4+4=24이므로 4 × 6 = 24입니다.",
+    "explanation": "4개씩 6묶음이라고 생각하면 4+4+4+4+4+4=24입니다. 같은 수를 여러 번 더하는 것을 곱셈으로 나타내므로 4 × 6 = 24입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "반복 덧셈과 곱셈의 의미를 연결해 설명"
   },
   {
     "id": "V58-E2-MATH-001",

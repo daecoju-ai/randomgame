@@ -17,19 +17,20 @@
       "웃다"
     ],
     "answer": "줄다",
-    "explanation": "수량이 많아지는 것은 늘다, 적어지는 것은 줄다입니다.",
+    "explanation": "‘늘다’와 ‘줄다’는 수량의 변화를 반대로 나타냅니다. 수가 많아지는 것이 ‘늘다’라면 수가 적어지는 것은 ‘줄다’입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-004",
@@ -82,19 +83,20 @@
       "응원"
     ],
     "answer": "사과",
-    "explanation": "사과는 잘못에 대해 미안함을 전하는 행동입니다.",
+    "explanation": "잘못을 인정하고 상대에게 미안한 마음을 전하며 용서를 구하는 행동을 ‘사과’라고 합니다. 상황 속 행동의 뜻을 살펴보면 답을 찾을 수 있습니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-008",
@@ -114,19 +116,20 @@
       "인사하다"
     ],
     "answer": "박수하다",
-    "explanation": "두 손바닥을 마주쳐 소리를 내는 것이 박수입니다.",
+    "explanation": "‘손뼉을 치다’는 두 손바닥을 마주쳐 소리를 내는 행동입니다. 이 행동을 한 낱말로 나타내면 ‘박수하다’입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-011",
@@ -146,19 +149,20 @@
       "할수있다"
     ],
     "answer": "할 수 있다",
-    "explanation": "가능함을 나타내는 의존 명사 ‘수’는 앞뒤 말과 띄어 씁니다.",
+    "explanation": "‘수’는 ‘할 가능성이나 능력’을 나타내는 의존 명사라 앞말과 띄어 씁니다. ‘있다’도 따로 쓰므로 ‘할 수 있다’가 바른 표현입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-012",
@@ -178,19 +182,20 @@
       "책을 돌려좠다"
     ],
     "answer": "책을 돌려줬다",
-    "explanation": "‘주었다’의 준말은 ‘줬다’입니다.",
+    "explanation": "책을 빌린 뒤 주인에게 다시 주는 행동이므로 ‘돌려주다’를 사용합니다. ‘돌려주었다’는 자연스럽게 ‘돌려줬다’로 줄여 쓸 수 있습니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-017",
@@ -210,19 +215,20 @@
       "친구가 없어서"
     ],
     "answer": "비가 와서",
-    "explanation": "‘비가 와서’가 뒤에 일어난 일의 원인을 설명합니다.",
+    "explanation": "‘-아서/-어서’는 앞의 내용이 뒤의 일에 대한 까닭이 될 때 쓰입니다. 여기서는 비가 온 것이 원인이고 운동장을 쓰지 못한 것이 결과입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-020",
@@ -242,19 +248,20 @@
       "이야기를 그만해"
     ],
     "answer": "다른 생각의 이유를 말해도 될까?",
-    "explanation": "상대 의견을 존중하며 자신의 이유를 설명하는 말입니다.",
+    "explanation": "의견이 다를 때는 상대의 생각을 무시하지 않고 자신의 이유를 차분히 말하는 것이 좋습니다. ‘다른 생각의 이유를 말해도 될까?’는 존중하면서 의견을 나누는 표현입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-021",
@@ -279,19 +286,20 @@
       "열어",
       "주세요"
     ],
-    "explanation": "무엇을, 얼마나, 어떻게 해 달라는지 차례로 표현합니다.",
+    "explanation": "부탁하는 문장은 대상과 정도, 행동을 자연스럽게 이어 말합니다. ‘창문을→조금→열어→주세요’로 배열하면 무엇을 어떻게 해 달라는지 분명해집니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-024",
@@ -316,19 +324,20 @@
       "책 읽기",
       "기한 내 반납"
     ],
-    "explanation": "책을 찾아 빌리고 읽은 다음 기한 안에 반납합니다.",
+    "explanation": "도서관에서는 먼저 책을 찾고 대출 절차를 거친 뒤 읽습니다. 빌린 책은 정해진 기한 안에 돌려주어야 하므로 ‘책 찾기→대출 신청→책 읽기→기한 내 반납’ 순서입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "KOR-WORD-000001",
@@ -348,19 +357,20 @@
       "거리"
     ],
     "answer": "약속",
-    "explanation": "약속은 서로 무엇을 하기로 정하는 일이에요.",
+    "explanation": "서로 어떤 일을 하거나 지키기로 정하는 것을 ‘약속’이라고 합니다. 친구와 정한 일을 지키기로 했다는 상황이 이 뜻과 맞습니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
     },
-    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "KOR-WORD-000002",
@@ -380,19 +390,20 @@
       "웃다"
     ],
     "answer": "닫다",
-    "explanation": "열린 문을 반대로 닫는 행동은 ‘닫다’예요.",
+    "explanation": "‘열다’는 닫힌 것을 열리게 하는 행동이고 ‘닫다’는 열린 것을 닫히게 하는 행동입니다. 같은 대상에서 서로 반대되는 행동입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
     },
-    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   },
   {
     "id": "KOR-WORD-000003",
@@ -412,18 +423,19 @@
       "지각"
     ],
     "answer": "도움",
-    "explanation": "다른 사람이 일을 할 수 있도록 힘을 보태는 행동이에요.",
+    "explanation": "다른 사람이 일을 더 쉽게 할 수 있도록 힘을 보태는 것을 ‘도움’이라고 합니다. 무거운 짐을 함께 들어 준 행동이 바로 도움에 해당합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
     },
-    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치",
+    "revision_note": "초2 수준에서 문맥·낱말 관계·문장 기능을 이해하도록 해설 보강"
   }
 ]

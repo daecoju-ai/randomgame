@@ -798,5 +798,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "사실 검증",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "온라인 글에서 놀라운 수치를 발견했습니다. 가장 알맞은 확인 방법은?",
+    "choices": [
+      "원래 자료의 출처와 다른 신뢰할 만한 자료를 함께 확인한다",
+      "수치가 크면 바로 믿는다",
+      "친구 한 명이 믿으면 사실로 정한다",
+      "제목만 읽고 공유한다"
+    ],
+    "answer": "원래 자료의 출처와 다른 신뢰할 만한 자료를 함께 확인한다",
+    "explanation": "수치는 출처나 조사 방법에 따라 의미가 달라질 수 있습니다. 원자료를 확인하고 다른 신뢰할 만한 자료와 비교하면 정보가 정확한지 판단하는 데 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료 해석",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘만족도 90%’라는 조사 결과를 볼 때 추가로 확인하면 좋은 정보는?",
+    "choices": [
+      "누구를 몇 명 조사했고 어떤 질문을 했는지",
+      "글자의 색이 무엇인지",
+      "사진이 몇 장인지",
+      "제목이 몇 글자인지"
+    ],
+    "answer": "누구를 몇 명 조사했고 어떤 질문을 했는지",
+    "explanation": "비율만으로 조사 결과를 충분히 판단하기 어렵습니다. 조사 대상과 인원, 질문 방식을 알아야 90%라는 수치의 의미와 신뢰성을 평가할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "개요 작성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴 글을 쓰기 전에 개요를 만드는 주된 이유는?",
+    "choices": [
+      "중심 내용과 세부 내용을 논리적인 순서로 조직하기 위해",
+      "글자 수를 무조건 늘리기 위해",
+      "맞춤법 검사를 하지 않기 위해",
+      "자료의 출처를 지우기 위해"
+    ],
+    "answer": "중심 내용과 세부 내용을 논리적인 순서로 조직하기 위해",
+    "explanation": "개요는 글의 설계도와 같습니다. 중심 내용 아래에 필요한 세부 내용을 배치하고 순서를 미리 정하면 내용이 빠지거나 반복되는 것을 줄일 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "간접 인용",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 “나는 내일 도서관에 갈 거야.”라고 말했습니다. 이를 간접 인용한 문장은?",
+    "choices": [
+      "친구가 자기는 다음 날 도서관에 갈 것이라고 말했다",
+      "친구가 “나는 내일 도서관에 갈 거야.”라고 말했다",
+      "나는 내일 도서관에 간다",
+      "친구는 도서관이라는 말을 몰랐다"
+    ],
+    "answer": "친구가 자기는 다음 날 도서관에 갈 것이라고 말했다",
+    "explanation": "간접 인용은 원래 말을 그대로 옮기지 않고 말하는 사람의 문장 속에 맞게 바꾸어 전달합니다. ‘나는’은 ‘자기는’으로, 상황에 따라 ‘내일’은 ‘다음 날’처럼 바뀔 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "설득",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상대에게 제안을 설명할 때 가장 효과적인 방법은?",
+    "choices": [
+      "상대의 상황을 고려해 구체적인 이유와 기대 효과를 설명한다",
+      "이유 없이 같은 말만 반복한다",
+      "상대의 의견을 듣지 않는다",
+      "주제와 관계없는 이야기만 한다"
+    ],
+    "answer": "상대의 상황을 고려해 구체적인 이유와 기대 효과를 설명한다",
+    "explanation": "설득은 상대가 제안의 필요성을 이해하도록 돕는 과정입니다. 상대의 상황을 고려하고 구체적인 이유와 기대 효과를 제시하면 자신의 생각을 더 분명하게 전달할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,0 +1,506 @@
+[
+  {
+    "id": "G1-YEAR26-EXP15-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '아침 7시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "아침 7시",
+      "10시",
+      "11시"
+    ],
+    "answer": "아침 7시",
+    "explanation": "문제에서 제시된 시간은 '아침 7시'입니다. 일어날 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '아침 8시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "아침 8시",
+      "10시",
+      "11시"
+    ],
+    "answer": "아침 8시",
+    "explanation": "문제에서 제시된 시간은 '아침 8시'입니다. 학교 갈 준비를 할 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '낮 12시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "낮 12시",
+      "10시",
+      "11시"
+    ],
+    "answer": "낮 12시",
+    "explanation": "문제에서 제시된 시간은 '낮 12시'입니다. 점심을 먹을 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '오후 3시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "오후 3시",
+      "10시",
+      "11시"
+    ],
+    "answer": "오후 3시",
+    "explanation": "문제에서 제시된 시간은 '오후 3시'입니다. 방과 후 놀이할 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '저녁 6시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "저녁 6시",
+      "10시",
+      "11시"
+    ],
+    "answer": "저녁 6시",
+    "explanation": "문제에서 제시된 시간은 '저녁 6시'입니다. 저녁 식사를 할 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계가 '밤 9시'를 가리킵니다. 시계의 시간을 고르세요.",
+    "choices": [
+      "1시",
+      "밤 9시",
+      "10시",
+      "11시"
+    ],
+    "answer": "밤 9시",
+    "explanation": "문제에서 제시된 시간은 '밤 9시'입니다. 잠잘 준비를 할 시간의 예시로 생각할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도서관에서 책을 읽는 아이 알맞은 행동은?",
+    "choices": [
+      "큰 소리로 떠들기",
+      "조용히 읽기",
+      "책 던지기",
+      "뛰어다니기"
+    ],
+    "answer": "조용히 읽기",
+    "explanation": "도서관에서 책을 읽는 아이는 '조용히 읽기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 그림을 보여 줄 때 알맞은 행동은?",
+    "choices": [
+      "그림 찢기",
+      "그림을 보고 이야기 나누기",
+      "무시하기",
+      "놀리기"
+    ],
+    "answer": "그림을 보고 이야기 나누기",
+    "explanation": "친구가 그림을 보여 줄 때는 '그림을 보고 이야기 나누기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "누군가 인사를 건넬 때 알맞은 행동은?",
+    "choices": [
+      "도망가기",
+      "인사로 답하기",
+      "소리 지르기",
+      "밀기"
+    ],
+    "answer": "인사로 답하기",
+    "explanation": "누군가 인사를 건넬 때는 '인사로 답하기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 물건을 빌려달라고 할 때 알맞은 행동은?",
+    "choices": [
+      "무조건 뺏기",
+      "내 생각을 정중히 말하기",
+      "물건 던지기",
+      "친구 놀리기"
+    ],
+    "answer": "내 생각을 정중히 말하기",
+    "explanation": "친구가 물건을 빌려달라고 할 때는 '내 생각을 정중히 말하기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학급에서 발표를 할 때 알맞은 행동은?",
+    "choices": [
+      "고개 숙이고 중얼거리기",
+      "또박또박 말하기",
+      "친구 말 끊기",
+      "장난치기"
+    ],
+    "answer": "또박또박 말하기",
+    "explanation": "학급에서 발표를 할 때는 '또박또박 말하기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구의 말을 잘 못 들었을 때 알맞은 행동은?",
+    "choices": [
+      "들은 척하기",
+      "다시 말해 달라고 부탁하기",
+      "화내기",
+      "놀리기"
+    ],
+    "answer": "다시 말해 달라고 부탁하기",
+    "explanation": "친구의 말을 잘 못 들었을 때는 '다시 말해 달라고 부탁하기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책에서 모르는 낱말을 보았을 때 알맞은 행동은?",
+    "choices": [
+      "책 덮고 포기하기",
+      "뜻을 물어보거나 찾아보기",
+      "아무 뜻이나 외우기",
+      "책 찢기"
+    ],
+    "answer": "뜻을 물어보거나 찾아보기",
+    "explanation": "책에서 모르는 낱말을 보았을 때는 '뜻을 물어보거나 찾아보기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP15-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "기초 개념을 읽고 이해하여 타일과 선택 문제로 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구와 의견이 다를 때 알맞은 행동은?",
+    "choices": [
+      "무조건 화내기",
+      "서로의 생각 듣기",
+      "말 못 하게 하기",
+      "놀리기"
+    ],
+    "answer": "서로의 생각 듣기",
+    "explanation": "친구와 의견이 다를 때는 '서로의 생각 듣기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

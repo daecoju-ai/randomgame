@@ -1,0 +1,722 @@
+[
+  {
+    "id": "G1-YEAR26-EXP13-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 사과 4개, 배 6개, 귤 3개. 가장 많은 과일은?",
+    "choices": [
+      "사과",
+      "배",
+      "귤",
+      "같아요"
+    ],
+    "answer": "배",
+    "explanation": "배가 6개로 가장 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 연필 7자루, 지우개 2개, 색연필 5자루. 가장 적은 물건은?",
+    "choices": [
+      "연필",
+      "지우개",
+      "색연필",
+      "같아요"
+    ],
+    "answer": "지우개",
+    "explanation": "지우개가 2개로 가장 적습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 월요일 책 3권, 화요일 책 5권, 수요일 책 4권. 가장 많이 읽은 날은?",
+    "choices": [
+      "월요일",
+      "화요일",
+      "수요일",
+      "같아요"
+    ],
+    "answer": "화요일",
+    "explanation": "화요일에 5권을 읽어 가장 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 빨간 공 8개, 파란 공 6개. 빨간 공은 파란 공보다 몇 개 더 많나요?",
+    "choices": [
+      "1개",
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": "2개",
+    "explanation": "8-6=2이므로 2개 더 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 고양이 5마리, 강아지 3마리. 동물은 모두 몇 마리인가요?",
+    "choices": [
+      "2마리",
+      "8마리",
+      "5마리",
+      "9마리"
+    ],
+    "answer": "8마리",
+    "explanation": "5+3=8이므로 모두 8마리입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 장미 6송이, 튤립 4송이. 장미는 튤립보다 몇 송이 더 많나요?",
+    "choices": [
+      "1송이",
+      "2송이",
+      "3송이",
+      "4송이"
+    ],
+    "answer": "2송이",
+    "explanation": "6-4=2이므로 2송이 더 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 초록 블록 2개, 노란 블록 7개, 파란 블록 5개. 가장 많은 블록 색깔은?",
+    "choices": [
+      "초록색",
+      "노란색",
+      "파란색",
+      "같아요"
+    ],
+    "answer": "노란색",
+    "explanation": "노란 블록이 7개로 가장 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 딸기 9개, 포도 4개. 딸기 2개를 먹으면 딸기는 몇 개 남나요?",
+    "choices": [
+      "5개",
+      "7개",
+      "6개",
+      "8개"
+    ],
+    "answer": "7개",
+    "explanation": "9-2=7이므로 7개 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 나비 3마리, 벌 5마리. 곤충은 모두 몇 마리인가요?",
+    "choices": [
+      "2마리",
+      "8마리",
+      "5마리",
+      "9마리"
+    ],
+    "answer": "8마리",
+    "explanation": "3+5=8이므로 모두 8마리입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자료: 오전 방문객 6명, 오후 방문객 8명. 오후에 몇 명 더 왔나요?",
+    "choices": [
+      "1명",
+      "2명",
+      "3명",
+      "4명"
+    ],
+    "answer": "2명",
+    "explanation": "8-6=2이므로 오후에 2명 더 왔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'새가 하늘을 날아요.' 누가 하늘을 날아요?",
+    "choices": [
+      "물고기",
+      "나무",
+      "새",
+      "자동차"
+    ],
+    "answer": "새",
+    "explanation": "'새가 하늘을 날아요.'를 다시 읽으면 '새'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'동생이 작은 신발을 신어요.' 신발의 크기는?",
+    "choices": [
+      "크다",
+      "길다",
+      "작다",
+      "넓다"
+    ],
+    "answer": "작다",
+    "explanation": "'동생이 작은 신발을 신어요.'를 다시 읽으면 '작다'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아침에는 해가 떠요.' 언제 해가 떠요?",
+    "choices": [
+      "밤",
+      "저녁",
+      "아침",
+      "한밤중"
+    ],
+    "answer": "아침",
+    "explanation": "'아침에는 해가 떠요.'를 다시 읽으면 '아침'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'민수는 조용히 문을 닫았어요.' 민수는 문을 어떻게 닫았나요?",
+    "choices": [
+      "세게",
+      "빠르게",
+      "조용히",
+      "시끄럽게"
+    ],
+    "answer": "조용히",
+    "explanation": "'민수는 조용히 문을 닫았어요.'를 다시 읽으면 '조용히'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'꽃밭에 노란 나비가 앉았어요.' 나비의 색깔은?",
+    "choices": [
+      "빨간색",
+      "파란색",
+      "노란색",
+      "검은색"
+    ],
+    "answer": "노란색",
+    "explanation": "'꽃밭에 노란 나비가 앉았어요.'를 다시 읽으면 '노란색'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아이는 우유보다 물을 먼저 마셨어요.' 먼저 마신 것은?",
+    "choices": [
+      "우유",
+      "주스",
+      "물",
+      "차"
+    ],
+    "answer": "물",
+    "explanation": "'아이는 우유보다 물을 먼저 마셨어요.'를 다시 읽으면 '물'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'할아버지는 마당에서 꽃에 물을 주셨어요.' 물을 준 장소는?",
+    "choices": [
+      "교실",
+      "운동장",
+      "마당",
+      "도서관"
+    ],
+    "answer": "마당",
+    "explanation": "'할아버지는 마당에서 꽃에 물을 주셨어요.'를 다시 읽으면 '마당'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'친구가 웃자 나도 따라 웃었어요.' 나도 어떻게 했나요?",
+    "choices": [
+      "울었다",
+      "잤다",
+      "웃었다",
+      "달렸다"
+    ],
+    "answer": "웃었다",
+    "explanation": "'친구가 웃자 나도 따라 웃었어요.'를 다시 읽으면 '웃었다'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'눈이 내려서 장갑을 꼈어요.' 장갑을 낀 이유는?",
+    "choices": [
+      "비가 와서",
+      "더워서",
+      "눈이 내려서",
+      "바람이 멈춰서"
+    ],
+    "answer": "눈이 내려서",
+    "explanation": "'눈이 내려서 장갑을 꼈어요.'를 다시 읽으면 '눈이 내려서'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP13-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 자료를 해석하고 문장 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'지우는 연필을 깎고 글씨를 썼어요.' 먼저 한 일은?",
+    "choices": [
+      "글씨 쓰기",
+      "책 읽기",
+      "연필 깎기",
+      "손 씻기"
+    ],
+    "answer": "연필 깎기",
+    "explanation": "'지우는 연필을 깎고 글씨를 썼어요.'를 다시 읽으면 '연필 깎기'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -1438,5 +1438,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-046",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "요약의 적절성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 요약한 문장이 적절한지 판단하는 기준은?",
+    "choices": [
+      "글의 핵심 내용을 빠뜨리거나 왜곡하지 않았는지",
+      "원문보다 무조건 길게 썼는지",
+      "세부 예시를 모두 그대로 옮겼는지",
+      "자신의 새로운 주장을 추가했는지"
+    ],
+    "answer": "글의 핵심 내용을 빠뜨리거나 왜곡하지 않았는지",
+    "explanation": "요약은 원문의 핵심을 간결하게 다시 나타내는 것입니다. 중요한 내용을 유지하면서 불필요한 세부 사항은 줄이고, 원문에 없는 생각을 사실처럼 덧붙이지 않아야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-047",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "관점 파악",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "같은 사건을 두 사람이 다르게 설명하는 주된 까닭을 파악하려면 무엇을 살펴야 하나요?",
+    "choices": [
+      "각 사람이 중요하게 보는 점과 처한 입장",
+      "두 사람 이름의 글자 수",
+      "문장의 마침표 개수",
+      "누가 먼저 말했는지만"
+    ],
+    "answer": "각 사람이 중요하게 보는 점과 처한 입장",
+    "explanation": "사람은 자신의 경험, 관심, 입장에 따라 같은 사건에서도 다른 부분을 중요하게 볼 수 있습니다. 무엇을 강조하거나 생략했는지 비교하면 관점의 차이를 파악할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-048",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "보고서 결론",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "조사 보고서의 결론에 가장 알맞은 내용은?",
+    "choices": [
+      "조사 결과의 핵심과 그 결과에서 알 수 있는 점",
+      "조사와 관계없는 새로운 이야기",
+      "자료의 문장을 무작위로 반복한 내용",
+      "제목만 다시 쓴 내용"
+    ],
+    "answer": "조사 결과의 핵심과 그 결과에서 알 수 있는 점",
+    "explanation": "결론은 앞에서 조사하고 분석한 내용을 바탕으로 핵심 결과를 정리하는 부분입니다. 조사 결과와 연결되지 않은 새로운 주장을 갑자기 넣기보다 결과에서 알 수 있는 점을 분명하게 제시해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-049",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "호응 관계",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘반드시’와 가장 자연스럽게 어울리는 문장은?",
+    "choices": [
+      "나는 약속을 반드시 지키겠다",
+      "나는 약속을 반드시 지킬지도 모른다",
+      "나는 약속을 반드시 아마 지킨다",
+      "나는 약속을 반드시 전혀 지킨다"
+    ],
+    "answer": "나는 약속을 반드시 지키겠다",
+    "explanation": "‘반드시’는 어떤 일을 꼭 하겠다는 확실한 뜻과 잘 어울립니다. 문장 안의 부사와 서술 표현이 의미상 자연스럽게 연결되는지 살피는 것이 호응 관계를 확인하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-050",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발표 질문 만들기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표를 들은 뒤 내용을 깊이 이해하기 위한 질문으로 가장 알맞은 것은?",
+    "choices": [
+      "그 결론을 뒷받침하는 자료는 어떤 기준으로 선택했나요?",
+      "발표 제목은 몇 글자인가요?",
+      "발표 자료의 배경색은 무엇인가요?",
+      "발표 시간은 몇 분이었나요?"
+    ],
+    "answer": "그 결론을 뒷받침하는 자료는 어떤 기준으로 선택했나요?",
+    "explanation": "좋은 질문은 발표의 핵심 주장과 근거를 더 분명하게 이해하도록 돕습니다. 자료 선택 기준을 묻는 질문은 결론이 어떤 근거에 바탕을 두었는지 확인하게 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

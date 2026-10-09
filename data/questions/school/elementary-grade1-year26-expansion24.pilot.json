@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP24-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 14와 9를 비교하세요.",
+    "choices": [
+      "14와 9는 같습니다",
+      "14가 더 큽니다",
+      "14와 9를 비교할 수 없습니다",
+      "9가 더 큽니다"
+    ],
+    "answer": "14가 더 큽니다",
+    "explanation": "14와 9의 크기를 비교하면 14가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 12와 17를 비교하세요.",
+    "choices": [
+      "12와 17는 같습니다",
+      "17가 더 큽니다",
+      "12와 17를 비교할 수 없습니다",
+      "12가 더 큽니다"
+    ],
+    "answer": "17가 더 큽니다",
+    "explanation": "12와 17의 크기를 비교하면 17가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 18와 11를 비교하세요.",
+    "choices": [
+      "18와 11는 같습니다",
+      "18가 더 큽니다",
+      "18와 11를 비교할 수 없습니다",
+      "11가 더 큽니다"
+    ],
+    "answer": "18가 더 큽니다",
+    "explanation": "18와 11의 크기를 비교하면 18가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 8와 16를 비교하세요.",
+    "choices": [
+      "8와 16는 같습니다",
+      "16가 더 큽니다",
+      "8와 16를 비교할 수 없습니다",
+      "8가 더 큽니다"
+    ],
+    "answer": "16가 더 큽니다",
+    "explanation": "8와 16의 크기를 비교하면 16가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 13와 15를 비교하세요.",
+    "choices": [
+      "13와 15는 같습니다",
+      "15가 더 큽니다",
+      "13와 15를 비교할 수 없습니다",
+      "13가 더 큽니다"
+    ],
+    "answer": "15가 더 큽니다",
+    "explanation": "13와 15의 크기를 비교하면 15가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 19와 10를 비교하세요.",
+    "choices": [
+      "19와 10는 같습니다",
+      "19가 더 큽니다",
+      "19와 10를 비교할 수 없습니다",
+      "10가 더 큽니다"
+    ],
+    "answer": "19가 더 큽니다",
+    "explanation": "19와 10의 크기를 비교하면 19가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 7와 12를 비교하세요.",
+    "choices": [
+      "7와 12는 같습니다",
+      "12가 더 큽니다",
+      "7와 12를 비교할 수 없습니다",
+      "7가 더 큽니다"
+    ],
+    "answer": "12가 더 큽니다",
+    "explanation": "7와 12의 크기를 비교하면 12가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수 16와 14를 비교하세요.",
+    "choices": [
+      "16와 14는 같습니다",
+      "16가 더 큽니다",
+      "16와 14를 비교할 수 없습니다",
+      "14가 더 큽니다"
+    ],
+    "answer": "16가 더 큽니다",
+    "explanation": "16와 14의 크기를 비교하면 16가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "화분을 며칠 동안 물 주지 않았더니 흙이 말랐어요. 흙이 마른 까닭은(는) 무엇인가요?",
+    "choices": [
+      "물을 너무 많이 줘서",
+      "화분을 옮겨서",
+      "물을 주지 않아서",
+      "창문을 열어서"
+    ],
+    "answer": "물을 주지 않아서",
+    "explanation": "상황을 살펴보면 '물을 주지 않아서'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비가 온 뒤 놀이터에 물웅덩이가 생겼어요. 물웅덩이가 생긴 까닭은(는) 무엇인가요?",
+    "choices": [
+      "햇빛이 강해서",
+      "바람이 불어서",
+      "비가 내려서",
+      "눈이 녹지 않아서"
+    ],
+    "answer": "비가 내려서",
+    "explanation": "상황을 살펴보면 '비가 내려서'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "겨울 아침에 길이 얼어 미끄러웠어요. 조심해야 하는 까닭은(는) 무엇인가요?",
+    "choices": [
+      "꽃이 피어서",
+      "길이 넓어서",
+      "얼음 때문에 미끄러질 수 있어서",
+      "사람이 많아서"
+    ],
+    "answer": "얼음 때문에 미끄러질 수 있어서",
+    "explanation": "상황을 살펴보면 '얼음 때문에 미끄러질 수 있어서'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "나무에 새잎이 돋아났어요. 새잎이 돋아나는 모습을 볼 수 있는 계절은(는) 무엇인가요?",
+    "choices": [
+      "겨울",
+      "가을",
+      "봄",
+      "여름만"
+    ],
+    "answer": "봄",
+    "explanation": "상황을 살펴보면 '봄'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "여름 낮에 땀을 많이 흘렸어요. 건강을 위해 알맞은 행동은(는) 무엇인가요?",
+    "choices": [
+      "물을 마시지 않기",
+      "두꺼운 외투 입기",
+      "물을 마시고 쉬기",
+      "계속 뛰기"
+    ],
+    "answer": "물을 마시고 쉬기",
+    "explanation": "상황을 살펴보면 '물을 마시고 쉬기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "길에 쓰레기가 많이 쌓여 있어요. 주변을 깨끗하게 하는 방법은(는) 무엇인가요?",
+    "choices": [
+      "쓰레기를 더 버리기",
+      "쓰레기를 발로 차기",
+      "쓰레기를 알맞게 버리기",
+      "그대로 두고 장난치기"
+    ],
+    "answer": "쓰레기를 알맞게 버리기",
+    "explanation": "상황을 살펴보면 '쓰레기를 알맞게 버리기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "교실 창문을 열자 바람이 들어왔어요. 바람이 들어온 곳은(는) 무엇인가요?",
+    "choices": [
+      "책상",
+      "연필",
+      "창문",
+      "가방"
+    ],
+    "answer": "창문",
+    "explanation": "상황을 살펴보면 '창문'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP24-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 크기와 생활 속 원인·결과를 근거로 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "꽃이 핀 곳에 벌이 날아왔어요. 벌을 발견했을 때 안전한 행동은(는) 무엇인가요?",
+    "choices": [
+      "벌을 손으로 잡기",
+      "벌집을 흔들기",
+      "벌을 자극하지 않고 조용히 멀어지기",
+      "벌을 향해 물건 던지기"
+    ],
+    "answer": "벌을 자극하지 않고 조용히 멀어지기",
+    "explanation": "상황을 살펴보면 '벌을 자극하지 않고 조용히 멀어지기'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

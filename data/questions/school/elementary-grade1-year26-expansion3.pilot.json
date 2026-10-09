@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "G1-YEAR26-EXP3-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'바다'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "바",
+      "다",
+      "가",
+      "나"
+    ],
+    "answer": "바",
+    "explanation": "'바다'를 한 글자씩 나누면 바, 다입니다. 첫 글자는 '바'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'나무'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "나",
+      "무",
+      "가",
+      "다"
+    ],
+    "answer": "나",
+    "explanation": "'나무'를 한 글자씩 나누면 나, 무입니다. 첫 글자는 '나'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'학교'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "학",
+      "교",
+      "가",
+      "나"
+    ],
+    "answer": "학",
+    "explanation": "'학교'를 한 글자씩 나누면 학, 교입니다. 첫 글자는 '학'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'사과'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "사",
+      "과",
+      "가",
+      "나"
+    ],
+    "answer": "사",
+    "explanation": "'사과'를 한 글자씩 나누면 사, 과입니다. 첫 글자는 '사'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'우유'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "우",
+      "유",
+      "가",
+      "나"
+    ],
+    "answer": "우",
+    "explanation": "'우유'를 한 글자씩 나누면 우, 유입니다. 첫 글자는 '우'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'고양이'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "고",
+      "양",
+      "가",
+      "나"
+    ],
+    "answer": "고",
+    "explanation": "'고양이'를 한 글자씩 나누면 고, 양, 이입니다. 첫 글자는 '고'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'기차'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "기",
+      "차",
+      "가",
+      "나"
+    ],
+    "answer": "기",
+    "explanation": "'기차'를 한 글자씩 나누면 기, 차입니다. 첫 글자는 '기'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'토끼'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "토",
+      "끼",
+      "가",
+      "나"
+    ],
+    "answer": "토",
+    "explanation": "'토끼'를 한 글자씩 나누면 토, 끼입니다. 첫 글자는 '토'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'연필'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "연",
+      "필",
+      "가",
+      "나"
+    ],
+    "answer": "연",
+    "explanation": "'연필'를 한 글자씩 나누면 연, 필입니다. 첫 글자는 '연'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'우산'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "우",
+      "산",
+      "가",
+      "나"
+    ],
+    "answer": "우",
+    "explanation": "'우산'를 한 글자씩 나누면 우, 산입니다. 첫 글자는 '우'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'하늘'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "하",
+      "늘",
+      "가",
+      "나"
+    ],
+    "answer": "하",
+    "explanation": "'하늘'를 한 글자씩 나누면 하, 늘입니다. 첫 글자는 '하'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'구름'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "구",
+      "름",
+      "가",
+      "나"
+    ],
+    "answer": "구",
+    "explanation": "'구름'를 한 글자씩 나누면 구, 름입니다. 첫 글자는 '구'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'바람'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "바",
+      "람",
+      "가",
+      "나"
+    ],
+    "answer": "바",
+    "explanation": "'바람'를 한 글자씩 나누면 바, 람입니다. 첫 글자는 '바'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'마을'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "마",
+      "을",
+      "가",
+      "나"
+    ],
+    "answer": "마",
+    "explanation": "'마을'를 한 글자씩 나누면 마, 을입니다. 첫 글자는 '마'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'여름'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "여",
+      "름",
+      "가",
+      "나"
+    ],
+    "answer": "여",
+    "explanation": "'여름'를 한 글자씩 나누면 여, 름입니다. 첫 글자는 '여'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'겨울'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "겨",
+      "울",
+      "가",
+      "나"
+    ],
+    "answer": "겨",
+    "explanation": "'겨울'를 한 글자씩 나누면 겨, 울입니다. 첫 글자는 '겨'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'친구'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "친",
+      "구",
+      "가",
+      "나"
+    ],
+    "answer": "친",
+    "explanation": "'친구'를 한 글자씩 나누면 친, 구입니다. 첫 글자는 '친'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'동생'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "동",
+      "생",
+      "가",
+      "나"
+    ],
+    "answer": "동",
+    "explanation": "'동생'를 한 글자씩 나누면 동, 생입니다. 첫 글자는 '동'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아침'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "아",
+      "침",
+      "가",
+      "나"
+    ],
+    "answer": "아",
+    "explanation": "'아침'를 한 글자씩 나누면 아, 침입니다. 첫 글자는 '아'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "낱말을 글자 단위로 읽기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'저녁'의 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "저",
+      "녁",
+      "가",
+      "나"
+    ],
+    "answer": "저",
+    "explanation": "'저녁'를 한 글자씩 나누면 저, 녁입니다. 첫 글자는 '저'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교생활",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도서관 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "책 읽기",
+      "큰 소리로 노래하기",
+      "물건 던지기",
+      "뛰어다니기"
+    ],
+    "answer": "책 읽기",
+    "explanation": "도서관는 '책 읽기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "횡단보도 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "신호를 살피기",
+      "눈 감고 걷기",
+      "차도에서 놀기",
+      "갑자기 뛰기"
+    ],
+    "answer": "신호를 살피기",
+    "explanation": "횡단보도는 '신호를 살피기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식사 전 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "손 씻기",
+      "손 더럽히기",
+      "음식 던지기",
+      "쓰레기 버리기"
+    ],
+    "answer": "손 씻기",
+    "explanation": "식사 전는 '손 씻기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교생활",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 말할 때 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "끝까지 듣기",
+      "말 끊기",
+      "놀리기",
+      "소리 지르기"
+    ],
+    "answer": "끝까지 듣기",
+    "explanation": "친구가 말할 때는 '끝까지 듣기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "식물 돌보기",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "화분을 돌볼 때 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "물 주기",
+      "잎 뜯기",
+      "화분 깨기",
+      "흙 버리기"
+    ],
+    "answer": "물 주기",
+    "explanation": "화분을 돌볼 때는 '물 주기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교생활",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "교실에서 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "차례 지키기",
+      "친구 밀기",
+      "물건 숨기기",
+      "책 찢기"
+    ],
+    "answer": "차례 지키기",
+    "explanation": "교실에서는 '차례 지키기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "쓰레기를 버릴 때 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "분리배출하기",
+      "길에 버리기",
+      "강에 던지기",
+      "책상에 숨기기"
+    ],
+    "answer": "분리배출하기",
+    "explanation": "쓰레기를 버릴 때는 '분리배출하기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "감기에 걸렸을 때 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "휴식하기",
+      "무리하게 뛰기",
+      "친구와 컵 돌려 쓰기",
+      "손 씻지 않기"
+    ],
+    "answer": "휴식하기",
+    "explanation": "감기에 걸렸을 때는 '휴식하기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비 오는 날 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "미끄러운 곳 조심하기",
+      "물웅덩이에 뛰기",
+      "우산 휘두르기",
+      "젖은 바닥에서 달리기"
+    ],
+    "answer": "미끄러운 곳 조심하기",
+    "explanation": "비 오는 날는 '미끄러운 곳 조심하기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP3-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "일상생활에서 안전과 배려를 실천하기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "길을 걸을 때 알맞은 행동은 무엇인가요?",
+    "choices": [
+      "보도로 걷기",
+      "차도에서 놀기",
+      "차량 앞에 뛰기",
+      "신호 무시하기"
+    ],
+    "answer": "보도로 걷기",
+    "explanation": "길을 걸을 때는 '보도로 걷기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

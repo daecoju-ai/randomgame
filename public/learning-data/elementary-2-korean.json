@@ -1,1 +1,429 @@
-[{"id":"V62-KOREAN-003","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"반대말","learning_target":"반대말","difficulty":2,"game_type":"TILE_CHOICE","question":"‘늘다’와 반대인 말은?","choices":["줄다","걷다","보다","웃다"],"answer":"줄다","explanation":"수량이 많아지는 것은 늘다, 적어지는 것은 줄다입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-004","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"반대말","learning_target":"반대말","difficulty":2,"game_type":"TILE_CHOICE","question":"‘출발’과 반대되는 말은?","choices":["도착","출입","행진","산책"],"answer":"도착","explanation":"출발은 떠나는 것, 도착은 목적지에 이르는 것입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-006","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"문맥 어휘","learning_target":"문맥 어휘","difficulty":2,"game_type":"TILE_CHOICE","question":"잘못한 일을 인정하고 친구에게 용서를 구했습니다. 어떤 행동인가요?","choices":["사과","자랑","요청","응원"],"answer":"사과","explanation":"사과는 잘못에 대해 미안함을 전하는 행동입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-008","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"문맥 어휘","learning_target":"문맥 어휘","difficulty":2,"game_type":"TILE_CHOICE","question":"친구의 발표가 끝나자 손뼉을 쳤습니다. ‘손뼉을 치다’와 같은 말은?","choices":["박수하다","악수하다","양보하다","인사하다"],"answer":"박수하다","explanation":"두 손바닥을 마주쳐 소리를 내는 것이 박수입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-011","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"띄어쓰기","learning_target":"띄어쓰기","difficulty":2,"game_type":"TILE_CHOICE","question":"바르게 띄어 쓴 표현을 고르세요.","choices":["할 수 있다","할수 있다","할 수있다","할수있다"],"answer":"할 수 있다","explanation":"가능함을 나타내는 의존 명사 ‘수’는 앞뒤 말과 띄어 씁니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-012","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"맞춤법","learning_target":"맞춤법","difficulty":2,"game_type":"TILE_CHOICE","question":"친구에게 빌린 책을 돌려주었습니다. 알맞은 표현은?","choices":["책을 돌려줬다","책을 돌려줫다","책을 돌려주엇다","책을 돌려좠다"],"answer":"책을 돌려줬다","explanation":"‘주었다’의 준말은 ‘줬다’입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-017","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"읽기 이해","learning_target":"읽기 이해","difficulty":2,"game_type":"TILE_CHOICE","question":"‘비가 와서 운동장을 사용할 수 없었다.’ 운동장을 못 쓴 까닭은?","choices":["비가 와서","책을 읽어서","햇볕이 강해서","친구가 없어서"],"answer":"비가 와서","explanation":"‘비가 와서’가 뒤에 일어난 일의 원인을 설명합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-020","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"말하기","learning_target":"말하기","difficulty":2,"game_type":"TILE_CHOICE","question":"친구와 의견이 다를 때 알맞은 말은?","choices":["다른 생각의 이유를 말해도 될까?","네 말은 들을 필요 없어","무조건 내 말이 맞아","이야기를 그만해"],"answer":"다른 생각의 이유를 말해도 될까?","explanation":"상대 의견을 존중하며 자신의 이유를 설명하는 말입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-021","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"순서 이해","learning_target":"순서 이해","difficulty":2,"game_type":"TILE_SEQUENCE","question":"부탁하는 문장을 자연스러운 순서로 만들어요.","choices":["창문을","조금","열어","주세요"],"answer":["창문을","조금","열어","주세요"],"explanation":"무엇을, 얼마나, 어떻게 해 달라는지 차례로 표현합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-024","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"순서 이해","learning_target":"순서 이해","difficulty":2,"game_type":"TILE_SEQUENCE","question":"도서관에서 책을 빌리는 과정을 배열해요.","choices":["책 찾기","대출 신청","책 읽기","기한 내 반납"],"answer":["책 찾기","대출 신청","책 읽기","기한 내 반납"],"explanation":"책을 찾아 빌리고 읽은 다음 기한 안에 반납합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"KOR-WORD-000001","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"word_meaning","learning_target":"친구와 정한 일을 지키기로 했어요. 어떤 말일까요?","difficulty":1,"game_type":"TILE_CHOICE","question":"친구와 정한 일을 지키기로 했어요. 어떤 말일까요?","choices":["약속","휴식","계절","거리"],"answer":"약속","explanation":"약속은 서로 무엇을 하기로 정하는 일이에요.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"answer_and_explanation_check","date":"2026-10-04","human_publication_pending":true},"placement_note":"짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"},{"id":"KOR-WORD-000002","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"antonym","learning_target":"문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.","difficulty":1,"game_type":"TILE_CHOICE","question":"문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.","choices":["닫다","읽다","걷다","웃다"],"answer":"닫다","explanation":"열린 문을 반대로 닫는 행동은 ‘닫다’예요.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"answer_and_explanation_check","date":"2026-10-04","human_publication_pending":true},"placement_note":"짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"},{"id":"KOR-WORD-000003","curriculum":"2022","school":"elementary","grade":2,"subject":"korean","domain":"word_usage","learning_target":"무거운 짐을 함께 들어 주었어요. 이 행동은?","difficulty":1,"game_type":"TILE_CHOICE","question":"무거운 짐을 함께 들어 주었어요. 이 행동은?","choices":["도움","경쟁","소음","지각"],"answer":"도움","explanation":"다른 사람이 일을 할 수 있도록 힘을 보태는 행동이에요.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"answer_and_explanation_check","date":"2026-10-04","human_publication_pending":true},"placement_note":"짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"}]
+[
+  {
+    "id": "V62-KOREAN-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "반대말",
+    "learning_target": "반대말",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘늘다’와 반대인 말은?",
+    "choices": [
+      "줄다",
+      "걷다",
+      "보다",
+      "웃다"
+    ],
+    "answer": "줄다",
+    "explanation": "수량이 많아지는 것은 늘다, 적어지는 것은 줄다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "반대말",
+    "learning_target": "반대말",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "버스가 정류장에서 떠나는 것은 ‘출발’입니다. 버스가 목적지에 이르는 것은 무엇인가요?",
+    "choices": [
+      "도착",
+      "출입",
+      "행진",
+      "산책"
+    ],
+    "answer": "도착",
+    "explanation": "‘출발’은 어떤 곳에서 떠나는 일이고, ‘도착’은 목적지에 이르는 일입니다. 이동의 시작과 끝을 구별해 보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "문맥 없이 단순 반대말로 묻던 문항을 출발·도착의 의미를 구별하는 상황형 질문으로 수정"
+  },
+  {
+    "id": "V62-KOREAN-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문맥 어휘",
+    "learning_target": "문맥 어휘",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "잘못한 일을 인정하고 친구에게 용서를 구했습니다. 어떤 행동인가요?",
+    "choices": [
+      "사과",
+      "자랑",
+      "요청",
+      "응원"
+    ],
+    "answer": "사과",
+    "explanation": "사과는 잘못에 대해 미안함을 전하는 행동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문맥 어휘",
+    "learning_target": "문맥 어휘",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구의 발표가 끝나자 손뼉을 쳤습니다. ‘손뼉을 치다’와 같은 말은?",
+    "choices": [
+      "박수하다",
+      "악수하다",
+      "양보하다",
+      "인사하다"
+    ],
+    "answer": "박수하다",
+    "explanation": "두 손바닥을 마주쳐 소리를 내는 것이 박수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "띄어쓰기",
+    "learning_target": "띄어쓰기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "바르게 띄어 쓴 표현을 고르세요.",
+    "choices": [
+      "할 수 있다",
+      "할수 있다",
+      "할 수있다",
+      "할수있다"
+    ],
+    "answer": "할 수 있다",
+    "explanation": "가능함을 나타내는 의존 명사 ‘수’는 앞뒤 말과 띄어 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "맞춤법",
+    "learning_target": "맞춤법",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구에게 빌린 책을 돌려주었습니다. 알맞은 표현은?",
+    "choices": [
+      "책을 돌려줬다",
+      "책을 돌려줫다",
+      "책을 돌려주엇다",
+      "책을 돌려좠다"
+    ],
+    "answer": "책을 돌려줬다",
+    "explanation": "‘주었다’의 준말은 ‘줬다’입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘비가 와서 운동장을 사용할 수 없었다.’ 운동장을 못 쓴 까닭은?",
+    "choices": [
+      "비가 와서",
+      "책을 읽어서",
+      "햇볕이 강해서",
+      "친구가 없어서"
+    ],
+    "answer": "비가 와서",
+    "explanation": "‘비가 와서’가 뒤에 일어난 일의 원인을 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "말하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구와 의견이 다를 때 알맞은 말은?",
+    "choices": [
+      "다른 생각의 이유를 말해도 될까?",
+      "네 말은 들을 필요 없어",
+      "무조건 내 말이 맞아",
+      "이야기를 그만해"
+    ],
+    "answer": "다른 생각의 이유를 말해도 될까?",
+    "explanation": "상대 의견을 존중하며 자신의 이유를 설명하는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "순서 이해",
+    "learning_target": "순서 이해",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "부탁하는 문장을 자연스러운 순서로 만들어요.",
+    "choices": [
+      "창문을",
+      "조금",
+      "열어",
+      "주세요"
+    ],
+    "answer": [
+      "창문을",
+      "조금",
+      "열어",
+      "주세요"
+    ],
+    "explanation": "무엇을, 얼마나, 어떻게 해 달라는지 차례로 표현합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-KOREAN-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "순서 이해",
+    "learning_target": "순서 이해",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "도서관에서 책을 빌리는 과정을 배열해요.",
+    "choices": [
+      "책 찾기",
+      "대출 신청",
+      "책 읽기",
+      "기한 내 반납"
+    ],
+    "answer": [
+      "책 찾기",
+      "대출 신청",
+      "책 읽기",
+      "기한 내 반납"
+    ],
+    "explanation": "책을 찾아 빌리고 읽은 다음 기한 안에 반납합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "KOR-WORD-000001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "word_meaning",
+    "learning_target": "친구와 정한 일을 지키기로 했어요. 어떤 말일까요?",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "친구와 정한 일을 지키기로 했어요. 어떤 말일까요?",
+    "choices": [
+      "약속",
+      "휴식",
+      "계절",
+      "거리"
+    ],
+    "answer": "약속",
+    "explanation": "약속은 서로 무엇을 하기로 정하는 일이에요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    },
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+  },
+  {
+    "id": "KOR-WORD-000002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "antonym",
+    "learning_target": "문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "문이 열려 있어요. ‘열다’와 반대인 행동 타일을 찾아요.",
+    "choices": [
+      "닫다",
+      "읽다",
+      "걷다",
+      "웃다"
+    ],
+    "answer": "닫다",
+    "explanation": "열린 문을 반대로 닫는 행동은 ‘닫다’예요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    },
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+  },
+  {
+    "id": "KOR-WORD-000003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "word_usage",
+    "learning_target": "무거운 짐을 함께 들어 주었어요. 이 행동은?",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "무거운 짐을 함께 들어 주었어요. 이 행동은?",
+    "choices": [
+      "도움",
+      "경쟁",
+      "소음",
+      "지각"
+    ],
+    "answer": "도움",
+    "explanation": "다른 사람이 일을 할 수 있도록 힘을 보태는 행동이에요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "answer_and_explanation_check",
+      "date": "2026-10-04",
+      "human_publication_pending": true
+    },
+    "placement_note": "짧은 기초 문장·어휘를 해당 학년 입문 연습으로 배치"
+  }
+]

@@ -43,7 +43,9 @@ async function syncReview(){
    try{
     await api('review-mastered',{id:x.id,subject:x.subject,domain:x.domain},crypto.randomUUID());
     saveReviewDone(reviewDone().filter(v=>v.id!==x.id||v.at!==x.at));
-   }catch{}
+   }catch(e){
+    if(isLocalOnlyReviewError(e))saveReviewDone(reviewDone().filter(v=>v.id!==x.id||v.at!==x.at));
+   }
   }
   for(const x of reviewList().filter(v=>!v.synced)){
    if(reviewDone().some(v=>v.id===x.id))continue;

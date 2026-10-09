@@ -14,6 +14,7 @@ function reviewList(){try{const v=JSON.parse(localStorage.getItem(reviewKey())||
 function saveReview(list){try{localStorage.setItem(reviewKey(),JSON.stringify(list.slice(-80)));return true}catch{return false}}
 function reviewDone(){try{const v=JSON.parse(localStorage.getItem(reviewDoneKey())||'[]');return Array.isArray(v)?v:[]}catch{return[]}}
 function saveReviewDone(list){try{localStorage.setItem(reviewDoneKey(),JSON.stringify(list.slice(-80)));return true}catch{return false}}
+function isLocalOnlyReviewError(e){return e?.status===404&&e?.code==='QUESTION'}
 function markReview(q){
  if(!q?.id)return;
  const at=Date.now(),list=reviewList().filter(x=>x.id!==q.id);
@@ -23,7 +24,7 @@ function markReview(q){
  if(owner)api('review-miss',{id:q.id,subject:q.subject,domain:q.domain},crypto.randomUUID()).then(()=>{
   const now=reviewList(),x=now.find(v=>v.id===q.id&&v.at===at);
   if(x){x.synced=true;saveReview(now)}
- }).catch(()=>{});
+ }).catch(e=>{if(isLocalOnlyReviewError(e)){const now=reviewList(),x=now.find(v=>v.id===q.id&&v.at===at);if(x){x.synced=true;x.localOnly=true;saveReview(now)}}});
 }
 function finishReview(q){
  if(!q?.id)return;
@@ -33,7 +34,7 @@ function finishReview(q){
  saveReviewDone([...reviewDone().filter(x=>x.id!==q.id),{id:q.id,subject:q.subject,domain:q.domain,at}]);
  api('review-mastered',{id:q.id,subject:q.subject,domain:q.domain},crypto.randomUUID()).then(()=>{
   saveReviewDone(reviewDone().filter(x=>x.id!==q.id||x.at!==at));
- }).catch(()=>{});
+ }).catch(e=>{if(isLocalOnlyReviewError(e))saveReviewDone(reviewDone().filter(x=>x.id!==q.id||x.at!==at));});
 }
 async function syncReview(){
  if(!owner)return;
@@ -50,7 +51,7 @@ async function syncReview(){
     await api('review-miss',{id:x.id,subject:x.subject,domain:x.domain},crypto.randomUUID());
     const now=reviewList(),v=now.find(v=>v.id===x.id&&v.at===x.at);
     if(v){v.synced=true;saveReview(now)}
-   }catch{}
+   }catch(e){if(isLocalOnlyReviewError(e)){const now=reviewList(),v=now.find(v=>v.id===x.id&&v.at===x.at);if(v){v.synced=true;v.localOnly=true;saveReview(now)}}}
   }
   const remote=await api('review-list');
   if(!Array.isArray(remote))return;

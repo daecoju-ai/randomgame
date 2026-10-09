@@ -2558,5 +2558,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-081",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "문학 장면 상상",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기를 읽으며 장면을 구체적으로 떠올리는 데 가장 도움이 되는 것은?",
+    "choices": [
+      "인물의 행동과 배경을 나타내는 표현",
+      "페이지 번호만",
+      "문장 개수만",
+      "책의 가격"
+    ],
+    "answer": "인물의 행동과 배경을 나타내는 표현",
+    "explanation": "인물의 움직임, 장소의 모습, 소리나 빛을 나타내는 표현은 장면을 머릿속에 그리게 하는 단서입니다. 이런 표현을 연결하면 이야기의 상황을 더 생생하게 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-082",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "정보 출처",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "건강 정보를 조사할 때 가장 믿을 만한 자료를 고르는 방법은?",
+    "choices": [
+      "작성 기관과 근거, 작성 시점을 확인한다",
+      "검색 결과의 첫 번째 글만 고른다",
+      "제목이 가장 자극적인 글을 고른다",
+      "조회 수만 보고 결정한다"
+    ],
+    "answer": "작성 기관과 근거, 작성 시점을 확인한다",
+    "explanation": "정보를 고를 때는 누가 만들었는지, 어떤 근거를 사용했는지, 언제 작성되었는지 확인해야 합니다. 특히 사실 확인이 중요한 정보는 신뢰할 수 있는 기관과 최신 자료인지 함께 살펴야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-083",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "설명문 구성",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식물이 자라는 과정을 설명하는 글에 가장 알맞은 구성은?",
+    "choices": [
+      "변화 과정을 순서대로 설명한다",
+      "결과만 쓰고 과정은 모두 생략한다",
+      "관계없는 식물 이름만 나열한다",
+      "시간 순서를 무작위로 섞는다"
+    ],
+    "answer": "변화 과정을 순서대로 설명한다",
+    "explanation": "과정을 설명하는 글은 처음부터 끝까지 변화가 일어나는 차례가 중요합니다. 씨앗, 싹, 성장처럼 단계별 핵심 변화를 순서대로 제시하면 이해하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-084",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "대명사 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“민수는 우산을 챙겼다. 그는 비가 올 것이라고 생각했다.”에서 ‘그’가 가리키는 사람은?",
+    "choices": [
+      "민수",
+      "우산",
+      "비",
+      "생각"
+    ],
+    "answer": "민수",
+    "explanation": "대명사가 누구를 가리키는지는 앞뒤 문맥에서 찾습니다. 앞 문장에서 사람으로 제시된 ‘민수’를 다음 문장의 ‘그’가 대신하고 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-085",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "의견 비교",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "두 친구의 의견을 비교해 들을 때 가장 알맞은 방법은?",
+    "choices": [
+      "각 의견과 이유를 같은 기준으로 정리한다",
+      "먼저 말한 사람만 기억한다",
+      "목소리가 큰 의견만 적는다",
+      "이유는 빼고 이름만 적는다"
+    ],
+    "answer": "각 의견과 이유를 같은 기준으로 정리한다",
+    "explanation": "의견을 비교하려면 무엇을 주장하는지와 그 이유를 같은 기준으로 살펴야 합니다. 표나 메모로 나란히 정리하면 공통점과 차이점을 쉽게 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -17,19 +17,20 @@
       "산에는 나무가 많다"
     ],
     "answer": "작은 것도 모이면 커진다",
-    "explanation": "작은 노력이나 양도 계속 모으면 큰 결과가 된다는 뜻입니다.",
+    "explanation": "‘티끌’은 아주 작은 먼지이고 ‘태산’은 매우 큰 산입니다. 작은 티끌도 계속 모이면 큰 산처럼 된다는 모습에 빗대어, 작은 노력이나 양도 꾸준히 모으면 큰 결과가 된다는 뜻을 전합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-014",
@@ -49,19 +50,20 @@
       "듣지 않고 떠나기"
     ],
     "answer": "먼저 예의 있게 말하기",
-    "explanation": "자신이 먼저 좋은 말을 해야 상대도 좋은 말로 답한다는 뜻입니다.",
+    "explanation": "‘가는 말’은 내가 상대에게 하는 말이고 ‘오는 말’은 상대가 나에게 하는 말입니다. 내가 먼저 예의 있고 좋은 말을 해야 상대도 좋은 말로 답하기 쉽다는 뜻이므로 ‘먼저 예의 있게 말하기’가 어울립니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-015",
@@ -81,19 +83,20 @@
       "서두르기"
     ],
     "answer": "협력",
-    "explanation": "쉬운 일이라도 함께하면 더 잘할 수 있다는 뜻입니다.",
+    "explanation": "백지장처럼 가벼운 것도 두 사람이 함께 들면 더 쉽다는 뜻입니다. 이를 사람의 일에 빗대어 혼자보다 함께 힘을 모으는 ‘협력’의 중요성을 강조합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V62-KOREAN-016",
@@ -113,19 +116,20 @@
       "준비 없이 시작하기"
     ],
     "answer": "확실해 보여도 확인하기",
-    "explanation": "안전하고 확실해 보이는 일도 신중히 확인하라는 뜻입니다.",
+    "explanation": "돌다리가 튼튼해 보여도 건너기 전에 두드려 확인한다는 모습에서, 확실해 보이는 일도 실수나 위험이 없는지 다시 확인하는 신중한 태도를 뜻합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "concept_answer_and_explanation_check",
       "date": "2026-10-05",
       "human_publication_pending": true
     },
-    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V145-ELEMENTARY-4-KOREAN-001",
@@ -145,18 +149,19 @@
       "제목의 길이"
     ],
     "answer": "중심 생각",
-    "explanation": "중심 생각은 글쓴이가 글을 통해 주로 전하려는 생각입니다.",
+    "explanation": "글에는 여러 내용이 있어도 글쓴이가 가장 중요하게 전하려는 생각이 있습니다. 문단의 중요한 내용을 모아 글 전체가 무엇을 말하려는지 찾은 것을 ‘중심 생각’이라고 합니다.",
     "content_origin": "original",
     "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
     "license": "original_game_content",
     "review_status": "draft",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V145-ELEMENTARY-4-KOREAN-002",
@@ -176,18 +181,19 @@
       "시간이 느리게 가서"
     ],
     "answer": "다른 사람의 독서를 방해하지 않으려고",
-    "explanation": "공공장소에서는 다른 사람의 활동을 배려해 행동해야 합니다.",
+    "explanation": "도서관은 여러 사람이 조용히 책을 읽는 공공장소입니다. 큰 소리로 말하면 다른 사람의 독서를 방해할 수 있으므로 작은 목소리로 이야기하는 것이 알맞습니다.",
     "content_origin": "original",
     "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
     "license": "original_game_content",
     "review_status": "draft",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V145-ELEMENTARY-4-KOREAN-003",
@@ -207,18 +213,19 @@
       "반복만"
     ],
     "answer": "비유",
-    "explanation": "바다의 넓은 모습을 빌려 마음이 넓다는 특징을 표현한 비유입니다.",
+    "explanation": "마음은 실제로 바다가 아니지만 ‘바다처럼’이라고 하여 바다의 넓은 특징을 마음에 빗대었습니다. 이렇게 다른 대상의 특징을 빌려 표현하는 방법을 ‘비유’라고 합니다.",
     "content_origin": "original",
     "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
     "license": "original_game_content",
     "review_status": "draft",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   },
   {
     "id": "V145-ELEMENTARY-4-KOREAN-004",
@@ -238,17 +245,18 @@
       "문단 순서를 임의로 바꾸기"
     ],
     "answer": "문단별 중요한 내용을 찾기",
-    "explanation": "문단마다 중심 내용을 찾고 서로 어떻게 연결되는지 살펴보면 글의 뜻을 이해하기 쉽습니다.",
+    "explanation": "설명하는 글은 여러 문단이 각각 중요한 정보를 맡습니다. 문단마다 중심 내용을 찾고 서로 어떤 관계로 이어지는지 살피면 세부 내용에만 치우치지 않고 글 전체를 정확히 이해할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
     "license": "original_game_content",
     "review_status": "draft",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_draft_pending_validation",
       "date": "2026-10-09",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
   }
 ]

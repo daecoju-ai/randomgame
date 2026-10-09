@@ -1,0 +1,1730 @@
+[
+  {
+    "id": "G1-YEAR26-EXP2-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 8장 중 5장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "8장에서 5장을 빼면 3장입니다. 8 - 5 = 3입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 9장 중 6장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "9장에서 6장을 빼면 3장입니다. 9 - 6 = 3입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 10장 중 2장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "10장에서 2장을 빼면 8장입니다. 10 - 2 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 11장 중 3장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "11장에서 3장을 빼면 8장입니다. 11 - 3 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 12장 중 4장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "12장에서 4장을 빼면 8장입니다. 12 - 4 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 13장 중 5장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "13장에서 5장을 빼면 8장입니다. 13 - 5 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 14장 중 6장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "14장에서 6장을 빼면 8장입니다. 14 - 6 = 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 15장 중 2장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "15장에서 2장을 빼면 13장입니다. 15 - 2 = 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 16장 중 3장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "16장에서 3장을 빼면 13장입니다. 16 - 3 = 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 뺄셈을 구체물로 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "스티커 17장 중 4장을 친구에게 주었습니다. 남은 스티커는 몇 장인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "17장에서 4장을 빼면 13장입니다. 17 - 4 = 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 11보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "11에서 1을 두 번 빼면 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 12보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "12에서 1을 두 번 빼면 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 13보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "11",
+      "12",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "13에서 1을 두 번 빼면 11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 14보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "14에서 1을 두 번 빼면 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 15보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "15에서 1을 두 번 빼면 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 16보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "16에서 1을 두 번 빼면 14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 17보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "17에서 1을 두 번 빼면 15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 18보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "18에서 1을 두 번 빼면 16입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 19보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "17",
+      "18",
+      "16",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "19에서 1을 두 번 빼면 17입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "20 이하의 수 크기 비교하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "숫자 20보다 2 작은 수는 무엇인가요?",
+    "choices": [
+      "18",
+      "19",
+      "17",
+      "20"
+    ],
+    "answer": "18",
+    "explanation": "20에서 1을 두 번 빼면 18입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "삼각형의 꼭짓점은 몇 개인가요?",
+    "choices": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "삼각형의 모서리가 만나는 꼭짓점을 세면 3개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "삼각형의 변은 몇 개인가요?",
+    "choices": [
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "삼각형의 곧은 변을 하나씩 세면 3개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사각형의 꼭짓점은 몇 개인가요?",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "사각형의 모서리가 만나는 꼭짓점을 세면 4개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사각형의 변은 몇 개인가요?",
+    "choices": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "사각형의 곧은 변을 하나씩 세면 4개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "오각형의 꼭짓점은 몇 개인가요?",
+    "choices": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "오각형의 모서리가 만나는 꼭짓점을 세면 5개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "오각형의 변은 몇 개인가요?",
+    "choices": [
+      "5",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "오각형의 곧은 변을 하나씩 세면 5개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "육각형의 꼭짓점은 몇 개인가요?",
+    "choices": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "육각형의 모서리가 만나는 꼭짓점을 세면 6개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "평면도형의 변과 꼭짓점 살펴보기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "육각형의 변은 몇 개인가요?",
+    "choices": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "육각형의 곧은 변을 하나씩 세면 6개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 1을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "1시",
+      "2시",
+      "1시 30분",
+      "12시"
+    ],
+    "answer": "1시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 1을 가리키므로 1시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 2을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "2시",
+      "3시",
+      "2시 30분",
+      "1시"
+    ],
+    "answer": "2시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 2을 가리키므로 2시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 3을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "3시",
+      "4시",
+      "3시 30분",
+      "2시"
+    ],
+    "answer": "3시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 3을 가리키므로 3시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 4을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "4시",
+      "5시",
+      "4시 30분",
+      "3시"
+    ],
+    "answer": "4시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 4을 가리키므로 4시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-033",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 5을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "5시",
+      "6시",
+      "5시 30분",
+      "4시"
+    ],
+    "answer": "5시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 5을 가리키므로 5시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-034",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 6을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "6시",
+      "7시",
+      "6시 30분",
+      "5시"
+    ],
+    "answer": "6시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 6을 가리키므로 6시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-035",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 7을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "7시",
+      "8시",
+      "7시 30분",
+      "6시"
+    ],
+    "answer": "7시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 7을 가리키므로 7시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-036",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 8을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "8시",
+      "9시",
+      "8시 30분",
+      "7시"
+    ],
+    "answer": "8시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 8을 가리키므로 8시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-037",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 9을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "9시",
+      "10시",
+      "9시 30분",
+      "8시"
+    ],
+    "answer": "9시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 9을 가리키므로 9시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-038",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "시계의 정각 읽기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 10을 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "10시",
+      "11시",
+      "10시 30분",
+      "9시"
+    ],
+    "answer": "10시",
+    "explanation": "긴바늘이 12면 정각이고 짧은바늘이 10을 가리키므로 10시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-039",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "1, 4, 7, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "앞의 수에 3씩 더하는 규칙입니다. 7 + 3 = 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-040",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "2, 6, 10, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "앞의 수에 4씩 더하는 규칙입니다. 10 + 4 = 14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-041",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "3, 5, 7, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "앞의 수에 2씩 더하는 규칙입니다. 7 + 2 = 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-042",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "4, 7, 10, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "13",
+      "14",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "앞의 수에 3씩 더하는 규칙입니다. 10 + 3 = 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-043",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "5, 9, 13, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "17",
+      "18",
+      "16",
+      "19"
+    ],
+    "answer": "17",
+    "explanation": "앞의 수에 4씩 더하는 규칙입니다. 13 + 4 = 17입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-044",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "6, 8, 10, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "앞의 수에 2씩 더하는 규칙입니다. 10 + 2 = 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-045",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "7, 10, 13, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "앞의 수에 3씩 더하는 규칙입니다. 13 + 3 = 16입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-046",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "8, 12, 16, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "20",
+      "21",
+      "19",
+      "22"
+    ],
+    "answer": "20",
+    "explanation": "앞의 수에 4씩 더하는 규칙입니다. 16 + 4 = 20입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-047",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "9, 11, 13, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "앞의 수에 2씩 더하는 규칙입니다. 13 + 2 = 15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP2-048",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 규칙 찾아 다음 수 예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "10, 13, 16, 다음에 올 수는 무엇인가요?",
+    "choices": [
+      "19",
+      "20",
+      "18",
+      "21"
+    ],
+    "answer": "19",
+    "explanation": "앞의 수에 3씩 더하는 규칙입니다. 16 + 3 = 19입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

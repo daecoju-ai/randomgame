@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP35-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "14는 10과 얼마를 합한 수인가요?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": "14는 10과 4를 합한 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "열 개씩 묶은 블록 1묶음과 낱개 9개에서 낱개 3개를 치우면 모두 몇 개인가요?",
+    "choices": [
+      "13",
+      "16",
+      "17",
+      "19"
+    ],
+    "answer": "16",
+    "explanation": "10+9=19개에서 3개를 빼면 16개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "동전 대신 종이별 10개를 5개와 몇 개로 나누면 좋을까요?",
+    "choices": [
+      "3개",
+      "4개",
+      "5개",
+      "6개"
+    ],
+    "answer": "5개",
+    "explanation": "5+5=10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "두 수를 더하면 12입니다. 한 수가 7이면 다른 수는?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "7+5=12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "읽은 책 조사: 월요일 2권, 화요일 3권, 수요일 1권. 월요일과 수요일에 읽은 책은 모두?",
+    "choices": [
+      "2권",
+      "3권",
+      "4권",
+      "5권"
+    ],
+    "answer": "3권",
+    "explanation": "2+1=3권입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 20을 10개씩 묶으면 몇 묶음인가요?",
+    "choices": [
+      "1묶음",
+      "2묶음",
+      "3묶음",
+      "4묶음"
+    ],
+    "answer": "2묶음",
+    "explanation": "10+10=20이므로 2묶음입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '은서는 친구에게 공책을 빌렸습니다. 다 쓰고 나서 깨끗하게 돌려주었습니다.' 은서가 공책을 돌려준 까닭으로 알맞은 것은?",
+    "choices": [
+      "빌린 물건이기 때문에",
+      "공책을 버리려고",
+      "공책을 숨기려고",
+      "글씨를 지우려고"
+    ],
+    "answer": "빌린 물건이기 때문에",
+    "explanation": "다른 사람에게 빌린 물건은 사용한 뒤 돌려주는 것이 맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아침에 바람이 세게 불었습니다. 민호는 모자가 날아가지 않게 손으로 잡았습니다.' 민호가 모자를 잡은 까닭은?",
+    "choices": [
+      "비가 와서",
+      "바람이 세게 불어서",
+      "모자가 무거워서",
+      "햇빛이 없어서"
+    ],
+    "answer": "바람이 세게 불어서",
+    "explanation": "바람이 세게 불어 모자가 날아갈 수 있기 때문입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '선생님은 운동을 마친 아이들에게 물을 마시고 쉬라고 하셨습니다.' 선생님이 알려 주신 행동은?",
+    "choices": [
+      "계속 뛰기",
+      "물을 마시고 쉬기",
+      "밖으로 달려가기",
+      "간식 먹기"
+    ],
+    "answer": "물을 마시고 쉬기",
+    "explanation": "운동 후 물을 마시고 쉬라고 하셨습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '수업이 끝나자 유진이는 칠판을 닦고 분필을 정리했습니다.' 유진이가 한 일은?",
+    "choices": [
+      "교실 정리",
+      "운동하기",
+      "장보기",
+      "요리하기"
+    ],
+    "answer": "교실 정리",
+    "explanation": "칠판을 닦고 분필을 정리하는 일은 교실 정리입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "비 오는 날 계단이 젖어 미끄럽습니다. 어떻게 내려가야 할까요?",
+    "choices": [
+      "난간을 잡고 천천히 걷기",
+      "두 칸씩 뛰어내리기",
+      "눈을 감고 내려가기",
+      "친구를 밀며 내려가기"
+    ],
+    "answer": "난간을 잡고 천천히 걷기",
+    "explanation": "젖은 계단에서는 난간을 잡고 천천히 이동해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP35-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 구성과 글의 목적을 파악하고 생활 문제를 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나뭇잎의 색이 며칠 동안 변하는지 알아보려면?",
+    "choices": [
+      "날짜와 색을 함께 기록하기",
+      "첫날 색만 보고 끝내기",
+      "나뭇잎을 숨기기",
+      "색을 마음대로 바꾸어 쓰기"
+    ],
+    "answer": "날짜와 색을 함께 기록하기",
+    "explanation": "변화를 알아보려면 날짜별 관찰 결과를 남겨야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

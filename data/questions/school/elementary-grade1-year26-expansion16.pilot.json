@@ -1,0 +1,650 @@
+[
+  {
+    "id": "G1-YEAR26-EXP16-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "민지는 구슬 4개, 서준는 7개를 모았습니다. 더 많이 모은 사람은 누구인가요?",
+    "choices": [
+      "민지",
+      "서준",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "서준",
+    "explanation": "4와 7를 비교하면 큰 수를 모은 사람은 서준입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "유나는 구슬 8개, 도윤는 5개를 모았습니다. 더 적게 모은 사람은 누구인가요?",
+    "choices": [
+      "유나",
+      "도윤",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "도윤",
+    "explanation": "8와 5를 비교하면 작은 수를 모은 사람은 도윤입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "하린는 구슬 6개, 지후는 9개를 모았습니다. 더 많이 모은 사람은 누구인가요?",
+    "choices": [
+      "하린",
+      "지후",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "지후",
+    "explanation": "6와 9를 비교하면 큰 수를 모은 사람은 지후입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수빈는 구슬 3개, 민호는 8개를 모았습니다. 더 적게 모은 사람은 누구인가요?",
+    "choices": [
+      "수빈",
+      "민호",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "수빈",
+    "explanation": "3와 8를 비교하면 작은 수를 모은 사람은 수빈입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다은는 구슬 10개, 태윤는 7개를 모았습니다. 더 많이 모은 사람은 누구인가요?",
+    "choices": [
+      "다은",
+      "태윤",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "다은",
+    "explanation": "10와 7를 비교하면 큰 수를 모은 사람은 다은입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "예준는 구슬 5개, 소율는 2개를 모았습니다. 더 적게 모은 사람은 누구인가요?",
+    "choices": [
+      "예준",
+      "소율",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "소율",
+    "explanation": "5와 2를 비교하면 작은 수를 모은 사람은 소율입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시우는 구슬 9개, 하율는 4개를 모았습니다. 더 많이 모은 사람은 누구인가요?",
+    "choices": [
+      "시우",
+      "하율",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "시우",
+    "explanation": "9와 4를 비교하면 큰 수를 모은 사람은 시우입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나윤는 구슬 6개, 준서는 3개를 모았습니다. 더 적게 모은 사람은 누구인가요?",
+    "choices": [
+      "나윤",
+      "준서",
+      "둘 다 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "준서",
+    "explanation": "6와 3를 비교하면 작은 수를 모은 사람은 준서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아침에 눈이 쌓여 길이 미끄러웠습니다. 지수는 천천히 걸었습니다.' 지수가 천천히 걸은 까닭은?",
+    "choices": [
+      "길이 넓어서",
+      "날씨가 더워서",
+      "길이 미끄러워서",
+      "학교가 쉬어서"
+    ],
+    "answer": "길이 미끄러워서",
+    "explanation": "글의 내용을 다시 살피면 '길이 미끄러워서'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'동생이 잠들자 민수는 텔레비전 소리를 줄였습니다.' 민수가 소리를 줄인 까닭은?",
+    "choices": [
+      "밖에 비가 와서",
+      "친구가 와서",
+      "동생이 자고 있어서",
+      "숙제가 끝나서"
+    ],
+    "answer": "동생이 자고 있어서",
+    "explanation": "글의 내용을 다시 살피면 '동생이 자고 있어서'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'수아는 내일 준비물을 잊지 않으려고 가방에 미리 넣었습니다.' 수아가 미리 가방에 넣은 까닭은?",
+    "choices": [
+      "가방이 무거워서",
+      "놀이터에 가려고",
+      "잊지 않으려고",
+      "책을 빌리려고"
+    ],
+    "answer": "잊지 않으려고",
+    "explanation": "글의 내용을 다시 살피면 '잊지 않으려고'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'물이 없는 화분의 흙이 말랐습니다. 유진이는 물을 주었습니다.' 유진이가 물을 준 까닭은?",
+    "choices": [
+      "화분이 깨져서",
+      "꽃이 움직여서",
+      "흙이 말라서",
+      "창문이 열려서"
+    ],
+    "answer": "흙이 말라서",
+    "explanation": "글의 내용을 다시 살피면 '흙이 말라서'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'준호는 친구가 무거운 상자를 옮기는 것을 보고 선생님께 도움을 요청했습니다.' 준호가 도움을 요청한 까닭은?",
+    "choices": [
+      "상자를 숨기려고",
+      "친구를 놀리려고",
+      "안전하게 옮기려고",
+      "상자를 버리려고"
+    ],
+    "answer": "안전하게 옮기려고",
+    "explanation": "글의 내용을 다시 살피면 '안전하게 옮기려고'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'책이 찢어진 것을 본 하늘이는 선생님께 알렸습니다.' 하늘이가 한 일은?",
+    "choices": [
+      "책 숨기기",
+      "책 던지기",
+      "선생님께 알리기",
+      "책에 낙서하기"
+    ],
+    "answer": "선생님께 알리기",
+    "explanation": "글의 내용을 다시 살피면 '선생님께 알리기'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'지민이는 친구가 말을 마칠 때까지 기다렸다가 질문했습니다.' 지민이가 먼저 한 일은?",
+    "choices": [
+      "질문하기",
+      "집에 가기",
+      "친구 말 듣기",
+      "노래 부르기"
+    ],
+    "answer": "친구 말 듣기",
+    "explanation": "글의 내용을 다시 살피면 '친구 말 듣기'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'나래는 비가 그치자 우산을 접어 가방에 넣었습니다.' 나래가 우산을 접은 때는?",
+    "choices": [
+      "비가 오기 전",
+      "눈이 올 때",
+      "비가 그친 뒤",
+      "밤이 될 때"
+    ],
+    "answer": "비가 그친 뒤",
+    "explanation": "글의 내용을 다시 살피면 '비가 그친 뒤'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'태호는 친구에게 빌린 연필을 사용한 뒤 돌려주었습니다.' 태호가 연필을 돌려준 때는?",
+    "choices": [
+      "빌리기 전",
+      "사용하는 중",
+      "사용한 뒤",
+      "다음 달"
+    ],
+    "answer": "사용한 뒤",
+    "explanation": "글의 내용을 다시 살피면 '사용한 뒤'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP16-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료와 글을 읽고 근거를 찾아 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'서연이는 작은 화분을 창가에 놓고 매일 관찰했습니다.' 서연이가 매일 관찰한 것은?",
+    "choices": [
+      "자전거",
+      "자동차",
+      "화분",
+      "책상"
+    ],
+    "answer": "화분",
+    "explanation": "글의 내용을 다시 살피면 '화분'라는 답을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -15,6 +15,7 @@ on:
       - 'tests/**'
       - 'scripts/validate-learning-bank.cjs'
       - 'scripts/audit-elementary-curriculum.cjs'
+      - 'scripts/audit-learning-ambiguity.cjs'
       - 'package.json'
       - '.github/workflows/learning-validation.yml'
   workflow_dispatch:
@@ -41,6 +42,15 @@ jobs:
         run: |
           echo '--- learning validation report ---'
           cat public/learning-validation-report.json || true
+      - name: Audit question ambiguity and publication safety
+        run: node scripts/audit-learning-ambiguity.cjs
+      - name: Upload ambiguity audit
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: learning-ambiguity-audit
+          path: public/learning-ambiguity-report.json
+          if-no-files-found: warn
       - name: Audit elementary curriculum mapping
         run: node scripts/audit-elementary-curriculum.cjs
       - name: Upload curriculum mapping audit

@@ -1070,18 +1070,19 @@
       "39"
     ],
     "answer": "34",
-    "explanation": "42 − 8 = 34입니다.",
+    "explanation": "42에서 8만큼 뒤로 세면 34입니다. 빼기는 수를 그만큼 줄이는 계산이므로 42 − 8 = 34입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뒤로 세기와 뺄셈의 의미를 함께 설명"
   },
   {
     "id": "V58-E2-MATH-032",
@@ -1101,18 +1102,19 @@
       "57"
     ],
     "answer": "52",
-    "explanation": "43 + 9 = 52입니다.",
+    "explanation": "9를 7과 2으로 나눕니다. 43+7=50, 남은 2을 더하면 52입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈의 수 가르기와 앞으로 세기 전략을 설명"
   },
   {
     "id": "V58-E2-MATH-033",
@@ -1132,18 +1134,19 @@
       "47"
     ],
     "answer": "42",
-    "explanation": "44 − 2 = 42입니다.",
+    "explanation": "44에서 2만큼 뒤로 세면 42입니다. 빼기는 수를 그만큼 줄이는 계산이므로 44 − 2 = 42입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뒤로 세기와 뺄셈의 의미를 함께 설명"
   },
   {
     "id": "V58-E2-MATH-034",
@@ -1163,18 +1166,19 @@
       "53"
     ],
     "answer": "48",
-    "explanation": "45 + 3 = 48입니다.",
+    "explanation": "45에서 3만큼 앞으로 세면 48입니다. 따라서 45 + 3 = 48입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈의 수 가르기와 앞으로 세기 전략을 설명"
   },
   {
     "id": "V58-E2-MATH-035",
@@ -1194,18 +1198,19 @@
       "47"
     ],
     "answer": "42",
-    "explanation": "46 − 4 = 42입니다.",
+    "explanation": "46에서 4만큼 뒤로 세면 42입니다. 빼기는 수를 그만큼 줄이는 계산이므로 46 − 4 = 42입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뒤로 세기와 뺄셈의 의미를 함께 설명"
   },
   {
     "id": "V58-E2-MATH-036",
@@ -1225,18 +1230,19 @@
       "57"
     ],
     "answer": "52",
-    "explanation": "47 + 5 = 52입니다.",
+    "explanation": "5를 3과 2으로 나눕니다. 47+3=50, 남은 2을 더하면 52입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈의 수 가르기와 앞으로 세기 전략을 설명"
   },
   {
     "id": "V61-E2-MATH-001",

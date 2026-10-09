@@ -1758,5 +1758,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-056",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "조건부 주장",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“비가 오면 운동회를 실내에서 진행하자.”라는 제안에서 결정에 영향을 주는 조건은?",
+    "choices": [
+      "비가 오는지 여부",
+      "운동장 이름",
+      "학생 이름의 글자 수",
+      "교실 벽의 색"
+    ],
+    "answer": "비가 오는지 여부",
+    "explanation": "조건이 붙은 주장은 특정 상황이 성립할 때 제안이나 결론을 적용합니다. 이 문장에서는 ‘비가 오면’이 실내 진행 여부를 결정하는 조건입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-057",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "통계 해석",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "전체 학생 100명 중 60명이 A를 선택했다는 조사에서 알 수 있는 것은?",
+    "choices": [
+      "조사 대상 학생의 60%가 A를 선택했다",
+      "모든 학교 학생이 A를 선택했다",
+      "앞으로도 항상 60명이 선택한다",
+      "A가 반드시 가장 좋은 선택이다"
+    ],
+    "answer": "조사 대상 학생의 60%가 A를 선택했다",
+    "explanation": "조사 결과는 조사한 대상과 범위 안에서 해석해야 합니다. 100명 중 60명이라는 자료는 그 조사 대상의 60%가 A를 선택했다는 뜻이며 모든 사람에게 그대로 일반화할 수는 없습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-058",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "문체 선택",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 보내는 편지와 학교 공식 보고서의 표현이 달라져야 하는 주된 이유는?",
+    "choices": [
+      "글의 목적과 독자가 다르기 때문에",
+      "한글의 글자 수가 달라서",
+      "종이 크기가 달라서",
+      "문장 부호를 사용할 수 없어서"
+    ],
+    "answer": "글의 목적과 독자가 다르기 때문에",
+    "explanation": "글의 표현 방식은 누구에게 무엇을 위해 쓰는지에 따라 달라집니다. 친근한 편지와 정확한 정보 전달이 필요한 공식 보고서는 어휘와 문장 표현의 격식이 다를 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-059",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "생략과 문맥",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "대화에서 주어가 생략되어도 뜻을 알 수 있는 경우가 있는 까닭은?",
+    "choices": [
+      "앞뒤 상황과 이미 나온 정보로 대상을 짐작할 수 있어서",
+      "주어는 모든 문장에서 필요 없어서",
+      "동사는 언제나 주어와 같은 뜻이라서",
+      "문장 부호가 주어를 대신해서"
+    ],
+    "answer": "앞뒤 상황과 이미 나온 정보로 대상을 짐작할 수 있어서",
+    "explanation": "한국어 대화에서는 앞에서 이미 언급했거나 상황상 분명한 대상이 반복될 때 주어가 생략되기도 합니다. 이때는 문맥을 이용해 누가 행동하는지 파악합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-060",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "의견 재진술",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상대의 의견을 정확히 이해했는지 확인하는 좋은 방법은?",
+    "choices": [
+      "상대의 핵심 의견을 자신의 말로 다시 말해 확인한다",
+      "상대가 끝나기 전에 결론을 대신 말한다",
+      "들은 내용과 반대로 말한다",
+      "질문 없이 자신의 주장만 반복한다"
+    ],
+    "answer": "상대의 핵심 의견을 자신의 말로 다시 말해 확인한다",
+    "explanation": "상대의 말을 자신의 표현으로 간단히 재진술하고 맞게 이해했는지 확인하면 오해를 줄일 수 있습니다. 중요한 토의나 협의에서 서로의 뜻을 맞추는 데 효과적입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

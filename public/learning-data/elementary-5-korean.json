@@ -478,5 +478,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "인물의 마음 추론",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“준호는 발표 순서를 기다리며 손에 쥔 종이를 몇 번이나 다시 읽었다.” 준호의 마음으로 가장 알맞은 것은?",
+    "choices": [
+      "긴장되고 걱정된다",
+      "아무 관심이 없다",
+      "화가 나서 싸우고 싶다",
+      "잠이 들어 편안하다"
+    ],
+    "answer": "긴장되고 걱정된다",
+    "explanation": "인물의 마음은 행동과 상황을 단서로 짐작합니다. 발표를 앞두고 종이를 여러 번 확인하는 행동은 실수하지 않으려는 긴장과 걱정을 보여 줍니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "제목 정하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글의 제목을 정하는 방법으로 가장 알맞은 것은?",
+    "choices": [
+      "글의 중심 내용을 잘 드러내는 말로 정한다",
+      "글에서 가장 긴 문장을 그대로 쓴다",
+      "중심 내용과 관계없는 재미있는 말만 고른다",
+      "마지막 문장의 첫 글자만 사용한다"
+    ],
+    "answer": "글의 중심 내용을 잘 드러내는 말로 정한다",
+    "explanation": "제목은 글 전체가 무엇에 관한 내용인지 짐작하게 해야 합니다. 글의 중심 생각이나 핵심 소재를 간결하게 나타내는 제목이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "자료 선별",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "우리 지역을 소개하는 글에 넣을 자료로 가장 알맞은 것은?",
+    "choices": [
+      "지역의 위치와 특징을 보여 주는 지도와 사진",
+      "다른 나라의 날씨만 적힌 표",
+      "주제와 관계없는 만화 장면",
+      "출처를 알 수 없는 제품 광고"
+    ],
+    "answer": "지역의 위치와 특징을 보여 주는 지도와 사진",
+    "explanation": "자료는 글의 목적과 주제를 이해하는 데 도움을 주어야 합니다. 지역의 위치와 특징을 직접 보여 주는 지도와 사진은 지역 소개라는 목적에 잘 맞습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문맥에 맞는 낱말",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“바람이 세게 불어 나뭇가지가 크게 (   ).”에 알맞은 말은?",
+    "choices": [
+      "흔들렸다",
+      "읽었다",
+      "마셨다",
+      "계산했다"
+    ],
+    "answer": "흔들렸다",
+    "explanation": "빈칸 앞의 ‘바람이 세게 불어’라는 상황과 ‘나뭇가지’라는 대상을 함께 살펴야 합니다. 바람의 힘으로 가지가 움직이는 상황에는 ‘흔들렸다’가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "요약하며 듣기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴 설명을 들으며 중요한 내용을 놓치지 않는 방법은?",
+    "choices": [
+      "핵심 낱말과 중요한 내용을 간단히 메모한다",
+      "말한 내용을 한 글자씩 모두 받아쓴다",
+      "중요한 내용도 메모하지 않는다",
+      "설명 중간부터 다른 이야기를 한다"
+    ],
+    "answer": "핵심 낱말과 중요한 내용을 간단히 메모한다",
+    "explanation": "모든 말을 그대로 적으려 하면 다음 내용을 놓칠 수 있습니다. 주제와 관련된 핵심 낱말, 중요한 사실이나 근거를 짧게 메모하면 전체 내용을 정리하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-C-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "7개의 구슬에 5개를 더하면 몇 개인가요?",
+    "choices": [
+      "11개",
+      "12개",
+      "13개",
+      "14개"
+    ],
+    "answer": "12개",
+    "explanation": "7과 5를 더하면 12이므로 구슬은 12개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사탕 15개 중 6개를 먹으면 몇 개 남나요?",
+    "choices": [
+      "7개",
+      "8개",
+      "9개",
+      "10개"
+    ],
+    "answer": "9개",
+    "explanation": "15에서 6을 빼면 9이므로 사탕은 9개 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "9와 8을 더하면 얼마인가요?",
+    "choices": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "17",
+    "explanation": "9에 8을 더하면 17입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "16에서 9를 빼면 얼마인가요?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "16에서 9를 빼면 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "20에서 4를 빼면 얼마인가요?",
+    "choices": [
+      "14",
+      "15",
+      "16",
+      "17"
+    ],
+    "answer": "16",
+    "explanation": "20에서 4를 빼면 16입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "12와 3을 더하면 얼마인가요?",
+    "choices": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "answer": "15",
+    "explanation": "12에 3을 더하면 15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "geometry_measurement 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "삼각형의 변은 몇 개인가요?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "answer": "3개",
+    "explanation": "삼각형은 세 개의 변으로 둘러싸인 도형입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "data_patterns 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "1, 3, 5, 7 다음에 오는 수는?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "앞의 수에 2를 더하는 규칙이므로 다음은 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'하늘이는 빨간 가방을 메고 학교에 갔습니다.' 가방의 색은 무엇인가요?",
+    "choices": [
+      "노란색",
+      "파란색",
+      "빨간색",
+      "초록색"
+    ],
+    "answer": "빨간색",
+    "explanation": "글에 빨간 가방이라고 적혀 있으므로 빨간색입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'동생은 아침에 우유를 마셨습니다.' 동생이 마신 것은?",
+    "choices": [
+      "물",
+      "우유",
+      "주스",
+      "차"
+    ],
+    "answer": "우유",
+    "explanation": "문장에서 동생이 아침에 우유를 마셨다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'토끼는 풀밭에서 깡충깡충 뛰었습니다.' 토끼가 있던 곳은?",
+    "choices": [
+      "바다",
+      "풀밭",
+      "교실",
+      "부엌"
+    ],
+    "answer": "풀밭",
+    "explanation": "글에서 토끼가 풀밭에서 뛰었다고 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'와, 정말 멋지다' 뒤에 알맞은 문장 부호는?",
+    "choices": [
+      "?",
+      "!",
+      ".",
+      ":"
+    ],
+    "answer": "!",
+    "explanation": "놀라거나 감탄하는 마음을 나타내는 문장 끝에는 느낌표를 쓸 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "글자 익히기 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'학교'에서 첫 번째 글자는 무엇인가요?",
+    "choices": [
+      "교",
+      "하",
+      "학",
+      "고"
+    ],
+    "answer": "학",
+    "explanation": "'학교'는 '학'과 '교'로 이루어져 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "낱말 의미 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 동물을 나타내는 낱말은?",
+    "choices": [
+      "강아지",
+      "책상",
+      "연필",
+      "시계"
+    ],
+    "answer": "강아지",
+    "explanation": "강아지는 동물을 가리키는 낱말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "안전한 생활",
+    "learning_target": "안전한 생활 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "계단을 내려갈 때 안전한 행동은?",
+    "choices": [
+      "난간을 잡고 천천히 걷는다",
+      "두 칸씩 뛰어내린다",
+      "친구를 민다",
+      "뒤를 보며 달린다"
+    ],
+    "answer": "난간을 잡고 천천히 걷는다",
+    "explanation": "계단에서는 난간을 잡고 발밑을 살피며 천천히 이동해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-C-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연 관찰",
+    "learning_target": "자연 관찰 기초 이해와 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비가 오는 날 하늘에서 떨어지는 것은?",
+    "choices": [
+      "눈사람",
+      "빗방울",
+      "나뭇잎만",
+      "모래"
+    ],
+    "answer": "빗방울",
+    "explanation": "비가 오는 날에는 구름에서 빗방울이 떨어집니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_arithmetic_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

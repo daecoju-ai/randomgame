@@ -125,18 +125,19 @@
       "7"
     ],
     "answer": "2",
-    "explanation": "1 + 1 = 2입니다.",
+    "explanation": "1에서 1만큼 앞으로 세어 2가 됩니다. 따라서 1 + 1 = 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-002",
@@ -156,18 +157,19 @@
       "8"
     ],
     "answer": "3",
-    "explanation": "2 + 1 = 3입니다.",
+    "explanation": "2에서 1만큼 앞으로 세어 3가 됩니다. 따라서 2 + 1 = 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-003",
@@ -187,18 +189,19 @@
       "9"
     ],
     "answer": "4",
-    "explanation": "3 + 1 = 4입니다.",
+    "explanation": "3에서 1만큼 앞으로 세어 4가 됩니다. 따라서 3 + 1 = 4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-004",
@@ -218,18 +221,19 @@
       "10"
     ],
     "answer": "5",
-    "explanation": "4 + 1 = 5입니다.",
+    "explanation": "4에서 1만큼 앞으로 세어 5가 됩니다. 따라서 4 + 1 = 5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-005",
@@ -249,18 +253,19 @@
       "11"
     ],
     "answer": "6",
-    "explanation": "5 + 1 = 6입니다.",
+    "explanation": "5에서 1만큼 앞으로 세어 6가 됩니다. 따라서 5 + 1 = 6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-006",
@@ -280,18 +285,19 @@
       "12"
     ],
     "answer": "7",
-    "explanation": "6 + 1 = 7입니다.",
+    "explanation": "6에서 1만큼 앞으로 세어 7가 됩니다. 따라서 6 + 1 = 7입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-007",
@@ -311,18 +317,19 @@
       "13"
     ],
     "answer": "8",
-    "explanation": "7 + 1 = 8입니다.",
+    "explanation": "7에서 1만큼 앞으로 세어 8가 됩니다. 따라서 7 + 1 = 8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-008",
@@ -342,18 +349,19 @@
       "14"
     ],
     "answer": "9",
-    "explanation": "8 + 1 = 9입니다.",
+    "explanation": "8에서 1만큼 앞으로 세어 9가 됩니다. 따라서 8 + 1 = 9입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-009",
@@ -373,18 +381,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "9 + 1 = 10입니다.",
+    "explanation": "9에서 1만큼 앞으로 세어 10가 됩니다. 따라서 9 + 1 = 10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-010",
@@ -404,18 +413,19 @@
       "8"
     ],
     "answer": "3",
-    "explanation": "1 + 2 = 3입니다.",
+    "explanation": "1에서 2만큼 앞으로 세어 3가 됩니다. 따라서 1 + 2 = 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-011",
@@ -435,18 +445,19 @@
       "9"
     ],
     "answer": "4",
-    "explanation": "2 + 2 = 4입니다.",
+    "explanation": "2에서 2만큼 앞으로 세어 4가 됩니다. 따라서 2 + 2 = 4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-012",
@@ -466,18 +477,19 @@
       "10"
     ],
     "answer": "5",
-    "explanation": "3 + 2 = 5입니다.",
+    "explanation": "3에서 2만큼 앞으로 세어 5가 됩니다. 따라서 3 + 2 = 5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "정답식 반복 대신 앞으로 세기 전략을 설명하도록 해설 개선"
   },
   {
     "id": "V58-E1-MATH-013",

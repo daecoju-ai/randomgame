@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP37-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "요일별 재활용 종이 수: 월 4장, 화 7장, 수 5장. 가장 많이 모은 날은?",
+    "choices": [
+      "월요일",
+      "화요일",
+      "수요일",
+      "모두 같음"
+    ],
+    "answer": "화요일",
+    "explanation": "4, 7, 5 중 7이 가장 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "교실에 빨간 블록 8개, 파란 블록 5개가 있습니다. 빨간 블록은 파란 블록보다 몇 개 더 많나요?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "answer": "3개",
+    "explanation": "8-5=3개 더 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "19에서 10을 빼고 3을 더하면 얼마인가요?",
+    "choices": [
+      "9",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": "19-10=9, 9+3=12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "정사각형은 변이 몇 개인가요?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "answer": "4개",
+    "explanation": "정사각형은 곧은 변이 네 개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "삼각형 2개에 있는 변의 개수를 모두 세면 몇 개인가요?",
+    "choices": [
+      "3개",
+      "4개",
+      "5개",
+      "6개"
+    ],
+    "answer": "6개",
+    "explanation": "삼각형 한 개의 변은 3개이므로 3+3=6개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 17을 10과 나머지로 나눌 때 나머지는?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "17=10+7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 방송: '오늘 오후 운동장 사용이 어렵습니다. 놀이 시간에는 교실에서 책을 읽으세요.' 놀이 시간에 할 일은?",
+    "choices": [
+      "운동장에서 뛰기",
+      "교실에서 책 읽기",
+      "학교 밖으로 나가기",
+      "수영하기"
+    ],
+    "answer": "교실에서 책 읽기",
+    "explanation": "방송에서 놀이 시간에 교실에서 책을 읽으라고 안내했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '가을바람이 불자 나뭇잎이 흔들렸습니다. 민서는 떨어진 나뭇잎을 모았습니다.' 민서가 모은 것은?",
+    "choices": [
+      "나뭇가지",
+      "나뭇잎",
+      "돌멩이",
+      "꽃씨"
+    ],
+    "answer": "나뭇잎",
+    "explanation": "글에 '떨어진 나뭇잎을 모았습니다'라고 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '지아는 종이비행기를 접었습니다. 첫 비행기가 잘 날지 않자 날개를 다시 접었습니다.' 지아가 날개를 다시 접은 까닭은?",
+    "choices": [
+      "더 잘 날게 하려고",
+      "종이를 버리려고",
+      "책을 읽으려고",
+      "비행기를 숨기려고"
+    ],
+    "answer": "더 잘 날게 하려고",
+    "explanation": "잘 날지 않아 날개를 고쳐 본 것입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "메모: '교실 화분은 창가에 놓아 주세요.' 화분을 둘 곳은?",
+    "choices": [
+      "책장 안",
+      "창가",
+      "복도 끝",
+      "신발장"
+    ],
+    "answer": "창가",
+    "explanation": "메모에서 장소를 알려 주는 말은 '창가'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "놀이터 미끄럼틀 아래에 친구가 서 있습니다. 어떻게 해야 안전할까요?",
+    "choices": [
+      "바로 미끄러진다",
+      "친구가 비킨 뒤 이용한다",
+      "친구를 밀어낸다",
+      "눈을 감고 내려간다"
+    ],
+    "answer": "친구가 비킨 뒤 이용한다",
+    "explanation": "미끄럼틀 아래에 사람이 있으면 부딪힐 수 있으니 기다립니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP37-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "자료를 읽고 문장과 상황을 근거로 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "하루 동안 같은 나무를 아침과 오후에 관찰했습니다. 변화를 알아보려면 어떤 기록이 좋을까요?",
+    "choices": [
+      "아침과 오후 모습을 각각 적기",
+      "오후 모습만 상상해 적기",
+      "기록을 하지 않기",
+      "다른 나무와 바꾸어 적기"
+    ],
+    "answer": "아침과 오후 모습을 각각 적기",
+    "explanation": "시간에 따른 변화를 비교하려면 각각의 관찰 결과가 필요합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

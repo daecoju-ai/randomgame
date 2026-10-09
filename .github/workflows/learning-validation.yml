@@ -20,7 +20,13 @@ jobs:
           node-version: '22'
       - name: Run strict learning bank validation
         run: LEARNING_VALIDATION_STRICT=1 node scripts/validate-learning-bank.cjs
-      - name: Print diagnostic report\n        if: always()\n        run: |\n          echo '--- learning validation report ---'\n          cat public/learning-validation-report.json || true\n      - name: Upload diagnostic report\n        if: always()
+      - name: Print diagnostic report
+        if: always()
+        run: |
+          echo '--- learning validation report ---'
+          cat public/learning-validation-report.json || true
+      - name: Upload diagnostic report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: learning-validation-report

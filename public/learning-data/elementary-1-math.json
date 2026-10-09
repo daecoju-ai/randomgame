@@ -1149,18 +1149,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "6 + 4 = 10입니다.",
+    "explanation": "6에 4을 더하면 10이 됩니다. 4를 4과 0로 나누어 먼저 10을 만들면, 10+0=10입니다. 따라서 6+4=10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "10 만들기 전략으로 받아올림 덧셈의 원리를 설명"
   },
   {
     "id": "V58-E1-MATH-034",
@@ -1180,18 +1181,19 @@
       "16"
     ],
     "answer": "11",
-    "explanation": "7 + 4 = 11입니다.",
+    "explanation": "7에 3을 더하면 10이 됩니다. 4를 3과 1로 나누어 먼저 10을 만들면, 10+1=11입니다. 따라서 7+4=11입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "10 만들기 전략으로 받아올림 덧셈의 원리를 설명"
   },
   {
     "id": "V58-E1-MATH-035",
@@ -1211,18 +1213,19 @@
       "17"
     ],
     "answer": "12",
-    "explanation": "8 + 4 = 12입니다.",
+    "explanation": "8에 2을 더하면 10이 됩니다. 4를 2과 2로 나누어 먼저 10을 만들면, 10+2=12입니다. 따라서 8+4=12입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "10 만들기 전략으로 받아올림 덧셈의 원리를 설명"
   },
   {
     "id": "V58-E1-MATH-036",
@@ -1242,18 +1245,19 @@
       "18"
     ],
     "answer": "13",
-    "explanation": "9 + 4 = 13입니다.",
+    "explanation": "9에 1을 더하면 10이 됩니다. 4를 1과 3로 나누어 먼저 10을 만들면, 10+3=13입니다. 따라서 9+4=13입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "10 만들기 전략으로 받아올림 덧셈의 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-001",

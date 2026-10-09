@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "G1-YEAR26-EXP7-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 5개에서 1개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "5-1=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 6개에서 2개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "6-2=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 7개에서 3개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "7-3=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 8개에서 4개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "8-4=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 9개에서 5개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "5",
+      "3",
+      "4",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "9-5=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 10개에서 1개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "10-1=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 11개에서 2개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "11-2=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 12개에서 3개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "12-3=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 13개에서 4개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "13-4=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 14개에서 5개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "14-5=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 15개에서 1개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "15",
+      "13",
+      "14",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "15-1=14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 16개에서 2개를 먹으면 남는 수를 타일에서 고르세요.",
+    "choices": [
+      "15",
+      "13",
+      "14",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "16-2=14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'사과'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "과",
+      "사"
+    ],
+    "answer": [
+      "사",
+      "과"
+    ],
+    "explanation": "사 → 과 순서로 배열하면 '사과'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'나무'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "무",
+      "나"
+    ],
+    "answer": [
+      "나",
+      "무"
+    ],
+    "explanation": "나 → 무 순서로 배열하면 '나무'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'바다'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "다",
+      "바"
+    ],
+    "answer": [
+      "바",
+      "다"
+    ],
+    "explanation": "바 → 다 순서로 배열하면 '바다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'기차'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "차",
+      "기"
+    ],
+    "answer": [
+      "기",
+      "차"
+    ],
+    "explanation": "기 → 차 순서로 배열하면 '기차'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'우산'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "산",
+      "우"
+    ],
+    "answer": [
+      "우",
+      "산"
+    ],
+    "explanation": "우 → 산 순서로 배열하면 '우산'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'구름'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "름",
+      "구"
+    ],
+    "answer": [
+      "구",
+      "름"
+    ],
+    "explanation": "구 → 름 순서로 배열하면 '구름'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'하늘'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "늘",
+      "하"
+    ],
+    "answer": [
+      "하",
+      "늘"
+    ],
+    "explanation": "하 → 늘 순서로 배열하면 '하늘'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'연필'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "필",
+      "연"
+    ],
+    "answer": [
+      "연",
+      "필"
+    ],
+    "explanation": "연 → 필 순서로 배열하면 '연필'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'여름'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "름",
+      "여"
+    ],
+    "answer": [
+      "여",
+      "름"
+    ],
+    "explanation": "여 → 름 순서로 배열하면 '여름'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'겨울'를 만들 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "울",
+      "겨"
+    ],
+    "answer": [
+      "겨",
+      "울"
+    ],
+    "explanation": "겨 → 울 순서로 배열하면 '겨울'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 책 고르기, 책 읽기, 책 덮기",
+    "choices": [
+      "책 읽기",
+      "책 덮기",
+      "책 고르기"
+    ],
+    "answer": [
+      "책 고르기",
+      "책 읽기",
+      "책 덮기"
+    ],
+    "explanation": "책 고르기 → 책 읽기 → 책 덮기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 손 씻기, 밥 먹기, 양치하기",
+    "choices": [
+      "밥 먹기",
+      "양치하기",
+      "손 씻기"
+    ],
+    "answer": [
+      "손 씻기",
+      "밥 먹기",
+      "양치하기"
+    ],
+    "explanation": "손 씻기 → 밥 먹기 → 양치하기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 씨앗 심기, 물 주기, 싹 관찰하기",
+    "choices": [
+      "물 주기",
+      "싹 관찰하기",
+      "씨앗 심기"
+    ],
+    "answer": [
+      "씨앗 심기",
+      "물 주기",
+      "싹 관찰하기"
+    ],
+    "explanation": "씨앗 심기 → 물 주기 → 싹 관찰하기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 가방 열기, 공책 꺼내기, 공책 펼치기",
+    "choices": [
+      "공책 꺼내기",
+      "공책 펼치기",
+      "가방 열기"
+    ],
+    "answer": [
+      "가방 열기",
+      "공책 꺼내기",
+      "공책 펼치기"
+    ],
+    "explanation": "가방 열기 → 공책 꺼내기 → 공책 펼치기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 종이 놓기, 그림 그리기, 색칠하기",
+    "choices": [
+      "그림 그리기",
+      "색칠하기",
+      "종이 놓기"
+    ],
+    "answer": [
+      "종이 놓기",
+      "그림 그리기",
+      "색칠하기"
+    ],
+    "explanation": "종이 놓기 → 그림 그리기 → 색칠하기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 양말 신기, 신발 신기, 밖으로 나가기",
+    "choices": [
+      "신발 신기",
+      "밖으로 나가기",
+      "양말 신기"
+    ],
+    "answer": [
+      "양말 신기",
+      "신발 신기",
+      "밖으로 나가기"
+    ],
+    "explanation": "양말 신기 → 신발 신기 → 밖으로 나가기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 장난감 꺼내기, 놀이하기, 장난감 정리하기",
+    "choices": [
+      "놀이하기",
+      "장난감 정리하기",
+      "장난감 꺼내기"
+    ],
+    "answer": [
+      "장난감 꺼내기",
+      "놀이하기",
+      "장난감 정리하기"
+    ],
+    "explanation": "장난감 꺼내기 → 놀이하기 → 장난감 정리하기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP7-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "다양한 타일 게임으로 읽기와 수학 및 생활 개념 익히기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 활동을 알맞은 순서로 놓으세요. 과일 씻기, 과일 자르기, 과일 먹기",
+    "choices": [
+      "과일 자르기",
+      "과일 먹기",
+      "과일 씻기"
+    ],
+    "answer": [
+      "과일 씻기",
+      "과일 자르기",
+      "과일 먹기"
+    ],
+    "explanation": "과일 씻기 → 과일 자르기 → 과일 먹기 순서로 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -958,5 +958,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "논증 구조",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주장과 근거 사이에 설명이 필요한 이유는?",
+    "choices": [
+      "근거가 어떻게 주장을 뒷받침하는지 연결해 주기 위해",
+      "문장을 무조건 길게 만들기 위해",
+      "주장을 숨기기 위해",
+      "근거와 관계없는 내용을 넣기 위해"
+    ],
+    "answer": "근거가 어떻게 주장을 뒷받침하는지 연결해 주기 위해",
+    "explanation": "근거를 제시하기만 해서는 주장과의 관계가 분명하지 않을 수 있습니다. 그 근거가 왜 주장을 지지하는지 설명하면 글의 논리적 연결이 선명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "정보의 목적",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "같은 사건을 소개하는 뉴스와 광고를 읽을 때 먼저 살펴볼 차이는?",
+    "choices": [
+      "정보를 전달하는 목적과 표현 방식",
+      "글자 수가 홀수인지 짝수인지",
+      "화면의 밝기만",
+      "제목의 첫 글자만"
+    ],
+    "answer": "정보를 전달하는 목적과 표현 방식",
+    "explanation": "매체 자료는 만든 목적에 따라 무엇을 강조하고 어떻게 표현하는지가 달라질 수 있습니다. 정보 제공인지 설득인지 목적을 살피면 내용을 비판적으로 이해하는 데 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-033",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "출처 표시",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "조사 보고서에 참고 자료의 출처를 표시하는 이유는?",
+    "choices": [
+      "정보의 근거를 확인하고 자료를 책임 있게 사용하기 위해",
+      "보고서의 글자 수만 늘리기 위해",
+      "자료를 누가 만들었는지 숨기기 위해",
+      "내용과 관계없는 주소를 넣기 위해"
+    ],
+    "answer": "정보의 근거를 확인하고 자료를 책임 있게 사용하기 위해",
+    "explanation": "출처를 밝히면 독자가 정보의 원자료를 확인할 수 있고, 다른 사람이 만든 자료를 어디에서 가져왔는지도 분명해집니다. 이는 신뢰성과 책임 있는 자료 활용에 중요합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-034",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 연결",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“열심히 연습했다. 실력이 좋아졌다.”를 원인과 결과가 드러나게 이은 문장은?",
+    "choices": [
+      "열심히 연습해서 실력이 좋아졌다",
+      "열심히 연습했지만 실력이 좋아졌다",
+      "실력이 좋아졌거나 연습했다",
+      "연습과 실력은 관계가 없다"
+    ],
+    "answer": "열심히 연습해서 실력이 좋아졌다",
+    "explanation": "연습한 것이 원인이고 실력이 좋아진 것이 결과입니다. 원인과 결과를 이어 주는 ‘-아서/-어서’를 사용하면 두 사건의 관계가 분명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-035",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "토론 요약",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론이 끝난 뒤 결과를 정리할 때 포함하면 좋은 내용은?",
+    "choices": [
+      "주요 쟁점과 각 의견의 근거, 합의하거나 남은 점",
+      "발언자의 옷 색깔만",
+      "토론과 관계없는 개인 이야기",
+      "같은 문장을 여러 번 반복한 횟수"
+    ],
+    "answer": "주요 쟁점과 각 의견의 근거, 합의하거나 남은 점",
+    "explanation": "토론 결과를 정리하려면 무엇을 두고 의견을 나눴는지, 어떤 근거가 나왔는지, 무엇에 합의했고 어떤 문제가 남았는지를 함께 정리해야 전체 과정을 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

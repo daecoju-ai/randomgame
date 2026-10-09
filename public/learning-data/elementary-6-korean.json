@@ -1118,5 +1118,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-036",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "추론의 근거",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글에서 직접 말하지 않은 내용을 추론할 때 가장 중요한 것은?",
+    "choices": [
+      "글에 제시된 단서와 이미 알고 있는 내용을 연결한다",
+      "근거 없이 마음대로 상상한다",
+      "제목과 관계없는 경험만 떠올린다",
+      "마지막 문장을 무조건 답으로 고른다"
+    ],
+    "answer": "글에 제시된 단서와 이미 알고 있는 내용을 연결한다",
+    "explanation": "추론은 아무렇게나 상상하는 것이 아닙니다. 글에 실제로 제시된 단서를 바탕으로 배경지식과 논리적으로 연결해야 글에 없는 내용도 타당하게 짐작할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-037",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료 비교",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "두 기사에서 같은 통계를 서로 다르게 설명했습니다. 가장 먼저 할 일은?",
+    "choices": [
+      "통계의 원출처와 조사 조건을 확인한다",
+      "마음에 드는 기사만 믿는다",
+      "제목이 긴 기사를 선택한다",
+      "사진이 많은 기사를 사실로 정한다"
+    ],
+    "answer": "통계의 원출처와 조사 조건을 확인한다",
+    "explanation": "같은 수치도 조사 기간, 대상, 기준을 다르게 제시하면 해석이 달라질 수 있습니다. 원출처와 조사 조건을 확인해야 두 설명 가운데 무엇이 자료에 더 충실한지 판단할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-038",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "문단 연결",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "앞 문단과 다음 문단이 자연스럽게 이어지게 하는 방법은?",
+    "choices": [
+      "내용의 관계에 맞는 연결 표현을 사용한다",
+      "서로 관계없는 내용을 갑자기 넣는다",
+      "앞 문단의 내용을 모두 지운다",
+      "문단마다 주제를 무작위로 바꾼다"
+    ],
+    "answer": "내용의 관계에 맞는 연결 표현을 사용한다",
+    "explanation": "문단 사이에는 원인·결과, 대조, 추가 등의 관계가 있습니다. ‘그러나’, ‘따라서’, ‘또한’처럼 관계에 맞는 연결 표현을 쓰면 글의 흐름을 쉽게 따라갈 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-039",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "중의성",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“나는 민수와 지수의 사진을 보았다.”가 상황에 따라 여러 뜻으로 이해될 수 있는 까닭은?",
+    "choices": [
+      "‘민수와’가 누구와 어떻게 연결되는지 분명하지 않을 수 있어서",
+      "사진이라는 낱말에 받침이 있어서",
+      "문장이 한글로 쓰여 있어서",
+      "사람 이름이 두 글자라서"
+    ],
+    "answer": "‘민수와’가 누구와 어떻게 연결되는지 분명하지 않을 수 있어서",
+    "explanation": "문장 성분의 연결 관계가 분명하지 않으면 하나의 문장이 둘 이상의 뜻으로 해석될 수 있습니다. 누구와 함께 사진을 본 것인지, 누구의 사진인지 문맥이나 표현을 더 분명하게 해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-040",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "토의 진행",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "모둠 토의가 한 사람의 발언에만 치우칠 때 진행자가 할 일은?",
+    "choices": [
+      "다른 참여자에게도 의견을 말할 기회를 준다",
+      "그 사람만 계속 말하게 한다",
+      "토의 주제를 없앤다",
+      "아무도 말하지 못하게 한다"
+    ],
+    "answer": "다른 참여자에게도 의견을 말할 기회를 준다",
+    "explanation": "토의는 여러 사람이 의견을 나누는 활동입니다. 진행자는 발언 기회를 고르게 조정하고 주제에서 벗어나지 않도록 도와 다양한 의견이 충분히 검토되게 해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -24,3 +24,22 @@ test('v64 through v66 exercises retain unique IDs, usable answers, and explanati
  const packs=P.groupQuestions(B.bank());
  for(const q of rows)assert(packs.some(p=>p.rows.some(x=>x.id===q.id)),q.id);
 });
+
+test('recent pilots have independently checked arithmetic and unambiguous contexts',()=>{
+ const rows=new Map(B.bank().filter(q=>/^V6[456]-/.test(q.id)).map(q=>[q.id,q]));
+ const answer=id=>R.answers(rows.get(id));
+ assert.deepEqual(answer('V64-MATH-001'),[2,4,6,8].map(String));
+ assert.equal(Number(answer('V64-MATH-002')[0].split('+').reduce((s,n)=>s+Number(n),0)),3*4);
+ assert.equal(answer('V65-MATH-001')[0],'90°');
+ assert.equal(answer('V65-MATH-002')[0],'3/5');
+ assert.equal(Number(answer('V66-MATH-001')[0].replace('개',''))*3,12);
+ assert.equal(Number(answer('V66-MATH-002')[0].replace('cm','')),100);
+ assert.match(rows.get('V65-KOREAN-001').question,/아침밥.*이를 닦.*학교에 갔/s);
+ assert.notEqual(rows.get('V65-SCIENCE-001').game_type,'MATCHING');
+ assert.match(rows.get('V66-SCIENCE-001').explanation,/응결/);
+ for(const q of rows.values()){
+  assert(q.choices.length>=R.answers(q).length,q.id);
+  assert(q.review.human_publication_pending,q.id);
+  assert.notEqual(q.review_status,'published',q.id);
+ }
+});

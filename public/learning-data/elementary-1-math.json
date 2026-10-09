@@ -4003,13 +4003,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 6 − 3 = 3입니다.",
+    "explanation": "3에서 시작해 6가 될 때까지 앞으로 세면 3번입니다. 따라서 □에는 3가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -4024,7 +4024,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-067",
@@ -4044,13 +4045,13 @@
       "20"
     ],
     "answer": "18",
-    "explanation": "다음 수는 1 큰 수입니다. 17 + 1 = 18입니다.",
+    "explanation": "수를 차례대로 말하면 17 다음에는 18이 옵니다. 바로 다음 수는 앞 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -4065,7 +4066,8 @@
       "result": "18",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "다음 수의 순서와 1 큰 수 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-068",
@@ -4085,13 +4087,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 3 + 3 = 6개입니다.",
+    "explanation": "두 색의 블록을 한 묶음으로 모아 세면 3+3=6개입니다. 서로 다른 색이어도 전체 개수는 합해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -4106,7 +4108,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "서로 다른 두 모음을 합치는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-069",
@@ -4126,13 +4129,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "전체에서 먹은 수를 빼요. 7 − 3 = 4개입니다.",
+    "explanation": "7개에서 3개를 하나씩 없애며 뒤로 세면 4개가 남습니다. 7 − 3 = 4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -4147,7 +4150,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뒤로 세기와 제거하기로 뺄셈 과정을 설명"
   },
   {
     "id": "V61-E1-MATH-070",
@@ -4167,13 +4171,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 7 − 4 = 3입니다.",
+    "explanation": "4에서 시작해 7가 될 때까지 앞으로 세면 3번입니다. 따라서 □에는 3가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -4188,7 +4192,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-071",
@@ -4208,13 +4213,13 @@
       "21"
     ],
     "answer": "19",
-    "explanation": "다음 수는 1 큰 수입니다. 18 + 1 = 19입니다.",
+    "explanation": "수를 차례대로 말하면 18 다음에는 19이 옵니다. 바로 다음 수는 앞 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -4229,7 +4234,8 @@
       "result": "19",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "다음 수의 순서와 1 큰 수 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-072",
@@ -4249,13 +4255,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 4 + 3 = 7개입니다.",
+    "explanation": "두 색의 블록을 한 묶음으로 모아 세면 4+3=7개입니다. 서로 다른 색이어도 전체 개수는 합해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -4270,7 +4276,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "서로 다른 두 모음을 합치는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-073",
@@ -4290,13 +4297,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "전체에서 먹은 수를 빼요. 8 − 3 = 5개입니다.",
+    "explanation": "8개에서 3개를 하나씩 없애며 뒤로 세면 5개가 남습니다. 8 − 3 = 5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -4311,7 +4318,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뒤로 세기와 제거하기로 뺄셈 과정을 설명"
   },
   {
     "id": "V61-E1-MATH-074",
@@ -4331,13 +4339,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 8 − 5 = 3입니다.",
+    "explanation": "5에서 시작해 8가 될 때까지 앞으로 세면 3번입니다. 따라서 □에는 3가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -4352,7 +4360,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-075",
@@ -4372,13 +4381,13 @@
       "22"
     ],
     "answer": "20",
-    "explanation": "다음 수는 1 큰 수입니다. 19 + 1 = 20입니다.",
+    "explanation": "수를 차례대로 말하면 19 다음에는 20이 옵니다. 바로 다음 수는 앞 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -4393,7 +4402,8 @@
       "result": "20",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "다음 수의 순서와 1 큰 수 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-076",
@@ -4413,13 +4423,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 5 + 3 = 8개입니다.",
+    "explanation": "두 색의 블록을 한 묶음으로 모아 세면 5+3=8개입니다. 서로 다른 색이어도 전체 개수는 합해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -4434,7 +4444,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "서로 다른 두 모음을 합치는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-077",
@@ -4454,13 +4465,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "전체에서 먹은 수를 빼요. 9 − 3 = 6개입니다.",
+    "explanation": "9개에서 3개를 하나씩 없애며 뒤로 세면 6개가 남습니다. 9 − 3 = 6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -4475,7 +4486,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "뒤로 세기와 제거하기로 뺄셈 과정을 설명"
   },
   {
     "id": "V61-E1-MATH-078",
@@ -4495,13 +4507,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 9 − 6 = 3입니다.",
+    "explanation": "6에서 시작해 9가 될 때까지 앞으로 세면 3번입니다. 따라서 □에는 3가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -4516,7 +4528,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-079",
@@ -4536,13 +4549,13 @@
       "23"
     ],
     "answer": "21",
-    "explanation": "다음 수는 1 큰 수입니다. 20 + 1 = 21입니다.",
+    "explanation": "수를 차례대로 말하면 20 다음에는 21이 옵니다. 바로 다음 수는 앞 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -4557,7 +4570,8 @@
       "result": "21",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "다음 수의 순서와 1 큰 수 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-080",
@@ -4577,13 +4591,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 6 + 3 = 9개입니다.",
+    "explanation": "두 색의 블록을 한 묶음으로 모아 세면 6+3=9개입니다. 서로 다른 색이어도 전체 개수는 합해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -4598,6 +4612,7 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "서로 다른 두 모음을 합치는 덧셈 의미를 설명"
   }
 ]

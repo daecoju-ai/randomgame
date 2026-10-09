@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths:
       - 'data/questions/**'
+      - 'data/curriculum/**'
+      - 'scripts/validate_questions.py'
       - 'data/curriculum-placement-v63.json'
       - 'public/learning-data/**'
       - 'public/learning.js'

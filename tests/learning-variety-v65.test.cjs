@@ -5,9 +5,9 @@ const B=require('../lib/learning-bank.cjs');
 const R=require('../public/learning-rules.js');
 const P=require('../lib/learning-packs.cjs');
 
-test('v64 through v66 exercises retain unique IDs, usable answers, and explanations',()=>{
- const rows=B.bank().filter(q=>/^V6[456]-/.test(q.id));
- assert.equal(rows.length,18);
+test('v64 through v67 exercises retain unique IDs, usable answers, and explanations',()=>{
+ const rows=B.bank().filter(q=>/^V6[4567]-/.test(q.id));
+ assert.equal(rows.length,24);
  assert.equal(new Set(rows.map(q=>q.id)).size,rows.length);
  const modes=new Set(rows.map(q=>q.game_type));
  for(const type of ['ORDERING','TILE_SEQUENCE','FORMULA','TARGET_SELECT','MULTIPLE_CHOICE'])assert(modes.has(type),type);
@@ -26,7 +26,7 @@ test('v64 through v66 exercises retain unique IDs, usable answers, and explanati
 });
 
 test('recent pilots have independently checked arithmetic and unambiguous contexts',()=>{
- const rows=new Map(B.bank().filter(q=>/^V6[456]-/.test(q.id)).map(q=>[q.id,q]));
+ const rows=new Map(B.bank().filter(q=>/^V6[4567]-/.test(q.id)).map(q=>[q.id,q]));
  const answer=id=>R.answers(rows.get(id));
  assert.deepEqual(answer('V64-MATH-001'),[2,4,6,8].map(String));
  assert.equal(Number(answer('V64-MATH-002')[0].split('+').reduce((s,n)=>s+Number(n),0)),3*4);
@@ -42,4 +42,16 @@ test('recent pilots have independently checked arithmetic and unambiguous contex
   assert(q.review.human_publication_pending,q.id);
   assert.notEqual(q.review_status,'published',q.id);
  }
+});
+
+test('v67 answers are independently checked for mathematical and reading correctness',()=>{
+ const rows=new Map(B.bank().filter(q=>/^V67-/.test(q.id)).map(q=>[q.id,q]));
+ assert.equal(rows.size,6);
+ assert.deepEqual(R.answers(rows.get('V67-MATH-001')),['3','6','9','12']);
+ assert.equal(Number(R.answers(rows.get('V67-MATH-002'))[0].replace('자루','')),5*4);
+ assert.match(rows.get('V67-KOREAN-001').question,/씨앗을 심었습니다.*물을 주었습니다.*싹을 발견했습니다/s);
+ assert.deepEqual(R.answers(rows.get('V67-ENGLISH-001')),['I','study','every','day.']);
+ assert.equal(R.answers(rows.get('V67-SCIENCE-001'))[0],'고체 → 액체');
+ assert.equal(R.answers(rows.get('V67-SOCIAL-001'))[0],'도서관');
+ for(const q of rows.values())assert(q.review.human_publication_pending&&q.release_channel==='pilot',q.id);
 });

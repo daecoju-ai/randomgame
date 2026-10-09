@@ -6,6 +6,8 @@ const root=path.resolve(__dirname,'../public/learning-data');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'manifest.json'),'utf8'));
 const rows=[];
 const placementFlags=[];
+const gradeBandFlags=[];
+const gradeBand=grade=>Number(grade)<=2?'1-2':Number(grade)<=4?'3-4':'5-6';
 const elligibleStart={english:3,science:3,social:3};
 const officialSource={
   standards:'https://www.ncic.re.kr/',
@@ -18,6 +20,12 @@ for(const pack of manifest.packs){
   for(const q of questions){
     if(q.school!=='elementary')continue;
     const pending=q.source_reference==='original_learning_pilot';
+    const band=gradeBand(q.grade);
+    const standardCode=q.curriculum_mapping?.standard_code;
+    if(standardCode){
+      const match=String(standardCode).match(/^\\[([0-9]{1,2})([가-힣])([0-9]{2})-([0-9]{2})\\]$/);
+      if(match&&Number(match[1])!==Number(band.split('-')[1]))gradeBandFlags.push({id:q.id,grade:q.grade,standard_code:standardCode,reason:'standard_code_grade_band_mismatch'});
+    }
     const minGrade=elligibleStart[q.subject];
     if(minGrade&&Number(q.grade)<minGrade)placementFlags.push({id:q.id,pack:pack.id,grade:q.grade,subject:q.subject,reason:'subject_not_offered_in_this_elementary_grade',min_grade:minGrade});
     const mapped=Boolean(q.curriculum_mapping?.standard_code&&q.curriculum_mapping?.source_url&&q.curriculum_mapping?.checked_at&&q.curriculum_mapping?.reviewer);
@@ -33,7 +41,7 @@ for(const q of rows){
   (byGroup[k]??={total:0,source_pending:0,standard_unverified:0,documented:0})[q.mapping_status]++;
   byGroup[k].total++;
 }
-const result={generated_at:new Date().toISOString(),source:'2022 revised curriculum - NCIC official',source_url:'https://www.ncic.re.kr/',official_sources:officialSource,verified_standard_mappings:rows.filter(x=>x.mapping_status==='documented').length,placement_flags:placementFlags,elementary_questions:rows.length,by_grade_subject:byGroup,questions:rows};
+const result={generated_at:new Date().toISOString(),source:'2022 revised curriculum - NCIC official',source_url:'https://www.ncic.re.kr/',official_sources:officialSource,verified_standard_mappings:rows.filter(x=>x.mapping_status==='documented').length,placement_flags:placementFlags,grade_band_flags:gradeBandFlags,elementary_questions:rows.length,by_grade_subject:byGroup,questions:rows};
 const dest=path.resolve(__dirname,'../public/learning-curriculum-audit.json');
 fs.writeFileSync(dest,JSON.stringify(result,null,2)+'\n');
-console.log(JSON.stringify({elementary_questions:rows.length,verified_standard_mappings:result.verified_standard_mappings,placement_flags:placementFlags,groups:byGroup,report:'public/learning-curriculum-audit.json'},null,2));
+console.log(JSON.stringify({elementary_questions:rows.length,verified_standard_mappings:result.verified_standard_mappings,placement_flags:placementFlags,grade_band_flags:gradeBandFlags,groups:byGroup,report:'public/learning-curriculum-audit.json'},null,2));

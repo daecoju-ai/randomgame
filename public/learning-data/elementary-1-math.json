@@ -1315,13 +1315,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 4 − 3 = 1입니다.",
+    "explanation": "3에서 4까지 앞으로 세어 봅니다. 1번 세면 4가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -1336,7 +1336,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-003",
@@ -1398,13 +1399,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 3 + 1 = 4개입니다.",
+    "explanation": "빨간 블록 3개와 파란 블록 1개를 한데 모아 세면 모두 4개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -1419,7 +1420,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-005",
@@ -1481,13 +1483,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 5 − 4 = 1입니다.",
+    "explanation": "4에서 5까지 앞으로 세어 봅니다. 1번 세면 5가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -1502,7 +1504,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-007",
@@ -1564,13 +1567,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 4 + 1 = 5개입니다.",
+    "explanation": "빨간 블록 4개와 파란 블록 1개를 한데 모아 세면 모두 5개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -1585,7 +1588,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-009",
@@ -1647,13 +1651,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 6 − 5 = 1입니다.",
+    "explanation": "5에서 6까지 앞으로 세어 봅니다. 1번 세면 6가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -1668,7 +1672,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-011",
@@ -1730,13 +1735,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 5 + 1 = 6개입니다.",
+    "explanation": "빨간 블록 5개와 파란 블록 1개를 한데 모아 세면 모두 6개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -1751,7 +1756,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-013",
@@ -1813,13 +1819,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 7 − 6 = 1입니다.",
+    "explanation": "6에서 7까지 앞으로 세어 봅니다. 1번 세면 7가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -1834,7 +1840,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-015",
@@ -1896,13 +1903,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 6 + 1 = 7개입니다.",
+    "explanation": "빨간 블록 6개와 파란 블록 1개를 한데 모아 세면 모두 7개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -1917,7 +1924,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-017",
@@ -1979,13 +1987,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 8 − 7 = 1입니다.",
+    "explanation": "7에서 8까지 앞으로 세어 봅니다. 1번 세면 8가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2000,7 +2008,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-019",
@@ -2062,13 +2071,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 7 + 1 = 8개입니다.",
+    "explanation": "빨간 블록 7개와 파란 블록 1개를 한데 모아 세면 모두 8개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2083,7 +2092,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-021",
@@ -2145,13 +2155,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 9 − 8 = 1입니다.",
+    "explanation": "8에서 9까지 앞으로 세어 봅니다. 1번 세면 9가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2166,7 +2176,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-023",
@@ -2228,13 +2239,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 8 + 1 = 9개입니다.",
+    "explanation": "빨간 블록 8개와 파란 블록 1개를 한데 모아 세면 모두 9개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2249,7 +2260,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-025",
@@ -2311,13 +2323,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 10 − 9 = 1입니다.",
+    "explanation": "9에서 10까지 앞으로 세어 봅니다. 1번 세면 10가 되므로 □에는 1가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2332,7 +2344,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-027",
@@ -2394,13 +2407,13 @@
       "12"
     ],
     "answer": "10",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 9 + 1 = 10개입니다.",
+    "explanation": "빨간 블록 9개와 파란 블록 1개를 한데 모아 세면 모두 10개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2415,7 +2428,8 @@
       "result": "10",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-029",
@@ -2477,13 +2491,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 4 − 2 = 2입니다.",
+    "explanation": "2에서 4까지 앞으로 세어 봅니다. 2번 세면 4가 되므로 □에는 2가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2498,7 +2512,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-031",
@@ -2560,13 +2575,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 2 + 2 = 4개입니다.",
+    "explanation": "빨간 블록 2개와 파란 블록 2개를 한데 모아 세면 모두 4개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2581,7 +2596,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-033",
@@ -2643,13 +2659,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 5 − 3 = 2입니다.",
+    "explanation": "3에서 5까지 앞으로 세어 봅니다. 2번 세면 5가 되므로 □에는 2가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2664,7 +2680,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-035",
@@ -2726,13 +2743,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 3 + 2 = 5개입니다.",
+    "explanation": "빨간 블록 3개와 파란 블록 2개를 한데 모아 세면 모두 5개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2747,7 +2764,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-037",
@@ -2809,13 +2827,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 6 − 4 = 2입니다.",
+    "explanation": "4에서 6까지 앞으로 세어 봅니다. 2번 세면 6가 되므로 □에는 2가 들어갑니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -2830,7 +2848,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 역연산 암기 대신 앞으로 세기 전략으로 설명"
   },
   {
     "id": "V61-E1-MATH-039",
@@ -2892,13 +2911,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 4 + 2 = 6개입니다.",
+    "explanation": "빨간 블록 4개와 파란 블록 2개를 한데 모아 세면 모두 6개입니다. 색이 달라도 전체 개수는 더해서 구합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -2913,7 +2932,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합쳐 전체 수를 구하는 덧셈 의미를 설명"
   },
   {
     "id": "V61-E1-MATH-041",

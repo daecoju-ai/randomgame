@@ -258,5 +258,179 @@
       "human_publication_pending": true
     },
     "revision_note": "초4 수준에서 속담·비유·중심 내용의 근거를 추론하도록 해설 보강"
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "korean",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초4 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E4-KOR-009",
+    "domain": "읽기",
+    "learning_target": "사건의 순서 파악",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "일이 일어난 순서대로 맞추세요.",
+    "choices": [
+      "씨앗을 심었다",
+      "물을 주었다",
+      "싹이 났다"
+    ],
+    "answer": [
+      "씨앗을 심었다",
+      "물을 주었다",
+      "싹이 났다"
+    ],
+    "explanation": "먼저 씨앗을 심고 물을 준 뒤 시간이 지나 싹이 납니다. 시간의 흐름을 생각하면 사건의 순서를 찾을 수 있습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "korean",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초4 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E4-KOR-010",
+    "domain": "어휘",
+    "learning_target": "낱말과 뜻 연결",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "낱말과 뜻이 알맞게 연결된 것을 고르세요.",
+    "choices": [
+      "절약 → 아껴서 씀",
+      "관찰 → 아무렇게나 상상함",
+      "약속 → 혼자만 아는 생각"
+    ],
+    "answer": "절약 → 아껴서 씀",
+    "explanation": "‘절약’은 돈이나 물건, 자원 등을 필요한 만큼만 사용하여 아끼는 것을 뜻합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "korean",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초4 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E4-KOR-011",
+    "domain": "쓰기",
+    "learning_target": "문장을 자연스럽게 구성",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "자연스러운 문장이 되도록 타일을 순서대로 고르세요.",
+    "choices": [
+      "친구와",
+      "도서관에서",
+      "재미있는",
+      "책을",
+      "읽었다"
+    ],
+    "answer": [
+      "친구와",
+      "도서관에서",
+      "재미있는",
+      "책을",
+      "읽었다"
+    ],
+    "explanation": "누구와, 어디에서, 어떤 대상을, 무엇을 했는지 차례로 연결하면 뜻이 자연스러운 문장을 만들 수 있습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "korean",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초4 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E4-KOR-012",
+    "domain": "읽기",
+    "learning_target": "중심 내용 찾기",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "‘매일 조금씩 책을 읽으면 새로운 낱말을 배우고 여러 생각을 접할 수 있다.’의 중심 내용을 고르세요.",
+    "choices": [
+      "꾸준한 독서는 배움에 도움이 된다",
+      "책은 모두 같은 내용이다",
+      "낱말은 배울 필요가 없다",
+      "책은 하루에 모두 읽어야 한다"
+    ],
+    "answer": "꾸준한 독서는 배움에 도움이 된다",
+    "explanation": "새로운 낱말과 여러 생각을 배울 수 있다는 내용을 하나로 묶으면 꾸준한 독서가 배움에 도움이 된다는 중심 생각이 됩니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "korean",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초4 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E4-KOR-013",
+    "domain": "말하기",
+    "learning_target": "상황에 맞는 표현 선택",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 빌린 연필을 실수로 부러뜨렸습니다. 가장 알맞은 말은?",
+    "choices": [
+      "미안해. 새 연필로 돌려줄게.",
+      "네가 알아서 해.",
+      "아무 일도 아니야.",
+      "왜 나한테 빌려줬어?"
+    ],
+    "answer": "미안해. 새 연필로 돌려줄게.",
+    "explanation": "자신의 실수로 친구의 물건이 망가졌다면 잘못을 인정하고 사과한 뒤 어떻게 책임질지 말하는 것이 알맞습니다."
   }
 ]

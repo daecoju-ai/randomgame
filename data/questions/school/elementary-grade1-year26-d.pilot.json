@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-D-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "geometry_measurement 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴바늘이 12, 짧은바늘이 3을 가리키면 몇 시인가요?",
+    "choices": [
+      "2시",
+      "3시",
+      "4시",
+      "5시"
+    ],
+    "answer": "3시",
+    "explanation": "긴바늘이 12를 가리키고 짧은바늘이 3을 가리키면 3시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "geometry_measurement 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴바늘이 12, 짧은바늘이 7을 가리키면 몇 시인가요?",
+    "choices": [
+      "6시",
+      "7시",
+      "8시",
+      "9시"
+    ],
+    "answer": "7시",
+    "explanation": "정각에는 긴바늘이 12를 가리키고 짧은바늘이 시각을 가리킵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 15보다 큰 수는 무엇인가요?",
+    "choices": [
+      "12",
+      "14",
+      "16",
+      "13"
+    ],
+    "answer": "16",
+    "explanation": "16은 15보다 1 큰 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "number_operations 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 가장 작은 수는 무엇인가요?",
+    "choices": [
+      "18",
+      "11",
+      "15",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "11은 18, 15, 13보다 작은 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "data_patterns 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "빨강, 노랑, 빨강, 노랑 다음에 올 색은 무엇인가요?",
+    "choices": [
+      "파랑",
+      "노랑",
+      "빨강",
+      "초록"
+    ],
+    "answer": "빨강",
+    "explanation": "빨강과 노랑이 번갈아 반복되는 규칙입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "data_patterns 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사과 2개, 배 3개, 귤 1개가 있습니다. 가장 많은 과일은 무엇인가요?",
+    "choices": [
+      "사과",
+      "배",
+      "귤",
+      "모두 같다"
+    ],
+    "answer": "배",
+    "explanation": "배가 3개로 사과 2개와 귤 1개보다 많습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 이해",
+    "learning_target": "낱말 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 비가 올 때 사용하는 물건은 무엇인가요?",
+    "choices": [
+      "우산",
+      "숟가락",
+      "연필",
+      "베개"
+    ],
+    "answer": "우산",
+    "explanation": "우산은 비를 맞지 않도록 도와주는 물건입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 이해",
+    "learning_target": "낱말 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 '크다'와 반대되는 뜻의 낱말은?",
+    "choices": [
+      "높다",
+      "작다",
+      "빠르다",
+      "밝다"
+    ],
+    "answer": "작다",
+    "explanation": "'크다'와 반대되는 뜻을 가진 낱말은 '작다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'수아는 도서관에서 책을 읽었어요.' 수아는 어디에서 책을 읽었나요?",
+    "choices": [
+      "운동장",
+      "도서관",
+      "식당",
+      "놀이터"
+    ],
+    "answer": "도서관",
+    "explanation": "문장에 수아가 도서관에서 책을 읽었다고 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아빠는 시장에서 딸기를 샀습니다.' 아빠가 산 것은?",
+    "choices": [
+      "바나나",
+      "사과",
+      "딸기",
+      "포도"
+    ],
+    "answer": "딸기",
+    "explanation": "글에 아빠가 시장에서 딸기를 샀다고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 이해",
+    "learning_target": "문장 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 묻는 문장은 무엇인가요?",
+    "choices": [
+      "나는 밥을 먹어요.",
+      "어디에 가니?",
+      "꽃이 피었어요.",
+      "하늘이 맑아요."
+    ],
+    "answer": "어디에 가니?",
+    "explanation": "'어디에 가니?'는 상대에게 장소를 묻는 문장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 이해",
+    "learning_target": "문장 이해 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 고마운 마음을 전하는 말은 무엇인가요?",
+    "choices": [
+      "고마워요.",
+      "비켜요.",
+      "몰라요.",
+      "싫어요."
+    ],
+    "answer": "고마워요.",
+    "explanation": "'고마워요.'는 도움을 받았을 때 고마운 마음을 전하는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교생활",
+    "learning_target": "학교생활 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "교실에서 친구가 넘어졌을 때 알맞은 행동은?",
+    "choices": [
+      "괜찮은지 묻고 선생님께 알린다",
+      "웃고 지나간다",
+      "친구를 밀어본다",
+      "모른 척한다"
+    ],
+    "answer": "괜찮은지 묻고 선생님께 알린다",
+    "explanation": "다친 친구의 상태를 살피고 선생님께 알리는 것이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "계절과 생활",
+    "learning_target": "계절과 생활 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "봄에 주변에서 관찰하기 쉬운 변화는 무엇인가요?",
+    "choices": [
+      "꽃이 피는 모습",
+      "강이 모두 얼어붙는 모습",
+      "항상 눈이 내리는 모습",
+      "나뭇잎이 모두 사라지는 모습"
+    ],
+    "answer": "꽃이 피는 모습",
+    "explanation": "봄에는 날씨가 따뜻해지며 여러 식물에서 꽃이 피는 모습을 볼 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 습관 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "쓰레기를 버릴 때 알맞은 행동은?",
+    "choices": [
+      "알맞은 쓰레기통에 버린다",
+      "바닥에 던진다",
+      "책상 아래 숨긴다",
+      "길에 버린다"
+    ],
+    "answer": "알맞은 쓰레기통에 버린다",
+    "explanation": "쓰레기는 종류에 맞는 수거함이나 쓰레기통에 버립니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-D-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연 관찰",
+    "learning_target": "자연 관찰 기초 개념 적용",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "나무의 잎과 줄기를 관찰할 때 알맞은 방법은?",
+    "choices": [
+      "눈으로 모양과 색을 살핀다",
+      "가지를 모두 꺾는다",
+      "나무껍질을 모두 벗긴다",
+      "나무를 밀어 넘어뜨린다"
+    ],
+    "answer": "눈으로 모양과 색을 살핀다",
+    "explanation": "식물을 해치지 않고 잎과 줄기의 생김새를 관찰할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_language_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

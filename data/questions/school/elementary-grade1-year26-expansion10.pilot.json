@@ -1,0 +1,722 @@
+[
+  {
+    "id": "G1-YEAR26-EXP10-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "지우가 구슬 8개를 갖고 있습니다. 친구에게 3개를 주고 2개를 더 받았습니다. 지금 몇 개인가요?",
+    "choices": [
+      "9",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "8-3+2=7이므로 정답은 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 귤 6개가 있습니다. 4개를 더 넣고 3개를 꺼냈습니다. 몇 개 남았나요?",
+    "choices": [
+      "9",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "6+4-3=7이므로 정답은 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "공책 9권 중 2권을 쓰고 1권을 새로 샀습니다. 지금 몇 권인가요?",
+    "choices": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "9-2+1=8이므로 정답은 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "새 5마리가 나무에 앉았습니다. 3마리가 더 오고 2마리가 날아갔습니다. 몇 마리인가요?",
+    "choices": [
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "explanation": "5+3-2=6이므로 정답은 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사탕 10개 중 4개를 먹고 2개를 선물 받았습니다. 몇 개 남았나요?",
+    "choices": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "10-4+2=8이므로 정답은 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 7자루 중 1자루를 잃어버리고 3자루를 찾았습니다. 몇 자루인가요?",
+    "choices": [
+      "11",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "7-1+3=9이므로 정답은 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "버스에 6명이 타고 있었습니다. 2명이 내리고 4명이 탔습니다. 지금 몇 명인가요?",
+    "choices": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "6-2+4=8이므로 정답은 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "꽃 4송이를 꺾지 않고 관찰했습니다. 다른 꽃 5송이를 더 발견했습니다. 모두 몇 송이를 관찰했나요?",
+    "choices": [
+      "11",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "9",
+    "explanation": "4+5=9이므로 정답은 9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책 12권 중 5권을 책장에 넣었습니다. 아직 정리하지 않은 책은 몇 권인가요?",
+    "choices": [
+      "9",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "12-5=7이므로 정답은 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "블록 8개로 탑을 쌓고 3개를 더 올렸습니다. 블록은 모두 몇 개인가요?",
+    "choices": [
+      "13",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "explanation": "8+3=11이므로 정답은 11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'민지는 우산을 챙겼지만 비가 오지 않았습니다.' 글에서 알 수 있는 사실은?",
+    "choices": [
+      "비가 많이 왔다",
+      "민지는 우산을 잃어버렸다",
+      "민지는 우산을 챙겼다",
+      "민지는 장화를 신었다"
+    ],
+    "answer": "민지는 우산을 챙겼다",
+    "explanation": "'민지는 우산을 챙겼지만 비가 오지 않았습니다.'에서 '민지는 우산을 챙겼다'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'선생님이 책을 읽어 주자 아이들이 조용히 들었습니다.' 아이들은 무엇을 했나요?",
+    "choices": [
+      "노래를 불렀다",
+      "운동장을 달렸다",
+      "책 이야기를 들었다",
+      "그림을 그렸다"
+    ],
+    "answer": "책 이야기를 들었다",
+    "explanation": "'선생님이 책을 읽어 주자 아이들이 조용히 들었습니다.'에서 '책 이야기를 들었다'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'아빠가 사과를 씻고 민수가 접시에 담았습니다.' 접시에 사과를 담은 사람은?",
+    "choices": [
+      "아빠",
+      "엄마",
+      "민수",
+      "선생님"
+    ],
+    "answer": "민수",
+    "explanation": "'아빠가 사과를 씻고 민수가 접시에 담았습니다.'에서 '민수'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'수진이는 토끼를 그린 다음 색연필로 귀를 색칠했습니다.' 수진이가 먼저 한 일은?",
+    "choices": [
+      "귀 색칠하기",
+      "종이 접기",
+      "토끼 그리기",
+      "연필 깎기"
+    ],
+    "answer": "토끼 그리기",
+    "explanation": "'수진이는 토끼를 그린 다음 색연필로 귀를 색칠했습니다.'에서 '토끼 그리기'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'하늘은 흐렸지만 소풍은 예정대로 진행되었습니다.' 소풍은 어떻게 되었나요?",
+    "choices": [
+      "취소되었다",
+      "내일로 미뤄졌다",
+      "예정대로 진행되었다",
+      "끝나지 않았다"
+    ],
+    "answer": "예정대로 진행되었다",
+    "explanation": "'하늘은 흐렸지만 소풍은 예정대로 진행되었습니다.'에서 '예정대로 진행되었다'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'도윤이는 동생에게 먼저 놀라고 양보했습니다.' 도윤이가 보여 준 마음은?",
+    "choices": [
+      "화내는 마음",
+      "놀리는 마음",
+      "배려하는 마음",
+      "욕심내는 마음"
+    ],
+    "answer": "배려하는 마음",
+    "explanation": "'도윤이는 동생에게 먼저 놀라고 양보했습니다.'에서 '배려하는 마음'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'강아지는 밥을 먹고 물을 마신 뒤 잠들었습니다.' 강아지가 마지막에 한 일은?",
+    "choices": [
+      "밥 먹기",
+      "물 마시기",
+      "잠들기",
+      "산책하기"
+    ],
+    "answer": "잠들기",
+    "explanation": "'강아지는 밥을 먹고 물을 마신 뒤 잠들었습니다.'에서 '잠들기'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'나무 아래에는 벤치가 있고 벤치 옆에는 꽃이 피었습니다.' 꽃은 어디에 있나요?",
+    "choices": [
+      "나무 위",
+      "교실 안",
+      "벤치 옆",
+      "강물 속"
+    ],
+    "answer": "벤치 옆",
+    "explanation": "'나무 아래에는 벤치가 있고 벤치 옆에는 꽃이 피었습니다.'에서 '벤치 옆'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'아침에 눈이 내려 운동장에 하얀 눈이 쌓였습니다.' 운동장에 쌓인 것은?",
+    "choices": [
+      "낙엽",
+      "모래",
+      "눈",
+      "돌"
+    ],
+    "answer": "눈",
+    "explanation": "'아침에 눈이 내려 운동장에 하얀 눈이 쌓였습니다.'에서 '눈'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP10-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "실생활 문제의 단서를 찾고 수학과 언어 개념을 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'윤아는 책을 빌린 뒤 약속한 날에 돌려주었습니다.' 윤아가 지킨 것은?",
+    "choices": [
+      "운동 약속",
+      "간식 약속",
+      "책을 돌려주는 약속",
+      "청소 당번"
+    ],
+    "answer": "책을 돌려주는 약속",
+    "explanation": "'윤아는 책을 빌린 뒤 약속한 날에 돌려주었습니다.'에서 '책을 돌려주는 약속'를 뒷받침하는 표현을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

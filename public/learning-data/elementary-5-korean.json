@@ -2878,5 +2878,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-091",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "사실과 추측",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“운동장에 물웅덩이가 있다. 아마 새벽에 비가 온 것 같다.”에서 추측에 해당하는 부분은?",
+    "choices": [
+      "아마 새벽에 비가 온 것 같다",
+      "운동장에 물웅덩이가 있다",
+      "운동장이 있다",
+      "물웅덩이를 보았다"
+    ],
+    "answer": "아마 새벽에 비가 온 것 같다",
+    "explanation": "직접 확인한 내용과 그것을 바탕으로 짐작한 내용은 구별해야 합니다. 물웅덩이는 관찰한 사실이고, 새벽에 비가 왔다는 것은 그 사실을 근거로 한 추측입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-092",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "문학 감상 근거",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기를 읽고 “주인공이 용감하다”고 감상했다면 감상을 뒷받침하는 가장 좋은 방법은?",
+    "choices": [
+      "주인공의 말이나 행동 중 용기를 보여 주는 장면을 제시한다",
+      "책 표지의 색을 설명한다",
+      "작품의 문장 수를 센다",
+      "다른 사람도 그렇게 생각한다고만 말한다"
+    ],
+    "answer": "주인공의 말이나 행동 중 용기를 보여 주는 장면을 제시한다",
+    "explanation": "문학 작품에 대한 감상도 작품 속 근거와 연결하면 설득력이 높아집니다. 인물의 성격을 판단했다면 그 성격이 드러나는 구체적인 말이나 행동을 찾아 설명하는 것이 좋습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-093",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "문단 나누기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 여러 문단으로 나누는 가장 중요한 기준은?",
+    "choices": [
+      "중심 내용이 달라지는 지점",
+      "문장이 정확히 세 개가 되는 지점",
+      "페이지의 절반 지점",
+      "글자가 긴 낱말이 나오는 지점"
+    ],
+    "answer": "중심 내용이 달라지는 지점",
+    "explanation": "한 문단에는 서로 관련된 내용을 모아 하나의 중심 생각을 나타내는 것이 좋습니다. 이야기하거나 설명하는 중심 내용이 바뀌면 새 문단으로 나누어 글의 구조를 분명하게 할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-094",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 부호",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다른 사람이 한 말을 그대로 나타낼 때 주로 사용하는 문장 부호는?",
+    "choices": [
+      "큰따옴표",
+      "물결표",
+      "빗금",
+      "가운뎃점"
+    ],
+    "answer": "큰따옴표",
+    "explanation": "다른 사람이 실제로 한 말을 직접 인용할 때는 큰따옴표를 사용해 인용한 부분을 구별합니다. 문장 부호는 글의 구조와 의미를 독자가 정확히 파악하도록 돕습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-095",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "공감하며 듣기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 속상했던 일을 말할 때 공감하며 듣는 태도로 가장 알맞은 것은?",
+    "choices": [
+      "말을 끝까지 듣고 친구의 감정을 확인해 준다",
+      "중간에 끊고 자신의 이야기만 한다",
+      "왜 그런 일로 속상하냐고 무시한다",
+      "다른 일을 하며 듣지 않는다"
+    ],
+    "answer": "말을 끝까지 듣고 친구의 감정을 확인해 준다",
+    "explanation": "공감하며 듣는 것은 상대의 말을 끝까지 듣고 그 사람이 느낀 감정을 이해하려는 태도입니다. ‘많이 속상했겠구나’처럼 감정을 확인해 주면 상대가 자신의 마음을 편하게 표현할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

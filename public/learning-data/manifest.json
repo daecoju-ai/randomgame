@@ -1,5 +1,5 @@
 {
-  "version": 30,
+  "version": 31,
   "packs": [
     {
       "id": "general-general-certification",
@@ -227,7 +227,7 @@
       "title": "초3 과학 · 개념과 탐구",
       "url": "/learning-data/elementary-3-science.json",
       "version": 1,
-      "count": 14
+      "count": 19
     },
     {
       "id": "elementary-4-science",

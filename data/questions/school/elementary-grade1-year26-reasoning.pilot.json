@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "G1-YEAR26-REASON-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '민지는 아침에 우유를 마시고 학교에 갔어요.' 민지가 마신 것은?",
+    "choices": [
+      "우유",
+      "물",
+      "주스",
+      "국"
+    ],
+    "answer": "우유",
+    "explanation": "'민지는 아침에 우유를 마시고 학교에 갔어요.' 문장에서 '우유'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '준수는 비가 와서 우산을 쓰고 나갔어요.' 준수가 우산을 쓴 까닭은?",
+    "choices": [
+      "비가 와서",
+      "더워서",
+      "졸려서",
+      "배가 고파서"
+    ],
+    "answer": "비가 와서",
+    "explanation": "'준수는 비가 와서 우산을 쓰고 나갔어요.' 문장에서 '비가 와서'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '하나는 도서관에서 동화책을 읽었어요.' 하나가 책을 읽은 곳은?",
+    "choices": [
+      "도서관",
+      "놀이터",
+      "운동장",
+      "식당"
+    ],
+    "answer": "도서관",
+    "explanation": "'하나는 도서관에서 동화책을 읽었어요.' 문장에서 '도서관'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '아빠는 시장에서 사과를 세 개 샀어요.' 아빠가 산 과일은?",
+    "choices": [
+      "사과",
+      "배",
+      "귤",
+      "포도"
+    ],
+    "answer": "사과",
+    "explanation": "'아빠는 시장에서 사과를 세 개 샀어요.' 문장에서 '사과'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '소라는 손을 씻고 밥을 먹었어요.' 소라가 밥 먹기 전에 한 일은?",
+    "choices": [
+      "손 씻기",
+      "양치하기",
+      "잠자기",
+      "산책하기"
+    ],
+    "answer": "손 씻기",
+    "explanation": "'소라는 손을 씻고 밥을 먹었어요.' 문장에서 '손 씻기'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '토끼는 풀밭에서 당근을 먹었어요.' 토끼가 있던 곳은?",
+    "choices": [
+      "풀밭",
+      "바다",
+      "하늘",
+      "교실"
+    ],
+    "answer": "풀밭",
+    "explanation": "'토끼는 풀밭에서 당근을 먹었어요.' 문장에서 '풀밭'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '유나는 추워서 두꺼운 외투를 입었어요.' 유나가 외투를 입은 까닭은?",
+    "choices": [
+      "추워서",
+      "더워서",
+      "비가 와서",
+      "배가 고파서"
+    ],
+    "answer": "추워서",
+    "explanation": "'유나는 추워서 두꺼운 외투를 입었어요.' 문장에서 '추워서'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '동생이 넘어지자 형이 손을 잡아 일으켜 주었어요.' 형이 한 행동은?",
+    "choices": [
+      "도와주기",
+      "놀리기",
+      "숨기기",
+      "밀기"
+    ],
+    "answer": "도와주기",
+    "explanation": "'동생이 넘어지자 형이 손을 잡아 일으켜 주었어요.' 문장에서 '도와주기'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '지호는 연필을 깎은 뒤 필통에 넣었어요.' 지호가 필통에 넣은 물건은?",
+    "choices": [
+      "연필",
+      "우산",
+      "컵",
+      "신발"
+    ],
+    "answer": "연필",
+    "explanation": "'지호는 연필을 깎은 뒤 필통에 넣었어요.' 문장에서 '연필'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. '새싹은 햇빛을 받으며 자랐어요.' 새싹이 자라는 데 도움이 된 것은?",
+    "choices": [
+      "햇빛",
+      "장난감",
+      "신발",
+      "책가방"
+    ],
+    "answer": "햇빛",
+    "explanation": "'새싹은 햇빛을 받으며 자랐어요.' 문장에서 '햇빛'라는 단서를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 5개가 있습니다. 2개를 더 넣고 1개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "6",
+      "7",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "처음 5개에 2개를 더해 7개가 되고, 1개를 꺼내면 6개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 6개가 있습니다. 3개를 더 넣고 2개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "7",
+      "8",
+      "6",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "처음 6개에 3개를 더해 9개가 되고, 2개를 꺼내면 7개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 7개가 있습니다. 4개를 더 넣고 3개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "8",
+      "9",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "처음 7개에 4개를 더해 11개가 되고, 3개를 꺼내면 8개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 8개가 있습니다. 5개를 더 넣고 1개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "처음 8개에 5개를 더해 13개가 되고, 1개를 꺼내면 12개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 9개가 있습니다. 2개를 더 넣고 2개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "9",
+      "10",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "처음 9개에 2개를 더해 11개가 되고, 2개를 꺼내면 9개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 10개가 있습니다. 3개를 더 넣고 3개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "10",
+      "11",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "처음 10개에 3개를 더해 13개가 되고, 3개를 꺼내면 10개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 11개가 있습니다. 4개를 더 넣고 1개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "14",
+      "15",
+      "13",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "처음 11개에 4개를 더해 15개가 되고, 1개를 꺼내면 14개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 12개가 있습니다. 5개를 더 넣고 2개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "15",
+      "16",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "처음 12개에 5개를 더해 17개가 되고, 2개를 꺼내면 15개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 13개가 있습니다. 2개를 더 넣고 3개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "12",
+      "13",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "처음 13개에 2개를 더해 15개가 되고, 3개를 꺼내면 12개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자에 구슬 14개가 있습니다. 3개를 더 넣고 1개를 꺼냈습니다. 남은 구슬은 몇 개인가요?",
+    "choices": [
+      "16",
+      "17",
+      "15",
+      "18"
+    ],
+    "answer": "16",
+    "explanation": "처음 14개에 3개를 더해 17개가 되고, 1개를 꺼내면 16개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "친구 관계",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 넘어져서 울고 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "친구를 일으켜 주고 선생님께 알리기",
+      "친구를 놀리기",
+      "모른 척하기",
+      "더 밀기"
+    ],
+    "answer": "친구를 일으켜 주고 선생님께 알리기",
+    "explanation": "이 상황에서는 '친구를 일으켜 주고 선생님께 알리기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "횡단보도에 빨간불이 켜졌습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "멈춰서 기다리기",
+      "바로 건너기",
+      "차도로 뛰기",
+      "눈 감고 걷기"
+    ],
+    "answer": "멈춰서 기다리기",
+    "explanation": "이 상황에서는 '멈춰서 기다리기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "손이 더러운 채로 간식을 먹으려 합니다. 가장 알맞은 행동은?",
+    "choices": [
+      "손을 깨끗이 씻기",
+      "그대로 먹기",
+      "옷에만 닦기",
+      "바닥에 비비기"
+    ],
+    "answer": "손을 깨끗이 씻기",
+    "explanation": "이 상황에서는 '손을 깨끗이 씻기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "식물 돌보기",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식물의 흙이 말라 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "물을 알맞게 주기",
+      "잎을 모두 뜯기",
+      "화분을 엎기",
+      "줄기를 꺾기"
+    ],
+    "answer": "물을 알맞게 주기",
+    "explanation": "이 상황에서는 '물을 알맞게 주기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "친구 관계",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도서관에서 친구가 책을 읽고 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "조용히 이야기하기",
+      "큰 소리로 노래하기",
+      "책을 빼앗기",
+      "뛰어다니기"
+    ],
+    "answer": "조용히 이야기하기",
+    "explanation": "이 상황에서는 '조용히 이야기하기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "놀이터 그네 앞에 친구가 서 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "안전한 거리를 두고 기다리기",
+      "그네 앞으로 뛰기",
+      "친구 밀기",
+      "그네 줄 잡아당기기"
+    ],
+    "answer": "안전한 거리를 두고 기다리기",
+    "explanation": "이 상황에서는 '안전한 거리를 두고 기다리기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비 오는 날 바닥이 미끄럽습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "천천히 걷기",
+      "빠르게 달리기",
+      "일부러 미끄러지기",
+      "친구 밀기"
+    ],
+    "answer": "천천히 걷기",
+    "explanation": "이 상황에서는 '천천히 걷기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "친구 관계",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 발표를 하고 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "발표를 끝까지 듣기",
+      "말 끊기",
+      "큰 소리로 떠들기",
+      "비웃기"
+    ],
+    "answer": "발표를 끝까지 듣기",
+    "explanation": "이 상황에서는 '발표를 끝까지 듣기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "쓰레기가 길에 떨어져 있습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "안전하게 주워 알맞은 곳에 버리기",
+      "발로 차기",
+      "하수구에 넣기",
+      "다른 곳에 던지기"
+    ],
+    "answer": "안전하게 주워 알맞은 곳에 버리기",
+    "explanation": "이 상황에서는 '안전하게 주워 알맞은 곳에 버리기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-REASON-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 문장을 이해하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 복도에 사람들이 많습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "뛰지 않고 차례대로 걷기",
+      "달리기 시합하기",
+      "친구 밀기",
+      "갑자기 방향 바꾸기"
+    ],
+    "answer": "뛰지 않고 차례대로 걷기",
+    "explanation": "이 상황에서는 '뛰지 않고 차례대로 걷기' 행동이 안전하고 서로를 배려하는 방법입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -1,0 +1,794 @@
+[
+  {
+    "id": "G1-YEAR26-EXP8-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 2자루와 색연필 1자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "4",
+      "3",
+      "2",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "2자루와 1자루를 합치면 3자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 3자루와 색연필 2자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "3자루와 2자루를 합치면 5자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 4자루와 색연필 3자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "4자루와 3자루를 합치면 7자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 5자루와 색연필 4자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "10",
+      "9",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "5자루와 4자루를 합치면 9자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 6자루와 색연필 5자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "12",
+      "11",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "6자루와 5자루를 합치면 11자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 7자루와 색연필 6자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "14",
+      "13",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "7자루와 6자루를 합치면 13자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 8자루와 색연필 1자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "10",
+      "9",
+      "8",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "8자루와 1자루를 합치면 9자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 9자루와 색연필 2자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "12",
+      "11",
+      "10",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "9자루와 2자루를 합치면 11자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 10자루와 색연필 3자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "14",
+      "13",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "10자루와 3자루를 합치면 13자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 11자루와 색연필 4자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "16",
+      "15",
+      "14",
+      "17"
+    ],
+    "answer": "15",
+    "explanation": "11자루와 4자루를 합치면 15자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "삼각형의 꼭짓점 개수를 나타내는 타일을 고르세요.",
+    "choices": [
+      "2개",
+      "3개",
+      "7개",
+      "0개"
+    ],
+    "answer": "3개",
+    "explanation": "삼각형의 꼭짓점을 하나씩 세면 3개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사각형의 꼭짓점 개수를 나타내는 타일을 고르세요.",
+    "choices": [
+      "2개",
+      "4개",
+      "7개",
+      "0개"
+    ],
+    "answer": "4개",
+    "explanation": "사각형의 꼭짓점을 하나씩 세면 4개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "오각형의 꼭짓점 개수를 나타내는 타일을 고르세요.",
+    "choices": [
+      "2개",
+      "5개",
+      "7개",
+      "0개"
+    ],
+    "answer": "5개",
+    "explanation": "오각형의 꼭짓점을 하나씩 세면 5개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "육각형의 꼭짓점 개수를 나타내는 타일을 고르세요.",
+    "choices": [
+      "2개",
+      "6개",
+      "7개",
+      "0개"
+    ],
+    "answer": "6개",
+    "explanation": "육각형의 꼭짓점을 하나씩 세면 6개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "계절과 생활",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비가 올 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "선글라스만 쓰기",
+      "우산 쓰기",
+      "맨발로 뛰기",
+      "책 던지기"
+    ],
+    "answer": "우산 쓰기",
+    "explanation": "비가 올 때에는 '우산 쓰기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "계절과 생활",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "겨울에 추울 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "얇은 반팔만 입기",
+      "따뜻한 외투 입기",
+      "얼음 만지기",
+      "찬물 끼얹기"
+    ],
+    "answer": "따뜻한 외투 입기",
+    "explanation": "겨울에 추울 때에는 '따뜻한 외투 입기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식사하기 전 올바른 행동은 무엇인가요?",
+    "choices": [
+      "손 더럽히기",
+      "손 씻기",
+      "음식 던지기",
+      "장난감 숨기기"
+    ],
+    "answer": "손 씻기",
+    "explanation": "식사하기 전에는 '손 씻기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "친구 관계",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 발표할 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "말 끊기",
+      "끝까지 듣기",
+      "놀리기",
+      "소리 지르기"
+    ],
+    "answer": "끝까지 듣기",
+    "explanation": "친구가 발표할 때에는 '끝까지 듣기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "식물 돌보기",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "화분의 흙이 마를 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "잎 뜯기",
+      "물을 알맞게 주기",
+      "흙 버리기",
+      "화분 깨기"
+    ],
+    "answer": "물을 알맞게 주기",
+    "explanation": "화분의 흙이 마를 때에는 '물을 알맞게 주기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "복도에서 이동할 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "전력 질주하기",
+      "천천히 걷기",
+      "친구 밀기",
+      "공 던지기"
+    ],
+    "answer": "천천히 걷기",
+    "explanation": "복도에서 이동할 때에는 '천천히 걷기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "횡단보도에 빨간불일 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "바로 건너기",
+      "기다리기",
+      "차도에서 놀기",
+      "신호 무시하기"
+    ],
+    "answer": "기다리기",
+    "explanation": "횡단보도에 빨간불일 때에는 '기다리기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP8-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "다양한 상황에서 개념을 적용하고 정답을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책을 다 읽었을 때 올바른 행동은 무엇인가요?",
+    "choices": [
+      "찢기",
+      "제자리에 놓기",
+      "던지기",
+      "숨기기"
+    ],
+    "answer": "제자리에 놓기",
+    "explanation": "책을 다 읽었을 때에는 '제자리에 놓기' 행동이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

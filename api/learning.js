@@ -11,7 +11,7 @@ if(b.action==='stars-load'){
 }
 if(b.action.startsWith('review-')){
  const action=b.action==='review-list'?'list':b.action==='review-miss'?'miss':'mastered';
- if(action!=='list'&&(!payload.id||String(payload.id).length>120))throw new A.Fault(400,'QUESTION','복습 문제를 확인해 주세요.');
+ if(action!=='list'){if(!payload.id||String(payload.id).length>120)throw new A.Fault(400,'QUESTION','복습 문제를 확인해 주세요.');const q=B.find(String(payload.id));if(!q)throw new A.Fault(404,'QUESTION','검증된 문제만 계정 복습 기록에 저장할 수 있습니다.');payload={...payload,subject:q.subject||payload.subject,domain:q.domain||payload.domain};}
  const v=await A.upstream('/rest/v1/rpc/forge_learning_review',{method:'POST',token:auth.token,body:{p_action:action,p_question_id:action==='list'?null:String(payload.id),p_subject:action==='list'?null:String(payload.subject||''),p_domain:action==='list'?null:String(payload.domain||'')}});
  if(v?.error)throw new A.Fault(409,v.error,'복습 기록을 저장하지 못했습니다.');
  return res.status(200).json(v);

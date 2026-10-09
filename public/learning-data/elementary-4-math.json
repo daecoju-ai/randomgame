@@ -2942,13 +2942,13 @@
       "335"
     ],
     "answer": "333",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 111 × 3 = 333입니다.",
+    "explanation": "111을 자릿값에 따라 100과 11로 나누면 (100×3)+(11×3)=300+33=333입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -2963,7 +2963,8 @@
       "result": "333",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-042",
@@ -2983,13 +2984,13 @@
       "113"
     ],
     "answer": "111",
-    "explanation": "3 × 111 = 333이므로 몫은 111입니다.",
+    "explanation": "3씩 몇 묶음이면 333인지 생각합니다. 3 × 111 = 333이므로 몫은 111입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -3004,7 +3005,8 @@
       "result": "111",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-043",
@@ -3024,13 +3026,13 @@
       "3.2"
     ],
     "answer": "1.2",
-    "explanation": "소수점 자리를 맞춰 더해요. 9/10 + 3/10 = 1.2입니다.",
+    "explanation": "0.9=9/10, 0.3=3/10입니다. 1/10이 모두 12개이므로 12/10=1.2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -3045,7 +3047,8 @@
       "result": "1.2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 한 자리 덧셈을 1/10 단위의 개수로 설명"
   },
   {
     "id": "V61-E4-MATH-044",
@@ -3065,13 +3068,13 @@
       "143"
     ],
     "answer": "141",
-    "explanation": "두 각의 합이 180°이므로 180 − 39 = 141°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-39°=141°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -3086,7 +3089,8 @@
       "result": "141",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-045",
@@ -3106,13 +3110,13 @@
       "98"
     ],
     "answer": "96",
-    "explanation": "세 날의 자료를 모두 더하면 29 + 32 + 35 = 96권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 29+32=61, 61+35=96권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -3127,7 +3131,8 @@
       "result": "96",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-046",
@@ -3147,13 +3152,13 @@
       "450"
     ],
     "answer": "448",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 112 × 4 = 448입니다.",
+    "explanation": "112을 자릿값에 따라 100과 12로 나누면 (100×4)+(12×4)=400+48=448입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -3168,7 +3173,8 @@
       "result": "448",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-047",
@@ -3188,13 +3194,13 @@
       "114"
     ],
     "answer": "112",
-    "explanation": "4 × 112 = 448이므로 몫은 112입니다.",
+    "explanation": "4씩 몇 묶음이면 448인지 생각합니다. 4 × 112 = 448이므로 몫은 112입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -3209,7 +3215,8 @@
       "result": "112",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-048",
@@ -3270,13 +3277,13 @@
       "142"
     ],
     "answer": "140",
-    "explanation": "두 각의 합이 180°이므로 180 − 40 = 140°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-40°=140°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -3291,7 +3298,8 @@
       "result": "140",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-050",
@@ -3311,13 +3319,13 @@
       "101"
     ],
     "answer": "99",
-    "explanation": "세 날의 자료를 모두 더하면 30 + 33 + 36 = 99권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 30+33=63, 63+36=99권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -3332,7 +3340,8 @@
       "result": "99",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-051",
@@ -3352,13 +3361,13 @@
       "567"
     ],
     "answer": "565",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 113 × 5 = 565입니다.",
+    "explanation": "113을 자릿값에 따라 100과 13로 나누면 (100×5)+(13×5)=500+65=565입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -3373,7 +3382,8 @@
       "result": "565",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-052",
@@ -3393,13 +3403,13 @@
       "115"
     ],
     "answer": "113",
-    "explanation": "5 × 113 = 565이므로 몫은 113입니다.",
+    "explanation": "5씩 몇 묶음이면 565인지 생각합니다. 5 × 113 = 565이므로 몫은 113입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -3414,7 +3424,8 @@
       "result": "113",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-053",
@@ -3475,13 +3486,13 @@
       "141"
     ],
     "answer": "139",
-    "explanation": "두 각의 합이 180°이므로 180 − 41 = 139°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-41°=139°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -3496,7 +3507,8 @@
       "result": "139",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-055",
@@ -3516,13 +3528,13 @@
       "104"
     ],
     "answer": "102",
-    "explanation": "세 날의 자료를 모두 더하면 31 + 34 + 37 = 102권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 31+34=65, 65+37=102권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -3537,7 +3549,8 @@
       "result": "102",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-056",
@@ -3557,13 +3570,13 @@
       "686"
     ],
     "answer": "684",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 114 × 6 = 684입니다.",
+    "explanation": "114을 자릿값에 따라 100과 14로 나누면 (100×6)+(14×6)=600+84=684입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -3578,7 +3591,8 @@
       "result": "684",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-057",
@@ -3598,13 +3612,13 @@
       "116"
     ],
     "answer": "114",
-    "explanation": "6 × 114 = 684이므로 몫은 114입니다.",
+    "explanation": "6씩 몇 묶음이면 684인지 생각합니다. 6 × 114 = 684이므로 몫은 114입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -3619,7 +3633,8 @@
       "result": "114",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-058",
@@ -3680,13 +3695,13 @@
       "140"
     ],
     "answer": "138",
-    "explanation": "두 각의 합이 180°이므로 180 − 42 = 138°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-42°=138°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -3701,7 +3716,8 @@
       "result": "138",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-060",
@@ -3721,13 +3737,13 @@
       "107"
     ],
     "answer": "105",
-    "explanation": "세 날의 자료를 모두 더하면 32 + 35 + 38 = 105권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 32+35=67, 67+38=105권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -3742,7 +3758,8 @@
       "result": "105",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-061",
@@ -3762,13 +3779,13 @@
       "807"
     ],
     "answer": "805",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 115 × 7 = 805입니다.",
+    "explanation": "115을 자릿값에 따라 100과 15로 나누면 (100×7)+(15×7)=700+105=805입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -3783,7 +3800,8 @@
       "result": "805",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-062",
@@ -3803,13 +3821,13 @@
       "117"
     ],
     "answer": "115",
-    "explanation": "7 × 115 = 805이므로 몫은 115입니다.",
+    "explanation": "7씩 몇 묶음이면 805인지 생각합니다. 7 × 115 = 805이므로 몫은 115입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -3824,7 +3842,8 @@
       "result": "115",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-063",
@@ -3885,13 +3904,13 @@
       "139"
     ],
     "answer": "137",
-    "explanation": "두 각의 합이 180°이므로 180 − 43 = 137°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-43°=137°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -3906,7 +3925,8 @@
       "result": "137",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-065",
@@ -3926,13 +3946,13 @@
       "110"
     ],
     "answer": "108",
-    "explanation": "세 날의 자료를 모두 더하면 33 + 36 + 39 = 108권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 33+36=69, 69+39=108권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -3947,7 +3967,8 @@
       "result": "108",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-066",
@@ -3967,13 +3988,13 @@
       "930"
     ],
     "answer": "928",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 116 × 8 = 928입니다.",
+    "explanation": "116을 자릿값에 따라 100과 16로 나누면 (100×8)+(16×8)=800+128=928입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -3988,7 +4009,8 @@
       "result": "928",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-067",
@@ -4008,13 +4030,13 @@
       "118"
     ],
     "answer": "116",
-    "explanation": "8 × 116 = 928이므로 몫은 116입니다.",
+    "explanation": "8씩 몇 묶음이면 928인지 생각합니다. 8 × 116 = 928이므로 몫은 116입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -4029,7 +4051,8 @@
       "result": "116",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-068",
@@ -4090,13 +4113,13 @@
       "138"
     ],
     "answer": "136",
-    "explanation": "두 각의 합이 180°이므로 180 − 44 = 136°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-44°=136°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -4111,7 +4134,8 @@
       "result": "136",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-070",
@@ -4131,13 +4155,13 @@
       "113"
     ],
     "answer": "111",
-    "explanation": "세 날의 자료를 모두 더하면 34 + 37 + 40 = 111권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 34+37=71, 71+40=111권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -4152,7 +4176,8 @@
       "result": "111",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-071",
@@ -4172,13 +4197,13 @@
       "1055"
     ],
     "answer": "1053",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 117 × 9 = 1053입니다.",
+    "explanation": "117을 자릿값에 따라 100과 17로 나누면 (100×9)+(17×9)=900+153=1053입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -4193,7 +4218,8 @@
       "result": "1053",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-072",
@@ -4213,13 +4239,13 @@
       "119"
     ],
     "answer": "117",
-    "explanation": "9 × 117 = 1053이므로 몫은 117입니다.",
+    "explanation": "9씩 몇 묶음이면 1053인지 생각합니다. 9 × 117 = 1053이므로 몫은 117입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -4234,7 +4260,8 @@
       "result": "117",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-073",
@@ -4295,13 +4322,13 @@
       "137"
     ],
     "answer": "135",
-    "explanation": "두 각의 합이 180°이므로 180 − 45 = 135°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-45°=135°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -4316,7 +4343,8 @@
       "result": "135",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-075",
@@ -4336,13 +4364,13 @@
       "116"
     ],
     "answer": "114",
-    "explanation": "세 날의 자료를 모두 더하면 35 + 38 + 41 = 114권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 35+38=73, 73+41=114권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -4357,7 +4385,8 @@
       "result": "114",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-076",
@@ -4377,13 +4406,13 @@
       "238"
     ],
     "answer": "236",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 118 × 2 = 236입니다.",
+    "explanation": "118을 자릿값에 따라 100과 18로 나누면 (100×2)+(18×2)=200+36=236입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -4398,7 +4427,8 @@
       "result": "236",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-077",
@@ -4418,13 +4448,13 @@
       "120"
     ],
     "answer": "118",
-    "explanation": "2 × 118 = 236이므로 몫은 118입니다.",
+    "explanation": "2씩 몇 묶음이면 236인지 생각합니다. 2 × 118 = 236이므로 몫은 118입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -4439,7 +4469,8 @@
       "result": "118",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-078",
@@ -4500,13 +4531,13 @@
       "136"
     ],
     "answer": "134",
-    "explanation": "두 각의 합이 180°이므로 180 − 46 = 134°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-46°=134°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -4521,7 +4552,8 @@
       "result": "134",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-080",
@@ -4541,13 +4573,13 @@
       "119"
     ],
     "answer": "117",
-    "explanation": "세 날의 자료를 모두 더하면 36 + 39 + 42 = 117권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 36+39=75, 75+42=117권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -4562,7 +4594,8 @@
       "result": "117",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-081",
@@ -4582,13 +4615,13 @@
       "359"
     ],
     "answer": "357",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 119 × 3 = 357입니다.",
+    "explanation": "119을 자릿값에 따라 100과 19로 나누면 (100×3)+(19×3)=300+57=357입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -4603,7 +4636,8 @@
       "result": "357",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-082",
@@ -4623,13 +4657,13 @@
       "121"
     ],
     "answer": "119",
-    "explanation": "3 × 119 = 357이므로 몫은 119입니다.",
+    "explanation": "3씩 몇 묶음이면 357인지 생각합니다. 3 × 119 = 357이므로 몫은 119입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -4644,7 +4678,8 @@
       "result": "119",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-083",
@@ -4705,13 +4740,13 @@
       "135"
     ],
     "answer": "133",
-    "explanation": "두 각의 합이 180°이므로 180 − 47 = 133°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-47°=133°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -4726,7 +4761,8 @@
       "result": "133",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-085",
@@ -4746,13 +4782,13 @@
       "122"
     ],
     "answer": "120",
-    "explanation": "세 날의 자료를 모두 더하면 37 + 40 + 43 = 120권입니다.",
+    "explanation": "세 날의 전체 대출 수를 묻고 있으므로 모두 더합니다. 37+40=77, 77+43=120권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -4767,7 +4803,8 @@
       "result": "120",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "자료의 합계를 구할 때 모든 범주의 값을 더하는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-086",
@@ -4787,13 +4824,13 @@
       "482"
     ],
     "answer": "480",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 120 × 4 = 480입니다.",
+    "explanation": "120을 자릿값에 따라 100과 20로 나누면 (100×4)+(20×4)=400+80=480입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -4808,7 +4845,8 @@
       "result": "480",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 분배하여 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-087",
@@ -4828,13 +4866,13 @@
       "122"
     ],
     "answer": "120",
-    "explanation": "4 × 120 = 480이므로 몫은 120입니다.",
+    "explanation": "4씩 몇 묶음이면 480인지 생각합니다. 4 × 120 = 480이므로 몫은 120입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -4849,7 +4887,8 @@
       "result": "120",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 같은 크기의 묶음과 곱셈의 역관계로 설명"
   },
   {
     "id": "V61-E4-MATH-088",
@@ -4910,13 +4949,13 @@
       "134"
     ],
     "answer": "132",
-    "explanation": "두 각의 합이 180°이므로 180 − 48 = 132°입니다.",
+    "explanation": "일직선을 이루는 두 각의 합은 180°입니다. 따라서 180°-48°=132°가 다른 각의 크기입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -4931,7 +4970,8 @@
       "result": "132",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각의 성질을 이용해 미지의 각을 구하는 과정을 설명"
   },
   {
     "id": "V61-E4-MATH-090",

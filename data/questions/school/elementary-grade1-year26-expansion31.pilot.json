@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP31-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "세 수 6, 11, 8을 작은 수부터 늘어놓았습니다. 가운데에 오는 수는?",
+    "choices": [
+      "6",
+      "8",
+      "11",
+      "5"
+    ],
+    "answer": "8",
+    "explanation": "작은 수부터 6 → 8 → 11입니다. 가운데 수는 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "숫자 카드 1과 7을 한 장씩 써서 만들 수 있는 두 자리 수 중 더 큰 수는?",
+    "choices": [
+      "17",
+      "71",
+      "11",
+      "77"
+    ],
+    "answer": "71",
+    "explanation": "십의 자리에 7을 놓으면 71, 1을 놓으면 17입니다. 71이 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "열 개씩 묶은 연필 한 묶음과 낱개 연필 4자루가 있습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "10",
+      "14",
+      "40",
+      "4"
+    ],
+    "answer": "14",
+    "explanation": "한 묶음은 10자루이므로 10+4=14자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 16에서 십의 자리에 있는 숫자는?",
+    "choices": [
+      "6",
+      "1",
+      "16",
+      "0"
+    ],
+    "answer": "1",
+    "explanation": "16은 십이 1개, 일이 6개인 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "열 개씩 묶은 구슬 두 묶음에서 한 묶음을 풀었습니다. 구슬의 전체 개수는?",
+    "choices": [
+      "10",
+      "11",
+      "20",
+      "2"
+    ],
+    "answer": "20",
+    "explanation": "묶음을 풀어도 구슬을 잃지 않았으므로 전체는 20개 그대로입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사과 7개와 배 5개가 있습니다. 과일을 모두 10개만 남기려면 몇 개를 덜어 내야 하나요?",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "2",
+    "explanation": "7+5=12개이고 12-10=2개를 덜어 내면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내문: '오늘은 운동장 공사로 체육관에서 체육 수업을 합니다.' 체육 수업 장소는?",
+    "choices": [
+      "교실",
+      "운동장",
+      "체육관",
+      "도서관"
+    ],
+    "answer": "체육관",
+    "explanation": "운동장은 공사 중이므로 수업은 체육관에서 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "쪽지: '수진아, 책은 책상 위에 놓았어. — 엄마' 책을 찾을 곳은?",
+    "choices": [
+      "가방 안",
+      "책상 위",
+      "의자 아래",
+      "신발장"
+    ],
+    "answer": "책상 위",
+    "explanation": "쪽지에 책을 책상 위에 놓았다고 쓰여 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "약속: '토요일 오전에 만나자.' 약속한 날은?",
+    "choices": [
+      "월요일",
+      "금요일",
+      "토요일",
+      "일요일"
+    ],
+    "answer": "토요일",
+    "explanation": "약속 문장에서 요일을 알려 주는 낱말은 '토요일'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도서관 규칙: '빌린 책은 정해진 날까지 돌려주세요.' 책을 돌려줄 때는?",
+    "choices": [
+      "빌린 날보다 무조건 늦게",
+      "정해진 날까지",
+      "책을 잃어버린 뒤",
+      "다른 사람이 찾을 때"
+    ],
+    "answer": "정해진 날까지",
+    "explanation": "안내에 나온 '정해진 날까지'가 중요한 조건입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "운동장에 깨진 유리 조각이 있습니다. 가장 안전한 행동은?",
+    "choices": [
+      "손으로 바로 줍기",
+      "친구에게 던지기",
+      "가까이 가지 않고 선생님께 알리기",
+      "발로 차기"
+    ],
+    "answer": "가까이 가지 않고 선생님께 알리기",
+    "explanation": "유리는 다칠 위험이 있어 직접 만지지 않고 어른에게 알립니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP31-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "정보를 비교하고 순서를 추론하며 기초 개념을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "종이 두 장 중 한 장은 젖고 한 장은 마릅니다. 관찰 결과를 바르게 기록한 말은?",
+    "choices": [
+      "두 장 모두 젖었다",
+      "한 장은 젖고 한 장은 말랐다",
+      "두 장 모두 말랐다",
+      "종이가 없어졌다"
+    ],
+    "answer": "한 장은 젖고 한 장은 말랐다",
+    "explanation": "본 모습을 바꾸지 않고 그대로 기록하는 것이 관찰입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

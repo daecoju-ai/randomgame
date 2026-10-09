@@ -1,0 +1,194 @@
+[
+  {
+    "id": "V65-MATH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "math",
+    "domain": "각도",
+    "learning_target": "직각의 크기",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "직각의 크기를 나타내는 타일을 선택하세요.",
+    "choices": [
+      "45°",
+      "90°",
+      "120°",
+      "180°"
+    ],
+    "answer": "90°",
+    "explanation": "직각은 두 선이 수직으로 만날 때 생기는 90도의 각입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V65-MATH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "math",
+    "domain": "분수",
+    "learning_target": "같은 분모의 분수 더하기",
+    "difficulty": 2,
+    "game_type": "FORMULA",
+    "question": "1/5 + 2/5의 값은 무엇인가요?",
+    "choices": [
+      "3/5",
+      "3/10",
+      "2/25",
+      "1/5"
+    ],
+    "answer": "3/5",
+    "explanation": "분모가 같으면 분모 5는 그대로 두고 분자 1과 2를 더합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V65-KOREAN-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "korean",
+    "domain": "이야기 순서",
+    "learning_target": "사건의 시간 순서",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "일이 일어난 순서대로 타일을 고르세요.",
+    "choices": [
+      "이를 닦았어요.",
+      "학교에 갔어요.",
+      "아침밥을 먹었어요."
+    ],
+    "answer": [
+      "아침밥을 먹었어요.",
+      "이를 닦았어요.",
+      "학교에 갔어요."
+    ],
+    "explanation": "아침밥을 먹고 이를 닦은 다음 학교에 가는 순서로 이야기합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V65-ENGLISH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "english",
+    "domain": "문장 배열",
+    "learning_target": "영어 의문문 구성",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'너는 준비됐니?'를 영어 문장으로 만드세요.",
+    "choices": [
+      "you",
+      "ready?",
+      "Are"
+    ],
+    "answer": [
+      "Are",
+      "you",
+      "ready?"
+    ],
+    "explanation": "be동사가 있는 의문문은 Are를 문장 앞에 놓고 주어 you와 형용사 ready를 잇습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V65-SCIENCE-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "science",
+    "domain": "물의 상태",
+    "learning_target": "물의 상태 변화",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "물이 얼 때 일어나는 변화를 선택하세요.",
+    "choices": [
+      "액체 → 고체",
+      "고체 → 액체",
+      "액체 → 기체",
+      "기체 → 액체"
+    ],
+    "answer": "액체 → 고체",
+    "explanation": "물은 충분히 차가워지면 액체에서 고체인 얼음으로 변합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V65-SOCIAL-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "social",
+    "domain": "지역 사회",
+    "learning_target": "공공시설의 역할",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "책을 빌려 읽을 수 있는 공공시설을 선택하세요.",
+    "choices": [
+      "도서관",
+      "소방서",
+      "우체국",
+      "보건소"
+    ],
+    "answer": "도서관",
+    "explanation": "도서관은 책과 정보를 이용하도록 돕는 공공시설입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

@@ -1,0 +1,722 @@
+[
+  {
+    "id": "G1-YEAR26-B-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자 익히기",
+    "learning_target": "글자 익히기 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'나무'의 두 번째 글자는 무엇인가요?",
+    "choices": [
+      "나",
+      "무",
+      "마",
+      "누"
+    ],
+    "answer": "무",
+    "explanation": "'나무'는 '나'와 '무'로 이루어져 두 번째 글자는 '무'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "소리와 글자",
+    "learning_target": "소리와 글자 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'바다'의 첫 글자는 무엇인가요?",
+    "choices": [
+      "다",
+      "바",
+      "마",
+      "라"
+    ],
+    "answer": "바",
+    "explanation": "'바다'의 첫 글자는 '바'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "받침 익히기",
+    "learning_target": "받침 익히기 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 받침이 없는 글자는 무엇인가요?",
+    "choices": [
+      "산",
+      "달",
+      "구",
+      "밤"
+    ],
+    "answer": "구",
+    "explanation": "'구'는 글자 아래에 받침이 없습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 읽기",
+    "learning_target": "낱말 읽기 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 학교에서 글씨를 쓸 때 쓰는 물건은?",
+    "choices": [
+      "연필",
+      "수박",
+      "우산",
+      "컵"
+    ],
+    "answer": "연필",
+    "explanation": "연필은 종이에 글씨를 쓰거나 그림을 그릴 때 사용합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 이해",
+    "learning_target": "문장 이해 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'고양이가 의자 아래에 있어요.' 고양이는 어디에 있나요?",
+    "choices": [
+      "책상 위",
+      "의자 아래",
+      "문 앞",
+      "창문 옆"
+    ],
+    "answer": "의자 아래",
+    "explanation": "문장에 고양이가 의자 아래에 있다고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'너는 몇 살이니' 뒤에 알맞은 문장 부호는?",
+    "choices": [
+      ".",
+      "?",
+      "!",
+      ";"
+    ],
+    "answer": "?",
+    "explanation": "묻는 문장의 끝에는 물음표를 사용합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "6과 4를 더하면 얼마인가요?",
+    "choices": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "10",
+    "explanation": "6에 4를 더하면 10이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "10에서 7을 빼면 얼마인가요?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "3",
+    "explanation": "10개에서 7개를 빼면 3개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "14는 10과 얼마로 나눌 수 있나요?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": "14는 10과 4를 합한 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 18보다 작은 수는 무엇인가요?",
+    "choices": [
+      "19",
+      "20",
+      "17",
+      "21"
+    ],
+    "answer": "17",
+    "explanation": "17은 18보다 1 작은 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "도형과 측정 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "정사각형의 꼭짓점은 몇 개인가요?",
+    "choices": [
+      "2개",
+      "3개",
+      "4개",
+      "5개"
+    ],
+    "answer": "4개",
+    "explanation": "정사각형은 네 변과 네 꼭짓점을 가진 도형입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "자료와 규칙 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "빨강, 파랑, 빨강, 파랑 다음 색은 무엇인가요?",
+    "choices": [
+      "노랑",
+      "빨강",
+      "초록",
+      "보라"
+    ],
+    "answer": "빨강",
+    "explanation": "빨강과 파랑이 번갈아 나타나므로 다음은 빨강입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교 공동체",
+    "learning_target": "학교 공동체 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구와 함께 쓰는 물건을 사용한 뒤 알맞은 행동은?",
+    "choices": [
+      "제자리에 둔다",
+      "숨긴다",
+      "부순다",
+      "집에 가져간다"
+    ],
+    "answer": "제자리에 둔다",
+    "explanation": "함께 쓰는 물건은 사용한 뒤 제자리에 두어야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "안전한 생활",
+    "learning_target": "안전한 생활 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "뜨거운 냄비를 발견했을 때 알맞은 행동은?",
+    "choices": [
+      "맨손으로 잡는다",
+      "어른에게 알린다",
+      "냄비를 던진다",
+      "손을 넣어 본다"
+    ],
+    "answer": "어른에게 알린다",
+    "explanation": "뜨거운 물건은 화상을 입을 수 있으므로 어른에게 알려야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "계절 변화",
+    "learning_target": "계절 변화 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "여름에 햇볕이 강할 때 야외에서 도움이 되는 물건은?",
+    "choices": [
+      "모자",
+      "두꺼운 털장갑",
+      "목도리",
+      "방한 부츠"
+    ],
+    "answer": "모자",
+    "explanation": "햇볕이 강할 때 모자를 쓰면 햇빛을 가리는 데 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연 관찰",
+    "learning_target": "자연 관찰 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "식물의 잎을 자세히 관찰할 때 적절한 행동은?",
+    "choices": [
+      "모양을 살펴본다",
+      "모두 뜯어 버린다",
+      "발로 밟는다",
+      "눈을 감는다"
+    ],
+    "answer": "모양을 살펴본다",
+    "explanation": "식물의 잎 모양과 색을 살펴보며 관찰할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "건강 습관",
+    "learning_target": "건강 습관 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이를 건강하게 관리하는 데 도움이 되는 행동은?",
+    "choices": [
+      "규칙적으로 양치한다",
+      "사탕만 먹는다",
+      "이를 닦지 않는다",
+      "칫솔을 던진다"
+    ],
+    "answer": "규칙적으로 양치한다",
+    "explanation": "규칙적인 양치질은 치아를 깨끗하게 관리하는 데 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "가족과 생활",
+    "learning_target": "가족과 생활 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "가족이 이야기할 때 서로 존중하는 태도는?",
+    "choices": [
+      "말을 끝까지 듣는다",
+      "큰 소리로 방해한다",
+      "상대 말을 무시한다",
+      "물건을 던진다"
+    ],
+    "answer": "말을 끝까지 듣는다",
+    "explanation": "서로의 말을 끝까지 듣는 것은 상대를 존중하는 행동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "표현 활동",
+    "learning_target": "표현 활동 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "음악에 맞춰 몸을 움직이는 활동은 무엇인가요?",
+    "choices": [
+      "움직임 표현",
+      "길이 재기",
+      "문장 받아쓰기",
+      "덧셈 계산"
+    ],
+    "answer": "움직임 표현",
+    "explanation": "음악의 박자와 느낌에 맞춰 몸을 움직이며 표현할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-B-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "표현 활동",
+    "learning_target": "표현 활동 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이를 접어서 모양을 만드는 활동은 무엇인가요?",
+    "choices": [
+      "종이접기",
+      "달리기",
+      "노래 부르기",
+      "줄넘기"
+    ],
+    "answer": "종이접기",
+    "explanation": "색종이를 접어 다양한 모양을 만드는 활동을 종이접기라고 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_answer_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

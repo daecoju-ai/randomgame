@@ -1790,13 +1790,13 @@
       "54"
     ],
     "answer": "52",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 13 × 4 = 52cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 13개, 세로로 4줄 놓는다고 생각합니다. 모두 13×4=52개이므로 넓이는 52cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -1811,7 +1811,8 @@
       "result": "52",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-042",
@@ -1831,13 +1832,13 @@
       "54"
     ],
     "answer": "52",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 26 × 4 ÷ 2 = 52cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 26cm, 높이 4cm인 평행사변형이 됩니다. 평행사변형 넓이 104cm²의 절반이므로 26×4÷2=52cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -1852,7 +1853,8 @@
       "result": "52",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-043",
@@ -1872,13 +1874,13 @@
       "13"
     ],
     "answer": "11",
-    "explanation": "점수의 합을 횟수로 나눠요. (9 + 11 + 13) ÷ 3 = 11점입니다.",
+    "explanation": "세 점수의 합은 9+11+13=33점입니다. 이 33점을 세 번에 똑같이 나누면 33÷3=11점이므로 평균은 11점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -1893,7 +1895,8 @@
       "result": "11",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-044",
@@ -1913,13 +1916,13 @@
       "5.6"
     ],
     "answer": "3.6",
-    "explanation": "9/10을 4배 하면 3.6입니다.",
+    "explanation": "0.9는 1/10이 9개입니다. 4배 하면 1/10이 36개가 되어 36/10=3.6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -1934,7 +1937,8 @@
       "result": "3.6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-045",
@@ -1954,13 +1958,13 @@
       "15"
     ],
     "answer": "13",
-    "explanation": "전체를 4등분한 한 부분입니다. 52 ÷ 4 = 13L입니다.",
+    "explanation": "전체 52L를 4부분으로 똑같이 나눈 한 부분이 1/4입니다. 52÷4=13이므로 답은 13L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -1975,7 +1979,8 @@
       "result": "13",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-046",
@@ -1995,13 +2000,13 @@
       "72"
     ],
     "answer": "70",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 14 × 5 = 70cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 14개, 세로로 5줄 놓는다고 생각합니다. 모두 14×5=70개이므로 넓이는 70cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -2016,7 +2021,8 @@
       "result": "70",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-047",
@@ -2036,13 +2042,13 @@
       "72"
     ],
     "answer": "70",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 28 × 5 ÷ 2 = 70cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 28cm, 높이 5cm인 평행사변형이 됩니다. 평행사변형 넓이 140cm²의 절반이므로 28×5÷2=70cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -2057,7 +2063,8 @@
       "result": "70",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-048",
@@ -2077,13 +2084,13 @@
       "14"
     ],
     "answer": "12",
-    "explanation": "점수의 합을 횟수로 나눠요. (10 + 12 + 14) ÷ 3 = 12점입니다.",
+    "explanation": "세 점수의 합은 10+12+14=36점입니다. 이 36점을 세 번에 똑같이 나누면 36÷3=12점이므로 평균은 12점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -2098,7 +2105,8 @@
       "result": "12",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-049",
@@ -2118,13 +2126,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "10/10을 5배 하면 5입니다.",
+    "explanation": "1는 1/10이 10개입니다. 5배 하면 1/10이 50개가 되어 50/10=5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -2139,7 +2147,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-050",
@@ -2159,13 +2168,13 @@
       "16"
     ],
     "answer": "14",
-    "explanation": "전체를 5등분한 한 부분입니다. 70 ÷ 5 = 14L입니다.",
+    "explanation": "전체 70L를 5부분으로 똑같이 나눈 한 부분이 1/5입니다. 70÷5=14이므로 답은 14L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -2180,7 +2189,8 @@
       "result": "14",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-051",
@@ -2200,13 +2210,13 @@
       "92"
     ],
     "answer": "90",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 15 × 6 = 90cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 15개, 세로로 6줄 놓는다고 생각합니다. 모두 15×6=90개이므로 넓이는 90cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -2221,7 +2231,8 @@
       "result": "90",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-052",
@@ -2241,13 +2252,13 @@
       "92"
     ],
     "answer": "90",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 30 × 6 ÷ 2 = 90cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 30cm, 높이 6cm인 평행사변형이 됩니다. 평행사변형 넓이 180cm²의 절반이므로 30×6÷2=90cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -2262,7 +2273,8 @@
       "result": "90",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-053",
@@ -2282,13 +2294,13 @@
       "15"
     ],
     "answer": "13",
-    "explanation": "점수의 합을 횟수로 나눠요. (11 + 13 + 15) ÷ 3 = 13점입니다.",
+    "explanation": "세 점수의 합은 11+13+15=39점입니다. 이 39점을 세 번에 똑같이 나누면 39÷3=13점이므로 평균은 13점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -2303,7 +2315,8 @@
       "result": "13",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-054",
@@ -2323,13 +2336,13 @@
       "8.6"
     ],
     "answer": "6.6",
-    "explanation": "11/10을 6배 하면 6.6입니다.",
+    "explanation": "1.1는 1/10이 11개입니다. 6배 하면 1/10이 66개가 되어 66/10=6.6000000000000005입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -2344,7 +2357,8 @@
       "result": "6.6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-055",
@@ -2364,13 +2378,13 @@
       "17"
     ],
     "answer": "15",
-    "explanation": "전체를 6등분한 한 부분입니다. 90 ÷ 6 = 15L입니다.",
+    "explanation": "전체 90L를 6부분으로 똑같이 나눈 한 부분이 1/6입니다. 90÷6=15이므로 답은 15L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -2385,7 +2399,8 @@
       "result": "15",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-056",
@@ -2405,13 +2420,13 @@
       "114"
     ],
     "answer": "112",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 16 × 7 = 112cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 16개, 세로로 7줄 놓는다고 생각합니다. 모두 16×7=112개이므로 넓이는 112cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -2426,7 +2441,8 @@
       "result": "112",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-057",
@@ -2446,13 +2462,13 @@
       "114"
     ],
     "answer": "112",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 32 × 7 ÷ 2 = 112cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 32cm, 높이 7cm인 평행사변형이 됩니다. 평행사변형 넓이 224cm²의 절반이므로 32×7÷2=112cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -2467,7 +2483,8 @@
       "result": "112",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-058",
@@ -2487,13 +2504,13 @@
       "16"
     ],
     "answer": "14",
-    "explanation": "점수의 합을 횟수로 나눠요. (12 + 14 + 16) ÷ 3 = 14점입니다.",
+    "explanation": "세 점수의 합은 12+14+16=42점입니다. 이 42점을 세 번에 똑같이 나누면 42÷3=14점이므로 평균은 14점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -2508,7 +2525,8 @@
       "result": "14",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-059",
@@ -2528,13 +2546,13 @@
       "10.4"
     ],
     "answer": "8.4",
-    "explanation": "12/10을 7배 하면 8.4입니다.",
+    "explanation": "1.2는 1/10이 12개입니다. 7배 하면 1/10이 84개가 되어 84/10=8.4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -2549,7 +2567,8 @@
       "result": "8.4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-060",
@@ -2569,13 +2588,13 @@
       "18"
     ],
     "answer": "16",
-    "explanation": "전체를 7등분한 한 부분입니다. 112 ÷ 7 = 16L입니다.",
+    "explanation": "전체 112L를 7부분으로 똑같이 나눈 한 부분이 1/7입니다. 112÷7=16이므로 답은 16L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -2590,7 +2609,8 @@
       "result": "16",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-061",
@@ -2610,13 +2630,13 @@
       "138"
     ],
     "answer": "136",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 17 × 8 = 136cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 17개, 세로로 8줄 놓는다고 생각합니다. 모두 17×8=136개이므로 넓이는 136cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -2631,7 +2651,8 @@
       "result": "136",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-062",
@@ -2651,13 +2672,13 @@
       "138"
     ],
     "answer": "136",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 34 × 8 ÷ 2 = 136cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 34cm, 높이 8cm인 평행사변형이 됩니다. 평행사변형 넓이 272cm²의 절반이므로 34×8÷2=136cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -2672,7 +2693,8 @@
       "result": "136",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-063",
@@ -2692,13 +2714,13 @@
       "17"
     ],
     "answer": "15",
-    "explanation": "점수의 합을 횟수로 나눠요. (13 + 15 + 17) ÷ 3 = 15점입니다.",
+    "explanation": "세 점수의 합은 13+15+17=45점입니다. 이 45점을 세 번에 똑같이 나누면 45÷3=15점이므로 평균은 15점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -2713,7 +2735,8 @@
       "result": "15",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-064",
@@ -2733,13 +2756,13 @@
       "12.4"
     ],
     "answer": "10.4",
-    "explanation": "13/10을 8배 하면 10.4입니다.",
+    "explanation": "1.3는 1/10이 13개입니다. 8배 하면 1/10이 104개가 되어 104/10=10.4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -2754,7 +2777,8 @@
       "result": "10.4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-065",
@@ -2774,13 +2798,13 @@
       "19"
     ],
     "answer": "17",
-    "explanation": "전체를 8등분한 한 부분입니다. 136 ÷ 8 = 17L입니다.",
+    "explanation": "전체 136L를 8부분으로 똑같이 나눈 한 부분이 1/8입니다. 136÷8=17이므로 답은 17L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -2795,7 +2819,8 @@
       "result": "17",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-066",
@@ -2815,13 +2840,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 18 × 2 = 36cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 18개, 세로로 2줄 놓는다고 생각합니다. 모두 18×2=36개이므로 넓이는 36cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -2836,7 +2861,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-067",
@@ -2856,13 +2882,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 36 × 2 ÷ 2 = 36cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 36cm, 높이 2cm인 평행사변형이 됩니다. 평행사변형 넓이 72cm²의 절반이므로 36×2÷2=36cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -2877,7 +2903,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-068",
@@ -2897,13 +2924,13 @@
       "18"
     ],
     "answer": "16",
-    "explanation": "점수의 합을 횟수로 나눠요. (14 + 16 + 18) ÷ 3 = 16점입니다.",
+    "explanation": "세 점수의 합은 14+16+18=48점입니다. 이 48점을 세 번에 똑같이 나누면 48÷3=16점이므로 평균은 16점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -2918,7 +2945,8 @@
       "result": "16",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-069",
@@ -2938,13 +2966,13 @@
       "4.8"
     ],
     "answer": "2.8",
-    "explanation": "14/10을 2배 하면 2.8입니다.",
+    "explanation": "1.4는 1/10이 14개입니다. 2배 하면 1/10이 28개가 되어 28/10=2.8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -2959,7 +2987,8 @@
       "result": "2.8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-070",
@@ -2979,13 +3008,13 @@
       "20"
     ],
     "answer": "18",
-    "explanation": "전체를 2등분한 한 부분입니다. 36 ÷ 2 = 18L입니다.",
+    "explanation": "전체 36L를 2부분으로 똑같이 나눈 한 부분이 1/2입니다. 36÷2=18이므로 답은 18L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -3000,7 +3029,8 @@
       "result": "18",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-071",
@@ -3020,13 +3050,13 @@
       "59"
     ],
     "answer": "57",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 19 × 3 = 57cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 19개, 세로로 3줄 놓는다고 생각합니다. 모두 19×3=57개이므로 넓이는 57cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -3041,7 +3071,8 @@
       "result": "57",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-072",
@@ -3061,13 +3092,13 @@
       "59"
     ],
     "answer": "57",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 38 × 3 ÷ 2 = 57cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 38cm, 높이 3cm인 평행사변형이 됩니다. 평행사변형 넓이 114cm²의 절반이므로 38×3÷2=57cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -3082,7 +3113,8 @@
       "result": "57",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-073",
@@ -3102,13 +3134,13 @@
       "19"
     ],
     "answer": "17",
-    "explanation": "점수의 합을 횟수로 나눠요. (15 + 17 + 19) ÷ 3 = 17점입니다.",
+    "explanation": "세 점수의 합은 15+17+19=51점입니다. 이 51점을 세 번에 똑같이 나누면 51÷3=17점이므로 평균은 17점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -3123,7 +3155,8 @@
       "result": "17",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-074",
@@ -3143,13 +3176,13 @@
       "6.5"
     ],
     "answer": "4.5",
-    "explanation": "15/10을 3배 하면 4.5입니다.",
+    "explanation": "1.5는 1/10이 15개입니다. 3배 하면 1/10이 45개가 되어 45/10=4.5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -3164,7 +3197,8 @@
       "result": "4.5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-075",
@@ -3184,13 +3218,13 @@
       "21"
     ],
     "answer": "19",
-    "explanation": "전체를 3등분한 한 부분입니다. 57 ÷ 3 = 19L입니다.",
+    "explanation": "전체 57L를 3부분으로 똑같이 나눈 한 부분이 1/3입니다. 57÷3=19이므로 답은 19L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -3205,7 +3239,8 @@
       "result": "19",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-076",
@@ -3225,13 +3260,13 @@
       "82"
     ],
     "answer": "80",
-    "explanation": "직사각형 넓이 = 가로 × 세로입니다. 20 × 4 = 80cm²입니다.",
+    "explanation": "1cm²짜리 정사각형을 가로로 20개, 세로로 4줄 놓는다고 생각합니다. 모두 20×4=80개이므로 넓이는 80cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직사각형 넓이"
     ],
@@ -3246,7 +3281,8 @@
       "result": "80",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 넓이의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-077",
@@ -3266,13 +3302,13 @@
       "82"
     ],
     "answer": "80",
-    "explanation": "삼각형 넓이 = 밑변 × 높이 ÷ 2입니다. 40 × 4 ÷ 2 = 80cm²입니다.",
+    "explanation": "같은 삼각형 두 개를 맞붙이면 밑변 40cm, 높이 4cm인 평행사변형이 됩니다. 평행사변형 넓이 160cm²의 절반이므로 40×4÷2=80cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "삼각형 넓이"
     ],
@@ -3287,7 +3323,8 @@
       "result": "80",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "삼각형 넓이 공식의 절반 원리를 설명"
   },
   {
     "id": "V61-E5-MATH-078",
@@ -3307,13 +3344,13 @@
       "20"
     ],
     "answer": "18",
-    "explanation": "점수의 합을 횟수로 나눠요. (16 + 18 + 20) ÷ 3 = 18점입니다.",
+    "explanation": "세 점수의 합은 16+18+20=54점입니다. 이 54점을 세 번에 똑같이 나누면 54÷3=18점이므로 평균은 18점입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "평균"
     ],
@@ -3328,7 +3365,8 @@
       "result": "18",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평균을 전체 합을 자료 수만큼 고르게 나누는 값으로 설명"
   },
   {
     "id": "V61-E5-MATH-079",
@@ -3348,13 +3386,13 @@
       "8.4"
     ],
     "answer": "6.4",
-    "explanation": "16/10을 4배 하면 6.4입니다.",
+    "explanation": "1.6는 1/10이 16개입니다. 4배 하면 1/10이 64개가 되어 64/10=6.4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 곱셈"
     ],
@@ -3369,7 +3407,8 @@
       "result": "6.4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "V61-E5-MATH-080",
@@ -3389,13 +3428,13 @@
       "22"
     ],
     "answer": "20",
-    "explanation": "전체를 4등분한 한 부분입니다. 80 ÷ 4 = 20L입니다.",
+    "explanation": "전체 80L를 4부분으로 똑같이 나눈 한 부분이 1/4입니다. 80÷4=20이므로 답은 20L입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수의 양"
     ],
@@ -3410,7 +3449,8 @@
       "result": "20",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "단위분수를 전체의 등분과 나눗셈으로 연결"
   },
   {
     "id": "V61-E5-MATH-081",

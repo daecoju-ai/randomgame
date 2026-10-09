@@ -50,7 +50,14 @@ function grade1ConceptLesson(q){
  }
  return null;
 }
-function lesson(q){if(q.school==='elementary'&&Number(q.grade)===1){if(q.subject==='math'&&q.domain==='geometry_measurement')return grade1GeometryLesson(q);const concept=grade1ConceptLesson(q);if(concept)return concept;}const id=topic(q);if(!id)return null;const [title,principle,example,prompt,choices,answer,hints]=lessons[id];return {id,title,principle,example,prompt,choices,answer,hints}}
+function grade1IntegratedLesson(q){
+ const domain=String(q.domain||'');
+ if(/안전/.test(domain))return{id:'grade1-integrated-safety',title:'위험할 땐 멈추고 도움을 요청해요',principle:'뜨겁거나 위험한 물건은 함부로 만지지 않고 어른에게 알려요.',example:'뜨거운 냄비를 보면 손대지 않고 어른을 불러요.',prompt:'뜨거운 냄비를 발견하면 어떻게 할까요?',choices:['손으로 잡아요','어른에게 알려요','장난쳐요'],answer:'어른에게 알려요',hints:['다치지 않는 행동인지 먼저 생각해 보세요.','위험한 물건은 만지지 말고 어른에게 알려요.']};
+ if(/계절|날씨/.test(domain))return{id:'grade1-integrated-season',title:'날씨에 맞게 준비해요',principle:'날씨와 계절을 살펴보고 몸을 보호할 물건을 골라요.',example:'햇볕이 강한 날에는 모자가 도움이 돼요.',prompt:'햇볕이 강할 때 도움이 되는 물건은?',choices:['모자','목도리','장갑'],answer:'모자',hints:['오늘 날씨가 덥거나 추운지 생각해 보세요.','햇볕이 강할 때 머리를 가릴 물건을 찾아요.']};
+ if(/자연|관찰|생명/.test(domain))return{id:'grade1-integrated-nature',title:'생명을 아끼며 관찰해요',principle:'식물과 동물은 함부로 훼손하지 않고 눈으로 자세히 관찰해요.',example:'잎을 살펴볼 때는 뜯지 않고 모양과 색을 관찰해요.',prompt:'식물의 잎을 관찰할 때 알맞은 행동은?',choices:['잎을 모두 뜯어요','모양을 살펴봐요','줄기를 꺾어요'],answer:'모양을 살펴봐요',hints:['식물이 다치지 않을 방법을 찾아보세요.','먼저 눈으로 모양과 색을 살펴보세요.']};
+ return{id:'grade1-integrated-community',title:'친구와 함께 배려하며 생활해요',principle:'함께 쓰는 물건은 소중히 사용하고 제자리에 정리해요.',example:'친구와 함께 쓴 색연필은 사용한 뒤 제자리에 놓아요.',prompt:'함께 쓴 색연필은 어떻게 할까요?',choices:['숨겨요','제자리에 놓아요','버려요'],answer:'제자리에 놓아요',hints:['다음 친구도 사용할 수 있을지 생각해 보세요.','함께 쓰는 물건은 제자리에 정리해요.']};
+}
+function lesson(q){if(q.school==='elementary'&&Number(q.grade)===1){if(q.subject==='integrated')return grade1IntegratedLesson(q);if(q.subject==='math'&&q.domain==='geometry_measurement')return grade1GeometryLesson(q);const concept=grade1ConceptLesson(q);if(concept)return concept;}const id=topic(q);if(!id)return null;const [title,principle,example,prompt,choices,answer,hints]=lessons[id];return {id,title,principle,example,prompt,choices,answer,hints}}
 function queue(rows,random=Math.random){const groups=new Map();for(const q of rows){const d=Number(q.difficulty)||1;if(!groups.has(d))groups.set(d,[]);groups.get(d).push(q)}return [...groups.keys()].sort((a,b)=>a-b).flatMap(d=>{const a=groups.get(d);for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a})}
 const api={lesson,topic,queue};if(typeof module!=='undefined')module.exports=api;else root.ForgeLearningSupport=api;
 })(typeof window!=='undefined'?window:globalThis);

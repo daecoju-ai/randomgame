@@ -1278,5 +1278,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-041",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "글쓴이의 의도",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글쓴이가 여러 사례를 들어 ‘작은 실천도 환경 보호에 도움이 된다’고 설명한 까닭은?",
+    "choices": [
+      "독자가 생활 속 실천의 가치를 이해하게 하려고",
+      "사례의 개수만 외우게 하려고",
+      "환경과 관계없는 이야기를 하려고",
+      "글의 중심 내용을 숨기려고"
+    ],
+    "answer": "독자가 생활 속 실천의 가치를 이해하게 하려고",
+    "explanation": "글쓴이의 의도는 글의 중심 내용과 사용한 자료를 함께 살펴 짐작합니다. 여러 생활 사례는 작은 행동도 환경 보호에 도움이 된다는 생각을 구체적으로 이해시키기 위해 사용되었습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-042",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "사전 활용",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽다가 뜻을 모르는 낱말을 사전에서 찾을 때 함께 살펴보면 좋은 것은?",
+    "choices": [
+      "문맥에 맞는 뜻과 용례",
+      "낱말의 글자 수만",
+      "사전 페이지의 색깔",
+      "옆에 있는 관계없는 낱말"
+    ],
+    "answer": "문맥에 맞는 뜻과 용례",
+    "explanation": "한 낱말에 여러 뜻이 있을 수 있으므로 사전의 첫 번째 뜻만 고르면 안 됩니다. 글 속 문맥과 사전의 뜻풀이·용례를 비교해 가장 알맞은 의미를 찾아야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-043",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "독자를 고려한 표현",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 안내문을 처음 방문하는 학부모에게 쓸 때 가장 알맞은 표현은?",
+    "choices": [
+      "장소와 시간을 구체적이고 이해하기 쉽게 안내한다",
+      "학생들만 아는 줄임말을 많이 쓴다",
+      "중요한 시간을 생략한다",
+      "장소를 ‘거기’라고만 쓴다"
+    ],
+    "answer": "장소와 시간을 구체적이고 이해하기 쉽게 안내한다",
+    "explanation": "안내문은 읽는 사람이 필요한 정보를 바로 이해할 수 있어야 합니다. 처음 방문하는 사람을 고려해 날짜, 시간, 장소 등을 구체적으로 쓰고 낯선 줄임말은 피하는 것이 좋습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-044",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문장 부호",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다른 사람이 한 말을 그대로 나타낼 때 주로 사용하는 문장 부호는?",
+    "choices": [
+      "따옴표",
+      "물음표만",
+      "가운뎃점만",
+      "줄표만"
+    ],
+    "answer": "따옴표",
+    "explanation": "다른 사람이 말하거나 쓴 내용을 그대로 인용할 때는 그 부분을 따옴표로 표시합니다. 따옴표는 어디부터 어디까지가 인용한 말인지 독자가 구별하도록 돕습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-045",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발표 평가",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표를 평가하는 기준으로 가장 알맞은 것은?",
+    "choices": [
+      "내용이 주제에 맞고 근거가 분명한지 살펴본다",
+      "발표자의 키만 비교한다",
+      "목소리가 크면 내용도 무조건 맞다고 본다",
+      "자료가 화려한지만 본다"
+    ],
+    "answer": "내용이 주제에 맞고 근거가 분명한지 살펴본다",
+    "explanation": "발표 평가는 겉모습보다 전달 내용과 방법을 기준으로 해야 합니다. 주제에 맞는 내용인지, 근거가 충분한지, 청중이 이해하기 쉽게 표현했는지를 함께 살펴봅니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "G1-YEAR26-VARIETY3-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '일어나기 → 세수하기 → 아침 먹기'",
+    "choices": [
+      "아침 먹기",
+      "일어나기",
+      "세수하기"
+    ],
+    "answer": [
+      "일어나기",
+      "세수하기",
+      "아침 먹기"
+    ],
+    "explanation": "일어나기 → 세수하기 → 아침 먹기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '씨앗 심기 → 물 주기 → 싹 관찰하기'",
+    "choices": [
+      "싹 관찰하기",
+      "씨앗 심기",
+      "물 주기"
+    ],
+    "answer": [
+      "씨앗 심기",
+      "물 주기",
+      "싹 관찰하기"
+    ],
+    "explanation": "씨앗 심기 → 물 주기 → 싹 관찰하기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '손 씻기 → 밥 먹기 → 양치하기'",
+    "choices": [
+      "양치하기",
+      "손 씻기",
+      "밥 먹기"
+    ],
+    "answer": [
+      "손 씻기",
+      "밥 먹기",
+      "양치하기"
+    ],
+    "explanation": "손 씻기 → 밥 먹기 → 양치하기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '책 펼치기 → 책 읽기 → 책 덮기'",
+    "choices": [
+      "책 덮기",
+      "책 펼치기",
+      "책 읽기"
+    ],
+    "answer": [
+      "책 펼치기",
+      "책 읽기",
+      "책 덮기"
+    ],
+    "explanation": "책 펼치기 → 책 읽기 → 책 덮기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '준비물 챙기기 → 학교 가기 → 교실 들어가기'",
+    "choices": [
+      "교실 들어가기",
+      "준비물 챙기기",
+      "학교 가기"
+    ],
+    "answer": [
+      "준비물 챙기기",
+      "학교 가기",
+      "교실 들어가기"
+    ],
+    "explanation": "준비물 챙기기 → 학교 가기 → 교실 들어가기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '신발 신기 → 문 열기 → 밖으로 나가기'",
+    "choices": [
+      "밖으로 나가기",
+      "신발 신기",
+      "문 열기"
+    ],
+    "answer": [
+      "신발 신기",
+      "문 열기",
+      "밖으로 나가기"
+    ],
+    "explanation": "신발 신기 → 문 열기 → 밖으로 나가기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '종이 준비하기 → 그림 그리기 → 색칠하기'",
+    "choices": [
+      "색칠하기",
+      "종이 준비하기",
+      "그림 그리기"
+    ],
+    "answer": [
+      "종이 준비하기",
+      "그림 그리기",
+      "색칠하기"
+    ],
+    "explanation": "종이 준비하기 → 그림 그리기 → 색칠하기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '장난감 꺼내기 → 놀이하기 → 장난감 정리하기'",
+    "choices": [
+      "장난감 정리하기",
+      "장난감 꺼내기",
+      "놀이하기"
+    ],
+    "answer": [
+      "장난감 꺼내기",
+      "놀이하기",
+      "장난감 정리하기"
+    ],
+    "explanation": "장난감 꺼내기 → 놀이하기 → 장난감 정리하기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '빨래하기 → 빨래 널기 → 마른 옷 개기'",
+    "choices": [
+      "마른 옷 개기",
+      "빨래하기",
+      "빨래 널기"
+    ],
+    "answer": [
+      "빨래하기",
+      "빨래 널기",
+      "마른 옷 개기"
+    ],
+    "explanation": "빨래하기 → 빨래 널기 → 마른 옷 개기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "일의 순서를 올바르게 배열하세요. '가방 열기 → 책 꺼내기 → 책상에 놓기'",
+    "choices": [
+      "책상에 놓기",
+      "가방 열기",
+      "책 꺼내기"
+    ],
+    "answer": [
+      "가방 열기",
+      "책 꺼내기",
+      "책상에 놓기"
+    ],
+    "explanation": "가방 열기 → 책 꺼내기 → 책상에 놓기 순서로 진행합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '사과'와 '연필'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "사과 ↔ 학용품",
+      "연필 ↔ 과일",
+      "사과 ↔ 과일",
+      "연필 ↔ 학용품"
+    ],
+    "answer": [
+      "사과 ↔ 과일",
+      "연필 ↔ 학용품"
+    ],
+    "explanation": "사과는 과일, 연필는 학용품와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '우산'와 '외투'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "우산 ↔ 추운 날",
+      "외투 ↔ 비 오는 날",
+      "우산 ↔ 비 오는 날",
+      "외투 ↔ 추운 날"
+    ],
+    "answer": [
+      "우산 ↔ 비 오는 날",
+      "외투 ↔ 추운 날"
+    ],
+    "explanation": "우산는 비 오는 날, 외투는 추운 날와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '손 씻기'와 '차례 지키기'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "손 씻기 ↔ 배려",
+      "차례 지키기 ↔ 위생",
+      "손 씻기 ↔ 위생",
+      "차례 지키기 ↔ 배려"
+    ],
+    "answer": [
+      "손 씻기 ↔ 위생",
+      "차례 지키기 ↔ 배려"
+    ],
+    "explanation": "손 씻기는 위생, 차례 지키기는 배려와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '도서관'와 '운동장'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "도서관 ↔ 운동하기",
+      "운동장 ↔ 책 읽기",
+      "도서관 ↔ 책 읽기",
+      "운동장 ↔ 운동하기"
+    ],
+    "answer": [
+      "도서관 ↔ 책 읽기",
+      "운동장 ↔ 운동하기"
+    ],
+    "explanation": "도서관는 책 읽기, 운동장는 운동하기와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '봄'와 '겨울'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "봄 ↔ 눈 내리기",
+      "겨울 ↔ 꽃 피기",
+      "봄 ↔ 꽃 피기",
+      "겨울 ↔ 눈 내리기"
+    ],
+    "answer": [
+      "봄 ↔ 꽃 피기",
+      "겨울 ↔ 눈 내리기"
+    ],
+    "explanation": "봄는 꽃 피기, 겨울는 눈 내리기와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '세모'와 '네모'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "세모 ↔ 꼭짓점 4개",
+      "네모 ↔ 꼭짓점 3개",
+      "세모 ↔ 꼭짓점 3개",
+      "네모 ↔ 꼭짓점 4개"
+    ],
+    "answer": [
+      "세모 ↔ 꼭짓점 3개",
+      "네모 ↔ 꼭짓점 4개"
+    ],
+    "explanation": "세모는 꼭짓점 3개, 네모는 꼭짓점 4개와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '아침'와 '밤'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "아침 ↔ 잠자기",
+      "밤 ↔ 일어나기",
+      "아침 ↔ 일어나기",
+      "밤 ↔ 잠자기"
+    ],
+    "answer": [
+      "아침 ↔ 일어나기",
+      "밤 ↔ 잠자기"
+    ],
+    "explanation": "아침는 일어나기, 밤는 잠자기와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련 있는 것끼리 짝지으세요. '빨간 신호'와 '초록 신호'에 맞는 것을 차례로 고르세요.",
+    "choices": [
+      "빨간 신호 ↔ 살피고 건너기",
+      "초록 신호 ↔ 기다리기",
+      "빨간 신호 ↔ 기다리기",
+      "초록 신호 ↔ 살피고 건너기"
+    ],
+    "answer": [
+      "빨간 신호 ↔ 기다리기",
+      "초록 신호 ↔ 살피고 건너기"
+    ],
+    "explanation": "빨간 신호는 기다리기, 초록 신호는 살피고 건너기와 연결됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'지수는 공원에서 줄넘기를 했습니다.' 지수가 줄넘기를 한 장소는?",
+    "choices": [
+      "학교",
+      "공원",
+      "도서관",
+      "식당"
+    ],
+    "answer": "공원",
+    "explanation": "문장 '지수는 공원에서 줄넘기를 했습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'민호는 노란 모자를 쓰고 산책했습니다.' 민호의 모자 색깔은?",
+    "choices": [
+      "파란색",
+      "노란색",
+      "빨간색",
+      "초록색"
+    ],
+    "answer": "노란색",
+    "explanation": "문장 '민호는 노란 모자를 쓰고 산책했습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'수지는 점심에 김밥을 먹었습니다.' 수지가 먹은 음식은?",
+    "choices": [
+      "사과",
+      "김밥",
+      "국수",
+      "빵"
+    ],
+    "answer": "김밥",
+    "explanation": "문장 '수지는 점심에 김밥을 먹었습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'비가 와서 유진이는 장화를 신었습니다.' 유진이가 장화를 신은 이유는?",
+    "choices": [
+      "더워서",
+      "비가 와서",
+      "잠이 와서",
+      "배가 고파서"
+    ],
+    "answer": "비가 와서",
+    "explanation": "문장 '비가 와서 유진이는 장화를 신었습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'하늘이는 동생에게 그림책을 읽어 주었습니다.' 하늘이가 동생에게 읽어 준 것은?",
+    "choices": [
+      "신문",
+      "그림책",
+      "편지",
+      "지도"
+    ],
+    "answer": "그림책",
+    "explanation": "문장 '하늘이는 동생에게 그림책을 읽어 주었습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'준호는 아침에 이를 닦았습니다.' 준호가 이를 닦은 때는?",
+    "choices": [
+      "저녁",
+      "아침",
+      "밤",
+      "점심"
+    ],
+    "answer": "아침",
+    "explanation": "문장 '준호는 아침에 이를 닦았습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'나래는 가방에 연필을 넣었습니다.' 나래가 가방에 넣은 것은?",
+    "choices": [
+      "공",
+      "연필",
+      "컵",
+      "우산"
+    ],
+    "answer": "연필",
+    "explanation": "문장 '나래는 가방에 연필을 넣었습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'고양이는 의자 밑에서 잠을 잤습니다.' 고양이가 잠을 잔 곳은?",
+    "choices": [
+      "탁자 위",
+      "의자 밑",
+      "마당",
+      "침대 위"
+    ],
+    "answer": "의자 밑",
+    "explanation": "문장 '고양이는 의자 밑에서 잠을 잤습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'도윤이는 친구와 함께 공을 찼습니다.' 도윤이가 친구와 함께 한 놀이는?",
+    "choices": [
+      "그림 그리기",
+      "공차기",
+      "노래 부르기",
+      "책 읽기"
+    ],
+    "answer": "공차기",
+    "explanation": "문장 '도윤이는 친구와 함께 공을 찼습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY3-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽고 생각하며 순서 배열과 선택으로 문제 해결하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "'엄마는 화분에 물을 주었습니다.' 엄마가 물을 준 것은?",
+    "choices": [
+      "자동차",
+      "화분",
+      "신발",
+      "가방"
+    ],
+    "answer": "화분",
+    "explanation": "문장 '엄마는 화분에 물을 주었습니다.'에서 답을 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

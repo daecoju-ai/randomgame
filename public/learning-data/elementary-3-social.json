@@ -1,1 +1,373 @@
-[{"id":"V62-SOCIAL-006","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"고장","learning_target":"고장","difficulty":2,"game_type":"TILE_CHOICE","question":"학교 주변을 직접 살펴보며 정보를 얻는 활동은?","choices":["현장 조사","상상만 하기","소문 옮기기","아무 근거 없이 추측"],"answer":"현장 조사","explanation":"현장 조사는 장소를 직접 방문해 관찰하고 정보를 모으는 활동입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SOCIAL-007","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"고장","learning_target":"고장","difficulty":2,"game_type":"TILE_CHOICE","question":"고장의 예전 모습을 알아보는 데 도움이 되는 자료는?","choices":["옛 사진","내일의 날씨 예보","빈 종이","운동 점수"],"answer":"옛 사진","explanation":"옛 사진에는 당시의 거리와 건물 등 과거 모습이 남아 있습니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SOCIAL-008","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"고장","learning_target":"고장","difficulty":2,"game_type":"TILE_CHOICE","question":"고장 정보를 조사한 뒤 해야 할 일은?","choices":["출처와 내용을 정리하기","근거를 지우기","모두 사실로 단정하기","기록을 버리기"],"answer":"출처와 내용을 정리하기","explanation":"어디에서 얻은 정보인지와 내용을 함께 기록해야 확인할 수 있습니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SOCIAL-009","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"생활","learning_target":"생활","difficulty":2,"game_type":"TILE_CHOICE","question":"사람과 물건을 다른 곳으로 옮기는 데 쓰는 수단은?","choices":["교통수단","문장 부호","지도 기호","악기"],"answer":"교통수단","explanation":"버스와 기차 같은 교통수단은 사람이나 물건을 이동시킵니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SOCIAL-010","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"생활","learning_target":"생활","difficulty":2,"game_type":"TILE_CHOICE","question":"멀리 있는 사람에게 소식을 전달하는 활동은?","choices":["통신","재배","채굴","요리"],"answer":"통신","explanation":"편지나 전화 등으로 다른 사람에게 정보를 전하는 것이 통신입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SOCIAL-021","curriculum":"2022","school":"elementary","grade":3,"subject":"social","domain":"과정 배열","learning_target":"과정 배열","difficulty":2,"game_type":"TILE_SEQUENCE","question":"현장 조사를 준비하고 마치는 과정을 배열해요.","choices":["조사 주제 정하기","장소와 방법 정하기","현장에서 조사하기","자료 정리하기"],"answer":["조사 주제 정하기","장소와 방법 정하기","현장에서 조사하기","자료 정리하기"],"explanation":"주제와 조사 방법을 정하고 현장에서 조사한 뒤 자료를 정리합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"}]
+[
+  {
+    "id": "V62-SOCIAL-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "고장",
+    "learning_target": "고장",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "학교 주변을 직접 살펴보며 정보를 얻는 활동은?",
+    "choices": [
+      "현장 조사",
+      "상상만 하기",
+      "소문 옮기기",
+      "아무 근거 없이 추측"
+    ],
+    "answer": "현장 조사",
+    "explanation": "현장 조사는 장소를 직접 방문해 관찰하고 정보를 모으는 활동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SOCIAL-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "고장",
+    "learning_target": "고장",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "고장의 예전 모습을 알아보는 데 도움이 되는 자료는?",
+    "choices": [
+      "옛 사진",
+      "내일의 날씨 예보",
+      "빈 종이",
+      "운동 점수"
+    ],
+    "answer": "옛 사진",
+    "explanation": "옛 사진에는 당시의 거리와 건물 등 과거 모습이 남아 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SOCIAL-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "고장",
+    "learning_target": "고장",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "고장 정보를 조사한 뒤 해야 할 일은?",
+    "choices": [
+      "출처와 내용을 정리하기",
+      "근거를 지우기",
+      "모두 사실로 단정하기",
+      "기록을 버리기"
+    ],
+    "answer": "출처와 내용을 정리하기",
+    "explanation": "어디에서 얻은 정보인지와 내용을 함께 기록해야 확인할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SOCIAL-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "생활",
+    "learning_target": "생활",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사람과 물건을 다른 곳으로 옮기는 데 쓰는 수단은?",
+    "choices": [
+      "교통수단",
+      "문장 부호",
+      "지도 기호",
+      "악기"
+    ],
+    "answer": "교통수단",
+    "explanation": "버스와 기차 같은 교통수단은 사람이나 물건을 이동시킵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SOCIAL-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "생활",
+    "learning_target": "생활",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "멀리 있는 사람에게 소식을 전달하는 활동은?",
+    "choices": [
+      "통신",
+      "재배",
+      "채굴",
+      "요리"
+    ],
+    "answer": "통신",
+    "explanation": "편지나 전화 등으로 다른 사람에게 정보를 전하는 것이 통신입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SOCIAL-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "domain": "과정 배열",
+    "learning_target": "과정 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "현장 조사를 준비하고 마치는 과정을 배열해요.",
+    "choices": [
+      "조사 주제 정하기",
+      "장소와 방법 정하기",
+      "현장에서 조사하기",
+      "자료 정리하기"
+    ],
+    "answer": [
+      "조사 주제 정하기",
+      "장소와 방법 정하기",
+      "현장에서 조사하기",
+      "자료 정리하기"
+    ],
+    "explanation": "주제와 조사 방법을 정하고 현장에서 조사한 뒤 자료를 정리합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-007",
+    "domain": "지리",
+    "learning_target": "방위와 위치 관계를 이해한다",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "학교의 동쪽에 공원이 있습니다. 학교에서 공원으로 가려면 어느 방향으로 가야 할까요?",
+    "choices": [
+      "동쪽",
+      "서쪽",
+      "남쪽",
+      "북쪽"
+    ],
+    "answer": "동쪽",
+    "explanation": "어떤 장소의 동쪽에 있다고 설명했다면 기준 장소에서 동쪽 방향으로 이동해야 합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-008",
+    "domain": "생활",
+    "learning_target": "공공장소 이용 절차를 순서대로 이해한다",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "도서관에서 책을 빌리는 과정을 자연스러운 순서로 맞추세요.",
+    "choices": [
+      "빌릴 책을 찾는다",
+      "대출 절차를 거친다",
+      "정해진 기간 동안 읽는다"
+    ],
+    "answer": [
+      "빌릴 책을 찾는다",
+      "대출 절차를 거친다",
+      "정해진 기간 동안 읽는다"
+    ],
+    "explanation": "먼저 원하는 책을 찾고 대출 절차를 거친 다음, 정해진 기간 동안 책을 이용합니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-009",
+    "domain": "공동체",
+    "learning_target": "공공시설과 기능을 연결한다",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "공공시설과 하는 일이 바르게 연결된 것을 고르세요.",
+    "choices": [
+      "소방서 → 화재와 구조 상황에 대응한다",
+      "도서관 → 자동차를 수리한다",
+      "우체국 → 환자를 수술한다"
+    ],
+    "answer": "소방서 → 화재와 구조 상황에 대응한다",
+    "explanation": "소방서는 화재 진압과 구조·구급 활동 등을 담당하는 공공시설입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-010",
+    "domain": "공동체",
+    "learning_target": "갈등 상황에서 민주적인 해결 방법을 선택한다",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "모둠에서 체험학습 장소에 대한 의견이 서로 다릅니다. 가장 알맞은 해결 방법은?",
+    "choices": [
+      "서로 이유를 듣고 의논한다",
+      "목소리가 큰 사람의 의견만 따른다",
+      "다른 의견을 말하지 못하게 한다",
+      "아무 설명 없이 한 사람이 결정한다"
+    ],
+    "answer": "서로 이유를 듣고 의논한다",
+    "explanation": "공동의 문제는 서로의 의견과 이유를 듣고 대화하며 합의점을 찾는 것이 민주적인 해결 방법입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "social",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 사회 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V149-E3-SOC-011",
+    "domain": "지리",
+    "learning_target": "지도 이용 절차를 이해한다",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "지도에서 장소를 찾는 방법을 순서대로 완성하세요.",
+    "choices": [
+      "기준",
+      "장소를",
+      "찾고",
+      "위치를",
+      "확인한다"
+    ],
+    "answer": [
+      "기준",
+      "장소를",
+      "찾고",
+      "위치를",
+      "확인한다"
+    ],
+    "explanation": "지도에서는 먼저 알고 있는 기준 장소를 찾은 뒤 주변의 방향과 위치 관계를 살펴 원하는 장소를 확인할 수 있습니다."
+  }
+]

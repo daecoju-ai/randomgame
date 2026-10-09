@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP23-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "풍선 5개 중 2개가 터졌습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "늘어납니다",
+      "줄어듭니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "줄어듭니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '줄어듭니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "새 4마리가 앉아 있는 나무에 3마리가 더 왔습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "줄어듭니다",
+      "늘어납니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "늘어납니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '늘어납니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕 8개를 친구에게 3개 주었습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "늘어납니다",
+      "줄어듭니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "줄어듭니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '줄어듭니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 6개를 가지고 있다가 2개를 더 받았습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "줄어듭니다",
+      "늘어납니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "늘어납니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '늘어납니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "책 7권을 책장에 두고 그중 2권을 다른 칸으로 옮겼습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "늘어납니다",
+      "변하지 않습니다",
+      "줄어듭니다",
+      "알 수 없습니다"
+    ],
+    "answer": "변하지 않습니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '변하지 않습니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필 9자루 중 4자루를 친구에게 빌려주었습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "늘어납니다",
+      "줄어듭니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "줄어듭니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '줄어듭니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "화분 3개를 놓은 곳에 화분 5개를 더 놓았습니다. 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "줄어듭니다",
+      "늘어납니다",
+      "변하지 않습니다",
+      "알 수 없습니다"
+    ],
+    "answer": "늘어납니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '늘어납니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "공 6개를 상자에서 꺼내 다른 상자로 모두 옮겼습니다. 두 상자에 있는 공의 전체 개수는? 전체 개수는 어떻게 되나요?",
+    "choices": [
+      "늘어납니다",
+      "변하지 않습니다",
+      "줄어듭니다",
+      "알 수 없습니다"
+    ],
+    "answer": "변하지 않습니다",
+    "explanation": "새로 더해지면 늘고, 없어지면 줄며, 위치만 옮기면 전체 개수는 변하지 않습니다. 따라서 '변하지 않습니다'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 내 물건을 허락 없이 가져갔어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "다시는 말 걸지 마!",
+      "너도 당해 봐!",
+      "내 물건을 쓸 때는 먼저 물어봐 줘.",
+      "내가 뺏을 거야!"
+    ],
+    "answer": "내 물건을 쓸 때는 먼저 물어봐 줘.",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '내 물건을 쓸 때는 먼저 물어봐 줘.'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 나를 도와줬어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "왜 도와줬어?",
+      "다음에도 꼭 해!",
+      "도와줘서 고마워.",
+      "그냥 가!"
+    ],
+    "answer": "도와줘서 고마워.",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '도와줘서 고마워.'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구의 말을 이해하지 못했어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "그만 말해!",
+      "틀렸어!",
+      "다시 설명해 줄래?",
+      "듣기 싫어!"
+    ],
+    "answer": "다시 설명해 줄래?",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '다시 설명해 줄래?'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 내 앞에서 넘어졌어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "웃기다!",
+      "빨리 일어나!",
+      "괜찮아? 어른을 불러 줄까?",
+      "난 몰라!"
+    ],
+    "answer": "괜찮아? 어른을 불러 줄까?",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '괜찮아? 어른을 불러 줄까?'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 같이 놀자고 하지만 지금은 쉬고 싶어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "절대 싫어!",
+      "저리 가!",
+      "지금은 쉬고 싶어. 다음에 놀자.",
+      "말 걸지 마!"
+    ],
+    "answer": "지금은 쉬고 싶어. 다음에 놀자.",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '지금은 쉬고 싶어. 다음에 놀자.'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 내 그림을 칭찬했어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "그건 당연하지!",
+      "너는 못 그리잖아!",
+      "고마워. 너도 그림을 보여 줄래?",
+      "말하지 마!"
+    ],
+    "answer": "고마워. 너도 그림을 보여 줄래?",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '고마워. 너도 그림을 보여 줄래?'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표할 차례를 놓쳤어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "내 차례야!",
+      "모두 조용히 해!",
+      "저도 발표해도 될까요?",
+      "지금 당장!"
+    ],
+    "answer": "저도 발표해도 될까요?",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '저도 발표해도 될까요?'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP23-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "말하기 듣기",
+    "learning_target": "상황을 읽고 바른 말과 수의 변화를 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구와 같은 책을 읽고 싶어요. 마음을 바르게 전하는 말은?",
+    "choices": [
+      "내가 먼저 뺏을게!",
+      "너는 읽지 마!",
+      "우리 번갈아 읽을까?",
+      "책을 숨길 거야!"
+    ],
+    "answer": "우리 번갈아 읽을까?",
+    "explanation": "상대방을 존중하면서 내 마음을 전하려면 '우리 번갈아 읽을까?'처럼 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

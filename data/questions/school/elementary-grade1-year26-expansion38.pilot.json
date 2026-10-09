@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP38-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이를 빨강, 노랑, 파랑, 빨강, 노랑, 파랑 순서로 놓았습니다. 일곱 번째 색은?",
+    "choices": [
+      "빨강",
+      "노랑",
+      "파랑",
+      "초록"
+    ],
+    "answer": "빨강",
+    "explanation": "세 가지 색이 반복되므로 일곱 번째는 다시 빨강입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "15개의 단추 중 빨간 단추는 6개이고 나머지는 파란 단추입니다. 파란 단추는 몇 개인가요?",
+    "choices": [
+      "7개",
+      "8개",
+      "9개",
+      "10개"
+    ],
+    "answer": "9개",
+    "explanation": "15-6=9개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "종이 위에 동그라미와 세모를 하나씩 그렸습니다. 꼭짓점이 있는 모양은?",
+    "choices": [
+      "동그라미",
+      "세모",
+      "둘 다 없음",
+      "둘 다 있음"
+    ],
+    "answer": "세모",
+    "explanation": "세모는 꼭짓점이 3개이고 동그라미에는 꼭짓점이 없습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 카드 4, 9, 2를 큰 수부터 차례로 놓으면 맨 마지막에 오는 수는?",
+    "choices": [
+      "9",
+      "4",
+      "2",
+      "없음"
+    ],
+    "answer": "2",
+    "explanation": "큰 수부터 9, 4, 2 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "반 친구가 기른 식물 조사: 콩 6명, 상추 4명, 토마토 6명. 같은 수의 친구가 기른 식물은?",
+    "choices": [
+      "콩과 상추",
+      "상추와 토마토",
+      "콩과 토마토",
+      "모두 같음"
+    ],
+    "answer": "콩과 토마토",
+    "explanation": "콩과 토마토는 각각 6명으로 같습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "장난감 자동차 5대를 선반에 놓고 4대를 더 놓았습니다. 그중 2대를 꺼냈습니다. 남은 자동차는?",
+    "choices": [
+      "5대",
+      "6대",
+      "7대",
+      "9대"
+    ],
+    "answer": "7대",
+    "explanation": "5+4=9, 9-2=7대입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '수요일에는 비가 와서 운동회가 열리지 않았습니다. 운동회는 금요일로 미루었습니다.' 운동회는 언제 열리나요?",
+    "choices": [
+      "수요일",
+      "목요일",
+      "금요일",
+      "일요일"
+    ],
+    "answer": "금요일",
+    "explanation": "수요일에 하지 못한 운동회를 금요일로 미루었습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '정우는 우유를 쏟았습니다. 걸레를 가져와 바닥을 닦았습니다.' 정우가 걸레를 가져온 까닭은?",
+    "choices": [
+      "바닥을 닦으려고",
+      "우유를 마시려고",
+      "걸레를 숨기려고",
+      "창문을 열려고"
+    ],
+    "answer": "바닥을 닦으려고",
+    "explanation": "우유를 쏟은 뒤 바닥을 닦았다는 행동이 단서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '도서관 책은 한 번에 두 권까지 빌릴 수 있습니다.' 한 번에 빌릴 수 있는 책의 가장 많은 수는?",
+    "choices": [
+      "1권",
+      "2권",
+      "3권",
+      "4권"
+    ],
+    "answer": "2권",
+    "explanation": "'두 권까지'는 가장 많이 두 권이라는 뜻입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '새끼 고양이가 추워 보여서 지우는 따뜻한 담요를 가져왔습니다.' 지우가 담요를 가져온 이유는?",
+    "choices": [
+      "고양이를 따뜻하게 해 주려고",
+      "고양이와 숨바꼭질하려고",
+      "담요를 버리려고",
+      "담요를 씻으려고"
+    ],
+    "answer": "고양이를 따뜻하게 해 주려고",
+    "explanation": "고양이가 추워 보였기 때문에 담요를 가져왔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "학교에서 대피 안내 방송이 나왔습니다. 어떻게 행동해야 하나요?",
+    "choices": [
+      "혼자 다른 곳으로 뛰어간다",
+      "선생님의 안내에 따라 차분히 이동한다",
+      "장난감을 챙기러 돌아간다",
+      "친구를 밀치며 앞서간다"
+    ],
+    "answer": "선생님의 안내에 따라 차분히 이동한다",
+    "explanation": "대피할 때는 안내를 듣고 안전한 경로로 질서 있게 이동합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP38-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "규칙과 조건을 찾아 설명하고 생활 속 정보를 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "종이배가 물에 뜨는지 알아보려 합니다. 알맞은 방법은?",
+    "choices": [
+      "물에 띄워 보고 결과를 기록한다",
+      "물에 넣지 않고 뜬다고 쓴다",
+      "친구의 답을 베낀다",
+      "종이배를 감춘다"
+    ],
+    "answer": "물에 띄워 보고 결과를 기록한다",
+    "explanation": "직접 실험해 본 뒤 실제 결과를 기록해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

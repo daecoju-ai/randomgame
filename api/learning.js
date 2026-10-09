@@ -1,5 +1,9 @@
 'use strict';const A=require('../lib/account.cjs'),B=require('../lib/learning-bank.cjs');
-module.exports=async(req,res)=>{try{A.guard(req,res);const b=A.input(req),auth=await A.identity(req,res);if(!auth)throw new A.Fault(401,'SIGN_IN','로그인하면 기본 선택과 보상이 저장됩니다.');if(b.owner!==auth.user.id)throw new A.Fault(409,'ACCOUNT_CHANGED','계정이 변경되었습니다.');if(!['load','profile','start','finish','review-list','review-miss','review-mastered'].includes(b.action))throw new A.Fault(400,'ACTION','학습 요청을 확인해 주세요.');if(!['load','review-list'].includes(b.action)&&!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(b.requestId||''))throw new A.Fault(400,'REQUEST_ID','요청 번호를 확인해 주세요.');let payload=b.payload||{};
+module.exports=async(req,res)=>{try{A.guard(req,res);const b=A.input(req),auth=await A.identity(req,res);if(!auth)throw new A.Fault(401,'SIGN_IN','로그인하면 기본 선택과 보상이 저장됩니다.');if(b.owner!==auth.user.id)throw new A.Fault(409,'ACCOUNT_CHANGED','계정이 변경되었습니다.');if(!['load','profile','start','finish','review-list','review-miss','review-mastered','stars-load'].includes(b.action))throw new A.Fault(400,'ACTION','학습 요청을 확인해 주세요.');if(!['load','review-list'].includes(b.action)&&!/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(b.requestId||''))throw new A.Fault(400,'REQUEST_ID','요청 번호를 확인해 주세요.');let payload=b.payload||{};
+if(b.action==='stars-load'){
+ const v=await A.upstream('/rest/v1/rpc/forge_learning_star_balance',{method:'POST',token:auth.token,body:{}});
+ return res.status(200).json(v);
+}
 if(b.action.startsWith('review-')){
  const action=b.action==='review-list'?'list':b.action==='review-miss'?'miss':'mastered';
  if(action!=='list'&&(!payload.id||String(payload.id).length>120))throw new A.Fault(400,'QUESTION','복습 문제를 확인해 주세요.');

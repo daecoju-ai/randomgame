@@ -8,7 +8,7 @@ const P=require('../lib/learning-packs.cjs');
 test('v64 through v66 exercises retain unique IDs, usable answers, and explanations',()=>{
  const rows=B.bank().filter(q=>/^V6[456]-/.test(q.id));
  assert.equal(rows.length,18);
- assert.equal(new Set(rows.map(q=>q.id)).size,12);
+ assert.equal(new Set(rows.map(q=>q.id)).size,rows.length);
  const modes=new Set(rows.map(q=>q.game_type));
  for(const type of ['ORDERING','TILE_SEQUENCE','FORMULA','TARGET_SELECT','MULTIPLE_CHOICE'])assert(modes.has(type),type);
  assert(!rows.some(q=>q.game_type==='MATCHING'&&R.answers(q).length===1),'single-answer matching must be modeled as choice');

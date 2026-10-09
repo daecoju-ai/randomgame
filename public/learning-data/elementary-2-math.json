@@ -2606,13 +2606,13 @@
       "42"
     ],
     "answer": "40",
-    "explanation": "겹치지 않으므로 길이를 더해요. 29 + 11 = 40cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 29+11=40이므로 전체 길이는 40cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -2627,7 +2627,8 @@
       "result": "40",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-034",
@@ -2647,13 +2648,13 @@
       "24"
     ],
     "answer": "22",
-    "explanation": "2씩 커지는 규칙입니다. 20 + 2 = 22입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 20에 2를 더한 22가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -2668,7 +2669,8 @@
       "result": "22",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-035",
@@ -2688,13 +2690,13 @@
       "35"
     ],
     "answer": "33",
-    "explanation": "두 수를 더하면 30 + 3 = 33입니다.",
+    "explanation": "30에 3를 더할 때 일의 자리부터 3만큼 늘려 생각합니다. 계산하면 33입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -2709,7 +2711,8 @@
       "result": "33",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-036",
@@ -2729,13 +2732,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "30에서 3를 빼면 27입니다.",
+    "explanation": "30에서 3만큼 줄여 생각하면 27입니다. 따라서 30 − 3 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -2750,7 +2753,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-037",
@@ -2770,13 +2774,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "3개씩 3묶음이므로 3 × 3 = 9개입니다.",
+    "explanation": "한 접시에 3개씩, 같은 양의 접시가 3개이므로 3를 3번 더합니다. 3+3+3=9, 즉 3 × 3 = 9입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -2791,7 +2795,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-038",
@@ -2811,13 +2816,13 @@
       "35"
     ],
     "answer": "33",
-    "explanation": "겹치지 않으므로 길이를 더해요. 30 + 3 = 33cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 30+3=33이므로 전체 길이는 33cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -2832,7 +2837,8 @@
       "result": "33",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-039",
@@ -2852,13 +2858,13 @@
       "26"
     ],
     "answer": "24",
-    "explanation": "2씩 커지는 규칙입니다. 22 + 2 = 24입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 22에 2를 더한 24가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -2873,7 +2879,8 @@
       "result": "24",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-040",
@@ -2893,13 +2900,13 @@
       "37"
     ],
     "answer": "35",
-    "explanation": "두 수를 더하면 31 + 4 = 35입니다.",
+    "explanation": "31에 4를 더할 때 일의 자리부터 4만큼 늘려 생각합니다. 계산하면 35입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -2914,7 +2921,8 @@
       "result": "35",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-041",
@@ -2934,13 +2942,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "31에서 4를 빼면 27입니다.",
+    "explanation": "31에서 4만큼 줄여 생각하면 27입니다. 따라서 31 − 4 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -2955,7 +2963,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-042",
@@ -2975,13 +2984,13 @@
       "14"
     ],
     "answer": "12",
-    "explanation": "4개씩 3묶음이므로 4 × 3 = 12개입니다.",
+    "explanation": "한 접시에 4개씩, 같은 양의 접시가 3개이므로 4를 3번 더합니다. 4+4+4=12, 즉 4 × 3 = 12입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -2996,7 +3005,8 @@
       "result": "12",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-043",
@@ -3016,13 +3026,13 @@
       "37"
     ],
     "answer": "35",
-    "explanation": "겹치지 않으므로 길이를 더해요. 31 + 4 = 35cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 31+4=35이므로 전체 길이는 35cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -3037,7 +3047,8 @@
       "result": "35",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-044",
@@ -3057,13 +3068,13 @@
       "28"
     ],
     "answer": "26",
-    "explanation": "2씩 커지는 규칙입니다. 24 + 2 = 26입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 24에 2를 더한 26가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -3078,7 +3089,8 @@
       "result": "26",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-045",
@@ -3098,13 +3110,13 @@
       "39"
     ],
     "answer": "37",
-    "explanation": "두 수를 더하면 32 + 5 = 37입니다.",
+    "explanation": "32에 5를 더할 때 일의 자리부터 5만큼 늘려 생각합니다. 계산하면 37입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -3119,7 +3131,8 @@
       "result": "37",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-046",
@@ -3139,13 +3152,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "32에서 5를 빼면 27입니다.",
+    "explanation": "32에서 5만큼 줄여 생각하면 27입니다. 따라서 32 − 5 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -3160,7 +3173,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-047",
@@ -3180,13 +3194,13 @@
       "17"
     ],
     "answer": "15",
-    "explanation": "5개씩 3묶음이므로 5 × 3 = 15개입니다.",
+    "explanation": "한 접시에 5개씩, 같은 양의 접시가 3개이므로 5를 3번 더합니다. 5+5+5=15, 즉 5 × 3 = 15입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -3201,7 +3215,8 @@
       "result": "15",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-048",
@@ -3221,13 +3236,13 @@
       "39"
     ],
     "answer": "37",
-    "explanation": "겹치지 않으므로 길이를 더해요. 32 + 5 = 37cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 32+5=37이므로 전체 길이는 37cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -3242,7 +3257,8 @@
       "result": "37",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-049",
@@ -3262,13 +3278,13 @@
       "30"
     ],
     "answer": "28",
-    "explanation": "2씩 커지는 규칙입니다. 26 + 2 = 28입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 26에 2를 더한 28가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -3283,7 +3299,8 @@
       "result": "28",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-050",
@@ -3303,13 +3320,13 @@
       "41"
     ],
     "answer": "39",
-    "explanation": "두 수를 더하면 33 + 6 = 39입니다.",
+    "explanation": "33에 6를 더할 때 일의 자리부터 6만큼 늘려 생각합니다. 계산하면 39입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -3324,7 +3341,8 @@
       "result": "39",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-051",
@@ -3344,13 +3362,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "33에서 6를 빼면 27입니다.",
+    "explanation": "33에서 6만큼 줄여 생각하면 27입니다. 따라서 33 − 6 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -3365,7 +3383,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-052",
@@ -3385,13 +3404,13 @@
       "20"
     ],
     "answer": "18",
-    "explanation": "6개씩 3묶음이므로 6 × 3 = 18개입니다.",
+    "explanation": "한 접시에 6개씩, 같은 양의 접시가 3개이므로 6를 3번 더합니다. 6+6+6=18, 즉 6 × 3 = 18입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -3406,7 +3425,8 @@
       "result": "18",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-053",
@@ -3426,13 +3446,13 @@
       "41"
     ],
     "answer": "39",
-    "explanation": "겹치지 않으므로 길이를 더해요. 33 + 6 = 39cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 33+6=39이므로 전체 길이는 39cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -3447,7 +3467,8 @@
       "result": "39",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-054",
@@ -3467,13 +3488,13 @@
       "32"
     ],
     "answer": "30",
-    "explanation": "2씩 커지는 규칙입니다. 28 + 2 = 30입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 28에 2를 더한 30가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -3488,7 +3509,8 @@
       "result": "30",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-055",
@@ -3508,13 +3530,13 @@
       "43"
     ],
     "answer": "41",
-    "explanation": "두 수를 더하면 34 + 7 = 41입니다.",
+    "explanation": "34에 7를 더할 때 일의 자리부터 7만큼 늘려 생각합니다. 계산하면 41입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -3529,7 +3551,8 @@
       "result": "41",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-056",
@@ -3549,13 +3572,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "34에서 7를 빼면 27입니다.",
+    "explanation": "34에서 7만큼 줄여 생각하면 27입니다. 따라서 34 − 7 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -3570,7 +3593,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-057",
@@ -3590,13 +3614,13 @@
       "23"
     ],
     "answer": "21",
-    "explanation": "7개씩 3묶음이므로 7 × 3 = 21개입니다.",
+    "explanation": "한 접시에 7개씩, 같은 양의 접시가 3개이므로 7를 3번 더합니다. 7+7+7=21, 즉 7 × 3 = 21입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -3611,7 +3635,8 @@
       "result": "21",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-058",
@@ -3631,13 +3656,13 @@
       "43"
     ],
     "answer": "41",
-    "explanation": "겹치지 않으므로 길이를 더해요. 34 + 7 = 41cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 34+7=41이므로 전체 길이는 41cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -3652,7 +3677,8 @@
       "result": "41",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-059",
@@ -3672,13 +3698,13 @@
       "34"
     ],
     "answer": "32",
-    "explanation": "2씩 커지는 규칙입니다. 30 + 2 = 32입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 30에 2를 더한 32가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -3693,7 +3719,8 @@
       "result": "32",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-060",
@@ -3713,13 +3740,13 @@
       "45"
     ],
     "answer": "43",
-    "explanation": "두 수를 더하면 35 + 8 = 43입니다.",
+    "explanation": "35에 8를 더할 때 일의 자리부터 8만큼 늘려 생각합니다. 계산하면 43입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -3734,7 +3761,8 @@
       "result": "43",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-061",
@@ -3754,13 +3782,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "35에서 8를 빼면 27입니다.",
+    "explanation": "35에서 8만큼 줄여 생각하면 27입니다. 따라서 35 − 8 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -3775,7 +3803,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-062",
@@ -3795,13 +3824,13 @@
       "26"
     ],
     "answer": "24",
-    "explanation": "8개씩 3묶음이므로 8 × 3 = 24개입니다.",
+    "explanation": "한 접시에 8개씩, 같은 양의 접시가 3개이므로 8를 3번 더합니다. 8+8+8=24, 즉 8 × 3 = 24입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -3816,7 +3845,8 @@
       "result": "24",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-063",
@@ -3836,13 +3866,13 @@
       "45"
     ],
     "answer": "43",
-    "explanation": "겹치지 않으므로 길이를 더해요. 35 + 8 = 43cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 35+8=43이므로 전체 길이는 43cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -3857,7 +3887,8 @@
       "result": "43",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-064",
@@ -3877,13 +3908,13 @@
       "36"
     ],
     "answer": "34",
-    "explanation": "2씩 커지는 규칙입니다. 32 + 2 = 34입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 32에 2를 더한 34가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -3898,7 +3929,8 @@
       "result": "34",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-065",
@@ -3918,13 +3950,13 @@
       "47"
     ],
     "answer": "45",
-    "explanation": "두 수를 더하면 36 + 9 = 45입니다.",
+    "explanation": "36에 9를 더할 때 일의 자리부터 9만큼 늘려 생각합니다. 계산하면 45입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -3939,7 +3971,8 @@
       "result": "45",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-066",
@@ -3959,13 +3992,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "36에서 9를 빼면 27입니다.",
+    "explanation": "36에서 9만큼 줄여 생각하면 27입니다. 따라서 36 − 9 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -3980,7 +4013,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-067",
@@ -4000,13 +4034,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "9개씩 3묶음이므로 9 × 3 = 27개입니다.",
+    "explanation": "한 접시에 9개씩, 같은 양의 접시가 3개이므로 9를 3번 더합니다. 9+9+9=27, 즉 9 × 3 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -4021,7 +4055,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-068",
@@ -4041,13 +4076,13 @@
       "47"
     ],
     "answer": "45",
-    "explanation": "겹치지 않으므로 길이를 더해요. 36 + 9 = 45cm입니다.",
+    "explanation": "끈을 겹치지 않고 이어 붙이면 두 길이를 합합니다. 36+9=45이므로 전체 길이는 45cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이"
     ],
@@ -4062,7 +4097,8 @@
       "result": "45",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "이어 붙인 길이를 덧셈으로 구하는 이유를 설명"
   },
   {
     "id": "V61-E2-MATH-069",
@@ -4082,13 +4118,13 @@
       "38"
     ],
     "answer": "36",
-    "explanation": "2씩 커지는 규칙입니다. 34 + 2 = 36입니다.",
+    "explanation": "앞뒤 수의 차이를 보면 2씩 일정하게 커집니다. 34에 2를 더한 36가 다음 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "규칙"
     ],
@@ -4103,7 +4139,8 @@
       "result": "36",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "연속한 수의 차이를 이용해 규칙을 찾도록 설명"
   },
   {
     "id": "V61-E2-MATH-070",
@@ -4123,13 +4160,13 @@
       "49"
     ],
     "answer": "47",
-    "explanation": "두 수를 더하면 37 + 10 = 47입니다.",
+    "explanation": "37에 10를 더할 때 일의 자리부터 10만큼 늘려 생각합니다. 계산하면 47입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 덧셈"
     ],
@@ -4144,7 +4181,8 @@
       "result": "47",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-071",
@@ -4164,13 +4202,13 @@
       "29"
     ],
     "answer": "27",
-    "explanation": "37에서 10를 빼면 27입니다.",
+    "explanation": "37에서 10만큼 줄여 생각하면 27입니다. 따라서 37 − 10 = 27입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "두 자리 뺄셈"
     ],
@@ -4185,7 +4223,8 @@
       "result": "27",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 연산에서 수가 늘고 줄어드는 과정을 설명"
   },
   {
     "id": "V61-E2-MATH-072",
@@ -4205,13 +4244,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "2개씩 4묶음이므로 2 × 4 = 8개입니다.",
+    "explanation": "한 접시에 2개씩, 같은 양의 접시가 4개이므로 2를 4번 더합니다. 2+2+2+2=8, 즉 2 × 4 = 8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈의 뜻"
     ],
@@ -4226,7 +4265,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "같은 양의 여러 묶음을 반복 덧셈과 곱셈으로 연결"
   },
   {
     "id": "V61-E2-MATH-073",

@@ -110,18 +110,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "12 − 2 = 10입니다.",
+    "explanation": "12에서 2만큼 뒤로 세면 10가 됩니다. 따라서 12 − 2 = 10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-002",
@@ -141,18 +142,19 @@
       "21"
     ],
     "answer": "16",
-    "explanation": "13 + 3 = 16입니다.",
+    "explanation": "13에서 3만큼 앞으로 세면 16가 됩니다. 따라서 13 + 3 = 16입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-003",
@@ -172,18 +174,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "14 − 4 = 10입니다.",
+    "explanation": "14에서 4만큼 뒤로 세면 10가 됩니다. 따라서 14 − 4 = 10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-004",
@@ -203,18 +206,19 @@
       "25"
     ],
     "answer": "20",
-    "explanation": "15 + 5 = 20입니다.",
+    "explanation": "15에서 5만큼 앞으로 세면 20가 됩니다. 따라서 15 + 5 = 20입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-005",
@@ -234,18 +238,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "16 − 6 = 10입니다.",
+    "explanation": "16에서 6만큼 뒤로 세면 10가 됩니다. 따라서 16 − 6 = 10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-006",
@@ -265,18 +270,19 @@
       "29"
     ],
     "answer": "24",
-    "explanation": "17 + 7 = 24입니다.",
+    "explanation": "7를 3과 4으로 나누면 17+3=20, 여기에 4을 더해 24가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-007",
@@ -296,18 +302,19 @@
       "15"
     ],
     "answer": "10",
-    "explanation": "18 − 8 = 10입니다.",
+    "explanation": "18에서 8만큼 뒤로 세면 10가 됩니다. 따라서 18 − 8 = 10입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-008",
@@ -327,18 +334,19 @@
       "33"
     ],
     "answer": "28",
-    "explanation": "19 + 9 = 28입니다.",
+    "explanation": "9를 1과 8으로 나누면 19+1=20, 여기에 8을 더해 28가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-009",
@@ -358,18 +366,19 @@
       "23"
     ],
     "answer": "18",
-    "explanation": "20 − 2 = 18입니다.",
+    "explanation": "20에서 2만큼 뒤로 세면 18가 됩니다. 따라서 20 − 2 = 18입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-010",
@@ -389,18 +398,19 @@
       "29"
     ],
     "answer": "24",
-    "explanation": "21 + 3 = 24입니다.",
+    "explanation": "21에서 3만큼 앞으로 세면 24가 됩니다. 따라서 21 + 3 = 24입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-011",
@@ -420,18 +430,19 @@
       "23"
     ],
     "answer": "18",
-    "explanation": "22 − 4 = 18입니다.",
+    "explanation": "22에서 4만큼 뒤로 세면 18가 됩니다. 따라서 22 − 4 = 18입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-012",
@@ -451,18 +462,19 @@
       "33"
     ],
     "answer": "28",
-    "explanation": "23 + 5 = 28입니다.",
+    "explanation": "23에서 5만큼 앞으로 세면 28가 됩니다. 따라서 23 + 5 = 28입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-013",
@@ -482,18 +494,19 @@
       "23"
     ],
     "answer": "18",
-    "explanation": "24 − 6 = 18입니다.",
+    "explanation": "24에서 6만큼 뒤로 세면 18가 됩니다. 따라서 24 − 6 = 18입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-014",
@@ -513,18 +526,19 @@
       "37"
     ],
     "answer": "32",
-    "explanation": "25 + 7 = 32입니다.",
+    "explanation": "7를 5과 2으로 나누면 25+5=30, 여기에 2을 더해 32가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-015",
@@ -544,18 +558,19 @@
       "23"
     ],
     "answer": "18",
-    "explanation": "26 − 8 = 18입니다.",
+    "explanation": "26에서 8만큼 뒤로 세면 18가 됩니다. 따라서 26 − 8 = 18입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-016",
@@ -575,18 +590,19 @@
       "41"
     ],
     "answer": "36",
-    "explanation": "27 + 9 = 36입니다.",
+    "explanation": "9를 3과 6으로 나누면 27+3=30, 여기에 6을 더해 36가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-017",
@@ -606,18 +622,19 @@
       "31"
     ],
     "answer": "26",
-    "explanation": "28 − 2 = 26입니다.",
+    "explanation": "28에서 2만큼 뒤로 세면 26가 됩니다. 따라서 28 − 2 = 26입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-018",
@@ -637,18 +654,19 @@
       "37"
     ],
     "answer": "32",
-    "explanation": "29 + 3 = 32입니다.",
+    "explanation": "3를 1과 2으로 나누면 29+1=30, 여기에 2을 더해 32가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-019",
@@ -668,18 +686,19 @@
       "31"
     ],
     "answer": "26",
-    "explanation": "30 − 4 = 26입니다.",
+    "explanation": "30에서 4만큼 뒤로 세면 26가 됩니다. 따라서 30 − 4 = 26입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-020",
@@ -699,18 +718,19 @@
       "41"
     ],
     "answer": "36",
-    "explanation": "31 + 5 = 36입니다.",
+    "explanation": "31에서 5만큼 앞으로 세면 36가 됩니다. 따라서 31 + 5 = 36입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-021",
@@ -730,18 +750,19 @@
       "31"
     ],
     "answer": "26",
-    "explanation": "32 − 6 = 26입니다.",
+    "explanation": "32에서 6만큼 뒤로 세면 26가 됩니다. 따라서 32 − 6 = 26입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-022",
@@ -761,18 +782,19 @@
       "45"
     ],
     "answer": "40",
-    "explanation": "33 + 7 = 40입니다.",
+    "explanation": "33에서 7만큼 앞으로 세면 40가 됩니다. 따라서 33 + 7 = 40입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-023",
@@ -792,18 +814,19 @@
       "31"
     ],
     "answer": "26",
-    "explanation": "34 − 8 = 26입니다.",
+    "explanation": "34에서 8만큼 뒤로 세면 26가 됩니다. 따라서 34 − 8 = 26입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-024",
@@ -823,18 +846,19 @@
       "49"
     ],
     "answer": "44",
-    "explanation": "35 + 9 = 44입니다.",
+    "explanation": "9를 5과 4으로 나누면 35+5=40, 여기에 4을 더해 44가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-025",
@@ -854,18 +878,19 @@
       "39"
     ],
     "answer": "34",
-    "explanation": "36 − 2 = 34입니다.",
+    "explanation": "36에서 2만큼 뒤로 세면 34가 됩니다. 따라서 36 − 2 = 34입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-026",
@@ -885,18 +910,19 @@
       "45"
     ],
     "answer": "40",
-    "explanation": "37 + 3 = 40입니다.",
+    "explanation": "37에서 3만큼 앞으로 세면 40가 됩니다. 따라서 37 + 3 = 40입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-027",
@@ -916,18 +942,19 @@
       "39"
     ],
     "answer": "34",
-    "explanation": "38 − 4 = 34입니다.",
+    "explanation": "38에서 4만큼 뒤로 세면 34가 됩니다. 따라서 38 − 4 = 34입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-028",
@@ -947,18 +974,19 @@
       "49"
     ],
     "answer": "44",
-    "explanation": "39 + 5 = 44입니다.",
+    "explanation": "5를 1과 4으로 나누면 39+1=40, 여기에 4을 더해 44가 됩니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-029",
@@ -978,18 +1006,19 @@
       "39"
     ],
     "answer": "34",
-    "explanation": "40 − 6 = 34입니다.",
+    "explanation": "40에서 6만큼 뒤로 세면 34가 됩니다. 따라서 40 − 6 = 34입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "뺄셈 결과 암기 대신 뒤로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-030",
@@ -1009,18 +1038,19 @@
       "53"
     ],
     "answer": "48",
-    "explanation": "41 + 7 = 48입니다.",
+    "explanation": "41에서 7만큼 앞으로 세면 48가 됩니다. 따라서 41 + 7 = 48입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "arithmetic_programmatic_verification",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "덧셈 결과 암기 대신 수를 나누거나 앞으로 세는 계산 과정을 설명"
   },
   {
     "id": "V58-E2-MATH-031",

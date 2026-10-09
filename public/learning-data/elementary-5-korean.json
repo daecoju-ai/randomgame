@@ -2398,5 +2398,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-076",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "인물 변화",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기의 처음과 끝에서 인물의 생각이 달라졌는지 알아보는 방법은?",
+    "choices": [
+      "처음과 끝의 말과 행동을 비교한다",
+      "인물 이름의 글자 수를 센다",
+      "배경 그림의 색만 비교한다",
+      "마지막 문장만 외운다"
+    ],
+    "answer": "처음과 끝의 말과 행동을 비교한다",
+    "explanation": "인물의 변화는 사건을 겪기 전후의 말, 행동, 생각을 비교해 파악합니다. 무엇을 계기로 태도가 달라졌는지 함께 살피면 변화의 이유도 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-077",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "자료와 글 연결",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "설명글에 사진이 함께 있을 때 사진을 읽는 방법으로 알맞은 것은?",
+    "choices": [
+      "사진이 글의 어떤 내용을 보여 주는지 연결해 본다",
+      "사진만 보고 글은 읽지 않는다",
+      "사진의 크기만 잰다",
+      "글과 관계없이 사진의 색만 본다"
+    ],
+    "answer": "사진이 글의 어떤 내용을 보여 주는지 연결해 본다",
+    "explanation": "사진은 글의 내용을 구체적으로 보여 주거나 추가 정보를 줄 수 있습니다. 사진의 대상과 설명을 본문의 관련 내용과 연결하면 정보를 더 정확하게 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-078",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "시간 순서 표현",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "경험을 시간 순서대로 쓸 때 도움이 되는 표현은?",
+    "choices": [
+      "먼저, 그다음, 마침내",
+      "그러나, 반면에만",
+      "아마, 혹시만",
+      "매우, 정말만"
+    ],
+    "answer": "먼저, 그다음, 마침내",
+    "explanation": "시간 순서를 나타내는 표현은 사건이 어떤 차례로 일어났는지 알려 줍니다. ‘먼저-그다음-마침내’와 같은 말을 알맞게 사용하면 독자가 사건의 흐름을 쉽게 따라갈 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-079",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "문맥에 맞는 높임",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "선생님께 질문할 때 가장 자연스러운 표현은?",
+    "choices": [
+      "선생님, 이 부분을 다시 설명해 주실 수 있나요?",
+      "야, 이거 다시 말해",
+      "이 부분 다시 설명해라",
+      "너 이거 알아?"
+    ],
+    "answer": "선생님, 이 부분을 다시 설명해 주실 수 있나요?",
+    "explanation": "상대와 상황에 따라 높임 표현을 알맞게 사용해야 합니다. 선생님께는 높임 선어말이나 정중한 종결 표현을 사용해 예의를 갖춰 질문하는 것이 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-080",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발표 핵심 파악",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표를 들으며 핵심 내용을 찾는 데 가장 도움이 되는 것은?",
+    "choices": [
+      "발표자가 반복하거나 강조하는 내용과 주제를 살핀다",
+      "발표자의 옷만 본다",
+      "모든 말을 똑같이 중요하다고 생각한다",
+      "첫 단어만 기록한다"
+    ],
+    "answer": "발표자가 반복하거나 강조하는 내용과 주제를 살핀다",
+    "explanation": "발표자는 중요한 내용을 반복하거나 목소리, 자료 등으로 강조하기도 합니다. 발표 주제와 연결해 이런 단서를 살피면 핵심 내용을 효과적으로 파악할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

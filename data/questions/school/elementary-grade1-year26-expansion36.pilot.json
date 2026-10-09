@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP36-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "열차에 8명이 타고 있었습니다. 3명이 내리고 2명이 탔습니다. 지금 몇 명인가요?",
+    "choices": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "8-3=5, 5+2=7명입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필 10자루를 6자루와 다른 한 묶음으로 나누었습니다. 다른 묶음은 몇 자루인가요?",
+    "choices": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "6+4=10이므로 4자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "월요일에 화분에 물을 주고 이틀마다 물을 줍니다. 다음에 물을 주는 날은?",
+    "choices": [
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일"
+    ],
+    "answer": "수요일",
+    "explanation": "월요일에서 이틀 뒤는 수요일입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "길이가 같은 막대 두 개를 나란히 놓았습니다. 어느 막대가 더 긴가요?",
+    "choices": [
+      "왼쪽",
+      "오른쪽",
+      "둘 다 같다",
+      "알 수 없다"
+    ],
+    "answer": "둘 다 같다",
+    "explanation": "길이가 같다고 했으므로 어느 쪽도 더 길지 않습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "반 친구들이 고른 놀이: 공놀이 5명, 줄넘기 3명, 술래잡기 4명. 공놀이와 줄넘기를 고른 사람은 모두 몇 명인가요?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "12"
+    ],
+    "answer": "8",
+    "explanation": "5+3=8명입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "18개의 단추를 10개와 나머지로 나누었습니다. 나머지는 몇 개인가요?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "18은 10과 8로 이루어집니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '비가 내리기 시작했습니다. 현우는 창문을 닫았습니다.' 현우가 창문을 닫은 이유로 가장 알맞은 것은?",
+    "choices": [
+      "빗물이 들어오지 않게 하려고",
+      "햇볕을 쬐려고",
+      "바람개비를 만들려고",
+      "창문을 닦으려고"
+    ],
+    "answer": "빗물이 들어오지 않게 하려고",
+    "explanation": "비가 오면 열린 창문으로 빗물이 들어올 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '나래는 연필을 잃어버렸습니다. 책상 밑을 살펴보니 연필이 있었습니다.' 나래가 연필을 찾은 곳은?",
+    "choices": [
+      "가방 안",
+      "책상 밑",
+      "교실 밖",
+      "서랍 안"
+    ],
+    "answer": "책상 밑",
+    "explanation": "글에 연필이 책상 밑에 있었다고 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '동생은 블록을 쌓았습니다. 형은 무너지지 않게 아래쪽을 받쳐 주었습니다.' 형이 한 일은?",
+    "choices": [
+      "블록을 숨겼다",
+      "동생을 도왔다",
+      "블록을 버렸다",
+      "동생을 혼냈다"
+    ],
+    "answer": "동생을 도왔다",
+    "explanation": "블록이 무너지지 않도록 받쳐 준 것은 돕는 행동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내문: '분실물은 교무실에서 찾아가세요.' 물건을 잃어버린 학생이 가야 할 곳은?",
+    "choices": [
+      "운동장",
+      "급식실",
+      "교무실",
+      "도서관"
+    ],
+    "answer": "교무실",
+    "explanation": "안내문에 분실물을 찾을 장소가 교무실이라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "길에서 모르는 사람이 함께 가자고 합니다. 가장 안전한 행동은?",
+    "choices": [
+      "바로 따라간다",
+      "혼자 차에 탄다",
+      "따라가지 않고 믿을 수 있는 어른에게 알린다",
+      "집 주소를 알려 준다"
+    ],
+    "answer": "따라가지 않고 믿을 수 있는 어른에게 알린다",
+    "explanation": "모르는 사람을 따라가지 않고 보호자나 선생님에게 알립니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP36-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "다양한 생활 문제에서 규칙과 근거를 찾아 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "화분에 물을 주기 전과 후의 흙을 손으로 살짝 만져 보았습니다. 관찰한 내용을 어떻게 적어야 하나요?",
+    "choices": [
+      "실제로 느낀 차이를 적는다",
+      "항상 같다고 적는다",
+      "친구의 기록을 그대로 쓴다",
+      "관찰하지 않고 상상해 적는다"
+    ],
+    "answer": "실제로 느낀 차이를 적는다",
+    "explanation": "관찰 기록은 직접 확인한 사실을 바탕으로 써야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

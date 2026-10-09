@@ -40,7 +40,17 @@ function grade1GeometryLesson(q){
  }
  return{id:'grade1-shapes',title:'평면도형의 모양을 알아봐요',principle:'세모는 꼭짓점 3개, 네모는 꼭짓점 4개이고 동그라미에는 꼭짓점이 없어요.',example:'세모의 뾰족한 꼭짓점을 하나씩 세면 3개예요.',prompt:'세모의 꼭짓점은 몇 개일까요?',choices:['2개','3개','4개'],answer:'3개',hints:['뾰족한 부분을 하나씩 세어 보세요.','세모에는 꼭짓점이 3개 있어요.']};
 }
-function lesson(q){if(q.school==='elementary'&&Number(q.grade)===1&&q.subject==='math'&&q.domain==='geometry_measurement')return grade1GeometryLesson(q);const id=topic(q);if(!id)return null;const [title,principle,example,prompt,choices,answer,hints]=lessons[id];return {id,title,principle,example,prompt,choices,answer,hints}}
+function grade1ConceptLesson(q){
+ const prompt=String(q.question||'');
+ if(q.game_type==='MATCHING')return{id:'grade1-matching',title:'관련 있는 것끼리 짝지어요',principle:'왼쪽 말과 오른쪽 뜻을 차례로 연결해요. 하나씩 읽고 어울리는 짝을 찾아요.',example:'3은 셋이라고 읽어요. 3과 셋은 한 짝이에요.',prompt:'3과 어울리는 읽는 말은?',choices:['셋','다섯','일곱'],answer:'셋',hints:['첫 번째 짝의 왼쪽 말부터 살펴보세요.','왼쪽 말과 뜻이 맞는 오른쪽 말을 찾아 보세요.']};
+ if(q.subject==='math'&&q.domain==='data_patterns')return{id:'grade1-pattern',title:'반복되는 규칙을 찾아요',principle:'앞뒤 수나 모양이 어떻게 바뀌는지 비교해요.',example:'1, 2, 3 다음에는 4가 와요.',prompt:'1, 2, 3 다음 수는?',choices:['2','4','6'],answer:'4',hints:['앞에서 뒤로 무엇이 바뀌는지 살펴보세요.','찾은 규칙이 앞의 두 곳에도 맞는지 확인하세요.']};
+ if(q.subject==='math'&&q.domain==='number_operations'){
+  if(/빼|남|차이|−|(?<!\\d)-(?!\\d)/.test(prompt))return{id:'grade1-subtract',title:'남은 수를 하나씩 세어요',principle:'빼기는 있던 것에서 덜어 내고 남은 수를 찾는 거예요.',example:'사과 5개에서 2개를 덜면 3개가 남아요.',prompt:'5 - 2 = ?',choices:['2','3','4'],answer:'3',hints:['처음에 몇 개가 있었는지 확인해 보세요.','덜어 낸 수만큼 하나씩 뒤로 세어 보세요.']};
+  if(/더|합|모두|\+/.test(prompt))return{id:'grade1-add',title:'두 무리를 모아 세어요',principle:'더하기는 두 무리를 합쳐 모두 몇 개인지 세는 거예요.',example:'사과 2개와 3개를 모으면 5개예요.',prompt:'2 + 3 = ?',choices:['4','5','6'],answer:'5',hints:['처음 무리의 수부터 세어 보세요.','더하는 수만큼 손가락을 하나씩 펴며 세어 보세요.']};
+ }
+ return null;
+}
+function lesson(q){if(q.school==='elementary'&&Number(q.grade)===1){if(q.subject==='math'&&q.domain==='geometry_measurement')return grade1GeometryLesson(q);const concept=grade1ConceptLesson(q);if(concept)return concept;}const id=topic(q);if(!id)return null;const [title,principle,example,prompt,choices,answer,hints]=lessons[id];return {id,title,principle,example,prompt,choices,answer,hints}}
 function queue(rows,random=Math.random){const groups=new Map();for(const q of rows){const d=Number(q.difficulty)||1;if(!groups.has(d))groups.set(d,[]);groups.get(d).push(q)}return [...groups.keys()].sort((a,b)=>a-b).flatMap(d=>{const a=groups.get(d);for(let i=a.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a})}
 const api={lesson,topic,queue};if(typeof module!=='undefined')module.exports=api;else root.ForgeLearningSupport=api;
 })(typeof window!=='undefined'?window:globalThis);

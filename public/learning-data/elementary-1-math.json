@@ -4618,5 +4618,170 @@
       "snapshot": "data/references/mathjs-v61-verification.json"
     },
     "revision_note": "서로 다른 두 모음을 합치는 덧셈 의미를 설명"
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초1 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E1-MATH-120",
+    "domain": "number_operations",
+    "learning_target": "수를 작은 수부터 순서대로 배열한다",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "작은 수부터 차례대로 놓으세요.",
+    "choices": [
+      "7",
+      "2",
+      "5"
+    ],
+    "answer": [
+      "2",
+      "5",
+      "7"
+    ],
+    "explanation": "2, 5, 7을 수의 크기로 비교하면 2가 가장 작고 7이 가장 큽니다. 따라서 2 → 5 → 7 순서입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초1 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E1-MATH-121",
+    "domain": "number_operations",
+    "learning_target": "덧셈식의 빈칸을 찾는다",
+    "difficulty": 1,
+    "game_type": "FORMULA",
+    "question": "3 + □ = 8입니다. □에 들어갈 수를 고르세요.",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "3에서 8이 되려면 5를 더해야 합니다. 3+5=8이므로 빈칸에는 5가 들어갑니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초1 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E1-MATH-122",
+    "domain": "number_operations",
+    "learning_target": "생활 속 덧셈 상황을 식과 연결한다",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "상황과 식이 알맞게 연결된 것을 고르세요.",
+    "choices": [
+      "사과 2개에 3개를 더 받음 → 2+3",
+      "연필 6개 중 2개를 줌 → 6+2",
+      "공 4개를 2명에게 똑같이 나눔 → 4+2"
+    ],
+    "answer": "사과 2개에 3개를 더 받음 → 2+3",
+    "explanation": "처음 있던 사과 2개에 3개가 더 생겼으므로 덧셈 상황입니다. 따라서 2+3으로 나타냅니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초1 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E1-MATH-123",
+    "domain": "measurement",
+    "learning_target": "길이를 직접 비교한다",
+    "difficulty": 1,
+    "game_type": "TARGET_SELECT",
+    "question": "연필 A는 8칸, 연필 B는 5칸만큼 깁니다. 더 긴 연필을 고르세요.",
+    "choices": [
+      "연필 A",
+      "연필 B"
+    ],
+    "answer": "연필 A",
+    "explanation": "같은 크기의 칸으로 길이를 재었으므로 칸 수를 비교합니다. 8칸이 5칸보다 길어서 연필 A가 더 깁니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "content_origin": "original",
+    "source_reference": "moe_2022_curriculum",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초1 수학 개념 기반 시범 배치; 개별 검토 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E1-MATH-124",
+    "domain": "number_operations",
+    "learning_target": "뺄셈 상황에 알맞은 식을 고른다",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "귤 7개 중 2개를 먹었습니다. 남은 귤을 구하는 식은?",
+    "choices": [
+      "7+2",
+      "7-2",
+      "2-7",
+      "7+7"
+    ],
+    "answer": "7-2",
+    "explanation": "있던 7개에서 2개가 없어졌으므로 빼기를 사용합니다. 남은 수를 구하는 식은 7-2입니다."
   }
 ]

@@ -1205,18 +1205,19 @@
       "2/3"
     ],
     "answer": "3/2",
-    "explanation": "3/4 ÷ 1/2 = 3/2.",
+    "explanation": "3/4 ÷ 1/2는 3/4 안에 1/2이 몇 번 들어가는지 묻는 것입니다. 1/2=2/4이므로 3/4 안에는 2/4이 1과 1/2번 들어갑니다. 따라서 3/4÷1/2=3/2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "분수 나눗셈을 같은 분모로 바꾼 뒤 포함되는 횟수로 설명"
   },
   {
     "id": "E6-MATH-EXT-000002",
@@ -1236,18 +1237,19 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "2.4 ÷ 0.6 = 4.",
+    "explanation": "2.4와 0.6을 각각 10배 하면 24와 6이 됩니다. 나누는 두 수를 같은 배수만큼 키워도 몫은 같으므로 2.4÷0.6=24÷6=4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "소수 나눗셈을 같은 배수 확대와 몫의 불변으로 설명"
   },
   {
     "id": "E6-MATH-EXT-000003",
@@ -1267,18 +1269,19 @@
       "40%"
     ],
     "answer": "25%",
-    "explanation": "40명 중 10명의 비율을 백분율로 나타내면 = 25%.",
+    "explanation": "40명 중 10명은 10/40=1/4입니다. 전체를 100으로 보면 1/4은 25/100이므로 백분율은 25%입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "백분율을 부분/전체의 비와 100 기준으로 연결해 설명"
   },
   {
     "id": "V58-E6-MATH-001",

@@ -71,7 +71,7 @@
     "learning_target": "사건의 시간 순서",
     "difficulty": 2,
     "game_type": "ORDERING",
-    "question": "일이 일어난 순서대로 타일을 고르세요.",
+    "question": "다음 이야기에서 일이 일어난 순서대로 타일을 고르세요. '민수는 아침밥을 먹었습니다. 그다음 이를 닦았습니다. 마지막으로 학교에 갔습니다.'",
     "choices": [
       "이를 닦았어요.",
       "학교에 갔어요.",
@@ -82,13 +82,13 @@
       "이를 닦았어요.",
       "학교에 갔어요."
     ],
-    "explanation": "아침밥을 먹고 이를 닦은 다음 학교에 가는 순서로 이야기합니다.",
+    "explanation": "글에 나온 '아침밥을 먹었습니다 → 이를 닦았습니다 → 학교에 갔습니다'의 순서대로 고릅니다. 평소 생활 습관이 아니라 제시된 글을 근거로 판단합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_content_check",
       "date": "2026-10-09",
@@ -138,7 +138,7 @@
     "domain": "물의 상태",
     "learning_target": "물의 상태 변화",
     "difficulty": 2,
-    "game_type": "MATCHING",
+    "game_type": "MULTIPLE_CHOICE",
     "question": "물이 얼 때 일어나는 변화를 선택하세요.",
     "choices": [
       "액체 → 고체",
@@ -147,13 +147,13 @@
       "기체 → 액체"
     ],
     "answer": "액체 → 고체",
-    "explanation": "물은 충분히 차가워지면 액체에서 고체인 얼음으로 변합니다.",
+    "explanation": "물이 얼면 액체인 물이 고체인 얼음으로 변합니다. 고체에서 액체로 변하는 것은 녹는 현상입니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "author_content_check",
       "date": "2026-10-09",

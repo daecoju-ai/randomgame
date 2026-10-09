@@ -1,0 +1,236 @@
+[
+  {
+    "id": "G1-YEAR26-MATCH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "수와 수를 읽는 말을 짝지으세요. 3과 '셋', 5와 '다섯'을 각각 연결하는 짝을 차례대로 고르세요.",
+    "choices": [
+      "3 ↔ 셋",
+      "3 ↔ 다섯",
+      "5 ↔ 다섯",
+      "5 ↔ 셋"
+    ],
+    "answer": [
+      "3 ↔ 셋",
+      "5 ↔ 다섯"
+    ],
+    "explanation": "3은 셋, 5는 다섯이라고 읽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-MATCH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "모양과 특징을 짝지으세요. 세모와 네모의 꼭짓점 수를 차례대로 고르세요.",
+    "choices": [
+      "세모 ↔ 3개",
+      "세모 ↔ 4개",
+      "네모 ↔ 4개",
+      "네모 ↔ 3개"
+    ],
+    "answer": [
+      "세모 ↔ 3개",
+      "네모 ↔ 4개"
+    ],
+    "explanation": "세모의 꼭짓점은 3개, 네모의 꼭짓점은 4개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-MATCH-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "덧셈식과 결과를 짝지으세요. 2+3, 4+2 순서로 고르세요.",
+    "choices": [
+      "2+3 ↔ 5",
+      "2+3 ↔ 6",
+      "4+2 ↔ 6",
+      "4+2 ↔ 5"
+    ],
+    "answer": [
+      "2+3 ↔ 5",
+      "4+2 ↔ 6"
+    ],
+    "explanation": "2와 3을 더하면 5이고 4와 2를 더하면 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-MATCH-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "낱말과 반대말을 짝지으세요. '크다', '높다' 순서로 고르세요.",
+    "choices": [
+      "크다 ↔ 작다",
+      "크다 ↔ 낮다",
+      "높다 ↔ 낮다",
+      "높다 ↔ 작다"
+    ],
+    "answer": [
+      "크다 ↔ 작다",
+      "높다 ↔ 낮다"
+    ],
+    "explanation": "크다의 반대말은 작다, 높다의 반대말은 낮다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-MATCH-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "동물과 울음소리를 짝지으세요. '고양이', '강아지' 순서로 고르세요.",
+    "choices": [
+      "고양이 ↔ 야옹",
+      "고양이 ↔ 멍멍",
+      "강아지 ↔ 멍멍",
+      "강아지 ↔ 야옹"
+    ],
+    "answer": [
+      "고양이 ↔ 야옹",
+      "강아지 ↔ 멍멍"
+    ],
+    "explanation": "고양이는 야옹, 강아지는 멍멍 소리를 냅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-MATCH-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념의 관련 항목 짝짓기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "생활 장소와 행동을 짝지으세요. '도서관', '횡단보도' 순서로 고르세요.",
+    "choices": [
+      "도서관 ↔ 조용히 책 읽기",
+      "도서관 ↔ 신호 살피기",
+      "횡단보도 ↔ 신호 살피기",
+      "횡단보도 ↔ 조용히 책 읽기"
+    ],
+    "answer": [
+      "도서관 ↔ 조용히 책 읽기",
+      "횡단보도 ↔ 신호 살피기"
+    ],
+    "explanation": "도서관에서는 조용히 책을 읽고 횡단보도에서는 신호를 살핍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_pair_and_order_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

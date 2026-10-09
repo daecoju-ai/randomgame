@@ -1,0 +1,48 @@
+{
+  "reference_year": 2026,
+  "baseline": "2022 revised national curriculum",
+  "latest_notice": "국가교육위원회고시 제2026-1호 (2026-01-21, 시행 2026-03-01)",
+  "notice_url": "https://www.law.go.kr/LSW/admRulInfoP.do?admRulSeq=2100000273516",
+  "original_notice_url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0",
+  "phase_in": [
+    {
+      "effective": "2024-03-01",
+      "grades": [
+        "elementary-1",
+        "elementary-2"
+      ]
+    },
+    {
+      "effective": "2025-03-01",
+      "grades": [
+        "elementary-3",
+        "elementary-4",
+        "middle-1",
+        "high-1"
+      ]
+    },
+    {
+      "effective": "2026-03-01",
+      "grades": [
+        "elementary-5",
+        "elementary-6",
+        "middle-2",
+        "high-2"
+      ]
+    },
+    {
+      "effective": "2027-03-01",
+      "grades": [
+        "middle-3",
+        "high-3"
+      ]
+    }
+  ],
+  "verification_policy": {
+    "curriculum_notice_verified": true,
+    "achievement_standard_mappings_verified": false,
+    "question_content_verified_by_notice": false,
+    "rule": "Do not treat a grade/subject label or notice link as verified alignment to a specific achievement standard. Require exact standard code, source edition and review evidence before marking approved."
+  },
+  "checked_at": "2026-10-09"
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "id": "G1-YEAR26-SEQ-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 세 문장을 이야기가 진행된 순서대로 고르세요. '먼저 씨앗을 심었습니다. 그다음 물을 주었습니다. 며칠 뒤 싹이 났습니다.'",
+    "choices": [
+      "며칠 뒤 싹이 났습니다.",
+      "그다음 물을 주었습니다.",
+      "먼저 씨앗을 심었습니다."
+    ],
+    "answer": [
+      "먼저 씨앗을 심었습니다.",
+      "그다음 물을 주었습니다.",
+      "며칠 뒤 싹이 났습니다."
+    ],
+    "explanation": "글에 먼저, 그다음, 며칠 뒤라는 순서 표현이 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "일의 순서",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 글을 읽고 행동한 순서대로 고르세요. '지수는 손을 씻고 밥을 먹은 뒤 양치했습니다.'",
+    "choices": [
+      "양치했습니다.",
+      "손을 씻었습니다.",
+      "밥을 먹었습니다."
+    ],
+    "answer": [
+      "손을 씻었습니다.",
+      "밥을 먹었습니다.",
+      "양치했습니다."
+    ],
+    "explanation": "손을 씻고 밥을 먹은 다음 양치했다고 글에 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "1부터 4까지 작은 수부터 순서대로 고르세요.",
+    "choices": [
+      "3",
+      "1",
+      "4",
+      "2"
+    ],
+    "answer": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "explanation": "1, 2, 3, 4 순서로 수가 하나씩 커집니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "10부터 13까지 작은 수부터 순서대로 고르세요.",
+    "choices": [
+      "12",
+      "10",
+      "13",
+      "11"
+    ],
+    "answer": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "explanation": "10 다음은 11, 그다음은 12, 13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "2씩 커지는 수를 작은 수부터 순서대로 고르세요.",
+    "choices": [
+      "8",
+      "4",
+      "6",
+      "2"
+    ],
+    "answer": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "explanation": "2에서 2씩 더하면 4, 6, 8이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "5씩 커지는 수를 작은 수부터 순서대로 고르세요.",
+    "choices": [
+      "15",
+      "5",
+      "20",
+      "10"
+    ],
+    "answer": [
+      "5",
+      "10",
+      "15",
+      "20"
+    ],
+    "explanation": "5부터 시작하여 5씩 더하면 10, 15, 20이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "하루 일과",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "아침에 일어나 학교에 가는 일의 순서를 고르세요. '일어나기, 세수하기, 학교에 가기'를 차례대로 배열하세요.",
+    "choices": [
+      "학교에 가기",
+      "일어나기",
+      "세수하기"
+    ],
+    "answer": [
+      "일어나기",
+      "세수하기",
+      "학교에 가기"
+    ],
+    "explanation": "일어나 세수한 다음 학교에 가는 순서로 배열합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-SEQ-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "식물 돌보기",
+    "learning_target": "순서와 규칙을 이해하고 배열하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 식물 기르기 활동을 순서대로 고르세요. '씨앗 심기, 물 주기, 싹 관찰하기'를 차례대로 배열하세요.",
+    "choices": [
+      "싹 관찰하기",
+      "씨앗 심기",
+      "물 주기"
+    ],
+    "answer": [
+      "씨앗 심기",
+      "물 주기",
+      "싹 관찰하기"
+    ],
+    "explanation": "씨앗을 심고 물을 준 다음 자라는 모습을 관찰합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_sequence_and_clarity_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

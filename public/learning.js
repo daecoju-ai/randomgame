@@ -60,11 +60,11 @@ async function syncReview(){
   const pending=new Set(reviewDone().map(x=>x.id));
   const current=reviewList();
   const due=new Map(remote.filter(x=>!pending.has(x.id)).map(x=>[x.id,x]));
-  const local=current.filter(x=>!pending.has(x.id)&&(!x.synced||due.has(x.id)));
+  const local=current.filter(x=>!pending.has(x.id)&&(x.localOnly||!x.synced||due.has(x.id)));
   const map=new Map(local.map(x=>[x.id,x]));
   for(const x of due.values()){
    const existing=map.get(x.id);
-   if(existing&&!existing.synced)continue;
+   if(existing?.localOnly||existing&&!existing.synced)continue;
    map.set(x.id,{...(existing||{}),id:x.id,packId:existing?.packId||null,subject:x.subject,domain:x.domain,at:Date.parse(x.lastAt)||Date.now(),synced:true});
   }
   saveReview([...map.values()].sort((a,b)=>b.at-a.at));

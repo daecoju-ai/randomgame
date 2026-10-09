@@ -4632,13 +4632,13 @@
       "31"
     ],
     "answer": "29",
-    "explanation": "전체 수를 사람 수로 나눠요. 203 ÷ 7 = 29자루입니다.",
+    "explanation": "203자루를 7명이 같은 수만큼 받도록 나눕니다. 29 × 7 = 203이므로 한 명은 29자루입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나눗셈"
     ],
@@ -4653,7 +4653,8 @@
       "result": "29",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "등분 나눗셈을 곱셈으로 되짚어 확인"
   },
   {
     "id": "V61-E3-MATH-082",
@@ -4673,13 +4674,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "7 × 29 = 203이고 209 − 203 = 6개가 남아요. 나머지는 7보다 작습니다.",
+    "explanation": "7개씩 29묶음이면 203개를 사용합니다. 209-203=6개가 남고 6<7라서 새 묶음을 더 만들 수 없습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나머지"
     ],
@@ -4694,7 +4695,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "몫과 나머지를 실제 묶음 상황으로 설명"
   },
   {
     "id": "V61-E3-MATH-083",
@@ -4714,13 +4716,13 @@
       "51"
     ],
     "answer": "49",
-    "explanation": "읽은 시간과 쉰 시간을 더해요. 42 + 7 = 49분입니다.",
+    "explanation": "읽은 시간 뒤에 쉰 시간이 이어지므로 전체 경과 시간은 두 시간을 합합니다. 42+7=49분입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "시간"
     ],
@@ -4735,7 +4737,8 @@
       "result": "49",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "경과 시간을 연속된 두 시간 구간의 합으로 설명"
   },
   {
     "id": "V61-E3-MATH-084",
@@ -4755,13 +4758,13 @@
       "1709"
     ],
     "answer": "1707",
-    "explanation": "1m는 100cm입니다. 17 × 100 + 7 = 1707cm입니다.",
+    "explanation": "1m=100cm입니다. 17m=1700cm로 바꾼 뒤 7cm를 더하면 1707cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이 변환"
     ],
@@ -4776,7 +4779,8 @@
       "result": "1707",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "길이 단위를 하나로 통일한 뒤 더하는 과정을 설명"
   },
   {
     "id": "V61-E3-MATH-085",
@@ -4796,13 +4800,13 @@
       "62"
     ],
     "answer": "60",
-    "explanation": "30를 2번 더하는 것과 같아요. 30 × 2 = 60입니다.",
+    "explanation": "30가 2묶음 있으므로 30를 2번 더한 값과 같습니다. 곱셈으로 30 × 2 = 60입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈"
     ],
@@ -4817,7 +4821,8 @@
       "result": "60",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 곱셈을 묶음과 반복 덧셈으로 연결"
   },
   {
     "id": "V61-E3-MATH-086",
@@ -4837,13 +4842,13 @@
       "32"
     ],
     "answer": "30",
-    "explanation": "전체 수를 사람 수로 나눠요. 60 ÷ 2 = 30자루입니다.",
+    "explanation": "60자루를 2명이 같은 수만큼 받도록 나눕니다. 30 × 2 = 60이므로 한 명은 30자루입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나눗셈"
     ],
@@ -4858,7 +4863,8 @@
       "result": "30",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "등분 나눗셈을 곱셈으로 되짚어 확인"
   },
   {
     "id": "V61-E3-MATH-087",
@@ -4878,13 +4884,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "2 × 30 = 60이고 61 − 60 = 1개가 남아요. 나머지는 2보다 작습니다.",
+    "explanation": "2개씩 30묶음이면 60개를 사용합니다. 61-60=1개가 남고 1<2라서 새 묶음을 더 만들 수 없습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나머지"
     ],
@@ -4899,7 +4905,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "몫과 나머지를 실제 묶음 상황으로 설명"
   },
   {
     "id": "V61-E3-MATH-088",
@@ -4919,13 +4926,13 @@
       "47"
     ],
     "answer": "45",
-    "explanation": "읽은 시간과 쉰 시간을 더해요. 43 + 2 = 45분입니다.",
+    "explanation": "읽은 시간 뒤에 쉰 시간이 이어지므로 전체 경과 시간은 두 시간을 합합니다. 43+2=45분입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "시간"
     ],
@@ -4940,7 +4947,8 @@
       "result": "45",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "경과 시간을 연속된 두 시간 구간의 합으로 설명"
   },
   {
     "id": "V61-E3-MATH-089",
@@ -4960,13 +4968,13 @@
       "1804"
     ],
     "answer": "1802",
-    "explanation": "1m는 100cm입니다. 18 × 100 + 2 = 1802cm입니다.",
+    "explanation": "1m=100cm입니다. 18m=1800cm로 바꾼 뒤 2cm를 더하면 1802cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이 변환"
     ],
@@ -4981,7 +4989,8 @@
       "result": "1802",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "길이 단위를 하나로 통일한 뒤 더하는 과정을 설명"
   },
   {
     "id": "V61-E3-MATH-090",
@@ -5001,13 +5010,13 @@
       "95"
     ],
     "answer": "93",
-    "explanation": "31를 3번 더하는 것과 같아요. 31 × 3 = 93입니다.",
+    "explanation": "31가 3묶음 있으므로 31를 3번 더한 값과 같습니다. 곱셈으로 31 × 3 = 93입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈"
     ],
@@ -5022,7 +5031,8 @@
       "result": "93",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 곱셈을 묶음과 반복 덧셈으로 연결"
   },
   {
     "id": "V61-E3-MATH-091",
@@ -5042,13 +5052,13 @@
       "33"
     ],
     "answer": "31",
-    "explanation": "전체 수를 사람 수로 나눠요. 93 ÷ 3 = 31자루입니다.",
+    "explanation": "93자루를 3명이 같은 수만큼 받도록 나눕니다. 31 × 3 = 93이므로 한 명은 31자루입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나눗셈"
     ],
@@ -5063,7 +5073,8 @@
       "result": "31",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "등분 나눗셈을 곱셈으로 되짚어 확인"
   },
   {
     "id": "V61-E3-MATH-092",
@@ -5083,13 +5094,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "3 × 31 = 93이고 95 − 93 = 2개가 남아요. 나머지는 3보다 작습니다.",
+    "explanation": "3개씩 31묶음이면 93개를 사용합니다. 95-93=2개가 남고 2<3라서 새 묶음을 더 만들 수 없습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나머지"
     ],
@@ -5104,7 +5115,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "몫과 나머지를 실제 묶음 상황으로 설명"
   },
   {
     "id": "V61-E3-MATH-093",
@@ -5124,13 +5136,13 @@
       "49"
     ],
     "answer": "47",
-    "explanation": "읽은 시간과 쉰 시간을 더해요. 44 + 3 = 47분입니다.",
+    "explanation": "읽은 시간 뒤에 쉰 시간이 이어지므로 전체 경과 시간은 두 시간을 합합니다. 44+3=47분입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "시간"
     ],
@@ -5145,7 +5157,8 @@
       "result": "47",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "경과 시간을 연속된 두 시간 구간의 합으로 설명"
   },
   {
     "id": "V61-E3-MATH-094",
@@ -5165,13 +5178,13 @@
       "1905"
     ],
     "answer": "1903",
-    "explanation": "1m는 100cm입니다. 19 × 100 + 3 = 1903cm입니다.",
+    "explanation": "1m=100cm입니다. 19m=1900cm로 바꾼 뒤 3cm를 더하면 1903cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이 변환"
     ],
@@ -5186,7 +5199,8 @@
       "result": "1903",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "길이 단위를 하나로 통일한 뒤 더하는 과정을 설명"
   },
   {
     "id": "V61-E3-MATH-095",
@@ -5206,13 +5220,13 @@
       "130"
     ],
     "answer": "128",
-    "explanation": "32를 4번 더하는 것과 같아요. 32 × 4 = 128입니다.",
+    "explanation": "32가 4묶음 있으므로 32를 4번 더한 값과 같습니다. 곱셈으로 32 × 4 = 128입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈"
     ],
@@ -5227,7 +5241,8 @@
       "result": "128",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 곱셈을 묶음과 반복 덧셈으로 연결"
   },
   {
     "id": "V61-E3-MATH-096",
@@ -5247,13 +5262,13 @@
       "34"
     ],
     "answer": "32",
-    "explanation": "전체 수를 사람 수로 나눠요. 128 ÷ 4 = 32자루입니다.",
+    "explanation": "128자루를 4명이 같은 수만큼 받도록 나눕니다. 32 × 4 = 128이므로 한 명은 32자루입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나눗셈"
     ],
@@ -5268,7 +5283,8 @@
       "result": "32",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "등분 나눗셈을 곱셈으로 되짚어 확인"
   },
   {
     "id": "V61-E3-MATH-097",
@@ -5288,13 +5304,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "4 × 32 = 128이고 131 − 128 = 3개가 남아요. 나머지는 4보다 작습니다.",
+    "explanation": "4개씩 32묶음이면 128개를 사용합니다. 131-128=3개가 남고 3<4라서 새 묶음을 더 만들 수 없습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "나머지"
     ],
@@ -5309,7 +5325,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "몫과 나머지를 실제 묶음 상황으로 설명"
   },
   {
     "id": "V61-E3-MATH-098",
@@ -5329,13 +5346,13 @@
       "51"
     ],
     "answer": "49",
-    "explanation": "읽은 시간과 쉰 시간을 더해요. 45 + 4 = 49분입니다.",
+    "explanation": "읽은 시간 뒤에 쉰 시간이 이어지므로 전체 경과 시간은 두 시간을 합합니다. 45+4=49분입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "시간"
     ],
@@ -5350,7 +5367,8 @@
       "result": "49",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "경과 시간을 연속된 두 시간 구간의 합으로 설명"
   },
   {
     "id": "V61-E3-MATH-099",
@@ -5370,13 +5388,13 @@
       "2006"
     ],
     "answer": "2004",
-    "explanation": "1m는 100cm입니다. 20 × 100 + 4 = 2004cm입니다.",
+    "explanation": "1m=100cm입니다. 20m=2000cm로 바꾼 뒤 4cm를 더하면 2004cm입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "길이 변환"
     ],
@@ -5391,7 +5409,8 @@
       "result": "2004",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "길이 단위를 하나로 통일한 뒤 더하는 과정을 설명"
   },
   {
     "id": "V61-E3-MATH-100",
@@ -5411,13 +5430,13 @@
       "167"
     ],
     "answer": "165",
-    "explanation": "33를 5번 더하는 것과 같아요. 33 × 5 = 165입니다.",
+    "explanation": "33가 5묶음 있으므로 33를 5번 더한 값과 같습니다. 곱셈으로 33 × 5 = 165입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "곱셈"
     ],
@@ -5432,6 +5451,7 @@
       "result": "165",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 자리 수 곱셈을 묶음과 반복 덧셈으로 연결"
   }
 ]

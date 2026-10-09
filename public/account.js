@@ -8,6 +8,8 @@ function message(text){$('#accountMessage').textContent=text}
 function cache(){if(!user)return;try{localStorage.setItem(key(user.id),JSON.stringify({revision,data:game.snapshot(),dirty}))}catch{message('기기에 임시 저장할 공간이 없습니다. 이 화면을 닫기 전에 서버 저장을 완료해 주세요.')}}
 function cached(id){try{return JSON.parse(localStorage.getItem(key(id))||'null')}catch{return null}}
 function status(text){$('#cloudStatus').textContent=text;$('#saveStatus').textContent=text}
+async function loadKnowledgeRewards(){if(!user){window.ForgeKnowledgeRewards={items:[],balance:0};document.documentElement.classList.remove('knowledgeLearnerGlow');return}try{const r=await fetch('/api/learning',{method:'POST',credentials:'same-origin',cache:'no-store',headers:{'Content-Type':'application/json','X-Forge-Request':'1'},body:JSON.stringify({action:'stars-shop',requestId:crypto.randomUUID(),payload:{}})});const v=await r.json();if(!r.ok||v.error)return;window.ForgeKnowledgeRewards={items:v.items||[],balance:v.balance||0};document.documentElement.classList.toggle('knowledgeLearnerGlow',(v.items||[]).includes('learner_glow'));window.dispatchEvent(new CustomEvent('forge:knowledge-rewards',{detail:window.ForgeKnowledgeRewards}))}catch{}}
+
 function render(){
  $('#accountUser').textContent=user?user.email:'게스트';$('#accountState').textContent=checking?'계정 확인 중':user?'계정으로 플레이':'가입 없이도 플레이할 수 있어요';
  $('#accountMember').hidden=!user;$('#accountGuest').hidden=!!user;$('#accountForm').hidden=!!user||checking;
@@ -30,8 +32,8 @@ function setMode(next){if(!['signin','signup','verify','recover','reset'].includ
 function open(){if(game.inBattle())game.pause();returnFocus=document.activeElement;render();if(!dialog.open)dialog.showModal();$('#accountEmail').focus()}
 function close(){if(busy)return;dialog.close();$('#accountPassword').value='';$('#accountConfirm').value='';$('#accountCode').value='';returnFocus?.focus()}
 function hold(text){locked=true;game.pause();status(text);render()}
-function localGuest(){window.ForgeGuardianSync?.reset();window.ForgeAdventure?.accountChanged();window.ForgeEconomy?.accountChanged(null);user=null;revision=null;dirty=false;conflict=false;awaitingChoice=false;locked=false;generation++;game.guest();status('비회원 · 이 브라우저에만 저장');render()}
-async function loadAccount(nextUser){window.ForgeGuardianSync?.reset();window.ForgeAdventure?.accountChanged();user=nextUser;window.ForgeEconomy?.accountChanged(user.id);locked=true;generation++;game.pause();game.apply({levels:{},essence:0},user.id);status('계정 기록 불러오는 중');render();
+function localGuest(){void loadKnowledgeRewards();window.ForgeGuardianSync?.reset();window.ForgeAdventure?.accountChanged();window.ForgeEconomy?.accountChanged(null);user=null;revision=null;dirty=false;conflict=false;awaitingChoice=false;locked=false;generation++;game.guest();status('비회원 · 이 브라우저에만 저장');render()}
+async function loadAccount(nextUser){window.ForgeGuardianSync?.reset();window.ForgeAdventure?.accountChanged();user=nextUser;window.ForgeEconomy?.accountChanged(user.id);void loadKnowledgeRewards();locked=true;generation++;game.pause();game.apply({levels:{},essence:0},user.id);status('계정 기록 불러오는 중');render();
  try{const response=await api('progress',{action:'load',owner:user.id});const record=response.record,pending=cached(user.id);
   if(pending?.dirty){revision=pending.revision;dirty=true;game.apply(pending.data,user.id);if(record?.revision!==revision&&!(record===null&&revision===null)){conflict=true;hold('저장 충돌 · 계정에서 서버 기록을 확인해 주세요.');open();return}await window.ForgeGuardianSync?.load(user.id);locked=false;await flush();return}
   if(!record){revision=null;awaitingChoice=true;hold('첫 계정 저장 · 기존 기록을 가져올지 선택해 주세요.');open();return}

@@ -1,5 +1,5 @@
 {
-  "version": 12,
+  "version": 13,
   "packs": [
     {
       "id": "general-general-certification",
@@ -406,8 +406,8 @@
       "area": null,
       "title": "초5 국어 · 읽기와 표현 원정",
       "url": "/learning-data/elementary-5-korean.json",
-      "version": 7,
-      "count": 35
+      "version": 8,
+      "count": 40
     },
     {
       "id": "elementary-6-korean",
@@ -418,8 +418,8 @@
       "area": null,
       "title": "초6 국어 · 읽기와 표현 원정",
       "url": "/learning-data/elementary-6-korean.json",
-      "version": 7,
-      "count": 35
+      "version": 8,
+      "count": 40
     }
   ],
   "certifications": [

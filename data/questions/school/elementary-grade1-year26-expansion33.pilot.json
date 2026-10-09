@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP33-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 4를 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "2시",
+      "4시",
+      "6시",
+      "12시"
+    ],
+    "answer": "4시",
+    "explanation": "긴바늘이 12이면 정각이고, 짧은바늘이 4이면 4시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계의 긴바늘이 12, 짧은바늘이 9를 가리킵니다. 몇 시인가요?",
+    "choices": [
+      "3시",
+      "6시",
+      "9시",
+      "12시"
+    ],
+    "answer": "9시",
+    "explanation": "긴바늘이 12이고 짧은바늘이 9이므로 9시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계의 긴바늘이 6, 짧은바늘이 2와 3 사이에 있습니다. 몇 시 30분인가요?",
+    "choices": [
+      "1시 30분",
+      "2시 30분",
+      "3시 30분",
+      "6시 30분"
+    ],
+    "answer": "2시 30분",
+    "explanation": "긴바늘이 6이면 30분이고 짧은바늘이 2와 3 사이면 2시 30분입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "시계의 긴바늘이 6, 짧은바늘이 7과 8 사이에 있습니다. 몇 시 30분인가요?",
+    "choices": [
+      "6시 30분",
+      "7시 30분",
+      "8시 30분",
+      "9시 30분"
+    ],
+    "answer": "7시 30분",
+    "explanation": "긴바늘이 6이면 30분이고 짧은바늘이 7과 8 사이면 7시 30분입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "아침 8시에 시작한 놀이가 1시간 뒤 끝났습니다. 끝난 시각은?",
+    "choices": [
+      "7시",
+      "8시",
+      "9시",
+      "10시"
+    ],
+    "answer": "9시",
+    "explanation": "8시에서 한 시간 뒤는 9시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "오후 2시에 책을 읽기 시작해 1시간 뒤 마쳤습니다. 마친 시각은?",
+    "choices": [
+      "오후 1시",
+      "오후 2시",
+      "오후 3시",
+      "오후 4시"
+    ],
+    "answer": "오후 3시",
+    "explanation": "오후 2시에서 한 시간 뒤는 오후 3시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "알림: '미술 수업은 수요일입니다. 색종이를 준비하세요.' 준비할 것은?",
+    "choices": [
+      "풀",
+      "색종이",
+      "물감",
+      "실내화"
+    ],
+    "answer": "색종이",
+    "explanation": "알림에 색종이를 준비하라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "초대장: '금요일 오후에 우리 집에서 생일 파티를 합니다.' 파티가 열리는 요일은?",
+    "choices": [
+      "월요일",
+      "수요일",
+      "금요일",
+      "일요일"
+    ],
+    "answer": "금요일",
+    "explanation": "초대장에 '금요일 오후'라고 쓰여 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '꽃밭 안으로 들어가지 마세요.' 이 안내를 지키는 행동은?",
+    "choices": [
+      "꽃을 밟는다",
+      "꽃밭 밖에서 본다",
+      "꽃을 꺾는다",
+      "꽃밭에서 뛴다"
+    ],
+    "answer": "꽃밭 밖에서 본다",
+    "explanation": "꽃밭 안으로 들어가지 말라는 안내를 지키려면 밖에서 봅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "쪽지: '동생아, 간식은 식탁 위에 있어.' 간식을 찾을 곳은?",
+    "choices": [
+      "냉장고 아래",
+      "책장 위",
+      "식탁 위",
+      "가방 안"
+    ],
+    "answer": "식탁 위",
+    "explanation": "쪽지에서 간식이 있는 곳을 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구가 도서관에서 책을 읽고 있습니다. 어떻게 행동하는 것이 좋을까요?",
+    "choices": [
+      "큰 소리로 노래한다",
+      "조용히 말하고 걷는다",
+      "책을 던진다",
+      "친구를 밀친다"
+    ],
+    "answer": "조용히 말하고 걷는다",
+    "explanation": "도서관에서는 다른 사람을 배려해 조용히 행동합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP33-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "시각과 생활 자료를 연결해 판단하고 문장의 의미를 이해하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "겨울에 밖으로 나갈 때 추위를 막는 데 알맞은 것은?",
+    "choices": [
+      "얇은 반팔 옷",
+      "목도리와 장갑",
+      "수영복",
+      "맨발"
+    ],
+    "answer": "목도리와 장갑",
+    "explanation": "추운 날씨에는 따뜻하게 입어 체온을 지킵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "G1-YEAR26-EXP6-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'지민이는 아침에 우유를 마셨습니다.' 지민이가 우유를 마신 때는?",
+    "choices": [
+      "점심",
+      "아침",
+      "저녁",
+      "밤"
+    ],
+    "answer": "아침",
+    "explanation": "'지민이는 아침에 우유를 마셨습니다.'에서 '아침'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'서우는 공원에서 자전거를 탔습니다.' 서우가 자전거를 탄 곳은?",
+    "choices": [
+      "학교",
+      "공원",
+      "시장",
+      "도서관"
+    ],
+    "answer": "공원",
+    "explanation": "'서우는 공원에서 자전거를 탔습니다.'에서 '공원'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'태호는 비가 와서 장화를 신었습니다.' 태호가 장화를 신은 이유는?",
+    "choices": [
+      "날씨가 더워서",
+      "비가 와서",
+      "잠이 와서",
+      "배가 고파서"
+    ],
+    "answer": "비가 와서",
+    "explanation": "'태호는 비가 와서 장화를 신었습니다.'에서 '비가 와서'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'하린이는 친구에게 연필을 빌려주었습니다.' 하린이가 친구에게 빌려준 것은?",
+    "choices": [
+      "우산",
+      "연필",
+      "공",
+      "모자"
+    ],
+    "answer": "연필",
+    "explanation": "'하린이는 친구에게 연필을 빌려주었습니다.'에서 '연필'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'준서는 동생과 함께 퍼즐을 맞추었습니다.' 준서가 함께 놀이한 사람은?",
+    "choices": [
+      "선생님",
+      "동생",
+      "할머니",
+      "이웃"
+    ],
+    "answer": "동생",
+    "explanation": "'준서는 동생과 함께 퍼즐을 맞추었습니다.'에서 '동생'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'민아는 학교 앞에서 친구를 기다렸습니다.' 민아가 기다린 사람은?",
+    "choices": [
+      "엄마",
+      "친구",
+      "동생",
+      "아빠"
+    ],
+    "answer": "친구",
+    "explanation": "'민아는 학교 앞에서 친구를 기다렸습니다.'에서 '친구'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'지우는 목이 말라 물을 마셨습니다.' 지우가 물을 마신 이유는?",
+    "choices": [
+      "추워서",
+      "목이 말라서",
+      "배가 아파서",
+      "졸려서"
+    ],
+    "answer": "목이 말라서",
+    "explanation": "'지우는 목이 말라 물을 마셨습니다.'에서 '목이 말라서'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'예나는 빨간 꽃을 화분에 심었습니다.' 예나가 심은 것은?",
+    "choices": [
+      "나무 의자",
+      "꽃",
+      "연필",
+      "책"
+    ],
+    "answer": "꽃",
+    "explanation": "'예나는 빨간 꽃을 화분에 심었습니다.'에서 '꽃'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'현우는 운동장에서 공을 던졌습니다.' 현우가 공을 던진 장소는?",
+    "choices": [
+      "교실",
+      "운동장",
+      "식당",
+      "도서관"
+    ],
+    "answer": "운동장",
+    "explanation": "'현우는 운동장에서 공을 던졌습니다.'에서 '운동장'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'소민이는 잠자기 전에 이를 닦았습니다.' 소민이가 이를 닦은 때는?",
+    "choices": [
+      "일어난 직후",
+      "잠자기 전",
+      "점심시간",
+      "등교 중"
+    ],
+    "answer": "잠자기 전",
+    "explanation": "'소민이는 잠자기 전에 이를 닦았습니다.'에서 '잠자기 전'를 알려 주는 부분을 찾아보세요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 11장 중 6장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "6",
+      "5",
+      "7",
+      "4"
+    ],
+    "answer": "5",
+    "explanation": "11장에서 6장을 빼면 5장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 12장 중 1장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "12장에서 1장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 13장 중 2장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "13장에서 2장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 14장 중 3장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "14장에서 3장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 15장 중 4장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "15장에서 4장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 16장 중 5장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "16장에서 5장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 17장 중 6장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "12",
+      "11",
+      "13",
+      "10"
+    ],
+    "answer": "11",
+    "explanation": "17장에서 6장을 빼면 11장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 18장 중 1장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "16"
+    ],
+    "answer": "17",
+    "explanation": "18장에서 1장을 빼면 17장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 19장 중 2장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "16"
+    ],
+    "answer": "17",
+    "explanation": "19장에서 2장을 빼면 17장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 20장 중 3장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "18",
+      "17",
+      "19",
+      "16"
+    ],
+    "answer": "17",
+    "explanation": "20장에서 3장을 빼면 17장입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 말을 하고 있을 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "말 끊기",
+      "끝까지 듣기",
+      "큰 소리로 떠들기",
+      "놀리기"
+    ],
+    "answer": "끝까지 듣기",
+    "explanation": "친구가 말을 하고 있을 때에는 '끝까지 듣기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 계단을 내려갈 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "두 칸씩 뛰기",
+      "난간을 잡고 천천히 걷기",
+      "친구 밀기",
+      "눈 감고 걷기"
+    ],
+    "answer": "난간을 잡고 천천히 걷기",
+    "explanation": "학교 계단을 내려갈 때에는 '난간을 잡고 천천히 걷기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "밥을 먹기 전 알맞은 행동을 고르세요.",
+    "choices": [
+      "손 더럽히기",
+      "손 씻기",
+      "신발 던지기",
+      "책 찢기"
+    ],
+    "answer": "손 씻기",
+    "explanation": "밥을 먹기 전에는 '손 씻기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "식물 돌보기",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "화분의 흙이 말랐을 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "잎 뜯기",
+      "물을 알맞게 주기",
+      "흙 모두 버리기",
+      "화분 깨기"
+    ],
+    "answer": "물을 알맞게 주기",
+    "explanation": "화분의 흙이 말랐을 때에는 '물을 알맞게 주기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "횡단보도 신호가 빨간불일 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "바로 건너기",
+      "기다리기",
+      "차도로 뛰기",
+      "장난치기"
+    ],
+    "answer": "기다리기",
+    "explanation": "횡단보도 신호가 빨간불일 때에는 '기다리기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도서관에서 책을 읽을 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "큰 소리로 노래하기",
+      "조용히 읽기",
+      "책 던지기",
+      "뛰어다니기"
+    ],
+    "answer": "조용히 읽기",
+    "explanation": "도서관에서 책을 읽을 때에는 '조용히 읽기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "놀이터에서 그네가 움직일 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "그네 앞에 뛰어들기",
+      "안전한 거리에서 기다리기",
+      "친구 밀기",
+      "그네 줄 잡기"
+    ],
+    "answer": "안전한 거리에서 기다리기",
+    "explanation": "놀이터에서 그네가 움직일 때에는 '안전한 거리에서 기다리기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 물건을 떨어뜨렸을 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "발로 차기",
+      "주워서 건네주기",
+      "숨기기",
+      "놀리기"
+    ],
+    "answer": "주워서 건네주기",
+    "explanation": "친구가 물건을 떨어뜨렸을 때에는 '주워서 건네주기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비가 와서 바닥이 미끄러울 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "뛰어다니기",
+      "천천히 걷기",
+      "밀기",
+      "미끄럼 놀이하기"
+    ],
+    "answer": "천천히 걷기",
+    "explanation": "비가 와서 바닥이 미끄러울 때에는 '천천히 걷기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP6-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 읽고 이유를 생각하여 정답 선택하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "놀이가 끝났을 때 알맞은 행동을 고르세요.",
+    "choices": [
+      "장난감 던지기",
+      "장난감 정리하기",
+      "그대로 두기",
+      "친구 물건 숨기기"
+    ],
+    "answer": "장난감 정리하기",
+    "explanation": "놀이가 끝났을 때에는 '장난감 정리하기' 행동이 적절합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

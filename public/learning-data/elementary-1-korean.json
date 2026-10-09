@@ -1,1 +1,200 @@
-[{"id":"V62-KOREAN-001","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"반대말","learning_target":"반대말","difficulty":2,"game_type":"TILE_CHOICE","question":"‘넓다’와 반대인 말은?","choices":["좁다","높다","길다","깊다"],"answer":"좁다","explanation":"넓다와 좁다는 공간의 너비가 반대인 뜻입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-002","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"반대말","learning_target":"반대말","difficulty":2,"game_type":"TILE_CHOICE","question":"‘가볍다’와 반대인 말은?","choices":["무겁다","빠르다","밝다","부드럽다"],"answer":"무겁다","explanation":"무게가 적으면 가볍고, 많으면 무겁다고 합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-007","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"문맥 어휘","learning_target":"문맥 어휘","difficulty":2,"game_type":"TILE_CHOICE","question":"물이 쏟아져 바닥이 젖었습니다. ‘젖다’는 무슨 뜻인가요?","choices":["물기가 배다","색이 밝아지다","크기가 커지다","소리가 나다"],"answer":"물기가 배다","explanation":"젖다는 액체가 묻거나 스며들어 물기를 머금는 뜻입니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-009","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"문장 부호","learning_target":"문장 부호","difficulty":2,"game_type":"TILE_CHOICE","question":"질문하는 문장 끝에 쓰는 부호는?","choices":["?","!",",","."],"answer":"?","explanation":"물음표는 질문하는 문장 끝에 씁니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-010","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"문장 부호","learning_target":"문장 부호","difficulty":2,"game_type":"TILE_CHOICE","question":"‘와, 정말 멋지다’처럼 감탄을 드러낼 때 알맞은 끝 부호는?","choices":["!","?",",",":"],"answer":"!","explanation":"느낌표는 강한 느낌이나 감탄을 나타낼 때 씁니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-KOREAN-018","curriculum":"2022","school":"elementary","grade":1,"subject":"korean","domain":"읽기 이해","learning_target":"읽기 이해","difficulty":2,"game_type":"TILE_CHOICE","question":"‘민수는 연필을 빌려 쓰고 바로 돌려주었다.’ 민수가 빌린 물건은?","choices":["연필","가방","책","우산"],"answer":"연필","explanation":"문장에 빌린 물건이 연필이라고 직접 나와 있습니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"}]
+[
+  {
+    "id": "V62-KOREAN-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "반대말",
+    "learning_target": "반대말",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘넓다’와 반대인 말은?",
+    "choices": [
+      "좁다",
+      "높다",
+      "길다",
+      "깊다"
+    ],
+    "answer": "좁다",
+    "explanation": "‘넓다’는 공간의 너비가 큰 상태이고 ‘좁다’는 너비가 작은 상태입니다. 같은 기준에서 서로 반대되는 뜻이므로 답은 ‘좁다’입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "반대말을 공간의 너비라는 공통 기준으로 비교해 설명"
+  },
+  {
+    "id": "V62-KOREAN-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "반대말",
+    "learning_target": "반대말",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘가볍다’와 반대인 말은?",
+    "choices": [
+      "무겁다",
+      "빠르다",
+      "밝다",
+      "부드럽다"
+    ],
+    "answer": "무겁다",
+    "explanation": "‘가볍다’와 ‘무겁다’는 물건의 무게를 서로 반대로 나타내는 말입니다. 무게가 적으면 가볍고 무게가 많으면 무겁습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "반대말을 무게라는 공통 기준으로 비교해 설명"
+  },
+  {
+    "id": "V62-KOREAN-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문맥 어휘",
+    "learning_target": "문맥 어휘",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "물이 쏟아져 바닥이 젖었습니다. ‘젖다’는 무슨 뜻인가요?",
+    "choices": [
+      "물기가 배다",
+      "색이 밝아지다",
+      "크기가 커지다",
+      "소리가 나다"
+    ],
+    "answer": "물기가 배다",
+    "explanation": "물이 옷이나 바닥에 묻거나 스며들어 물기를 머금은 상태를 ‘젖다’라고 합니다. 그래서 ‘물기가 배다’가 알맞은 뜻입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "문맥 속 상황과 낱말 뜻을 연결해 설명"
+  },
+  {
+    "id": "V62-KOREAN-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "질문하는 문장 끝에 쓰는 부호는?",
+    "choices": [
+      "?",
+      "!",
+      ",",
+      "."
+    ],
+    "answer": "?",
+    "explanation": "상대에게 무엇을 묻는 문장은 질문하는 문장입니다. 질문이 끝났다는 것을 나타낼 때 문장 끝에 물음표(?)를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "문장의 목적과 물음표의 기능을 연결해 설명"
+  },
+  {
+    "id": "V62-KOREAN-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘와, 정말 멋지다’처럼 감탄을 드러낼 때 알맞은 끝 부호는?",
+    "choices": [
+      "!",
+      "?",
+      ",",
+      ":"
+    ],
+    "answer": "!",
+    "explanation": "‘와’처럼 놀람이나 감탄을 강하게 드러내는 문장에는 느낌표(!)를 씁니다. 느낌표는 말하는 사람의 강한 느낌을 나타냅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "감탄 표현과 느낌표의 기능을 연결해 설명"
+  },
+  {
+    "id": "V62-KOREAN-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "‘민수는 연필을 빌려 쓰고 바로 돌려주었다.’ 민수가 빌린 물건은?",
+    "choices": [
+      "연필",
+      "가방",
+      "책",
+      "우산"
+    ],
+    "answer": "연필",
+    "explanation": "문장에서 ‘민수는 연필을 빌려 쓰고’라고 했습니다. 누가 무엇을 했는지 확인하면 민수가 빌린 물건은 ‘연필’임을 바로 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 2,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치",
+    "revision_note": "문장에서 인물과 행동, 대상 정보를 찾는 방법을 설명"
+  }
+]

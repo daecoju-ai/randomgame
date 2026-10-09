@@ -11,6 +11,8 @@ const curriculumReviewQueue=[];
 const mappingIntegrityFlags=[];
 const allowedAnnex={korean:'5',math:'8'};
 const standardPattern=/^\[([246])([가-힣])([0-9]{2})-([0-9]{2})\]$/;
+const subjectCode={korean:'국',math:'수'};
+const sourceHosts=new Set(['www.moe.go.kr','moe.go.kr','www.ncic.re.kr','ncic.re.kr']);
 const gradeBand=grade=>Number(grade)<=2?'1-2':Number(grade)<=4?'3-4':'5-6';
 const elligibleStart={english:3,science:3,social:3};
 const officialSource={
@@ -29,6 +31,7 @@ for(const pack of manifest.packs){
     if(standardCode){
       const match=String(standardCode).match(standardPattern);
       if(!match)mappingIntegrityFlags.push({id:q.id,reason:'invalid_standard_code_format',standard_code:standardCode});
+      if(match&&subjectCode[q.subject]&&match[2]!==subjectCode[q.subject])mappingIntegrityFlags.push({id:q.id,reason:'wrong_standard_subject',standard_code:standardCode});
       if(match&&Number(match[1])!==Number(band.split('-')[1]))gradeBandFlags.push({id:q.id,grade:q.grade,standard_code:standardCode,reason:'standard_code_grade_band_mismatch'});
     }
     const minGrade=elligibleStart[q.subject];
@@ -36,8 +39,12 @@ for(const pack of manifest.packs){
     const mapping=q.curriculum_mapping;
     if(mapping){
       for(const field of ['standard_code','source_url','checked_at','reviewer'])if(!mapping[field])mappingIntegrityFlags.push({id:q.id,reason:'missing_mapping_field',field});
-      if(mapping.source_url&&!/^https:\/\//.test(mapping.source_url))mappingIntegrityFlags.push({id:q.id,reason:'invalid_source_url'});
-      if(mapping.checked_at&&!/^\d{4}-\d{2}-\d{2}$/.test(mapping.checked_at))mappingIntegrityFlags.push({id:q.id,reason:'invalid_checked_at'});
+      if(mapping.source_url){
+        try{const url=new URL(mapping.source_url);if(url.protocol!=='https:'||!sourceHosts.has(url.hostname))mappingIntegrityFlags.push({id:q.id,reason:'untrusted_source_url'});}
+        catch{mappingIntegrityFlags.push({id:q.id,reason:'invalid_source_url'});}
+      }
+      if(mapping.checked_at){const date=String(mapping.checked_at);if(!/^\d{4}-\d{2}-\d{2}$/.test(date)||Number.isNaN(Date.parse(date))||date>new Date().toISOString().slice(0,10))mappingIntegrityFlags.push({id:q.id,reason:'invalid_checked_at'});}
+      if(mapping.reviewer&&/^(ai|auto|pending|todo|unknown|미확인|미정)$/i.test(String(mapping.reviewer).trim()))mappingIntegrityFlags.push({id:q.id,reason:'unverified_reviewer'});
       if(allowedAnnex[q.subject]&&mapping.annex&&String(mapping.annex)!==allowedAnnex[q.subject])mappingIntegrityFlags.push({id:q.id,reason:'wrong_subject_annex',annex:mapping.annex});
     }
     const mapped=Boolean(mapping?.standard_code&&mapping?.source_url&&mapping?.checked_at&&mapping?.reviewer);

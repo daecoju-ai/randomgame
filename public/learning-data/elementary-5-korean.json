@@ -798,5 +798,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "요약",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 내용의 요약으로 가장 알맞은 것은? “숲은 여러 생물의 집이 되고, 빗물을 저장하며, 공기를 맑게 하는 데 도움을 준다.”",
+    "choices": [
+      "숲은 생물과 환경에 여러 도움을 준다",
+      "숲에는 나무만 산다",
+      "비는 숲에서만 내린다",
+      "숲에서는 공기가 움직이지 않는다"
+    ],
+    "answer": "숲은 생물과 환경에 여러 도움을 준다",
+    "explanation": "요약할 때는 세부 내용을 하나씩 되풀이하기보다 공통된 핵심을 묶습니다. 생물의 서식지, 빗물 저장, 공기 정화는 모두 숲이 생물과 환경에 주는 도움입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "근거 구별",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘학교에 나무를 더 심자’라는 주장과 가장 관련이 적은 근거는?",
+    "choices": [
+      "나무 그늘은 더운 날 쉴 공간을 만든다",
+      "나무는 주변 환경을 쾌적하게 하는 데 도움을 준다",
+      "나무를 관찰하며 생태를 배울 수 있다",
+      "우리 반 축구공은 새것이다"
+    ],
+    "answer": "우리 반 축구공은 새것이다",
+    "explanation": "근거는 주장과 직접 관련되어야 합니다. 앞의 세 내용은 학교에 나무를 심을 이유가 되지만 축구공이 새것이라는 사실은 나무 심기와 관련이 없습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "설명 방법",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘연필과 볼펜의 공통점과 차이점’을 설명하기에 가장 알맞은 방법은?",
+    "choices": [
+      "두 대상의 특징을 기준에 따라 비교한다",
+      "시간 순서대로 사건을 나열한다",
+      "까닭 없이 느낌만 적는다",
+      "한 대상의 이름만 반복한다"
+    ],
+    "answer": "두 대상의 특징을 기준에 따라 비교한다",
+    "explanation": "두 대상의 공통점과 차이점을 알려 주려면 같은 기준으로 특징을 살펴보는 비교 방법이 효과적입니다. 쓰는 재료, 지울 수 있는지 같은 기준을 정하면 설명이 분명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "다의어",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘손’이 ‘일을 하는 사람의 힘이나 인력’을 뜻하는 문장은?",
+    "choices": [
+      "일손이 부족해 모두가 도왔다",
+      "손을 깨끗이 씻었다",
+      "손에 장갑을 꼈다",
+      "손가락으로 숫자를 셌다"
+    ],
+    "answer": "일손이 부족해 모두가 도왔다",
+    "explanation": "낱말은 문맥에 따라 여러 뜻으로 쓰일 수 있습니다. ‘일손’의 ‘손’은 신체 부위 자체가 아니라 일을 하는 사람이나 노동력을 뜻합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발표 자료 활용",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표 중 표나 그림을 보여 주는 가장 중요한 이유는?",
+    "choices": [
+      "말로 설명한 핵심 내용을 이해하기 쉽게 돕기 위해",
+      "발표 시간을 무조건 늘리기 위해",
+      "내용과 관계없이 화면을 화려하게 만들기 위해",
+      "발표자가 말을 하지 않기 위해"
+    ],
+    "answer": "말로 설명한 핵심 내용을 이해하기 쉽게 돕기 위해",
+    "explanation": "발표 자료는 말의 내용을 대신하는 장식이 아니라 이해를 돕는 도구입니다. 핵심 수치나 구조를 표·그림으로 보여 주면 청중이 중요한 내용을 더 쉽게 파악할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

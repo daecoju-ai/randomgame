@@ -5810,13 +5810,13 @@
       "92"
     ],
     "answer": "90",
-    "explanation": "25%는 25/100입니다. 360 × 25 ÷ 100 = 90명입니다.",
+    "explanation": "25%=1/4이므로 360명을 4개의 같은 부분으로 나눈 한 부분을 구하면 됩니다. 360÷4=90명이므로 답은 90명입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "백분율"
     ],
@@ -5831,7 +5831,8 @@
       "result": "90",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "25%를 1/4과 연결해 백분율의 양을 등분으로 설명"
   },
   {
     "id": "V61-E6-MATH-082",
@@ -5851,13 +5852,13 @@
       "44"
     ],
     "answer": "42",
-    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 105 × 2/5 = 42개입니다.",
+    "explanation": "2:3은 전체를 5개의 같은 비 단위로 나눈다는 뜻입니다. 105÷5=21개가 한 단위이고 작은 몫은 2단위이므로 21×2=42개입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "비례배분"
     ],
@@ -5872,7 +5873,8 @@
       "result": "42",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "비례배분을 비 단위의 의미로 설명"
   },
   {
     "id": "V61-E6-MATH-083",
@@ -5892,13 +5894,13 @@
       "398"
     ],
     "answer": "396",
-    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 22 × 6 × 3 = 396cm³입니다.",
+    "explanation": "1cm³ 정육면체로 채우면 한 층에 22×6=132개가 들어갑니다. 3층이므로 132×3=396개, 따라서 부피는 396cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직육면체 부피"
     ],
@@ -5913,7 +5915,8 @@
       "result": "396",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직육면체 부피를 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V61-E6-MATH-084",
@@ -5933,13 +5936,13 @@
       "1135.54"
     ],
     "answer": "1133.54",
-    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 19 × 19 × 3.14 = 1133.54cm²입니다.",
+    "explanation": "원의 넓이는 반지름×반지름×원주율입니다. 반지름 19cm를 두 번 곱한 361에 3.14를 곱하면 1133.54cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "원의 넓이"
     ],
@@ -5954,7 +5957,8 @@
       "result": "1133.54",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "원의 넓이를 반지름의 제곱과 원주율의 관계로 설명"
   },
   {
     "id": "V61-E6-MATH-085",
@@ -5974,13 +5978,13 @@
       "97"
     ],
     "answer": "95",
-    "explanation": "25%는 25/100입니다. 380 × 25 ÷ 100 = 95명입니다.",
+    "explanation": "25%=1/4이므로 380명을 4개의 같은 부분으로 나눈 한 부분을 구하면 됩니다. 380÷4=95명이므로 답은 95명입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "백분율"
     ],
@@ -5995,7 +5999,8 @@
       "result": "95",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "25%를 1/4과 연결해 백분율의 양을 등분으로 설명"
   },
   {
     "id": "V61-E6-MATH-086",
@@ -6015,13 +6020,13 @@
       "46"
     ],
     "answer": "44",
-    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 110 × 2/5 = 44개입니다.",
+    "explanation": "2:3은 전체를 5개의 같은 비 단위로 나눈다는 뜻입니다. 110÷5=22개가 한 단위이고 작은 몫은 2단위이므로 22×2=44개입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "비례배분"
     ],
@@ -6036,7 +6041,8 @@
       "result": "44",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "비례배분을 비 단위의 의미로 설명"
   },
   {
     "id": "V61-E6-MATH-087",
@@ -6056,13 +6062,13 @@
       "485"
     ],
     "answer": "483",
-    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 23 × 7 × 3 = 483cm³입니다.",
+    "explanation": "1cm³ 정육면체로 채우면 한 층에 23×7=161개가 들어갑니다. 3층이므로 161×3=483개, 따라서 부피는 483cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직육면체 부피"
     ],
@@ -6077,7 +6083,8 @@
       "result": "483",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직육면체 부피를 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V61-E6-MATH-088",
@@ -6097,13 +6104,13 @@
       "1258"
     ],
     "answer": "1256",
-    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 20 × 20 × 3.14 = 1256cm²입니다.",
+    "explanation": "원의 넓이는 반지름×반지름×원주율입니다. 반지름 20cm를 두 번 곱한 400에 3.14를 곱하면 1256cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "원의 넓이"
     ],
@@ -6118,7 +6125,8 @@
       "result": "1256",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "원의 넓이를 반지름의 제곱과 원주율의 관계로 설명"
   },
   {
     "id": "V61-E6-MATH-089",
@@ -6138,13 +6146,13 @@
       "102"
     ],
     "answer": "100",
-    "explanation": "25%는 25/100입니다. 400 × 25 ÷ 100 = 100명입니다.",
+    "explanation": "25%=1/4이므로 400명을 4개의 같은 부분으로 나눈 한 부분을 구하면 됩니다. 400÷4=100명이므로 답은 100명입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "백분율"
     ],
@@ -6159,7 +6167,8 @@
       "result": "100",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "25%를 1/4과 연결해 백분율의 양을 등분으로 설명"
   },
   {
     "id": "V61-E6-MATH-090",
@@ -6179,13 +6188,13 @@
       "48"
     ],
     "answer": "46",
-    "explanation": "전체 비의 합은 2 + 3 = 5입니다. 115 × 2/5 = 46개입니다.",
+    "explanation": "2:3은 전체를 5개의 같은 비 단위로 나눈다는 뜻입니다. 115÷5=23개가 한 단위이고 작은 몫은 2단위이므로 23×2=46개입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "비례배분"
     ],
@@ -6200,7 +6209,8 @@
       "result": "46",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "비례배분을 비 단위의 의미로 설명"
   },
   {
     "id": "V61-E6-MATH-091",
@@ -6220,13 +6230,13 @@
       "578"
     ],
     "answer": "576",
-    "explanation": "직육면체 부피 = 가로 × 세로 × 높이입니다. 24 × 8 × 3 = 576cm³입니다.",
+    "explanation": "1cm³ 정육면체로 채우면 한 층에 24×8=192개가 들어갑니다. 3층이므로 192×3=576개, 따라서 부피는 576cm³입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "직육면체 부피"
     ],
@@ -6241,7 +6251,8 @@
       "result": "576",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "직육면체 부피를 단위 정육면체의 층과 개수로 설명"
   },
   {
     "id": "V61-E6-MATH-092",
@@ -6261,13 +6272,13 @@
       "1386.74"
     ],
     "answer": "1384.74",
-    "explanation": "원의 넓이 = 반지름 × 반지름 × 원주율입니다. 21 × 21 × 3.14 = 1384.74cm²입니다.",
+    "explanation": "원의 넓이는 반지름×반지름×원주율입니다. 반지름 21cm를 두 번 곱한 441에 3.14를 곱하면 1384.74cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "원의 넓이"
     ],
@@ -6282,7 +6293,8 @@
       "result": "1384.74",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "원의 넓이를 반지름의 제곱과 원주율의 관계로 설명"
   },
   {
     "id": "V61-E6-MATH-093",
@@ -6302,13 +6314,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 24 × 2/8 = 6입니다.",
+    "explanation": "8/2이 24 안에 몇 번 들어가는지 구하는 문제입니다. 24를 2배 해 같은 분수 단위로 바꾸고 8으로 나누면 24×2÷8=6입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6323,7 +6335,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-094",
@@ -6343,13 +6356,13 @@
       "27"
     ],
     "answer": "25",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 25 × 2/2 = 25입니다.",
+    "explanation": "2/2이 25 안에 몇 번 들어가는지 구하는 문제입니다. 25를 2배 해 같은 분수 단위로 바꾸고 2으로 나누면 25×2÷2=25입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6364,7 +6377,8 @@
       "result": "25",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-095",
@@ -6384,13 +6398,13 @@
       "15.5"
     ],
     "answer": "13.5",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 27 × 2/4 = 13.5입니다.",
+    "explanation": "4/2이 27 안에 몇 번 들어가는지 구하는 문제입니다. 27를 2배 해 같은 분수 단위로 바꾸고 4으로 나누면 27×2÷4=13.5입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6405,7 +6419,8 @@
       "result": "13.5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-096",
@@ -6425,13 +6440,13 @@
       "13.2"
     ],
     "answer": "11.2",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 28 × 2/5 = 11.2입니다.",
+    "explanation": "5/2이 28 안에 몇 번 들어가는지 구하는 문제입니다. 28를 2배 해 같은 분수 단위로 바꾸고 5으로 나누면 28×2÷5=11.2입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6446,7 +6461,8 @@
       "result": "11.2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-097",
@@ -6466,13 +6482,13 @@
       "9.75"
     ],
     "answer": "7.75",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 31 × 2/8 = 7.75입니다.",
+    "explanation": "8/2이 31 안에 몇 번 들어가는지 구하는 문제입니다. 31를 2배 해 같은 분수 단위로 바꾸고 8으로 나누면 31×2÷8=7.75입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6487,7 +6503,8 @@
       "result": "7.75",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-098",
@@ -6507,13 +6524,13 @@
       "34"
     ],
     "answer": "32",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 32 × 2/2 = 32입니다.",
+    "explanation": "2/2이 32 안에 몇 번 들어가는지 구하는 문제입니다. 32를 2배 해 같은 분수 단위로 바꾸고 2으로 나누면 32×2÷2=32입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6528,7 +6545,8 @@
       "result": "32",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-099",
@@ -6548,13 +6566,13 @@
       "24"
     ],
     "answer": "22",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 33 × 2/3 = 22입니다.",
+    "explanation": "3/2이 33 안에 몇 번 들어가는지 구하는 문제입니다. 33를 2배 해 같은 분수 단위로 바꾸고 3으로 나누면 33×2÷3=22입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6569,7 +6587,8 @@
       "result": "22",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   },
   {
     "id": "V61-E6-MATH-100",
@@ -6589,13 +6608,13 @@
       "19"
     ],
     "answer": "17",
-    "explanation": "분수로 나눌 때는 역수를 곱해요. 34 × 2/4 = 17입니다.",
+    "explanation": "4/2이 34 안에 몇 번 들어가는지 구하는 문제입니다. 34를 2배 해 같은 분수 단위로 바꾸고 4으로 나누면 34×2÷4=17입니다. 그래서 나누는 분수의 역수를 곱합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "분수 나눗셈"
     ],
@@ -6610,6 +6629,7 @@
       "result": "17",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "분수 나눗셈의 역수 곱셈을 포함 관계와 단위 변환으로 설명"
   }
 ]

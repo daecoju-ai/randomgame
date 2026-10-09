@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
     paths:
+      - 'data/questions/**'
+      - 'data/curriculum-placement-v63.json'
       - 'public/learning-data/**'
       - 'public/learning.js'
       - 'public/account.js'
@@ -30,6 +32,8 @@ jobs:
         run: node --check public/account.js && node --check public/learning.js && node --check public/learning-rules.js && node --check public/learning-support.js && node --check api/learning.js && node --check lib/learning-bank.cjs
       - name: Run learning tests
         run: node --test tests/learning*.test.cjs
+      - name: Rebuild learning packs from source questions
+        run: npm run build
       - name: Run strict learning bank validation
         run: LEARNING_VALIDATION_STRICT=1 node scripts/validate-learning-bank.cjs
       - name: Print diagnostic report

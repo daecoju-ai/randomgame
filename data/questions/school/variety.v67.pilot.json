@@ -1,0 +1,201 @@
+[
+  {
+    "id": "V67-MATH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수 배열의 규칙 찾기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "3부터 시작하여 3씩 커지는 수를 순서대로 선택하세요.",
+    "choices": [
+      "12",
+      "6",
+      "3",
+      "9"
+    ],
+    "answer": [
+      "3",
+      "6",
+      "9",
+      "12"
+    ],
+    "explanation": "3에서 시작해 3을 계속 더하면 6, 9, 12가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V67-MATH-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "곱셈과 같은 묶음 이해",
+    "difficulty": 2,
+    "game_type": "FORMULA",
+    "question": "연필이 한 상자에 5자루씩 있고 상자가 4개라면 연필은 모두 몇 자루인가요?",
+    "choices": [
+      "15자루",
+      "20자루",
+      "9자루",
+      "25자루"
+    ],
+    "answer": "20자루",
+    "explanation": "5자루씩 4묶음이므로 5 × 4 = 20자루입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V67-KOREAN-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "korean",
+    "domain": "이야기 순서",
+    "learning_target": "명시된 사건 순서 파악",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "글을 읽고 사건 순서대로 고르세요. '지우는 화분에 씨앗을 심었습니다. 이어서 물을 주었습니다. 며칠 뒤 싹을 발견했습니다.'",
+    "choices": [
+      "싹을 발견했습니다.",
+      "씨앗을 심었습니다.",
+      "물을 주었습니다."
+    ],
+    "answer": [
+      "씨앗을 심었습니다.",
+      "물을 주었습니다.",
+      "싹을 발견했습니다."
+    ],
+    "explanation": "글에 먼저 씨앗을 심고, 이어서 물을 주고, 며칠 뒤 싹을 발견했다고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V67-ENGLISH-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "english",
+    "domain": "기초 문장",
+    "learning_target": "주어와 동사 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'나는 매일 공부해요.'를 영어로 만드세요.",
+    "choices": [
+      "every",
+      "study",
+      "I",
+      "day."
+    ],
+    "answer": [
+      "I",
+      "study",
+      "every",
+      "day."
+    ],
+    "explanation": "I는 '나는', study는 '공부하다', every day는 '매일'을 뜻합니다. I study every day.가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V67-SCIENCE-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "science",
+    "domain": "물의 상태",
+    "learning_target": "녹는 현상 구별",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "얼음이 녹아 물이 될 때의 상태 변화를 고르세요.",
+    "choices": [
+      "고체 → 액체",
+      "액체 → 고체",
+      "기체 → 액체",
+      "액체 → 기체"
+    ],
+    "answer": "고체 → 액체",
+    "explanation": "얼음은 고체이고 물은 액체입니다. 얼음이 녹으면 고체에서 액체로 변합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  },
+  {
+    "id": "V67-SOCIAL-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 4,
+    "subject": "social",
+    "domain": "지역 사회",
+    "learning_target": "공공시설의 기능 구별",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "주민이 책을 빌려 읽고 자료를 찾아볼 수 있는 공공시설은 어디인가요?",
+    "choices": [
+      "도서관",
+      "소방서",
+      "우체국",
+      "보건소"
+    ],
+    "answer": "도서관",
+    "explanation": "도서관은 도서 대출과 정보 자료 이용을 돕는 공공시설입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_content_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    }
+  }
+]

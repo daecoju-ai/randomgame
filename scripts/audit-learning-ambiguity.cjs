@@ -2,9 +2,15 @@
 const fs=require('node:fs'),path=require('node:path');
 const B=require('../lib/learning-bank.cjs'),R=require('../public/learning-rules.js');
 const rows=B.bank(),issues=[],warnings=[],byId=new Set();
-const clean=x=>String(x).normalize('NFKC').trim().replace(/\\s+/g,' ').toLowerCase();
+const sources=new Set(require('../data/sources/sources.json').map(s=>s.id));
+const originalSources=new Set(['original_learning_pilot','original_english_pilot','original_certification_foundation']);
+const clean=x=>String(x).normalize('NFKC').trim().replace(/\s+/g,' ').toLowerCase();
 for(const q of rows){
  const id=q.id||'(missing)';
+ if(!sources.has(q.source_reference))issues.push(id+': source not registered');
+ if(q.review_status==='published'&&originalSources.has(q.source_reference)&&!q.review?.human_approved_at)issues.push(id+': published original content lacks dated human approval');
+ if(q.release_channel==='pilot'&&q.review_status==='published')issues.push(id+': pilot marked published');
+ if(originalSources.has(q.source_reference)&&!q.review?.human_approved_at)warnings.push(id+': original content has no documented human approval');
  if(byId.has(id))issues.push(id+': duplicate question ID');
  byId.add(id);
  const choices=Array.isArray(q.choices)?q.choices:[];
@@ -22,6 +28,6 @@ for(const q of rows){
 }
 const report={total:rows.length,errors:issues,warnings};
 const out=path.join(__dirname,'../public/learning-ambiguity-report.json');
-fs.writeFileSync(out,JSON.stringify(report,null,2)+'\\n');
+fs.writeFileSync(out,JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({total:rows.length,errors:issues.length,warnings:warnings.length,report:'/learning-ambiguity-report.json'}));
-if(issues.length){console.error(issues.slice(0,30).join('\\n'));process.exitCode=1}
+if(issues.length){console.error(issues.slice(0,30).join('\n'));process.exitCode=1}

@@ -1,1 +1,639 @@
-[{"id":"V62-SCIENCE-001","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"물질","learning_target":"물질","difficulty":2,"game_type":"TILE_CHOICE","question":"정해진 모양을 유지하는 물체의 상태는?","choices":["고체","액체","기체","그림자"],"answer":"고체","explanation":"고체는 액체나 기체와 달리 일정한 모양을 유지합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-002","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"물질","learning_target":"물질","difficulty":2,"game_type":"TILE_CHOICE","question":"물을 흘리지 않고 다른 모양의 컵에 옮겼습니다. 무엇이 달라지나요?","choices":["물의 모양","물의 종류","물 분자의 종류","옮긴 물의 질량"],"answer":"물의 모양","explanation":"물을 흘리거나 증발시키지 않고 옮기면 양은 유지되고 용기에 맞춰 모양이 바뀝니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-003","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"물질","learning_target":"물질","difficulty":2,"game_type":"TILE_CHOICE","question":"공기가 들어 있는 풍선을 누르면 공기가 밀어내는 까닭은?","choices":["공기도 공간을 차지해서","공기는 고체라서","공기는 공간을 차지하지 않아서","풍선 안에 물이 있어서"],"answer":"공기도 공간을 차지해서","explanation":"눈에 보이지 않는 공기도 공간을 차지합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-008","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"자석","learning_target":"자석","difficulty":2,"game_type":"TILE_CHOICE","question":"자석의 같은 극끼리 가까이 하면?","choices":["서로 밀어낸다","반드시 붙는다","무게가 사라진다","전기가 생긴다"],"answer":"서로 밀어낸다","explanation":"N극끼리 또는 S극끼리는 서로 밀어냅니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-009","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"자석","learning_target":"자석","difficulty":2,"game_type":"TILE_CHOICE","question":"자석의 다른 극끼리 가까이 하면?","choices":["서로 끌어당긴다","서로 밀어낸다","색이 바뀐다","빛이 난다"],"answer":"서로 끌어당긴다","explanation":"N극과 S극은 서로 끌어당깁니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-010","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"자석","learning_target":"자석","difficulty":2,"game_type":"TILE_CHOICE","question":"일반적인 자석에 잘 붙는 물체는?","choices":["철 못","나무젓가락","유리구슬","플라스틱 자"],"answer":"철 못","explanation":"철은 일반적인 자석에 잘 붙지만 모든 금속이 붙는 것은 아닙니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-011","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"소리","learning_target":"소리","difficulty":2,"game_type":"TILE_CHOICE","question":"소리를 내는 물체에서 공통으로 일어나는 것은?","choices":["진동","증발","응고","광합성"],"answer":"진동","explanation":"물체가 떨리는 진동이 주변에 전달되어 소리가 납니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-012","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"소리","learning_target":"소리","difficulty":2,"game_type":"TILE_CHOICE","question":"고무줄을 튕겨 소리가 날 때 고무줄은?","choices":["떨린다","녹는다","얼어붙는다","사라진다"],"answer":"떨린다","explanation":"튕긴 고무줄의 진동이 소리를 만듭니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-015","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"동물","learning_target":"동물","difficulty":2,"game_type":"TILE_CHOICE","question":"아가미로 물속에서 호흡하는 동물은?","choices":["붕어","참새","고양이","나비"],"answer":"붕어","explanation":"붕어는 아가미로 물속에 녹아 있는 산소를 이용합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-016","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"동물","learning_target":"동물","difficulty":2,"game_type":"TILE_CHOICE","question":"곤충의 다리는 일반적으로 몇 개인가요?","choices":["6개","2개","4개","8개"],"answer":"6개","explanation":"곤충의 몸은 머리·가슴·배로 나뉘고 가슴에 다리 세 쌍이 있습니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-017","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"지구","learning_target":"지구","difficulty":2,"game_type":"TILE_CHOICE","question":"달이 밝게 보이는 까닭은?","choices":["태양빛을 반사해서","달이 스스로 불타서","지구가 달을 태워서","별의 소리가 비쳐서"],"answer":"태양빛을 반사해서","explanation":"달은 스스로 빛을 내지 않고 태양빛을 반사합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-021","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"과정 배열","learning_target":"과정 배열","difficulty":2,"game_type":"TILE_SEQUENCE","question":"나비의 한살이를 알부터 시작해 배열해요.","choices":["알","애벌레","번데기","어른벌레"],"answer":["알","애벌레","번데기","어른벌레"],"explanation":"나비는 알, 애벌레, 번데기, 어른벌레의 순서로 자랍니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-022","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"과정 배열","learning_target":"과정 배열","difficulty":2,"game_type":"TILE_SEQUENCE","question":"개구리의 성장 과정을 알부터 배열해요.","choices":["알","올챙이","다리가 난 올챙이","개구리"],"answer":["알","올챙이","다리가 난 올챙이","개구리"],"explanation":"올챙이가 자라 다리가 나고 꼬리가 줄어 개구리가 됩니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"},{"id":"V62-SCIENCE-023","curriculum":"2022","school":"elementary","grade":3,"subject":"science","domain":"과정 배열","learning_target":"과정 배열","difficulty":2,"game_type":"TILE_SEQUENCE","question":"관찰 실험을 하는 기본 과정을 배열해요.","choices":["궁금한 점 정하기","방법 정하기","관찰하고 기록하기","결과 정리하기"],"answer":["궁금한 점 정하기","방법 정하기","관찰하고 기록하기","결과 정리하기"],"explanation":"질문에 맞는 방법을 정해 관찰하고 기록한 뒤 결과를 정리합니다.","content_origin":"original","source_reference":"original_learning_pilot","license":"original_game_content","review_status":"reviewed","release_channel":"pilot","version":1,"review":{"method":"concept_answer_and_explanation_check","date":"2026-10-05","human_publication_pending":true},"placement_note":"개념과 문장 길이에 따른 시범 학년 배치"}]
+[
+  {
+    "id": "V62-SCIENCE-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "물질",
+    "learning_target": "물질",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "정해진 모양을 유지하는 물체의 상태는?",
+    "choices": [
+      "고체",
+      "액체",
+      "기체",
+      "그림자"
+    ],
+    "answer": "고체",
+    "explanation": "고체는 액체나 기체와 달리 일정한 모양을 유지합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "물질",
+    "learning_target": "물질",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "물을 흘리지 않고 다른 모양의 컵에 옮겼습니다. 무엇이 달라지나요?",
+    "choices": [
+      "물의 모양",
+      "물의 종류",
+      "물 분자의 종류",
+      "옮긴 물의 질량"
+    ],
+    "answer": "물의 모양",
+    "explanation": "물을 흘리거나 증발시키지 않고 옮기면 양은 유지되고 용기에 맞춰 모양이 바뀝니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "물질",
+    "learning_target": "물질",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "공기가 들어 있는 풍선을 누르면 공기가 밀어내는 까닭은?",
+    "choices": [
+      "공기도 공간을 차지해서",
+      "공기는 고체라서",
+      "공기는 공간을 차지하지 않아서",
+      "풍선 안에 물이 있어서"
+    ],
+    "answer": "공기도 공간을 차지해서",
+    "explanation": "눈에 보이지 않는 공기도 공간을 차지합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "자석",
+    "learning_target": "자석",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자석의 같은 극끼리 가까이 하면?",
+    "choices": [
+      "서로 밀어낸다",
+      "반드시 붙는다",
+      "무게가 사라진다",
+      "전기가 생긴다"
+    ],
+    "answer": "서로 밀어낸다",
+    "explanation": "N극끼리 또는 S극끼리는 서로 밀어냅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "자석",
+    "learning_target": "자석",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자석의 다른 극끼리 가까이 하면?",
+    "choices": [
+      "서로 끌어당긴다",
+      "서로 밀어낸다",
+      "색이 바뀐다",
+      "빛이 난다"
+    ],
+    "answer": "서로 끌어당긴다",
+    "explanation": "N극과 S극은 서로 끌어당깁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "자석",
+    "learning_target": "자석",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "일반적인 자석에 잘 붙는 물체는?",
+    "choices": [
+      "철 못",
+      "나무젓가락",
+      "유리구슬",
+      "플라스틱 자"
+    ],
+    "answer": "철 못",
+    "explanation": "철은 일반적인 자석에 잘 붙지만 모든 금속이 붙는 것은 아닙니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "소리",
+    "learning_target": "소리",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "소리를 내는 물체에서 공통으로 일어나는 것은?",
+    "choices": [
+      "진동",
+      "증발",
+      "응고",
+      "광합성"
+    ],
+    "answer": "진동",
+    "explanation": "물체가 떨리는 진동이 주변에 전달되어 소리가 납니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "소리",
+    "learning_target": "소리",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "고무줄을 튕겨 소리가 날 때 고무줄은?",
+    "choices": [
+      "떨린다",
+      "녹는다",
+      "얼어붙는다",
+      "사라진다"
+    ],
+    "answer": "떨린다",
+    "explanation": "튕긴 고무줄의 진동이 소리를 만듭니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "동물",
+    "learning_target": "동물",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "아가미로 물속에서 호흡하는 동물은?",
+    "choices": [
+      "붕어",
+      "참새",
+      "고양이",
+      "나비"
+    ],
+    "answer": "붕어",
+    "explanation": "붕어는 아가미로 물속에 녹아 있는 산소를 이용합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "동물",
+    "learning_target": "동물",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "곤충의 다리는 일반적으로 몇 개인가요?",
+    "choices": [
+      "6개",
+      "2개",
+      "4개",
+      "8개"
+    ],
+    "answer": "6개",
+    "explanation": "곤충의 몸은 머리·가슴·배로 나뉘고 가슴에 다리 세 쌍이 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "지구",
+    "learning_target": "지구",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "달이 밝게 보이는 까닭은?",
+    "choices": [
+      "태양빛을 반사해서",
+      "달이 스스로 불타서",
+      "지구가 달을 태워서",
+      "별의 소리가 비쳐서"
+    ],
+    "answer": "태양빛을 반사해서",
+    "explanation": "달은 스스로 빛을 내지 않고 태양빛을 반사합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "과정 배열",
+    "learning_target": "과정 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "나비의 한살이를 알부터 시작해 배열해요.",
+    "choices": [
+      "알",
+      "애벌레",
+      "번데기",
+      "어른벌레"
+    ],
+    "answer": [
+      "알",
+      "애벌레",
+      "번데기",
+      "어른벌레"
+    ],
+    "explanation": "나비는 알, 애벌레, 번데기, 어른벌레의 순서로 자랍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "과정 배열",
+    "learning_target": "과정 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "개구리의 성장 과정을 알부터 배열해요.",
+    "choices": [
+      "알",
+      "올챙이",
+      "다리가 난 올챙이",
+      "개구리"
+    ],
+    "answer": [
+      "알",
+      "올챙이",
+      "다리가 난 올챙이",
+      "개구리"
+    ],
+    "explanation": "올챙이가 자라 다리가 나고 꼬리가 줄어 개구리가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "id": "V62-SCIENCE-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "domain": "과정 배열",
+    "learning_target": "과정 배열",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "관찰 실험을 하는 기본 과정을 배열해요.",
+    "choices": [
+      "궁금한 점 정하기",
+      "방법 정하기",
+      "관찰하고 기록하기",
+      "결과 정리하기"
+    ],
+    "answer": [
+      "궁금한 점 정하기",
+      "방법 정하기",
+      "관찰하고 기록하기",
+      "결과 정리하기"
+    ],
+    "explanation": "질문에 맞는 방법을 정해 관찰하고 기록한 뒤 결과를 정리합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "concept_answer_and_explanation_check",
+      "date": "2026-10-05",
+      "human_publication_pending": true
+    },
+    "placement_note": "개념과 문장 길이에 따른 시범 학년 배치"
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 과학 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E3-SCI-015",
+    "domain": "생명",
+    "learning_target": "식물이 자라는 과정을 순서대로 설명한다",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식물이 자라는 일반적인 과정을 순서대로 맞추세요.",
+    "choices": [
+      "씨앗을 심는다",
+      "싹이 튼다",
+      "줄기와 잎이 자란다"
+    ],
+    "answer": [
+      "씨앗을 심는다",
+      "싹이 튼다",
+      "줄기와 잎이 자란다"
+    ],
+    "explanation": "씨앗을 심은 뒤 알맞은 물과 환경이 갖춰지면 싹이 트고, 이어 줄기와 잎이 자랍니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 과학 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E3-SCI-016",
+    "domain": "물질",
+    "learning_target": "물질의 상태와 특징을 연결한다",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "물질의 상태와 특징이 바르게 연결된 것을 고르세요.",
+    "choices": [
+      "고체 → 일정한 모양을 유지한다",
+      "액체 → 항상 같은 모양을 유지한다",
+      "기체 → 담은 그릇과 관계없이 모양이 같다"
+    ],
+    "answer": "고체 → 일정한 모양을 유지한다",
+    "explanation": "고체는 일정한 모양을 유지합니다. 액체와 기체는 담긴 용기나 공간에 따라 모양이 달라질 수 있습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 과학 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E3-SCI-017",
+    "domain": "힘과 운동",
+    "learning_target": "자석의 성질을 관찰 결과에 적용한다",
+    "difficulty": 2,
+    "game_type": "TARGET_SELECT",
+    "question": "자석에 가장 잘 붙는 물체를 고르세요.",
+    "choices": [
+      "철로 만든 클립",
+      "나무젓가락",
+      "고무지우개",
+      "종이"
+    ],
+    "answer": "철로 만든 클립",
+    "explanation": "자석은 철과 같은 특정 물질을 끌어당깁니다. 따라서 철로 만든 클립이 자석에 잘 붙습니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 과학 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E3-SCI-018",
+    "domain": "탐구",
+    "learning_target": "관찰과 예상의 차이를 구별한다",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "직접 보고 확인한 ‘관찰’에 해당하는 것은?",
+    "choices": [
+      "잎의 길이가 8cm이다",
+      "내일 잎이 더 커질 것이다",
+      "이 식물은 가장 튼튼할 것이다",
+      "다음 주에는 꽃이 필 것이다"
+    ],
+    "answer": "잎의 길이가 8cm이다",
+    "explanation": "관찰은 현재 직접 보거나 측정하여 확인한 사실입니다. 앞으로 일어날 일을 생각하는 것은 예상입니다."
+  },
+  {
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 3,
+    "subject": "science",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초3 과학 개념 기반 시범 배치; 성취기준 개별 매핑 전",
+    "revision_note": "문제풀이 유형 다양화 시범 세트",
+    "id": "V148-E3-SCI-019",
+    "domain": "물질",
+    "learning_target": "상태 변화의 과정을 순서대로 이해한다",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "얼음이 물이 되는 과정을 순서대로 완성하세요.",
+    "choices": [
+      "얼음에",
+      "열을",
+      "가하면",
+      "물이",
+      "된다"
+    ],
+    "answer": [
+      "얼음에",
+      "열을",
+      "가하면",
+      "물이",
+      "된다"
+    ],
+    "explanation": "얼음이 열을 받으면 녹아서 액체 상태의 물이 됩니다. 상태가 변해도 물이라는 물질 자체가 다른 물질로 바뀌는 것은 아닙니다."
+  }
+]

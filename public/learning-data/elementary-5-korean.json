@@ -638,5 +638,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "원인과 결과",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“밤새 기온이 크게 내려가 아침 도로에 얼음이 생겼다.” 원인에 해당하는 것은?",
+    "choices": [
+      "밤새 기온이 크게 내려갔다",
+      "아침이 되었다",
+      "도로가 길다",
+      "자동차가 지나간다"
+    ],
+    "answer": "밤새 기온이 크게 내려갔다",
+    "explanation": "원인은 어떤 일이 생기게 한 까닭이고 결과는 그 때문에 생긴 일입니다. 기온이 크게 내려간 것이 원인이고 도로에 얼음이 생긴 것이 결과입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "예측하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글의 앞부분에서 ‘검은 구름이 몰려오고 천둥소리가 들렸다’고 했습니다. 뒤에 이어질 내용으로 가장 자연스러운 것은?",
+    "choices": [
+      "곧 비가 내리기 시작했다",
+      "햇빛이 더 강해졌다",
+      "눈이 모두 녹았다",
+      "밤하늘에 별이 가득했다"
+    ],
+    "answer": "곧 비가 내리기 시작했다",
+    "explanation": "뒤의 내용을 예측할 때는 앞에서 제시된 단서를 이용합니다. 검은 구름과 천둥은 비가 올 가능성을 알려 주는 단서이므로 비가 내리는 내용이 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "고쳐쓰기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“나는 체육대회가 재미있었다. 왜냐하면 재미있었기 때문이다.”를 더 알맞게 고친 문장은?",
+    "choices": [
+      "나는 친구들과 함께 경기에 참여해서 체육대회가 재미있었다",
+      "나는 체육대회가 재미있어서 재미있었다",
+      "체육대회는 체육대회라서 재미있었다",
+      "나는 재미가 재미있다고 생각했다"
+    ],
+    "answer": "나는 친구들과 함께 경기에 참여해서 체육대회가 재미있었다",
+    "explanation": "이유를 설명할 때 같은 말을 반복하면 까닭이 분명하지 않습니다. ‘친구들과 함께 경기에 참여해서’처럼 실제 이유를 구체적으로 제시하면 문장의 뜻이 선명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "접속 표현",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "두 문장 ‘비가 왔다. 우리는 축구를 했다.’를 반대되는 상황이 드러나게 이으면?",
+    "choices": [
+      "비가 왔지만 우리는 축구를 했다",
+      "비가 와서 우리는 축구를 하지 않았다",
+      "비가 오자 비가 왔다",
+      "비가 왔고 비만 왔다"
+    ],
+    "answer": "비가 왔지만 우리는 축구를 했다",
+    "explanation": "비가 오면 보통 야외 활동을 하지 않을 것이라고 예상할 수 있습니다. 예상과 달리 축구를 했으므로 서로 대조되는 내용을 잇는 ‘-지만’이 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "의견 조정",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "모둠에서 두 가지 체험 장소를 두고 의견이 갈렸습니다. 가장 알맞은 해결 방법은?",
+    "choices": [
+      "각 장소의 장단점과 선택 기준을 함께 비교한다",
+      "목소리가 큰 사람의 의견만 따른다",
+      "서로의 이유를 듣지 않는다",
+      "제비뽑기만 하고 이유는 생각하지 않는다"
+    ],
+    "answer": "각 장소의 장단점과 선택 기준을 함께 비교한다",
+    "explanation": "의견이 다를 때는 먼저 각 의견의 이유를 듣고 공통된 선택 기준을 정하는 것이 좋습니다. 장단점을 같은 기준으로 비교하면 모두가 납득할 수 있는 결정을 하기 쉬워집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -2238,5 +2238,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-071",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "시의 분위기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "시에서 ‘조용한 달빛’, ‘살며시 부는 바람’ 같은 표현이 반복된다면 느껴지는 분위기로 알맞은 것은?",
+    "choices": [
+      "차분하고 평온하다",
+      "매우 시끄럽고 급하다",
+      "화가 나고 거칠다",
+      "복잡하고 혼란스럽다"
+    ],
+    "answer": "차분하고 평온하다",
+    "explanation": "시의 분위기는 반복되는 낱말과 이미지, 표현에서 느낄 수 있습니다. ‘조용한’, ‘살며시’ 같은 표현은 움직임이 크지 않고 부드러운 느낌을 주어 차분하고 평온한 분위기를 만듭니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-072",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "이야기 사건 관계",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기에서 한 사건 때문에 다음 사건이 일어났는지 확인하려면 무엇을 살펴야 하나요?",
+    "choices": [
+      "두 사건 사이의 원인과 결과 관계",
+      "두 문장의 글자 수",
+      "인물 이름의 가나다순",
+      "삽화의 크기만"
+    ],
+    "answer": "두 사건 사이의 원인과 결과 관계",
+    "explanation": "사건의 연결을 이해하려면 앞의 일이 뒤의 일을 일어나게 한 까닭인지 살펴야 합니다. ‘왜 다음 일이 생겼는가?’를 질문하면 원인과 결과 관계를 파악하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-073",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "독후감",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책을 읽고 감상문을 쓸 때 가장 알맞은 내용은?",
+    "choices": [
+      "인상 깊은 내용과 그렇게 느낀 까닭",
+      "책의 모든 문장을 그대로 옮긴 내용",
+      "표지의 색깔만 설명한 내용",
+      "책과 관계없는 하루 일과"
+    ],
+    "answer": "인상 깊은 내용과 그렇게 느낀 까닭",
+    "explanation": "감상문은 책의 내용을 단순히 옮기는 글이 아니라 읽은 사람이 무엇을 생각하고 느꼈는지 드러내는 글입니다. 인상 깊은 부분과 그 이유를 연결하면 자신의 감상이 분명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-074",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "접두 표현 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘맨손’에서 ‘맨-’이 더하는 뜻으로 가장 알맞은 것은?",
+    "choices": [
+      "다른 것이 더해지지 않은 상태",
+      "매우 빠른 상태",
+      "여러 개가 모인 상태",
+      "과거의 상태"
+    ],
+    "answer": "다른 것이 더해지지 않은 상태",
+    "explanation": "‘맨손’은 장갑이나 도구 같은 것이 없는 손을 뜻합니다. ‘맨-’은 일부 낱말 앞에서 다른 것이 더해지지 않은 상태라는 뜻을 더해 줍니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-075",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "요청하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 도움을 부탁할 때 가장 알맞은 표현은?",
+    "choices": [
+      "가능하면 이 부분을 함께 확인해 줄래?",
+      "지금 당장 무조건 해",
+      "네 사정은 중요하지 않아",
+      "설명 없이 이것부터 해"
+    ],
+    "answer": "가능하면 이 부분을 함께 확인해 줄래?",
+    "explanation": "부탁할 때는 상대의 상황과 선택을 존중하면서 필요한 일을 구체적으로 말하는 것이 좋습니다. 정중하고 분명한 요청은 서로 협력하기 쉽게 만듭니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

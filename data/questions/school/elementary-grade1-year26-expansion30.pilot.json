@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP30-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사탕이 8개 있습니다. 친구에게 3개를 주면 몇 개가 남나요?",
+    "choices": [
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "8-3=5이므로 정답은 5입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나무에 새 7마리가 앉아 있습니다. 4마리가 더 오면 모두 몇 마리인가요?",
+    "choices": [
+      "10",
+      "13",
+      "11",
+      "12"
+    ],
+    "answer": "11",
+    "explanation": "7+4=11이므로 정답은 11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬이 13개 있습니다. 6개를 상자에 넣으면 밖에 몇 개가 남나요?",
+    "choices": [
+      "6",
+      "9",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "13-6=7이므로 정답은 7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "책이 9권 있습니다. 5권을 더 사면 모두 몇 권인가요?",
+    "choices": [
+      "13",
+      "16",
+      "14",
+      "15"
+    ],
+    "answer": "14",
+    "explanation": "9+5=14이므로 정답은 14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "풍선이 12개 있습니다. 7개가 터지면 몇 개가 남나요?",
+    "choices": [
+      "4",
+      "7",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "12-7=5이므로 정답은 5입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필이 6자루 있습니다. 8자루를 더 받으면 모두 몇 자루인가요?",
+    "choices": [
+      "13",
+      "16",
+      "14",
+      "15"
+    ],
+    "answer": "14",
+    "explanation": "6+8=14이므로 정답은 14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "딸기가 15개 있습니다. 9개를 먹으면 몇 개가 남나요?",
+    "choices": [
+      "5",
+      "8",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "explanation": "15-9=6이므로 정답은 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "블록이 5개 있습니다. 7개를 더 놓으면 모두 몇 개인가요?",
+    "choices": [
+      "11",
+      "14",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": "5+7=12이므로 정답은 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 유나는 도서관에서 동물에 관한 책을 빌렸습니다. 유나가 책을 빌린 곳은?",
+    "choices": [
+      "놀이터",
+      "도서관",
+      "운동장",
+      "시장"
+    ],
+    "answer": "도서관",
+    "explanation": "글의 내용을 다시 읽으면 '도서관'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 민수는 학교 가기 전에 우유를 마셨습니다. 민수가 마신 것은?",
+    "choices": [
+      "주스",
+      "우유",
+      "물",
+      "차"
+    ],
+    "answer": "우유",
+    "explanation": "글의 내용을 다시 읽으면 '우유'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 지민이는 공원에서 친구와 자전거를 탔습니다. 지민이가 탄 것은?",
+    "choices": [
+      "버스",
+      "자전거",
+      "기차",
+      "자동차"
+    ],
+    "answer": "자전거",
+    "explanation": "글의 내용을 다시 읽으면 '자전거'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 서준이는 아침에 가방을 챙기고 학교에 갔습니다. 서준이가 챙긴 것은?",
+    "choices": [
+      "우산",
+      "가방",
+      "장갑",
+      "공"
+    ],
+    "answer": "가방",
+    "explanation": "글의 내용을 다시 읽으면 '가방'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 하린이는 할머니께 직접 쓴 편지를 드렸습니다. 하린이가 드린 것은?",
+    "choices": [
+      "그림",
+      "편지",
+      "꽃",
+      "책"
+    ],
+    "answer": "편지",
+    "explanation": "글의 내용을 다시 읽으면 '편지'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 도윤이는 운동 후 손을 씻고 물을 마셨습니다. 도윤이가 물을 마시기 전에 한 일은?",
+    "choices": [
+      "잠자기",
+      "손 씻기",
+      "책 읽기",
+      "노래 부르기"
+    ],
+    "answer": "손 씻기",
+    "explanation": "글의 내용을 다시 읽으면 '손 씻기'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 수아는 비가 와서 우산을 쓰고 집에 갔습니다. 수아가 우산을 쓴 까닭은?",
+    "choices": [
+      "눈이 와서",
+      "비가 와서",
+      "햇볕이 강해서",
+      "바람이 없어서"
+    ],
+    "answer": "비가 와서",
+    "explanation": "글의 내용을 다시 읽으면 '비가 와서'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP30-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 상황을 수로 표현하고 문장 속 정보를 찾기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 태호는 친구가 잃어버린 지우개를 찾아 주었습니다. 태호가 찾아 준 물건은?",
+    "choices": [
+      "연필",
+      "지우개",
+      "공책",
+      "가방"
+    ],
+    "answer": "지우개",
+    "explanation": "글의 내용을 다시 읽으면 '지우개'를 찾을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

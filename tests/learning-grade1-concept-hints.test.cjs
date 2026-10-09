@@ -8,6 +8,8 @@ test('first grade arithmetic and patterns receive concept-specific hints',()=>{
   [{...base,question:'2 + 3을 더하면? '},'grade1-add'],
   [{...base,question:'5개에서 2개를 빼면?'},'grade1-subtract'],
   [{...base,domain:'data_patterns',question:'다음 규칙을 찾으세요'},'grade1-pattern'],
+  [{...base,domain:'data_patterns',question:'사과 2개와 배 3개 중 가장 많은 과일은?'},'grade1-data'],
+  [{...base,question:'다음 중 18보다 작은 수는?'},'grade1-number-compare'],
   [{...base,game_type:'MATCHING',question:'수를 읽는 말과 짝지으세요'},'grade1-matching']
  ];
  for(const [q,id] of cases){const l=S.lesson(q);assert.equal(l.id,id);assert.equal(l.hints.length,2);assert(l.choices.includes(l.answer))}

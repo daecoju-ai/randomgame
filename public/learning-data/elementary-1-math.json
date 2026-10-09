@@ -2953,13 +2953,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "전체에서 먹은 수를 빼요. 7 − 2 = 5개입니다.",
+    "explanation": "사탕 7개에서 먹은 2개를 하나씩 지워 보면 5개가 남습니다. 그래서 7 − 2 = 5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2974,7 +2974,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-042",
@@ -2994,13 +2995,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 7 − 5 = 2입니다.",
+    "explanation": "5에서 7까지 몇 번 앞으로 가는지 세어 봅니다. 2번 가면 되므로 □는 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3015,7 +3016,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-043",
@@ -3035,13 +3037,13 @@
       "14"
     ],
     "answer": "12",
-    "explanation": "다음 수는 1 큰 수입니다. 11 + 1 = 12입니다.",
+    "explanation": "11 다음 수는 수를 한 번 더 셌을 때 나오는 12입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3056,7 +3058,8 @@
       "result": "12",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-044",
@@ -3076,13 +3079,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 5 + 2 = 7개입니다.",
+    "explanation": "빨간 블록 5개와 파란 블록 2개를 모두 모아 세면 7개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3097,7 +3100,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-045",
@@ -3117,13 +3121,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "전체에서 먹은 수를 빼요. 8 − 2 = 6개입니다.",
+    "explanation": "사탕 8개에서 먹은 2개를 하나씩 지워 보면 6개가 남습니다. 그래서 8 − 2 = 6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3138,7 +3142,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-046",
@@ -3158,13 +3163,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 8 − 6 = 2입니다.",
+    "explanation": "6에서 8까지 몇 번 앞으로 가는지 세어 봅니다. 2번 가면 되므로 □는 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3179,7 +3184,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-047",
@@ -3199,13 +3205,13 @@
       "15"
     ],
     "answer": "13",
-    "explanation": "다음 수는 1 큰 수입니다. 12 + 1 = 13입니다.",
+    "explanation": "12 다음 수는 수를 한 번 더 셌을 때 나오는 13입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3220,7 +3226,8 @@
       "result": "13",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-048",
@@ -3240,13 +3247,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 6 + 2 = 8개입니다.",
+    "explanation": "빨간 블록 6개와 파란 블록 2개를 모두 모아 세면 8개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3261,7 +3268,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-049",
@@ -3281,13 +3289,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "전체에서 먹은 수를 빼요. 9 − 2 = 7개입니다.",
+    "explanation": "사탕 9개에서 먹은 2개를 하나씩 지워 보면 7개가 남습니다. 그래서 9 − 2 = 7입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3302,7 +3310,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-050",
@@ -3322,13 +3331,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 9 − 7 = 2입니다.",
+    "explanation": "7에서 9까지 몇 번 앞으로 가는지 세어 봅니다. 2번 가면 되므로 □는 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3343,7 +3352,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-051",
@@ -3363,13 +3373,13 @@
       "16"
     ],
     "answer": "14",
-    "explanation": "다음 수는 1 큰 수입니다. 13 + 1 = 14입니다.",
+    "explanation": "13 다음 수는 수를 한 번 더 셌을 때 나오는 14입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3384,7 +3394,8 @@
       "result": "14",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-052",
@@ -3404,13 +3415,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 7 + 2 = 9개입니다.",
+    "explanation": "빨간 블록 7개와 파란 블록 2개를 모두 모아 세면 9개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3425,7 +3436,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-053",
@@ -3445,13 +3457,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "전체에서 먹은 수를 빼요. 10 − 2 = 8개입니다.",
+    "explanation": "사탕 10개에서 먹은 2개를 하나씩 지워 보면 8개가 남습니다. 그래서 10 − 2 = 8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3466,7 +3478,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-054",
@@ -3486,13 +3499,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 10 − 8 = 2입니다.",
+    "explanation": "8에서 10까지 몇 번 앞으로 가는지 세어 봅니다. 2번 가면 되므로 □는 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3507,7 +3520,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-055",
@@ -3527,13 +3541,13 @@
       "17"
     ],
     "answer": "15",
-    "explanation": "다음 수는 1 큰 수입니다. 14 + 1 = 15입니다.",
+    "explanation": "14 다음 수는 수를 한 번 더 셌을 때 나오는 15입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3548,7 +3562,8 @@
       "result": "15",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-056",
@@ -3568,13 +3583,13 @@
       "12"
     ],
     "answer": "10",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 8 + 2 = 10개입니다.",
+    "explanation": "빨간 블록 8개와 파란 블록 2개를 모두 모아 세면 10개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3589,7 +3604,8 @@
       "result": "10",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-057",
@@ -3609,13 +3625,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "전체에서 먹은 수를 빼요. 11 − 2 = 9개입니다.",
+    "explanation": "사탕 11개에서 먹은 2개를 하나씩 지워 보면 9개가 남습니다. 그래서 11 − 2 = 9입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3630,7 +3646,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-058",
@@ -3650,13 +3667,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 11 − 9 = 2입니다.",
+    "explanation": "9에서 11까지 몇 번 앞으로 가는지 세어 봅니다. 2번 가면 되므로 □는 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3671,7 +3688,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-059",
@@ -3691,13 +3709,13 @@
       "18"
     ],
     "answer": "16",
-    "explanation": "다음 수는 1 큰 수입니다. 15 + 1 = 16입니다.",
+    "explanation": "15 다음 수는 수를 한 번 더 셌을 때 나오는 16입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3712,7 +3730,8 @@
       "result": "16",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-060",
@@ -3732,13 +3751,13 @@
       "13"
     ],
     "answer": "11",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 9 + 2 = 11개입니다.",
+    "explanation": "빨간 블록 9개와 파란 블록 2개를 모두 모아 세면 11개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3753,7 +3772,8 @@
       "result": "11",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-061",
@@ -3773,13 +3793,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "전체에서 먹은 수를 빼요. 5 − 3 = 2개입니다.",
+    "explanation": "사탕 5개에서 먹은 3개를 하나씩 지워 보면 2개가 남습니다. 그래서 5 − 3 = 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3794,7 +3814,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-062",
@@ -3814,13 +3835,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "합에서 이미 알고 있는 수를 빼요. 5 − 2 = 3입니다.",
+    "explanation": "2에서 5까지 몇 번 앞으로 가는지 세어 봅니다. 3번 가면 되므로 □는 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "빈칸"
     ],
@@ -3835,7 +3856,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "빈칸 덧셈을 앞으로 세기로 해결하도록 설명"
   },
   {
     "id": "V61-E1-MATH-063",
@@ -3855,13 +3877,13 @@
       "19"
     ],
     "answer": "17",
-    "explanation": "다음 수는 1 큰 수입니다. 16 + 1 = 17입니다.",
+    "explanation": "16 다음 수는 수를 한 번 더 셌을 때 나오는 17입니다. 즉, 바로 다음 수는 1 큰 수입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -3876,7 +3898,8 @@
       "result": "17",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "수 계열에서 다음 수와 1 큰 수의 관계를 설명"
   },
   {
     "id": "V61-E1-MATH-064",
@@ -3896,13 +3919,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "색이 달라도 블록 수를 모두 더해요. 2 + 3 = 5개입니다.",
+    "explanation": "빨간 블록 2개와 파란 블록 3개를 모두 모아 세면 5개입니다. 두 모음을 합칠 때는 덧셈을 사용합니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 읽기"
     ],
@@ -3917,7 +3940,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "두 모음을 합치는 상황과 덧셈의 의미를 연결"
   },
   {
     "id": "V61-E1-MATH-065",
@@ -3937,13 +3961,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "전체에서 먹은 수를 빼요. 6 − 3 = 3개입니다.",
+    "explanation": "사탕 6개에서 먹은 3개를 하나씩 지워 보면 3개가 남습니다. 그래서 6 − 3 = 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -3958,7 +3982,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "생활 장면에서 제거하기를 이용해 뺄셈 원리를 설명"
   },
   {
     "id": "V61-E1-MATH-066",

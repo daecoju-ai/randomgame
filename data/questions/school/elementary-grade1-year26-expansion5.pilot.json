@@ -1,0 +1,1204 @@
+[
+  {
+    "id": "G1-YEAR26-EXP5-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 4개에 1개를 더하고 1개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "5",
+      "4",
+      "3",
+      "6"
+    ],
+    "answer": "4",
+    "explanation": "4+1-1=4입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 5개에 2개를 더하고 2개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "6",
+      "5",
+      "4",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "5+2-2=5입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 6개에 3개를 더하고 3개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "7",
+      "6",
+      "5",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "6+3-3=6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 7개에 4개를 더하고 1개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "7+4-1=10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 8개에 1개를 더하고 2개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "8",
+      "7",
+      "6",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "8+1-2=7입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 9개에 2개를 더하고 3개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "9",
+      "8",
+      "7",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "9+2-3=8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 10개에 3개를 더하고 1개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "13",
+      "12",
+      "11",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "10+3-1=12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 11개에 4개를 더하고 2개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "14",
+      "13",
+      "12",
+      "15"
+    ],
+    "answer": "13",
+    "explanation": "11+4-2=13입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 12개에 1개를 더하고 3개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "11",
+      "10",
+      "9",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "12+1-3=10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "블록 13개에 2개를 더하고 1개를 빼면 몇 개인가요? 알맞은 타일을 고르세요.",
+    "choices": [
+      "15",
+      "14",
+      "13",
+      "16"
+    ],
+    "answer": "14",
+    "explanation": "13+2-1=14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 비누 묻히기, 손 문지르기, 물로 헹구기",
+    "choices": [
+      "물로 헹구기",
+      "비누 묻히기",
+      "손 문지르기"
+    ],
+    "answer": [
+      "비누 묻히기",
+      "손 문지르기",
+      "물로 헹구기"
+    ],
+    "explanation": "비누 묻히기 → 손 문지르기 → 물로 헹구기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 씨앗 심기, 물 주기, 싹 관찰하기",
+    "choices": [
+      "싹 관찰하기",
+      "씨앗 심기",
+      "물 주기"
+    ],
+    "answer": [
+      "씨앗 심기",
+      "물 주기",
+      "싹 관찰하기"
+    ],
+    "explanation": "씨앗 심기 → 물 주기 → 싹 관찰하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 가방 열기, 공책 꺼내기, 공책 펼치기",
+    "choices": [
+      "공책 펼치기",
+      "가방 열기",
+      "공책 꺼내기"
+    ],
+    "answer": [
+      "가방 열기",
+      "공책 꺼내기",
+      "공책 펼치기"
+    ],
+    "explanation": "가방 열기 → 공책 꺼내기 → 공책 펼치기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 양말 신기, 신발 신기, 밖으로 나가기",
+    "choices": [
+      "밖으로 나가기",
+      "양말 신기",
+      "신발 신기"
+    ],
+    "answer": [
+      "양말 신기",
+      "신발 신기",
+      "밖으로 나가기"
+    ],
+    "explanation": "양말 신기 → 신발 신기 → 밖으로 나가기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 종이 준비하기, 연필로 그리기, 색칠하기",
+    "choices": [
+      "색칠하기",
+      "종이 준비하기",
+      "연필로 그리기"
+    ],
+    "answer": [
+      "종이 준비하기",
+      "연필로 그리기",
+      "색칠하기"
+    ],
+    "explanation": "종이 준비하기 → 연필로 그리기 → 색칠하기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 책 고르기, 책 읽기, 책 제자리에 놓기",
+    "choices": [
+      "책 제자리에 놓기",
+      "책 고르기",
+      "책 읽기"
+    ],
+    "answer": [
+      "책 고르기",
+      "책 읽기",
+      "책 제자리에 놓기"
+    ],
+    "explanation": "책 고르기 → 책 읽기 → 책 제자리에 놓기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 식탁 닦기, 그릇 놓기, 밥 먹기",
+    "choices": [
+      "밥 먹기",
+      "식탁 닦기",
+      "그릇 놓기"
+    ],
+    "answer": [
+      "식탁 닦기",
+      "그릇 놓기",
+      "밥 먹기"
+    ],
+    "explanation": "식탁 닦기 → 그릇 놓기 → 밥 먹기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "ORDERING",
+    "question": "다음 행동을 자연스러운 순서로 배열하세요: 과일 씻기, 껍질 벗기기, 과일 먹기",
+    "choices": [
+      "과일 먹기",
+      "과일 씻기",
+      "껍질 벗기기"
+    ],
+    "answer": [
+      "과일 씻기",
+      "껍질 벗기기",
+      "과일 먹기"
+    ],
+    "explanation": "과일 씻기 → 껍질 벗기기 → 과일 먹기 순서가 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '기차'를 완성하세요.",
+    "choices": [
+      "차",
+      "기"
+    ],
+    "answer": [
+      "기",
+      "차"
+    ],
+    "explanation": "'기' 다음에 '차'을 놓으면 '기차'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '하늘'를 완성하세요.",
+    "choices": [
+      "늘",
+      "하"
+    ],
+    "answer": [
+      "하",
+      "늘"
+    ],
+    "explanation": "'하' 다음에 '늘'을 놓으면 '하늘'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '구름'를 완성하세요.",
+    "choices": [
+      "름",
+      "구"
+    ],
+    "answer": [
+      "구",
+      "름"
+    ],
+    "explanation": "'구' 다음에 '름'을 놓으면 '구름'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '바람'를 완성하세요.",
+    "choices": [
+      "람",
+      "바"
+    ],
+    "answer": [
+      "바",
+      "람"
+    ],
+    "explanation": "'바' 다음에 '람'을 놓으면 '바람'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '여름'를 완성하세요.",
+    "choices": [
+      "름",
+      "여"
+    ],
+    "answer": [
+      "여",
+      "름"
+    ],
+    "explanation": "'여' 다음에 '름'을 놓으면 '여름'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '겨울'를 완성하세요.",
+    "choices": [
+      "울",
+      "겨"
+    ],
+    "answer": [
+      "겨",
+      "울"
+    ],
+    "explanation": "'겨' 다음에 '울'을 놓으면 '겨울'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '동생'를 완성하세요.",
+    "choices": [
+      "생",
+      "동"
+    ],
+    "answer": [
+      "동",
+      "생"
+    ],
+    "explanation": "'동' 다음에 '생'을 놓으면 '동생'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-026",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "글자 타일을 순서대로 밟아 '아침'를 완성하세요.",
+    "choices": [
+      "침",
+      "아"
+    ],
+    "answer": [
+      "아",
+      "침"
+    ],
+    "explanation": "'아' 다음에 '침'을 놓으면 '아침'가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-027",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '눈', '꽃' 순서로 선택하세요.",
+    "choices": [
+      "눈 ↔ 봄",
+      "꽃 ↔ 겨울",
+      "눈 ↔ 겨울",
+      "꽃 ↔ 봄"
+    ],
+    "answer": [
+      "눈 ↔ 겨울",
+      "꽃 ↔ 봄"
+    ],
+    "explanation": "눈는 겨울, 꽃는 봄와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-028",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '우산', '모자' 순서로 선택하세요.",
+    "choices": [
+      "우산 ↔ 햇빛",
+      "모자 ↔ 비",
+      "우산 ↔ 비",
+      "모자 ↔ 햇빛"
+    ],
+    "answer": [
+      "우산 ↔ 비",
+      "모자 ↔ 햇빛"
+    ],
+    "explanation": "우산는 비, 모자는 햇빛와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-029",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '연필', '지우개' 순서로 선택하세요.",
+    "choices": [
+      "연필 ↔ 글씨 지우기",
+      "지우개 ↔ 글씨 쓰기",
+      "연필 ↔ 글씨 쓰기",
+      "지우개 ↔ 글씨 지우기"
+    ],
+    "answer": [
+      "연필 ↔ 글씨 쓰기",
+      "지우개 ↔ 글씨 지우기"
+    ],
+    "explanation": "연필는 글씨 쓰기, 지우개는 글씨 지우기와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-030",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '손 씻기', '횡단보도 기다리기' 순서로 선택하세요.",
+    "choices": [
+      "손 씻기 ↔ 안전",
+      "횡단보도 기다리기 ↔ 청결",
+      "손 씻기 ↔ 청결",
+      "횡단보도 기다리기 ↔ 안전"
+    ],
+    "answer": [
+      "손 씻기 ↔ 청결",
+      "횡단보도 기다리기 ↔ 안전"
+    ],
+    "explanation": "손 씻기는 청결, 횡단보도 기다리기는 안전와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '아침', '밤' 순서로 선택하세요.",
+    "choices": [
+      "아침 ↔ 잠자기",
+      "밤 ↔ 일어나기",
+      "아침 ↔ 일어나기",
+      "밤 ↔ 잠자기"
+    ],
+    "answer": [
+      "아침 ↔ 일어나기",
+      "밤 ↔ 잠자기"
+    ],
+    "explanation": "아침는 일어나기, 밤는 잠자기와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP5-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "기초 개념을 다양한 상황에 적용하고 순서대로 설명하기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "관련된 짝을 찾아 '사과', '당근' 순서로 선택하세요.",
+    "choices": [
+      "사과 ↔ 채소",
+      "당근 ↔ 과일",
+      "사과 ↔ 과일",
+      "당근 ↔ 채소"
+    ],
+    "answer": [
+      "사과 ↔ 과일",
+      "당근 ↔ 채소"
+    ],
+    "explanation": "사과는 과일, 당근는 채소와 관련됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

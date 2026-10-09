@@ -1,0 +1,162 @@
+[
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "주장과 근거",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 주장에 가장 알맞은 근거는? “학교에서 일회용품 사용을 줄이자.”",
+    "choices": [
+      "일회용품 쓰레기를 줄이면 자원 낭비와 폐기물을 줄일 수 있다",
+      "일회용품은 이름이 짧다",
+      "학교 건물에는 창문이 있다",
+      "학생마다 좋아하는 색이 다르다"
+    ],
+    "answer": "일회용품 쓰레기를 줄이면 자원 낭비와 폐기물을 줄일 수 있다",
+    "explanation": "좋은 근거는 주장과 직접 관련되고 왜 그 행동이 필요한지 설명합니다. 자원 낭비와 폐기물을 줄일 수 있다는 내용은 일회용품 사용을 줄이자는 주장을 뒷받침합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "요약",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 요약할 때 가장 알맞은 방법은?",
+    "choices": [
+      "중요한 내용을 골라 짧게 정리한다",
+      "모든 문장을 그대로 옮겨 쓴다",
+      "중요한 내용을 빼고 예만 적는다",
+      "글에 없는 내용을 새로 만들어 넣는다"
+    ],
+    "answer": "중요한 내용을 골라 짧게 정리한다",
+    "explanation": "요약은 원문의 핵심을 유지하면서 덜 중요한 세부 내용은 줄이는 것입니다. 중심 내용과 꼭 필요한 정보를 골라 자신의 말로 간결하게 정리해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "매체 자료",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표 자료에 사진을 사용할 때 가장 먼저 확인할 것은?",
+    "choices": [
+      "사진의 출처와 사용 조건",
+      "사진 파일 이름의 길이",
+      "사진 속 색의 개수",
+      "사진을 본 친구의 수"
+    ],
+    "answer": "사진의 출처와 사용 조건",
+    "explanation": "다른 사람이 만든 사진에는 저작권과 이용 조건이 있을 수 있습니다. 발표 목적에 맞는지뿐 아니라 출처와 사용할 수 있는 조건을 확인해야 안전하고 책임 있게 활용할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "관용 표현",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘발이 넓다’라는 표현의 뜻으로 알맞은 것은?",
+    "choices": [
+      "아는 사람이 많다",
+      "발의 크기가 매우 크다",
+      "빨리 달린다",
+      "신발이 넓다"
+    ],
+    "answer": "아는 사람이 많다",
+    "explanation": "관용 표현은 낱말을 글자 그대로만 해석하면 뜻이 맞지 않을 수 있습니다. ‘발이 넓다’는 실제 발 크기가 아니라 여러 사람과 관계를 맺어 아는 사람이 많다는 뜻입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발표",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표를 들으며 내용을 정확히 이해하는 방법으로 가장 알맞은 것은?",
+    "choices": [
+      "주제와 중요한 근거를 메모한다",
+      "발표자의 옷만 살펴본다",
+      "모르는 내용은 모두 무시한다",
+      "중요한 말과 예시를 구별하지 않는다"
+    ],
+    "answer": "주제와 중요한 근거를 메모한다",
+    "explanation": "발표의 주제와 이를 뒷받침하는 중요한 근거를 메모하면 내용의 구조를 파악하기 쉽습니다. 세부 예시는 핵심 내용을 이해하는 데 필요한 것만 함께 정리하면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  }
+]

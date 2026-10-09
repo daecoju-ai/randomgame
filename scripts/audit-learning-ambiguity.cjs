@@ -26,8 +26,12 @@ for(const q of rows){
  if(answers.length>1&&new Set(answers).size!==answers.length)warnings.push(id+': repeated sequence tokens need dedicated tile handling');
  if(q.review_status==='published'&&q.review?.human_publication_pending===true)issues.push(id+': published while human approval pending');
 }
-const report={total:rows.length,errors:issues,warnings};
+const classify=s=>s.includes('human approval')?'human_approval_missing':s.includes('single-step matching')?'matching_single_step':s.includes('explanation')?'short_explanation':s.includes('short question')?'short_question':s.includes('repeated sequence')?'repeated_sequence_tokens':'other';
+const warning_categories={};
+for(const w of warnings){const category=classify(w);(warning_categories[category]??=[]).push(w)}
+const warning_summary=Object.fromEntries(Object.entries(warning_categories).map(([k,v])=>[k,v.length]));
+const report={total:rows.length,errors:issues,warnings,warning_summary,warning_categories};
 const out=path.join(__dirname,'../public/learning-ambiguity-report.json');
 fs.writeFileSync(out,JSON.stringify(report,null,2)+'\n');
-console.log(JSON.stringify({total:rows.length,errors:issues.length,warnings:warnings.length,report:'/learning-ambiguity-report.json'}));
+console.log(JSON.stringify({total:rows.length,errors:issues.length,warnings:warnings.length,warning_summary,report:'/learning-ambiguity-report.json'}));
 if(issues.length){console.error(issues.slice(0,30).join('\n'));process.exitCode=1}

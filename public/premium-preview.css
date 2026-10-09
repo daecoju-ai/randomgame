@@ -1432,3 +1432,6 @@ body :is(h2,h3){font-size:max(var(--ui-min-title),1em)!important}
 #studyHub .knowledgeShopCards article{min-height:96px;padding:13px 10px;border:1px solid #d1ac6280;border-radius:13px;background:linear-gradient(140deg,#204b5c,#17313c)}
 #studyHub .knowledgeShopCards b{display:block;font-size:14px!important;color:#fff1c5}
 #studyHub .knowledgeShopCards small{display:block;margin-top:9px;font-size:11px!important;color:#d6e7ec}
+
+/* Knowledge Star owned cosmetic: profile/lobby highlight only; no combat stats. */
+.knowledgeLearnerGlow #guardianLobby,.knowledgeLearnerGlow #guardianBattleName{border:2px solid #f2cf57;border-radius:10px;padding:2px 7px;box-shadow:0 0 10px rgba(242,207,87,.55)}

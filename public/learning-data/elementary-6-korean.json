@@ -638,5 +638,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "비판적 읽기",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘이 제품은 유명인이 사용하므로 누구에게나 가장 좋다.’라는 주장에 필요한 비판적 질문은?",
+    "choices": [
+      "유명인의 사용이 모든 사람에게 좋다는 근거가 되는가?",
+      "유명인의 이름은 몇 글자인가?",
+      "광고 배경은 무슨 색인가?",
+      "제품 사진은 몇 장인가?"
+    ],
+    "answer": "유명인의 사용이 모든 사람에게 좋다는 근거가 되는가?",
+    "explanation": "유명인이 사용한다는 사실만으로 모든 사람에게 가장 좋은 제품이라고 결론 내릴 수는 없습니다. 주장과 근거 사이에 논리적인 연결이 있는지 질문하는 것이 비판적 읽기의 핵심입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "도표 해석",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "한 조사에서 자전거 이용자가 월요일 20명, 화요일 35명, 수요일 30명이었습니다. 이용자가 가장 많은 날은?",
+    "choices": [
+      "화요일",
+      "월요일",
+      "수요일",
+      "세 날 모두 같다"
+    ],
+    "answer": "화요일",
+    "explanation": "도표나 수치 자료는 같은 기준의 값을 직접 비교합니다. 20, 35, 30 가운데 35가 가장 크므로 자전거 이용자가 가장 많은 날은 화요일입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "독자 고려",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "저학년 학생에게 과학 실험 방법을 설명할 때 가장 알맞은 방법은?",
+    "choices": [
+      "쉬운 낱말과 구체적인 순서를 사용한다",
+      "전문 용어만 사용하고 뜻은 설명하지 않는다",
+      "중요한 단계를 생략한다",
+      "순서를 섞어서 설명한다"
+    ],
+    "answer": "쉬운 낱말과 구체적인 순서를 사용한다",
+    "explanation": "글은 읽을 사람의 지식과 경험을 고려해야 합니다. 저학년에게는 어려운 전문 용어보다 이해하기 쉬운 낱말을 쓰고 행동 순서를 구체적으로 제시하는 것이 효과적입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "직접 인용",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 “내일 같이 가자.”라고 말한 내용을 그대로 옮긴 표현은?",
+    "choices": [
+      "친구가 “내일 같이 가자.”라고 말했다",
+      "친구가 내일 같이 가자고 말했다",
+      "친구가 내일 갈 것 같았다",
+      "친구는 어제 혼자 갔다"
+    ],
+    "answer": "친구가 “내일 같이 가자.”라고 말했다",
+    "explanation": "말한 내용을 그대로 옮기는 직접 인용은 원래 말을 따옴표 안에 제시합니다. 내용을 바꾸어 전달하는 ‘가자고 말했다’와 구별할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-025",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "발언의 근거 평가",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론에서 “모두 그렇게 생각해”라는 말만 근거로 제시했습니다. 가장 적절한 평가는?",
+    "choices": [
+      "누가 얼마나 그렇게 생각하는지 확인할 자료가 필요하다",
+      "사람 수를 확인할 필요가 전혀 없다",
+      "‘모두’라는 말이 있으니 충분한 근거다",
+      "큰 목소리로 말했으니 사실이다"
+    ],
+    "answer": "누가 얼마나 그렇게 생각하는지 확인할 자료가 필요하다",
+    "explanation": "‘모두’처럼 범위가 큰 표현은 실제 조사나 자료가 없으면 정확한지 알기 어렵습니다. 근거의 신뢰성을 판단하려면 조사 대상, 수치, 출처 등을 확인해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP19-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책상 위에 연필이 있습니다. 연필은 어디에 있나요?",
+    "choices": [
+      "책상 아래",
+      "가방 안",
+      "책상 위",
+      "문 밖"
+    ],
+    "answer": "책상 위",
+    "explanation": "문장 속 위치를 나타내는 말 '책상 위'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "의자 아래에 공이 있습니다. 공은 어디에 있나요?",
+    "choices": [
+      "의자 위",
+      "책장 안",
+      "의자 아래",
+      "창문 옆"
+    ],
+    "answer": "의자 아래",
+    "explanation": "문장 속 위치를 나타내는 말 '의자 아래'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "가방 안에 공책이 있습니다. 공책은 어디에 있나요?",
+    "choices": [
+      "가방 밖",
+      "책상 아래",
+      "가방 안",
+      "교실 밖"
+    ],
+    "answer": "가방 안",
+    "explanation": "문장 속 위치를 나타내는 말 '가방 안'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "나무 오른쪽에 벤치가 있습니다. 벤치는 나무의 어느 쪽에 있나요?",
+    "choices": [
+      "왼쪽",
+      "위쪽",
+      "오른쪽",
+      "아래쪽"
+    ],
+    "answer": "오른쪽",
+    "explanation": "문장 속 위치를 나타내는 말 '오른쪽'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문 왼쪽에 시계가 있습니다. 시계는 문의 어느 쪽에 있나요?",
+    "choices": [
+      "오른쪽",
+      "아래쪽",
+      "왼쪽",
+      "안쪽"
+    ],
+    "answer": "왼쪽",
+    "explanation": "문장 속 위치를 나타내는 말 '왼쪽'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상자 뒤에 인형이 있습니다. 인형은 상자의 어디에 있나요?",
+    "choices": [
+      "앞",
+      "위",
+      "뒤",
+      "안"
+    ],
+    "answer": "뒤",
+    "explanation": "문장 속 위치를 나타내는 말 '뒤'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "칠판 앞에 선생님이 계십니다. 선생님은 칠판의 어디에 계신가요?",
+    "choices": [
+      "뒤",
+      "위",
+      "앞",
+      "안"
+    ],
+    "answer": "앞",
+    "explanation": "문장 속 위치를 나타내는 말 '앞'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "신발장 맨 아래 칸에 운동화가 있습니다. 운동화는 어느 칸에 있나요?",
+    "choices": [
+      "맨 위 칸",
+      "가운데 칸",
+      "맨 아래 칸",
+      "신발장 밖"
+    ],
+    "answer": "맨 아래 칸",
+    "explanation": "문장 속 위치를 나타내는 말 '맨 아래 칸'를 찾으면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "빨간 끈은 8칸, 파란 끈은 5칸입니다. 어느 끈이 더 긴가요?",
+    "choices": [
+      "파란 끈",
+      "빨간 끈",
+      "두 끈은 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "빨간 끈",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '빨간 끈'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "노란 막대는 4칸, 초록 막대는 9칸입니다. 어느 막대가 더 짧은가요?",
+    "choices": [
+      "초록 막대",
+      "노란 막대",
+      "두 막대는 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "노란 막대",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '노란 막대'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "종이띠 A는 6칸, B는 6칸입니다. 길이는 어떤가요?",
+    "choices": [
+      "A가 더 길어요",
+      "길이가 같아요",
+      "B가 더 길어요",
+      "비교할 수 없어요"
+    ],
+    "answer": "길이가 같아요",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '길이가 같아요'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필은 7칸, 지우개는 3칸입니다. 어느 것이 더 긴가요?",
+    "choices": [
+      "지우개",
+      "연필",
+      "길이가 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "연필",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '연필'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "리본 A는 10칸, 리본 B는 8칸입니다. 길이 차이는 몇 칸인가요?",
+    "choices": [
+      "1칸",
+      "2칸",
+      "3칸",
+      "4칸"
+    ],
+    "answer": "2칸",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '2칸'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나뭇가지 A는 9칸, B는 4칸입니다. 길이 차이는 몇 칸인가요?",
+    "choices": [
+      "3칸",
+      "5칸",
+      "4칸",
+      "6칸"
+    ],
+    "answer": "5칸",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '5칸'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 띠는 12칸이고 5칸을 잘랐습니다. 남은 길이는 몇 칸인가요?",
+    "choices": [
+      "5칸",
+      "7칸",
+      "6칸",
+      "8칸"
+    ],
+    "answer": "7칸",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '7칸'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP19-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 길이와 위치, 문장 이해를 연결해 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "끈 6칸과 끈 3칸을 이어 붙였습니다. 전체 길이는 몇 칸인가요?",
+    "choices": [
+      "8칸",
+      "9칸",
+      "10칸",
+      "7칸"
+    ],
+    "answer": "9칸",
+    "explanation": "같은 크기의 한 칸을 기준으로 길이를 비교하거나 더하고 빼면 '9칸'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

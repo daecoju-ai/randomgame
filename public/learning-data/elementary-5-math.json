@@ -17,18 +17,19 @@
       "1"
     ],
     "answer": "5/6",
-    "explanation": "2/3 + 1/6 = 5/6.",
+    "explanation": "분모가 다르므로 같은 크기의 조각으로 맞춥니다. 2/3는 4/6와 같으므로 4/6+1/6=5/6입니다. 분모를 같게 하면 1/6 조각의 개수를 더할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "이분모 분수 덧셈을 통분과 단위분수의 개수로 설명"
   },
   {
     "id": "E5-MATH-EXT-000002",
@@ -48,18 +49,19 @@
       "7"
     ],
     "answer": "6",
-    "explanation": "1.5 × 4 = 6.",
+    "explanation": "1.5는 1/10이 15개인 수입니다. 이를 4배 하면 1/10이 60개가 되어 60/10=6입니다. 따라서 1.5×4=6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "소수 곱셈을 1/10 단위의 개수와 배의 개념으로 설명"
   },
   {
     "id": "E5-MATH-EXT-000003",
@@ -79,18 +81,19 @@
       "40cm²"
     ],
     "answer": "40cm²",
-    "explanation": "가로 8cm, 세로 5cm인 직사각형의 넓이 = 40cm².",
+    "explanation": "1cm² 정사각형을 가로로 8개씩 세로로 5줄 놓는다고 생각하면 모두 8×5=40개입니다. 따라서 직사각형의 넓이는 40cm²입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "직사각형 넓이를 단위 정사각형의 개수로 설명"
   },
   {
     "id": "V61-E5-MATH-001",

@@ -17,7 +17,8 @@ for(const pack of manifest.packs){
    if(q[field]===undefined||q[field]===null||q[field]==='')errors.push(label+': missing '+field);
   }
   if(!q.id)continue;
-  if(ids.has(q.id))errors.push(label+': duplicate id '+q.id);ids.add(q.id);
+  const identity=pack.id.startsWith('cert-')?pack.id+'::'+q.id:q.id;
+  if(ids.has(identity))errors.push(label+': duplicate id '+q.id);ids.add(identity);
   if(q.school!==pack.school||String(q.grade)!==String(pack.grade)||q.subject!==pack.subject)errors.push(label+': pack metadata mismatch');
   if(!types.has(q.game_type))errors.push(label+': unsupported game type '+q.game_type);
   if(!Array.isArray(q.choices)||q.choices.length<2)errors.push(label+': insufficient choices');

@@ -23,7 +23,7 @@ for(const pack of manifest.packs){
     const band=gradeBand(q.grade);
     const standardCode=q.curriculum_mapping?.standard_code;
     if(standardCode){
-      const match=String(standardCode).match(/^\\[([0-9]{1,2})([가-힣])([0-9]{2})-([0-9]{2})\\]$/);
+      const match=String(standardCode).replace(/^\[/,'').replace(/\]$/,'').match(/^([0-9]{1,2})([가-힣])([0-9]{2})-([0-9]{2})$/);
       if(match&&Number(match[1])!==Number(band.split('-')[1]))gradeBandFlags.push({id:q.id,grade:q.grade,standard_code:standardCode,reason:'standard_code_grade_band_mismatch'});
     }
     const minGrade=elligibleStart[q.subject];

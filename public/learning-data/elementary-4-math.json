@@ -1262,13 +1262,13 @@
       "311"
     ],
     "answer": "309",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 103 × 3 = 309입니다.",
+    "explanation": "103을 100과 3로 나누어 생각하면 (100×3)+(3×3)=300+9=309입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -1283,7 +1283,8 @@
       "result": "309",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-002",
@@ -1303,13 +1304,13 @@
       "105"
     ],
     "answer": "103",
-    "explanation": "3 × 103 = 309이므로 몫은 103입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 3 × 103 = 309이므로 309 ÷ 3 = 103입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -1324,7 +1325,8 @@
       "result": "103",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-003",
@@ -1344,13 +1346,13 @@
       "3.4"
     ],
     "answer": "0.4",
-    "explanation": "소수점 자리를 맞춰 더해요. 1/10 + 3/10 = 0.4입니다.",
+    "explanation": "0.1는 1/10, 0.3는 3/10입니다. 같은 1/10 단위끼리 1+3=4이므로 합은 0.4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -1365,7 +1367,8 @@
       "result": "0.4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-004",
@@ -1385,13 +1388,13 @@
       "151"
     ],
     "answer": "149",
-    "explanation": "두 각의 합이 180°이므로 180 − 31 = 149°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 31°를 빼면 다른 각은 149°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -1406,7 +1409,8 @@
       "result": "149",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-005",
@@ -1426,13 +1430,13 @@
       "74"
     ],
     "answer": "72",
-    "explanation": "세 날의 자료를 모두 더하면 21 + 24 + 27 = 72권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 21+24=45, 여기에 27를 더하면 72권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -1447,7 +1451,8 @@
       "result": "72",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-006",
@@ -1467,13 +1472,13 @@
       "418"
     ],
     "answer": "416",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 104 × 4 = 416입니다.",
+    "explanation": "104을 100과 4로 나누어 생각하면 (100×4)+(4×4)=400+16=416입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -1488,7 +1493,8 @@
       "result": "416",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-007",
@@ -1508,13 +1514,13 @@
       "106"
     ],
     "answer": "104",
-    "explanation": "4 × 104 = 416이므로 몫은 104입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 4 × 104 = 416이므로 416 ÷ 4 = 104입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -1529,7 +1535,8 @@
       "result": "104",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-008",
@@ -1549,13 +1556,13 @@
       "3.6"
     ],
     "answer": "0.6",
-    "explanation": "소수점 자리를 맞춰 더해요. 2/10 + 4/10 = 0.6입니다.",
+    "explanation": "0.2는 2/10, 0.4는 4/10입니다. 같은 1/10 단위끼리 2+4=6이므로 합은 0.6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -1570,7 +1577,8 @@
       "result": "0.6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-009",
@@ -1590,13 +1598,13 @@
       "150"
     ],
     "answer": "148",
-    "explanation": "두 각의 합이 180°이므로 180 − 32 = 148°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 32°를 빼면 다른 각은 148°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -1611,7 +1619,8 @@
       "result": "148",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-010",
@@ -1631,13 +1640,13 @@
       "77"
     ],
     "answer": "75",
-    "explanation": "세 날의 자료를 모두 더하면 22 + 25 + 28 = 75권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 22+25=47, 여기에 28를 더하면 75권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -1652,7 +1661,8 @@
       "result": "75",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-011",
@@ -1672,13 +1682,13 @@
       "527"
     ],
     "answer": "525",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 105 × 5 = 525입니다.",
+    "explanation": "105을 100과 5로 나누어 생각하면 (100×5)+(5×5)=500+25=525입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -1693,7 +1703,8 @@
       "result": "525",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-012",
@@ -1713,13 +1724,13 @@
       "107"
     ],
     "answer": "105",
-    "explanation": "5 × 105 = 525이므로 몫은 105입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 5 × 105 = 525이므로 525 ÷ 5 = 105입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -1734,7 +1745,8 @@
       "result": "105",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-013",
@@ -1754,13 +1766,13 @@
       "3.8"
     ],
     "answer": "0.8",
-    "explanation": "소수점 자리를 맞춰 더해요. 3/10 + 5/10 = 0.8입니다.",
+    "explanation": "0.3는 3/10, 0.5는 5/10입니다. 같은 1/10 단위끼리 3+5=8이므로 합은 0.8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -1775,7 +1787,8 @@
       "result": "0.8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-014",
@@ -1795,13 +1808,13 @@
       "149"
     ],
     "answer": "147",
-    "explanation": "두 각의 합이 180°이므로 180 − 33 = 147°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 33°를 빼면 다른 각은 147°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -1816,7 +1829,8 @@
       "result": "147",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-015",
@@ -1836,13 +1850,13 @@
       "80"
     ],
     "answer": "78",
-    "explanation": "세 날의 자료를 모두 더하면 23 + 26 + 29 = 78권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 23+26=49, 여기에 29를 더하면 78권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -1857,7 +1871,8 @@
       "result": "78",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-016",
@@ -1877,13 +1892,13 @@
       "638"
     ],
     "answer": "636",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 106 × 6 = 636입니다.",
+    "explanation": "106을 100과 6로 나누어 생각하면 (100×6)+(6×6)=600+36=636입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -1898,7 +1913,8 @@
       "result": "636",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-017",
@@ -1918,13 +1934,13 @@
       "108"
     ],
     "answer": "106",
-    "explanation": "6 × 106 = 636이므로 몫은 106입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 6 × 106 = 636이므로 636 ÷ 6 = 106입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -1939,7 +1955,8 @@
       "result": "106",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-018",
@@ -1959,13 +1976,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "소수점 자리를 맞춰 더해요. 4/10 + 6/10 = 1입니다.",
+    "explanation": "0.4는 4/10, 0.6는 6/10입니다. 같은 1/10 단위끼리 4+6=10이므로 합은 1.0입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -1980,7 +1997,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-019",
@@ -2000,13 +2018,13 @@
       "148"
     ],
     "answer": "146",
-    "explanation": "두 각의 합이 180°이므로 180 − 34 = 146°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 34°를 빼면 다른 각은 146°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -2021,7 +2039,8 @@
       "result": "146",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-020",
@@ -2041,13 +2060,13 @@
       "83"
     ],
     "answer": "81",
-    "explanation": "세 날의 자료를 모두 더하면 24 + 27 + 30 = 81권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 24+27=51, 여기에 30를 더하면 81권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -2062,7 +2081,8 @@
       "result": "81",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-021",
@@ -2082,13 +2102,13 @@
       "751"
     ],
     "answer": "749",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 107 × 7 = 749입니다.",
+    "explanation": "107을 100과 7로 나누어 생각하면 (100×7)+(7×7)=700+49=749입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -2103,7 +2123,8 @@
       "result": "749",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-022",
@@ -2123,13 +2144,13 @@
       "109"
     ],
     "answer": "107",
-    "explanation": "7 × 107 = 749이므로 몫은 107입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 7 × 107 = 749이므로 749 ÷ 7 = 107입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -2144,7 +2165,8 @@
       "result": "107",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-023",
@@ -2164,13 +2186,13 @@
       "3.2"
     ],
     "answer": "1.2",
-    "explanation": "소수점 자리를 맞춰 더해요. 5/10 + 7/10 = 1.2입니다.",
+    "explanation": "0.5는 5/10, 0.7는 7/10입니다. 같은 1/10 단위끼리 5+7=12이므로 합은 1.2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -2185,7 +2207,8 @@
       "result": "1.2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-024",
@@ -2205,13 +2228,13 @@
       "147"
     ],
     "answer": "145",
-    "explanation": "두 각의 합이 180°이므로 180 − 35 = 145°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 35°를 빼면 다른 각은 145°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -2226,7 +2249,8 @@
       "result": "145",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-025",
@@ -2246,13 +2270,13 @@
       "86"
     ],
     "answer": "84",
-    "explanation": "세 날의 자료를 모두 더하면 25 + 28 + 31 = 84권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 25+28=53, 여기에 31를 더하면 84권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -2267,7 +2291,8 @@
       "result": "84",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-026",
@@ -2287,13 +2312,13 @@
       "866"
     ],
     "answer": "864",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 108 × 8 = 864입니다.",
+    "explanation": "108을 100과 8로 나누어 생각하면 (100×8)+(8×8)=800+64=864입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -2308,7 +2333,8 @@
       "result": "864",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-027",
@@ -2328,13 +2354,13 @@
       "110"
     ],
     "answer": "108",
-    "explanation": "8 × 108 = 864이므로 몫은 108입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 8 × 108 = 864이므로 864 ÷ 8 = 108입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -2349,7 +2375,8 @@
       "result": "108",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-028",
@@ -2369,13 +2396,13 @@
       "3.4"
     ],
     "answer": "1.4",
-    "explanation": "소수점 자리를 맞춰 더해요. 6/10 + 8/10 = 1.4입니다.",
+    "explanation": "0.6는 6/10, 0.8는 8/10입니다. 같은 1/10 단위끼리 6+8=14이므로 합은 1.4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -2390,7 +2417,8 @@
       "result": "1.4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-029",
@@ -2410,13 +2438,13 @@
       "146"
     ],
     "answer": "144",
-    "explanation": "두 각의 합이 180°이므로 180 − 36 = 144°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 36°를 빼면 다른 각은 144°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -2431,7 +2459,8 @@
       "result": "144",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-030",
@@ -2451,13 +2480,13 @@
       "89"
     ],
     "answer": "87",
-    "explanation": "세 날의 자료를 모두 더하면 26 + 29 + 32 = 87권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 26+29=55, 여기에 32를 더하면 87권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -2472,7 +2501,8 @@
       "result": "87",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-031",
@@ -2492,13 +2522,13 @@
       "983"
     ],
     "answer": "981",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 109 × 9 = 981입니다.",
+    "explanation": "109을 100과 9로 나누어 생각하면 (100×9)+(9×9)=900+81=981입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -2513,7 +2543,8 @@
       "result": "981",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-032",
@@ -2533,13 +2564,13 @@
       "111"
     ],
     "answer": "109",
-    "explanation": "9 × 109 = 981이므로 몫은 109입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 9 × 109 = 981이므로 981 ÷ 9 = 109입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -2554,7 +2585,8 @@
       "result": "109",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-033",
@@ -2574,13 +2606,13 @@
       "3.6"
     ],
     "answer": "1.6",
-    "explanation": "소수점 자리를 맞춰 더해요. 7/10 + 9/10 = 1.6입니다.",
+    "explanation": "0.7는 7/10, 0.9는 9/10입니다. 같은 1/10 단위끼리 7+9=16이므로 합은 1.6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -2595,7 +2627,8 @@
       "result": "1.6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-034",
@@ -2615,13 +2648,13 @@
       "145"
     ],
     "answer": "143",
-    "explanation": "두 각의 합이 180°이므로 180 − 37 = 143°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 37°를 빼면 다른 각은 143°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -2636,7 +2669,8 @@
       "result": "143",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-035",
@@ -2656,13 +2690,13 @@
       "92"
     ],
     "answer": "90",
-    "explanation": "세 날의 자료를 모두 더하면 27 + 30 + 33 = 90권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 27+30=57, 여기에 33를 더하면 90권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -2677,7 +2711,8 @@
       "result": "90",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-036",
@@ -2697,13 +2732,13 @@
       "222"
     ],
     "answer": "220",
-    "explanation": "각 자리의 값을 곱한 뒤 합하면 110 × 2 = 220입니다.",
+    "explanation": "110을 100과 10로 나누어 생각하면 (100×2)+(10×2)=200+20=220입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "큰 수 곱셈"
     ],
@@ -2718,7 +2753,8 @@
       "result": "220",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "V61-E4-MATH-037",
@@ -2738,13 +2774,13 @@
       "112"
     ],
     "answer": "110",
-    "explanation": "2 × 110 = 220이므로 몫은 110입니다.",
+    "explanation": "나눗셈은 곱셈으로 되짚어 확인할 수 있습니다. 2 × 110 = 220이므로 220 ÷ 2 = 110입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "몫"
     ],
@@ -2759,7 +2795,8 @@
       "result": "110",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "나눗셈을 곱셈의 역관계로 검산하도록 설명"
   },
   {
     "id": "V61-E4-MATH-038",
@@ -2779,13 +2816,13 @@
       "3"
     ],
     "answer": "1",
-    "explanation": "소수점 자리를 맞춰 더해요. 8/10 + 2/10 = 1입니다.",
+    "explanation": "0.8는 8/10, 0.2는 2/10입니다. 같은 1/10 단위끼리 8+2=10이므로 합은 1.0입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "소수 덧셈"
     ],
@@ -2800,7 +2837,8 @@
       "result": "1",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "소수를 1/10 단위로 바꾸어 같은 단위끼리 더하는 원리를 설명"
   },
   {
     "id": "V61-E4-MATH-039",
@@ -2820,13 +2858,13 @@
       "144"
     ],
     "answer": "142",
-    "explanation": "두 각의 합이 180°이므로 180 − 38 = 142°입니다.",
+    "explanation": "두 각이 합쳐져 일직선인 180°를 만듭니다. 전체 180°에서 알고 있는 38°를 빼면 다른 각은 142°입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "각도"
     ],
@@ -2841,7 +2879,8 @@
       "result": "142",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "평각 180도에서 알려진 각을 빼는 이유를 설명"
   },
   {
     "id": "V61-E4-MATH-040",
@@ -2861,13 +2900,13 @@
       "95"
     ],
     "answer": "93",
-    "explanation": "세 날의 자료를 모두 더하면 28 + 31 + 34 = 93권입니다.",
+    "explanation": "합계는 세 날의 대출 수를 빠짐없이 합한 값입니다. 28+31=59, 여기에 34를 더하면 93권입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "자료 합계"
     ],
@@ -2882,7 +2921,8 @@
       "result": "93",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "여러 날의 자료를 합계로 모으는 과정을 단계적으로 설명"
   },
   {
     "id": "V61-E4-MATH-041",

@@ -1273,13 +1273,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "전체에서 먹은 수를 빼요. 4 − 1 = 3개입니다.",
+    "explanation": "4개에서 먹은 1개를 하나씩 빼면 3개가 남습니다. 뺄셈식으로 4 − 1 = 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -1294,7 +1294,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-002",
@@ -1355,13 +1356,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "다음 수는 1 큰 수입니다. 1 + 1 = 2입니다.",
+    "explanation": "수를 차례대로 셀 때 1 바로 다음 수는 2입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -1376,7 +1377,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-004",
@@ -1437,13 +1439,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "전체에서 먹은 수를 빼요. 5 − 1 = 4개입니다.",
+    "explanation": "5개에서 먹은 1개를 하나씩 빼면 4개가 남습니다. 뺄셈식으로 5 − 1 = 4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -1458,7 +1460,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-006",
@@ -1519,13 +1522,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "다음 수는 1 큰 수입니다. 2 + 1 = 3입니다.",
+    "explanation": "수를 차례대로 셀 때 2 바로 다음 수는 3입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -1540,7 +1543,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-008",
@@ -1601,13 +1605,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "전체에서 먹은 수를 빼요. 6 − 1 = 5개입니다.",
+    "explanation": "6개에서 먹은 1개를 하나씩 빼면 5개가 남습니다. 뺄셈식으로 6 − 1 = 5입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -1622,7 +1626,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-010",
@@ -1683,13 +1688,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "다음 수는 1 큰 수입니다. 3 + 1 = 4입니다.",
+    "explanation": "수를 차례대로 셀 때 3 바로 다음 수는 4입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -1704,7 +1709,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-012",
@@ -1765,13 +1771,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "전체에서 먹은 수를 빼요. 7 − 1 = 6개입니다.",
+    "explanation": "7개에서 먹은 1개를 하나씩 빼면 6개가 남습니다. 뺄셈식으로 7 − 1 = 6입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -1786,7 +1792,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-014",
@@ -1847,13 +1854,13 @@
       "7"
     ],
     "answer": "5",
-    "explanation": "다음 수는 1 큰 수입니다. 4 + 1 = 5입니다.",
+    "explanation": "수를 차례대로 셀 때 4 바로 다음 수는 5입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -1868,7 +1875,8 @@
       "result": "5",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-016",
@@ -1929,13 +1937,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "전체에서 먹은 수를 빼요. 8 − 1 = 7개입니다.",
+    "explanation": "8개에서 먹은 1개를 하나씩 빼면 7개가 남습니다. 뺄셈식으로 8 − 1 = 7입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -1950,7 +1958,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-018",
@@ -2011,13 +2020,13 @@
       "8"
     ],
     "answer": "6",
-    "explanation": "다음 수는 1 큰 수입니다. 5 + 1 = 6입니다.",
+    "explanation": "수를 차례대로 셀 때 5 바로 다음 수는 6입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2032,7 +2041,8 @@
       "result": "6",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-020",
@@ -2093,13 +2103,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "전체에서 먹은 수를 빼요. 9 − 1 = 8개입니다.",
+    "explanation": "9개에서 먹은 1개를 하나씩 빼면 8개가 남습니다. 뺄셈식으로 9 − 1 = 8입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2114,7 +2124,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-022",
@@ -2175,13 +2186,13 @@
       "9"
     ],
     "answer": "7",
-    "explanation": "다음 수는 1 큰 수입니다. 6 + 1 = 7입니다.",
+    "explanation": "수를 차례대로 셀 때 6 바로 다음 수는 7입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2196,7 +2207,8 @@
       "result": "7",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-024",
@@ -2257,13 +2269,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "전체에서 먹은 수를 빼요. 10 − 1 = 9개입니다.",
+    "explanation": "10개에서 먹은 1개를 하나씩 빼면 9개가 남습니다. 뺄셈식으로 10 − 1 = 9입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2278,7 +2290,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-026",
@@ -2339,13 +2352,13 @@
       "10"
     ],
     "answer": "8",
-    "explanation": "다음 수는 1 큰 수입니다. 7 + 1 = 8입니다.",
+    "explanation": "수를 차례대로 셀 때 7 바로 다음 수는 8입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2360,7 +2373,8 @@
       "result": "8",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-028",
@@ -2421,13 +2435,13 @@
       "4"
     ],
     "answer": "2",
-    "explanation": "전체에서 먹은 수를 빼요. 4 − 2 = 2개입니다.",
+    "explanation": "4개에서 먹은 2개를 하나씩 빼면 2개가 남습니다. 뺄셈식으로 4 − 2 = 2입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2442,7 +2456,8 @@
       "result": "2",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-030",
@@ -2503,13 +2518,13 @@
       "11"
     ],
     "answer": "9",
-    "explanation": "다음 수는 1 큰 수입니다. 8 + 1 = 9입니다.",
+    "explanation": "수를 차례대로 셀 때 8 바로 다음 수는 9입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2524,7 +2539,8 @@
       "result": "9",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-032",
@@ -2585,13 +2601,13 @@
       "5"
     ],
     "answer": "3",
-    "explanation": "전체에서 먹은 수를 빼요. 5 − 2 = 3개입니다.",
+    "explanation": "5개에서 먹은 2개를 하나씩 빼면 3개가 남습니다. 뺄셈식으로 5 − 2 = 3입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2606,7 +2622,8 @@
       "result": "3",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-034",
@@ -2667,13 +2684,13 @@
       "12"
     ],
     "answer": "10",
-    "explanation": "다음 수는 1 큰 수입니다. 9 + 1 = 10입니다.",
+    "explanation": "수를 차례대로 셀 때 9 바로 다음 수는 10입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2688,7 +2705,8 @@
       "result": "10",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-036",
@@ -2749,13 +2767,13 @@
       "6"
     ],
     "answer": "4",
-    "explanation": "전체에서 먹은 수를 빼요. 6 − 2 = 4개입니다.",
+    "explanation": "6개에서 먹은 2개를 하나씩 빼면 4개가 남습니다. 뺄셈식으로 6 − 2 = 4입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "뺄셈"
     ],
@@ -2770,7 +2788,8 @@
       "result": "4",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-038",
@@ -2831,13 +2850,13 @@
       "13"
     ],
     "answer": "11",
-    "explanation": "다음 수는 1 큰 수입니다. 10 + 1 = 11입니다.",
+    "explanation": "수를 차례대로 셀 때 10 바로 다음 수는 11입니다. 다음 수는 앞의 수보다 1 큽니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "tags": [
       "수의 순서"
     ],
@@ -2852,7 +2871,8 @@
       "result": "11",
       "source_reference": "mathjs_calculation_api",
       "snapshot": "data/references/mathjs-v61-verification.json"
-    }
+    },
+    "revision_note": "계산 결과뿐 아니라 수 세기 원리를 설명하도록 해설 개선"
   },
   {
     "id": "V61-E1-MATH-040",

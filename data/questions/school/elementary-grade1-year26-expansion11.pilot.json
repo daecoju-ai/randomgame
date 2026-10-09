@@ -1,0 +1,722 @@
+[
+  {
+    "id": "G1-YEAR26-EXP11-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "바깥에 천둥이 치고 번개가 보입니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "큰 나무 아래 서기",
+      "건물 안에서 안전하게 기다리기",
+      "운동장에서 뛰기",
+      "우산을 높이 들고 서기"
+    ],
+    "answer": "건물 안에서 안전하게 기다리기",
+    "explanation": "'바깥에 천둥이 치고 번개가 보입니다.' 상황에서는 '건물 안에서 안전하게 기다리기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구가 넘어져 무릎을 다쳤습니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "모른 척하기",
+      "가까운 어른에게 알리기",
+      "다시 뛰라고 하기",
+      "친구를 놀리기"
+    ],
+    "answer": "가까운 어른에게 알리기",
+    "explanation": "'친구가 넘어져 무릎을 다쳤습니다.' 상황에서는 '가까운 어른에게 알리기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "교실 바닥에 물이 흘러 미끄럽습니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "바닥에서 미끄러지기",
+      "선생님께 알리고 조심하기",
+      "친구를 밀기",
+      "물 위에서 뛰기"
+    ],
+    "answer": "선생님께 알리고 조심하기",
+    "explanation": "'교실 바닥에 물이 흘러 미끄럽습니다.' 상황에서는 '선생님께 알리고 조심하기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "낯선 사람이 길을 알려 달라며 함께 가자고 합니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "바로 따라가기",
+      "따라가지 않고 믿을 만한 어른에게 알리기",
+      "혼자 멀리 가기",
+      "가족에게 숨기기"
+    ],
+    "answer": "따라가지 않고 믿을 만한 어른에게 알리기",
+    "explanation": "'낯선 사람이 길을 알려 달라며 함께 가자고 합니다.' 상황에서는 '따라가지 않고 믿을 만한 어른에게 알리기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "운동장에서 친구와 부딪힐 뻔했습니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "더 빨리 달리기",
+      "멈추고 주변을 살피기",
+      "눈 감고 뛰기",
+      "친구를 밀기"
+    ],
+    "answer": "멈추고 주변을 살피기",
+    "explanation": "'운동장에서 친구와 부딪힐 뻔했습니다.' 상황에서는 '멈추고 주변을 살피기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "미술 시간에 가위를 사용합니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "가위를 들고 뛰기",
+      "앉아서 조심히 사용하기",
+      "친구에게 가위 끝을 향하기",
+      "가위를 던지기"
+    ],
+    "answer": "앉아서 조심히 사용하기",
+    "explanation": "'미술 시간에 가위를 사용합니다.' 상황에서는 '앉아서 조심히 사용하기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "집에서 연기가 나고 불이 보입니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "장난감 챙기러 들어가기",
+      "안전한 곳으로 대피하고 어른에게 알리기",
+      "침대 밑에 숨기",
+      "불 가까이 가기"
+    ],
+    "answer": "안전한 곳으로 대피하고 어른에게 알리기",
+    "explanation": "'집에서 연기가 나고 불이 보입니다.' 상황에서는 '안전한 곳으로 대피하고 어른에게 알리기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "공원에서 쓰레기를 발견했습니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "맨손으로 날카로운 물건 집기",
+      "어른의 안내에 따라 안전하게 정리하기",
+      "쓰레기를 더 버리기",
+      "쓰레기를 발로 차기"
+    ],
+    "answer": "어른의 안내에 따라 안전하게 정리하기",
+    "explanation": "'공원에서 쓰레기를 발견했습니다.' 상황에서는 '어른의 안내에 따라 안전하게 정리하기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구가 혼자 무거운 상자를 옮기려 합니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "친구에게 무조건 혼자 들라고 하기",
+      "선생님께 도움을 요청하기",
+      "상자를 밀어 넘어뜨리기",
+      "상자 위에 올라가기"
+    ],
+    "answer": "선생님께 도움을 요청하기",
+    "explanation": "'친구가 혼자 무거운 상자를 옮기려 합니다.' 상황에서는 '선생님께 도움을 요청하기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자전거를 타려고 합니다. 가장 안전한 행동을 선택하세요.",
+    "choices": [
+      "눈 감고 타기",
+      "헬멧을 바르게 쓰기",
+      "차도로 갑자기 나가기",
+      "친구를 밀며 타기"
+    ],
+    "answer": "헬멧을 바르게 쓰기",
+    "explanation": "'자전거를 타려고 합니다.' 상황에서는 '헬멧을 바르게 쓰기' 행동이 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "리본 8칸짜리와 5칸짜리가 있습니다. 어느 리본이 더 긴가요?",
+    "choices": [
+      "5칸짜리",
+      "8칸짜리",
+      "길이가 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "8칸짜리",
+    "explanation": "8은 5보다 크므로 같은 크기의 칸으로 재었다면 8칸짜리가 더 깁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "블록을 같은 크기로 쌓았습니다. 민수는 6개, 지수는 9개를 쌓았습니다. 누구의 탑이 더 높은가요?",
+    "choices": [
+      "민수",
+      "지수",
+      "높이가 같아요",
+      "알 수 없어요"
+    ],
+    "answer": "지수",
+    "explanation": "같은 크기의 블록을 더 많이 쌓은 지수의 탑이 높습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "줄넘기 횟수를 세었습니다. 월요일 7번, 화요일 10번입니다. 어느 날 더 많이 했나요?",
+    "choices": [
+      "월요일",
+      "화요일",
+      "같아요",
+      "알 수 없어요"
+    ],
+    "answer": "화요일",
+    "explanation": "10은 7보다 크므로 화요일에 더 많이 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "컵에 같은 크기의 구슬을 담았습니다. 빨간 컵 4개, 파란 컵 6개입니다. 더 적은 쪽은?",
+    "choices": [
+      "파란 컵",
+      "빨간 컵",
+      "같아요",
+      "알 수 없어요"
+    ],
+    "answer": "빨간 컵",
+    "explanation": "4는 6보다 작으므로 빨간 컵이 더 적습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "한 줄에 의자 5개가 있습니다. 두 줄에 똑같이 5개씩 놓았습니다. 모두 몇 개인가요?",
+    "choices": [
+      "5개",
+      "10개",
+      "8개",
+      "12개"
+    ],
+    "answer": "10개",
+    "explanation": "5개와 5개를 더하면 10개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "구슬 3개씩 든 주머니가 2개 있습니다. 모두 몇 개인가요?",
+    "choices": [
+      "3개",
+      "6개",
+      "5개",
+      "8개"
+    ],
+    "answer": "6개",
+    "explanation": "3개와 3개를 더하면 6개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책상 위에 공책 4권이 있습니다. 공책을 2권 더 놓았습니다. 모두 몇 권인가요?",
+    "choices": [
+      "2권",
+      "6권",
+      "4권",
+      "8권"
+    ],
+    "answer": "6권",
+    "explanation": "4+2=6이므로 모두 6권입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 9자루를 3자루씩 나누어 세면 몇 묶음인가요?",
+    "choices": [
+      "2묶음",
+      "3묶음",
+      "4묶음",
+      "9묶음"
+    ],
+    "answer": "3묶음",
+    "explanation": "3자루씩 세 번 묶으면 9자루가 되므로 3묶음입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색종이 10장 중 4장을 사용했습니다. 몇 장이 남았나요?",
+    "choices": [
+      "4장",
+      "6장",
+      "5장",
+      "7장"
+    ],
+    "answer": "6장",
+    "explanation": "10-4=6이므로 6장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP11-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "관찰한 정보를 비교하고 이유를 설명하며 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구 5명과 선생님 1명이 있습니다. 모두 몇 명인가요?",
+    "choices": [
+      "5명",
+      "6명",
+      "7명",
+      "4명"
+    ],
+    "answer": "6명",
+    "explanation": "5+1=6이므로 모두 6명입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

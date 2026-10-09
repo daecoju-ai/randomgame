@@ -1,0 +1,674 @@
+[
+  {
+    "id": "G1-YEAR26-EXP18-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 10개를 두 상자에 나누어 담았습니다. 첫째 상자에 3개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "9",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "전체 10개에서 첫째 상자의 3개를 빼면 7개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 9개를 두 상자에 나누어 담았습니다. 첫째 상자에 5개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "6",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4",
+    "explanation": "전체 9개에서 첫째 상자의 5개를 빼면 4개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 8개를 두 상자에 나누어 담았습니다. 첫째 상자에 2개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "8",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "6",
+    "explanation": "전체 8개에서 첫째 상자의 2개를 빼면 6개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 7개를 두 상자에 나누어 담았습니다. 첫째 상자에 4개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "5",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "3",
+    "explanation": "전체 7개에서 첫째 상자의 4개를 빼면 3개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 12개를 두 상자에 나누어 담았습니다. 첫째 상자에 7개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "전체 12개에서 첫째 상자의 7개를 빼면 5개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 11개를 두 상자에 나누어 담았습니다. 첫째 상자에 6개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "전체 11개에서 첫째 상자의 6개를 빼면 5개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 13개를 두 상자에 나누어 담았습니다. 첫째 상자에 8개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "전체 13개에서 첫째 상자의 8개를 빼면 5개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 14개를 두 상자에 나누어 담았습니다. 첫째 상자에 9개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "7",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "5",
+    "explanation": "전체 14개에서 첫째 상자의 9개를 빼면 5개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 15개를 두 상자에 나누어 담았습니다. 첫째 상자에 7개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "10",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "전체 15개에서 첫째 상자의 7개를 빼면 8개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "구슬 16개를 두 상자에 나누어 담았습니다. 첫째 상자에 9개를 담았다면 둘째 상자에는 몇 개인가요?",
+    "choices": [
+      "9",
+      "6",
+      "7",
+      "8"
+    ],
+    "answer": "7",
+    "explanation": "전체 16개에서 첫째 상자의 9개를 빼면 7개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '공을 / 던집니다. / 아이가'",
+    "choices": [
+      "공을",
+      "던집니다.",
+      "아이가"
+    ],
+    "answer": [
+      "아이가",
+      "공을",
+      "던집니다."
+    ],
+    "explanation": "누가(아이가) → 무엇을/어디에서(공을) → 어떻게 하는지(던집니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '창가에서 / 잡니다. / 고양이가'",
+    "choices": [
+      "창가에서",
+      "잡니다.",
+      "고양이가"
+    ],
+    "answer": [
+      "고양이가",
+      "창가에서",
+      "잡니다."
+    ],
+    "explanation": "누가(고양이가) → 무엇을/어디에서(창가에서) → 어떻게 하는지(잡니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '책을 / 읽습니다. / 민지가'",
+    "choices": [
+      "책을",
+      "읽습니다.",
+      "민지가"
+    ],
+    "answer": [
+      "민지가",
+      "책을",
+      "읽습니다."
+    ],
+    "explanation": "누가(민지가) → 무엇을/어디에서(책을) → 어떻게 하는지(읽습니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '노래를 / 부릅니다. / 동생이'",
+    "choices": [
+      "노래를",
+      "부릅니다.",
+      "동생이"
+    ],
+    "answer": [
+      "동생이",
+      "노래를",
+      "부릅니다."
+    ],
+    "explanation": "누가(동생이) → 무엇을/어디에서(노래를) → 어떻게 하는지(부릅니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '마당에서 / 뛰어놉니다. / 강아지가'",
+    "choices": [
+      "마당에서",
+      "뛰어놉니다.",
+      "강아지가"
+    ],
+    "answer": [
+      "강아지가",
+      "마당에서",
+      "뛰어놉니다."
+    ],
+    "explanation": "누가(강아지가) → 무엇을/어디에서(마당에서) → 어떻게 하는지(뛰어놉니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '칠판에 / 글씨를 씁니다. / 선생님이'",
+    "choices": [
+      "칠판에",
+      "글씨를 씁니다.",
+      "선생님이"
+    ],
+    "answer": [
+      "선생님이",
+      "칠판에",
+      "글씨를 씁니다."
+    ],
+    "explanation": "누가(선생님이) → 무엇을/어디에서(칠판에) → 어떻게 하는지(글씨를 씁니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '꽃에 / 물을 줍니다. / 할머니가'",
+    "choices": [
+      "꽃에",
+      "물을 줍니다.",
+      "할머니가"
+    ],
+    "answer": [
+      "할머니가",
+      "꽃에",
+      "물을 줍니다."
+    ],
+    "explanation": "누가(할머니가) → 무엇을/어디에서(꽃에) → 어떻게 하는지(물을 줍니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP18-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 구성",
+    "learning_target": "문장 구성과 수의 분해·합성을 이해하며 설명하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "낱말을 바르게 배열해 문장을 완성하세요: '운동장에서 / 달립니다. / 친구들이'",
+    "choices": [
+      "운동장에서",
+      "달립니다.",
+      "친구들이"
+    ],
+    "answer": [
+      "친구들이",
+      "운동장에서",
+      "달립니다."
+    ],
+    "explanation": "누가(친구들이) → 무엇을/어디에서(운동장에서) → 어떻게 하는지(달립니다.) 순서로 읽으면 자연스럽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -28,7 +28,7 @@ jobs:
       - name: Check learning JavaScript syntax
         run: node --check public/learning.js && node --check public/learning-rules.js && node --check public/learning-support.js && node --check api/learning.js && node --check lib/learning-bank.cjs
       - name: Run learning tests
-        run: npm test
+        run: node --test tests/learning*.test.cjs
       - name: Run strict learning bank validation
         run: LEARNING_VALIDATION_STRICT=1 node scripts/validate-learning-bank.cjs
       - name: Print diagnostic report

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP22-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'사과, 배, 바나나'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "탈것",
+      "과일",
+      "악기",
+      "가구"
+    ],
+    "answer": "과일",
+    "explanation": "세 낱말의 공통점을 찾으면 '과일'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'버스, 기차, 자전거'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "동물",
+      "탈것",
+      "과일",
+      "옷"
+    ],
+    "answer": "탈것",
+    "explanation": "세 낱말의 공통점을 찾으면 '탈것'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'연필, 지우개, 공책'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "음식",
+      "학용품",
+      "운동",
+      "동물"
+    ],
+    "answer": "학용품",
+    "explanation": "세 낱말의 공통점을 찾으면 '학용품'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'장갑, 목도리, 외투'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "악기",
+      "추울 때 입는 물건",
+      "채소",
+      "가구"
+    ],
+    "answer": "추울 때 입는 물건",
+    "explanation": "세 낱말의 공통점을 찾으면 '추울 때 입는 물건'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'고양이, 강아지, 토끼'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "도구",
+      "동물",
+      "과일",
+      "날씨"
+    ],
+    "answer": "동물",
+    "explanation": "세 낱말의 공통점을 찾으면 '동물'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'비, 눈, 바람'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "악기",
+      "날씨와 관련된 것",
+      "운동 기구",
+      "학용품"
+    ],
+    "answer": "날씨와 관련된 것",
+    "explanation": "세 낱말의 공통점을 찾으면 '날씨와 관련된 것'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'숟가락, 젓가락, 접시'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "탈것",
+      "식사 도구",
+      "장난감",
+      "신발"
+    ],
+    "answer": "식사 도구",
+    "explanation": "세 낱말의 공통점을 찾으면 '식사 도구'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "'축구공, 농구공, 배구공'를 한데 묶을 수 있는 말은 무엇인가요?",
+    "choices": [
+      "과일",
+      "운동에 쓰는 공",
+      "책",
+      "옷"
+    ],
+    "answer": "운동에 쓰는 공",
+    "explanation": "세 낱말의 공통점을 찾으면 '운동에 쓰는 공'입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "교실 바닥에 물이 쏟아졌어요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "바닥에서 미끄럼 타기",
+      "모른 척하고 뛰기",
+      "선생님께 알리고 주변 친구에게 주의시키기",
+      "물을 더 붓기"
+    ],
+    "answer": "선생님께 알리고 주변 친구에게 주의시키기",
+    "explanation": "위험한 행동을 피하고 '선생님께 알리고 주변 친구에게 주의시키기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "놀이터에서 친구가 넘어져 일어나지 못해요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "혼자 억지로 일으키기",
+      "계속 놀기",
+      "가까운 어른에게 도움 요청하기",
+      "친구 놀리기"
+    ],
+    "answer": "가까운 어른에게 도움 요청하기",
+    "explanation": "위험한 행동을 피하고 '가까운 어른에게 도움 요청하기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "비 오는 날 횡단보도 앞에 섰어요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "우산으로 앞을 가리고 뛰기",
+      "휴대전화만 보기",
+      "신호를 확인하고 차가 멈췄는지 살피기",
+      "차 사이로 건너기"
+    ],
+    "answer": "신호를 확인하고 차가 멈췄는지 살피기",
+    "explanation": "위험한 행동을 피하고 '신호를 확인하고 차가 멈췄는지 살피기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "집에 혼자 있을 때 모르는 사람이 문을 두드려요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "바로 문 열기",
+      "주소 알려주기",
+      "문을 열지 않고 보호자에게 연락하기",
+      "밖으로 따라가기"
+    ],
+    "answer": "문을 열지 않고 보호자에게 연락하기",
+    "explanation": "위험한 행동을 피하고 '문을 열지 않고 보호자에게 연락하기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 나를 놀려 속상해요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "친구를 때리기",
+      "물건 던지기",
+      "싫다는 마음을 말하고 필요하면 어른에게 알리기",
+      "다른 친구도 놀리기"
+    ],
+    "answer": "싫다는 마음을 말하고 필요하면 어른에게 알리기",
+    "explanation": "위험한 행동을 피하고 '싫다는 마음을 말하고 필요하면 어른에게 알리기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "체육 시간에 몸이 어지러워요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "참고 계속 달리기",
+      "친구를 밀기",
+      "활동을 멈추고 선생님께 알리기",
+      "혼자 숨기"
+    ],
+    "answer": "활동을 멈추고 선생님께 알리기",
+    "explanation": "위험한 행동을 피하고 '활동을 멈추고 선생님께 알리기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "가위로 종이를 자르려고 해요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "가위를 들고 뛰기",
+      "친구를 향해 겨누기",
+      "앉아서 손을 조심하며 사용하기",
+      "눈앞에서 휘두르기"
+    ],
+    "answer": "앉아서 손을 조심하며 사용하기",
+    "explanation": "위험한 행동을 피하고 '앉아서 손을 조심하며 사용하기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP22-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "기초 분류와 생활 안전을 상황에 맞게 판단하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "길에서 길을 잃었어요. 어떻게 하는 것이 가장 안전할까요?",
+    "choices": [
+      "모르는 사람을 무조건 따라가기",
+      "차도로 뛰어가기",
+      "안전한 곳에서 경찰관 등 믿을 수 있는 어른에게 도움 요청하기",
+      "아무 차에나 타기"
+    ],
+    "answer": "안전한 곳에서 경찰관 등 믿을 수 있는 어른에게 도움 요청하기",
+    "explanation": "위험한 행동을 피하고 '안전한 곳에서 경찰관 등 믿을 수 있는 어른에게 도움 요청하기'가 안전한 선택입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

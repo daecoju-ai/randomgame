@@ -958,5 +958,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-031",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "문단 관계",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "앞 문단에서 문제점을 설명하고 다음 문단에서 해결 방법을 제시했다면 두 문단의 관계는?",
+    "choices": [
+      "문제와 해결",
+      "시간과 장소",
+      "비교와 반복",
+      "질문과 무관한 내용"
+    ],
+    "answer": "문제와 해결",
+    "explanation": "문단 사이의 관계는 각 문단이 맡은 역할을 살펴 찾습니다. 앞에서 문제를 밝히고 뒤에서 그 문제를 해결하는 방법을 제시했으므로 ‘문제와 해결’ 관계입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-032",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "중심 문장",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "문단의 중심 문장을 찾는 데 가장 도움이 되는 방법은?",
+    "choices": [
+      "나머지 문장들이 공통으로 설명하는 내용을 찾는다",
+      "가장 긴 문장만 고른다",
+      "숫자가 들어간 문장만 고른다",
+      "마지막 문장을 무조건 고른다"
+    ],
+    "answer": "나머지 문장들이 공통으로 설명하는 내용을 찾는다",
+    "explanation": "중심 문장은 문단 전체가 말하려는 핵심을 담습니다. 다른 문장들이 어떤 내용을 설명하거나 뒷받침하는지 살피면 중심 문장을 찾기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-033",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "예시 활용",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘규칙적인 운동의 좋은 점’을 설명할 때 예시를 사용하는 이유는?",
+    "choices": [
+      "추상적인 내용을 구체적으로 이해하도록 돕기 위해",
+      "글의 주제를 숨기기 위해",
+      "관련 없는 내용을 늘리기 위해",
+      "중심 생각을 없애기 위해"
+    ],
+    "answer": "추상적인 내용을 구체적으로 이해하도록 돕기 위해",
+    "explanation": "예시는 설명하려는 내용을 실제 상황이나 구체적인 경우로 보여 줍니다. 독자는 예시를 통해 의미를 쉽게 떠올리고 이해할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-034",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "높임말",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "할머니께 식사 여부를 여쭙는 표현으로 가장 알맞은 것은?",
+    "choices": [
+      "할머니, 진지 드셨어요?",
+      "할머니, 밥 먹었니?",
+      "할머니, 밥 먹어라",
+      "할머니가 밥 먹었어"
+    ],
+    "answer": "할머니, 진지 드셨어요?",
+    "explanation": "높임 표현은 상대와 문장의 주체를 고려합니다. ‘밥’의 높임말 ‘진지’와 ‘먹다’의 높임 표현 ‘드시다’를 사용하면 할머니를 높여 말할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-035",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "질문과 답변",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "발표자에게 질문한 뒤 해야 할 태도로 가장 알맞은 것은?",
+    "choices": [
+      "답변을 끝까지 듣고 필요한 내용을 확인한다",
+      "질문하자마자 다른 이야기를 한다",
+      "답변 중간에 계속 말을 끊는다",
+      "대답을 듣지 않고 같은 질문만 반복한다"
+    ],
+    "answer": "답변을 끝까지 듣고 필요한 내용을 확인한다",
+    "explanation": "질문의 목적은 필요한 정보를 얻고 이해를 넓히는 것입니다. 질문한 뒤에는 답변을 끝까지 듣고 자신의 궁금증이 해결되었는지 확인해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP27-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 햇볕이 강하고 땀이 많이 나요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "겨울",
+      "여름",
+      "가을",
+      "봄"
+    ],
+    "answer": "여름",
+    "explanation": "관찰 기록의 단서를 살피면 '여름'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 나뭇잎이 붉거나 노랗게 물들어요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "여름",
+      "가을",
+      "봄",
+      "겨울"
+    ],
+    "answer": "가을",
+    "explanation": "관찰 기록의 단서를 살피면 '가을'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 눈이 내리고 두꺼운 외투를 입어요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "봄",
+      "겨울",
+      "여름",
+      "가을"
+    ],
+    "answer": "겨울",
+    "explanation": "관찰 기록의 단서를 살피면 '겨울'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 새싹이 돋고 꽃이 피기 시작해요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "가을",
+      "봄",
+      "겨울",
+      "여름"
+    ],
+    "answer": "봄",
+    "explanation": "관찰 기록의 단서를 살피면 '봄'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 비가 온 뒤 땅에 물웅덩이가 생겼어요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "눈이 왔다는 단서",
+      "비가 왔다는 단서",
+      "바람이 없다는 단서",
+      "날이 더웠다는 단서"
+    ],
+    "answer": "비가 왔다는 단서",
+    "explanation": "관찰 기록의 단서를 살피면 '비가 왔다는 단서'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 하늘에 먹구름이 많아졌어요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "반드시 눈이 와요",
+      "비가 올 수도 있어요",
+      "반드시 맑아져요",
+      "바람이 절대 불지 않아요"
+    ],
+    "answer": "비가 올 수도 있어요",
+    "explanation": "관찰 기록의 단서를 살피면 '비가 올 수도 있어요'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 화분에 물을 준 뒤 흙이 촉촉해졌어요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "흙이 사라졌어요",
+      "물이 흙에 스며들었어요",
+      "화분이 커졌어요",
+      "씨앗이 바로 꽃이 됐어요"
+    ],
+    "answer": "물이 흙에 스며들었어요",
+    "explanation": "관찰 기록의 단서를 살피면 '물이 흙에 스며들었어요'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "관찰 기록: 그늘에서는 햇볕이 직접 닿지 않아요. 알맞은 설명을 고르세요.",
+    "choices": [
+      "빛을 막는 물체의 뒤쪽",
+      "그늘이 생긴 곳",
+      "햇빛이 가장 강한 곳",
+      "항상 빛이 나는 곳"
+    ],
+    "answer": "그늘이 생긴 곳",
+    "explanation": "관찰 기록의 단서를 살피면 '그늘이 생긴 곳'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'하늘이 맑아요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "흐려요",
+      "추워요",
+      "맑아요",
+      "어두워요"
+    ],
+    "answer": "맑아요",
+    "explanation": "'맑아요'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'바람이 세게 불어요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "조용히",
+      "느리게",
+      "세게",
+      "약하게"
+    ],
+    "answer": "세게",
+    "explanation": "'세게'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'물방울이 뚝뚝 떨어져요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "반짝반짝",
+      "살금살금",
+      "뚝뚝",
+      "쌩쌩"
+    ],
+    "answer": "뚝뚝",
+    "explanation": "'뚝뚝'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'아이가 살금살금 걸어요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "쾅쾅",
+      "쿵쾅쿵쾅",
+      "살금살금",
+      "번쩍번쩍"
+    ],
+    "answer": "살금살금",
+    "explanation": "'살금살금'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'별이 반짝반짝 빛나요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "철썩철썩",
+      "부릉부릉",
+      "반짝반짝",
+      "쿵쿵"
+    ],
+    "answer": "반짝반짝",
+    "explanation": "'반짝반짝'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'기차가 칙칙폭폭 달려요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "야옹야옹",
+      "멍멍",
+      "칙칙폭폭",
+      "짹짹"
+    ],
+    "answer": "칙칙폭폭",
+    "explanation": "'칙칙폭폭'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'빗방울이 후두둑 떨어져요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "반짝반짝",
+      "살랑살랑",
+      "후두둑",
+      "두근두근"
+    ],
+    "answer": "후두둑",
+    "explanation": "'후두둑'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP27-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말 의미",
+    "learning_target": "관찰한 사실을 분류하고 생활 속 알맞은 표현을 익히기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'나뭇잎이 살랑살랑 흔들려요.'에서 모습이나 소리를 생생하게 나타내는 말로 알맞은 것을 고르세요.",
+    "choices": [
+      "쿵쾅쿵쾅",
+      "번쩍번쩍",
+      "살랑살랑",
+      "철썩철썩"
+    ],
+    "answer": "살랑살랑",
+    "explanation": "'살랑살랑'는 문장 속 모습이나 상태를 나타내는 표현입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -10,7 +10,8 @@ test('v64 and v65 exercises retain unique IDs, usable answers, and explanations'
  assert.equal(rows.length,12);
  assert.equal(new Set(rows.map(q=>q.id)).size,12);
  const modes=new Set(rows.map(q=>q.game_type));
- for(const type of ['ORDERING','TILE_SEQUENCE','FORMULA','MATCHING','TARGET_SELECT','MULTIPLE_CHOICE'])assert(modes.has(type),type);
+ for(const type of ['ORDERING','TILE_SEQUENCE','FORMULA','TARGET_SELECT','MULTIPLE_CHOICE'])assert(modes.has(type),type);
+ assert(!rows.some(q=>q.game_type==='MATCHING'&&R.answers(q).length===1),'single-answer matching must be modeled as choice');
  for(const q of rows){
   assert.equal(q.release_channel,'pilot',q.id);
   assert.equal(q.review.human_publication_pending,true,q.id);

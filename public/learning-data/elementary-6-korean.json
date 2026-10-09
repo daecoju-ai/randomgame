@@ -2558,5 +2558,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-081",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "반어적 표현",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "상황과 반대되는 말을 사용해 뜻을 강조하는 표현을 이해하려면 무엇을 함께 살펴야 하나요?",
+    "choices": [
+      "말이 사용된 상황과 말하는 사람의 의도",
+      "문장의 글자 수만",
+      "종이의 색깔",
+      "등장인물 이름의 순서"
+    ],
+    "answer": "말이 사용된 상황과 말하는 사람의 의도",
+    "explanation": "겉으로 드러난 말과 실제 의도가 다를 수 있으므로 표현이 사용된 상황을 함께 봐야 합니다. 앞뒤 맥락과 말하는 사람의 태도를 살피면 실제 의미를 판단할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-082",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "표본 판단",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 전체 학생의 의견을 알고 싶은데 한 반 학생만 조사했다면 무엇을 주의해야 하나요?",
+    "choices": [
+      "한 반의 결과를 학교 전체 의견으로 바로 일반화하기 어렵다",
+      "한 반만 조사하면 언제나 전체와 정확히 같다",
+      "학생 수는 결과와 관계없다",
+      "조사 대상은 확인할 필요가 없다"
+    ],
+    "answer": "한 반의 결과를 학교 전체 의견으로 바로 일반화하기 어렵다",
+    "explanation": "조사 결과를 전체 집단에 적용하려면 조사 대상이 전체를 적절히 대표하는지 살펴야 합니다. 한 반만 조사했다면 학년이나 반에 따른 차이가 반영되지 않았을 가능성이 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-083",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "인용과 해석 구별",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "보고서에서 자료의 내용과 자신의 해석을 구별해야 하는 이유는?",
+    "choices": [
+      "어디까지가 자료의 사실이고 어디부터가 글쓴이의 판단인지 알 수 있게 하려고",
+      "모든 문장을 더 길게 만들려고",
+      "자료의 출처를 숨기려고",
+      "자신의 생각을 쓰지 않으려고"
+    ],
+    "answer": "어디까지가 자료의 사실이고 어디부터가 글쓴이의 판단인지 알 수 있게 하려고",
+    "explanation": "자료에서 확인한 사실과 그것을 바탕으로 한 해석은 성격이 다릅니다. 둘을 구별해 표현하면 독자가 근거와 판단 과정을 확인할 수 있어 글의 신뢰성이 높아집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-084",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "지시 표현",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“이 방법은 앞에서 설명한 방법보다 간단하다.”에서 ‘이 방법’의 내용을 정확히 알기 위해 필요한 것은?",
+    "choices": [
+      "앞뒤 문맥에서 무엇을 가리키는지 확인한다",
+      "‘이’의 획수를 센다",
+      "문장 길이를 잰다",
+      "마침표 위치만 본다"
+    ],
+    "answer": "앞뒤 문맥에서 무엇을 가리키는지 확인한다",
+    "explanation": "‘이’, ‘그’, ‘저’와 같은 지시 표현은 문맥 속 대상을 가리킵니다. 앞에서 어떤 방법을 설명했는지 살펴야 ‘이 방법’이 구체적으로 무엇인지 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-085",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "토론 쟁점",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "토론을 시작하기 전에 쟁점을 분명히 해야 하는 이유는?",
+    "choices": [
+      "참여자들이 같은 문제를 중심으로 의견과 근거를 나누게 하려고",
+      "모두 같은 결론을 미리 정하려고",
+      "발언 시간을 없애려고",
+      "반대 의견을 금지하려고"
+    ],
+    "answer": "참여자들이 같은 문제를 중심으로 의견과 근거를 나누게 하려고",
+    "explanation": "쟁점은 토론에서 판단하거나 해결해야 할 핵심 문제입니다. 쟁점을 분명히 하면 참여자들이 서로 다른 이야기를 하지 않고 같은 문제에 대해 근거를 비교할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

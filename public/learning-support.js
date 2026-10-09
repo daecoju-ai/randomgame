@@ -46,7 +46,7 @@ function grade1ConceptLesson(q){
  if(q.subject==='math'&&q.domain==='data_patterns')return{id:'grade1-pattern',title:'반복되는 규칙을 찾아요',principle:'앞뒤 수나 모양이 어떻게 바뀌는지 비교해요.',example:'1, 2, 3 다음에는 4가 와요.',prompt:'1, 2, 3 다음 수는?',choices:['2','4','6'],answer:'4',hints:['앞에서 뒤로 무엇이 바뀌는지 살펴보세요.','찾은 규칙이 앞의 두 곳에도 맞는지 확인하세요.']};
  if(q.subject==='math'&&q.domain==='number_operations'){
   if(/빼|남|차이|−|(?<!\\d)-(?!\\d)/.test(prompt))return{id:'grade1-subtract',title:'남은 수를 하나씩 세어요',principle:'빼기는 있던 것에서 덜어 내고 남은 수를 찾는 거예요.',example:'사과 5개에서 2개를 덜면 3개가 남아요.',prompt:'5 - 2 = ?',choices:['2','3','4'],answer:'3',hints:['처음에 몇 개가 있었는지 확인해 보세요.','덜어 낸 수만큼 하나씩 뒤로 세어 보세요.']};
-  if(/더|합|모두|\+/.test(prompt))return{id:'grade1-add',title:'두 무리를 모아 세어요',principle:'더하기는 두 무리를 합쳐 모두 몇 개인지 세는 거예요.',example:'사과 2개와 3개를 모으면 5개예요.',prompt:'2 + 3 = ?',choices:['4','5','6'],answer:'5',hints:['처음 무리의 수부터 세어 보세요.','더하는 수만큼 손가락을 하나씩 펴며 세어 보세요.']};
+  if(/더|합|모두|\+/.test(prompt))return{id:'grade1-add',title:'두 무리를 모아 세어요',principle:'더하기는 두 무리를 합쳐 모두 몇 개인지 세는 거예요.',example:'사과 2개와 3개를 모으면 5개예요.',prompt:'사탕 1개와 2개를 모으면 모두 몇 개일까요?',choices:['2개','3개','4개'],answer:'3개',hints:['처음 무리의 수부터 세어 보세요.','더하는 수만큼 손가락을 하나씩 펴며 세어 보세요.']};
  }
  return null;
 }

@@ -43,6 +43,8 @@ function grade1GeometryLesson(q){
 function grade1ConceptLesson(q){
  const prompt=String(q.question||'');
  if(q.game_type==='MATCHING')return{id:'grade1-matching',title:'관련 있는 것끼리 짝지어요',principle:'왼쪽 말과 오른쪽 뜻을 차례로 연결해요. 하나씩 읽고 어울리는 짝을 찾아요.',example:'3은 셋이라고 읽어요. 3과 셋은 한 짝이에요.',prompt:'3과 어울리는 읽는 말은?',choices:['셋','다섯','일곱'],answer:'셋',hints:['첫 번째 짝의 왼쪽 말부터 살펴보세요.','왼쪽 말과 뜻이 맞는 오른쪽 말을 찾아 보세요.']};
+ if(q.subject==='math'&&q.domain==='number_operations'&&/큰 수|작은 수|가장 작은|가장 큰|보다 크|보다 작|나눌 수|10과 얼마/.test(prompt))return{id:'grade1-number-compare',title:'수를 비교하고 나누어 봐요',principle:'수를 하나씩 세며 크기를 비교하고, 10과 몇으로 나눌 수도 있어요.',example:'14는 10과 4로 나눌 수 있어요. 16은 14보다 커요.',prompt:'13을 10과 몇으로 나눌 수 있을까요?',choices:['2','3','4'],answer:'3',hints:['문제에서 수를 비교하는지, 나누는지 먼저 살펴보세요.','10을 기준으로 남는 수를 세거나 두 수를 차례로 비교해 보세요.']};
+ if(q.subject==='math'&&q.domain==='data_patterns'&&/가장 많|가장 적|몇 개|과일|자료/.test(prompt))return{id:'grade1-data',title:'자료를 세고 비교해요',principle:'종류별로 개수를 세고 가장 많은 것과 적은 것을 찾아요.',example:'사과 2개, 배 4개라면 배가 더 많아요.',prompt:'사과 1개와 배 3개 중 더 많은 것은?',choices:['사과','배','같아요'],answer:'배',hints:['종류별 개수를 따로 세어 보세요.','각 개수를 비교해 더 큰 수를 찾아요.']};
  if(q.subject==='math'&&q.domain==='data_patterns')return{id:'grade1-pattern',title:'반복되는 규칙을 찾아요',principle:'앞뒤 수나 모양이 어떻게 바뀌는지 비교해요.',example:'1, 2, 3 다음에는 4가 와요.',prompt:'1, 2, 3 다음 수는?',choices:['2','4','6'],answer:'4',hints:['앞에서 뒤로 무엇이 바뀌는지 살펴보세요.','찾은 규칙이 앞의 두 곳에도 맞는지 확인하세요.']};
  if(q.subject==='math'&&q.domain==='number_operations'){
   if(/빼|남|차이|−|(?<!\\d)-(?!\\d)/.test(prompt))return{id:'grade1-subtract',title:'남은 수를 하나씩 세어요',principle:'빼기는 있던 것에서 덜어 내고 남은 수를 찾는 거예요.',example:'사과 5개에서 2개를 덜면 3개가 남아요.',prompt:'5 - 2 = ?',choices:['2','3','4'],answer:'3',hints:['처음에 몇 개가 있었는지 확인해 보세요.','덜어 낸 수만큼 하나씩 뒤로 세어 보세요.']};

@@ -17,18 +17,19 @@
       "1100"
     ],
     "answer": "1000",
-    "explanation": "125 × 8 = 1000.",
+    "explanation": "125를 100과 25로 나누어 생각하면 100×8=800, 25×8=200입니다. 두 값을 더하면 800+200=1000이므로 125×8=1000입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "세 자리 수 곱셈을 자릿값에 따라 나누어 계산하는 원리로 설명"
   },
   {
     "id": "E4-MATH-EXT-000002",
@@ -48,18 +49,19 @@
       "332"
     ],
     "answer": "312",
-    "explanation": "936 ÷ 3 = 312.",
+    "explanation": "936을 900과 36으로 나누어 생각하면 900÷3=300, 36÷3=12입니다. 300+12=312이므로 936÷3=312입니다. 312×3=936으로 확인할 수 있습니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "세 자리 수 나눗셈을 분해 계산하고 곱셈으로 검산하도록 설명"
   },
   {
     "id": "E4-MATH-EXT-000003",
@@ -79,18 +81,19 @@
       "6/7"
     ],
     "answer": "5/7",
-    "explanation": "2/7 + 3/7 = 5/7.",
+    "explanation": "두 분수는 분모가 모두 7이므로 같은 크기인 1/7 조각의 개수를 더하면 됩니다. 2개+3개=5개이므로 2/7+3/7=5/7입니다.",
     "content_origin": "original",
     "source_reference": "moe_2022_curriculum",
     "license": "original_game_content",
     "review_status": "reviewed",
     "release_channel": "pilot",
-    "version": 1,
+    "version": 2,
     "review": {
       "method": "answer_and_explanation_check",
       "date": "2026-10-04",
       "human_publication_pending": true
-    }
+    },
+    "revision_note": "분모가 같은 분수의 덧셈을 같은 단위분수의 개수로 설명"
   },
   {
     "id": "V58-E4-MATH-001",

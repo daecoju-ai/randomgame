@@ -2238,5 +2238,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-071",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "문학적 갈등",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기에서 주인공이 하고 싶은 일과 지켜야 할 약속 사이에서 고민한다면 어떤 갈등인가요?",
+    "choices": [
+      "인물의 마음속에서 일어나는 갈등",
+      "두 장소의 거리 차이",
+      "시간의 순서 문제",
+      "낱말의 뜻 차이"
+    ],
+    "answer": "인물의 마음속에서 일어나는 갈등",
+    "explanation": "한 인물 안에서 서로 다른 생각이나 가치가 부딪칠 때 내적 갈등이 나타납니다. 하고 싶은 마음과 약속을 지켜야 한다는 생각 사이의 고민이 이에 해당합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-072",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "표현 효과 비교",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "같은 장면을 ‘비가 왔다’와 ‘빗방울이 지붕을 두드리며 쏟아졌다’로 표현했을 때 두 번째 표현의 효과는?",
+    "choices": [
+      "소리와 움직임을 떠올리게 해 장면을 생생하게 만든다",
+      "비가 오지 않았다는 뜻으로 바뀐다",
+      "시간을 정확한 숫자로 알려 준다",
+      "지붕의 가격을 설명한다"
+    ],
+    "answer": "소리와 움직임을 떠올리게 해 장면을 생생하게 만든다",
+    "explanation": "구체적인 움직임과 소리를 나타내는 표현은 독자가 장면을 감각적으로 떠올리게 합니다. 같은 사실도 표현 방법에 따라 느낌과 전달 효과가 달라질 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-073",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "매체 자료 제작",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 행사를 알리는 카드뉴스를 만들 때 가장 먼저 고려할 것은?",
+    "choices": [
+      "누가 볼 것이며 어떤 정보를 전달할지",
+      "장식 그림을 최대한 많이 넣을지",
+      "모든 문장을 아주 작게 쓸지",
+      "관련 없는 사진을 몇 장 넣을지"
+    ],
+    "answer": "누가 볼 것이며 어떤 정보를 전달할지",
+    "explanation": "매체 자료도 글과 마찬가지로 목적과 독자를 먼저 정해야 합니다. 대상과 전달할 핵심 정보가 분명해야 글, 사진, 배치 같은 표현 방법을 알맞게 선택할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-074",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "어휘의 뉘앙스",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "‘말했다’ 대신 ‘속삭였다’를 사용하면 추가로 드러나는 정보는?",
+    "choices": [
+      "작은 목소리로 말한 방식",
+      "말한 사람의 키",
+      "말한 장소의 넓이",
+      "문장의 글자 수"
+    ],
+    "answer": "작은 목소리로 말한 방식",
+    "explanation": "비슷한 행동을 나타내는 낱말도 의미의 세부 차이가 있습니다. ‘속삭였다’는 단순히 말했다는 사실뿐 아니라 작은 목소리로 조용히 말했다는 방식까지 나타냅니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-6-KOREAN-075",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 6,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "공식 발표",
+    "difficulty": 3,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "공식적인 자리에서 발표할 때 적절한 말하기 방법은?",
+    "choices": [
+      "청중과 상황에 맞는 표현을 사용하고 핵심을 분명히 전달한다",
+      "친한 친구끼리만 쓰는 줄임말을 계속 사용한다",
+      "근거 없이 과장된 표현만 사용한다",
+      "청중의 이해 여부와 관계없이 빠르게 읽는다"
+    ],
+    "answer": "청중과 상황에 맞는 표현을 사용하고 핵심을 분명히 전달한다",
+    "explanation": "공식적인 발표에서는 상황에 맞는 어휘와 말투를 선택하고 핵심 내용을 정확하게 전달해야 합니다. 말의 속도와 자료도 청중이 이해하기 쉽도록 조절하는 것이 좋습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초6 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

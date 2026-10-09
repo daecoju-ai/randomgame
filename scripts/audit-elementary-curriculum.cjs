@@ -8,6 +8,9 @@ const rows=[];
 const placementFlags=[];
 const gradeBandFlags=[];
 const curriculumReviewQueue=[];
+const mappingIntegrityFlags=[];
+const allowedAnnex={korean:'5',math:'8'};
+const standardPattern=/^\[([246])([가-힣])([0-9]{2})-([0-9]{2})\]$/;
 const gradeBand=grade=>Number(grade)<=2?'1-2':Number(grade)<=4?'3-4':'5-6';
 const elligibleStart={english:3,science:3,social:3};
 const officialSource={
@@ -24,12 +27,20 @@ for(const pack of manifest.packs){
     const band=gradeBand(q.grade);
     const standardCode=q.curriculum_mapping?.standard_code;
     if(standardCode){
-      const match=String(standardCode).replace(/^\[/,'').replace(/\]$/,'').match(/^([0-9]{1,2})([가-힣])([0-9]{2})-([0-9]{2})$/);
+      const match=String(standardCode).match(standardPattern);
+      if(!match)mappingIntegrityFlags.push({id:q.id,reason:'invalid_standard_code_format',standard_code:standardCode});
       if(match&&Number(match[1])!==Number(band.split('-')[1]))gradeBandFlags.push({id:q.id,grade:q.grade,standard_code:standardCode,reason:'standard_code_grade_band_mismatch'});
     }
     const minGrade=elligibleStart[q.subject];
     if(minGrade&&Number(q.grade)<minGrade)placementFlags.push({id:q.id,pack:pack.id,grade:q.grade,subject:q.subject,reason:'subject_not_offered_in_this_elementary_grade',min_grade:minGrade});
-    const mapped=Boolean(q.curriculum_mapping?.standard_code&&q.curriculum_mapping?.source_url&&q.curriculum_mapping?.checked_at&&q.curriculum_mapping?.reviewer);
+    const mapping=q.curriculum_mapping;
+    if(mapping){
+      for(const field of ['standard_code','source_url','checked_at','reviewer'])if(!mapping[field])mappingIntegrityFlags.push({id:q.id,reason:'missing_mapping_field',field});
+      if(mapping.source_url&&!/^https:\/\//.test(mapping.source_url))mappingIntegrityFlags.push({id:q.id,reason:'invalid_source_url'});
+      if(mapping.checked_at&&!/^\d{4}-\d{2}-\d{2}$/.test(mapping.checked_at))mappingIntegrityFlags.push({id:q.id,reason:'invalid_checked_at'});
+      if(allowedAnnex[q.subject]&&mapping.annex&&String(mapping.annex)!==allowedAnnex[q.subject])mappingIntegrityFlags.push({id:q.id,reason:'wrong_subject_annex',annex:mapping.annex});
+    }
+    const mapped=Boolean(mapping?.standard_code&&mapping?.source_url&&mapping?.checked_at&&mapping?.reviewer);
     if(['korean','math'].includes(q.subject)&&!mapped)curriculumReviewQueue.push({id:q.id,pack:pack.id,grade:q.grade,grade_band:band,subject:q.subject,domain:q.domain,learning_target:q.learning_target,source_reference:q.source_reference,review_status:q.review_status,required:['standard_code','source_url','checked_at','reviewer']});
     rows.push({id:q.id,pack:pack.id,grade:q.grade,subject:q.subject,domain:q.domain,
       learning_target:q.learning_target,source_reference:q.source_reference,
@@ -43,7 +54,9 @@ for(const q of rows){
   (byGroup[k]??={total:0,source_pending:0,standard_unverified:0,documented:0})[q.mapping_status]++;
   byGroup[k].total++;
 }
-const result={generated_at:new Date().toISOString(),source:'2022 revised curriculum - NCIC official',source_url:'https://www.ncic.re.kr/',official_sources:officialSource,verified_standard_mappings:rows.filter(x=>x.mapping_status==='documented').length,placement_flags:placementFlags,grade_band_flags:gradeBandFlags,curriculum_review_queue:{count:curriculumReviewQueue.length,questions:curriculumReviewQueue},elementary_questions:rows.length,by_grade_subject:byGroup,questions:rows};
+const result={generated_at:new Date().toISOString(),source:'2022 revised curriculum - NCIC official',source_url:'https://www.ncic.re.kr/',official_sources:officialSource,verified_standard_mappings:rows.filter(x=>x.mapping_status==='documented').length,placement_flags:placementFlags,grade_band_flags:gradeBandFlags,mapping_integrity_flags:mappingIntegrityFlags,curriculum_review_queue:{count:curriculumReviewQueue.length,questions:curriculumReviewQueue},elementary_questions:rows.length,by_grade_subject:byGroup,questions:rows};
 const dest=path.resolve(__dirname,'../public/learning-curriculum-audit.json');
 fs.writeFileSync(dest,JSON.stringify(result,null,2)+'\n');
 console.log(JSON.stringify({elementary_questions:rows.length,verified_standard_mappings:result.verified_standard_mappings,placement_flags:placementFlags,grade_band_flags:gradeBandFlags,curriculum_review_queue:curriculumReviewQueue.length,groups:byGroup,report:'public/learning-curriculum-audit.json'},null,2));
+
+if(mappingIntegrityFlags.length||gradeBandFlags.length){console.error('Curriculum mapping integrity violations detected');process.exitCode=1;}

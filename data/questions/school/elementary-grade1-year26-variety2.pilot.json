@@ -1,0 +1,902 @@
+[
+  {
+    "id": "G1-YEAR26-VARIETY-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "2와 3를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "6",
+      "4",
+      "5",
+      "7"
+    ],
+    "answer": "5",
+    "explanation": "2+3=5입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "4와 5를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "10",
+      "8",
+      "9",
+      "11"
+    ],
+    "answer": "9",
+    "explanation": "4+5=9입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "6와 2를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "9",
+      "7",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "6+2=8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "7와 3를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "7+3=10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "8와 4를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "13",
+      "11",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "8+4=12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "9와 1를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "11",
+      "9",
+      "10",
+      "12"
+    ],
+    "answer": "10",
+    "explanation": "9+1=10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "5와 6를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "5+6=11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "3와 8를 더한 수를 적은 타일을 밟으세요.",
+    "choices": [
+      "12",
+      "10",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "3+8=11입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 1, 3, 5",
+    "choices": [
+      "5",
+      "1",
+      "3"
+    ],
+    "answer": [
+      "1",
+      "3",
+      "5"
+    ],
+    "explanation": "2씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 2, 4, 6",
+    "choices": [
+      "6",
+      "2",
+      "4"
+    ],
+    "answer": [
+      "2",
+      "4",
+      "6"
+    ],
+    "explanation": "2씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 3, 5, 7",
+    "choices": [
+      "7",
+      "3",
+      "5"
+    ],
+    "answer": [
+      "3",
+      "5",
+      "7"
+    ],
+    "explanation": "2씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 1, 4, 7",
+    "choices": [
+      "7",
+      "1",
+      "4"
+    ],
+    "answer": [
+      "1",
+      "4",
+      "7"
+    ],
+    "explanation": "3씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 2, 5, 8",
+    "choices": [
+      "8",
+      "2",
+      "5"
+    ],
+    "answer": [
+      "2",
+      "5",
+      "8"
+    ],
+    "explanation": "3씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "수를 작은 순서대로 밟으세요. 4, 7, 10",
+    "choices": [
+      "10",
+      "4",
+      "7"
+    ],
+    "answer": [
+      "4",
+      "7",
+      "10"
+    ],
+    "explanation": "3씩 커지는 순서로 밟아요.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'바다'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "다",
+      "바"
+    ],
+    "answer": [
+      "바",
+      "다"
+    ],
+    "explanation": "'바다'는 '바' 다음 '다' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'나무'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "무",
+      "나"
+    ],
+    "answer": [
+      "나",
+      "무"
+    ],
+    "explanation": "'나무'는 '나' 다음 '무' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'사과'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "과",
+      "사"
+    ],
+    "answer": [
+      "사",
+      "과"
+    ],
+    "explanation": "'사과'는 '사' 다음 '과' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'우유'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "유",
+      "우"
+    ],
+    "answer": [
+      "우",
+      "유"
+    ],
+    "explanation": "'우유'는 '우' 다음 '유' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'학교'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "교",
+      "학"
+    ],
+    "answer": [
+      "학",
+      "교"
+    ],
+    "explanation": "'학교'는 '학' 다음 '교' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "TILE_SEQUENCE",
+    "question": "'친구'를 만들도록 글자 타일을 순서대로 밟으세요.",
+    "choices": [
+      "구",
+      "친"
+    ],
+    "answer": [
+      "친",
+      "구"
+    ],
+    "explanation": "'친구'는 '친' 다음 '구' 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-021",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "수와 읽는 말을 짝지으세요. 1과 2를 차례대로 고르세요.",
+    "choices": [
+      "1 ↔ 둘",
+      "1 ↔ 하나",
+      "2 ↔ 둘",
+      "2 ↔ 하나"
+    ],
+    "answer": [
+      "1 ↔ 하나",
+      "2 ↔ 둘"
+    ],
+    "explanation": "1과 2의 읽는 말을 연결합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-022",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "수와 읽는 말을 짝지으세요. 3과 4를 차례대로 고르세요.",
+    "choices": [
+      "3 ↔ 넷",
+      "3 ↔ 셋",
+      "4 ↔ 넷",
+      "4 ↔ 셋"
+    ],
+    "answer": [
+      "3 ↔ 셋",
+      "4 ↔ 넷"
+    ],
+    "explanation": "3과 4의 읽는 말을 연결합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-023",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "수와 읽는 말을 짝지으세요. 5과 6를 차례대로 고르세요.",
+    "choices": [
+      "5 ↔ 여섯",
+      "5 ↔ 다섯",
+      "6 ↔ 여섯",
+      "6 ↔ 다섯"
+    ],
+    "answer": [
+      "5 ↔ 다섯",
+      "6 ↔ 여섯"
+    ],
+    "explanation": "5과 6의 읽는 말을 연결합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-VARIETY-024",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "타일 선택·순서 배열·짝짓기로 기초 개념 익히기",
+    "difficulty": 1,
+    "game_type": "MATCHING",
+    "question": "수와 읽는 말을 짝지으세요. 7과 8를 차례대로 고르세요.",
+    "choices": [
+      "7 ↔ 여덟",
+      "7 ↔ 일곱",
+      "8 ↔ 여덟",
+      "8 ↔ 일곱"
+    ],
+    "answer": [
+      "7 ↔ 일곱",
+      "8 ↔ 여덟"
+    ],
+    "explanation": "7과 8의 읽는 말을 연결합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

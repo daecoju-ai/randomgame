@@ -2078,5 +2078,165 @@
       "human_publication_pending": true
     },
     "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-066",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "시적 표현",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“햇살이 창문을 톡톡 두드린다.”에서 느낄 수 있는 표현의 특징은?",
+    "choices": [
+      "햇살을 사람처럼 표현해 장면을 생생하게 만든다",
+      "햇살의 온도를 정확한 숫자로 나타낸다",
+      "창문의 재료를 설명한다",
+      "햇살이 실제 손가락을 가졌다고 설명한다"
+    ],
+    "answer": "햇살을 사람처럼 표현해 장면을 생생하게 만든다",
+    "explanation": "사람이 아닌 대상을 사람처럼 행동하게 표현하면 독자가 장면을 생생하게 떠올릴 수 있습니다. 햇살이 창문을 ‘두드린다’는 말은 햇살의 모습을 인상적으로 느끼게 합니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-067",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "읽기",
+    "learning_target": "인물의 성격",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "이야기 속 인물이 잃어버린 지갑을 주인에게 돌려주었다면 가장 잘 드러나는 성격은?",
+    "choices": [
+      "정직하다",
+      "게으르다",
+      "성급하다",
+      "무관심하다"
+    ],
+    "answer": "정직하다",
+    "explanation": "인물의 성격은 말과 행동을 근거로 판단합니다. 남의 물건을 발견하고 주인에게 돌려주는 행동에서는 바르고 정직하게 행동하려는 성격을 짐작할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-068",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "쓰기",
+    "learning_target": "제목 붙이기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 다 쓴 뒤 제목을 다시 살펴보아야 하는 이유는?",
+    "choices": [
+      "완성된 글의 중심 내용과 제목이 잘 맞는지 확인하려고",
+      "제목을 무조건 길게 만들려고",
+      "본문과 관계없는 말을 넣으려고",
+      "제목의 글자 수만 늘리려고"
+    ],
+    "answer": "완성된 글의 중심 내용과 제목이 잘 맞는지 확인하려고",
+    "explanation": "글을 쓰는 동안 중심 내용이 구체화되거나 달라질 수 있습니다. 완성된 글을 기준으로 제목이 핵심 내용을 잘 나타내는지 다시 확인하면 글의 목적이 더 분명해집니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-069",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "문법",
+    "learning_target": "속담 이해",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "“백문이 불여일견”의 뜻으로 가장 알맞은 것은?",
+    "choices": [
+      "여러 번 듣는 것보다 한 번 직접 보는 것이 낫다",
+      "무엇이든 백 번 말해야 한다",
+      "보는 것보다 듣는 것이 항상 낫다",
+      "한 번 본 것은 모두 잊어야 한다"
+    ],
+    "answer": "여러 번 듣는 것보다 한 번 직접 보는 것이 낫다",
+    "explanation": "속담이나 한자 성어는 표현 전체가 전하는 뜻을 상황과 연결해 이해해야 합니다. ‘백문이 불여일견’은 여러 번 설명을 듣는 것보다 직접 한 번 확인하는 것이 이해에 도움이 된다는 뜻입니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
+  },
+  {
+    "id": "V146-ELEMENTARY-5-KOREAN-070",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 5,
+    "subject": "korean",
+    "domain": "듣기·말하기",
+    "learning_target": "면담 질문",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "학교 급식에 대한 친구들의 생각을 알아보는 면담 질문으로 가장 알맞은 것은?",
+    "choices": [
+      "급식에서 좋은 점과 바꾸었으면 하는 점은 무엇인가요?",
+      "급식이 좋지요?",
+      "네라고 대답할 거지요?",
+      "오늘은 무조건 맛있었지요?"
+    ],
+    "answer": "급식에서 좋은 점과 바꾸었으면 하는 점은 무엇인가요?",
+    "explanation": "면담에서는 상대가 자신의 생각과 이유를 충분히 말할 수 있는 열린 질문이 유용합니다. 특정 답을 유도하지 않고 장점과 개선점을 함께 물으면 다양한 의견을 들을 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "ncic_2022_curriculum_concept_alignment_pending",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "author_draft_pending_validation",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "placement_note": "초5 국어 개념 기반 시범 배치; 성취기준 개별 매핑 전"
   }
 ]

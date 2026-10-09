@@ -1,0 +1,722 @@
+[
+  {
+    "id": "G1-YEAR26-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "글자와 낱말",
+    "learning_target": "글자와 낱말 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'사과'의 첫 글자는 무엇인가요?",
+    "choices": [
+      "사",
+      "과",
+      "가",
+      "아"
+    ],
+    "answer": "사",
+    "explanation": "'사과'는 '사'와 '과' 두 글자로 이루어져 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "받침",
+    "learning_target": "받침 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 받침이 있는 글자는 무엇인가요?",
+    "choices": [
+      "나",
+      "다",
+      "강",
+      "모"
+    ],
+    "answer": "강",
+    "explanation": "'강'에는 글자 아래에 받침 'ㅇ'이 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'오늘은 날씨가 좋아요' 뒤에 알맞은 문장 부호는?",
+    "choices": [
+      ".",
+      "?",
+      "!",
+      "，"
+    ],
+    "answer": ".",
+    "explanation": "평서문 끝에는 보통 마침표를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "낱말의 뜻",
+    "learning_target": "낱말의 뜻 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 과일을 나타내는 낱말은?",
+    "choices": [
+      "의자",
+      "사과",
+      "연필",
+      "책상"
+    ],
+    "answer": "사과",
+    "explanation": "사과는 먹을 수 있는 과일의 이름입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "읽기 이해 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "'민수는 우산을 쓰고 학교에 갔어요.' 민수가 쓴 것은?",
+    "choices": [
+      "모자",
+      "우산",
+      "장갑",
+      "신발"
+    ],
+    "answer": "우산",
+    "explanation": "문장에 민수가 우산을 썼다고 직접 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "예의 바른 말",
+    "learning_target": "예의 바른 말 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 도움을 받았을 때 알맞은 말은?",
+    "choices": [
+      "고마워",
+      "저리 가",
+      "싫어",
+      "몰라"
+    ],
+    "answer": "고마워",
+    "explanation": "도움을 받으면 고마운 마음을 말로 표현할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "수 세기",
+    "learning_target": "수 세기 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사과가 3개 있고 2개를 더 받으면 모두 몇 개인가요?",
+    "choices": [
+      "4개",
+      "5개",
+      "6개",
+      "7개"
+    ],
+    "answer": "5개",
+    "explanation": "3개에 2개를 더하면 5개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "수의 크기",
+    "learning_target": "수의 크기 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 가장 큰 수는 무엇인가요?",
+    "choices": [
+      "4",
+      "7",
+      "2",
+      "5"
+    ],
+    "answer": "7",
+    "explanation": "7은 4, 2, 5보다 큰 수입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "뺄셈",
+    "learning_target": "뺄셈 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 8자루 중 3자루를 사용하면 남은 연필은?",
+    "choices": [
+      "3자루",
+      "4자루",
+      "5자루",
+      "6자루"
+    ],
+    "answer": "5자루",
+    "explanation": "8에서 3을 빼면 5이므로 5자루가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "모양",
+    "learning_target": "모양 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "다음 중 꼭짓점이 세 개인 평면도형은?",
+    "choices": [
+      "원",
+      "세모",
+      "네모",
+      "타원"
+    ],
+    "answer": "세모",
+    "explanation": "세모는 변과 꼭짓점이 각각 세 개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "비교",
+    "learning_target": "비교 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "연필 길이가 10cm, 지우개 길이가 4cm이면 더 긴 것은?",
+    "choices": [
+      "연필",
+      "지우개",
+      "길이가 같다",
+      "알 수 없다"
+    ],
+    "answer": "연필",
+    "explanation": "10cm는 4cm보다 길기 때문에 연필이 더 깁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "규칙",
+    "learning_target": "규칙 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "2, 4, 6 다음에 오는 수는 무엇인가요?",
+    "choices": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "2씩 커지는 규칙이므로 6 다음은 8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "학교생활",
+    "learning_target": "학교생활 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "복도에서 안전하게 이동하는 방법은?",
+    "choices": [
+      "뛰어다닌다",
+      "천천히 걷는다",
+      "친구를 민다",
+      "눈을 감고 걷는다"
+    ],
+    "answer": "천천히 걷는다",
+    "explanation": "복도에서는 주변을 살피며 천천히 걸어야 안전합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "친구 관계",
+    "learning_target": "친구 관계 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 말할 때 알맞은 태도는?",
+    "choices": [
+      "끝까지 듣는다",
+      "말을 끊는다",
+      "다른 곳으로 간다",
+      "큰 소리로 방해한다"
+    ],
+    "answer": "끝까지 듣는다",
+    "explanation": "친구의 말을 끝까지 들으면 서로 존중할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "계절과 생활",
+    "learning_target": "계절과 생활 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "겨울에 날씨가 추울 때 알맞은 옷은?",
+    "choices": [
+      "두꺼운 외투",
+      "반소매만 입기",
+      "수영복",
+      "맨발로 다니기"
+    ],
+    "answer": "두꺼운 외투",
+    "explanation": "추운 날에는 몸을 따뜻하게 하는 옷을 입습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생명 존중",
+    "learning_target": "생명 존중 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "교실에서 키우는 식물을 돌보는 방법은?",
+    "choices": [
+      "필요한 만큼 물을 준다",
+      "잎을 모두 뜯는다",
+      "화분을 던진다",
+      "햇빛을 항상 차단한다"
+    ],
+    "answer": "필요한 만큼 물을 준다",
+    "explanation": "식물의 종류와 흙 상태를 살피며 필요한 만큼 물을 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "건강한 생활",
+    "learning_target": "건강한 생활 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "손을 씻어야 할 때로 알맞은 것은?",
+    "choices": [
+      "화장실에 다녀온 뒤",
+      "잠자는 동안",
+      "책을 보기 전 항상 10번",
+      "손이 젖어 있을 때만"
+    ],
+    "answer": "화장실에 다녀온 뒤",
+    "explanation": "화장실을 다녀온 뒤 비누로 손을 씻으면 위생에 도움이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "우리 동네",
+    "learning_target": "우리 동네 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "길을 건널 때 안전한 행동은?",
+    "choices": [
+      "신호를 확인하고 건넌다",
+      "차 사이로 뛰어간다",
+      "휴대전화를 보며 걷는다",
+      "차가 와도 달려간다"
+    ],
+    "answer": "신호를 확인하고 건넌다",
+    "explanation": "횡단보도에서 신호와 차량을 확인하고 안전하게 건너야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "즐거운 표현",
+    "learning_target": "즐거운 표현 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "박자에 맞춰 손뼉을 치는 활동과 가장 관련 깊은 것은?",
+    "choices": [
+      "리듬 표현",
+      "길이 재기",
+      "덧셈",
+      "글자 쓰기"
+    ],
+    "answer": "리듬 표현",
+    "explanation": "손뼉을 일정한 박자에 맞춰 치는 것은 리듬을 표현하는 활동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "미술 표현",
+    "learning_target": "미술 표현 기초 개념 이해",
+    "difficulty": 1,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "색연필로 그림을 그릴 때 바르게 사용하는 방법은?",
+    "choices": [
+      "종이에 그린다",
+      "친구에게 던진다",
+      "심을 부러뜨린다",
+      "벽에 낙서한다"
+    ],
+    "answer": "종이에 그린다",
+    "explanation": "색연필은 종이 등에 안전하게 사용하여 생각을 표현할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "reviewed",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "independent_answer_and_wording_check",
+      "date": "2026-10-09",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

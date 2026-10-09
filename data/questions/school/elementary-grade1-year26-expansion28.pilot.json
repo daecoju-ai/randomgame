@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP28-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 18장 중 6장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "10",
+      "13",
+      "12",
+      "14"
+    ],
+    "answer": "12",
+    "explanation": "18-6=12이므로 12장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 17장 중 9장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "6",
+      "9",
+      "8",
+      "10"
+    ],
+    "answer": "8",
+    "explanation": "17-9=8이므로 8장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 15장 중 8장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "5",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "15-8=7이므로 7장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 14장 중 7장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "5",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "14-7=7이므로 7장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 16장 중 5장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "9",
+      "12",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "16-5=11이므로 11장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 19장 중 8장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "9",
+      "12",
+      "11",
+      "13"
+    ],
+    "answer": "11",
+    "explanation": "19-8=11이므로 11장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 13장 중 6장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "5",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "13-6=7이므로 7장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 12장 중 5장을 사용했습니다. 남은 색종이는 몇 장인가요?",
+    "choices": [
+      "5",
+      "8",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "12-5=7이므로 7장이 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 학교 앞 꽃밭에는 빨간 튤립과 노란 민들레가 피었습니다. 민지는 꽃을 꺾지 않고 바라보았습니다. 민지가 꽃을 꺾지 않은 까닭으로 알맞은 것은?",
+    "choices": [
+      "꽃을 버리기 위해",
+      "꽃을 소중히 여기기 위해",
+      "친구에게 숨기기 위해",
+      "꽃을 밟기 위해"
+    ],
+    "answer": "꽃을 소중히 여기기 위해",
+    "explanation": "글에서 관련 내용을 찾아보면 '꽃을 소중히 여기기 위해'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 동생이 잠든 뒤 형은 문을 살짝 닫았습니다. 형이 문을 살짝 닫은 이유는?",
+    "choices": [
+      "문을 부수려고",
+      "동생이 깨지 않도록",
+      "밖에 나가려고",
+      "큰 소리를 내려고"
+    ],
+    "answer": "동생이 깨지 않도록",
+    "explanation": "글에서 관련 내용을 찾아보면 '동생이 깨지 않도록'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 운동장에서 친구들이 공을 찾았습니다. 공은 나무 뒤에 있었습니다. 공이 있던 곳은?",
+    "choices": [
+      "교실 안",
+      "나무 뒤",
+      "나무 위",
+      "책상 아래"
+    ],
+    "answer": "나무 뒤",
+    "explanation": "글에서 관련 내용을 찾아보면 '나무 뒤'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 주말에 하린이는 할아버지와 시장에 갔습니다. 사과와 배를 샀습니다. 하린이가 산 것은?",
+    "choices": [
+      "빵과 우유",
+      "사과와 배",
+      "꽃과 책",
+      "연필과 지우개"
+    ],
+    "answer": "사과와 배",
+    "explanation": "글에서 관련 내용을 찾아보면 '사과와 배'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 지우는 책을 읽다가 모르는 낱말에 표시했습니다. 그리고 선생님께 뜻을 물었습니다. 지우가 선생님께 물은 것은?",
+    "choices": [
+      "오늘 날씨",
+      "낱말의 뜻",
+      "집 주소",
+      "급식 메뉴"
+    ],
+    "answer": "낱말의 뜻",
+    "explanation": "글에서 관련 내용을 찾아보면 '낱말의 뜻'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 도윤이는 물병을 가방에 넣고 소풍을 갔습니다. 햇볕이 강해 그늘에서 쉬었습니다. 도윤이가 쉰 곳은?",
+    "choices": [
+      "차도",
+      "그늘",
+      "강물",
+      "운동장 한가운데"
+    ],
+    "answer": "그늘",
+    "explanation": "글에서 관련 내용을 찾아보면 '그늘'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 수빈이는 친구의 생일을 축하하며 직접 그린 그림을 건넸습니다. 수빈이가 준 선물은?",
+    "choices": [
+      "인형",
+      "직접 그린 그림",
+      "꽃다발",
+      "책"
+    ],
+    "answer": "직접 그린 그림",
+    "explanation": "글에서 관련 내용을 찾아보면 '직접 그린 그림'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP28-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 계산과 글의 핵심 정보를 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글을 읽으세요. 유나는 새로 전학 온 친구에게 교실과 도서관 위치를 알려 주었습니다. 유나가 친구에게 알려 준 것은?",
+    "choices": [
+      "집 전화번호",
+      "학교 시설의 위치",
+      "장난감 가격",
+      "내일 날씨"
+    ],
+    "answer": "학교 시설의 위치",
+    "explanation": "글에서 관련 내용을 찾아보면 '학교 시설의 위치'가 알맞습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

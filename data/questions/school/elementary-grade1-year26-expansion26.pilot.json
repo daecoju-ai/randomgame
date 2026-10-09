@@ -1,0 +1,578 @@
+[
+  {
+    "id": "G1-YEAR26-EXP26-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '너는 몇 살이니□'",
+    "choices": [
+      ".",
+      "?",
+      "!",
+      "~"
+    ],
+    "answer": "?",
+    "explanation": "'너는 몇 살이니'는 묻는 문장이므로 '?'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '오늘은 날씨가 맑아요□'",
+    "choices": [
+      "?",
+      ".",
+      "!",
+      "~"
+    ],
+    "answer": ".",
+    "explanation": "'오늘은 날씨가 맑아요'는 내용을 알려 주는 문장이므로 '.'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '와, 정말 멋지다□'",
+    "choices": [
+      ".",
+      "!",
+      "?",
+      "~"
+    ],
+    "answer": "!",
+    "explanation": "'와, 정말 멋지다'는 놀라거나 강하게 느끼는 문장이므로 '!'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '학교는 어디에 있나요□'",
+    "choices": [
+      "!",
+      "?",
+      "~",
+      "."
+    ],
+    "answer": "?",
+    "explanation": "'학교는 어디에 있나요'는 묻는 문장이므로 '?'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '나는 아침에 밥을 먹었어요□'",
+    "choices": [
+      "!",
+      ".",
+      "?",
+      "~"
+    ],
+    "answer": ".",
+    "explanation": "'나는 아침에 밥을 먹었어요'는 내용을 알려 주는 문장이므로 '.'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '앗, 뜨거워□'",
+    "choices": [
+      "?",
+      "!",
+      "~",
+      "."
+    ],
+    "answer": "!",
+    "explanation": "'앗, 뜨거워'는 놀라거나 강하게 느끼는 문장이므로 '!'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '이 책은 누구 것이니□'",
+    "choices": [
+      ".",
+      "?",
+      "~",
+      "!"
+    ],
+    "answer": "?",
+    "explanation": "'이 책은 누구 것이니'는 묻는 문장이므로 '?'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "문장 부호",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "다음 문장 끝에 들어갈 알맞은 문장 부호를 고르세요. '친구와 함께 놀았어요□'",
+    "choices": [
+      "?",
+      ".",
+      "~",
+      "!"
+    ],
+    "answer": ".",
+    "explanation": "'친구와 함께 놀았어요'는 내용을 알려 주는 문장이므로 '.'를 씁니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "빨간 단추 5개, 파란 단추 4개, 빨간 구슬 3개가 있습니다. 빨간 물건은 모두 몇 개인가요?",
+    "choices": [
+      "7",
+      "10",
+      "8",
+      "6"
+    ],
+    "answer": "8",
+    "explanation": "같은 특징을 가진 것끼리 모으면 5+3=8개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "둥근 블록 6개, 네모 블록 7개, 둥근 공 2개가 있습니다. 둥근 물건은 모두 몇 개인가요?",
+    "choices": [
+      "7",
+      "10",
+      "8",
+      "6"
+    ],
+    "answer": "8",
+    "explanation": "같은 특징을 가진 것끼리 모으면 6+2=8개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "사과 4개, 배 5개, 사과 7개가 있습니다. 사과는 모두 몇 개인가요?",
+    "choices": [
+      "10",
+      "13",
+      "11",
+      "9"
+    ],
+    "answer": "11",
+    "explanation": "같은 특징을 가진 것끼리 모으면 4+7=11개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "큰 구슬 3개, 작은 구슬 6개, 큰 공 4개가 있습니다. 큰 물건은 모두 몇 개인가요?",
+    "choices": [
+      "6",
+      "9",
+      "7",
+      "5"
+    ],
+    "answer": "7",
+    "explanation": "같은 특징을 가진 것끼리 모으면 3+4=7개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "노란 꽃 8송이, 빨간 꽃 3송이, 노란 리본 5개가 있습니다. 노란 물건은 모두 몇 개인가요?",
+    "choices": [
+      "12",
+      "15",
+      "13",
+      "11"
+    ],
+    "answer": "13",
+    "explanation": "같은 특징을 가진 것끼리 모으면 8+5=13개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "책 9권, 연필 5자루, 책 4권가 있습니다. 책은 모두 몇 권인가요?",
+    "choices": [
+      "12",
+      "15",
+      "13",
+      "11"
+    ],
+    "answer": "13",
+    "explanation": "같은 특징을 가진 것끼리 모으면 9+4=13개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "긴 끈 7개, 짧은 끈 2개, 긴 막대 6개가 있습니다. 긴 물건은 모두 몇 개인가요?",
+    "choices": [
+      "12",
+      "15",
+      "13",
+      "11"
+    ],
+    "answer": "13",
+    "explanation": "같은 특징을 가진 것끼리 모으면 7+6=13개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP26-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문장 부호와 생활 속 분류 규칙을 이해하고 적용하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "파란 컵 6개, 빨간 컵 3개, 파란 접시 5개가 있습니다. 파란 물건은 모두 몇 개인가요?",
+    "choices": [
+      "10",
+      "13",
+      "11",
+      "9"
+    ],
+    "answer": "11",
+    "explanation": "같은 특징을 가진 것끼리 모으면 6+5=11개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

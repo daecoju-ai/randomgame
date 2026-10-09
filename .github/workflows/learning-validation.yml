@@ -5,6 +5,7 @@ on:
     paths:
       - 'public/learning-data/**'
       - 'scripts/validate-learning-bank.cjs'
+      - 'scripts/audit-elementary-curriculum.cjs'
       - 'package.json'
       - '.github/workflows/learning-validation.yml'
   workflow_dispatch:
@@ -25,6 +26,13 @@ jobs:
         run: |
           echo '--- learning validation report ---'
           cat public/learning-validation-report.json || true
+      - name: Audit elementary curriculum mapping
+        run: node scripts/audit-elementary-curriculum.cjs
+      - name: Upload curriculum mapping audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: elementary-curriculum-audit
+          path: public/learning-curriculum-audit.json
       - name: Upload diagnostic report
         if: always()
         uses: actions/upload-artifact@v4

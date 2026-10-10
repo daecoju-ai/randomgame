@@ -41,7 +41,8 @@ for(const file of files){
  }
 }
 const issue_counts={};for(const i of issues)issue_counts[i.kind]=(issue_counts[i.kind]||0)+1;
-const release_ready=issues.length===0;\nconst report={release_ready,scope:'elementary-grade2-year26*.pilot.json',status:'advisory_only',files:files.length,questions:total,subjects:counts,game_types:types,issue_counts,issues,notes:['No publication status is changed.','Automated checks cannot verify curriculum alignment or explanation correctness.','Human review is required before promoting drafts.']};
+const release_ready=issues.length===0;
+const report={release_ready,scope:'elementary-grade2-year26*.pilot.json',status:'advisory_only',files:files.length,questions:total,subjects:counts,game_types:types,issue_counts,issues,notes:['No publication status is changed.','Automated checks cannot verify curriculum alignment or explanation correctness.','Human review is required before promoting drafts.']};
 if(process.argv[2])fs.writeFileSync(path.resolve(process.argv[2]),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({files:files.length,questions:total,subjects:counts,game_types:types,release_ready,issue_counts},null,2));
 if(issues.some(i=>['duplicate_id','answer_not_in_choices','unsupported_mode','duplicate_choices','wrong_grade_placement','unexpected_subject','unexpected_curriculum','unverified_license'].includes(i.kind)))process.exitCode=1;

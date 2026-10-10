@@ -14,62 +14,20 @@ function reviewList(){try{const v=JSON.parse(localStorage.getItem(reviewKey())||
 function saveReview(list){try{localStorage.setItem(reviewKey(),JSON.stringify(list.slice(-80)));return true}catch{return false}}
 function reviewDone(){try{const v=JSON.parse(localStorage.getItem(reviewDoneKey())||'[]');return Array.isArray(v)?v:[]}catch{return[]}}
 function saveReviewDone(list){try{localStorage.setItem(reviewDoneKey(),JSON.stringify(list.slice(-80)));return true}catch{return false}}
-function isLocalOnlyReviewError(e){return e?.status===404&&e?.code==='QUESTION'}
+// Review state stays on this device. Do not send question-level mistakes or mastery to Supabase.
 function markReview(q){
  if(activePack?.practiceOnly||!q?.id)return;
- const at=Date.now(),list=reviewList().filter(x=>x.id!==q.id);
- saveReviewDone(reviewDone().filter(x=>x.id!==q.id));
- list.push({id:q.id,packId:activePack?.id,subject:q.subject,domain:q.domain,at,synced:false});
+ const list=reviewList().filter(x=>x.id!==q.id);
+ list.push({id:q.id,packId:activePack?.id,subject:q.subject,domain:q.domain,at:Date.now()});
  saveReview(list);
- if(owner)api('review-miss',{id:q.id,subject:q.subject,domain:q.domain},crypto.randomUUID()).then(()=>{
-  const now=reviewList(),x=now.find(v=>v.id===q.id&&v.at===at);
-  if(x){x.synced=true;saveReview(now)}
- }).catch(e=>{if(isLocalOnlyReviewError(e)){const now=reviewList(),x=now.find(v=>v.id===q.id&&v.at===at);if(x){x.synced=true;x.localOnly=true;saveReview(now)}}});
+ saveReviewDone(reviewDone().filter(x=>x.id!==q.id));
 }
 function finishReview(q){
  if(!q?.id)return;
  saveReview(reviewList().filter(x=>x.id!==q.id));
- if(!owner)return;
- const at=Date.now();
- saveReviewDone([...reviewDone().filter(x=>x.id!==q.id),{id:q.id,subject:q.subject,domain:q.domain,at}]);
- api('review-mastered',{id:q.id,subject:q.subject,domain:q.domain},crypto.randomUUID()).then(()=>{
-  saveReviewDone(reviewDone().filter(x=>x.id!==q.id||x.at!==at));
- }).catch(e=>{if(isLocalOnlyReviewError(e))saveReviewDone(reviewDone().filter(x=>x.id!==q.id||x.at!==at));});
+ saveReviewDone(reviewDone().filter(x=>x.id!==q.id));
 }
-async function syncReview(){
- if(!owner)return;
- try{
-  for(const x of reviewDone()){
-   try{
-    await api('review-mastered',{id:x.id,subject:x.subject,domain:x.domain},crypto.randomUUID());
-    saveReviewDone(reviewDone().filter(v=>v.id!==x.id||v.at!==x.at));
-   }catch(e){
-    if(isLocalOnlyReviewError(e))saveReviewDone(reviewDone().filter(v=>v.id!==x.id||v.at!==x.at));
-   }
-  }
-  for(const x of reviewList().filter(v=>!v.synced)){
-   if(reviewDone().some(v=>v.id===x.id))continue;
-   try{
-    await api('review-miss',{id:x.id,subject:x.subject,domain:x.domain},crypto.randomUUID());
-    const now=reviewList(),v=now.find(v=>v.id===x.id&&v.at===x.at);
-    if(v){v.synced=true;saveReview(now)}
-   }catch(e){if(isLocalOnlyReviewError(e)){const now=reviewList(),v=now.find(v=>v.id===x.id&&v.at===x.at);if(v){v.synced=true;v.localOnly=true;saveReview(now)}}}
-  }
-  const remote=await api('review-list');
-  if(!Array.isArray(remote))return;
-  const pending=new Set(reviewDone().map(x=>x.id));
-  const current=reviewList();
-  const due=new Map(remote.filter(x=>!pending.has(x.id)).map(x=>[x.id,x]));
-  const local=current.filter(x=>!pending.has(x.id)&&(x.localOnly||!x.synced||due.has(x.id)));
-  const map=new Map(local.map(x=>[x.id,x]));
-  for(const x of due.values()){
-   const existing=map.get(x.id);
-   if(existing?.localOnly||existing&&!existing.synced)continue;
-   map.set(x.id,{...(existing||{}),id:x.id,packId:existing?.packId||null,subject:x.subject,domain:x.domain,at:Date.parse(x.lastAt)||Date.now(),synced:true});
-  }
-  saveReview([...map.values()].sort((a,b)=>b.at-a.at));
- }catch{}
-}
+async function syncReview(){return;}
 async function rows(pack){return json(pack.url)}
 async function loadCertificationCatalog(){try{const v=await json('/learning-data/certification-catalog.json');certCatalog=Array.isArray(v.items)?v.items:[]}catch{certCatalog=[]}}
 document.body.insertAdjacentHTML('beforeend',`<dialog id="learningDialog" class="learningDialog" data-native-pages="true"><header><div><h2 id="learningTitle">학교 공부</h2></div><button id="learningClose" aria-label="학습 허브로 돌아가기">‹ 학습 허브</button></header><p id="learningStatus" role="status"></p><section id="learningHome"><section class="learningProfile"><h3>학년·과목</h3><div class="learningFilters"><label>학교급<select id="learnSchool"><option value="elementary">초등학교</option><option value="middle">중학교</option><option value="high">고등학교</option><option value="general">일반 학습</option></select></label><label>학년<select id="learnGrade"></select></label><label>과목<select id="learnSubject">${[['math','수학'],['english','영어'],['korean','국어'],['social','사회'],['science','과학'],['integrated','통합교과']].map(([id,n])=>`<option value="${id}">${n}</option>`).join('')}</select></label></div><details class="learningPreferences"><summary>내 기본 학습 설정</summary><fieldset><legend>자주 공부할 과목</legend>${[['math','수학'],['english','영어'],['korean','국어'],['social','사회'],['science','과학'],['integrated','통합교과']].map(([id,n])=>`<label><input type="checkbox" data-profile-subject="${id}"> ${n}</label>`).join('')}</fieldset><button id="saveLearningProfile">기본 설정 저장</button></details></section><section id="learningCertification" hidden><label>자격증 검색<input id="learnCertificationSearch" type="search" placeholder="전기, 건축, 토목, 기계, 안전, 조리…" autocomplete="off"></label><div id="learnCertificationResults"></div><div class="learningFilters"><label>선택 자격증<select id="learnCertification"></select></label><label>시험과목<select id="learnCertificationArea"></select></label></div><p id="learningCertificationNote"></p></section><button id="resumeLearning" hidden>저장 다시 시도</button><section class="learningStart"><div id="learningPacks"></div></section><details class="learningInfo"><summary>보상·학습 안내</summary><p>오늘 과목별 첫 완료: 금화 30 · 다이아 1<br>이후 완료: 금화 1<br>시범 문제 · 교육과정 연결 검수 중</p></details></section><section id="learningPlay" hidden><div class="learningRunTop"><span id="learningLevel"></span><button id="learningListen" hidden>🔊 문장 듣기</button></div><section id="learningLesson" aria-live="polite"></section><div id="learningChallenge"><h3 id="learningPrompt"></h3><div id="learningSentence" aria-live="polite"></div><div id="learningBoard" tabindex="0" role="group" aria-label="단어와 숫자 타일 맵"></div><p id="learningFeedback" role="status">빛나는 타일을 눌러 이동하세요.</p><button id="learningFinish" hidden>기록 다시 저장</button><details id="learningHints"><summary>막히면 힌트 보기</summary><p id="learningHintText"></p><button id="learningMoreHint">다음 힌트</button></details></div><button id="learningExit">학습 목록으로</button></section><section id="learningResult" hidden></section></dialog>`);

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP41-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "10개씩 묶은 구슬 한 묶음과 낱개 5개에서 낱개 2개를 빼면 몇 개인가요?",
+    "choices": [
+      "11개",
+      "12개",
+      "13개",
+      "15개"
+    ],
+    "answer": "13개",
+    "explanation": "10+5-2=13개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 규칙: 5, 8, 11, 14, 다음 수는?",
+    "choices": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "answer": "17",
+    "explanation": "3씩 커지므로 14+3=17입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "서로 다른 두 수 6과 9의 차이는?",
+    "choices": [
+      "2",
+      "3",
+      "4",
+      "15"
+    ],
+    "answer": "3",
+    "explanation": "9-6=3입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "정사각형 종이 한 장을 접어 두 개의 같은 직사각형 모양으로 만들었습니다. 접기 전 종이의 모양은?",
+    "choices": [
+      "삼각형",
+      "정사각형",
+      "원",
+      "오각형"
+    ],
+    "answer": "정사각형",
+    "explanation": "문제에서 접기 전 종이가 정사각형이라고 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "요일별 독서 시간: 월 10분, 화 15분, 수 10분. 월요일과 같은 시간 동안 읽은 날은?",
+    "choices": [
+      "화요일",
+      "수요일",
+      "두 날 모두",
+      "없음"
+    ],
+    "answer": "수요일",
+    "explanation": "월요일과 수요일은 모두 10분입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "16개의 조각 중 8개로 집을 만들고 3개로 나무를 만들었습니다. 사용하지 않은 조각은?",
+    "choices": [
+      "3개",
+      "4개",
+      "5개",
+      "6개"
+    ],
+    "answer": "5개",
+    "explanation": "8+3=11개를 썼으므로 16-11=5개가 남습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하늘이 흐려지자 윤아는 빨래를 걷었습니다. 곧 비가 내렸습니다.' 윤아가 빨래를 걷은 이유로 알맞은 것은?",
+    "choices": [
+      "빨래가 비에 젖지 않게 하려고",
+      "빨래를 버리려고",
+      "빨래를 다시 사려고",
+      "빨래를 숨기려고"
+    ],
+    "answer": "빨래가 비에 젖지 않게 하려고",
+    "explanation": "하늘이 흐려져 비가 올 것 같아 빨래를 걷었습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '세연이는 줄을 서서 차례를 기다렸습니다. 자기 차례가 오자 미끄럼틀을 탔습니다.' 세연이가 미끄럼틀을 탄 때는?",
+    "choices": [
+      "줄을 서기 전",
+      "차례를 기다리는 중",
+      "자기 차례가 왔을 때",
+      "집에 돌아간 뒤"
+    ],
+    "answer": "자기 차례가 왔을 때",
+    "explanation": "글에서 자기 차례가 오자 미끄럼틀을 탔다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '실내화는 신발장에 넣어 주세요.' 실내화를 넣을 곳은?",
+    "choices": [
+      "책상",
+      "신발장",
+      "도서관",
+      "급식실"
+    ],
+    "answer": "신발장",
+    "explanation": "안내문에 실내화를 넣을 장소가 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '동우는 친구에게 연필을 빌렸습니다. 다 쓴 뒤 고맙다고 말하며 돌려주었습니다.' 동우가 고맙다고 말한 까닭은?",
+    "choices": [
+      "연필을 빌려주었기 때문에",
+      "연필을 잃어버렸기 때문에",
+      "친구가 떠났기 때문에",
+      "연필을 샀기 때문에"
+    ],
+    "answer": "연필을 빌려주었기 때문에",
+    "explanation": "도움을 받았을 때 고마운 마음을 표현합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "뜨거운 냄비가 식탁 위에 있습니다. 안전한 행동은?",
+    "choices": [
+      "맨손으로 잡는다",
+      "가까이 가지 않고 어른에게 도움을 청한다",
+      "장난감으로 친다",
+      "친구에게 만져 보라고 한다"
+    ],
+    "answer": "가까이 가지 않고 어른에게 도움을 청한다",
+    "explanation": "뜨거운 물건은 화상을 입을 수 있으므로 조심해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP41-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "생활 속 정보를 분석하고 규칙과 이유를 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "맑은 날과 흐린 날 하늘의 모습을 비교하려고 합니다. 알맞은 방법은?",
+    "choices": [
+      "두 날의 하늘 모습을 각각 관찰해 적는다",
+      "맑은 날만 기억한다",
+      "날씨를 마음대로 정한다",
+      "다른 사람의 말을 그대로 적는다"
+    ],
+    "answer": "두 날의 하늘 모습을 각각 관찰해 적는다",
+    "explanation": "비교하려면 각 날의 실제 모습을 관찰하고 기록해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

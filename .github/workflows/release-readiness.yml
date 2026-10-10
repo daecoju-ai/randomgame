@@ -1,0 +1,36 @@
+name: Release readiness checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'api/**'
+      - 'lib/**'
+      - 'mobile/**'
+      - 'public/**'
+      - 'tests/**'
+      - 'package.json'
+      - '.github/workflows/release-readiness.yml'
+  workflow_dispatch:
+jobs:
+  release-checks:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check all game and API JavaScript syntax
+        run: npm run check
+      - name: Run complete game, account, learning and Android tests
+        run: npm test
+      - name: Check Android release readiness (report only)
+        run: node mobile/audit.cjs | tee release-readiness.txt
+      - name: Upload release readiness report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-release-readiness
+          path: release-readiness.txt
+          if-no-files-found: warn

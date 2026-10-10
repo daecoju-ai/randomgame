@@ -1,0 +1,650 @@
+[
+  {
+    "id": "G2-YEAR26-EXP01-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "36+48은 얼마인가요?",
+    "choices": [
+      "74",
+      "84",
+      "85",
+      "94"
+    ],
+    "answer": "84",
+    "explanation": "6+8=14이므로 일의 자리에 4를 쓰고 십의 자리에 1을 올려 84입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "93-57은 얼마인가요?",
+    "choices": [
+      "26",
+      "36",
+      "44",
+      "46"
+    ],
+    "answer": "36",
+    "explanation": "일의 자리에서 13-7=6, 십의 자리에서 8-5=3이므로 36입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "연필을 한 묶음에 3자루씩 6묶음 담았습니다. 모두 몇 자루인가요?",
+    "choices": [
+      "9자루",
+      "15자루",
+      "18자루",
+      "21자루"
+    ],
+    "answer": "18자루",
+    "explanation": "3을 여섯 번 더하면 18입니다. 3×6=18입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "규칙을 찾아보세요. 7, 14, 21, 28, 다음 수는?",
+    "choices": [
+      "30",
+      "32",
+      "35",
+      "42"
+    ],
+    "answer": "35",
+    "explanation": "7씩 커지므로 28+7=35입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "오후 2시에 시작해 오후 3시에 끝나는 활동은 몇 시간 동안 하나요?",
+    "choices": [
+      "30분",
+      "1시간",
+      "2시간",
+      "3시간"
+    ],
+    "answer": "1시간",
+    "explanation": "2시부터 3시까지는 1시간입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "리본 1m는 몇 cm인가요?",
+    "choices": [
+      "10cm",
+      "50cm",
+      "100cm",
+      "1000cm"
+    ],
+    "answer": "100cm",
+    "explanation": "1m는 100cm입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "색종이 사용량: 월요일 12장, 화요일 9장, 수요일 15장. 가장 많이 쓴 날은?",
+    "choices": [
+      "월요일",
+      "화요일",
+      "수요일",
+      "모두 같음"
+    ],
+    "answer": "수요일",
+    "explanation": "15가 12와 9보다 크므로 수요일입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수와 연산, 측정, 규칙을 생활 속 상황에 적용하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "100원짜리 동전 5개와 50원짜리 동전 2개의 금액은?",
+    "choices": [
+      "550원",
+      "600원",
+      "650원",
+      "700원"
+    ],
+    "answer": "600원",
+    "explanation": "500원+100원=600원입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '서연이는 학교에 가는 길에 비를 만났습니다. 가방 속 우비를 꺼내 입었습니다.' 서연이가 우비를 입은 까닭은?",
+    "choices": [
+      "비를 피하려고",
+      "더위를 식히려고",
+      "잠을 자려고",
+      "운동하려고"
+    ],
+    "answer": "비를 피하려고",
+    "explanation": "비가 내리는 상황에서 몸이 젖지 않도록 우비를 입었습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아빠가 씨앗을 심었습니다. 며칠 뒤 싹이 나왔습니다. 그다음 잎이 자랐습니다.' 두 번째로 일어난 일은?",
+    "choices": [
+      "씨앗을 심었다",
+      "싹이 나왔다",
+      "잎이 자랐다",
+      "꽃이 졌다"
+    ],
+    "answer": "싹이 나왔다",
+    "explanation": "씨앗 심기 다음에 싹이 나고, 그다음 잎이 자랐습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '체육관에서는 실내 운동화를 신어 주세요.' 체육관에서 신을 신발은?",
+    "choices": [
+      "장화",
+      "실내 운동화",
+      "슬리퍼",
+      "등산화"
+    ],
+    "answer": "실내 운동화",
+    "explanation": "안내문에서 실내 운동화를 신으라고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '동생은 블록 탑을 완성하고 환하게 웃었습니다.' 동생의 마음으로 알맞은 것은?",
+    "choices": [
+      "기쁨",
+      "두려움",
+      "슬픔",
+      "걱정"
+    ],
+    "answer": "기쁨",
+    "explanation": "탑을 완성하고 환하게 웃었다는 표현에서 기쁜 마음을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '도서관에서는 작은 목소리로 말합니다. 다른 사람이 책을 읽고 있기 때문입니다.' 작은 목소리로 말해야 하는 이유는?",
+    "choices": [
+      "책 읽는 사람을 배려하려고",
+      "소리를 더 크게 내려고",
+      "책을 찢으려고",
+      "빨리 뛰려고"
+    ],
+    "answer": "책 읽는 사람을 배려하려고",
+    "explanation": "다른 사람의 독서를 방해하지 않기 위해서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하늘이는 숙제를 끝내고 가방에 공책을 넣었습니다. 다음 날 학교에서 공책을 꺼냈습니다.' 공책을 꺼낸 장소는?",
+    "choices": [
+      "집",
+      "학교",
+      "공원",
+      "가게"
+    ],
+    "answer": "학교",
+    "explanation": "다음 날 학교에서 공책을 꺼냈다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 현상을 관찰하고 안전한 선택을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "횡단보도에서 보행자 신호가 초록색으로 바뀌었습니다. 먼저 해야 할 일은?",
+    "choices": [
+      "차가 멈췄는지 살핀다",
+      "눈을 감고 뛴다",
+      "휴대전화만 본다",
+      "차도로 뛰어든다"
+    ],
+    "answer": "차가 멈췄는지 살핀다",
+    "explanation": "초록불이어도 차량이 멈췄는지 확인하고 안전하게 건넙니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "생활 속 현상을 관찰하고 안전한 선택을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "해가 잘 드는 곳과 그늘진 곳의 식물 모습을 비교하려면 알맞은 방법은?",
+    "choices": [
+      "같은 종류의 식물을 일정 기간 관찰한다",
+      "하루만 보고 결과를 정한다",
+      "물 주는 양과 흙도 모두 다르게 한다",
+      "관찰하지 않고 추측한다"
+    ],
+    "answer": "같은 종류의 식물을 일정 기간 관찰한다",
+    "explanation": "빛의 영향을 비교하려면 식물 종류 등 다른 조건을 가능한 같게 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 현상을 관찰하고 안전한 선택을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구와 함께 쓰는 교실 물건을 사용한 뒤 어떻게 하나요?",
+    "choices": [
+      "제자리에 둔다",
+      "몰래 가져간다",
+      "바닥에 버린다",
+      "친구에게 던진다"
+    ],
+    "answer": "제자리에 둔다",
+    "explanation": "공용 물건을 제자리에 두면 다음 사람이 편하게 사용할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "생활 속 현상을 관찰하고 안전한 선택을 설명하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "어제와 오늘의 기온을 비교하려고 합니다. 알맞은 방법은?",
+    "choices": [
+      "같은 시간에 온도계를 확인해 기록한다",
+      "서로 다른 계절의 사진만 본다",
+      "기온을 마음대로 적는다",
+      "기록 없이 기억에만 의존한다"
+    ],
+    "answer": "같은 시간에 온도계를 확인해 기록한다",
+    "explanation": "같은 시간에 측정하면 날짜에 따른 기온을 비교하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

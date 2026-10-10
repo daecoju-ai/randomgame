@@ -557,7 +557,7 @@
       "관찰 날짜를 마음대로"
     ],
     "answer": "씨앗 종류와 빛의 조건",
-    "explanation": "물의 양만 다르게 하고 다른 조건은 같게 해야 변화를 비교하기 쉽습니다.",
+    "explanation": "물의 양만 다르게 하고 씨앗 종류, 흙의 종류, 햇빛, 화분 크기 등 다른 조건을 같게 해야 합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -1205,7 +1205,7 @@
       "관찰하지 않고 추측한다"
     ],
     "answer": "같은 종류의 식물을 일정 기간 관찰한다",
-    "explanation": "빛의 영향을 비교하려면 식물 종류 등 다른 조건을 가능한 같게 합니다.",
+    "explanation": "햇빛의 영향을 비교하려면 같은 종류의 식물을 사용하고, 물의 양과 흙 등 다른 조건을 같게 한 뒤 일정 기간 관찰합니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",
@@ -1782,15 +1782,15 @@
     "question": "계절에 따른 모습으로 '봄', '겨울'을 차례대로 연결하세요.",
     "choices": [
       "봄 ↔ 새싹이 돋음",
-      "겨울 ↔ 나뭇잎이 떨어진 나무를 자주 봄",
+      "겨울 ↔ 잎이 없는 낙엽수를 볼 수 있음",
       "봄 ↔ 눈이 쌓임",
       "겨울 ↔ 새싹이 돋음"
     ],
     "answer": [
       "봄 ↔ 새싹이 돋음",
-      "겨울 ↔ 나뭇잎이 떨어진 나무를 자주 봄"
+      "겨울 ↔ 잎이 없는 낙엽수를 볼 수 있음"
     ],
-    "explanation": "봄에는 새싹이 돋고 겨울에는 잎이 떨어진 나무를 흔히 볼 수 있습니다.",
+    "explanation": "봄에는 새싹이 돋고 겨울에는 잎이 없는 낙엽수를 볼 수 있습니다. 모든 나무가 겨울에 잎을 잃는 것은 아닙니다.",
     "content_origin": "original",
     "source_reference": "original_learning_pilot",
     "license": "original_game_content",

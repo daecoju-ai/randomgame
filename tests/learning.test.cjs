@@ -6,3 +6,11 @@ test('content proofs change when question version or correct answer changes',()=
 test('random questions ignore past mastery and stay in the chosen grade',()=>{const rows=B.bank().filter(q=>q.grade===1&&q.subject==='math');assert(rows.length>=119,'grade-one math bank must retain at least 119 questions');assert.equal(R.select(rows,{},null,()=>0).id,rows[0].id);assert.equal(R.select(rows,{[rows[0].id]:{errors:100}},null,()=>.99).id,rows[Math.floor(rows.length*.99)].id);assert.notEqual(R.select(rows,null,rows[0].id,()=>0).id,rows[0].id)});
 test('ordered start IDs preserve timestamp and increase even in the same millisecond',()=>{const a=R.startId(1791068400000),b=R.startId(1791068400000,a.ms);assert.equal(a.id[14],'7');assert.equal(parseInt(a.id.replaceAll('-','').slice(0,12),16),a.ms);assert(b.id>a.id)});
 test('learning API rejects guest, wrong origin and unsupported actions',async()=>{const handler=require('../api/learning');let response;const res={setHeader(){},status(n){this.code=n;return this},json(v){response=v}};await handler({method:'POST',headers:{origin:'https://bad.example','x-forge-request':'1','content-type':'application/json'},body:{}},res);assert.equal(res.code,403);await handler({method:'POST',headers:{origin:'https://randomfortune-game.vercel.app','x-forge-request':'1','content-type':'application/json'},body:{action:'finish'}},res);assert.equal(res.code,401)});
+
+test('question-level review is device-local and never calls remote review RPC',()=>{
+ const source=fs.readFileSync('public/learning.js','utf8');
+ assert.match(source,/function markReview\(q\)/);
+ assert.match(source,/function finishReview\(q\)/);
+ assert.match(source,/saveReview\(list\)/);
+ assert.doesNotMatch(source,/api\(['"]review-(?:miss|mastered|list)['"]/);
+});

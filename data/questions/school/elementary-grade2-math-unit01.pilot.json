@@ -1,0 +1,762 @@
+[
+  {
+    "id": "G2-MATH-UNIT01-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "100은 10이 몇 개인 수인가요?",
+    "choices": [
+      "1개",
+      "10개",
+      "100개",
+      "1000개"
+    ],
+    "answer": "10개",
+    "explanation": "10이 10개 모이면 100입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "백의 자리 숫자가 3, 십의 자리 숫자가 2, 일의 자리 숫자가 5인 수는?",
+    "choices": [
+      "235",
+      "325",
+      "352",
+      "523"
+    ],
+    "answer": "325",
+    "explanation": "300+20+5=325입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "400+50+6은 얼마인가요?",
+    "choices": [
+      "456",
+      "465",
+      "546",
+      "654"
+    ],
+    "answer": "456",
+    "explanation": "백의 자리 4, 십의 자리 5, 일의 자리 6을 합치면 456입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "709에서 7이 나타내는 값은?",
+    "choices": [
+      "7",
+      "70",
+      "700",
+      "7000"
+    ],
+    "answer": "700",
+    "explanation": "7은 백의 자리에 있으므로 700을 나타냅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "680은 100이 몇 개, 10이 몇 개인 수인가요?",
+    "choices": [
+      "100이 6개, 10이 8개",
+      "100이 8개, 10이 6개",
+      "100이 6개, 10이 0개",
+      "100이 0개, 10이 8개"
+    ],
+    "answer": "100이 6개, 10이 8개",
+    "explanation": "600+80=680입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "999보다 1 큰 수는?",
+    "choices": [
+      "990",
+      "998",
+      "1000",
+      "1001"
+    ],
+    "answer": "1000",
+    "explanation": "999 다음 수는 1000입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "500보다 10 큰 수는?",
+    "choices": [
+      "501",
+      "510",
+      "550",
+      "600"
+    ],
+    "answer": "510",
+    "explanation": "500+10=510입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "기본",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 1,
+    "game_type": "TILE_CHOICE",
+    "question": "834에서 십의 자리 숫자는?",
+    "choices": [
+      "3",
+      "4",
+      "8",
+      "34"
+    ],
+    "answer": "3",
+    "explanation": "834의 십의 자리 숫자는 3입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "428과 482 중 더 큰 수는?",
+    "choices": [
+      "428",
+      "482",
+      "두 수가 같다",
+      "비교할 수 없다"
+    ],
+    "answer": "482",
+    "explanation": "백의 자리가 같으므로 십의 자리 8이 2보다 큰 482가 더 큽니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "605, 650, 560 중 가장 작은 수는?",
+    "choices": [
+      "605",
+      "650",
+      "560",
+      "모두 같다"
+    ],
+    "answer": "560",
+    "explanation": "백의 자리 5가 6보다 작으므로 560이 가장 작습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "700보다 크고 800보다 작은 수는?",
+    "choices": [
+      "699",
+      "700",
+      "745",
+      "800"
+    ],
+    "answer": "745",
+    "explanation": "745는 700보다 크고 800보다 작습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "백의 자리 4, 일의 자리 9, 십의 자리 0인 수는?",
+    "choices": [
+      "409",
+      "490",
+      "904",
+      "940"
+    ],
+    "answer": "409",
+    "explanation": "400+0+9=409입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "350에서 100씩 두 번 더하면?",
+    "choices": [
+      "450",
+      "500",
+      "550",
+      "650"
+    ],
+    "answer": "550",
+    "explanation": "350+100+100=550입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "920에서 10씩 세 번 빼면?",
+    "choices": [
+      "890",
+      "900",
+      "910",
+      "950"
+    ],
+    "answer": "890",
+    "explanation": "920-10-10-10=890입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-015",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 706을 바르게 읽은 것은?",
+    "choices": [
+      "칠백육",
+      "칠백육십",
+      "칠십육",
+      "육백칠"
+    ],
+    "answer": "칠백육",
+    "explanation": "706은 700과 6을 합한 수이므로 칠백육입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-016",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "응용",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "세 자리 수 3□7이 357보다 크려면 □에 들어갈 수 있는 숫자는?",
+    "choices": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "6",
+    "explanation": "백의 자리와 일의 자리가 같으므로 십의 자리 숫자가 5보다 커야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-017",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "심화",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "숫자 카드 2, 5, 8을 한 번씩 써서 만들 수 있는 가장 큰 세 자리 수는?",
+    "choices": [
+      "258",
+      "528",
+      "825",
+      "852"
+    ],
+    "answer": "852",
+    "explanation": "큰 숫자부터 백·십·일의 자리에 놓으면 852입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-018",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "심화",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "숫자 카드 1, 4, 9를 한 번씩 써서 만들 수 있는 가장 작은 세 자리 수는?",
+    "choices": [
+      "149",
+      "194",
+      "419",
+      "941"
+    ],
+    "answer": "149",
+    "explanation": "작은 숫자부터 백·십·일의 자리에 놓으면 149입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-019",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "심화",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "□35가 535보다 크고 735보다 작을 때 □에 들어갈 수 있는 숫자는?",
+    "choices": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "answer": "6",
+    "explanation": "백의 자리 숫자가 5보다 크고 7보다 작아야 하므로 6입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-MATH-UNIT01-020",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "unit": "세 자리 수",
+    "learning_stage": "심화",
+    "learning_target": "세 자리 수의 자릿값과 크기를 이해하고 비교하기",
+    "difficulty": 3,
+    "game_type": "TILE_CHOICE",
+    "question": "4□2가 452보다 크고 482보다 작을 때 □에 들어갈 수 있는 숫자는?",
+    "choices": [
+      "4",
+      "5",
+      "7",
+      "9"
+    ],
+    "answer": "7",
+    "explanation": "십의 자리 숫자가 5보다 크고 8보다 작으면 됩니다. 보기에서는 7만 해당합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

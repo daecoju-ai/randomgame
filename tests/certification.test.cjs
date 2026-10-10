@@ -13,7 +13,7 @@ test('chosen certification packs include only mapped target and subject, not the
 });
 test('server verification allowlist accepts every playable proof; no question text added to SQL',()=>{
  const sql=fs.readFileSync('scripts/learning-content-v54.sql','utf8');const newSQL=fs.readFileSync('scripts/learning-content-v58.sql','utf8');const apiSQL=fs.readFileSync('scripts/learning-content-v61.sql','utf8');const diverseSQL=fs.readFileSync('scripts/learning-content-v62.sql','utf8');
- for(const q of B.bank()){assert((q.id.startsWith('V62-')?diverseSQL:q.id.startsWith('V61-')?apiSQL:q.id.startsWith('V58-')?newSQL:sql).includes(B.proof(q).fingerprint),`missing server proof: ${q.id} (${B.proof(q).fingerprint})`);assert(!newSQL.includes(q.question));assert(!apiSQL.includes(q.question));}
+ const missing=[];for(const q of B.bank()){if(!(q.id.startsWith('V62-')?diverseSQL:q.id.startsWith('V61-')?apiSQL:q.id.startsWith('V58-')?newSQL:sql).includes(B.proof(q).fingerprint))missing.push(`${q.id}:${B.proof(q).fingerprint}`);assert(!newSQL.includes(q.question));assert(!apiSQL.includes(q.question));}assert.deepEqual(missing,[],`missing server proofs: ${missing.join(', ')}`);
  const prior=fs.readFileSync('scripts/learning-content-v53.sql','utf8');
  assert.equal(sql.replace(/fp not in \([^)]*\)/,'ALLOWLIST'),prior.replace(/fp not in \([^)]*\)/,'ALLOWLIST'));
 });

@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP40-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "빈 상자에 구슬 6개를 넣고 4개를 더 넣었습니다. 구슬 3개를 꺼낸 뒤 남은 수는?",
+    "choices": [
+      "6개",
+      "7개",
+      "8개",
+      "10개"
+    ],
+    "answer": "7개",
+    "explanation": "6+4=10개, 10-3=7개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 20에서 5를 빼고 다시 5를 더하면 얼마인가요?",
+    "choices": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "answer": "20",
+    "explanation": "20-5+5=20입니다. 뺀 만큼 다시 더하면 처음 수가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 12와 17 사이에 있는 수 중 가장 작은 수는?",
+    "choices": [
+      "12",
+      "13",
+      "16",
+      "17"
+    ],
+    "answer": "13",
+    "explanation": "12보다 크고 17보다 작은 수는 13, 14, 15, 16입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "빨간 별 3개, 파란 별 5개, 노란 별 2개가 있습니다. 파란 별과 노란 별은 모두 몇 개인가요?",
+    "choices": [
+      "5개",
+      "6개",
+      "7개",
+      "8개"
+    ],
+    "answer": "7개",
+    "explanation": "파란 별 5개와 노란 별 2개를 더하면 7개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "삼각형과 사각형을 하나씩 그렸습니다. 두 모양의 꼭짓점을 모두 세면 몇 개인가요?",
+    "choices": [
+      "5개",
+      "6개",
+      "7개",
+      "8개"
+    ],
+    "answer": "7개",
+    "explanation": "삼각형의 꼭짓점 3개와 사각형의 꼭짓점 4개를 합하면 7개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "빈칸에 알맞은 수를 찾으세요. □ + 6 = 14",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "14에서 6을 빼면 8이므로 8+6=14입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '가은이는 학교에 가려다가 비가 오는 것을 보았습니다. 다시 집으로 들어가 우산을 챙겼습니다.' 가은이가 다시 집으로 들어간 이유는?",
+    "choices": [
+      "우산을 챙기려고",
+      "신발을 버리려고",
+      "친구를 만나려고",
+      "책을 읽으려고"
+    ],
+    "answer": "우산을 챙기려고",
+    "explanation": "비가 와서 우산을 챙기려고 다시 들어갔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '도현이는 책을 빌렸습니다. 다 읽은 책을 도서관에 돌려주었습니다.' 책을 돌려준 장소는?",
+    "choices": [
+      "도서관",
+      "놀이터",
+      "병원",
+      "시장"
+    ],
+    "answer": "도서관",
+    "explanation": "글에서 책을 도서관에 돌려주었다고 말합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '미나는 친구가 발표하는 동안 조용히 들었습니다. 발표가 끝나자 손뼉을 쳤습니다.' 미나가 손뼉을 친 때는?",
+    "choices": [
+      "발표 전",
+      "발표 중",
+      "발표가 끝난 뒤",
+      "발표하기 전날"
+    ],
+    "answer": "발표가 끝난 뒤",
+    "explanation": "'발표가 끝나자'라는 말이 때를 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '바람이 불어 종이가 날아갔습니다. 서아는 종이를 주워 가방에 넣었습니다.' 종이가 날아간 까닭은?",
+    "choices": [
+      "비가 와서",
+      "바람이 불어서",
+      "눈이 와서",
+      "해가 져서"
+    ],
+    "answer": "바람이 불어서",
+    "explanation": "'바람이 불어'라는 말이 원인을 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "자전거를 타기 전에 안전을 위해 가장 먼저 챙길 것은?",
+    "choices": [
+      "안전모",
+      "이어폰",
+      "슬리퍼",
+      "장난감"
+    ],
+    "answer": "안전모",
+    "explanation": "자전거를 탈 때 안전모를 착용해 머리를 보호해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP40-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수학적 추론과 문맥 이해를 통해 생활 속 문제 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "식물의 키가 자라는지 알아보려고 합니다. 가장 알맞은 기록은?",
+    "choices": [
+      "날짜별 식물의 키",
+      "화분 색깔만",
+      "친구의 신발 크기",
+      "그날 먹은 음식"
+    ],
+    "answer": "날짜별 식물의 키",
+    "explanation": "식물의 자람을 비교하려면 날짜마다 키를 재어 기록하면 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

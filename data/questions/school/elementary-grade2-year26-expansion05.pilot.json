@@ -1,0 +1,440 @@
+[
+  {
+    "id": "G2-YEAR26-EXP05-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "76+17은 얼마인가요?",
+    "choices": [
+      "83",
+      "92",
+      "93",
+      "103"
+    ],
+    "answer": "93",
+    "explanation": "6+7=13에서 1을 올리고 7+1+1=9이므로 93입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "62-27은 얼마인가요?",
+    "choices": [
+      "25",
+      "35",
+      "45",
+      "49"
+    ],
+    "answer": "35",
+    "explanation": "일의 자리에서 12-7=5, 십의 자리에서 5-2=3이므로 35입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "8개씩 담긴 봉지가 3개라면 모두 몇 개인가요?",
+    "choices": [
+      "11개",
+      "16개",
+      "24개",
+      "32개"
+    ],
+    "answer": "24개",
+    "explanation": "8+8+8=24개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "오후 4시 45분에서 15분 뒤는 몇 시인가요?",
+    "choices": [
+      "오후 4시 50분",
+      "오후 5시",
+      "오후 5시 15분",
+      "오후 6시"
+    ],
+    "answer": "오후 5시",
+    "explanation": "45분에 15분을 더하면 60분이므로 다음 시각인 5시입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "규칙을 찾아보세요. 3, 9, 15, 21, 다음 수는?",
+    "choices": [
+      "24",
+      "26",
+      "27",
+      "30"
+    ],
+    "answer": "27",
+    "explanation": "6씩 커지므로 21+6=27입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "동전의 금액을 알맞게 연결하세요.",
+    "choices": [
+      "500원 2개 ↔ 1000원",
+      "100원 6개 ↔ 600원",
+      "500원 2개 ↔ 500원",
+      "100원 6개 ↔ 60원"
+    ],
+    "answer": [
+      "500원 2개 ↔ 1000원",
+      "100원 6개 ↔ 600원"
+    ],
+    "explanation": "500원을 두 번 더하면 1000원, 100원을 여섯 번 더하면 600원입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하린이는 친구에게 빌린 책을 읽고 다음 날 돌려주었습니다.' 하린이가 돌려준 것은?",
+    "choices": [
+      "우산",
+      "책",
+      "장갑",
+      "연필"
+    ],
+    "answer": "책",
+    "explanation": "친구에게 빌린 책을 돌려주었다고 글에 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아침에는 안개가 끼었지만 점심 무렵 하늘이 맑아졌습니다.' 나중의 날씨는?",
+    "choices": [
+      "눈이 내렸다",
+      "안개가 짙어졌다",
+      "하늘이 맑아졌다",
+      "비가 내렸다"
+    ],
+    "answer": "하늘이 맑아졌다",
+    "explanation": "점심 무렵 하늘이 맑아졌다는 문장이 나중 상황을 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구의 이야기를 잘 듣는 방법으로 알맞은 것은?",
+    "choices": [
+      "중간에 말을 끊는다",
+      "끝까지 듣고 대답한다",
+      "다른 곳만 본다",
+      "큰 소리로 떠든다"
+    ],
+    "answer": "끝까지 듣고 대답한다",
+    "explanation": "상대의 말을 끝까지 들은 뒤 대답하면 서로의 생각을 이해하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "뜻이 반대인 낱말을 연결하세요.",
+    "choices": [
+      "밝다 ↔ 어둡다",
+      "빠르다 ↔ 느리다",
+      "밝다 ↔ 느리다",
+      "빠르다 ↔ 어둡다"
+    ],
+    "answer": [
+      "밝다 ↔ 어둡다",
+      "빠르다 ↔ 느리다"
+    ],
+    "explanation": "밝다의 반대는 어둡다, 빠르다의 반대는 느리다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "횡단보도에서 안전하게 건너는 방법은?",
+    "choices": [
+      "초록불에 차가 멈춘 것을 확인하고 건넌다",
+      "빨간불에 뛰어간다",
+      "휴대전화를 보며 걷는다",
+      "차 사이로 건넌다"
+    ],
+    "answer": "초록불에 차가 멈춘 것을 확인하고 건넌다",
+    "explanation": "보행자 신호와 차량 정지 여부를 확인한 뒤 주변을 살피며 건넙니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "친구와 함께 사용하는 물건을 아끼는 방법은?",
+    "choices": [
+      "사용 후 제자리에 둔다",
+      "마음대로 부순다",
+      "아무 데나 던진다",
+      "혼자만 가져간다"
+    ],
+    "answer": "사용 후 제자리에 둔다",
+    "explanation": "공용 물건을 바르게 사용하고 제자리에 두면 모두 편리하게 쓸 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

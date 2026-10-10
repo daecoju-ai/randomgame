@@ -61,3 +61,17 @@ test('second-grade drafts are not silently promoted to playable game packs',()=>
  const packs=P.groupQuestions(B.bank()).filter(p=>p.school==='elementary'&&Number(p.grade)===2);
  assert(packs.length>0,'existing second-grade live packs must remain available');
 });
+
+test('grade-two practice mirrors the authored question sources',()=>{
+ const dir=path.join(__dirname,'../data/questions/school');
+ const source=fs.readdirSync(dir).filter(f=>/^elementary-grade2-year26.*\\.pilot\\.json$/.test(f))
+  .flatMap(f=>JSON.parse(fs.readFileSync(path.join(dir,f),'utf8')));
+ const practice=JSON.parse(fs.readFileSync(path.join(__dirname,'../public/learning-data/grade2-practice.json'),'utf8'));
+ assert.equal(practice.length,source.length);
+ const sourceById=new Map(source.map(q=>[q.id,q]));
+ for(const q of practice){
+  const original=sourceById.get(q.id);
+  assert(original,'practice-only question missing from source: '+q.id);
+  assert.deepEqual(q,original,'practice question drifted from source: '+q.id);
+ }
+});

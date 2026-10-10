@@ -26,6 +26,7 @@ jobs:
       - name: Run complete game, account, learning and Android tests
         run: npm test
       - name: Check Android release readiness (report only)
+        if: always()
         run: node mobile/audit.cjs | tee release-readiness.txt
       - name: Upload release readiness report
         if: always()

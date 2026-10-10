@@ -1,0 +1,554 @@
+[
+  {
+    "id": "G2-YEAR26-VAR01-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "소풍을 준비하는 순서대로 문장을 선택하세요.",
+    "choices": [
+      "가방을 메고 집을 나섰습니다.",
+      "물병과 도시락을 가방에 넣었습니다.",
+      "준비물을 확인했습니다."
+    ],
+    "answer": [
+      "준비물을 확인했습니다.",
+      "물병과 도시락을 가방에 넣었습니다.",
+      "가방을 메고 집을 나섰습니다."
+    ],
+    "explanation": "준비물을 먼저 확인하고 가방에 넣은 다음 집을 나섭니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "책을 빌리고 돌려주는 순서대로 선택하세요.",
+    "choices": [
+      "읽은 책을 반납했습니다.",
+      "도서관에서 책을 빌렸습니다.",
+      "집에서 책을 읽었습니다."
+    ],
+    "answer": [
+      "도서관에서 책을 빌렸습니다.",
+      "집에서 책을 읽었습니다.",
+      "읽은 책을 반납했습니다."
+    ],
+    "explanation": "책을 빌린 다음 읽고 마지막에 반납합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "'빠르다', '차갑다'의 반대말을 차례대로 연결하세요.",
+    "choices": [
+      "빠르다 ↔ 느리다",
+      "차갑다 ↔ 뜨겁다",
+      "빠르다 ↔ 뜨겁다",
+      "차갑다 ↔ 느리다"
+    ],
+    "answer": [
+      "빠르다 ↔ 느리다",
+      "차갑다 ↔ 뜨겁다"
+    ],
+    "explanation": "빠르다의 반대는 느리다, 차갑다의 반대는 뜨겁다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "알맞은 낱말과 뜻을 '도착', '출발' 순서로 연결하세요.",
+    "choices": [
+      "도착 ↔ 목적지에 이름",
+      "출발 ↔ 길을 떠남",
+      "도착 ↔ 길을 떠남",
+      "출발 ↔ 목적지에 이름"
+    ],
+    "answer": [
+      "도착 ↔ 목적지에 이름",
+      "출발 ↔ 길을 떠남"
+    ],
+    "explanation": "도착은 목적지에 이르는 것이고 출발은 길을 떠나는 것입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "다음 수를 작은 수부터 차례대로 선택하세요.",
+    "choices": [
+      "83",
+      "47",
+      "65",
+      "29"
+    ],
+    "answer": [
+      "29",
+      "47",
+      "65",
+      "83"
+    ],
+    "explanation": "십의 자리부터 비교하면 29, 47, 65, 83 순서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "계산 결과가 작은 것부터 차례대로 선택하세요.",
+    "choices": [
+      "9+8",
+      "20-4",
+      "7+5"
+    ],
+    "answer": [
+      "7+5",
+      "20-4",
+      "9+8"
+    ],
+    "explanation": "계산하면 각각 12, 16, 17이므로 작은 결과부터 선택합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "곱셈식 3×4와 5×2를 계산한 결과와 차례대로 연결하세요.",
+    "choices": [
+      "3×4 ↔ 12",
+      "5×2 ↔ 10",
+      "3×4 ↔ 10",
+      "5×2 ↔ 12"
+    ],
+    "answer": [
+      "3×4 ↔ 12",
+      "5×2 ↔ 10"
+    ],
+    "explanation": "3을 네 번 더하면 12, 5를 두 번 더하면 10입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "길이 단위를 '1m', '2m' 순서로 연결하세요.",
+    "choices": [
+      "1m ↔ 100cm",
+      "2m ↔ 200cm",
+      "1m ↔ 200cm",
+      "2m ↔ 100cm"
+    ],
+    "answer": [
+      "1m ↔ 100cm",
+      "2m ↔ 200cm"
+    ],
+    "explanation": "1m는 100cm이므로 2m는 200cm입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "20부터 50까지 10씩 커지는 수를 차례대로 선택하세요.",
+    "choices": [
+      "40",
+      "20",
+      "50",
+      "30"
+    ],
+    "answer": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "explanation": "20에 10을 계속 더하면 30, 40, 50이 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 크기와 계산 관계를 순서와 짝으로 표현하기",
+    "difficulty": 2,
+    "game_type": "TILE_SEQUENCE",
+    "question": "5씩 커지는 수를 15부터 30까지 순서대로 선택하세요.",
+    "choices": [
+      "25",
+      "15",
+      "30",
+      "20"
+    ],
+    "answer": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "explanation": "15에서 시작하여 5씩 더하면 20, 25, 30입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 습관",
+    "learning_target": "생활 속 행동 순서와 관찰 결과를 연결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식사 전후 손 씻기의 올바른 순서를 선택하세요.",
+    "choices": [
+      "깨끗한 수건으로 손을 닦습니다.",
+      "손에 비누를 묻혀 꼼꼼히 문지릅니다.",
+      "흐르는 물로 비누를 씻어 냅니다."
+    ],
+    "answer": [
+      "손에 비누를 묻혀 꼼꼼히 문지릅니다.",
+      "흐르는 물로 비누를 씻어 냅니다.",
+      "깨끗한 수건으로 손을 닦습니다."
+    ],
+    "explanation": "비누로 문지르고 물로 헹군 뒤 손을 잘 닦습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "생활 속 행동 순서와 관찰 결과를 연결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "안전한 행동을 '자전거', '횡단보도' 순서로 연결하세요.",
+    "choices": [
+      "자전거 ↔ 안전모 쓰기",
+      "횡단보도 ↔ 좌우 살피기",
+      "자전거 ↔ 좌우 살피기만 하기",
+      "횡단보도 ↔ 안전모만 쓰기"
+    ],
+    "answer": [
+      "자전거 ↔ 안전모 쓰기",
+      "횡단보도 ↔ 좌우 살피기"
+    ],
+    "explanation": "자전거를 탈 때는 안전모를 쓰고 횡단보도에서는 주변 차를 살펴야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "생활 속 행동 순서와 관찰 결과를 연결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "계절에 따른 모습으로 '봄', '겨울'을 차례대로 연결하세요.",
+    "choices": [
+      "봄 ↔ 새싹이 돋음",
+      "겨울 ↔ 나뭇잎이 떨어진 나무를 자주 봄",
+      "봄 ↔ 눈이 쌓임",
+      "겨울 ↔ 새싹이 돋음"
+    ],
+    "answer": [
+      "봄 ↔ 새싹이 돋음",
+      "겨울 ↔ 나뭇잎이 떨어진 나무를 자주 봄"
+    ],
+    "explanation": "봄에는 새싹이 돋고 겨울에는 잎이 떨어진 나무를 흔히 볼 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "생활 속 행동 순서와 관찰 결과를 연결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식물 관찰 기록을 남기는 순서대로 선택하세요.",
+    "choices": [
+      "관찰한 모습을 그림과 글로 기록합니다.",
+      "식물의 잎과 줄기를 자세히 살핍니다.",
+      "날짜와 날씨를 적습니다."
+    ],
+    "answer": [
+      "날짜와 날씨를 적습니다.",
+      "식물의 잎과 줄기를 자세히 살핍니다.",
+      "관찰한 모습을 그림과 글로 기록합니다."
+    ],
+    "explanation": "날짜와 날씨를 먼저 기록하고 식물을 관찰한 뒤 결과를 남길 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

@@ -23,6 +23,8 @@ jobs:
           node-version: '22'
       - name: Check all game and API JavaScript syntax
         run: npm run check
+      - name: Build and validate learning question packs
+        run: npm run build
       - name: Run complete game, account, learning and Android tests
         run: npm test
       - name: Check Android release readiness (report only)

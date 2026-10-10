@@ -41,3 +41,15 @@ test('guardian endpoint normalizes nickname, isolates payload from currencies an
 test('password recovery sends email without exposing account existence or creating a session',async()=>{configured();const reqs=mock([{path:'/recover',data:{}}]);const r=await call(account,{action:'recover',email:user.email});assert.equal(r.statusCode,200);assert.equal(r.data.ok,true);assert.equal(r.headers['Set-Cookie'],undefined);assert.equal(reqs.length,1);assert.ok(reqs[0].url.includes('/auth/v1/recover'));assert.deepEqual(JSON.parse(reqs[0].opt.body),{email:user.email});assert.equal(JSON.stringify(r.data).includes(user.email),false)});
 test('password reset rejects invalid recovery codes before contacting auth provider',async()=>{configured();let requests=0;global.fetch=async()=>{requests++;throw Error('should not be called')};for(const code of ['','abc','12345','12345678901']){const r=await call(account,{action:'reset',email:user.email,code,password:'mock-new-password'});assert.equal(r.statusCode,400);assert.equal(r.data.error,'CODE')}assert.equal(requests,0)});
 test('password reset changes password only after recovery verification and revokes tokens',async()=>{configured();const reqs=mock([{path:'/verify',data:session},{path:'/user',data:user},{path:'/logout',data:null}]);const r=await call(account,{action:'reset',email:user.email,code:'123456',password:'mock-new-password'});assert.equal(r.statusCode,200);assert.deepEqual(r.data,{ok:true});assert.equal(reqs.length,3);assert.equal(JSON.parse(reqs[0].opt.body).type,'recovery');assert.equal(reqs[1].opt.method,'PUT');assert.deepEqual(JSON.parse(reqs[1].opt.body),{password:'mock-new-password'});assert.ok(reqs[2].url.includes('scope=global'));assert.equal(JSON.stringify(r.data).includes('fake-access'),false);assert.ok(r.headers['Set-Cookie'].every(c=>c.includes('Max-Age=0')))});
+
+
+test('new signup and reset passwords reject trivial repetition without affecting existing sign-in',async()=>{
+ configured();let requests=0;global.fetch=async()=>{requests++;throw Error('unexpected upstream call')};
+ for(const action of ['signup','reset']){
+  const r=await call(account,{action,email:user.email,password:'aaaaaaaaaa',nickname:'테스트유저',code:'123456'});
+  assert.equal(r.statusCode,400);assert.equal(r.data.error,'WEAK_PASSWORD');
+ }
+ assert.equal(requests,0);
+ assert.equal(A.password('aaaaaaaaaa'),'aaaaaaaaaa');
+ assert.equal(A.newPassword('safe-password-123'),'safe-password-123');
+});

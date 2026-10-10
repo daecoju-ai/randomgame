@@ -10,6 +10,7 @@
     "build": "python3 scripts/validate_questions.py && node scripts/validate-learning-bank.cjs && node scripts/build-learning.cjs && node scripts/check-learning-sources.cjs",
     "sync:certifications": "node scripts/sync-certifications.cjs",
     "validate:certifications": "python scripts/validate_certification_bank.py",
-    "validate:learning": "python scripts/validate_questions.py && LEARNING_VALIDATION_STRICT=1 node scripts/validate-learning-bank.cjs && python scripts/validate_certification_bank.py"
+    "validate:learning": "python scripts/validate_questions.py && LEARNING_VALIDATION_STRICT=1 node scripts/validate-learning-bank.cjs && python scripts/validate_certification_bank.py",
+    "audit:grade2": "node scripts/audit-grade2-question-quality.cjs"
   }
 }

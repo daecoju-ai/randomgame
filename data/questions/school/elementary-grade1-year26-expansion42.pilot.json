@@ -1,0 +1,434 @@
+[
+  {
+    "id": "G1-YEAR26-EXP42-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "14보다 크고 17보다 작은 수는 모두 몇 개인가요?",
+    "choices": [
+      "1개",
+      "2개",
+      "3개",
+      "4개"
+    ],
+    "answer": "2개",
+    "explanation": "15와 16이므로 두 개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "수 18은 10과 얼마를 더한 수인가요?",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "18=10+8입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "사과 11개 중 4개를 먹고 2개를 더 받았습니다. 지금 몇 개인가요?",
+    "choices": [
+      "7개",
+      "8개",
+      "9개",
+      "10개"
+    ],
+    "answer": "9개",
+    "explanation": "11-4+2=9개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "data_patterns",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "숫자 규칙: 20, 18, 16, 14, 다음 수는?",
+    "choices": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "answer": "12",
+    "explanation": "2씩 작아지므로 12입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-005",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "geometry_measurement",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "삼각형과 사각형 중 변이 하나 더 많은 도형은?",
+    "choices": [
+      "삼각형",
+      "사각형",
+      "둘 다 같음",
+      "알 수 없음"
+    ],
+    "answer": "사각형",
+    "explanation": "삼각형은 변 3개, 사각형은 변 4개입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-006",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "math",
+    "domain": "number_operations",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "빈칸에 들어갈 수는? 7 + □ = 15",
+    "choices": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": "8",
+    "explanation": "15-7=8이므로 7+8=15입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '지민이는 길에 떨어진 장갑을 주워 선생님께 드렸습니다.' 지민이가 장갑을 드린 사람은?",
+    "choices": [
+      "친구",
+      "선생님",
+      "동생",
+      "엄마"
+    ],
+    "answer": "선생님",
+    "explanation": "글에 선생님께 드렸다고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하람이는 새로 온 친구가 길을 몰라 교실까지 함께 걸어갔습니다.' 하람이의 행동은?",
+    "choices": [
+      "친구를 도와줌",
+      "친구를 놀림",
+      "친구를 피함",
+      "친구를 혼냄"
+    ],
+    "answer": "친구를 도와줌",
+    "explanation": "길을 모르는 친구와 함께 가 준 것은 도움을 준 행동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내문: '내일은 학교에서 물놀이를 합니다. 수건을 준비하세요.' 준비할 물건은?",
+    "choices": [
+      "모자",
+      "수건",
+      "연필",
+      "책"
+    ],
+    "answer": "수건",
+    "explanation": "안내문에 수건을 준비하라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '비가 와서 운동장에 물웅덩이가 생겼습니다. 아이들은 교실에서 놀이를 했습니다.' 아이들이 교실에서 논 까닭은?",
+    "choices": [
+      "비가 와서 운동장에 물이 고였기 때문에",
+      "해가 너무 강해서",
+      "운동장이 넓어서",
+      "교실이 비어서"
+    ],
+    "answer": "비가 와서 운동장에 물이 고였기 때문에",
+    "explanation": "비로 운동장에 물웅덩이가 생긴 상황이 단서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "생활 안전",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "학교에서 친구가 넘어져 다쳤습니다. 가장 알맞은 행동은?",
+    "choices": [
+      "그냥 지나간다",
+      "선생님께 알리고 도움을 요청한다",
+      "친구를 일으켜 달리게 한다",
+      "웃으며 놀린다"
+    ],
+    "answer": "선생님께 알리고 도움을 요청한다",
+    "explanation": "다친 친구를 발견하면 어른에게 알리고 안전하게 도움을 요청합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G1-YEAR26-EXP42-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 1,
+    "subject": "integrated",
+    "domain": "자연과 생활",
+    "learning_target": "수의 구조와 생활 속 문장의 의미를 파악하기",
+    "difficulty": 2,
+    "game_type": "TILE_CHOICE",
+    "question": "나무가 자라는 모습을 한 달 동안 알아보려 합니다. 좋은 관찰 방법은?",
+    "choices": [
+      "같은 나무를 날짜별로 살펴 기록한다",
+      "하루만 보고 끝낸다",
+      "다른 나무의 모습을 섞어 적는다",
+      "기록을 하지 않는다"
+    ],
+    "answer": "같은 나무를 날짜별로 살펴 기록한다",
+    "explanation": "시간에 따른 변화를 알려면 같은 대상을 꾸준히 관찰해야 합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

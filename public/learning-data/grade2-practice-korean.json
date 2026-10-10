@@ -1,0 +1,2291 @@
+[
+  {
+    "id": "G2-YEAR26-PILOT-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '학교 텃밭의 상추가 시들었습니다. 아이들은 흙이 마른 것을 보고 물을 주었습니다.' 아이들이 물을 준 이유는?",
+    "choices": [
+      "흙이 말랐기 때문에",
+      "비가 많이 왔기 때문에",
+      "상추를 뽑으려고",
+      "텃밭을 없애려고"
+    ],
+    "answer": "흙이 말랐기 때문에",
+    "explanation": "상추가 시들고 흙이 말랐다는 문장이 물을 준 이유를 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-PILOT-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '도서관은 월요일에 쉽니다. 화요일부터 금요일까지 문을 엽니다.' 책을 빌릴 수 있는 날은?",
+    "choices": [
+      "월요일",
+      "화요일",
+      "일요일",
+      "월요일과 일요일"
+    ],
+    "answer": "화요일",
+    "explanation": "안내문에 화요일부터 금요일까지 문을 연다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-PILOT-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '지우는 우산을 가져왔지만 비가 그쳤습니다. 그래서 우산을 펴지 않았습니다.' 지우가 우산을 펴지 않은 이유는?",
+    "choices": [
+      "비가 그쳐서",
+      "우산이 없어서",
+      "우산이 부러져서",
+      "바람이 불어서"
+    ],
+    "answer": "비가 그쳐서",
+    "explanation": "비가 그쳤다는 사실이 우산을 펴지 않은 이유입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-PILOT-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아침에 씨앗을 심었습니다. 일주일 뒤 작은 싹이 나왔습니다.' 나중에 일어난 일은?",
+    "choices": [
+      "씨앗을 심었다",
+      "작은 싹이 나왔다",
+      "화분을 샀다",
+      "흙을 버렸다"
+    ],
+    "answer": "작은 싹이 나왔다",
+    "explanation": "씨앗을 심은 뒤 일주일이 지나 싹이 나왔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-PILOT-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 부탁할 때 가장 알맞은 말은?",
+    "choices": [
+      "비켜!",
+      "지우개를 잠깐 빌려줄 수 있니?",
+      "내 거야!",
+      "하지 마!"
+    ],
+    "answer": "지우개를 잠깐 빌려줄 수 있니?",
+    "explanation": "부탁하는 말에는 상대를 존중하는 표현을 사용합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-PILOT-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "글의 핵심 정보와 문장 관계를 파악하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '강아지는 물그릇이 비자 주인 곁에서 짖었습니다. 주인은 물을 채워 주었습니다.' 주인이 한 일은?",
+    "choices": [
+      "물그릇을 채웠다",
+      "산책을 나갔다",
+      "장난감을 숨겼다",
+      "강아지를 씻겼다"
+    ],
+    "answer": "물그릇을 채웠다",
+    "explanation": "마지막 문장에 주인이 물을 채워 주었다고 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '서연이는 학교에 가는 길에 비를 만났습니다. 가방 속 우비를 꺼내 입었습니다.' 서연이가 우비를 입은 까닭은?",
+    "choices": [
+      "비를 피하려고",
+      "더위를 식히려고",
+      "잠을 자려고",
+      "운동하려고"
+    ],
+    "answer": "비를 피하려고",
+    "explanation": "비가 내리는 상황에서 몸이 젖지 않도록 우비를 입었습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아빠가 씨앗을 심었습니다. 며칠 뒤 싹이 나왔습니다. 그다음 잎이 자랐습니다.' 두 번째로 일어난 일은?",
+    "choices": [
+      "씨앗을 심었다",
+      "싹이 나왔다",
+      "잎이 자랐다",
+      "꽃이 졌다"
+    ],
+    "answer": "싹이 나왔다",
+    "explanation": "씨앗 심기 다음에 싹이 나고, 그다음 잎이 자랐습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '체육관에서는 실내 운동화를 신어 주세요.' 체육관에서 신을 신발은?",
+    "choices": [
+      "장화",
+      "실내 운동화",
+      "슬리퍼",
+      "등산화"
+    ],
+    "answer": "실내 운동화",
+    "explanation": "안내문에서 실내 운동화를 신으라고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '동생은 블록 탑을 완성하고 환하게 웃었습니다.' 동생의 마음으로 알맞은 것은?",
+    "choices": [
+      "기쁨",
+      "두려움",
+      "슬픔",
+      "걱정"
+    ],
+    "answer": "기쁨",
+    "explanation": "탑을 완성하고 환하게 웃었다는 표현에서 기쁜 마음을 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '도서관에서는 작은 목소리로 말합니다. 다른 사람이 책을 읽고 있기 때문입니다.' 작은 목소리로 말해야 하는 이유는?",
+    "choices": [
+      "책 읽는 사람을 배려하려고",
+      "소리를 더 크게 내려고",
+      "책을 찢으려고",
+      "빨리 뛰려고"
+    ],
+    "answer": "책 읽는 사람을 배려하려고",
+    "explanation": "다른 사람의 독서를 방해하지 않기 위해서입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP01-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문장 순서와 글의 정보를 정확하게 이해하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하늘이는 숙제를 끝내고 가방에 공책을 넣었습니다. 다음 날 학교에서 공책을 꺼냈습니다.' 공책을 꺼낸 장소는?",
+    "choices": [
+      "집",
+      "학교",
+      "공원",
+      "가게"
+    ],
+    "answer": "학교",
+    "explanation": "다음 날 학교에서 공책을 꺼냈다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-001",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "소풍을 준비하는 순서대로 문장을 선택하세요.",
+    "choices": [
+      "가방을 메고 집을 나섰습니다.",
+      "물병과 도시락을 가방에 넣었습니다.",
+      "준비물을 확인했습니다."
+    ],
+    "answer": [
+      "준비물을 확인했습니다.",
+      "물병과 도시락을 가방에 넣었습니다.",
+      "가방을 메고 집을 나섰습니다."
+    ],
+    "explanation": "준비물을 먼저 확인하고 가방에 넣은 다음 집을 나섭니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-002",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "책을 빌리고 돌려주는 순서대로 선택하세요.",
+    "choices": [
+      "읽은 책을 반납했습니다.",
+      "도서관에서 책을 빌렸습니다.",
+      "집에서 책을 읽었습니다."
+    ],
+    "answer": [
+      "도서관에서 책을 빌렸습니다.",
+      "집에서 책을 읽었습니다.",
+      "읽은 책을 반납했습니다."
+    ],
+    "explanation": "책을 빌린 다음 읽고 마지막에 반납합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-003",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "'빠르다', '차갑다'의 반대말을 차례대로 연결하세요.",
+    "choices": [
+      "빠르다 ↔ 느리다",
+      "차갑다 ↔ 뜨겁다",
+      "빠르다 ↔ 뜨겁다",
+      "차갑다 ↔ 느리다"
+    ],
+    "answer": [
+      "빠르다 ↔ 느리다",
+      "차갑다 ↔ 뜨겁다"
+    ],
+    "explanation": "빠르다의 반대는 느리다, 차갑다의 반대는 뜨겁다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-VAR01-004",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 익히기",
+    "learning_target": "글의 사건 순서와 낱말 사이의 관계를 이해하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "알맞은 낱말과 뜻을 '도착', '출발' 순서로 연결하세요.",
+    "choices": [
+      "도착 ↔ 목적지에 도달함",
+      "출발 ↔ 길을 떠남",
+      "도착 ↔ 길을 떠남",
+      "출발 ↔ 목적지에 도달함"
+    ],
+    "answer": [
+      "도착 ↔ 목적지에 도달함",
+      "출발 ↔ 길을 떠남"
+    ],
+    "explanation": "도착은 목적지에 이르는 것이고 출발은 길을 떠나는 것입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '민지는 운동장에 떨어진 장갑을 주워 선생님께 드렸습니다.' 민지가 주운 것은 무엇인가요?",
+    "choices": [
+      "장갑",
+      "공책",
+      "우산",
+      "모자"
+    ],
+    "answer": "장갑",
+    "explanation": "글에서 운동장에 떨어진 장갑을 주웠다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '버스가 늦게 와서 준호는 약속 장소에 늦었습니다.' 준호가 늦은 까닭은?",
+    "choices": [
+      "길을 잃어서",
+      "버스가 늦게 와서",
+      "비가 와서",
+      "잠이 들어서"
+    ],
+    "answer": "버스가 늦게 와서",
+    "explanation": "버스가 늦게 도착한 것이 약속에 늦은 원인입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 도와주었을 때 가장 알맞은 말은?",
+    "choices": [
+      "내가 할 거야!",
+      "고마워, 덕분에 끝냈어.",
+      "저리 가.",
+      "빨리 해."
+    ],
+    "answer": "고마워, 덕분에 끝냈어.",
+    "explanation": "도움을 받았을 때는 고마운 마음을 말로 전할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식물을 기르는 일을 순서대로 선택하세요.",
+    "choices": [
+      "화분에 씨앗을 심습니다.",
+      "물을 알맞게 줍니다.",
+      "싹이 나는 모습을 관찰합니다."
+    ],
+    "answer": [
+      "화분에 씨앗을 심습니다.",
+      "물을 알맞게 줍니다.",
+      "싹이 나는 모습을 관찰합니다."
+    ],
+    "explanation": "먼저 씨앗을 심고 물을 준 뒤 자라는 모습을 관찰합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "낱말과 반대말을 바르게 연결하세요.",
+    "choices": [
+      "높다 ↔ 낮다",
+      "넓다 ↔ 좁다",
+      "높다 ↔ 좁다",
+      "넓다 ↔ 낮다"
+    ],
+    "answer": [
+      "높다 ↔ 낮다",
+      "넓다 ↔ 좁다"
+    ],
+    "explanation": "높다의 반대는 낮다, 넓다의 반대는 좁다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP02-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '미술 준비물은 색연필과 풀입니다.' 가져가야 할 준비물은?",
+    "choices": [
+      "색연필과 풀",
+      "운동화와 공",
+      "우산과 장화",
+      "수건과 비누"
+    ],
+    "answer": "색연필과 풀",
+    "explanation": "안내문에 색연필과 풀을 준비하라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '유나는 잃어버린 연필을 책상 아래에서 찾았습니다.' 연필을 찾은 곳은?",
+    "choices": [
+      "가방 안",
+      "책상 아래",
+      "운동장",
+      "도서관"
+    ],
+    "answer": "책상 아래",
+    "explanation": "글에서 연필을 책상 아래에서 찾았다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '바람이 세게 불어 모자가 날아갔습니다.' 모자가 날아간 까닭은?",
+    "choices": [
+      "비가 와서",
+      "바람이 세게 불어서",
+      "눈이 내려서",
+      "모자가 무거워서"
+    ],
+    "answer": "바람이 세게 불어서",
+    "explanation": "바람이 강하게 분 것이 모자가 날아간 이유입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 실수로 내 발을 밟고 사과했습니다. 알맞은 대답은?",
+    "choices": [
+      "괜찮아, 다음에는 조심해 줘.",
+      "다시는 말 걸지 마.",
+      "왜 그랬어!",
+      "네가 싫어."
+    ],
+    "answer": "괜찮아, 다음에는 조심해 줘.",
+    "explanation": "사과를 듣고 자신의 마음을 차분하게 표현할 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "하루 일과를 시간 순서대로 고르세요.",
+    "choices": [
+      "아침에 일어납니다.",
+      "학교에서 공부합니다.",
+      "저녁에 잠자리에 듭니다."
+    ],
+    "answer": [
+      "아침에 일어납니다.",
+      "학교에서 공부합니다.",
+      "저녁에 잠자리에 듭니다."
+    ],
+    "explanation": "아침에 일어나 학교에서 공부하고 저녁에 잠을 잡니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "낱말과 뜻을 바르게 연결하세요.",
+    "choices": [
+      "기쁘다 ↔ 즐거운 마음이다",
+      "슬프다 ↔ 마음이 아프고 서운하다",
+      "기쁘다 ↔ 마음이 아프고 서운하다",
+      "슬프다 ↔ 즐거운 마음이다"
+    ],
+    "answer": [
+      "기쁘다 ↔ 즐거운 마음이다",
+      "슬프다 ↔ 마음이 아프고 서운하다"
+    ],
+    "explanation": "기쁘다는 즐거운 마음을, 슬프다는 마음이 아프거나 서운한 상태를 나타냅니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP03-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '학급 발표회는 금요일 오후 2시에 시작합니다.' 발표회가 시작하는 요일은?",
+    "choices": [
+      "월요일",
+      "수요일",
+      "금요일",
+      "일요일"
+    ],
+    "answer": "금요일",
+    "explanation": "안내문에 금요일이라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '수아는 운동을 마치고 물을 마셨습니다.' 수아가 물을 마신 때는?",
+    "choices": [
+      "운동하기 전",
+      "운동하는 중",
+      "운동을 마친 뒤",
+      "잠들기 전"
+    ],
+    "answer": "운동을 마친 뒤",
+    "explanation": "운동을 마치고 물을 마셨다는 문장에서 순서를 알 수 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '비가 내리자 민호는 창문을 닫았습니다.' 민호가 창문을 닫은 까닭은?",
+    "choices": [
+      "바람이 불어서",
+      "비가 내려서",
+      "눈이 와서",
+      "해가 떠서"
+    ],
+    "answer": "비가 내려서",
+    "explanation": "비가 내린 것이 창문을 닫은 까닭입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 발표하는 동안 알맞은 태도는?",
+    "choices": [
+      "친구 말을 끝까지 듣는다",
+      "옆 친구와 크게 이야기한다",
+      "발표 중에 소리친다",
+      "자리에서 뛰어다닌다"
+    ],
+    "answer": "친구 말을 끝까지 듣는다",
+    "explanation": "친구의 발표를 끝까지 들으면 서로 존중하는 대화가 됩니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "학교에 가기 전 준비를 순서대로 고르세요.",
+    "choices": [
+      "세수를 합니다.",
+      "옷을 입습니다.",
+      "가방을 메고 집을 나섭니다."
+    ],
+    "answer": [
+      "세수를 합니다.",
+      "옷을 입습니다.",
+      "가방을 메고 집을 나섭니다."
+    ],
+    "explanation": "세수하고 옷을 입은 다음 가방을 메고 집을 나섭니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "뜻이 반대인 낱말을 바르게 연결하세요.",
+    "choices": [
+      "무겁다 ↔ 가볍다",
+      "길다 ↔ 짧다",
+      "무겁다 ↔ 짧다",
+      "길다 ↔ 가볍다"
+    ],
+    "answer": [
+      "무겁다 ↔ 가볍다",
+      "길다 ↔ 짧다"
+    ],
+    "explanation": "무겁다의 반대는 가볍다, 길다의 반대는 짧다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP04-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '도서관 독서 모임은 수요일 오전 10시에 시작합니다.' 모임 시작 시각은?",
+    "choices": [
+      "화요일 오전 10시",
+      "수요일 오전 10시",
+      "수요일 오후 10시",
+      "금요일 오전 10시"
+    ],
+    "answer": "수요일 오전 10시",
+    "explanation": "안내문에 수요일 오전 10시라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-007",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하린이는 친구에게 빌린 책을 읽고 다음 날 돌려주었습니다.' 하린이가 돌려준 것은?",
+    "choices": [
+      "우산",
+      "책",
+      "장갑",
+      "연필"
+    ],
+    "answer": "책",
+    "explanation": "친구에게 빌린 책을 돌려주었다고 글에 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-008",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '아침에는 안개가 끼었지만 점심 무렵 하늘이 맑아졌습니다.' 나중의 날씨는?",
+    "choices": [
+      "눈이 내렸다",
+      "안개가 짙어졌다",
+      "하늘이 맑아졌다",
+      "비가 내렸다"
+    ],
+    "answer": "하늘이 맑아졌다",
+    "explanation": "점심 무렵 하늘이 맑아졌다는 문장이 나중 상황을 알려 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구의 이야기를 잘 듣는 방법으로 알맞은 것은?",
+    "choices": [
+      "중간에 말을 끊는다",
+      "끝까지 듣고 대답한다",
+      "다른 곳만 본다",
+      "큰 소리로 떠든다"
+    ],
+    "answer": "끝까지 듣고 대답한다",
+    "explanation": "상대의 말을 끝까지 들은 뒤 대답하면 서로의 생각을 이해하기 쉽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP05-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "뜻이 반대인 낱말을 연결하세요.",
+    "choices": [
+      "밝다 ↔ 어둡다",
+      "빠르다 ↔ 느리다",
+      "밝다 ↔ 느리다",
+      "빠르다 ↔ 어둡다"
+    ],
+    "answer": [
+      "밝다 ↔ 어둡다",
+      "빠르다 ↔ 느리다"
+    ],
+    "explanation": "밝다의 반대는 어둡다, 빠르다의 반대는 느리다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '은지는 점심을 먹은 뒤 운동장에서 줄넘기를 했습니다.' 은지가 줄넘기를 한 때는?",
+    "choices": [
+      "점심을 먹기 전",
+      "점심을 먹은 뒤",
+      "아침에 일어나자마자",
+      "잠자리에 들기 전"
+    ],
+    "answer": "점심을 먹은 뒤",
+    "explanation": "점심을 먹은 뒤 줄넘기를 했다고 글에 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '창밖에 눈이 내리자 지호는 장갑을 챙겼습니다.' 지호가 장갑을 챙긴 까닭은?",
+    "choices": [
+      "눈이 내려서",
+      "날씨가 더워서",
+      "비가 그쳐서",
+      "책을 읽으려고"
+    ],
+    "answer": "눈이 내려서",
+    "explanation": "눈이 내리는 추운 날씨에 대비해 장갑을 챙겼습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구에게 길을 물을 때 가장 알맞은 말은?",
+    "choices": [
+      "빨리 비켜!",
+      "저기, 도서관이 어디인지 알려 줄래?",
+      "너는 몰라도 돼.",
+      "그냥 따라와!"
+    ],
+    "answer": "저기, 도서관이 어디인지 알려 줄래?",
+    "explanation": "상대에게 정중하게 묻는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "편지를 보내는 일을 순서대로 고르세요.",
+    "choices": [
+      "편지를 씁니다.",
+      "봉투에 편지를 넣습니다.",
+      "우체통에 넣습니다."
+    ],
+    "answer": [
+      "편지를 씁니다.",
+      "봉투에 편지를 넣습니다.",
+      "우체통에 넣습니다."
+    ],
+    "explanation": "편지를 쓴 뒤 봉투에 넣고 우체통에 넣습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "뜻이 반대인 낱말을 바르게 연결하세요.",
+    "choices": [
+      "깨끗하다 ↔ 더럽다",
+      "가깝다 ↔ 멀다",
+      "깨끗하다 ↔ 멀다",
+      "가깝다 ↔ 더럽다"
+    ],
+    "answer": [
+      "깨끗하다 ↔ 더럽다",
+      "가깝다 ↔ 멀다"
+    ],
+    "explanation": "깨끗하다의 반대는 더럽다, 가깝다의 반대는 멀다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP06-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '운동회는 목요일 오전 9시에 시작합니다.' 운동회 시작 요일은?",
+    "choices": [
+      "화요일",
+      "수요일",
+      "목요일",
+      "금요일"
+    ],
+    "answer": "목요일",
+    "explanation": "안내문에 목요일이라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '서우는 숙제를 마친 다음 놀이터에 갔습니다.' 서우가 먼저 한 일은?",
+    "choices": [
+      "놀이터에 갔다",
+      "숙제를 마쳤다",
+      "책을 빌렸다",
+      "간식을 샀다"
+    ],
+    "answer": "숙제를 마쳤다",
+    "explanation": "숙제를 마친 다음 놀이터에 갔다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '꽃에 물을 주지 않아 흙이 말랐습니다.' 흙이 마른 까닭은?",
+    "choices": [
+      "비가 많이 와서",
+      "물을 주지 않아서",
+      "눈이 내려서",
+      "물을 너무 많이 주어서"
+    ],
+    "answer": "물을 주지 않아서",
+    "explanation": "물을 주지 않아 흙이 말랐다고 설명합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구가 책을 읽고 있을 때 알맞은 행동은?",
+    "choices": [
+      "옆에서 크게 노래한다",
+      "조용히 기다린다",
+      "책을 빼앗는다",
+      "책상 위를 두드린다"
+    ],
+    "answer": "조용히 기다린다",
+    "explanation": "책을 읽는 친구를 배려하는 행동입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "도서관에서 책을 이용하는 순서대로 고르세요.",
+    "choices": [
+      "읽고 싶은 책을 찾습니다.",
+      "책을 빌립니다.",
+      "책을 읽습니다."
+    ],
+    "answer": [
+      "읽고 싶은 책을 찾습니다.",
+      "책을 빌립니다.",
+      "책을 읽습니다."
+    ],
+    "explanation": "책을 찾고 빌린 뒤 읽습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "반대말을 알맞게 연결하세요.",
+    "choices": [
+      "두껍다 ↔ 얇다",
+      "많다 ↔ 적다",
+      "두껍다 ↔ 적다",
+      "많다 ↔ 얇다"
+    ],
+    "answer": [
+      "두껍다 ↔ 얇다",
+      "많다 ↔ 적다"
+    ],
+    "explanation": "두껍다의 반대는 얇다, 많다의 반대는 적다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP07-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '학급 사진은 화요일 오전 11시에 찍습니다.' 사진을 찍는 시각은?",
+    "choices": [
+      "화요일 오전 11시",
+      "화요일 오후 11시",
+      "수요일 오전 11시",
+      "금요일 오후 1시"
+    ],
+    "answer": "화요일 오전 11시",
+    "explanation": "안내문에 화요일 오전 11시라고 나옵니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '도윤이는 아침에 우유를 마시고 학교로 출발했습니다.' 도윤이가 먼저 한 일은?",
+    "choices": [
+      "학교에 도착했다",
+      "우유를 마셨다",
+      "책을 읽었다",
+      "운동을 했다"
+    ],
+    "answer": "우유를 마셨다",
+    "explanation": "우유를 마신 다음 학교로 출발했다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '비가 그치자 아이들은 운동장에 나가 놀았습니다.' 아이들이 밖에 나간 때는?",
+    "choices": [
+      "비가 오기 전",
+      "비가 그친 뒤",
+      "밤이 된 뒤",
+      "눈이 내릴 때"
+    ],
+    "answer": "비가 그친 뒤",
+    "explanation": "비가 그친 다음 운동장에 나갔습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "도움이 필요한 친구에게 할 말로 알맞은 것은?",
+    "choices": [
+      "혼자 해!",
+      "내가 도와줄까?",
+      "빨리 가!",
+      "말하지 마!"
+    ],
+    "answer": "내가 도와줄까?",
+    "explanation": "친구의 상황을 살피고 도움을 제안하는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "학교에서 발표를 준비하는 순서대로 고르세요.",
+    "choices": [
+      "발표할 내용을 정합니다.",
+      "말할 내용을 연습합니다.",
+      "친구들 앞에서 발표합니다."
+    ],
+    "answer": [
+      "발표할 내용을 정합니다.",
+      "말할 내용을 연습합니다.",
+      "친구들 앞에서 발표합니다."
+    ],
+    "explanation": "내용을 정하고 연습한 다음 발표합니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "반대말을 알맞게 연결하세요.",
+    "choices": [
+      "뜨겁다 ↔ 차갑다",
+      "열다 ↔ 닫다",
+      "뜨겁다 ↔ 닫다",
+      "열다 ↔ 차갑다"
+    ],
+    "answer": [
+      "뜨겁다 ↔ 차갑다",
+      "열다 ↔ 닫다"
+    ],
+    "explanation": "뜨겁다의 반대는 차갑다, 열다의 반대는 닫다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP08-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '학급 청소는 금요일 오후 1시에 시작합니다.' 청소가 시작하는 때는?",
+    "choices": [
+      "금요일 오전 1시",
+      "금요일 오후 1시",
+      "토요일 오후 1시",
+      "목요일 오후 2시"
+    ],
+    "answer": "금요일 오후 1시",
+    "explanation": "안내문에 금요일 오후 1시라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-009",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '하나는 비가 내리기 전에 빨래를 걷었습니다.' 하나가 빨래를 걷은 때는?",
+    "choices": [
+      "비가 내리기 전",
+      "비가 그친 뒤",
+      "눈이 내린 뒤",
+      "밤이 된 뒤"
+    ],
+    "answer": "비가 내리기 전",
+    "explanation": "비가 내리기 전에 빨래를 걷었다고 했습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-010",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "글: '준서는 친구에게 빌린 지우개를 사용한 뒤 돌려주었습니다.' 준서가 돌려준 것은?",
+    "choices": [
+      "연필",
+      "지우개",
+      "공책",
+      "가방"
+    ],
+    "answer": "지우개",
+    "explanation": "친구에게 빌린 지우개를 돌려주었습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-011",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "말하기",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "친구의 의견이 나와 다를 때 알맞은 말은?",
+    "choices": [
+      "내 말만 맞아!",
+      "네 생각도 들어 보고 싶어.",
+      "말하지 마!",
+      "무조건 내 말대로 해."
+    ],
+    "answer": "네 생각도 들어 보고 싶어.",
+    "explanation": "서로 다른 생각을 존중하고 대화를 이어가는 말입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-012",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "문장 순서",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "ORDERING",
+    "question": "식물을 심는 과정을 순서대로 고르세요.",
+    "choices": [
+      "화분에 흙을 담습니다.",
+      "흙에 씨앗을 심습니다.",
+      "물을 알맞게 줍니다."
+    ],
+    "answer": [
+      "화분에 흙을 담습니다.",
+      "흙에 씨앗을 심습니다.",
+      "물을 알맞게 줍니다."
+    ],
+    "explanation": "화분에 흙을 담고 씨앗을 심은 뒤 물을 줍니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-013",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "낱말 관계",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MATCHING",
+    "question": "반대말을 알맞게 연결하세요.",
+    "choices": [
+      "넓다 ↔ 좁다",
+      "높다 ↔ 낮다",
+      "넓다 ↔ 낮다",
+      "높다 ↔ 좁다"
+    ],
+    "answer": [
+      "넓다 ↔ 좁다",
+      "높다 ↔ 낮다"
+    ],
+    "explanation": "넓다의 반대는 좁다, 높다의 반대는 낮다입니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  },
+  {
+    "id": "G2-YEAR26-EXP09-014",
+    "curriculum": "2022",
+    "school": "elementary",
+    "grade": 2,
+    "subject": "korean",
+    "domain": "읽기 이해",
+    "learning_target": "문제 상황을 이해하고 이유를 설명하며 해결하기",
+    "difficulty": 2,
+    "game_type": "MULTIPLE_CHOICE",
+    "question": "안내: '책 읽기 행사는 월요일 오후 3시에 시작합니다.' 행사가 시작하는 때는?",
+    "choices": [
+      "월요일 오전 3시",
+      "월요일 오후 3시",
+      "화요일 오후 3시",
+      "금요일 오후 1시"
+    ],
+    "answer": "월요일 오후 3시",
+    "explanation": "안내문에 월요일 오후 3시라고 적혀 있습니다.",
+    "content_origin": "original",
+    "source_reference": "original_learning_pilot",
+    "license": "original_game_content",
+    "review_status": "draft",
+    "release_channel": "pilot",
+    "version": 1,
+    "review": {
+      "method": "automated_answer_check",
+      "date": "2026-10-10",
+      "human_publication_pending": true
+    },
+    "curriculum_evidence": {
+      "verified": false,
+      "mapping_status": "official_standard_pending",
+      "reference_year": 2026
+    }
+  }
+]

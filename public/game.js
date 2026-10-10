@@ -46,7 +46,7 @@ function canvasPoint(e){const r=C.getBoundingClientRect(),sx=W/r.width,sy=H/r.he
 const rnd=(a,b)=>a+Math.random()*(b-a), d=(a,b)=>Math.hypot(a.x-b.x,a.y-b.y);
 function toast(s){let e=document.querySelector('#toast');e.innerHTML=String(s).split('◈').map(t=>t.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))).join(window.ForgeUX.icon('battle'));e.style.opacity=1;clearTimeout(e.tm);e.tm=setTimeout(()=>e.style.opacity=0,1800)}
 function geometry(){const side=W<430?58:64,width=Math.min(W-side-10,430),left=(W-width+side-10)/2,right=left+width,top=18,bottom=H-18;return{left,right,top,bottom,width,height:bottom-top}}
-function slot(i){let a=geometry(),gx=(a.width-108)/3,gy=Math.min(54,(a.height-88)/7);return{x:W/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
+function slot(i){let a=geometry(),gx=(a.width-108)/3,gy=Math.min(54,(a.height-88)/7);return{x:(a.left+a.right)/2+(i%4-1.5)*gx,y:(a.top+a.bottom)/2+(Math.floor(i/4)-3.5)*gy}}
 function unitScale(){return Math.max(.38,Math.min(.72,(geometry().height-88)/7/68))}
 function path(t){t=((t%1)+1)%1;let a=geometry(),per=2*(a.width+a.height),q=t*per;if(q<a.width)return{x:a.left+q,y:a.top};q-=a.width;if(q<a.height)return{x:a.right,y:a.top+q};q-=a.height;if(q<a.width)return{x:a.right-q,y:a.bottom};q-=a.width;return{x:a.left,y:a.bottom-q}}
 const summonTypes=BASE_TYPES;
